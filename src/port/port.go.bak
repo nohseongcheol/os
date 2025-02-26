@@ -1,0 +1,60 @@
+package port
+
+/////////////////////////////////////////////////////////////////
+//
+// 		Port = 입출력단자				      //
+//
+/////////////////////////////////////////////////////////////////
+type T입출력단자 struct{
+	입출력단자번호 uint16
+}
+/////////////////////////////////////////////////////////////////
+type T바이트입출력단자 struct{
+	T입출력단자
+}
+func (자신 *T바이트입출력단자) M초기화(p_입출력단자번호 uint16){
+	자신.입출력단자번호= p_입출력단자번호
+}
+func (자신 *T바이트입출력단자) M쓰기(p_자료 uint8){
+	PortOutByte(자신.입출력단자번호, p_자료)
+}
+func (자신 *T바이트입출력단자) M읽기() uint8{
+	return PortInByte(자신.입출력단자번호)
+}
+
+/////////////////////////////////////////////////////////////////
+type T워드입출력단자 struct{
+	T입출력단자
+}
+func (자신 *T워드입출력단자) M초기화(p_입출력단자번호 uint16){
+        자신.입출력단자번호= p_입출력단자번호
+}
+func (자신 *T워드입출력단자) M쓰기(p_자료 uint16){
+        PortOutWord(자신.입출력단자번호, p_자료)
+}
+func (자신 *T워드입출력단자) M읽기() uint16{
+        return PortInWord(자신.입출력단자번호)
+}
+/////////////////////////////////////////////////////////////////
+type T두배워드입출력단자 struct{
+	T입출력단자
+}
+func (자신 *T두배워드입출력단자) M초기화(p_입출력단자번호 uint16){
+	자신.입출력단자번호 = p_입출력단자번호
+}
+func (자신 *T두배워드입출력단자) M쓰기(p_자료 uint32){
+	PortOutDword(자신.입출력단자번호, p_자료)
+}
+func (자신 *T두배워드입출력단자) M읽기() uint32{
+	return PortInDword(자신.입출력단자번호)
+}
+/////////////////////////////////////////////////////////////////
+func PortOutByte(portnumber uint16, data uint8)
+func PortInByte(portnumber uint16) uint8
+
+func PortOutWord(portnumber uint16, data uint16)
+func PortInWord(portnumber uint16) uint16
+
+func PortOutDword(portnumber uint16, data uint32)
+func PortInDword(portnumber uint16) uint32
+

@@ -1,0 +1,94 @@
+package list
+import . "unsafe"
+import mem "memorymanager"
+
+type Node struct{
+	pointer uintptr
+	prev *Node
+	next *Node
+}
+func (self *Node) New(pointer uintptr){
+	self.pointer = pointer
+}
+
+type LinkedList struct{
+	head *Node
+	tail *Node
+	Size int
+
+	mem *mem.TMemoryManager
+}
+func (self *LinkedList) Init(mem *mem.TMemoryManager){
+	self.head = nil
+	self.tail = nil
+	self.Size = 0
+
+	self.mem = mem
+}
+func (self *LinkedList) PushFront(pointer uintptr){
+	newNode := (*Node)(self.mem.Malloc(uint32(Sizeof(Node{}))))
+	newNode.pointer  = pointer
+	newNode.next = self.head
+	self.head = newNode
+	self.Size++ 
+
+	if self.head.next == nil {
+		self.tail = self.head
+	}
+	
+}
+func (self *LinkedList) PushBack(pointer uintptr){
+	newNode := (*Node)(self.mem.Malloc(uint32(Sizeof(Node{}))))
+	newNode.pointer = pointer
+	
+	if self.Size == 0{
+		self.PushFront(pointer)
+	}else {
+		self.tail.next = newNode
+		self.tail = newNode
+		self.Size++
+	}
+}
+func (self *LinkedList) PushAt(index int, pointer uintptr){
+	if index == 0 {
+		self.PushFront(pointer)
+	}else{
+		prevNode := self.GetNodeAt(index-1)
+		nextNode := prevNode.next	
+		newNode := (*Node)(self.mem.Malloc(uint32(Sizeof(Node{}))))
+		newNode.pointer = pointer
+
+		prevNode.next = newNode
+		newNode.next  = nextNode
+		
+		self.Size++
+
+		if newNode.next == nil {
+			self.tail = newNode
+		}
+	}
+}
+func (self *LinkedList) GetNodeAt(index int) *Node{
+	x := self.head
+	for i:=0; i<index; i++{
+		x = x.next
+	}
+	return x
+}
+func (self *LinkedList) GetAt(index int) Pointer{
+	pointer := self.GetNodeAt(index).pointer
+	return Pointer(pointer)
+}
+func (self *LinkedList) IndexOf(pointer uintptr) int{
+	n := self.head
+	i := 0
+	for ; i<self.Size; i++{
+		if n.pointer == pointer {
+			return i
+		}
+		n = n.next
+	}
+	return  i
+}
+func (self *LinkedList) Print(){
+}
