@@ -1,1 +1,1 @@
-# 누리운영체제(Noori Operating System)
+# 누리 운영체제(Noori Operating System)
