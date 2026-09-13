@@ -1,0 +1,16 @@
+# import config
+packagefile berkasSistem/fat=/home/user/worldos/나라/IDN/소스/build/b002/_pkg_.a
+packagefile berkasSistem/format_eksekusi_dan_penautan=/home/user/worldos/나라/IDN/소스/build/b022/_pkg_.a
+packagefile berkasSistem/msdospartition=/home/user/worldos/나라/IDN/소스/build/b003/_pkg_.a
+packagefile console=/home/user/.cache/go-build/dc/dc8d727caf667f05a042c358d491c4e2151e56ebc8da688b7d220bda4961ddf4-d
+packagefile driver/ata=/home/user/worldos/나라/IDN/소스/build/b006/_pkg_.a
+packagefile interupsi=/home/user/worldos/나라/IDN/소스/build/b024/_pkg_.a
+packagefile memorimanager=/home/user/worldos/나라/IDN/소스/build/b021/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/IDN/소스/build/b026/_pkg_.a
+packagefile paging=/home/user/worldos/나라/IDN/소스/build/b023/_pkg_.a
+packagefile port=/home/user/.cache/go-build/e2/e2fe9d245b21c94ed1c0d50b57a801185740fd1f993ce09da357c34f8f6e5b87-d
+packagefile tasking/scheduler=/home/user/worldos/나라/IDN/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/IDN/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/f9/f94952f2f967c01939d89f4ab959ce8e347eb3c17852a44f430e97b2aa88f48e-d
+packagefile virtualMemori=/home/user/worldos/나라/IDN/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/IDN/소스/build/b000/_pkg_.a

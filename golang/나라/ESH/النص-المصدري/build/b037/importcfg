@@ -1,0 +1,5 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/b2/b24af4ba9f87bdbd19de7105ce290776304c9956c703af9730efe25fade205c1-d
+packagefile طرفية=/home/user/.cache/go-build/c4/c4dd0db75909797951483c382f755959e47f8946949fc534ce1674f8877dbcc8-d
+packagefile مشغل/ata=/home/user/worldos/나라/ESH/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ESH/소스/build/b000/_pkg_.a

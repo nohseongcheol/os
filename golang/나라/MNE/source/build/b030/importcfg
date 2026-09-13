@@ -1,0 +1,3 @@
+# import config
+packagefile заједнички=/home/user/worldos/나라/MNE/소스/build/b031/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MNE/소스/build/b000/_pkg_.a

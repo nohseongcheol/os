@@ -1,0 +1,5 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/SVK/소스/build/b002/_pkg_.a
+packagefile konzola=/home/user/.cache/go-build/e7/e7f819f2be85dae5b0c7628e604e0ab7337737bf71944854db6368f51b4267d8-d
+packagefile util=/home/user/.cache/go-build/35/35419df00643ada6f74b0d1d99b917cd85a5edeac1212f07e0fff566a6b5c807-d
+packagefile runtime/cgo=/home/user/worldos/나라/SVK/소스/build/b000/_pkg_.a

@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/65/65c33919a0f1a91d54f1b49be1bca22f571db9fa0f1549701a0804a974e32d45-d
+packagefile driver/ata=/home/user/worldos/나라/SSD/소스/build/b004/_pkg_.a
+packagefile util=/home/user/.cache/go-build/1c/1c589ce9543f747b088ea3b0fd809e9e9b9677a56d1b9c9334ce9f693a20f535-d
+packagefile runtime/cgo=/home/user/worldos/나라/SSD/소스/build/b000/_pkg_.a

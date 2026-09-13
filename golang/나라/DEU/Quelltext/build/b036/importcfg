@@ -1,0 +1,16 @@
+# import config
+packagefile anschluss=/home/user/worldos/나라/DEU/Quelltext/build/b023/_pkg_.a
+packagefile aufgabenverwaltung/ausführungsfaden=/home/user/worldos/나라/DEU/Quelltext/build/b002/_pkg_.a
+packagefile aufgabenverwaltung/planer=/home/user/worldos/나라/DEU/Quelltext/build/b022/_pkg_.a
+packagefile dateiSystem/ausführbares_und_bindbares_Format=/home/user/worldos/나라/DEU/Quelltext/build/b029/_pkg_.a
+packagefile dateiSystem/fat=/home/user/worldos/나라/DEU/Quelltext/build/b031/_pkg_.a
+packagefile dateiSystem/msdosPartition=/home/user/worldos/나라/DEU/Quelltext/build/b032/_pkg_.a
+packagefile hilfswerkzeug=/home/user/worldos/나라/DEU/Quelltext/build/b028/_pkg_.a
+packagefile konsole=/home/user/worldos/나라/DEU/Quelltext/build/b004/_pkg_.a
+packagefile mehrfachAufgabenverwaltung=/home/user/worldos/나라/DEU/Quelltext/build/b018/_pkg_.a
+packagefile seitenverwaltung=/home/user/worldos/나라/DEU/Quelltext/build/b030/_pkg_.a
+packagefile speicherVerwalter=/home/user/worldos/나라/DEU/Quelltext/build/b019/_pkg_.a
+packagefile treiber/ata=/home/user/worldos/나라/DEU/Quelltext/build/b033/_pkg_.a
+packagefile unterbrechung=/home/user/worldos/나라/DEU/Quelltext/build/b026/_pkg_.a
+packagefile virtuellSpeicher=/home/user/worldos/나라/DEU/Quelltext/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/DEU/Quelltext/build/b000/_pkg_.a

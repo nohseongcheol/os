@@ -1,0 +1,16 @@
+# import config
+packagefile driver/ата=/home/user/worldos/나라/UKR/소스/build/b003/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/UKR/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/UKR/소스/build/b026/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/UKR/소스/build/b028/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/UKR/소스/build/b029/_pkg_.a
+packagefile util=/home/user/.cache/go-build/33/33d49b8d4fc66c6c8a118800ac1cb4cff97db1509ea745baf2cf69f1489b2e64-d
+packagefile віртуальнийПамять=/home/user/worldos/나라/UKR/소스/build/b030/_pkg_.a
+packagefile консоль=/home/user/.cache/go-build/71/7146bfa0aa579cc6a3e2d2b01c1abff8d6769f445a2ed5df0a368ff4fe1615e8-d
+packagefile памятьmanager=/home/user/worldos/나라/UKR/소스/build/b023/_pkg_.a
+packagefile переривання=/home/user/worldos/나라/UKR/소스/build/b008/_pkg_.a
+packagefile порт=/home/user/.cache/go-build/3b/3ba033a376d5fad6223199c536535bf08ad82190093efb3aa8335cb083a03dc7-d
+packagefile файлСистема/fat=/home/user/worldos/나라/UKR/소스/build/b034/_pkg_.a
+packagefile файлСистема/msdospartition=/home/user/worldos/나라/UKR/소스/build/b035/_pkg_.a
+packagefile файлСистема/виконуваний_і_компонований_формат=/home/user/worldos/나라/UKR/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/UKR/소스/build/b000/_pkg_.a

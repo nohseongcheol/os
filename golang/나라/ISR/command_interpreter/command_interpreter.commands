@@ -1,0 +1,5 @@
+# WorldOS ISR UTF-8 command file
+echo "WorldOS ISR"
+help
+pwd
+pid

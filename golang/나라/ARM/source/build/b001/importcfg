@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/db/db2865fcde0d3ae055d8515e686d058a215b0ad10fe51a6cbb285b8b6c49053f-d
+packagefile driver/ata=/home/user/worldos/나라/ARM/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/4b/4b72d49584e6c04c95debed1e8139f0c4a4ec90fe6755b67f235cc5e5edf8f24-d
+packagefile driver/մկնիկ=/home/user/worldos/나라/ARM/소스/build/b007/_pkg_.a
+packagefile driver/ստեղնաշար=/home/user/worldos/나라/ARM/소스/build/b024/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/3e/3e62551608b52a74c18464f4a0e8864e3a2cc04fa40178805d01a7efcfa2a856-d
+packagefile multitasking=/home/user/worldos/나라/ARM/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/ARM/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/ARM/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile tasking/scheduler=/home/user/worldos/나라/ARM/소스/build/b028/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ARM/소스/build/b029/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/ARM/소스/build/b032/_pkg_.a
+packagefile tasking/գործընթաց=/home/user/worldos/나라/ARM/소스/build/b038/_pkg_.a
+packagefile util=/home/user/.cache/go-build/18/183ad3821ff38d0a9a37ea70fbcc0539b2e48ec901cec06c3482c0791ec49ef7-d
+packagefile virtualՀիշողություն=/home/user/worldos/나라/ARM/소스/build/b030/_pkg_.a
+packagefile ընդհատել=/home/user/worldos/나라/ARM/소스/build/b008/_pkg_.a
+packagefile համակարգcall=/home/user/worldos/나라/ARM/소스/build/b025/_pkg_.a
+packagefile հիշողությունmanager=/home/user/worldos/나라/ARM/소스/build/b023/_pkg_.a
+packagefile ֆայլՀամակարգ/elf=/home/user/worldos/나라/ARM/소스/build/b034/_pkg_.a
+packagefile ֆայլՀամակարգ/fat=/home/user/worldos/나라/ARM/소스/build/b035/_pkg_.a
+packagefile ֆայլՀամակարգ/msdospartition=/home/user/worldos/나라/ARM/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ARM/소스/build/b000/_pkg_.a

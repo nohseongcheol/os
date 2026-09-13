@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/doi_Deva",
+  "language": "doi_Deva",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

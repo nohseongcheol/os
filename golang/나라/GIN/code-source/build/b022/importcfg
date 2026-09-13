@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/6a/6af21dd566710c5048d6b578d35d2fc995f718830d87300358a06c47daa258f4-d
+packagefile mémoiregestionnaire=/home/user/worldos/나라/GIN/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/GIN/소스/build/b023/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/10/104aadc0d282fbe24ce389c5180cd239d91b100882428a91922e9ca74d378651-d
+packagefile runtime/cgo=/home/user/worldos/나라/GIN/소스/build/b000/_pkg_.a

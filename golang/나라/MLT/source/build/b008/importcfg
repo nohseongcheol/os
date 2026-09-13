@@ -1,0 +1,7 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ff/ff1d5060c874e124b68c3c0ecffe993cfd604c62ccdb9b7788572a856b67ba3c-d
+packagefile gdt=/home/user/.cache/go-build/c7/c703da5faff4aac7b6cfde767e192717b38450d07a045dfcaa3156c6cb4cac45-d
+packagefile multitasking=/home/user/worldos/나라/MLT/소스/build/b022/_pkg_.a
+packagefile port=/home/user/.cache/go-build/79/79cc11110e298a0af2df73fd1c7761dbfad449c3d3551a5cf88bcd55c2d102b3-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime/cgo=/home/user/worldos/나라/MLT/소스/build/b000/_pkg_.a

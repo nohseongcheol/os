@@ -1,0 +1,16 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/6a/6a71d66fff9e7793f8ea56ac4199ef5831b79e1b3aaeed10cf33779646e0fb40-d
+packagefile إدارةصفحات=/home/user/worldos/나라/COM/소스/build/b024/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/COM/소스/build/b026/_pkg_.a
+packagefile إدارةمهام/مجدول=/home/user/worldos/나라/COM/소스/build/b031/_pkg_.a
+packagefile افتراضيذاكرة=/home/user/worldos/나라/COM/소스/build/b027/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/COM/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/4b/4b1163b2703c608cf80353cce51da35379fb183f9635ccf508869be7c53950cd-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/COM/소스/build/b020/_pkg_.a
+packagefile مشغل/ata=/home/user/worldos/나라/COM/소스/build/b032/_pkg_.a
+packagefile مقاطعة=/home/user/worldos/나라/COM/소스/build/b019/_pkg_.a
+packagefile ملفنظام/fat=/home/user/worldos/나라/COM/소스/build/b036/_pkg_.a
+packagefile ملفنظام/msdosتجزئة=/home/user/worldos/나라/COM/소스/build/b037/_pkg_.a
+packagefile ملفنظام/صيغة_التنفيذ_والربط=/home/user/worldos/나라/COM/소스/build/b038/_pkg_.a
+packagefile منفذ=/home/user/.cache/go-build/15/154ba773dfb5dc6761da29bb66d3cb4a8465d376488c73146421e6c86e431ecf-d
+packagefile runtime/cgo=/home/user/worldos/나라/COM/소스/build/b000/_pkg_.a

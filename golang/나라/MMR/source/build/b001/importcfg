@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/d6/d698105bf2a1c1f572218eb004a82dd6175020acdd8709c1c69aecc7c481039c-d
+packagefile driver/ata=/home/user/worldos/나라/MMR/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/b8/b866b8cc8822bc2de0653483118edf4850ffe6453ffae8af0b8ec462627670b0-d
+packagefile driver/keyboard=/home/user/worldos/나라/MMR/소스/build/b007/_pkg_.a
+packagefile driver/mouse=/home/user/worldos/나라/MMR/소스/build/b036/_pkg_.a
+packagefile filesystem/elf=/home/user/worldos/나라/MMR/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/MMR/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/MMR/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/1a/1a1fd721536a4ba6c51b3edb3e93d6d8b0f7c151ba85504b5899bd08c08a9421-d
+packagefile interrupt=/home/user/worldos/나라/MMR/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/MMR/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/MMR/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/MMR/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/MMR/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/MMR/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/MMR/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/MMR/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/MMR/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/MMR/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/6b/6bf6af5a2a2eadaa8c075f572a4ee06fff25049b7570d5e3c4fe86f5ef95b6d8-d
+packagefile virtualmemory=/home/user/worldos/나라/MMR/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MMR/소스/build/b000/_pkg_.a

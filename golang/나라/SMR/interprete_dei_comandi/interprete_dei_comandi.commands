@@ -1,0 +1,5 @@
+# WorldOS SMR UTF-8 command file
+mostra_argomenti "WorldOS SMR"
+mostra_aiuto
+mostra_cartella_corrente
+mostra_identificatori_dei_processi

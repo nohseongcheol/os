@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/bf/bf86ad633c85bdeaca4ec93ed1b9bd51cac7e82defafea5247161b3938f999d1-d
+packagefile fichiersystème/fat=/home/user/worldos/나라/REU/소스/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/REU/소스/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/REU/소스/build/b005/_pkg_.a
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/REU/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/REU/소스/build/b030/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/REU/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/REU/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/REU/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/REU/소스/build/b023/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/REU/소스/build/b006/_pkg_.a
+packagefile port=/home/user/.cache/go-build/ea/ea64e2789ca71c1eb99bde314c20d699e366a30c8765a6ed29168df637467159-d
+packagefile utilitaire=/home/user/.cache/go-build/bc/bc5929eae74d5c4d1baac0e0df6d3cc2e901274088799b6f1d839fa9bfac440f-d
+packagefile virtuelmémoire=/home/user/worldos/나라/REU/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/REU/소스/build/b000/_pkg_.a

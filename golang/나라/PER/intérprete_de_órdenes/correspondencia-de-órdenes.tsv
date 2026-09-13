@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	mostrar_ayuda
+echo	mostrar_argumentos
+pwd	mostrar_directorio_actual
+cat	mostrar_contenido_del_archivo
+stat	mostrar_información_del_archivo
+pid	mostrar_identificadores_de_procesos
+uname	mostrar_identidad_del_sistema
+run	ejecutar_programa
+udp	probar_retorno_del_datagrama
+source	interpretar_archivo_de_órdenes
+cd	cambiar_directorio
+exit	salir

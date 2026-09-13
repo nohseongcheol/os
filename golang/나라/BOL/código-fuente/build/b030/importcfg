@@ -1,0 +1,16 @@
+# import config
+packagefile archivosistema/fat=/home/user/worldos/나라/BOL/소스/build/b002/_pkg_.a
+packagefile archivosistema/formato_ejecutable_y_enlazable=/home/user/worldos/나라/BOL/소스/build/b022/_pkg_.a
+packagefile archivosistema/msdospartición=/home/user/worldos/나라/BOL/소스/build/b003/_pkg_.a
+packagefile consola=/home/user/.cache/go-build/3e/3e3e0b12d979f0666e7e32820bcdcfe1d404a2194a80bc8a380203882d9255b6-d
+packagefile controlador/ata=/home/user/worldos/나라/BOL/소스/build/b006/_pkg_.a
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/BOL/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/planificador=/home/user/worldos/나라/BOL/소스/build/b034/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/BOL/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/BOL/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/BOL/소스/build/b026/_pkg_.a
+packagefile paginación=/home/user/worldos/나라/BOL/소스/build/b023/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/29/29598c81daa4a210ac9d4878f404d9cd82f46117abec14101b9936ce87f6cc2f-d
+packagefile utilidad=/home/user/.cache/go-build/e2/e2ffe6c1e0f15db642c76f62a7230f5f8be238390c1e27b3b3f82bdd2d630de1-d
+packagefile virtualmemoria=/home/user/worldos/나라/BOL/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BOL/소스/build/b000/_pkg_.a

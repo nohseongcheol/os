@@ -1,0 +1,16 @@
+# import config
+packagefile avbrudd=/home/user/worldos/나라/SJM/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/ca/ca7fe3757f81d4efe4e5a7b8cada60baf721071ad2a5675499db2d79c2560298-d
+packagefile driver/ata=/home/user/worldos/나라/SJM/소스/build/b021/_pkg_.a
+packagefile filsystem/elf=/home/user/worldos/나라/SJM/소스/build/b026/_pkg_.a
+packagefile filsystem/fat=/home/user/worldos/나라/SJM/소스/build/b029/_pkg_.a
+packagefile filsystem/msdospartition=/home/user/worldos/나라/SJM/소스/build/b030/_pkg_.a
+packagefile minnemanager=/home/user/worldos/나라/SJM/소스/build/b019/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/SJM/소스/build/b018/_pkg_.a
+packagefile paging=/home/user/worldos/나라/SJM/소스/build/b027/_pkg_.a
+packagefile port=/home/user/.cache/go-build/c8/c8f2be678b9fec57207093b23bf637a1dba158940b1090f9ec946bdf05228b35-d
+packagefile tasking/scheduler=/home/user/worldos/나라/SJM/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/SJM/소스/build/b032/_pkg_.a
+packagefile util=/home/user/.cache/go-build/a6/a643c877426cff7c7c61403a2b7cd5516090b5d19181c32faa00ffb86e63c5b8-d
+packagefile virtuellMinne=/home/user/worldos/나라/SJM/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SJM/소스/build/b000/_pkg_.a

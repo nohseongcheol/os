@@ -1,0 +1,667 @@
+package Interrupt
+
+import . "unsafe"
+import . "reflect"
+
+import . "port"
+import . "gdt"
+//import . "taskmanager"
+import . "console"
+//import . "keyboard"
+
+///////////////////////////////////////////////////////////////////////////////
+//func 인터럽트요청처리(intnum uint8)
+func 인터럽트무시하기()
+
+func 인터럽트예외처리기()
+func 인터럽트예외처리기0x00()
+func 인터럽트예외처리기0x01()
+func 인터럽트예외처리기0x02()
+func 인터럽트예외처리기0x03()
+func 인터럽트예외처리기0x04()
+func 인터럽트예외처리기0x05()
+func 인터럽트예외처리기0x06()
+func 인터럽트예외처리기0x07()
+func 인터럽트예외처리기0x08()
+func 인터럽트예외처리기0x09()
+func 인터럽트예외처리기0x0A()
+func 인터럽트예외처리기0x0B()
+func 인터럽트예외처리기0x0C()
+func 인터럽트예외처리기0x0D()
+func 인터럽트예외처리기0x0E()
+func 인터럽트예외처리기0x0F()
+
+func 인터럽트요청처리0x00()
+func 인터럽트요청처리0x01()
+func 인터럽트요청처리0x02()
+func 인터럽트요청처리0x03()
+func 인터럽트요청처리0x04()
+func 인터럽트요청처리0x05()
+func 인터럽트요청처리0x06()
+func 인터럽트요청처리0x07()
+func 인터럽트요청처리0x08()
+func 인터럽트요청처리0x09()
+func 인터럽트요청처리0x0A()
+func 인터럽트요청처리0x0B()
+func 인터럽트요청처리0x0C()
+func 인터럽트요청처리0x0D()
+func 인터럽트요청처리0x0E()
+func 인터럽트요청처리0x0F()
+
+func TestPrint(pos uint8, data uint8)
+
+///////////////////////////////////////////////////////////////////////////////
+type T인터럽트처리기 struct{
+	InterruptNumber uint8
+	InterruptManager uintptr 
+	//HandleInterrupt(uint32) uint32	
+}
+type T인터럽트처리기Interface interface {
+	HandleInterrupt(uint32) uint32
+}
+func NewInterruptHandler(InterruptManager uintptr, InterruptNumber uint8) *T인터럽트처리기{
+	인터럽트처리기 := new(T인터럽트처리기)
+	인터럽트처리기.InterruptNumber = InterruptNumber	
+	인터럽트처리기.InterruptManager = InterruptManager
+	return 인터럽트처리기
+	
+}
+var handlers [256] uintptr
+
+var fn [256]func(*T인터럽트처리기)
+//var addr uintptr
+var count0 uint8 = 0
+func (self *T인터럽트처리기) Init(InterruptNumber uint8, InterruptManager uintptr, func_addr uintptr){
+
+	//fn := ValueOf(HandleInterrupt1)
+	//fn[InterruptNumber] = (*T인터럽트처리기).HandleInterrupt
+	
+	//addr := uintptr(Pointer(&fn[InterruptNumber]))
+
+	handlers[InterruptNumber] = func_addr
+
+	//addr = uintptr(ValueOf(HandleInterrupt1).Pointer())
+	//handlers[InterruptNumber] = ValueOf(HandleInterrupt1).Pointer()
+	//myfunc := ((*Value)(Pointer(Handlers[InterruptNumber])))
+	//myfunc.MethodByName("")
+	//fn.Call(nil)
+	self.InterruptNumber = InterruptNumber 
+	self.InterruptManager = InterruptManager
+
+	count0++
+	buf := [] byte("InterruptHandler_Init()")
+	buf[4] = '0' + byte(count0)
+	콘솔 := new(T콘솔)
+	콘솔.M출력(buf)
+}
+func (self *T인터럽트처리기) SetHandleInterruptFuction(addr uintptr){
+	handlers[self.InterruptNumber] = addr 
+}
+func (self *T인터럽트처리기) Destroy(){
+	self_uintptr := uintptr(Pointer(self))
+	InterruptManager := (*T인터럽트관리자)(Pointer(self.InterruptManager))
+	if self_uintptr == InterruptManager.GetHandler(self.InterruptNumber) {
+		InterruptManager.SetHandler(0, self.InterruptNumber)
+	}
+
+}
+func (self *T인터럽트처리기) SetInterruptManager(InterruptManager uintptr){
+}
+func (self *T인터럽트처리기) SetInterruptNumber(InterruptNumber uint8){
+	self.InterruptNumber = InterruptNumber
+}
+func (self *T인터럽트처리기) HandleInterrupt(esp uint32) uint32{
+        buf := []byte("\n\n\n\n\n   T인터럽트처리기")
+        콘솔 := new(T콘솔)
+	콘솔.M출력(buf)
+	return esp
+}
+func HandleInterrupt1(){
+        buf := []byte("\n\n\n\n   T인터럽트처리기")
+        콘솔 := new(T콘솔)
+	콘솔.M출력(buf)
+}
+///////////////////////////////////////////////////////////////////////////////
+type TGateDescriptor struct{
+	gateData [8] uint8
+	/*
+	handlerAddressLowBits uint16 //2 [0]
+	gdt_codeSegmentSelector uint16 //2 [2]
+	reserved uint8 //1 [4]
+	access uint8 //1 [5]
+	handlerAddressHighBits uint16 //2 [6]
+	*/
+	
+}
+type TInterruptDescriptorTablePointer struct{
+	//idtPointer [6] uint8
+	//size uint16 //2
+	//base uint32 //4
+}
+//var interruptDescriptorTable [256] TGateDescriptor
+var idtData [256*8] uint8
+//var idtPointer[6] uint8
+var ActiveInterruptManager uintptr = 0
+
+///////////////////////////////////////////////////////////////////////////////
+type T인터럽트관리자 struct {
+	handlers [256] uintptr
+	//ihanders [256] T인터럽트처리기Interface
+	//ActiveInterruptManager *T인터럽트관리자
+	
+	//hardwareInterruptOffset uint16
+	/*
+	PICMasterCommandPort TPort8Bit
+	PICMasterDataPort TPort8Bit
+	PICSlaveCommandPort TPort8Bit
+	PICSlaveDataPort TPort8Bit
+	*/
+
+	/*	
+	PICMasterCommandPort uint16
+	PICMasterDataPort uint16
+	PICSlaveCommandPort uint16
+	PICSlaveDataPort uint16 */
+
+	//taskManager *TTaskManager
+
+}
+var PICMasterCommandPort uint16 = 0x20
+var PICMasterDataPort uint16 = 0x21
+var PICSlaveCommandPort uint16 = 0xA0
+var PICSlaveDataPort uint16 = 0xA1
+func (self *T인터럽트관리자) Init(globalDescriptorTable *T공용서술자테이블){
+	
+	//globalDescriptorTable := (*T공용서술자테이블)(Pointer(gdt))
+
+
+	/*
+	self.PICMasterCommandPort = TPort8Bit{}
+	self.PICMasterDataPort = TPort8Bit{}
+	self.PICSlaveCommandPort = TPort8Bit{}
+	self.PICSlaveDataPort = TPort8Bit{}
+
+	self.PICMasterCommandPort.Init(0x20)
+	self.PICMasterDataPort.Init(0x21)
+	self.PICSlaveCommandPort.Init(0xA0)
+	self.PICSlaveDataPort.Init(0xA1)
+	*/
+
+	//var interruptOffset uint8 = 0x20
+
+	self.PICMasterCommandPort = 0x20
+	self.PICMasterDataPort = 0x21
+	self.PICSlaveCommandPort = 0xA0
+	self.PICSlaveDataPort = 0xA1
+
+	
+	//self.taskManager = taskManager
+
+	
+	codeSegment := globalDescriptorTable.CodeSegmentSelector()
+	//codeSegment = 0
+	//codeSegment = GetCodeSegmentSelect() //globalDescriptorTable.CodeSegmentSelector() 
+	//TestPrint(uint8(codeSegment))
+
+	for i:=0; i<(256*8); i++{
+		idtData[i] = 0
+	}
+	var addr uint32
+	var IDT_INTERRUPT_GATE uint8 = 0xE // interrupt 32bit
+	//var IDT_INTERRUPT_GATE uint8 = 0xF   // trap 32bit
+	//fn := 인터럽트무시하기
+	//addr = uint32(uintptr(Pointer(&fn)))
+	//addr = *(*uint32)(Pointer(&fn))
+	//addr = 0x00145ce0
+	addr = uint32(ValueOf(인터럽트무시하기).Pointer())
+	for i:=0; i<256; i++ {
+		//fn := 인터럽트요청처리0x01
+		handlers[i] = 0
+		//Handlers[i] = 0
+		//addr = uint32(ValueOf(인터럽트요청처리0x0F).Pointer())
+		addr = uint32(ValueOf(인터럽트무시하기).Pointer())
+		self.SetInterruptDescriptorTableEntry(i, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+	} 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x00).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x00, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x01).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x01, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+	addr = uint32(ValueOf(인터럽트예외처리기0x02).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x02, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x03).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x03, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x04).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x04, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x05).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x05, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x06).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x06, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x07).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x07, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x08).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x08, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x09).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x09, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x0A).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x0A, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x0B).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x0B, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+	addr = uint32(ValueOf(인터럽트예외처리기0x0C).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x0C, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+	addr = uint32(ValueOf(인터럽트예외처리기0x0D).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x0D, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x0E).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x0E, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트예외처리기0x0F).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x0F, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+	///////////////////////////////////////////////////////////////////////////
+
+	addr = uint32(ValueOf(인터럽트요청처리0x00).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x20, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	
+	addr = uint32(ValueOf(인터럽트요청처리0x01).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x21, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+	addr = uint32(ValueOf(인터럽트요청처리0x02).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x22, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x03).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x23, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x04).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x24, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x05).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x25, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x06).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x26, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x07).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x27, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x08).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x28, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x09).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x29, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x0A).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x2A, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x0B).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x2B, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+	addr = uint32(ValueOf(인터럽트요청처리0x0C).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x2C, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+	addr = uint32(ValueOf(인터럽트요청처리0x0D).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x2D, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x0E).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x2E, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	addr = uint32(ValueOf(인터럽트요청처리0x0F).Pointer())
+	self.SetInterruptDescriptorTableEntry(0x2F, codeSegment, addr, 0, IDT_INTERRUPT_GATE) 
+
+	/*
+	fn3 := 인터럽트요청처리0x0C
+	self.SetInterruptDescriptorTableEntry(0x2C, codeSegment, uintptr(Pointer(&fn3)), 0, IDT_INTERRUPT_GATE) 
+	*/
+
+
+	/*
+	self.PICMasterCommandPort.Write(0x11)
+	self.PICSlaveCommandPort.Write(0x11)
+	
+	self.PICMasterDataPort.Write(0x20)
+	self.PICSlaveDataPort.Write(0x28) // 40
+
+	//self.PICSlaveDataPort.Write(40)
+
+	self.PICMasterDataPort.Write(0x04)
+	self.PICSlaveDataPort.Write(0x02)
+
+	
+	self.PICMasterDataPort.Write(0x01)
+	self.PICSlaveDataPort.Write(0x01)
+
+
+	self.PICMasterDataPort.Write(0x00)
+	self.PICSlaveDataPort.Write(0x00) 
+
+	*/
+
+	PortOutByte(self.PICMasterCommandPort, 0x11)
+	PortOutByte(self.PICSlaveCommandPort, 0x11)
+	
+	PortOutByte(self.PICMasterDataPort, 0x20)
+	PortOutByte(self.PICSlaveDataPort, 0x28)
+
+	PortOutByte(self.PICMasterDataPort, 0x04)
+	PortOutByte(self.PICSlaveDataPort, 0x02)
+
+	
+	PortOutByte(self.PICMasterDataPort, 0x01)
+	PortOutByte(self.PICSlaveDataPort, 0x01)
+
+
+
+	//PortOutByte(self.PICMasterDataPort, 0x00)
+	//PortOutByte(self.PICSlaveDataPort, 0x00)
+
+	PortOutByte(self.PICMasterDataPort, 0xFF)
+	PortOutByte(self.PICSlaveDataPort, 0xFB)
+
+	//PortOutByte(self.PICMasterDataPort, 0xF1)
+	PortOutByte(self.PICMasterDataPort, 0xF9) // only keyboard + slave pic
+	//PortOutByte(self.PICMasterDataPort, 0xFD) // only keyboard
+	//PortOutByte(self.PICMasterDataPort, 0xFB) // only slave pic
+	//PortOutByte(self.PICMasterDataPort, 0xFB)
+	//--PortOutByte(self.PICMasterDataPort, 0x00) // all master pic
+
+	
+	PortOutByte(self.PICSlaveDataPort, 0xEF) // only mouse 
+	//PortOutByte(self.PICSlaveDataPort, 0xFF)
+	//--PortOutByte(self.PICSlaveDataPort, 0x00) // all slave pic
+
+
+	/*	
+	idt := &TInterruptDescriptorTablePointer{}
+	size := (*uint16)(Pointer(&idt.idtPointer[0]))
+	(*size) = (uint16)(256 * 8)
+	
+	base := (*uint32)(Pointer(&idt.idtPointer[2]))
+	(*base)= uint32(uintptr(Pointer(&idtData[0])))
+	//*base = tmp
+
+	//u := uint64(4)
+	//TestPrint(*base)
+	*/
+
+	idtPointer := [6]uint8{0, 0, 0, 0, 0, 0}
+	size := (*uint16)(Pointer(&idtPointer[0]))
+	(*size) = (uint16)(Sizeof(idtData) -1)
+	
+	base := (*uint32)(Pointer(&idtPointer[2]))
+	(*base) = uint32(uintptr(Pointer(&idtData)))
+	//*base = tmp
+	
+	LIDT(uintptr(Pointer(&idtPointer)))
+	//LIDTActive(uintptr(Pointer(&idt.idtPointer[0]))) 
+	//TestPrint(idtPointer[0])
+	//TestPrint(globalDescriptorTable.Test)
+	//LIDTActive(0x0A)
+	/*
+	handlers[0] = InterruptHandler
+	(*T인터럽트처리기)(Pointer(InterruptHandler)).SetInterruptNumber(70) */
+}
+func LIDT(lidtaddr uintptr)
+
+func (self *T인터럽트관리자) SetInterruptDescriptorTableEntry(interrupt int, 
+							codeSegment uint16,
+							handler uint32,
+							DescriptorPrivilegeLevel uint8,
+							DescriptorType uint8){ 
+
+	/*
+	index := interrupt*8
+
+	handlerAddressLowBits := uint16(uint32(handler) & 0xFFFF)
+	idtData[index+0] = uint8(handlerAddressLowBits & 0xFF)
+	idtData[index+1] = uint8((handlerAddressLowBits >> 8) & 0xFF)
+
+	//gdt_CodeSegmentSelector	
+	idtData[index+2] = uint8(codeSegment & 0xFF)
+	idtData[index+3] = uint8((codeSegment >> 8 ) & 0xFF)
+
+	//reserved
+	idtData[index+4] = 0
+
+	// access	
+	var IDT_DESC_PRESENT uint8 = 0x80
+	idtData[index+5] = (IDT_DESC_PRESENT | DescriptorType | ((DescriptorPrivilegeLevel & 3) << 5))
+
+	handlerAddressHighBits := uint16((uint32(handler) >> 16) & 0xFFFF)
+	idtData[index+6] = uint8(handlerAddressHighBits &  0xFF)
+	idtData[index+7] = uint8((handlerAddressHighBits >> 8) &  0xFF)
+	*/
+	handlerAddressLowBits := (*uint16)(Pointer(&idtData[interrupt*8+0]))
+	//tmp1 := uint16(uint32(handler) & 0xFFFF)
+	//(*handlerAddressLowBits) = tmp1
+	(*handlerAddressLowBits) = uint16(handler & 0xFFFF)
+
+	gdt_codeSegmentSelector := (*uint16)(Pointer(&idtData[interrupt*8+2]))
+	(*gdt_codeSegmentSelector) = codeSegment
+
+	reserved := (*uint8)(Pointer(&idtData[interrupt*8+4]))
+	(*reserved) = 0
+
+	var IDT_DESC_PRESENT uint8 = 0x80
+	access := (*uint8)(Pointer(&idtData[interrupt*8+5]))
+	//tmp2 := (IDT_DESC_PRESENT | DescriptorType | ((DescriptorPrivilegeLevel & 3) << 5))
+	//(*access) = tmp2
+	(*access) = (IDT_DESC_PRESENT | DescriptorType | ((DescriptorPrivilegeLevel & 3) << 5)) 
+
+	handlerAddressHighBits := (*uint16)(Pointer(&idtData[interrupt*8+6]))
+	//tmp3 := uint16((handler >> 16) & 0xFFFF)
+	//(*handlerAddressHighBits) = tmp3
+	(*handlerAddressHighBits) = uint16((handler >> 16) & 0xFFFF)
+
+	/*
+	handlerAddressLowBits := (*uint16)(Pointer(&interruptDescriptorTable[interrupt].gateData[0]))
+	*handlerAddressLowBits = uint16(uint32(handler) & 0xFFFF)
+
+	gdt_codeSegmentSelector := (*uint16)(Pointer(&interruptDescriptorTable[interrupt].gateData[2]))
+	*gdt_codeSegmentSelector = codeSegment
+
+	reserved := (*uint8)(Pointer(&interruptDescriptorTable[interrupt].gateData[4]))
+	*reserved = 0
+
+	var IDT_DESC_PRESENT uint8
+	IDT_DESC_PRESENT = 0x80
+	access := (*uint8)(Pointer(&interruptDescriptorTable[interrupt].gateData[5]))
+	*access	= (IDT_DESC_PRESENT | ((DescriptorPrivilegeLevel & 3) << 5) | DescriptorType)
+
+	handlerAddressHighBits := (*uint16)(Pointer(&interruptDescriptorTable[interrupt].gateData[6]))
+	*handlerAddressHighBits = uint16((uint32(handler) >> 16) & 0xFFFF)
+	*/
+
+
+	/*	
+	interruptDescriptorTable[interrupt].handlerAddressLowBits = uint16(uint32(handler) & 0xFFFF)
+	interruptDescriptorTable[interrupt].handlerAddressHighBits = uint16((uint32(handler) >> 16) & 0xFFFF)
+	interruptDescriptorTable[interrupt].gdt_codeSegmentSelector = codeSegment
+	var IDT_DESC_PRESENT uint8
+	IDT_DESC_PRESENT = 0x80
+	interruptDescriptorTable[interrupt].access = IDT_DESC_PRESENT | ((DescriptorPrivilegeLevel & 3) << 5) | DescriptorType
+	interruptDescriptorTable[interrupt].reserved = 0
+	*/
+	/*
+	handler_low := *(*uint16)(Pointer(&idtData[interrupt*8+0]))
+	//handler_high := uint16((uint32(handler) >> 16) & 0xFFFF)
+	handler_high := *(*uint16)(Pointer(&idtData[interrupt*8+6]))
+
+	handler32 := uint32(((uint32(handler_high) << 16) & 0xFFFF0000) | uint32(handler_low))
+
+	myfunction := *(*func())(Pointer(uintptr(handler32)))
+	myfunction()  */
+
+	/*
+	if interrupt > 0 {
+	//handler_low := uint16(uint32(handler) & 0xFFFF)
+	handler_low := *(*uint16)(Pointer(&interruptDescriptorTable[255].gateData[0]))
+	//handler_high := uint16((uint32(handler) >> 16) & 0xFFFF)
+	handler_high := *(*uint16)(Pointer(&interruptDescriptorTable[255].gateData[6]))
+
+	handler32 := uint32(((uint32(handler_high) << 16) & 0xFFFF0000) | uint32(handler_low))
+
+	myfunction := *(*func())(Pointer(uintptr(handler32)))
+	myfunction() 
+	}
+	*/
+}
+
+func (self *T인터럽트관리자) SetHandler(handler uintptr, InterruptNumber uint8){
+	handlers[InterruptNumber] = handler
+}
+func (self *T인터럽트관리자) GetHandler(InterruptNumber uint8) uintptr{
+	return handlers[InterruptNumber]
+}
+
+
+var count1 uint8 = 0
+var countN0x20 uint8 = 0
+var except_count uint8 = 0
+func (self *T인터럽트관리자) DoHandleInterrupt(interrupt uint8, esp uint32) uint32{
+	count1++
+        buf := []byte("\n\nDoHandleInterrupt")
+	buf[3] = '0' + byte(count1)
+
+        콘솔 := new(T콘솔)
+	콘솔.M출력(buf)
+
+	if handlers[interrupt] != 0 {
+	
+
+		//esp = (*(*T인터럽트처리기Interface)(Pointer(handlers[interrupt]))).HandleInterrupt(esp)
+		//esp = (*(*T인터럽트처리기)(Pointer(handlers[interrupt]))).HandleInterrupt(esp)
+		myfunction := (*(*func())(Pointer(handlers[interrupt])))
+		myfunction()
+
+        	buf := []byte("\n\n\nhandlers[interrupt] != 0")
+        	콘솔 := new(T콘솔)
+		콘솔.M출력(buf)
+
+		//esp = (*(*func())(Pointer(handlers[interrupt])))(esp)
+		//esp = ((*TKeyboardDriver)(Pointer(handlers[interrupt]))).HandleInterrupt(esp)
+	} else if interrupt != 0x20 { // is not timer interrupt 
+		if interrupt >= 0x21 {
+        	buf := []byte("\n\n\n                      interrupt != 0x20")
+		buf[20] = '0' + countN0x20;
+		countN0x20++
+        	콘솔 := new(T콘솔)
+		콘솔.M출력(buf)
+		}
+		//콘솔.MHex출력(interrupt)
+		
+	}
+	if interrupt <= 0x1F{
+		except_count++
+        	buf := []byte("\n\n\n\n\n\n\n\n interrupt  exception")
+		buf[11] = except_count	
+        	콘솔 := new(T콘솔)
+		콘솔.M출력(buf)
+	}	
+	if 0x20 <= interrupt && interrupt < 0x30 {
+		//self.PICMasterCommandPort.Write(0x20)
+        	PortOutByte(self.PICMasterCommandPort, 0x20)
+        	//PortOutByte(0x20, 0x20)
+
+        	buf := []byte("\n\n\n\n 0x20 <= interrupt < 0x30")
+
+		if 0x28 <= interrupt {
+			//self.PICSlaveCommandPort.Write(0x20)
+        		PortOutByte(self.PICSlaveCommandPort, 0x20)
+        		//PortOutByte(0xA0, 0x20)
+        		buf = []byte("\n\n\n\n 0x28 <= interrupt < 0x30")
+		}
+        	콘솔 := new(T콘솔)
+		콘솔.M출력(buf)
+	}
+	return esp
+}
+var count2 uint8 = 1
+func HandleInterrupt(esp uint32, interrupt uint8) uint32{
+        buf := []byte("\nHandleInterrupt :    ")
+	buf[20] = count2
+	count2++
+
+        콘솔 := new(T콘솔)
+	콘솔.M출력(buf)
+	콘솔.MHex출력(interrupt)
+
+	if ActiveInterruptManager != 0 {
+        	//buf := []byte("\n\nActiveInterruptManager != 0")
+        	//콘솔 := new(T콘솔)
+		//콘솔.M출력(buf)
+		p := (*T인터럽트관리자)(Pointer(ActiveInterruptManager))
+		return p.DoHandleInterrupt(interrupt, esp)
+		// return p.DoHandleInterrupt(0x21, esp)
+	}
+
+	return esp
+}
+var except uint8=0
+func HandleException(esp uint32, interrupt uint8) uint32{
+	hex := []byte("0123456789ABCDEF");
+        buf := []byte("\n           HandleException :   ")
+	buf[29] = except
+	buf[31] = hex[interrupt & 0x0F]
+	buf[30] = hex[(interrupt & 0xF0)>>2]
+	except++
+
+        콘솔 := new(T콘솔)
+	콘솔.M출력(buf)
+
+	/*
+	if ActiveInterruptManager != 0 {
+        	//buf := []byte("\n\nActiveInterruptManager != 0")
+        	//콘솔 := new(T콘솔)
+		//콘솔.M출력(buf)
+		p := (*T인터럽트관리자)(Pointer(ActiveInterruptManager))
+		return p.DoHandleInterrupt(interrupt, esp)
+		// return p.DoHandleInterrupt(0x21, esp)
+	}*/
+
+	return esp
+}
+
+func InterruptActive()
+func (self *T인터럽트관리자) Active(){
+	if ActiveInterruptManager != 0 {
+		self.Deactive()
+	}
+	addr := uintptr(Pointer(self))
+	ActiveInterruptManager = addr
+	InterruptActive()
+}
+func InterruptDeactive()
+func (self *T인터럽트관리자) Deactive(){
+	ActiveInterruptManager = 0
+	InterruptDeactive()
+}
+
+func MyHandleInterrupt(interrupt uint8, esp uint32) uint32{
+        콘솔 := new(T콘솔)
+        buf := []byte("interrupt")
+        콘솔.M출력(buf)
+	return esp
+}
+func MyTest(interrupt uint8, esp uint32)
+
+func UnhandleInterrupt(){
+        콘솔 := new(T콘솔)
+        buf := []byte("unhandle interrupt\n")
+	콘솔.M출력(buf)
+}
+
+
+func 인터럽트처리기(interrupt uint8, esp uint32) uint32{
+        콘솔 := new(T콘솔)
+        buf := []byte("interrupt\nhandler\nhi")
+        콘솔.M출력(buf)
+        콘솔.MHex출력(0x40)
+	return esp
+}

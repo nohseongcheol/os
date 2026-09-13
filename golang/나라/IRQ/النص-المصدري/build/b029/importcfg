@@ -1,0 +1,7 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/e7/e76fd9b44371e2a6cbb1e28cd8b9b3976eecf021ea660512b686696e67d330a6-d
+packagefile أداة/قائمة=/home/user/worldos/나라/IRQ/소스/build/b030/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/IRQ/소스/build/b026/_pkg_.a
+packagefile إدارةمهام/مجدول=/home/user/worldos/나라/IRQ/소스/build/b031/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/IRQ/소스/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/IRQ/소스/build/b000/_pkg_.a

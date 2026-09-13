@@ -1,0 +1,4 @@
+# import config
+packagefile консоль=/home/user/.cache/go-build/c4/c46d7066ac0839ca780324e67c75bce17d9784d97a987e7a00d440764b8a817a-d
+packagefile памятьдиспетчер=/home/user/worldos/나라/RUS/소스/build/b022/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/RUS/소스/build/b000/_pkg_.a

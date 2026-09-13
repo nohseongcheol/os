@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/92/9295b35acef37f53a115c3a09805278953ef6f8ad0aa7153e8c86d2ef0b7c3bf-d
+packagefile driver/ata=/home/user/worldos/나라/UMI/소스/build/b004/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/UMI/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/UMI/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/UMI/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/UMI/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/UMI/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/UMI/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/UMI/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/82/820402104c33c7f25d36f1cc74c9d3e6b5ca9923db45139473681534fa3b5ea3-d
+packagefile tasking/scheduler=/home/user/worldos/나라/UMI/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/UMI/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/1c/1c910f155f82133e00276f55a4713fdbd013c39af2d264aef0069cf6eff3fcab-d
+packagefile virtualmemory=/home/user/worldos/나라/UMI/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/UMI/소스/build/b000/_pkg_.a

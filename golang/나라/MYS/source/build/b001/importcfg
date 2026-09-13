@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/09/0938d2adbfa8633fbb4f9851d47818d152ac5e305095242854efc17710dc67b7-d
+packagefile driver/ata=/home/user/worldos/나라/MYS/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/97/97f419ec2252281dde48e007d3fad26954e61ce42682f43549540a30a476be0a-d
+packagefile driver/papankekunci=/home/user/worldos/나라/MYS/소스/build/b007/_pkg_.a
+packagefile driver/peranti_penuding=/home/user/worldos/나라/MYS/소스/build/b036/_pkg_.a
+packagefile failSistem/fat=/home/user/worldos/나라/MYS/소스/build/b025/_pkg_.a
+packagefile failSistem/format_pelaksanaan_dan_pemautan=/home/user/worldos/나라/MYS/소스/build/b028/_pkg_.a
+packagefile failSistem/msdospartition=/home/user/worldos/나라/MYS/소스/build/b026/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/20/202335b208eceac724920c92eda6add584b64f0ad2c5049cd9bdb82e29deef32-d
+packagefile ingatanmanager=/home/user/worldos/나라/MYS/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/MYS/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/MYS/소스/build/b029/_pkg_.a
+packagefile pci=/home/user/worldos/나라/MYS/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sampuk=/home/user/worldos/나라/MYS/소스/build/b008/_pkg_.a
+packagefile sistemcall=/home/user/worldos/나라/MYS/소스/build/b024/_pkg_.a
+packagefile tasking/proses=/home/user/worldos/나라/MYS/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/MYS/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/MYS/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/MYS/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/6c/6c3a5f619e7850369636b6c165c6ba2000d4ee7aea2b392bc0a7af03622f85c1-d
+packagefile virtualIngatan=/home/user/worldos/나라/MYS/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MYS/소스/build/b000/_pkg_.a

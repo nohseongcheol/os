@@ -1,0 +1,5 @@
+# import config
+packagefile 개입중단=/home/user/worldos/나라/KOR/원문/build/b017/_pkg_.a
+packagefile 기억공간관리자=/home/user/worldos/나라/KOR/원문/build/b019/_pkg_.a
+packagefile 도구=/home/user/worldos/나라/KOR/원문/build/b029/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KOR/원문/build/b000/_pkg_.a

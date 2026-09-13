@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	bangun_penafsir_perintah
+executable_file	berkas_eksekusi
+include_directory	direktori_deklarasi
+library_file	berkas_pustaka
+linker_file	berkas_penautan
+object_file	berkas_objek
+source_file	berkas_sumber
+startup_object	objek_awal

@@ -1,0 +1,7 @@
+# import config
+packagefile aufgabenverwaltung/ausführungsfaden=/home/user/worldos/나라/DEU/Quelltext/build/b002/_pkg_.a
+packagefile aufgabenverwaltung/planer=/home/user/worldos/나라/DEU/Quelltext/build/b022/_pkg_.a
+packagefile hilfswerkzeug=/home/user/worldos/나라/DEU/Quelltext/build/b028/_pkg_.a
+packagefile hilfswerkzeug/liste=/home/user/worldos/나라/DEU/Quelltext/build/b025/_pkg_.a
+packagefile speicherVerwalter=/home/user/worldos/나라/DEU/Quelltext/build/b019/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/DEU/Quelltext/build/b000/_pkg_.a

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/te_Telu",
+  "language": "te_Telu",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

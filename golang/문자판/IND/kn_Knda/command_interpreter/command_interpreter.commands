@@ -1,0 +1,5 @@
+# WorldOS IND/kn_Knda UTF-8 command file
+echo "WorldOS IND/kn_Knda"
+help
+pwd
+pid

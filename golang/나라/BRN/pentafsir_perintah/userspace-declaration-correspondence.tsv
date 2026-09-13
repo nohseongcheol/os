@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Tutup
+SYS_exit	SYS__exit
+SYS_open	SYS_Buka
+SYS_read	SYS_Baca
+SYS_write	SYS_Tulis
+close	Tutup
+open	Buka
+read	Baca
+write	Tulis

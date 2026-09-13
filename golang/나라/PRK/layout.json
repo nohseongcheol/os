@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "PRK",
+  "language": "ko",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "원문"
+  }
+}

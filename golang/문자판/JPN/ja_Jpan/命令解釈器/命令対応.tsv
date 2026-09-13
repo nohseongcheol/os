@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	使い方を示す
+echo	引数を表示する
+pwd	現在の場所を示す
+cat	文書の内容を表示する
+stat	文書の情報を示す
+pid	実行過程の番号を示す
+uname	基本体系の情報を示す
+run	実行形式を起動する
+udp	独立電文の折り返しを試す
+source	命令文書を解釈する
+cd	場所を変える
+exit	終了

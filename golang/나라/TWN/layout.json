@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "TWN",
+  "language": "zh_Hant",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "原始碼"
+  }
+}

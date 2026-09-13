@@ -1,0 +1,25 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/ALB/소스/build/b002/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/77/77c6a6d2eecd7ca8b84de07f3ff99801afd9250ab2261871affce8e5fa828aab-d
+packagefile driver/miu=/home/user/worldos/나라/ALB/소스/build/b007/_pkg_.a
+packagefile driver/tastiera=/home/user/worldos/나라/ALB/소스/build/b024/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/fc/fc43c0fcfd1bbb7e304f5adbe856fb4d3a6a60db569c7b6000cc20d314522360-d
+packagefile interrupt=/home/user/worldos/나라/ALB/소스/build/b008/_pkg_.a
+packagefile kartelëSistemi/elf=/home/user/worldos/나라/ALB/소스/build/b026/_pkg_.a
+packagefile kartelëSistemi/fat=/home/user/worldos/나라/ALB/소스/build/b029/_pkg_.a
+packagefile kartelëSistemi/msdospartition=/home/user/worldos/나라/ALB/소스/build/b030/_pkg_.a
+packagefile konsolë=/home/user/.cache/go-build/e1/e18d4128147a1d73e7de3b47f6b868fb56fc01b0d5a0eadae38c159ec6d296a5-d
+packagefile memoriaManazhuesi=/home/user/worldos/나라/ALB/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/ALB/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/ALB/소스/build/b027/_pkg_.a
+packagefile pci=/home/user/worldos/나라/ALB/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sistemicall=/home/user/worldos/나라/ALB/소스/build/b025/_pkg_.a
+packagefile tasking/proçes=/home/user/worldos/나라/ALB/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/ALB/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ALB/소스/build/b032/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/ALB/소스/build/b035/_pkg_.a
+packagefile util=/home/user/.cache/go-build/36/36595ee09420b53a7e22619165611f2e166dcae81a242ce167debb68d8c9b4ac-d
+packagefile virtualMemoria=/home/user/worldos/나라/ALB/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ALB/소스/build/b000/_pkg_.a

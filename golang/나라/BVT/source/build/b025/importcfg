@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/b3/b343b8868139b0578b61bdb6c58971fd09aef64d9e8faa91ad153d95d37d2209-d
+packagefile memorymanager=/home/user/worldos/나라/BVT/소스/build/b023/_pkg_.a
+packagefile paging=/home/user/worldos/나라/BVT/소스/build/b026/_pkg_.a
+packagefile util=/home/user/.cache/go-build/13/13b15ae23b50feda4e174df3798d180351e10540aa8e10ebc2c7e6da3133234d-d
+packagefile runtime/cgo=/home/user/worldos/나라/BVT/소스/build/b000/_pkg_.a

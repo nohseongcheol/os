@@ -1,0 +1,5 @@
+# import config
+packagefile avbrudd=/home/user/worldos/나라/SJM/소스/build/b002/_pkg_.a
+packagefile minnemanager=/home/user/worldos/나라/SJM/소스/build/b019/_pkg_.a
+packagefile util=/home/user/.cache/go-build/a6/a643c877426cff7c7c61403a2b7cd5516090b5d19181c32faa00ffb86e63c5b8-d
+packagefile runtime/cgo=/home/user/worldos/나라/SJM/소스/build/b000/_pkg_.a

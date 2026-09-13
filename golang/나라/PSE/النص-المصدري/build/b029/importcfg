@@ -1,0 +1,7 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/22/22868ec7d259f53c57281199e288234621b1e4635b792edab11132433539f263-d
+packagefile أداة/قائمة=/home/user/worldos/나라/PSE/소스/build/b030/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/PSE/소스/build/b026/_pkg_.a
+packagefile إدارةمهام/مجدول=/home/user/worldos/나라/PSE/소스/build/b031/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/PSE/소스/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PSE/소스/build/b000/_pkg_.a

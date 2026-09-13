@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/UZB/소스/build/b008/_pkg_.a
+packagefile util=/home/user/.cache/go-build/af/af4544c137324abb405cdfaa670caa505eac636ba959b14893f5d5101f400028-d
+packagefile xotiramanager=/home/user/worldos/나라/UZB/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/UZB/소스/build/b000/_pkg_.a

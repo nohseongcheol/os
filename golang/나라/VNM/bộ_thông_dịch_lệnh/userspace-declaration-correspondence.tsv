@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Đóng
+SYS_exit	SYS__exit
+SYS_open	SYS_Mở
+SYS_read	SYS_Đọc
+SYS_write	SYS_Ghi
+argv	đối_số_2
+buf	bộ_đệm_truyền
+close	Đóng
+fd	bộ_mô_tả_tệp
+open	Mở
+read	Đọc
+write	Ghi

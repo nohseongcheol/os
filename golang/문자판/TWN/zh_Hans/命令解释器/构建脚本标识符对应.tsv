@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	构建命令解释器
+executable_file	可执行文件
+include_directory	头文件目录
+library_file	库文件
+linker_file	链接布局文件
+object_file	目标文件
+source_file	源文件
+startup_object	启动目标文件

@@ -1,0 +1,6 @@
+# import config
+packagefile konsol=/home/user/.cache/go-build/8f/8fb4fd9055236d5b1fd12bfe2716a19a259d9fdd773c1118af3907f8e7281bef-d
+packagefile minnemanager=/home/user/worldos/나라/SWE/소스/build/b021/_pkg_.a
+packagefile paging=/home/user/worldos/나라/SWE/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/87/877dace9954e877bc610903835bc53656278dc9f1ab4779f74768275a9402e1b-d
+packagefile runtime/cgo=/home/user/worldos/나라/SWE/소스/build/b000/_pkg_.a

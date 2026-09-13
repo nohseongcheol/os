@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "SRB/sr_Cyrl",
+  "language": "sr_Cyrl",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

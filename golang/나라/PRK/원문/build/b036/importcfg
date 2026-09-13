@@ -1,0 +1,7 @@
+# import config
+packagefile 구동기/저장장치=/home/user/worldos/나라/PRK/소스/build/b027/_pkg_.a
+packagefile 기억공간관리자=/home/user/worldos/나라/PRK/소스/build/b019/_pkg_.a
+packagefile 단말=/home/user/.cache/go-build/8a/8a2f19d750cbb337093dad92e5c748dc119ae0615678ac96cf87a3807f064ab0-d
+packagefile 도구=/home/user/.cache/go-build/96/9692ad015cd9c6bae9ca9e171bc2b3aeb5a95ebda921443293e5364c9c981062-d
+packagefile 파일체계/주분할표=/home/user/worldos/나라/PRK/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PRK/소스/build/b000/_pkg_.a

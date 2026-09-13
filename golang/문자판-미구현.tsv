@@ -1,0 +1,233 @@
+country	profile	cldr_classification	script_name	implementation_status	note
+AIA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+AIA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+ALB	sq_Elba	secondary	Elbasan	not-implemented	CLDR secondary may include historical usage; review before implementation
+ARE	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+ATF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+ATG	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+ATG	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+AUS	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+AUS	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+AUT	de_Runr	secondary	Runic	not-implemented	CLDR secondary may include historical usage; review before implementation
+AZE	az_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+AZE	az_Cyrl	secondary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+BEN	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+BFA	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+BHR	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+BHS	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BHS	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+BLM	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+BLZ	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BLZ	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+BMU	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BMU	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+BRB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BRB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+BRN	ms_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+BWA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BWA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+CAF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+CAN	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+CAN	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+CCK	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+CCK	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+CHE	de_Runr	secondary	Runic	not-implemented	CLDR secondary may include historical usage; review before implementation
+CHN	zh_Bopo	secondary	Bopomofo	not-implemented	CLDR secondary may include historical usage; review before implementation
+CHN	zh_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+CHN	zh_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+CIV	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+CMR	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+COD	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+COG	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+COK	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+COK	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+COM	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+CXR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+CXR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+CYM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+CYM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+DEU	de_Runr	secondary	Runic	not-implemented	CLDR secondary may include historical usage; review before implementation
+DJI	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+DMA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+DMA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+DZA	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+EGY	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+ESH	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+FJI	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+FJI	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+FLK	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+FLK	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+FRA	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+FSM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+FSM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GAB	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+GBR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GBR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GGY	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GGY	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GHA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GHA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GIB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GIB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GIN	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+GLP	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+GMB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GMB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GRD	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GRD	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUY	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUY	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+HKG	zh_Bopo	secondary	Bopomofo	not-implemented	CLDR secondary may include historical usage; review before implementation
+HKG	zh_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+HKG	zh_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+IDN	id_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+IMN	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+IMN	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	doi_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	doi_Takr	secondary	Takri	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	hi_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	hi_Mahj	secondary	Mahajani	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	mai_Tirh	secondary	Tirhuta	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	mr_Modi	secondary	Modi	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sa_Gran	secondary	Grantha	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sa_Shrd	secondary	Sharada	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sa_Sidd	secondary	Siddham	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sa_Sinh	secondary	Sinhala	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sat_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sat_Orya	secondary	Odia	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sd_Khoj	secondary	Khojki	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sd_Sind	secondary	Khudawadi	not-implemented	CLDR secondary may include historical usage; review before implementation
+IOT	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+IOT	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+IRL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+IRL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+IRQ	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+JAM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+JAM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+JEY	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+JEY	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+JOR	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+KGZ	ky_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+KGZ	ky_Latn	primary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+KIR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+KIR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+KNA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+KNA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+KWT	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+LBN	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+LBR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+LBR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+LBY	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+LCA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+LCA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+LIE	de_Runr	secondary	Runic	not-implemented	CLDR secondary may include historical usage; review before implementation
+LUX	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAC	zh_Bopo	secondary	Bopomofo	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAC	zh_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAC	zh_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAR	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+MCO	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MDA	ro_Cyrl	secondary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+MHL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MHL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MLI	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MNG	mn_Mong	secondary	Mongolian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MNG	mn_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+MNP	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MNP	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MRT	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+MSR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MSR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MTQ	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MUS	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MUS	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MWI	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MWI	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MYS	ms_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+MYT	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+NAM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NAM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NCL	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+NER	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+NFK	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NFK	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NGA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NGA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NIU	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NIU	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NRU	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NRU	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NZL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NZL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+OMN	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+PCN	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+PCN	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+PHL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+PHL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+PSE	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+PYF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+QAT	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+REU	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+ROU	ro_Cyrl	secondary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+SAU	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+SDN	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+SEN	wo_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+SGP	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SGP	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SHN	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SHN	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SLB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SLB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SLE	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SLE	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SOM	so_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+SOM	so_Osma	secondary	Osmanya	not-implemented	CLDR secondary may include historical usage; review before implementation
+SPM	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+SSD	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SSD	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SWZ	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SWZ	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SXM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SXM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SYC	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+SYR	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+TCA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+TCA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+TCD	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+TGO	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+TJK	tg_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+TJK	tg_Latn	primary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKM	tk_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKM	tk_Cyrl	primary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+TTO	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+TTO	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+TUN	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+TUR	tr_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+TWN	zh_Bopo	secondary	Bopomofo	not-implemented	CLDR secondary may include historical usage; review before implementation
+TWN	zh_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+TWN	zh_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+UMI	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+UMI	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+USA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+USA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+UZB	uz_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+UZB	uz_Cyrl	primary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+VCT	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+VCT	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+VGB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+VGB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+VIR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+VIR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+VNM	vi_Hani	secondary	Han	not-implemented	CLDR secondary may include historical usage; review before implementation
+WLF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+YEM	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+ZAF	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+ZAF	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+ZMB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+ZMB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation

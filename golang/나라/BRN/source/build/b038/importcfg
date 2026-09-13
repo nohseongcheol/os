@@ -1,0 +1,7 @@
+# import config
+packagefile ingatanmanager=/home/user/worldos/나라/BRN/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/BRN/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BRN/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/bb/bb8f2834bbee1eb64a7f8e4eb44bcfc065956e89522a9ff3e24f902a23381ab3-d
+packagefile util/senarai=/home/user/worldos/나라/BRN/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BRN/소스/build/b000/_pkg_.a

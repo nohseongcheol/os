@@ -1,0 +1,5 @@
+# WorldOS SHN UTF-8 command file
+print_arguments "WorldOS SHN"
+show_help
+show_working_directory
+show_process_identifiers

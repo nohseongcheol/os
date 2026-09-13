@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-10",
+  "launcher_sha256": "4fa1a87ffb98e671a4ae35424fc6a7a7c6e5791082db452ce17f00b176a51912",
+  "change": "make vbox resumes saved and paused VMs without rebuilding, reconfiguring, discarding saved state, or replacing media",
+  "country_editions": 249,
+  "script_editions": 46,
+  "independent_launchers_checked": 295,
+  "make_vbox_check_pass": 295,
+  "regression_tests": {"total": 99, "passed": 99, "vbox_tests_included": 20},
+  "actual_kor_verification": {
+    "vm_uuid": "12edc548-ca02-4c78-bd6e-6ed5850af279",
+    "first_saved_resume": "PASS: make vbox printed RESUMED and make vbox-status reported running",
+    "later_observation": "VM was subsequently paused and saved again; the next restore and one retry failed inside VirtualBox",
+    "restore_error": "PGMSyncCR3: VERR_PGM_NO_HYPERVISOR_ADDRESS (VERR_WRONG_ORDER)",
+    "host_log": "AMD-V is not available; falling back to raw-mode",
+    "last_observed_state": "saved",
+    "saved_state_preserved": "/home/user/worldos/나라/KOR/.vbox/machines/worldos KOR/Snapshots/2026-09-10T12-28-12-922601000Z.sav",
+    "discardstate_performed": false,
+    "cold_boot_performed": false,
+    "new_vm_created": false,
+    "remaining_action_requires_user_direction": "Investigate restore environment or approve backed-up saved-state discard and cold boot; memory-only work cannot continue on a cold boot"
+  },
+  "unchanged_sha256_after_restore_attempts": {
+    "launcher_state_json": "a5b7904256fcb65b9122ee7b112e1d950db08dda18100ca24a392e57055bbbc0",
+    "disk": "09ceaca64f7f996816ca0e938723fdf1b2711efdbc97b5610d94f2f48af5171c",
+    "iso": "b88077e9b378cb35c7ab219fb28a81f491aff468861bc81c42a68ac95af631a2"
+  },
+  "evidence": ["install.log", "entries.log", "unit-tests.log", "restore-events.log"],
+  "scope_note": "Saved-state resume was exercised on KOR. Paused resume, headless resume, failure preservation and prepare-only behavior were unit tested. Other editions were entry-checked, not actually resumed."
+}

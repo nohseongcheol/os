@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+source_file=$1
+object_file=$2
+executable_file=$3
+include_directory=$4
+startup_object=$5
+library_file=$6
+linker_file=$7
+
+build_shell() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$include_directory" -c "$source_file" -o "$object_file"
+    ld -n -m elf_i386 -e _start -T "$linker_file" -static \
+        --no-ld-generated-unwind-info -o "$executable_file" \
+        "$startup_object" "$object_file" "$library_file"
+}
+build_shell

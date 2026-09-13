@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	bellek ayır	bellek_ayır	project-proposal	function-based project proposal
+append	listenin sonuna ekle	listenin_sonuna_ekle	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	ayırma bit eşlemi	ayırma_bit_eşlemi	project-proposal	function-based project proposal
+boot	makine başlatma	makine_başlatma	project-proposal	function-based project proposal
+boot_record	ana önyükleme kaydı	ana_önyükleme_kaydı	project-proposal	boot code and partition metadata, not an audio recording
+bus	ortak aktarım yolu	ortak_aktarım_yolu	project-proposal	function-based project proposal
+compile_kernel	çekirdek derle	çekirdek_derle	project-proposal	function-based project proposal
+destination_port	hedef kapı numarası	hedef_kapı_numarası	project-proposal	function-based project proposal
+elf	çalıştırılabilir ve bağlanabilir biçim	çalıştırılabilir_ve_bağlanabilir_biçim	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	hata numarası	hata_numarası	project-proposal	function-based project proposal
+ethernet_frame	ortak ortam ağ çerçevesi	ortak_ortam_ağ_çerçevesi	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	ortak ortam ağ çerçevesi başlığı	ortak_ortam_ağ_çerçevesi_başlığı	project-proposal	function-based project proposal
+ethernet_provider	ortak ortam ağ çerçevesi sağlayıcısı	ortak_ortam_ağ_çerçevesi_sağlayıcısı	project-proposal	function-based project proposal
+fat_parameters	dosya sistemi parametreleri	dosya_sistemi_parametreleri	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	dosya denetimi	dosya_denetimi	project-proposal	function-based project proposal
+file_read	dosya oku	dosya_oku	project-proposal	function-based project proposal
+file_status	dosya durumu	dosya_durumu	project-proposal	function-based project proposal
+file_write	dosya yaz	dosya_yaz	project-proposal	function-based project proposal
+free_memory	belleği serbest bırak	belleği_serbest_bırak	project-proposal	function-based project proposal
+headers	bildirimler	bildirimler	project-proposal	function-based project proposal
+heap	dinamik bellek	dinamik_bellek	project-proposal	function-based project proposal
+icmp	ağlar arası ağ denetim iletisi protokolü	ağlar_arası_ağ_denetim_iletisi_protokolü	project-proposal	function-based project proposal
+implementation	gerçekleme	gerçekleme	project-proposal	function-based project proposal
+insert_at	dizine göre araya ekle	dizine_göre_araya_ekle	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	ağlar arası ağ	ağlar_arası_ağ	project-proposal	function-based project proposal
+ip_provider	ağlar arası ağ protokolü sağlayıcısı	ağlar_arası_ağ_protokolü_sağlayıcısı	project-proposal	function-based project proposal
+ipv4	ağlar arası ağ protokolü 4	ağlar_arası_ağ_protokolü_4	project-proposal	function-based project proposal
+link_layout	bağlama düzeni	bağlama_düzeni	project-proposal	function-based project proposal
+list_node	liste düğümü	liste_düğümü	project-proposal	function-based project proposal
+log_decoder	seri kaydı çözümle	seri_kaydı_çözümle	project-proposal	function-based project proposal
+mouse	işaretleme aygıtı	işaretleme_aygıtı	project-proposal	function-based project proposal
+page_directory	sayfa dizini	sayfa_dizini	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	fiziksel sayfa	fiziksel_sayfa	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	adres başvurusu	adres_başvurusu	project-proposal	function-based project proposal
+prepend	listenin başına ekle	listenin_başına_ekle	project-proposal	src/util/list/list.go: links before head
+register	yazmaç	yazmaç	project-proposal	function-based project proposal
+set_coordinates	yerel koordinatları ayarla	yerel_koordinatları_ayarla	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	kaynak kapı numarası	kaynak_kapı_numarası	project-proposal	function-based project proposal
+stack	yığın belleği	yığın_belleği	project-proposal	function-based project proposal
+startup	başlatma	başlatma	project-proposal	function-based project proposal
+structure_offsets	yapı uzaklıkları	yapı_uzaklıkları	project-proposal	function-based project proposal
+system_call	sistem çağrısı	sistem_çağrısı	project-proposal	function-based project proposal
+tests	sınamalar	sınamalar	project-proposal	function-based project proposal
+toggle_bit	ayırma bitini tersle	ayırma_bitini_tersle	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	araçlar	araçlar	project-proposal	function-based project proposal
+udp	kullanıcı veri birimi protokolü	kullanıcı_veri_birimi_protokolü	project-proposal	function-based project proposal
+udp_header	kullanıcı veri birimi başlığı	kullanıcı_veri_birimi_başlığı	project-proposal	function-based project proposal
+udp_socket	kullanıcı veri birimi iletişim uç noktası	kullanıcı_veri_birimi_iletişim_uç_noktası	project-proposal	function-based project proposal
+user_space	kullanıcı alanı	kullanıcı_alanı	project-proposal	function-based project proposal
+widget	ekran öğesi	ekran_öğesi	project-proposal	function-based project proposal

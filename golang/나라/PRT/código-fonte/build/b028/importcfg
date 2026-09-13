@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/worldos/나라/PRT/소스/build/b002/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime/cgo=/home/user/worldos/나라/PRT/소스/build/b000/_pkg_.a

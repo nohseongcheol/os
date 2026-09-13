@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a1/a190d12f74533b7e2b65ac68b4a5ada042a3ff757579655e192430983333ed39-d
+packagefile gdt=/home/user/.cache/go-build/ee/ee52e1b6f08590b045183f74ebfe2d359d72aaf3f798f6c03fd21c2704205467-d
+packagefile gestãoTarefas/fluxoExecução=/home/user/worldos/나라/CPV/소스/build/b032/_pkg_.a
+packagefile gestãoTarefas/tss=/home/user/worldos/나라/CPV/소스/build/b035/_pkg_.a
+packagefile interrupção=/home/user/worldos/나라/CPV/소스/build/b008/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/CPV/소스/build/b023/_pkg_.a
+packagefile múltiplogestãoTarefas=/home/user/worldos/나라/CPV/소스/build/b022/_pkg_.a
+packagefile porto=/home/user/.cache/go-build/9a/9a0c8da042b67e2f1d1ee647e768e3c06c322d9949cbabcc28554b315cc182a2-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile utilitário/lista=/home/user/worldos/나라/CPV/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CPV/소스/build/b000/_pkg_.a

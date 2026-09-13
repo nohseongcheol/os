@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/94/946d0c43f2678e7ee722cadbfbc2820b1684f117839258fbab8f77dd65e0e47a-d
+packagefile controlador/ata=/home/user/worldos/나라/MOZ/소스/build/b004/_pkg_.a
+packagefile controlador/controlador=/home/user/.cache/go-build/8f/8fc6d1bb778b746ce7eaac17f702def80d0ea13bea84f1c3bf0df7096932ec4d-d
+packagefile controlador/dispositivo_apontador=/home/user/worldos/나라/MOZ/소스/build/b007/_pkg_.a
+packagefile controlador/teclado=/home/user/worldos/나라/MOZ/소스/build/b024/_pkg_.a
+packagefile ficheirosistema/fat=/home/user/worldos/나라/MOZ/소스/build/b026/_pkg_.a
+packagefile ficheirosistema/formato_executável_e_ligável=/home/user/worldos/나라/MOZ/소스/build/b029/_pkg_.a
+packagefile ficheirosistema/msdospartição=/home/user/worldos/나라/MOZ/소스/build/b027/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/e1/e19278517ccb72fbf096f8cf24acba576fe9f4f619ba5a606402d9b36439441d-d
+packagefile gestãoTarefas/escalonador=/home/user/worldos/나라/MOZ/소스/build/b031/_pkg_.a
+packagefile gestãoTarefas/fluxoExecução=/home/user/worldos/나라/MOZ/소스/build/b032/_pkg_.a
+packagefile gestãoTarefas/processo=/home/user/worldos/나라/MOZ/소스/build/b037/_pkg_.a
+packagefile gestãoTarefas/tss=/home/user/worldos/나라/MOZ/소스/build/b035/_pkg_.a
+packagefile interrupção=/home/user/worldos/나라/MOZ/소스/build/b008/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/MOZ/소스/build/b023/_pkg_.a
+packagefile múltiplogestãoTarefas=/home/user/worldos/나라/MOZ/소스/build/b022/_pkg_.a
+packagefile paginação=/home/user/worldos/나라/MOZ/소스/build/b030/_pkg_.a
+packagefile pci=/home/user/worldos/나라/MOZ/소스/build/b038/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sistemachamada=/home/user/worldos/나라/MOZ/소스/build/b025/_pkg_.a
+packagefile utilitário=/home/user/.cache/go-build/49/4919de167da54969f4fc1b59acd40e8094a0ffe77a8b65dce37629ce0c96eacb-d
+packagefile virtualmemória=/home/user/worldos/나라/MOZ/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MOZ/소스/build/b000/_pkg_.a

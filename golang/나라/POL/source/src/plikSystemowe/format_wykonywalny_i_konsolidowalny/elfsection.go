@@ -1,0 +1,1 @@
+package format_wykonywalny_i_konsolidowalny

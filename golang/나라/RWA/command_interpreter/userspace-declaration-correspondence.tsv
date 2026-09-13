@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Gufunga
+SYS_exit	SYS__exit
+SYS_open	SYS_Gufungura
+SYS_read	SYS_gusoma
+SYS_write	SYS_kwandika
+close	Gufunga
+open	Gufungura
+read	gusoma
+write	kwandika

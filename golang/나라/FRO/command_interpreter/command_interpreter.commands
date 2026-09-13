@@ -1,0 +1,5 @@
+# WorldOS FRO UTF-8 command file
+echo "WorldOS FRO"
+help
+pwd
+pid

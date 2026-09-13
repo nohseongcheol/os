@@ -1,0 +1,5 @@
+# WorldOS SRB UTF-8 command file
+echo "WorldOS SRB"
+help
+pwd
+pid

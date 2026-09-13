@@ -1,0 +1,5 @@
+# WorldOS POL UTF-8 command file
+wypisz_argumenty "WorldOS POL"
+pokaż_pomoc
+pokaż_katalog_roboczy
+pokaż_identyfikatory_procesów

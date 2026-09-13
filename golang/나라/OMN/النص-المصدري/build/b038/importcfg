@@ -1,0 +1,6 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/61/61c868537c0ffb498d03233fb2561cbe7660000a7fbcd0e7f3461c239e61a46b-d
+packagefile إدارةصفحات=/home/user/worldos/나라/OMN/소스/build/b024/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/OMN/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/dd/dd76ad9e6a9068d4ec36edef7667a9628f4bdcb6b107e2b05595038e7688c34c-d
+packagefile runtime/cgo=/home/user/worldos/나라/OMN/소스/build/b000/_pkg_.a

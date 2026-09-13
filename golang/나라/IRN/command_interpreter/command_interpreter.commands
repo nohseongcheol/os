@@ -1,0 +1,5 @@
+# WorldOS IRN UTF-8 command file
+echo "WorldOS IRN"
+help
+pwd
+pid

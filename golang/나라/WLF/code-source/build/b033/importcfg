@@ -1,0 +1,7 @@
+# import config
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/WLF/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/WLF/소스/build/b030/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/WLF/소스/build/b021/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/d3/d30559c5b7d950694ecf483a86c56dc84e0b6126f880985c967018debffa6760-d
+packagefile utilitaire/liste=/home/user/worldos/나라/WLF/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/WLF/소스/build/b000/_pkg_.a

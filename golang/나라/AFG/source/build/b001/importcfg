@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a0/a0c132ac2c10bf109c49f8f16f7b8f8eb01bfc77f3ce76f42be17bf9feae604b-d
+packagefile driver/ata=/home/user/worldos/나라/AFG/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/be/be1820a8563669b63a3e952d0a9f01123e8f9ae6c3290f0d5731e0f91039defe-d
+packagefile driver/صفحهکلید=/home/user/worldos/나라/AFG/소스/build/b007/_pkg_.a
+packagefile driver/موشی=/home/user/worldos/나라/AFG/소스/build/b036/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/e5/e5379192574547c65278b0cdf3d3db7042dff9bc06e65b59116985a99a87bf38-d
+packagefile interrupt=/home/user/worldos/나라/AFG/소스/build/b008/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/AFG/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/AFG/소스/build/b025/_pkg_.a
+packagefile pci=/home/user/worldos/나라/AFG/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile tasking/process=/home/user/worldos/나라/AFG/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/AFG/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/AFG/소스/build/b028/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/AFG/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/e2/e2683dbc1224a0209b8cd593f4714c566e3bf9972e33e5d6910648728e30f5b2-d
+packagefile حافظهmanager=/home/user/worldos/나라/AFG/소스/build/b023/_pkg_.a
+packagefile سیستمcall=/home/user/worldos/나라/AFG/소스/build/b024/_pkg_.a
+packagefile مجازیحافظه=/home/user/worldos/나라/AFG/소스/build/b029/_pkg_.a
+packagefile پروندهسیستم/elf=/home/user/worldos/나라/AFG/소스/build/b033/_pkg_.a
+packagefile پروندهسیستم/fat=/home/user/worldos/나라/AFG/소스/build/b034/_pkg_.a
+packagefile پروندهسیستم/msdospartition=/home/user/worldos/나라/AFG/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AFG/소스/build/b000/_pkg_.a

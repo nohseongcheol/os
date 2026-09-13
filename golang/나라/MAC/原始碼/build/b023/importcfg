@@ -1,0 +1,5 @@
+# import config
+packagefile 中斷=/home/user/worldos/나라/MAC/소스/build/b018/_pkg_.a
+packagefile 工具=/home/user/.cache/go-build/2b/2be0a0a594d4100a77467f7a16432e479a357d252926a70ea0ffca4c33b97291-d
+packagefile 記憶體管理器=/home/user/worldos/나라/MAC/소스/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MAC/소스/build/b000/_pkg_.a

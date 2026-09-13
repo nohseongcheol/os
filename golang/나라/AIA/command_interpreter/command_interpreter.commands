@@ -1,0 +1,5 @@
+# WorldOS AIA UTF-8 command file
+print_arguments "WorldOS AIA"
+show_help
+show_working_directory
+show_process_identifiers

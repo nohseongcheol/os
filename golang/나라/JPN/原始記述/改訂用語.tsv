@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	記憶領域を確保	記憶領域を確保	project-proposal	function-based project proposal
+append	末尾に追加	末尾に追加	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	割当ビット表	割当ビット表	project-proposal	function-based project proposal
+boot	機械起動	機械起動	project-proposal	function-based project proposal
+boot_record	主起動記録	主起動記録	project-proposal	boot code and partition metadata, not an audio recording
+bus	共用伝送路	共用伝送路	project-proposal	function-based project proposal
+compile_kernel	中核翻訳	中核翻訳	project-proposal	function-based project proposal
+destination_port	宛先接続番号	宛先接続番号	project-proposal	function-based project proposal
+elf	実行連結形式	実行連結形式	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	エラー番号	エラー番号	project-proposal	function-based project proposal
+ethernet_frame	共有媒体網伝送枠	共有媒体網伝送枠	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	共有媒体網伝送枠先頭部	共有媒体網伝送枠先頭部	project-proposal	function-based project proposal
+ethernet_provider	共有媒体網伝送枠提供器	共有媒体網伝送枠提供器	project-proposal	function-based project proposal
+fat_parameters	ファイル体系設定値	ファイル体系設定値	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	ファイル制御	ファイル制御	project-proposal	function-based project proposal
+file_read	ファイルを読む	ファイルを読む	project-proposal	function-based project proposal
+file_status	ファイル状態	ファイル状態	project-proposal	function-based project proposal
+file_write	ファイルに書く	ファイルに書く	project-proposal	function-based project proposal
+free_memory	記憶領域を解放	記憶領域を解放	project-proposal	function-based project proposal
+headers	宣言集	宣言集	project-proposal	function-based project proposal
+heap	動的記憶領域	動的記憶領域	project-proposal	function-based project proposal
+icmp	相互接続網制御電文規約	相互接続網制御電文規約	project-proposal	function-based project proposal
+implementation	実装	実装	project-proposal	function-based project proposal
+insert_at	指定位置に挿入	指定位置に挿入	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	相互接続網	相互接続網	project-proposal	function-based project proposal
+ip_provider	相互接続網規約提供器	相互接続網規約提供器	project-proposal	function-based project proposal
+ipv4	相互接続網規約4	相互接続網規約4	project-proposal	function-based project proposal
+link_layout	連結配置	連結配置	project-proposal	function-based project proposal
+list_node	連結要素	連結要素	project-proposal	function-based project proposal
+log_decoder	直列記録解析	直列記録解析	project-proposal	function-based project proposal
+mouse	位置入力装置	位置入力装置	project-proposal	function-based project proposal
+page_directory	記憶頁上位表	記憶頁上位表	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	物理記憶頁	物理記憶頁	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	番地参照	番地参照	project-proposal	function-based project proposal
+prepend	先頭に追加	先頭に追加	project-proposal	src/util/list/list.go: links before head
+register	値保持器	値保持器	project-proposal	function-based project proposal
+set_coordinates	局所座標を設定	局所座標を設定	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	送信元接続番号	送信元接続番号	project-proposal	function-based project proposal
+stack	積重ね記憶領域	積重ね記憶領域	project-proposal	function-based project proposal
+startup	起動	起動	project-proposal	function-based project proposal
+structure_offsets	構造変位	構造変位	project-proposal	function-based project proposal
+system_call	体系呼出し	体系呼出し	project-proposal	function-based project proposal
+tests	試験	試験	project-proposal	function-based project proposal
+toggle_bit	割当ビットを反転	割当ビットを反転	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	補助道具	補助道具	project-proposal	function-based project proposal
+udp	利用者資料電文規約	利用者資料電文規約	project-proposal	function-based project proposal
+udp_header	利用者資料電文先頭部	利用者資料電文先頭部	project-proposal	function-based project proposal
+udp_socket	利用者資料電文通信端点	利用者資料電文通信端点	project-proposal	function-based project proposal
+user_space	利用者領域	利用者領域	project-proposal	function-based project proposal
+widget	画面要素	画面要素	project-proposal	function-based project proposal

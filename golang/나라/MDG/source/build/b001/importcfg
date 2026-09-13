@@ -1,0 +1,25 @@
+# import config
+packagefile arikaMpandrindra=/home/user/worldos/나라/MDG/소스/build/b002/_pkg_.a
+packagefile driver/ata=/home/user/worldos/나라/MDG/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/10/10f72b1c259d995013395993b72317e90bcc33fa59a8e8233ca61545a8199766-d
+packagefile driver/fafanteny=/home/user/worldos/나라/MDG/소스/build/b008/_pkg_.a
+packagefile driver/totozy=/home/user/worldos/나라/MDG/소스/build/b036/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/fe/fe775c5fdc3e3eaf6023a0ca2f718d8dbbf94ffc01c971989f8a536a328cfc54-d
+packagefile interrupt=/home/user/worldos/나라/MDG/소스/build/b009/_pkg_.a
+packagefile konsoly=/home/user/.cache/go-build/72/729524124a4fb7ee22326af4dae1b08d75ac2d5b4957bec6676221c3bf9a5ac6-d
+packagefile multitasking=/home/user/worldos/나라/MDG/소스/build/b023/_pkg_.a
+packagefile paging=/home/user/worldos/나라/MDG/소스/build/b025/_pkg_.a
+packagefile pci=/home/user/worldos/나라/MDG/소스/build/b037/_pkg_.a
+packagefile rafitracall=/home/user/worldos/나라/MDG/소스/build/b024/_pkg_.a
+packagefile rakitraRafitra/elf=/home/user/worldos/나라/MDG/소스/build/b027/_pkg_.a
+packagefile rakitraRafitra/fat=/home/user/worldos/나라/MDG/소스/build/b028/_pkg_.a
+packagefile rakitraRafitra/msdospartition=/home/user/worldos/나라/MDG/소스/build/b029/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile tasking/process=/home/user/worldos/나라/MDG/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/MDG/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/MDG/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/MDG/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/41/419cd5d45397e731fccf17b0eb593cf059d3d4510b517c84f2b5172c78812c09-d
+packagefile virtualArika=/home/user/worldos/나라/MDG/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MDG/소스/build/b000/_pkg_.a

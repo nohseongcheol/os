@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/65/65c33919a0f1a91d54f1b49be1bca22f571db9fa0f1549701a0804a974e32d45-d
+packagefile driver/ata=/home/user/worldos/나라/SSD/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/dd/ddcc4d99cb934f4437213480b8d789a5f53c828448ff1bc3485a5c6298bf15c8-d
+packagefile driver/keyboard=/home/user/worldos/나라/SSD/소스/build/b007/_pkg_.a
+packagefile driver/pointing_device=/home/user/worldos/나라/SSD/소스/build/b036/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/SSD/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/SSD/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/SSD/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/88/88d7eca4471327cc4009bbfb017822c21b3b4ba660c016f48a6679fff2b493ab-d
+packagefile interrupt=/home/user/worldos/나라/SSD/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/SSD/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/SSD/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/SSD/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/SSD/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/SSD/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/SSD/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/SSD/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/SSD/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/SSD/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/1c/1c589ce9543f747b088ea3b0fd809e9e9b9677a56d1b9c9334ce9f693a20f535-d
+packagefile virtualmemory=/home/user/worldos/나라/SSD/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SSD/소스/build/b000/_pkg_.a

@@ -1,0 +1,6 @@
+# import config
+packagefile driver/driver=/home/user/.cache/go-build/b2/b2e4c054e5b5df5d03c799d7f76bb930ba25c29056da5f40d1d296fb96540ec7-d
+packagefile консоль=/home/user/.cache/go-build/71/7146bfa0aa579cc6a3e2d2b01c1abff8d6769f445a2ed5df0a368ff4fe1615e8-d
+packagefile переривання=/home/user/worldos/나라/UKR/소스/build/b008/_pkg_.a
+packagefile порт=/home/user/.cache/go-build/3b/3ba033a376d5fad6223199c536535bf08ad82190093efb3aa8335cb083a03dc7-d
+packagefile runtime/cgo=/home/user/worldos/나라/UKR/소스/build/b000/_pkg_.a

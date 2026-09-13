@@ -1,0 +1,16 @@
+# import config
+packagefile atmintismanager=/home/user/worldos/나라/LTU/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/fa/fa3bc053b1713a8e9f29b0f5912263361e3506cada2babededc84e44028e10e9-d
+packagefile driver/ata=/home/user/worldos/나라/LTU/소스/build/b005/_pkg_.a
+packagefile failasSistema/elf=/home/user/worldos/나라/LTU/소스/build/b025/_pkg_.a
+packagefile failasSistema/fat=/home/user/worldos/나라/LTU/소스/build/b028/_pkg_.a
+packagefile failasSistema/msdospartition=/home/user/worldos/나라/LTU/소스/build/b029/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/LTU/소스/build/b023/_pkg_.a
+packagefile paging=/home/user/worldos/나라/LTU/소스/build/b026/_pkg_.a
+packagefile pertraukimas=/home/user/worldos/나라/LTU/소스/build/b009/_pkg_.a
+packagefile prievadas=/home/user/.cache/go-build/70/705a8a45ff6208c5d98ba9c01fa6382f7acbef31c5e7be98730b83425aa47342-d
+packagefile tasking/scheduler=/home/user/worldos/나라/LTU/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/LTU/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/3f/3f3a66f0a364cec761566045f1def869e63f501a58adc377e13725c24b838cd0-d
+packagefile virtualiAtmintis=/home/user/worldos/나라/LTU/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LTU/소스/build/b000/_pkg_.a

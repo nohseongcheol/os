@@ -1,0 +1,5 @@
+# import config
+packagefile pamięćmanager=/home/user/worldos/나라/POL/소스/build/b023/_pkg_.a
+packagefile przerwanie=/home/user/worldos/나라/POL/소스/build/b008/_pkg_.a
+packagefile util=/home/user/.cache/go-build/84/84bb748ade28b132e23996a78ab16f096a4711583a94400fc42b72db034bca3d-d
+packagefile runtime/cgo=/home/user/worldos/나라/POL/소스/build/b000/_pkg_.a

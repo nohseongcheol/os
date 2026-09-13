@@ -1,0 +1,5 @@
+# WorldOS MNP UTF-8 command file
+print_arguments "WorldOS MNP"
+show_help
+show_working_directory
+show_process_identifiers

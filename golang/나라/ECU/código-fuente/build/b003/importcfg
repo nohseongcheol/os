@@ -1,0 +1,5 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/46/4646827ea4a680cd5ae6d67dbd873c72a999b6087e00ba6c46df95732ca30e94-d
+packagefile controlador/ata=/home/user/worldos/나라/ECU/소스/build/b006/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/2f/2f7fd7bc4b57ebcc80da4376c11b52c0b88561350b7fdfd08e2ae0c58dfb6243-d
+packagefile runtime/cgo=/home/user/worldos/나라/ECU/소스/build/b000/_pkg_.a

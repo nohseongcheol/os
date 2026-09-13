@@ -1,0 +1,5 @@
+# import config
+packagefile 구동기/저장장치=/home/user/worldos/나라/KOR/원문/build/b027/_pkg_.a
+packagefile 단말=/home/user/worldos/나라/KOR/원문/build/b020/_pkg_.a
+packagefile 도구=/home/user/worldos/나라/KOR/원문/build/b029/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KOR/원문/build/b000/_pkg_.a

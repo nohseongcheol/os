@@ -1,0 +1,4 @@
+# import config
+packagefile طرفية=/home/user/.cache/go-build/92/922aef2946623ea4bdc49dd7f93dd7db298eebef639d01b4bf2bbb7e01142e83-d
+packagefile منفذ=/home/user/.cache/go-build/f9/f90355fa72c4e77fee1891816d22be0dbee63565629d236e2c311ae4faa721bb-d
+packagefile runtime/cgo=/home/user/worldos/나라/IRQ/소스/build/b000/_pkg_.a

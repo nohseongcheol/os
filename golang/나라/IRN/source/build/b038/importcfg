@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/IRN/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/IRN/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/d9/d9c8f80c7e26ba294a52e1af6f042d84e1b0c8ac9444e3ae1be54eb952b93932-d
+packagefile util/list=/home/user/worldos/나라/IRN/소스/build/b032/_pkg_.a
+packagefile حافظهmanager=/home/user/worldos/나라/IRN/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/IRN/소스/build/b000/_pkg_.a

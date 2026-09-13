@@ -1,0 +1,5 @@
+# WorldOS MDG UTF-8 command file
+echo "WorldOS MDG"
+help
+pwd
+pid

@@ -1,0 +1,41 @@
+{
+	// Account for leading alignment padding before selecting a free chunk.
+	// Otherwise the split header can overlap a live page or underflow its size.
+	if size == 0 || size > ^uint32(0)-0x1000 {
+		return nil, 0
+	}
+	var result *TMemoryChunk
+	var diff uint32
+	for chunk := first; chunk != nil; chunk = chunk.next {
+		if chunk.allocated {
+			continue
+		}
+		addr := uint32(uintptr(Pointer(chunk)) + uintptr(memoryChunkSize))
+		diff = (0x1000 - (addr & 0xFFF)) & 0xFFF
+		if addr+diff < addr {
+			continue
+		}
+		if diff <= chunk.size && size <= chunk.size-diff {
+			result = chunk
+			break
+		}
+	}
+	if result == nil {
+		return nil, 0
+	}
+	size += diff
+	if result.size-size >= memoryChunkSize+1 {
+		temp := (*TMemoryChunk)(Pointer(uintptr(Pointer(result)) + uintptr(memoryChunkSize) + uintptr(size)))
+		temp.allocated = false
+		temp.size = result.size - size - memoryChunkSize
+		temp.prev = result
+		temp.next = result.next
+		if temp.next != nil {
+			temp.next.prev = temp
+		}
+		result.size = size
+		result.next = temp
+	}
+	result.allocated = true
+	return Pointer(uintptr(Pointer(result)) + uintptr(memoryChunkSize) + uintptr(diff)), diff
+}

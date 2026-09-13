@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/c6/c6d66006c72806a174be03007a5773c99d1900f6724e4ac75951148cb8caf79c-d
+packagefile port=/home/user/.cache/go-build/9d/9d6dd05a655f4012d8cff8a3ffd6399caf4a283d403b79dcb0c7f72307deef42-d
+packagefile runtime/cgo=/home/user/worldos/나라/SYC/소스/build/b000/_pkg_.a

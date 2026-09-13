@@ -1,0 +1,6 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/83/83128ae9a31d3ab09a5738ea9e41c09674c477aee04e3e516afc4a5a63f19784-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile консоль=/home/user/.cache/go-build/71/7146bfa0aa579cc6a3e2d2b01c1abff8d6769f445a2ed5df0a368ff4fe1615e8-d
+packagefile памятьmanager=/home/user/worldos/나라/UKR/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/UKR/소스/build/b000/_pkg_.a

@@ -1,0 +1,4 @@
+# import config
+packagefile memorijamanager=/home/user/worldos/나라/MNE/소스/build/b023/_pkg_.a
+packagefile конзола=/home/user/.cache/go-build/96/96afb6c7c74970845dd279ad257dff83181af6cc780f33712252e2d14fddf691-d
+packagefile runtime/cgo=/home/user/worldos/나라/MNE/소스/build/b000/_pkg_.a

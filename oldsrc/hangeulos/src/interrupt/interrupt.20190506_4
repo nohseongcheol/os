@@ -1,0 +1,100 @@
+#include "textflag.h"
+#include "go_asm.h"
+
+//#define IRQ_BASE 0x4B //'K'
+//#define interruptnumber 0x00
+
+//DATA interruptnumber<>+0x00(SB)/1, $0x00
+//GLOBL interruptnumber<>(SB),NOPTR, $1 //4byte
+//DATA interruptnumber+0(SB)/1, $0x00
+//GLOBL interruptnumber+0(SB), NOPTR, $1
+//"".interruptnumber SNOPTRDATA size=1
+#define interrupt_bottom(num) \
+        PUSHL BP;               \
+        PUSHL DI;               \
+        PUSHL SI;               \
+                                \
+        PUSHL DX;               \
+        PUSHL CX;               \
+        PUSHL BX;               \
+        PUSHL AX;               \
+				\
+				\
+        MOVB $num, 4(SP);		\
+        MOVL SP, 0(SP);		\
+	CALL interrupt·HandleInterrupt(SB);	\
+				\
+                                \
+        POPL AX;                \
+        POPL BX;                \
+        POPL CX;                \
+        POPL DX;                \
+                                \
+        POPL SI;                \
+        POPL DI;                \
+        POPL BP;                \
+				\
+	ADDL $0, SP		\
+        ;
+
+TEXT ·MyTest(SB),NOSPLIT,$0
+	//MOVB DX, 0xB8000
+	MOVB $0x4B, 0xB8030 // char 'K'
+	RET
+
+TEXT ·HandleInterruptRequest0x00(SB),NOSPLIT,$0
+	//MOVB $0x20, DX
+	//MOVB $(0x00+IRQ_BASE), interruptnumber<>+0x00(SB)
+	//MOVB $0x4B, interruptnumber<>(SB)
+	//MOVB $0x50, 0xB8042 // char P
+	MOVB $0x40, 0xB8030 // char P
+	//--CALL Int_Bottom(SB)
+	interrupt_bottom(0x20)	
+	//MOVB $0x50, 0xB8030 // char P
+	//JMP int_bottom
+	//BYTE $0xCF
+	IRETL
+
+TEXT ·HandleInterruptRequest0x01(SB),NOSPLIT,$0
+	//MOVB $0x21, DX
+	//MOVB $0x4B, interruptnumber<>(SB)
+	//MOVB $0x51, 0xB8044 // char Q
+	//MOVB $0x41, 0xB8032 // char Q
+	//CALL Int_Bottom(SB)
+	interrupt_bottom(0x21)
+	MOVB $0x51, 0xB8062 // char Q
+	//JMP int_bottom
+	IRETL
+
+TEXT ·HandleInterruptRequest0x0C(SB),NOSPLIT,$0
+	interrupt_bottom(0x2C)
+	IRETL
+
+TEXT ·LIDT(SB),NOSPLIT,$0
+	MOVL lidtaddr+0(FP), DX
+	MOVB $0x4C, 0xB8002 // char 'L'
+	BYTE $0x0F; BYTE $0x01; BYTE $0x1A; // lidt [edx]
+	//BYTE $0xC6; BYTE $0x05; BYTE $0x4F; BYTE $0x00; BYTE $0x00; BYTE $0x00; BYTE $0x00;// mov byte[0x4f], 0xb8000
+	RET
+
+TEXT ·InterruptActive(SB),NOSPLIT,$0
+	STI
+	RET
+
+TEXT ·InterruptDeactive(SB),NOSPLIT,$0
+	CLI
+	RET
+
+TEXT ·TestPrint(SB),NOSPLIT,$0
+	MOVB pos+0(FP), AX 
+	MOVB data+1(FP), DX 
+	MOVB DX, 0(AX)
+	//MOVB DL, 0xB8014
+
+TEXT ·HandleInterruptException(SB),NOSPLIT,$0
+	MOVB $0x49, 0xB8050 // char 'H'
+	interrupt_bottom(0x0D)
+	IRETL
+
+TEXT ·InterruptIgnore(SB),NOSPLIT,$0
+	IRETL

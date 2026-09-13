@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "BIH/bs_Latn",
+  "language": "bs_Latn",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

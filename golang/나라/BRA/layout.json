@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "BRA",
+  "language": "pt",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "código-fonte"
+  }
+}

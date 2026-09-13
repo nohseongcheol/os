@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ba/ba96b56a2c65aae034d51100830c4c843768779f35ebf81252d3229e795e41ff-d
+packagefile interruption=/home/user/worldos/나라/BFA/소스/build/b024/_pkg_.a
+packagefile port=/home/user/.cache/go-build/d2/d2493430cd8f57297bafb49a31b54c8c833a6ce9a26904fb47f585108c8e2c15-d
+packagefile systèmeappel=/home/user/worldos/나라/BFA/소스/build/b037/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BFA/소스/build/b000/_pkg_.a

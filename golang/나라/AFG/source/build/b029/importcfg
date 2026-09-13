@@ -1,0 +1,3 @@
+# import config
+packagefile مشترک=/home/user/worldos/나라/AFG/소스/build/b030/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AFG/소스/build/b000/_pkg_.a

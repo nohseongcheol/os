@@ -1,0 +1,5 @@
+# WorldOS ARM UTF-8 command file
+echo "WorldOS ARM"
+help
+pwd
+pid

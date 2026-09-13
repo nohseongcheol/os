@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/b4/b4d95a49ac2894d0101b7a8f35bddbba14b018538c3f465ff93fc241c9966c22-d
+packagefile මතකයmanager=/home/user/worldos/나라/LKA/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LKA/소스/build/b000/_pkg_.a

@@ -1,0 +1,16 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/FIN/소스/build/b002/_pkg_.a
+packagefile keskeytys=/home/user/worldos/나라/FIN/소스/build/b009/_pkg_.a
+packagefile konsoli=/home/user/.cache/go-build/2a/2a1c6d0259aab9894bc97296e6c2e36ac7ce409bb551141fa155e3e67c5fe77d-d
+packagefile muistimanager=/home/user/worldos/나라/FIN/소스/build/b024/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/FIN/소스/build/b023/_pkg_.a
+packagefile paging=/home/user/worldos/나라/FIN/소스/build/b025/_pkg_.a
+packagefile portti=/home/user/.cache/go-build/1d/1d5dc7cbace852c2a65799e0503b1a5db9a7577659742c0bb6cfb09d3b97ce39-d
+packagefile tasking/scheduler=/home/user/worldos/나라/FIN/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/FIN/소스/build/b028/_pkg_.a
+packagefile tiedostoJärjestelmä/fat=/home/user/worldos/나라/FIN/소스/build/b033/_pkg_.a
+packagefile tiedostoJärjestelmä/msdospartition=/home/user/worldos/나라/FIN/소스/build/b034/_pkg_.a
+packagefile tiedostoJärjestelmä/suoritettava_ja_linkitettävä_muoto=/home/user/worldos/나라/FIN/소스/build/b035/_pkg_.a
+packagefile util=/home/user/.cache/go-build/ca/ca78ba0d45832d27f4b7264a4c6018b3d4fbeaa9431cc70a7302ede80bee8134-d
+packagefile virtuaalinenMuisti=/home/user/worldos/나라/FIN/소스/build/b029/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FIN/소스/build/b000/_pkg_.a

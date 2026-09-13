@@ -1,0 +1,7 @@
+# import config
+packagefile memorymanager=/home/user/worldos/나라/JAM/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/JAM/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/JAM/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/f6/f6400a740745fc8aef58c33df691df592c28656b555d7f9ab4092f23dcd757e4-d
+packagefile util/list=/home/user/worldos/나라/JAM/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/JAM/소스/build/b000/_pkg_.a

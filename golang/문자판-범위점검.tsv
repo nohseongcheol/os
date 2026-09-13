@@ -1,0 +1,414 @@
+country	profile	cldr_classification	script_name	implementation_status	note
+AIA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+AIA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+AIA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+ALB	sq_Elba	secondary	Elbasan	not-implemented	CLDR secondary may include historical usage; review before implementation
+ALB	sq_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+ARE	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+ARE	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+ATF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+ATF	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+ATG	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+ATG	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+ATG	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+AUS	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+AUS	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+AUS	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+AUT	de_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+AUT	de_Runr	secondary	Runic	not-implemented	CLDR secondary may include historical usage; review before implementation
+AZE	az_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+AZE	az_Cyrl	secondary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+AZE	az_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BEN	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+BEN	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BFA	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+BFA	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BHR	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BHR	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+BHS	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BHS	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BHS	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+BIH	bs_Cyrl	primary	Cyrillic	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BIH	bs_Latn	primary	Latin	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BLM	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+BLM	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BLZ	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BLZ	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BLZ	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+BMU	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BMU	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BMU	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+BRB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BRB	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BRB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+BRN	ms_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+BRN	ms_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BWA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+BWA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+BWA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+CAF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+CAF	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CAN	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+CAN	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CAN	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+CCK	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+CCK	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CCK	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+CHE	de_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CHE	de_Runr	secondary	Runic	not-implemented	CLDR secondary may include historical usage; review before implementation
+CHN	zh_Bopo	secondary	Bopomofo	not-implemented	CLDR secondary may include historical usage; review before implementation
+CHN	zh_Hans	primary	Simplified	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CHN	zh_Hant	secondary	Traditional	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CHN	zh_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+CHN	zh_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+CIV	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+CIV	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CMR	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+CMR	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+COD	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+COD	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+COG	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+COG	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+COK	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+COK	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+COK	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+COM	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+COM	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+CXR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+CXR	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CXR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+CYM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+CYM	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+CYM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+DEU	de_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+DEU	de_Runr	secondary	Runic	not-implemented	CLDR secondary may include historical usage; review before implementation
+DJI	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+DJI	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+DMA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+DMA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+DMA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+DZA	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+DZA	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+EGY	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+EGY	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+ESH	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+ESH	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+FJI	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+FJI	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+FJI	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+FLK	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+FLK	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+FLK	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+FRA	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+FRA	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+FSM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+FSM	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+FSM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GAB	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+GAB	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GBR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GBR	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GBR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GGY	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GGY	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GGY	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GHA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GHA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GHA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GIB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GIB	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GIB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GIN	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+GIN	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GLP	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+GLP	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GMB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GMB	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GMB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GRD	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GRD	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GRD	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUF	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GUM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUM	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GUM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUY	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+GUY	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+GUY	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+HKG	zh_Bopo	secondary	Bopomofo	not-implemented	CLDR secondary may include historical usage; review before implementation
+HKG	zh_Hans	primary	Simplified	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+HKG	zh_Hant	secondary	Traditional	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+HKG	zh_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+HKG	zh_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+IDN	id_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+IDN	id_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IMN	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+IMN	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IMN	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	as_Beng	project-script-edition	Beng	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	bn_Beng	project-script-edition	Beng	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	brx_Deva	project-script-edition	Deva	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	doi_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	doi_Deva	primary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	doi_Takr	secondary	Takri	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	gu_Gujr	project-script-edition	Gujr	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	hi_Deva	primary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	hi_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	hi_Mahj	secondary	Mahajani	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	kn_Knda	project-script-edition	Knda	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	kok_Deva	primary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	kok_Latn	primary	Latin	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	ks_Arab	primary	Arabic	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	ks_Deva	primary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	mai_Deva	primary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	mai_Tirh	secondary	Tirhuta	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	ml_Mlym	project-script-edition	Mlym	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	mni_Beng	primary	Bangla	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	mni_Mtei	secondary	Meitei Mayek	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	mr_Deva	primary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	mr_Modi	secondary	Modi	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	ne_Deva	project-script-edition	Deva	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	or_Orya	project-script-edition	Orya	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	pa_Arab	secondary	Arabic	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	pa_Guru	primary	Gurmukhi	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	sa_Deva	secondary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	sa_Gran	secondary	Grantha	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sa_Shrd	secondary	Sharada	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sa_Sidd	secondary	Siddham	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sa_Sinh	secondary	Sinhala	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sat_Beng	secondary	Bangla	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	sat_Deva	secondary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	sat_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sat_Olck	primary	Ol Chiki	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	sat_Orya	secondary	Odia	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sd_Arab	primary	Arabic	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	sd_Deva	primary	Devanagari	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IND	sd_Khoj	secondary	Khojki	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	sd_Sind	secondary	Khudawadi	not-implemented	CLDR secondary may include historical usage; review before implementation
+IND	ta_Taml	project-script-edition	Taml	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	te_Telu	project-script-edition	Telu	source-added-language-review-pending	Independent edition; terminology incomplete
+IND	ur_Arab	project-script-edition	Arab	source-added-language-review-pending	Independent edition; terminology incomplete
+IOT	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+IOT	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IOT	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+IRL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+IRL	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IRL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+IRQ	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+IRQ	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+JAM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+JAM	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+JAM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+JEY	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+JEY	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+JEY	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+JOR	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+JOR	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+JPN	ja_Hira	project-script-edition	Hiragana	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+JPN	ja_Jpan	primary	Japanese	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+JPN	ja_Kana	project-script-edition	Katakana	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+KGZ	ky_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+KGZ	ky_Cyrl	primary	Cyrillic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+KGZ	ky_Latn	primary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+KIR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+KIR	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+KIR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+KNA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+KNA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+KNA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+KWT	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+KWT	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+LBN	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+LBN	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+LBR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+LBR	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+LBR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+LBY	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+LBY	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+LCA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+LCA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+LCA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+LIE	de_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+LIE	de_Runr	secondary	Runic	not-implemented	CLDR secondary may include historical usage; review before implementation
+LUX	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+LUX	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MAC	zh_Bopo	secondary	Bopomofo	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAC	zh_Hans	primary	Simplified	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MAC	zh_Hant	secondary	Traditional	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MAC	zh_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAC	zh_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MAF	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MAR	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MAR	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+MCO	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MCO	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MDA	ro_Cyrl	secondary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+MDA	ro_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MHL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MHL	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MHL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MLI	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MLI	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MNE	sr_Cyrl	primary	Cyrillic	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MNE	sr_Latn	primary	Latin	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MNG	mn_Cyrl	primary	Cyrillic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MNG	mn_Mong	secondary	Mongolian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MNG	mn_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+MNP	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MNP	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MNP	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MRT	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MRT	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+MSR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MSR	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MSR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MTQ	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MTQ	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MUS	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MUS	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MUS	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MWI	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+MWI	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MWI	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+MYS	ms_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+MYS	ms_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+MYT	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+MYT	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NAM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NAM	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NAM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NCL	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+NCL	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NER	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+NER	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NFK	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NFK	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NFK	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NGA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NGA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NGA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NIU	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NIU	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NIU	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NRU	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NRU	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NRU	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+NZL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+NZL	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+NZL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+OMN	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+OMN	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+PCN	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+PCN	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+PCN	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+PHL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+PHL	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+PHL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+PSE	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+PSE	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+PYF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+PYF	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+QAT	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+QAT	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+REU	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+REU	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+ROU	ro_Cyrl	secondary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+ROU	ro_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SAU	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SAU	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+SDN	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SDN	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+SEN	wo_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+SEN	wo_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SGP	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SGP	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SGP	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SHN	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SHN	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SHN	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SLB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SLB	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SLB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SLE	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SLE	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SLE	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SOM	so_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+SOM	so_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SOM	so_Osma	secondary	Osmanya	not-implemented	CLDR secondary may include historical usage; review before implementation
+SPM	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+SPM	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SRB	sr_Cyrl	primary	Cyrillic	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SRB	sr_Latn	primary	Latin	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SSD	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SSD	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SSD	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SWZ	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SWZ	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SWZ	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SXM	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+SXM	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SXM	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+SYC	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+SYC	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SYR	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+SYR	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+TCA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+TCA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TCA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+TCD	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+TCD	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TGO	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+TGO	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TJK	tg_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+TJK	tg_Cyrl	primary	Cyrillic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TJK	tg_Latn	primary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKL	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKL	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TKL	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKM	tk_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKM	tk_Cyrl	primary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+TKM	tk_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TTO	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+TTO	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TTO	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+TUN	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TUN	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+TUR	tr_Arab	secondary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+TUR	tr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TWN	zh_Bopo	secondary	Bopomofo	not-implemented	CLDR secondary may include historical usage; review before implementation
+TWN	zh_Hans	primary	Simplified	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TWN	zh_Hant	secondary	Traditional	source-added-language-review-pending	CLDR secondary may include historical usage; review before implementation
+TWN	zh_Latn	secondary	Latin	not-implemented	CLDR secondary may include historical usage; review before implementation
+TWN	zh_Phag	secondary	Phags-pa	not-implemented	CLDR secondary may include historical usage; review before implementation
+UMI	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+UMI	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+UMI	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+USA	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+USA	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+USA	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+UZB	uz_Arab	primary	Arabic	not-implemented	CLDR secondary may include historical usage; review before implementation
+UZB	uz_Cyrl	primary	Cyrillic	not-implemented	CLDR secondary may include historical usage; review before implementation
+UZB	uz_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+VCT	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+VCT	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+VCT	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+VGB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+VGB	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+VGB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+VIR	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+VIR	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+VIR	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+VNM	vi_Hani	secondary	Han	not-implemented	CLDR secondary may include historical usage; review before implementation
+VNM	vi_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+WLF	fr_Dupl	secondary	Duployan shorthand	not-implemented	CLDR secondary may include historical usage; review before implementation
+WLF	fr_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+YEM	ar_Arab	primary	Arabic	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+YEM	ar_Syrc	secondary	Syriac	not-implemented	CLDR secondary may include historical usage; review before implementation
+ZAF	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+ZAF	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+ZAF	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation
+ZMB	en_Dsrt	secondary	Deseret	not-implemented	CLDR secondary may include historical usage; review before implementation
+ZMB	en_Latn	primary	Latin	existing-country-source-language-review-pending	CLDR secondary may include historical usage; review before implementation
+ZMB	en_Shaw	secondary	Shavian	not-implemented	CLDR secondary may include historical usage; review before implementation

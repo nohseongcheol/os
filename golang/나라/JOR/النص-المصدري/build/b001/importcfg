@@ -1,0 +1,25 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/67/67486195ecf3d4e6da60de51c947b35e6b5cfe6576c5fa033fbdaf1443ff6ee3-d
+packagefile pci=/home/user/worldos/나라/JOR/소스/build/b017/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile أداة=/home/user/.cache/go-build/49/49ef06aeb40051a51c8573bbd536c86cd4c4ad2cf352a59d9b6f809c43dde04f-d
+packagefile إدارةصفحات=/home/user/worldos/나라/JOR/소스/build/b024/_pkg_.a
+packagefile إدارةمهام/tss=/home/user/worldos/나라/JOR/소스/build/b025/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/JOR/소스/build/b026/_pkg_.a
+packagefile إدارةمهام/عملية=/home/user/worldos/나라/JOR/소스/build/b029/_pkg_.a
+packagefile إدارةمهام/مجدول=/home/user/worldos/나라/JOR/소스/build/b031/_pkg_.a
+packagefile افتراضيذاكرة=/home/user/worldos/나라/JOR/소스/build/b027/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/JOR/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/26/2694ebff914ea72a60c980cdd5b69d3eba70e11619da1202ce5416b13f0689d5-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/JOR/소스/build/b020/_pkg_.a
+packagefile مشغل/ata=/home/user/worldos/나라/JOR/소스/build/b032/_pkg_.a
+packagefile مشغل/جهاز_تأشير=/home/user/worldos/나라/JOR/소스/build/b033/_pkg_.a
+packagefile مشغل/لوحةمفاتيح=/home/user/worldos/나라/JOR/소스/build/b034/_pkg_.a
+packagefile مشغل/مشغل=/home/user/.cache/go-build/03/03e37dead3b05913f597414ab5e01037d3d4350d439eecbedd815d900b2c09a6-d
+packagefile مقاطعة=/home/user/worldos/나라/JOR/소스/build/b019/_pkg_.a
+packagefile ملفنظام/fat=/home/user/worldos/나라/JOR/소스/build/b036/_pkg_.a
+packagefile ملفنظام/msdosتجزئة=/home/user/worldos/나라/JOR/소스/build/b037/_pkg_.a
+packagefile ملفنظام/صيغة_التنفيذ_والربط=/home/user/worldos/나라/JOR/소스/build/b038/_pkg_.a
+packagefile نظامنداء=/home/user/worldos/나라/JOR/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/JOR/소스/build/b000/_pkg_.a

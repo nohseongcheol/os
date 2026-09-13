@@ -1,0 +1,4 @@
+# import config
+packagefile atmiņamanager=/home/user/worldos/나라/LVA/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/c4/c47f0c987c300933bf848bc516be2311c9a243681f6e7839e63fc2befa81eaf0-d
+packagefile runtime/cgo=/home/user/worldos/나라/LVA/소스/build/b000/_pkg_.a

@@ -1,0 +1,4 @@
+# import config
+packagefile ذاكرةمدير=/home/user/worldos/나라/COM/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/4b/4b1163b2703c608cf80353cce51da35379fb183f9635ccf508869be7c53950cd-d
+packagefile runtime/cgo=/home/user/worldos/나라/COM/소스/build/b000/_pkg_.a

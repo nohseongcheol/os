@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/4a/4a7acbaf31fe1419c7e6a7208ef1838578071ad820fa0e5475c770233ae04e8f-d
+packagefile fichiersystème/fat=/home/user/worldos/나라/BLM/소스/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/BLM/소스/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/BLM/소스/build/b005/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/98/9881c064c8079d09fb46351651cf53a28afa45152ab9e9fae873a0944d074c8f-d
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/BLM/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/BLM/소스/build/b030/_pkg_.a
+packagefile gestionTâches/processus=/home/user/worldos/나라/BLM/소스/build/b033/_pkg_.a
+packagefile gestionTâches/tss=/home/user/worldos/나라/BLM/소스/build/b031/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/BLM/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/BLM/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/BLM/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/BLM/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/BLM/소스/build/b034/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/BLM/소스/build/b006/_pkg_.a
+packagefile pilote/clavier=/home/user/worldos/나라/BLM/소스/build/b036/_pkg_.a
+packagefile pilote/dispositif_de_pointage=/home/user/worldos/나라/BLM/소스/build/b038/_pkg_.a
+packagefile pilote/pilote=/home/user/.cache/go-build/1d/1d119b3ad55ba1324f6c88108cb61afca1ac1288d79c76256748f925c153c9c0-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systèmeappel=/home/user/worldos/나라/BLM/소스/build/b037/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/55/5537d27697902b6722faf2e9bfa2a0289924213e48e2934ef43d09c60b69bd1e-d
+packagefile virtuelmémoire=/home/user/worldos/나라/BLM/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BLM/소스/build/b000/_pkg_.a

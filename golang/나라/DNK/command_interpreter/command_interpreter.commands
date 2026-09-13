@@ -1,0 +1,5 @@
+# WorldOS DNK UTF-8 command file
+echo "WorldOS DNK"
+help
+pwd
+pid

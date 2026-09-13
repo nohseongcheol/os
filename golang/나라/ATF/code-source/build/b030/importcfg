@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/91/919822c174845a7990b47a5ac6f1082ed24839b6c44733b3f45305cc31d44308-d
+packagefile gdt=/home/user/.cache/go-build/d8/d859c076517342419ba08079de9b9fbda2b12c86f4c449ddcc8c8faf6477388f-d
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/ATF/소스/build/b027/_pkg_.a
+packagefile gestionTâches/tss=/home/user/worldos/나라/ATF/소스/build/b031/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/ATF/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/ATF/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/ATF/소스/build/b021/_pkg_.a
+packagefile port=/home/user/.cache/go-build/30/300bd5c468e2006fb60a19b8fa9c60f8f825d9f01201890a78c71f70ea8cea3a-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile utilitaire/liste=/home/user/worldos/나라/ATF/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ATF/소스/build/b000/_pkg_.a

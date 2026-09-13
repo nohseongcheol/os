@@ -1,0 +1,5 @@
+# WorldOS BTN UTF-8 command file
+echo "WorldOS BTN"
+help
+pwd
+pid

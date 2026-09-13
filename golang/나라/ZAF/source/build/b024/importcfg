@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/74/7453ca1c0d649813a68b394fb83cd03228c81c3074298a2a4717065978af1e00-d
+packagefile driver/ata=/home/user/worldos/나라/ZAF/소스/build/b004/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/ZAF/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/ZAF/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/ZAF/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/ZAF/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/ZAF/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/ZAF/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/ZAF/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/5a/5a14d014e3867d82f158aab09f309971a477563a40e64b7f1b7a447ebeb2bd86-d
+packagefile tasking/scheduler=/home/user/worldos/나라/ZAF/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ZAF/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/20/20e5fe45ca30b2634464d3e85208d1bdd5340ce5f9e383771b6a5f1ae5268c40-d
+packagefile virtualmemory=/home/user/worldos/나라/ZAF/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ZAF/소스/build/b000/_pkg_.a

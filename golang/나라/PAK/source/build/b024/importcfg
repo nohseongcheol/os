@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/2f/2f852203ebd084aa094186e033ef5098d031f16301f66dd6d7d60398ad6b0d05-d
+packagefile مداخلت=/home/user/worldos/나라/PAK/소스/build/b008/_pkg_.a
+packagefile نظامcall=/home/user/worldos/나라/PAK/소스/build/b025/_pkg_.a
+packagefile پورٹ=/home/user/.cache/go-build/3f/3f3b2b5dc5efbcaf3bc75fc1847d3877926370fa14712d6187b2762f6abdaad3-d
+packagefile runtime/cgo=/home/user/worldos/나라/PAK/소스/build/b000/_pkg_.a

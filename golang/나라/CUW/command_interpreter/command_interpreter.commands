@@ -1,0 +1,5 @@
+# WorldOS CUW UTF-8 command file
+echo "WorldOS CUW"
+help
+pwd
+pid

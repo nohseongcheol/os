@@ -1,0 +1,5 @@
+# WorldOS MYS UTF-8 command file
+paparkan_argumen "WorldOS MYS"
+paparkan_bantuan
+paparkan_direktori_semasa
+paparkan_pengenal_proses

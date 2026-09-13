@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/74/7453ca1c0d649813a68b394fb83cd03228c81c3074298a2a4717065978af1e00-d
+packagefile driver/ata=/home/user/worldos/나라/ZAF/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/c5/c590e3fc9f86d4d48f6f9a6905d651fee720ea38461eb6a917101a09774f8b89-d
+packagefile driver/keyboard=/home/user/worldos/나라/ZAF/소스/build/b007/_pkg_.a
+packagefile driver/pointing_device=/home/user/worldos/나라/ZAF/소스/build/b036/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/ZAF/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/ZAF/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/ZAF/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/ae/ae55f2b19c4b0282c3e686c9baafddb563676030117a7385965cd4a4ac1b88fb-d
+packagefile interrupt=/home/user/worldos/나라/ZAF/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/ZAF/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/ZAF/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/ZAF/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/ZAF/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/ZAF/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/ZAF/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/ZAF/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ZAF/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/ZAF/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/20/20e5fe45ca30b2634464d3e85208d1bdd5340ce5f9e383771b6a5f1ae5268c40-d
+packagefile virtualmemory=/home/user/worldos/나라/ZAF/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ZAF/소스/build/b000/_pkg_.a

@@ -1,0 +1,5 @@
+# WorldOS USA UTF-8 command file
+print_arguments "WorldOS USA"
+show_help
+show_working_directory
+show_process_identifiers

@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	تخصيص الذاكرة	تخصيص_الذاكرة	project-proposal	function-based project proposal
+append	إضافة إلى نهاية القائمة	إضافة_إلى_نهاية_القائمة	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	خريطة التخصيص	خريطة_التخصيص	project-proposal	function-based project proposal
+boot	إقلاع الآلة	إقلاع_الآلة	project-proposal	function-based project proposal
+boot_record	سجل الإقلاع الرئيسي	سجل_الإقلاع_الرئيسي	project-proposal	boot code and partition metadata, not an audio recording
+bus	مسار نقل مشترك	مسار_نقل_مشترك	project-proposal	function-based project proposal
+compile_kernel	ترجمة النواة	ترجمة_النواة	project-proposal	function-based project proposal
+destination_port	رقم منفذ الوجهة	رقم_منفذ_الوجهة	project-proposal	function-based project proposal
+elf	صيغة التنفيذ والربط	صيغة_التنفيذ_والربط	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	رقم الخطأ	رقم_الخطأ	project-proposal	function-based project proposal
+ethernet_frame	إطار شبكة ذات وسط مشترك	إطار_شبكة_ذات_وسط_مشترك	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	ترويسة إطار الشبكة ذات الوسط المشترك	ترويسة_إطار_الشبكة_ذات_الوسط_المشترك	project-proposal	function-based project proposal
+ethernet_provider	مزود إطارات الشبكة ذات الوسط المشترك	مزود_إطارات_الشبكة_ذات_الوسط_المشترك	project-proposal	function-based project proposal
+fat_parameters	معلمات نظام الملفات	معلمات_نظام_الملفات	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	التحكم بالملف	التحكم_بالملف	project-proposal	function-based project proposal
+file_read	قراءة الملف	قراءة_الملف	project-proposal	function-based project proposal
+file_status	حالة الملف	حالة_الملف	project-proposal	function-based project proposal
+file_write	كتابة الملف	كتابة_الملف	project-proposal	function-based project proposal
+free_memory	تحرير الذاكرة	تحرير_الذاكرة	project-proposal	function-based project proposal
+headers	تصريحات	تصريحات	project-proposal	function-based project proposal
+heap	ذاكرة ديناميكية	ذاكرة_ديناميكية	project-proposal	function-based project proposal
+icmp	بروتوكول رسائل التحكم بالشبكة المترابطة	بروتوكول_رسائل_التحكم_بالشبكة_المترابطة	project-proposal	function-based project proposal
+implementation	تنفيذ	تنفيذ	project-proposal	function-based project proposal
+insert_at	إدراج عند الفهرس	إدراج_عند_الفهرس	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	شبكة مترابطة	شبكة_مترابطة	project-proposal	function-based project proposal
+ip_provider	مزود بروتوكول الشبكة المترابطة	مزود_بروتوكول_الشبكة_المترابطة	project-proposal	function-based project proposal
+ipv4	بروتوكول الشبكة المترابطة 4	بروتوكول_الشبكة_المترابطة_4	project-proposal	function-based project proposal
+link_layout	تخطيط الربط	تخطيط_الربط	project-proposal	function-based project proposal
+list_node	عقدة قائمة	عقدة_قائمة	project-proposal	function-based project proposal
+log_decoder	تحليل السجل التسلسلي	تحليل_السجل_التسلسلي	project-proposal	function-based project proposal
+mouse	جهاز تأشير	جهاز_تأشير	project-proposal	function-based project proposal
+page_directory	دليل الصفحات	دليل_الصفحات	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	صفحة فعلية	صفحة_فعلية	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	مرجع عنوان	مرجع_عنوان	project-proposal	function-based project proposal
+prepend	إضافة إلى بداية القائمة	إضافة_إلى_بداية_القائمة	project-proposal	src/util/list/list.go: links before head
+register	مسجل	مسجل	project-proposal	function-based project proposal
+set_coordinates	تعيين الإحداثيات المحلية	تعيين_الإحداثيات_المحلية	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	رقم منفذ المصدر	رقم_منفذ_المصدر	project-proposal	function-based project proposal
+stack	ذاكرة مكدس	ذاكرة_مكدس	project-proposal	function-based project proposal
+startup	بدء التشغيل	بدء_التشغيل	project-proposal	function-based project proposal
+structure_offsets	إزاحات البنية	إزاحات_البنية	project-proposal	function-based project proposal
+system_call	نداء النظام	نداء_النظام	project-proposal	function-based project proposal
+tests	اختبارات	اختبارات	project-proposal	function-based project proposal
+toggle_bit	عكس بت التخصيص	عكس_بت_التخصيص	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	أدوات	أدوات	project-proposal	function-based project proposal
+udp	بروتوكول رزم المستخدم	بروتوكول_رزم_المستخدم	project-proposal	function-based project proposal
+udp_header	ترويسة رزم المستخدم	ترويسة_رزم_المستخدم	project-proposal	function-based project proposal
+udp_socket	نقطة اتصال رزم المستخدم	نقطة_اتصال_رزم_المستخدم	project-proposal	function-based project proposal
+user_space	فضاء المستخدم	فضاء_المستخدم	project-proposal	function-based project proposal
+widget	عنصر شاشة	عنصر_شاشة	project-proposal	function-based project proposal

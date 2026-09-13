@@ -1,0 +1,102 @@
+CC ?= gcc
+AR ?= ar
+CFLAGS := -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin \
+	-Wall -Wextra -Werror -nostdinc -I標頭檔
+BUILD := build
+OBJECTS := $(BUILD)/syscall.o $(BUILD)/errno.o $(BUILD)/unistd.o \
+	$(BUILD)/fcntl.o $(BUILD)/stat.o $(BUILD)/socket.o
+
+.PHONY: all clean check runtime test-programs
+
+all: $(BUILD)/libposix.a
+
+$(BUILD):
+	mkdir -p $@
+
+$(BUILD)/errno.o: 实现/错误编号.c | $(BUILD)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(BUILD)/unistd.o: 实现/unistd.c | $(BUILD)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(BUILD)/fcntl.o: 实现/文件控制.c | $(BUILD)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(BUILD)/stat.o: 实现/文件状态.c | $(BUILD)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(BUILD)/socket.o: 实现/socket.c | $(BUILD)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(BUILD)/syscall.o: 实现/系统调用.S | $(BUILD)
+	$(CC) -m32 -c $< -o $@
+
+$(BUILD)/crt0.o: 实现/启动.S | $(BUILD)
+	$(CC) -m32 -c $< -o $@
+
+$(BUILD)/libposix.a: $(OBJECTS)
+	$(AR) rcs $@ $^
+
+$(BUILD)/compile-test.o: 测试/compile.c $(BUILD)/libposix.a
+	$(CC) $(CFLAGS) -c $< -o $@
+
+check: $(BUILD)/compile-test.o
+	@nm -u $(BUILD)/libposix.a | sed '/__syscall6/d' || true
+
+$(BUILD)/runtime.o: 测试/runtime.c $(BUILD)/libposix.a
+	$(CC) $(CFLAGS) -fno-pic -c $< -o $@
+
+$(BUILD)/posix-runtime: $(BUILD)/runtime.o $(BUILD)/crt0.o $(BUILD)/libposix.a
+	ld -n -m elf_i386 -e _start -T 链接布局.ld -static --no-ld-generated-unwind-info \
+		-o $@ $(BUILD)/crt0.o $(BUILD)/runtime.o $(BUILD)/libposix.a
+
+runtime: $(BUILD)/posix-runtime
+
+$(BUILD)/exec-target.o: 测试/exec_target.c $(BUILD)/libposix.a
+	$(CC) $(CFLAGS) -fno-pic -c $< -o $@
+
+$(BUILD)/posix-exec-target: $(BUILD)/exec-target.o $(BUILD)/crt0.o $(BUILD)/libposix.a
+	ld -n -m elf_i386 -e _start -T 链接布局.ld -static --no-ld-generated-unwind-info \
+		-o $@ $(BUILD)/crt0.o $(BUILD)/exec-target.o $(BUILD)/libposix.a
+
+$(BUILD)/exec-runtime.o: 测试/exec_runtime.c $(BUILD)/libposix.a
+	$(CC) $(CFLAGS) -fno-pic -c $< -o $@
+
+$(BUILD)/posix-exec-runtime: $(BUILD)/exec-runtime.o $(BUILD)/crt0.o $(BUILD)/libposix.a
+	ld -n -m elf_i386 -e _start -T 链接布局.ld -static --no-ld-generated-unwind-info \
+		-o $@ $(BUILD)/crt0.o $(BUILD)/exec-runtime.o $(BUILD)/libposix.a
+
+$(BUILD)/heap-runtime.o: 测试/heap_runtime.c $(BUILD)/libposix.a
+	$(CC) $(CFLAGS) -fno-pic -c $< -o $@
+
+$(BUILD)/posix-heap-runtime: $(BUILD)/heap-runtime.o $(BUILD)/crt0.o $(BUILD)/libposix.a
+	ld -n -m elf_i386 -e _start -T 链接布局.ld -static --no-ld-generated-unwind-info \
+		-o $@ $(BUILD)/crt0.o $(BUILD)/heap-runtime.o $(BUILD)/libposix.a
+
+$(BUILD)/fork-runtime.o: 测试/fork_runtime.c $(BUILD)/libposix.a
+	$(CC) $(CFLAGS) -fno-pic -c $< -o $@
+
+$(BUILD)/posix-fork-runtime: $(BUILD)/fork-runtime.o $(BUILD)/crt0.o $(BUILD)/libposix.a
+	ld -n -m elf_i386 -e _start -T 链接布局.ld -static --no-ld-generated-unwind-info \
+		-o $@ $(BUILD)/crt0.o $(BUILD)/fork-runtime.o $(BUILD)/libposix.a
+
+$(BUILD)/stdin-runtime.o: 测试/stdin_runtime.c $(BUILD)/libposix.a
+	$(CC) $(CFLAGS) -fno-pic -c $< -o $@
+
+$(BUILD)/posix-stdin-runtime: $(BUILD)/stdin-runtime.o $(BUILD)/crt0.o $(BUILD)/libposix.a
+	ld -n -m elf_i386 -e _start -T 链接布局.ld -static --no-ld-generated-unwind-info \
+		-o $@ $(BUILD)/crt0.o $(BUILD)/stdin-runtime.o $(BUILD)/libposix.a
+
+test-programs: runtime $(BUILD)/posix-exec-target $(BUILD)/posix-exec-runtime \
+	$(BUILD)/posix-heap-runtime $(BUILD)/posix-fork-runtime \
+	$(BUILD)/posix-stdin-runtime $(BUILD)/posix-socket-runtime
+
+$(BUILD)/socket-runtime.o: 测试/socket_runtime.c $(BUILD)/libposix.a
+	$(CC) $(CFLAGS) -fno-pic -c $< -o $@
+
+$(BUILD)/posix-socket-runtime: $(BUILD)/socket-runtime.o $(BUILD)/crt0.o $(BUILD)/libposix.a
+	ld -n -m elf_i386 -e _start -T 链接布局.ld -static --no-ld-generated-unwind-info \
+		-o $@ $(BUILD)/crt0.o $(BUILD)/socket-runtime.o $(BUILD)/libposix.a
+
+clean:
+	rm -rf $(BUILD)

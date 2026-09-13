@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{原始檔}=$1
+@{目的檔}=$2
+@{執行檔}=$3
+@{標頭檔目錄}=$4
+@{啟動目的檔}=$5
+@{函式庫檔}=$6
+@{連結配置檔}=$7
+
+@{建置命令解譯器}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{標頭檔目錄}" -c "$@{原始檔}" -o "$@{目的檔}"
+    ld -n -m elf_i386 -e _start -T "$@{連結配置檔}" -static \
+        --no-ld-generated-unwind-info -o "$@{執行檔}" \
+        "$@{啟動目的檔}" "$@{目的檔}" "$@{函式庫檔}"
+}
+@{建置命令解譯器}

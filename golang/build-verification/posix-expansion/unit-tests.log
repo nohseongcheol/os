@@ -1,0 +1,8 @@
+........................REFRESH BACKUP ZZZ /tmp/worldos-posix-test-_e5c_ef0/worldos-posix-refresh-backup-ox4a8iz_
+MOVED ZZZ posix-kor -> posix-ZZZ BACKUP /tmp/worldos-posix-test-_e5c_ef0/worldos-posix-country-backup-_0e5bpkr
+..............................................RENAMED ZZZ command_interpreter -> renamed_interpreter backup: /tmp/worldos-shell-migration-test-rigvper7/worldos-shell-rename-backup-1xczgsek
+.........
+----------------------------------------------------------------------
+Ran 79 tests in 3.474s
+
+OK

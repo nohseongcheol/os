@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	도움말_표시
+echo	인수_출력
+pwd	현재_경로_표시
+cat	자료철_내용_표시
+stat	자료철_정보_표시
+pid	실행과정_번호_표시
+uname	운영체제_정보_표시
+run	실행자료철_가동
+udp	자료전문_되돌림_시험
+source	명령자료철_해석
+cd	경로이동
+exit	나가기

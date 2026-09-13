@@ -1,0 +1,4 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/2c/2c539c1fe0bd657ae8ffa18fe89dd5aea5e9dc7f9f242ef45b2c8ce5d4357028-d
+packagefile طرفية=/home/user/.cache/go-build/c4/c4dd0db75909797951483c382f755959e47f8946949fc534ce1674f8877dbcc8-d
+packagefile runtime/cgo=/home/user/worldos/나라/ESH/소스/build/b000/_pkg_.a

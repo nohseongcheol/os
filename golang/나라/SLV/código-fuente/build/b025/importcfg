@@ -1,0 +1,5 @@
+# import config
+packagefile consola=/home/user/worldos/나라/SLV/소스/build/b003/_pkg_.a
+packagefile controlador/ata=/home/user/worldos/나라/SLV/소스/build/b026/_pkg_.a
+packagefile utilidad=/home/user/worldos/나라/SLV/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SLV/소스/build/b000/_pkg_.a

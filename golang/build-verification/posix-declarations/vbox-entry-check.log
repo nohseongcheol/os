@@ -1,0 +1,2 @@
+python3 tools/install_vbox.py --check
+PASS 295 independent VirtualBox launchers

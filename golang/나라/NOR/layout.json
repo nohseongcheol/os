@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "NOR",
+  "language": "nb",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

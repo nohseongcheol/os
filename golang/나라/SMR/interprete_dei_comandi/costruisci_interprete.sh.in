@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{file_sorgente}=$1
+@{file_oggetto}=$2
+@{file_eseguibile}=$3
+@{cartella_delle_dichiarazioni}=$4
+@{oggetto_di_avvio}=$5
+@{file_di_libreria}=$6
+@{file_di_collegamento}=$7
+
+@{costruisci_interprete}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{cartella_delle_dichiarazioni}" -c "$@{file_sorgente}" -o "$@{file_oggetto}"
+    ld -n -m elf_i386 -e _start -T "$@{file_di_collegamento}" -static \
+        --no-ld-generated-unwind-info -o "$@{file_eseguibile}" \
+        "$@{oggetto_di_avvio}" "$@{file_oggetto}" "$@{file_di_libreria}"
+}
+@{costruisci_interprete}

@@ -1,0 +1,9 @@
+PASS USA audit 8 guest cases
+PASS CHN audit 8 guest cases
+PASS KOR audit 8 guest cases
+PASS IND/hi_Deva audit 8 guest cases
+PASS IND/ta_Taml audit 8 guest cases
+PASS JPN/ja_Hira audit 8 guest cases
+PASS JPN/ja_Kana audit 8 guest cases
+PASS CHN/zh_Hant audit 8 guest cases
+PASS SRB/sr_Cyrl audit 8 guest cases

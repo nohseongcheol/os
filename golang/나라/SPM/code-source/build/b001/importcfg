@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/47/4730211e0cdc5acc4b18f5c55d7b40970c2c24f22e09b5a9951887463f9405d3-d
+packagefile fichiersystème/fat=/home/user/worldos/나라/SPM/소스/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/SPM/소스/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/SPM/소스/build/b005/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/df/dfbe2cba71502d3376b87ed400016615f3bbbb398a1b2ec67c79dd80dacd2c47-d
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/SPM/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/SPM/소스/build/b030/_pkg_.a
+packagefile gestionTâches/processus=/home/user/worldos/나라/SPM/소스/build/b033/_pkg_.a
+packagefile gestionTâches/tss=/home/user/worldos/나라/SPM/소스/build/b031/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/SPM/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/SPM/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/SPM/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/SPM/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/SPM/소스/build/b034/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/SPM/소스/build/b006/_pkg_.a
+packagefile pilote/clavier=/home/user/worldos/나라/SPM/소스/build/b036/_pkg_.a
+packagefile pilote/dispositif_de_pointage=/home/user/worldos/나라/SPM/소스/build/b038/_pkg_.a
+packagefile pilote/pilote=/home/user/.cache/go-build/17/173fe91bc6ca49e8e084d3cc3bd30e5eb5b23f89bb259446dc4b5605d3c7cba1-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systèmeappel=/home/user/worldos/나라/SPM/소스/build/b037/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/48/4862dc47a457e9b751415aecc77fde4f55b9a0307a879d67d0480530353cc11d-d
+packagefile virtuelmémoire=/home/user/worldos/나라/SPM/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SPM/소스/build/b000/_pkg_.a

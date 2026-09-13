@@ -1,0 +1,5 @@
+# import config
+packagefile 中断=/home/user/worldos/나라/CHN/源代码/build/b018/_pkg_.a
+packagefile 控制台=/home/user/worldos/나라/CHN/源代码/build/b016/_pkg_.a
+packagefile 端口=/home/user/worldos/나라/CHN/源代码/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHN/源代码/build/b000/_pkg_.a

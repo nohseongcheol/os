@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	Hilfe_anzeigen
+echo	Argumente_ausgeben
+pwd	Arbeitsverzeichnis_anzeigen
+cat	Dateiinhalt_anzeigen
+stat	Dateiinformationen_anzeigen
+pid	Prozesskennungen_anzeigen
+uname	Systemkennung_anzeigen
+run	Programm_ausführen
+udp	Datagrammrücklauf_prüfen
+source	Befehlsdatei_auswerten
+cd	Verzeichnis_wechseln
+exit	beenden

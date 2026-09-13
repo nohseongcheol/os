@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "CCK",
+  "language": "en",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "source"
+  }
+}

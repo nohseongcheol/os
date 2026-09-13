@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/24/245e6a17d74dca14ffdfabae1bc52ccb32463266d280ce47a66ac55b18241ef7-d
+packagefile driver/driver=/home/user/.cache/go-build/ad/ad6dcb3f4fae2fd8103a475bffce863915411b97eba7a07f57182d7e0978a483-d
+packagefile interrupt=/home/user/worldos/나라/UZB/소스/build/b008/_pkg_.a
+packagefile port=/home/user/.cache/go-build/ca/cab7f4d8fd985576087c1217a68a67e97d2e64fa5d3c4b640d546106c57ee98e-d
+packagefile runtime/cgo=/home/user/worldos/나라/UZB/소스/build/b000/_pkg_.a

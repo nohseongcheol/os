@@ -1,0 +1,16 @@
+# import config
+packagefile arikaMpandrindra=/home/user/worldos/나라/MDG/소스/build/b002/_pkg_.a
+packagefile driver/ata=/home/user/worldos/나라/MDG/소스/build/b004/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/MDG/소스/build/b009/_pkg_.a
+packagefile irika=/home/user/.cache/go-build/77/77ce7f6702e7ed00711a88e9dd0d111c6cca968aa108e3cc2e113e6723c1241f-d
+packagefile konsoly=/home/user/.cache/go-build/72/729524124a4fb7ee22326af4dae1b08d75ac2d5b4957bec6676221c3bf9a5ac6-d
+packagefile multitasking=/home/user/worldos/나라/MDG/소스/build/b023/_pkg_.a
+packagefile paging=/home/user/worldos/나라/MDG/소스/build/b025/_pkg_.a
+packagefile rakitraRafitra/elf=/home/user/worldos/나라/MDG/소스/build/b027/_pkg_.a
+packagefile rakitraRafitra/fat=/home/user/worldos/나라/MDG/소스/build/b028/_pkg_.a
+packagefile rakitraRafitra/msdospartition=/home/user/worldos/나라/MDG/소스/build/b029/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/MDG/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/MDG/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/41/419cd5d45397e731fccf17b0eb593cf059d3d4510b517c84f2b5172c78812c09-d
+packagefile virtualArika=/home/user/worldos/나라/MDG/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MDG/소스/build/b000/_pkg_.a

@@ -1,0 +1,3 @@
+# import config
+packagefile commun=/home/user/worldos/나라/GLP/소스/build/b029/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GLP/소스/build/b000/_pkg_.a

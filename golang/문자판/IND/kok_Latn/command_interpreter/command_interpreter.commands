@@ -1,0 +1,5 @@
+# WorldOS IND/kok_Latn UTF-8 command file
+echo "WorldOS IND/kok_Latn"
+help
+pwd
+pid

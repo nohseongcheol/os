@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Sluiten
+SYS_exit	SYS__exit
+SYS_open	SYS_Openen
+SYS_read	SYS_Lezen
+SYS_write	SYS_Schrijven
+argv	argumenten_2
+buf	overdrachtsbuffer
+close	Sluiten
+fd	bestandsdescriptor
+open	Openen
+read	Lezen
+write	Schrijven

@@ -1,0 +1,8 @@
+FAIL IND/hi_Deva audit 8 guest cases
+FAIL KOR audit 8 guest cases
+FAIL USA audit 8 guest cases
+FAIL IND/ta_Taml audit 8 guest cases
+FAIL JPN/ja_Kana audit 8 guest cases
+FAIL JPN/ja_Hira audit 8 guest cases
+FAIL CHN/zh_Hans audit 8 guest cases
+FAIL CHN/zh_Hant audit 8 guest cases

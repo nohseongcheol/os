@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Zamknij
+SYS_exit	SYS__exit
+SYS_open	SYS_Otwórz
+SYS_read	SYS_Odczyt
+SYS_write	SYS_Zapis
+argv	argumenty_2
+buf	bufor_przesyłania
+close	Zamknij
+fd	deskryptor_pliku
+open	Otwórz
+read	Odczyt
+write	Zapis

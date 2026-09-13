@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "BLR",
+  "language": "be",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

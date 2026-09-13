@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{Quelldatei}=$1
+@{Objektdatei}=$2
+@{ausführbare_Datei}=$3
+@{Deklarationsverzeichnis}=$4
+@{Startobjekt}=$5
+@{Bibliotheksdatei}=$6
+@{Bindungsdatei}=$7
+
+@{Befehlsauswerter_erstellen}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{Deklarationsverzeichnis}" -c "$@{Quelldatei}" -o "$@{Objektdatei}"
+    ld -n -m elf_i386 -e _start -T "$@{Bindungsdatei}" -static \
+        --no-ld-generated-unwind-info -o "$@{ausführbare_Datei}" \
+        "$@{Startobjekt}" "$@{Objektdatei}" "$@{Bibliotheksdatei}"
+}
+@{Befehlsauswerter_erstellen}

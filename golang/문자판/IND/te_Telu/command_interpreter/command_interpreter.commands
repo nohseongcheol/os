@@ -1,0 +1,5 @@
+# WorldOS IND/te_Telu UTF-8 command file
+echo "WorldOS IND/te_Telu"
+help
+pwd
+pid

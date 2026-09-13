@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/bd/bd7936f2673eb725bf0f5366a5a5699f26efc0aecd2a94b31c7c58e99550a03f-d
+packagefile driver/ata=/home/user/worldos/나라/FLK/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/ed/ed6cf6e0d1fe1081aa8446f5f31e227b0af11bdd71a57e50b48bbf95456c2673-d
+packagefile driver/keyboard=/home/user/worldos/나라/FLK/소스/build/b007/_pkg_.a
+packagefile driver/pointing_device=/home/user/worldos/나라/FLK/소스/build/b036/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/FLK/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/FLK/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/FLK/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/7e/7e8f2bd2f060173f3c5489c1f4b68ad45bbf8280e90617331d2495bd403e055e-d
+packagefile interrupt=/home/user/worldos/나라/FLK/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/FLK/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/FLK/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/FLK/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/FLK/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/FLK/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/FLK/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/FLK/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/FLK/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/FLK/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/b2/b25e8b286076bef955f40186a3c7eebe657f5b0d4f4d0c8a50d3a708d65ed03b-d
+packagefile virtualmemory=/home/user/worldos/나라/FLK/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FLK/소스/build/b000/_pkg_.a

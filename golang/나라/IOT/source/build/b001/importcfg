@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a3/a3598e17e3c462bd4c9b503a6b3eb59267bbaa8f93cae03391bec17ea8d0680b-d
+packagefile driver/ata=/home/user/worldos/나라/IOT/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/15/159d981e961259924e92eb316216418e7aaa483158ed40cae116cab07dd419df-d
+packagefile driver/keyboard=/home/user/worldos/나라/IOT/소스/build/b007/_pkg_.a
+packagefile driver/pointing_device=/home/user/worldos/나라/IOT/소스/build/b036/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/IOT/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/IOT/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/IOT/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/8c/8ca8d9df0b7f13910f3e6b28feba7d8e1d82583cd601bdac61adc73e0e2b99d1-d
+packagefile interrupt=/home/user/worldos/나라/IOT/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/IOT/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/IOT/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/IOT/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/IOT/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/IOT/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/IOT/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/IOT/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/IOT/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/IOT/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/39/39dbaf53cf52f43fe18a52ba2f6eb1e7d85093463f9d9170e1f234c081bab37f-d
+packagefile virtualmemory=/home/user/worldos/나라/IOT/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/IOT/소스/build/b000/_pkg_.a

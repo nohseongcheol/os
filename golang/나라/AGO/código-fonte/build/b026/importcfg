@@ -1,0 +1,7 @@
+# import config
+packagefile console=/home/user/.cache/go-build/2a/2abe3cb3af4739112c90c8b28722c1d400b946fc18439eea3cc1bad065472586-d
+packagefile controlador/ata=/home/user/worldos/나라/AGO/소스/build/b004/_pkg_.a
+packagefile ficheirosistema/msdospartição=/home/user/worldos/나라/AGO/소스/build/b027/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/AGO/소스/build/b023/_pkg_.a
+packagefile utilitário=/home/user/.cache/go-build/77/77de536a62ef1d55da2ce8dba70ac7113a6348d38f168e161fe1f150ed29ddf3-d
+packagefile runtime/cgo=/home/user/worldos/나라/AGO/소스/build/b000/_pkg_.a

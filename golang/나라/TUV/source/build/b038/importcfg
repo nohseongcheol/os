@@ -1,0 +1,7 @@
+# import config
+packagefile memorymanager=/home/user/worldos/나라/TUV/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/TUV/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/TUV/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/1d/1dbcdec36f57f6717aec2b0146dac7dd69d199ffaf7f55097265d3823e687fde-d
+packagefile util/list=/home/user/worldos/나라/TUV/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/TUV/소스/build/b000/_pkg_.a

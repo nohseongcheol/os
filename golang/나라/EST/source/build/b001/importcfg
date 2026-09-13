@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/8b/8b6951a932da84831f20b069a74584fca46276df6d3eeec507ab8738df46d574-d
+packagefile driver/ata=/home/user/worldos/나라/EST/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/95/95cbd037c70427c7d001f950e4e76b1605b3e6cc448bfec196d0cbc040844a8f-d
+packagefile driver/hiir=/home/user/worldos/나라/EST/소스/build/b007/_pkg_.a
+packagefile driver/klaviatuur=/home/user/worldos/나라/EST/소스/build/b024/_pkg_.a
+packagefile failSüsteem/elf=/home/user/worldos/나라/EST/소스/build/b026/_pkg_.a
+packagefile failSüsteem/fat=/home/user/worldos/나라/EST/소스/build/b029/_pkg_.a
+packagefile failSüsteem/msdospartition=/home/user/worldos/나라/EST/소스/build/b030/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/63/63f0e6f1f4ac4c1d3f138935d63b790cb8bb24031a154f12f6d602f582dd1e9b-d
+packagefile katkestus=/home/user/worldos/나라/EST/소스/build/b008/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/EST/소스/build/b022/_pkg_.a
+packagefile mälumanager=/home/user/worldos/나라/EST/소스/build/b023/_pkg_.a
+packagefile paging=/home/user/worldos/나라/EST/소스/build/b027/_pkg_.a
+packagefile pci=/home/user/worldos/나라/EST/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile süsteemcall=/home/user/worldos/나라/EST/소스/build/b025/_pkg_.a
+packagefile tasking/protsess=/home/user/worldos/나라/EST/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/EST/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/EST/소스/build/b032/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/EST/소스/build/b035/_pkg_.a
+packagefile util=/home/user/.cache/go-build/49/499362b56c35d647bf483d77640a8ec1af7716f4082b1d7cb13e4c63e498330a-d
+packagefile virtuaalMälu=/home/user/worldos/나라/EST/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/EST/소스/build/b000/_pkg_.a

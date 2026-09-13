@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/fe/feab6f32bc9dbe20231a91b08febdab65a406790b5a5c89ed891b6d2bd128eca-d
+packagefile меморијаmanager=/home/user/worldos/나라/MKD/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MKD/소스/build/b000/_pkg_.a

@@ -1,0 +1,5 @@
+# import config
+packagefile interrupció=/home/user/worldos/나라/AND/소스/build/b008/_pkg_.a
+packagefile memòriamanager=/home/user/worldos/나라/AND/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/2a/2a096dae4106601602e44de89861c47f3a71b4c90457dd3fe2252b39e1228449-d
+packagefile runtime/cgo=/home/user/worldos/나라/AND/소스/build/b000/_pkg_.a

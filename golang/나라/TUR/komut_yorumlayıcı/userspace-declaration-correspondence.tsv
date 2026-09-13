@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Kapat
+SYS_exit	SYS__exit
+SYS_open	SYS_Aç
+SYS_read	SYS_Okuma
+SYS_write	SYS_Yazma
+argv	bağımsız_değişkenler_2
+buf	aktarım_ara_belleği
+close	Kapat
+fd	dosya_tanımlayıcısı
+open	Aç
+read	Okuma
+write	Yazma

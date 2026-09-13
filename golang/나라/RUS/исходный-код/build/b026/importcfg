@@ -1,0 +1,6 @@
+# import config
+packagefile консоль=/home/user/.cache/go-build/c4/c46d7066ac0839ca780324e67c75bce17d9784d97a987e7a00d440764b8a817a-d
+packagefile порт=/home/user/.cache/go-build/2d/2dbf04faeda3000f3dc12686f3b4cee0c98d05c9f09ea7d6ec7f755fd181116e-d
+packagefile прерывание=/home/user/worldos/나라/RUS/소스/build/b020/_pkg_.a
+packagefile системавызов=/home/user/worldos/나라/RUS/소스/build/b027/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/RUS/소스/build/b000/_pkg_.a

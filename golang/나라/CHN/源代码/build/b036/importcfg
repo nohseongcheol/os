@@ -1,0 +1,16 @@
+# import config
+packagefile 中断=/home/user/worldos/나라/CHN/源代码/build/b018/_pkg_.a
+packagefile 任务管理/线程=/home/user/worldos/나라/CHN/源代码/build/b024/_pkg_.a
+packagefile 任务管理/调度器=/home/user/worldos/나라/CHN/源代码/build/b027/_pkg_.a
+packagefile 内存管理器=/home/user/worldos/나라/CHN/源代码/build/b020/_pkg_.a
+packagefile 分页管理=/home/user/worldos/나라/CHN/源代码/build/b031/_pkg_.a
+packagefile 多重任务管理=/home/user/worldos/나라/CHN/源代码/build/b019/_pkg_.a
+packagefile 工具=/home/user/worldos/나라/CHN/源代码/build/b030/_pkg_.a
+packagefile 控制台=/home/user/worldos/나라/CHN/源代码/build/b016/_pkg_.a
+packagefile 文件系统/fat=/home/user/worldos/나라/CHN/源代码/build/b032/_pkg_.a
+packagefile 文件系统/msdos分区=/home/user/worldos/나라/CHN/源代码/build/b033/_pkg_.a
+packagefile 文件系统/可执行与可链接格式=/home/user/worldos/나라/CHN/源代码/build/b035/_pkg_.a
+packagefile 端口=/home/user/worldos/나라/CHN/源代码/build/b021/_pkg_.a
+packagefile 虚拟内存=/home/user/worldos/나라/CHN/源代码/build/b025/_pkg_.a
+packagefile 驱动程序/ata=/home/user/worldos/나라/CHN/源代码/build/b034/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHN/源代码/build/b000/_pkg_.a

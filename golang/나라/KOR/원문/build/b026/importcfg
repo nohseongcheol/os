@@ -1,0 +1,16 @@
+# import config
+packagefile 가상기억공간=/home/user/worldos/나라/KOR/원문/build/b015/_pkg_.a
+packagefile 개입중단=/home/user/worldos/나라/KOR/원문/build/b017/_pkg_.a
+packagefile 구동기/저장장치=/home/user/worldos/나라/KOR/원문/build/b027/_pkg_.a
+packagefile 기억공간관리자=/home/user/worldos/나라/KOR/원문/build/b019/_pkg_.a
+packagefile 기억쪽관리=/home/user/worldos/나라/KOR/원문/build/b028/_pkg_.a
+packagefile 다중작업관리=/home/user/worldos/나라/KOR/원문/build/b018/_pkg_.a
+packagefile 단말=/home/user/worldos/나라/KOR/원문/build/b020/_pkg_.a
+packagefile 도구=/home/user/worldos/나라/KOR/원문/build/b029/_pkg_.a
+packagefile 입출력접속=/home/user/worldos/나라/KOR/원문/build/b022/_pkg_.a
+packagefile 작업관리/실행흐름=/home/user/worldos/나라/KOR/원문/build/b030/_pkg_.a
+packagefile 작업관리/작업배정기=/home/user/worldos/나라/KOR/원문/build/b031/_pkg_.a
+packagefile 파일체계/실행연결형식=/home/user/worldos/나라/KOR/원문/build/b034/_pkg_.a
+packagefile 파일체계/주분할표=/home/user/worldos/나라/KOR/원문/build/b035/_pkg_.a
+packagefile 파일체계/파일할당표=/home/user/worldos/나라/KOR/원문/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KOR/원문/build/b000/_pkg_.a

@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-10",
+  "scope": "249 country editions and 46 independent script editions",
+  "launcher_sha256": "45a020197039b768b3b986b8011f7eb8f817a2dd1b038b8d0cefc4514eff9188",
+  "independent_launchers_checked": 295,
+  "make_vbox_check_pass": 295,
+  "regression_tests": {"total": 93, "passed": 93, "vbox_tests_included": 14},
+  "go_generator_compile_checks": ["generate_catalog.go: PASS", "generate_country_sources.go: PASS"],
+  "actual_virtualbox_boots_this_task": [
+    {
+      "edition": "KOR",
+      "command": "make vbox",
+      "working_directory": "/home/user/worldos/나라/KOR",
+      "vm_name": "worldos KOR",
+      "vm_uuid": "12edc548-ca02-4c78-bd6e-6ed5850af279",
+      "observed_state": "running",
+      "observed_frontend": "GUI/Qt",
+      "state_change_time_utc": "2026-09-10T11:06:40.606000000",
+      "boot_marker": "WORLDOS-SHELL:READY",
+      "repeat_make_vbox": "ALREADY_RUNNING; no rebuild, poweroff, or disk changes",
+      "disk_port_device": "IDE 0/1",
+      "iso_port_device": "IDE 1/0",
+      "serial_log": "/home/user/worldos/나라/KOR/.vbox/logs/serial-e73f7334-0eaa-4f7b-a144-564129a5a561.log",
+      "screenshot": "KOR.png"
+    }
+  ],
+  "original_disk_sha256_unchanged": "7a0565e7225658c92307b0918f5c24479f76500494d9a485d9c5987d597e627b",
+  "existing_registered_vms_preserved": 18,
+  "new_registered_vms": 1,
+  "limitations": [
+    "Only KOR was actually booted in VirtualBox during this task; 295 entries were checked, not 295 VM boots.",
+    "First launch requires an existing compatible FAT boot disk with LINKER, LIB1.SO and LIB2.SO; it is cloned, not modified.",
+    "Existing VGA UTF-8 rendering and keyboard limitations remain; kernel diagnostic output may interleave with shell text."
+  ],
+  "evidence": ["entries.log", "unit-tests.log", "install.log", "KOR.png"]
+}

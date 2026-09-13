@@ -1,0 +1,5 @@
+# WorldOS ETH UTF-8 command file
+echo "WorldOS ETH"
+help
+pwd
+pid

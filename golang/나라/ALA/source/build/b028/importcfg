@@ -1,0 +1,5 @@
+# import config
+packagefile avbrott=/home/user/worldos/나라/ALA/소스/build/b024/_pkg_.a
+packagefile konsol=/home/user/.cache/go-build/c8/c80572c478a0d58bed1941e674ab4d0822426d90ee1e5aaa242f9ed74751f421-d
+packagefile port=/home/user/.cache/go-build/84/846a571b3869b28cd17d7c5e82f8939d7b2c32343d4e96709ca8a7c07ca15071-d
+packagefile runtime/cgo=/home/user/worldos/나라/ALA/소스/build/b000/_pkg_.a

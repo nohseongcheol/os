@@ -1,0 +1,7 @@
+# import config
+packagefile archivosistema/msdospartición=/home/user/worldos/나라/PRI/소스/build/b003/_pkg_.a
+packagefile consola=/home/user/.cache/go-build/c5/c5984591157480eee6bd2f7f6e4879527c366c2e0fb28a4675e60a1188084b4b-d
+packagefile controlador/ata=/home/user/worldos/나라/PRI/소스/build/b006/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/PRI/소스/build/b021/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/1d/1dfc40c7334eec051b664662588b3195697d2e20fd227115464c134263bf778e-d
+packagefile runtime/cgo=/home/user/worldos/나라/PRI/소스/build/b000/_pkg_.a

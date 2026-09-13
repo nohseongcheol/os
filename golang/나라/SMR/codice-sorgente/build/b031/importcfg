@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ba/ba0af2ec5742dc77b2e809d1b8eab5cb0a606404112ca2e7842f8de5551622d9-d
+packagefile gdt=/home/user/.cache/go-build/e2/e2f10628d605eb4cacdc39cfd50fd2ececc7e1e9998481c7bffdae5293dcac4f-d
+packagefile interrupt=/home/user/worldos/나라/SMR/소스/build/b007/_pkg_.a
+packagefile memoriamanager=/home/user/worldos/나라/SMR/소스/build/b022/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/SMR/소스/build/b021/_pkg_.a
+packagefile porta=/home/user/.cache/go-build/36/36d45598c0634df949ebdfc3d92705d51215495dbb2ce6088319afc35c2f5932-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/SMR/소스/build/b032/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/SMR/소스/build/b035/_pkg_.a
+packagefile util/elenco=/home/user/worldos/나라/SMR/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SMR/소스/build/b000/_pkg_.a

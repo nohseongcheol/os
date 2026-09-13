@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/ta_Taml",
+  "language": "ta_Taml",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "மூல-உரை"
+  }
+}

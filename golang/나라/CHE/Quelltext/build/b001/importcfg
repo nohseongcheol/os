@@ -1,0 +1,25 @@
+# import config
+packagefile aufgabenverwaltung/ausführungsfaden=/home/user/worldos/나라/CHE/소스/build/b002/_pkg_.a
+packagefile aufgabenverwaltung/planer=/home/user/worldos/나라/CHE/소스/build/b022/_pkg_.a
+packagefile aufgabenverwaltung/prozess=/home/user/worldos/나라/CHE/소스/build/b027/_pkg_.a
+packagefile aufgabenverwaltung/tss=/home/user/worldos/나라/CHE/소스/build/b024/_pkg_.a
+packagefile dateiSystem/ausführbares_und_bindbares_Format=/home/user/worldos/나라/CHE/소스/build/b029/_pkg_.a
+packagefile dateiSystem/fat=/home/user/worldos/나라/CHE/소스/build/b031/_pkg_.a
+packagefile dateiSystem/msdosPartition=/home/user/worldos/나라/CHE/소스/build/b032/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/bb/bb2a5c28d110d8bb3f82d32f4dd51a4d37280e224eea2c8a642d5f637dd7d0d8-d
+packagefile hilfswerkzeug=/home/user/.cache/go-build/53/538557b66d40c6776f03b837594271adfbc776c479b298b15f09a06f853937c1-d
+packagefile konsole=/home/user/.cache/go-build/a0/a06958da64aaca196a5115e237f019795d87ed41d1fc88608f2075a52a924557-d
+packagefile mehrfachAufgabenverwaltung=/home/user/worldos/나라/CHE/소스/build/b018/_pkg_.a
+packagefile pci=/home/user/worldos/나라/CHE/소스/build/b034/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile seitenverwaltung=/home/user/worldos/나라/CHE/소스/build/b030/_pkg_.a
+packagefile speicherVerwalter=/home/user/worldos/나라/CHE/소스/build/b019/_pkg_.a
+packagefile systemAufruf=/home/user/worldos/나라/CHE/소스/build/b036/_pkg_.a
+packagefile treiber/ata=/home/user/worldos/나라/CHE/소스/build/b033/_pkg_.a
+packagefile treiber/tastatur=/home/user/worldos/나라/CHE/소스/build/b037/_pkg_.a
+packagefile treiber/treiber=/home/user/.cache/go-build/09/095db7675fd809fbd3f52168b079bc549bb3a08cd44d349c1fdf4e4a7d08c83c-d
+packagefile treiber/zeigegerät=/home/user/worldos/나라/CHE/소스/build/b038/_pkg_.a
+packagefile unterbrechung=/home/user/worldos/나라/CHE/소스/build/b026/_pkg_.a
+packagefile virtuellSpeicher=/home/user/worldos/나라/CHE/소스/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHE/소스/build/b000/_pkg_.a

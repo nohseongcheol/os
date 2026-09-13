@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	配置記憶體	配置記憶體	project-proposal	function-based project proposal
+append	附加至串列尾端	附加至串列尾端	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	配置位元圖	配置位元圖	project-proposal	function-based project proposal
+boot	機器啟動	機器啟動	project-proposal	function-based project proposal
+boot_record	主開機紀錄	主開機紀錄	project-proposal	boot code and partition metadata, not an audio recording
+bus	共用傳輸匯流排	共用傳輸匯流排	project-proposal	function-based project proposal
+compile_kernel	編譯核心	編譯核心	project-proposal	function-based project proposal
+destination_port	目的通訊埠號	目的通訊埠號	project-proposal	function-based project proposal
+elf	可執行與可連結格式	可執行與可連結格式	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	錯誤編號	錯誤編號	project-proposal	function-based project proposal
+ethernet_frame	共享媒介網路框	共享媒介網路框	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	共享媒介網路框標頭	共享媒介網路框標頭	project-proposal	function-based project proposal
+ethernet_provider	共享媒介網路框提供器	共享媒介網路框提供器	project-proposal	function-based project proposal
+fat_parameters	檔案系統參數	檔案系統參數	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	檔案控制	檔案控制	project-proposal	function-based project proposal
+file_read	讀取檔案	讀取檔案	project-proposal	function-based project proposal
+file_status	檔案狀態	檔案狀態	project-proposal	function-based project proposal
+file_write	寫入檔案	寫入檔案	project-proposal	function-based project proposal
+free_memory	釋放記憶體	釋放記憶體	project-proposal	function-based project proposal
+headers	標頭檔	標頭檔	project-proposal	function-based project proposal
+heap	動態記憶區	動態記憶區	project-proposal	function-based project proposal
+icmp	互聯網路控制訊息協定	互聯網路控制訊息協定	project-proposal	function-based project proposal
+implementation	實作	實作	project-proposal	function-based project proposal
+insert_at	在指定位置插入	在指定位置插入	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	互聯網路	互聯網路	project-proposal	function-based project proposal
+ip_provider	互聯網路協定提供器	互聯網路協定提供器	project-proposal	function-based project proposal
+ipv4	互聯網路協定4	互聯網路協定4	project-proposal	function-based project proposal
+link_layout	連結配置	連結配置	project-proposal	function-based project proposal
+list_node	鏈結串列節點	鏈結串列節點	project-proposal	function-based project proposal
+log_decoder	解析序列紀錄	解析序列紀錄	project-proposal	function-based project proposal
+mouse	指向裝置	指向裝置	project-proposal	function-based project proposal
+page_directory	頁目錄	頁目錄	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	實體頁	實體頁	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	位址參照	位址參照	project-proposal	function-based project proposal
+prepend	加入至串列開頭	加入至串列開頭	project-proposal	src/util/list/list.go: links before head
+register	暫存器	暫存器	project-proposal	function-based project proposal
+set_coordinates	設定局部座標	設定局部座標	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	來源通訊埠號	來源通訊埠號	project-proposal	function-based project proposal
+stack	堆疊記憶區	堆疊記憶區	project-proposal	function-based project proposal
+startup	啟動	啟動	project-proposal	function-based project proposal
+structure_offsets	結構位移	結構位移	project-proposal	function-based project proposal
+system_call	系統呼叫	系統呼叫	project-proposal	function-based project proposal
+tests	測試	測試	project-proposal	function-based project proposal
+toggle_bit	反轉配置位元	反轉配置位元	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	工具	工具	project-proposal	function-based project proposal
+udp	使用者資料報協定	使用者資料報協定	project-proposal	function-based project proposal
+udp_header	使用者資料報標頭	使用者資料報標頭	project-proposal	function-based project proposal
+udp_socket	使用者資料報通訊端點	使用者資料報通訊端點	project-proposal	function-based project proposal
+user_space	使用者空間	使用者空間	project-proposal	function-based project proposal
+widget	介面元素	介面元素	project-proposal	function-based project proposal

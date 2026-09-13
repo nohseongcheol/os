@@ -1,0 +1,7 @@
+# import config
+packagefile dateiSystem/msdosPartition=/home/user/worldos/나라/AUT/소스/build/b032/_pkg_.a
+packagefile hilfswerkzeug=/home/user/.cache/go-build/e3/e3512289d084c59bb263ded63eb109d17b2f62155e1d33a4135d33f1b04ea38b-d
+packagefile konsole=/home/user/.cache/go-build/3f/3f38c8442a2ed0c2bcc5ed632e4a0b8bb2d1a16be82707901715d19338b760f2-d
+packagefile speicherVerwalter=/home/user/worldos/나라/AUT/소스/build/b019/_pkg_.a
+packagefile treiber/ata=/home/user/worldos/나라/AUT/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AUT/소스/build/b000/_pkg_.a

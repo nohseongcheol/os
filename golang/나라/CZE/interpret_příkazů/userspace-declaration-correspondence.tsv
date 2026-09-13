@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Zavřít
+SYS_exit	SYS__exit
+SYS_open	SYS_Otevřít
+SYS_read	SYS_Čtení
+SYS_write	SYS_Zápis
+argv	argumenty_2
+buf	vyrovnávací_paměť_přenosu
+close	Zavřít
+fd	deskriptor_souboru
+open	Otevřít
+read	Čtení
+write	Zápis

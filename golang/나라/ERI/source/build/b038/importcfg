@@ -1,0 +1,7 @@
+# import config
+packagefile memorymanager=/home/user/worldos/나라/ERI/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/ERI/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ERI/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c6/c69a1a8e8bf4df969af4cf611fcc641326a700eacc15fb3e3e0b6164bb9819bb-d
+packagefile util/list=/home/user/worldos/나라/ERI/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ERI/소스/build/b000/_pkg_.a

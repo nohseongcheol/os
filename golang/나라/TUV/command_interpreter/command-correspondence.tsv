@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	help
+echo	echo
+pwd	pwd
+cat	cat
+stat	stat
+pid	pid
+uname	uname
+run	run
+udp	udp
+source	source
+cd	cd
+exit	exit

@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/b8/b89732cd691debf6cca9f2f0fdfd938ee1bc397ad9fd3f06d1f25008117157c6-d
+packagefile driver/ata=/home/user/worldos/나라/ISL/소스/build/b004/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/ISL/소스/build/b008/_pkg_.a
+packagefile minnimanager=/home/user/worldos/나라/ISL/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/ISL/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/ISL/소스/build/b025/_pkg_.a
+packagefile port=/home/user/.cache/go-build/79/792dd04ed796b60a0931d94d5af3bca25b44e6157f41606bfcf134a5ec3fd479-d
+packagefile skráKerfis/elf=/home/user/worldos/나라/ISL/소스/build/b027/_pkg_.a
+packagefile skráKerfis/fat=/home/user/worldos/나라/ISL/소스/build/b028/_pkg_.a
+packagefile skráKerfis/msdospartition=/home/user/worldos/나라/ISL/소스/build/b029/_pkg_.a
+packagefile sýndarMinni=/home/user/worldos/나라/ISL/소스/build/b030/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/ISL/소스/build/b032/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ISL/소스/build/b033/_pkg_.a
+packagefile util=/home/user/.cache/go-build/dc/dcffb82e6e0685a5e97d1fb0c321d2a9118c2000a57c9eda60eafef64eed2056-d
+packagefile runtime/cgo=/home/user/worldos/나라/ISL/소스/build/b000/_pkg_.a

@@ -1,0 +1,7 @@
+# import config
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/SYC/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/SYC/소스/build/b030/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/SYC/소스/build/b021/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/50/50d137af963c3a55966f6bdd14ccf7a8c58d5639f88a4a0d4768bb8fed802b2c-d
+packagefile utilitaire/liste=/home/user/worldos/나라/SYC/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SYC/소스/build/b000/_pkg_.a

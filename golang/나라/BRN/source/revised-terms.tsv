@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	peruntukkan ingatan	peruntukkan_ingatan	project-proposal	function-based project proposal
+append	tambah di hujung senarai	tambah_di_hujung_senarai	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	peta peruntukan	peta_peruntukan	project-proposal	function-based project proposal
+boot	permulaan mesin	permulaan_mesin	project-proposal	function-based project proposal
+boot_record	rekod but utama	rekod_but_utama	project-proposal	boot code and partition metadata, not an audio recording
+bus	laluan penghantaran bersama	laluan_penghantaran_bersama	project-proposal	function-based project proposal
+compile_kernel	kompilasi teras	kompilasi_teras	project-proposal	function-based project proposal
+destination_port	nombor port destinasi	nombor_port_destinasi	project-proposal	function-based project proposal
+elf	format pelaksanaan dan pemautan	format_pelaksanaan_dan_pemautan	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	nombor ralat	nombor_ralat	project-proposal	function-based project proposal
+ethernet_frame	bingkai rangkaian medium bersama	bingkai_rangkaian_medium_bersama	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	pengepala bingkai rangkaian medium bersama	pengepala_bingkai_rangkaian_medium_bersama	project-proposal	function-based project proposal
+ethernet_provider	pembekal bingkai rangkaian medium bersama	pembekal_bingkai_rangkaian_medium_bersama	project-proposal	function-based project proposal
+fat_parameters	parameter sistem fail	parameter_sistem_fail	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	kawalan fail	kawalan_fail	project-proposal	function-based project proposal
+file_read	baca fail	baca_fail	project-proposal	function-based project proposal
+file_status	status fail	status_fail	project-proposal	function-based project proposal
+file_write	tulis fail	tulis_fail	project-proposal	function-based project proposal
+free_memory	bebaskan ingatan	bebaskan_ingatan	project-proposal	function-based project proposal
+headers	pengisytiharan	pengisytiharan	project-proposal	function-based project proposal
+heap	ingatan dinamik	ingatan_dinamik	project-proposal	function-based project proposal
+icmp	protokol mesej kawalan rangkaian saling terhubung	protokol_mesej_kawalan_rangkaian_saling_terhubung	project-proposal	function-based project proposal
+implementation	pelaksanaan	pelaksanaan	project-proposal	function-based project proposal
+insert_at	sisip pada indeks	sisip_pada_indeks	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	rangkaian saling terhubung	rangkaian_saling_terhubung	project-proposal	function-based project proposal
+ip_provider	pembekal protokol rangkaian saling terhubung	pembekal_protokol_rangkaian_saling_terhubung	project-proposal	function-based project proposal
+ipv4	protokol rangkaian saling terhubung 4	protokol_rangkaian_saling_terhubung_4	project-proposal	function-based project proposal
+link_layout	susun atur pautan	susun_atur_pautan	project-proposal	function-based project proposal
+list_node	nod senarai	nod_senarai	project-proposal	function-based project proposal
+log_decoder	hurai log bersiri	hurai_log_bersiri	project-proposal	function-based project proposal
+mouse	peranti penuding	peranti_penuding	project-proposal	function-based project proposal
+page_directory	direktori halaman	direktori_halaman	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	halaman fizikal	halaman_fizikal	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	rujukan alamat	rujukan_alamat	project-proposal	function-based project proposal
+prepend	tambah di awal senarai	tambah_di_awal_senarai	project-proposal	src/util/list/list.go: links before head
+register	daftar	daftar	project-proposal	function-based project proposal
+set_coordinates	tetapkan koordinat setempat	tetapkan_koordinat_setempat	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	nombor port sumber	nombor_port_sumber	project-proposal	function-based project proposal
+stack	ingatan tindanan	ingatan_tindanan	project-proposal	function-based project proposal
+startup	permulaan	permulaan	project-proposal	function-based project proposal
+structure_offsets	anjakan struktur	anjakan_struktur	project-proposal	function-based project proposal
+system_call	panggilan sistem	panggilan_sistem	project-proposal	function-based project proposal
+tests	ujian	ujian	project-proposal	function-based project proposal
+toggle_bit	songsangkan bit peruntukan	songsangkan_bit_peruntukan	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	alat	alat	project-proposal	function-based project proposal
+udp	protokol datagram pengguna	protokol_datagram_pengguna	project-proposal	function-based project proposal
+udp_header	pengepala datagram pengguna	pengepala_datagram_pengguna	project-proposal	function-based project proposal
+udp_socket	titik akhir datagram pengguna	titik_akhir_datagram_pengguna	project-proposal	function-based project proposal
+user_space	ruang pengguna	ruang_pengguna	project-proposal	function-based project proposal
+widget	unsur skrin	unsur_skrin	project-proposal	function-based project proposal

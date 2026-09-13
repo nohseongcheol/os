@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/worldos/나라/SYC/소스/build/b002/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/SYC/소스/build/b026/_pkg_.a
+packagefile utilitaire=/home/user/worldos/나라/SYC/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SYC/소스/build/b000/_pkg_.a

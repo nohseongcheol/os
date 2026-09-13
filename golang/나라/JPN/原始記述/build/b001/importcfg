@@ -1,0 +1,25 @@
+# import config
+packagefile gdt=/home/user/worldos/나라/JPN/原始記述/build/b002/_pkg_.a
+packagefile pci=/home/user/worldos/나라/JPN/原始記述/build/b017/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile コンソール=/home/user/worldos/나라/JPN/原始記述/build/b016/_pkg_.a
+packagefile システム呼出し=/home/user/worldos/나라/JPN/原始記述/build/b023/_pkg_.a
+packagefile タスク管理/tss=/home/user/worldos/나라/JPN/原始記述/build/b025/_pkg_.a
+packagefile タスク管理/スケジューラ=/home/user/worldos/나라/JPN/原始記述/build/b024/_pkg_.a
+packagefile タスク管理/スレッド=/home/user/worldos/나라/JPN/原始記述/build/b026/_pkg_.a
+packagefile タスク管理/プロセス=/home/user/worldos/나라/JPN/原始記述/build/b036/_pkg_.a
+packagefile ドライバー/ata=/home/user/worldos/나라/JPN/原始記述/build/b030/_pkg_.a
+packagefile ドライバー/キーボード=/home/user/worldos/나라/JPN/原始記述/build/b037/_pkg_.a
+packagefile ドライバー/ドライバー=/home/user/worldos/나라/JPN/原始記述/build/b018/_pkg_.a
+packagefile ドライバー/位置入力装置=/home/user/worldos/나라/JPN/原始記述/build/b038/_pkg_.a
+packagefile ファイルシステム/fat=/home/user/worldos/나라/JPN/原始記述/build/b031/_pkg_.a
+packagefile ファイルシステム/msdos区分=/home/user/worldos/나라/JPN/原始記述/build/b032/_pkg_.a
+packagefile ファイルシステム/実行連結形式=/home/user/worldos/나라/JPN/原始記述/build/b034/_pkg_.a
+packagefile ページ管理=/home/user/worldos/나라/JPN/原始記述/build/b035/_pkg_.a
+packagefile メモリ管理者=/home/user/worldos/나라/JPN/原始記述/build/b022/_pkg_.a
+packagefile 仮想メモリ=/home/user/worldos/나라/JPN/原始記述/build/b027/_pkg_.a
+packagefile 割込み=/home/user/worldos/나라/JPN/原始記述/build/b020/_pkg_.a
+packagefile 汎用=/home/user/worldos/나라/JPN/原始記述/build/b033/_pkg_.a
+packagefile 複数タスク管理=/home/user/worldos/나라/JPN/原始記述/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/JPN/原始記述/build/b000/_pkg_.a

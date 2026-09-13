@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/sat_Deva",
+  "language": "sat_Deva",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

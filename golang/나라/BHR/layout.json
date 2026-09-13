@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "BHR",
+  "language": "ar",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "النص-المصدري"
+  }
+}

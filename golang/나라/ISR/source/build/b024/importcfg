@@ -1,0 +1,5 @@
+# import config
+packagefile util=/home/user/.cache/go-build/bc/bc3d30e0a3e35d8372076b1e06015556ca5a0d8bbd71ec50af8a27aeebde170b-d
+packagefile זיכרוןmanager=/home/user/worldos/나라/ISR/소스/build/b023/_pkg_.a
+packagefile פסק=/home/user/worldos/나라/ISR/소스/build/b026/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ISR/소스/build/b000/_pkg_.a

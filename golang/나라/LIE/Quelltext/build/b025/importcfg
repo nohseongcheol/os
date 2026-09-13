@@ -1,0 +1,4 @@
+# import config
+packagefile konsole=/home/user/.cache/go-build/24/24b5a7eba1044d07e484089f9d60dc573e638be0298040df371c833763df5ae2-d
+packagefile speicherVerwalter=/home/user/worldos/나라/LIE/소스/build/b019/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LIE/소스/build/b000/_pkg_.a

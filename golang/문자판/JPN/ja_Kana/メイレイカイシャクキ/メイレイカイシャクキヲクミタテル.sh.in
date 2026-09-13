@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{ゲンブンショ}=$1
+@{キカイゴブンショ}=$2
+@{ジッコウブンショ}=$3
+@{センゲンシュウノバショ}=$4
+@{キドウキカイゴ}=$5
+@{カンスウシュウブンショ}=$6
+@{レンケツハイチブンショ}=$7
+
+@{メイレイカイシャクキヲクミタテル}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{センゲンシュウノバショ}" -c "$@{ゲンブンショ}" -o "$@{キカイゴブンショ}"
+    ld -n -m elf_i386 -e _start -T "$@{レンケツハイチブンショ}" -static \
+        --no-ld-generated-unwind-info -o "$@{ジッコウブンショ}" \
+        "$@{キドウキカイゴ}" "$@{キカイゴブンショ}" "$@{カンスウシュウブンショ}"
+}
+@{メイレイカイシャクキヲクミタテル}

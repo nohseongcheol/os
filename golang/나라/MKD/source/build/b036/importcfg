@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/fe/feab6f32bc9dbe20231a91b08febdab65a406790b5a5c89ed891b6d2bd128eca-d
+packagefile driver/ata=/home/user/worldos/나라/MKD/소스/build/b004/_pkg_.a
+packagefile util=/home/user/.cache/go-build/d7/d70a8e9e937381f93df9ffab095f14fc8539828d9bafab785ae81cee82574c48-d
+packagefile runtime/cgo=/home/user/worldos/나라/MKD/소스/build/b000/_pkg_.a

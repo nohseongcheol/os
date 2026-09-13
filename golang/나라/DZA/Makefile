@@ -1,0 +1,41 @@
+COUNTRY_ALPHA3 := DZA
+COUNTRY_ALPHA2 := DZ
+
+.PHONY: all kernel iso clean info source source-iso
+
+all: iso
+info:
+	@sed -n '1,8p' country.conf
+kernel source:
+	$(MAKE) -C "النص-المصدري" kernel
+iso source-iso:
+	$(MAKE) -C "النص-المصدري" iso
+clean:
+	$(MAKE) -C "النص-المصدري" clean
+
+# WorldOS independent command interpreter
+.PHONY: shell shell-verify
+shell:
+	$(MAKE) -C "مفسر_الأوامر" all
+shell-verify:
+	$(MAKE) -C "مفسر_الأوامر" verify
+
+# WorldOS independent native POSIX
+.PHONY: posix posix-verify
+posix:
+	$(MAKE) -C "posix-DZA" all
+posix-verify:
+	$(MAKE) -C "posix-DZA" verify
+
+# BEGIN WorldOS managed VirtualBox launcher
+.PHONY: vbox vbox-prepare vbox-status vbox-check
+export VBOX_BASE_DISK VBOX_VM_NAME VBOX_TYPE
+vbox:
+	python3 vbox.py run
+vbox-prepare:
+	python3 vbox.py prepare
+vbox-status:
+	python3 vbox.py status
+vbox-check:
+	python3 vbox.py check
+# END WorldOS managed VirtualBox launcher

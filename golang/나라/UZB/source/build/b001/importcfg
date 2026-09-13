@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/24/245e6a17d74dca14ffdfabae1bc52ccb32463266d280ce47a66ac55b18241ef7-d
+packagefile driver/ata=/home/user/worldos/나라/UZB/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/ad/ad6dcb3f4fae2fd8103a475bffce863915411b97eba7a07f57182d7e0978a483-d
+packagefile driver/klaviatura=/home/user/worldos/나라/UZB/소스/build/b007/_pkg_.a
+packagefile driver/sichqoncha=/home/user/worldos/나라/UZB/소스/build/b036/_pkg_.a
+packagefile faylTizim/elf=/home/user/worldos/나라/UZB/소스/build/b025/_pkg_.a
+packagefile faylTizim/fat=/home/user/worldos/나라/UZB/소스/build/b028/_pkg_.a
+packagefile faylTizim/msdospartition=/home/user/worldos/나라/UZB/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/cd/cdd8df3ac762f1103ac8ca608029c5d2aa60bed468bf00c80c5953d8663dfc0e-d
+packagefile interrupt=/home/user/worldos/나라/UZB/소스/build/b008/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/UZB/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/UZB/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/UZB/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile tasking/jarayon=/home/user/worldos/나라/UZB/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/UZB/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/UZB/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/UZB/소스/build/b034/_pkg_.a
+packagefile tizimcall=/home/user/worldos/나라/UZB/소스/build/b024/_pkg_.a
+packagefile util=/home/user/.cache/go-build/af/af4544c137324abb405cdfaa670caa505eac636ba959b14893f5d5101f400028-d
+packagefile virtualXotira=/home/user/worldos/나라/UZB/소스/build/b032/_pkg_.a
+packagefile xotiramanager=/home/user/worldos/나라/UZB/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/UZB/소스/build/b000/_pkg_.a

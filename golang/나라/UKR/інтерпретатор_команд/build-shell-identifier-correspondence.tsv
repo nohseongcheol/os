@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	зібрати_інтерпретатор
+executable_file	виконуваний_файл
+include_directory	каталог_оголошень
+library_file	файл_бібліотеки
+linker_file	файл_компонування
+object_file	об_єктний_файл
+source_file	початковий_файл
+startup_object	початковий_об_єкт

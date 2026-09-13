@@ -1,0 +1,6 @@
+# import config
+packagefile طرفية=/home/user/.cache/go-build/47/4731f48ef1567f37d0fb08c445fcaf9572821969a11c2b36cd615f6a3ed0f6f6-d
+packagefile مقاطعة=/home/user/worldos/나라/SAU/소스/build/b019/_pkg_.a
+packagefile منفذ=/home/user/.cache/go-build/58/58e11c73da31c4e2d0c601d77f5bbe02667e0625f369d535869d784a35d2cf01-d
+packagefile نظامنداء=/home/user/worldos/나라/SAU/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SAU/소스/build/b000/_pkg_.a

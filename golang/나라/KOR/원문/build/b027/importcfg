@@ -1,0 +1,4 @@
+# import config
+packagefile 단말=/home/user/worldos/나라/KOR/원문/build/b020/_pkg_.a
+packagefile 입출력접속=/home/user/worldos/나라/KOR/원문/build/b022/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KOR/원문/build/b000/_pkg_.a

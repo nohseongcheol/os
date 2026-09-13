@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/b4/b4d95a49ac2894d0101b7a8f35bddbba14b018538c3f465ff93fc241c9966c22-d
+packagefile interrupt=/home/user/worldos/나라/LKA/소스/build/b008/_pkg_.a
+packagefile port=/home/user/.cache/go-build/bf/bf02f2db3abec6428bcf7de36b223c01652f02425c3da30dce561329dd9fd738-d
+packagefile runtime/cgo=/home/user/worldos/나라/LKA/소스/build/b000/_pkg_.a

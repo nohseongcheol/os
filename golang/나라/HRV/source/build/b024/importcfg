@@ -1,0 +1,7 @@
+# import config
+packagefile console=/home/user/.cache/go-build/31/31d8a44045a7e1aa6f4bd45ff9e898e1cb815ac00b2137dcfa46702214a9dfd5-d
+packagefile datotekaSustav/msdospartition=/home/user/worldos/나라/HRV/소스/build/b025/_pkg_.a
+packagefile driver/ata=/home/user/worldos/나라/HRV/소스/build/b026/_pkg_.a
+packagefile memorijamanager=/home/user/worldos/나라/HRV/소스/build/b005/_pkg_.a
+packagefile util=/home/user/.cache/go-build/e9/e95f538958854207bb3db21faf75a559bcbdbef83bcbff7bc1585a73f3003715-d
+packagefile runtime/cgo=/home/user/worldos/나라/HRV/소스/build/b000/_pkg_.a

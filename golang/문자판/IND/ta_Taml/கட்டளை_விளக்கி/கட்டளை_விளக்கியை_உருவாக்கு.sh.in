@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{மூலக்_கோப்பு}=$1
+@{பொருட்_கோப்பு}=$2
+@{இயக்கக்_கோப்பு}=$3
+@{அறிவிப்பு_அடைவு}=$4
+@{தொடக்கப்_பொருள்}=$5
+@{நூலகக்_கோப்பு}=$6
+@{இணைப்புக்_கோப்பு}=$7
+
+@{கட்டளை_விளக்கியை_உருவாக்கு}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{அறிவிப்பு_அடைவு}" -c "$@{மூலக்_கோப்பு}" -o "$@{பொருட்_கோப்பு}"
+    ld -n -m elf_i386 -e _start -T "$@{இணைப்புக்_கோப்பு}" -static \
+        --no-ld-generated-unwind-info -o "$@{இயக்கக்_கோப்பு}" \
+        "$@{தொடக்கப்_பொருள்}" "$@{பொருட்_கோப்பு}" "$@{நூலகக்_கோப்பு}"
+}
+@{கட்டளை_விளக்கியை_உருவாக்கு}

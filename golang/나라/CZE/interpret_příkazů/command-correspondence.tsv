@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	zobrazit_nápovědu
+echo	vypsat_argumenty
+pwd	zobrazit_pracovní_adresář
+cat	zobrazit_obsah_souboru
+stat	zobrazit_informace_o_souboru
+pid	zobrazit_identifikátory_procesů
+uname	zobrazit_identitu_systému
+run	spustit_program
+udp	ověřit_návrat_datagramu
+source	interpretovat_příkazový_soubor
+cd	změnit_adresář
+exit	ukončit

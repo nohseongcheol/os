@@ -1,0 +1,4 @@
+# import config
+packagefile konsolë=/home/user/.cache/go-build/e1/e18d4128147a1d73e7de3b47f6b868fb56fc01b0d5a0eadae38c159ec6d296a5-d
+packagefile memoriaManazhuesi=/home/user/worldos/나라/ALB/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ALB/소스/build/b000/_pkg_.a

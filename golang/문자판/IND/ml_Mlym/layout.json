@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/ml_Mlym",
+  "language": "ml_Mlym",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

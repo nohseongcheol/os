@@ -1,0 +1,6 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/3e/3e3e0b12d979f0666e7e32820bcdcfe1d404a2194a80bc8a380203882d9255b6-d
+packagefile memoriagestor=/home/user/worldos/나라/BOL/소스/build/b021/_pkg_.a
+packagefile paginación=/home/user/worldos/나라/BOL/소스/build/b023/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/e2/e2ffe6c1e0f15db642c76f62a7230f5f8be238390c1e27b3b3f82bdd2d630de1-d
+packagefile runtime/cgo=/home/user/worldos/나라/BOL/소스/build/b000/_pkg_.a

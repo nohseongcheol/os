@@ -1,0 +1,7 @@
+# import config
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/FRA/code-source/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/FRA/code-source/build/b030/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/FRA/code-source/build/b021/_pkg_.a
+packagefile utilitaire=/home/user/worldos/나라/FRA/code-source/build/b008/_pkg_.a
+packagefile utilitaire/liste=/home/user/worldos/나라/FRA/code-source/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FRA/code-source/build/b000/_pkg_.a

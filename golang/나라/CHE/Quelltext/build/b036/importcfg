@@ -1,0 +1,16 @@
+# import config
+packagefile anschluss=/home/user/.cache/go-build/c4/c4be570ec24a467e45765be0fcc8ff4c904202efe0d5ca707520760ae5e95d45-d
+packagefile aufgabenverwaltung/ausführungsfaden=/home/user/worldos/나라/CHE/소스/build/b002/_pkg_.a
+packagefile aufgabenverwaltung/planer=/home/user/worldos/나라/CHE/소스/build/b022/_pkg_.a
+packagefile dateiSystem/ausführbares_und_bindbares_Format=/home/user/worldos/나라/CHE/소스/build/b029/_pkg_.a
+packagefile dateiSystem/fat=/home/user/worldos/나라/CHE/소스/build/b031/_pkg_.a
+packagefile dateiSystem/msdosPartition=/home/user/worldos/나라/CHE/소스/build/b032/_pkg_.a
+packagefile hilfswerkzeug=/home/user/.cache/go-build/53/538557b66d40c6776f03b837594271adfbc776c479b298b15f09a06f853937c1-d
+packagefile konsole=/home/user/.cache/go-build/a0/a06958da64aaca196a5115e237f019795d87ed41d1fc88608f2075a52a924557-d
+packagefile mehrfachAufgabenverwaltung=/home/user/worldos/나라/CHE/소스/build/b018/_pkg_.a
+packagefile seitenverwaltung=/home/user/worldos/나라/CHE/소스/build/b030/_pkg_.a
+packagefile speicherVerwalter=/home/user/worldos/나라/CHE/소스/build/b019/_pkg_.a
+packagefile treiber/ata=/home/user/worldos/나라/CHE/소스/build/b033/_pkg_.a
+packagefile unterbrechung=/home/user/worldos/나라/CHE/소스/build/b026/_pkg_.a
+packagefile virtuellSpeicher=/home/user/worldos/나라/CHE/소스/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHE/소스/build/b000/_pkg_.a

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/gu_Gujr",
+  "language": "gu_Gujr",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

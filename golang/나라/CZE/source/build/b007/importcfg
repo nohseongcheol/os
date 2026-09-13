@@ -1,0 +1,6 @@
+# import config
+packagefile konzole=/home/user/.cache/go-build/cf/cf799bccd988dd4e5af6ae510771e666e7e4f2fb1ee21189ad57db7ec4387055-d
+packagefile port=/home/user/.cache/go-build/53/53f7e0860fb3bcdd9bac2ad56b9e6bc0cf1b4f5972a0134672aae2ddc3b82aac-d
+packagefile přerušení=/home/user/worldos/나라/CZE/소스/build/b008/_pkg_.a
+packagefile systémcall=/home/user/worldos/나라/CZE/소스/build/b024/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CZE/소스/build/b000/_pkg_.a

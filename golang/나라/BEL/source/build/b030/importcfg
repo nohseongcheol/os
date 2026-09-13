@@ -1,0 +1,16 @@
+# import config
+packagefile bestandSysteem/fat=/home/user/worldos/나라/BEL/소스/build/b002/_pkg_.a
+packagefile bestandSysteem/msdospartition=/home/user/worldos/나라/BEL/소스/build/b003/_pkg_.a
+packagefile bestandSysteem/uitvoerbaar_en_koppelbaar_formaat=/home/user/worldos/나라/BEL/소스/build/b022/_pkg_.a
+packagefile console=/home/user/.cache/go-build/58/5816a97c70592f327a5e02b8ad475db9af41d064876124dc112adf9a2d53c635-d
+packagefile driver/ata=/home/user/worldos/나라/BEL/소스/build/b006/_pkg_.a
+packagefile geheugenmanager=/home/user/worldos/나라/BEL/소스/build/b021/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/BEL/소스/build/b024/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/BEL/소스/build/b026/_pkg_.a
+packagefile paging=/home/user/worldos/나라/BEL/소스/build/b023/_pkg_.a
+packagefile poort=/home/user/.cache/go-build/06/06871674ffe5d9ccb347174fe78ffccc0a5925a7c1ccbeabcf1206b31c7b2de2-d
+packagefile tasking/scheduler=/home/user/worldos/나라/BEL/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BEL/소스/build/b032/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c6/c69d9ec68784223671d9e368b507b081432ec3d606d7c365b2cb56c4799c314b-d
+packagefile virtueelGeheugen=/home/user/worldos/나라/BEL/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BEL/소스/build/b000/_pkg_.a

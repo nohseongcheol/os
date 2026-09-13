@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a7/a78c1cff2a2598b294a52b82e4d45df5bcdc56f4cd24600a70d1b515460c478a-d
+packagefile driver/driver=/home/user/.cache/go-build/03/03bd1fdc7e5dddf49545bd29e978534fe904a9f986828bfc952d991262cc169c-d
+packagefile interrupt=/home/user/worldos/나라/SLB/소스/build/b008/_pkg_.a
+packagefile port=/home/user/.cache/go-build/2c/2cfd0c18ea240120053a1bd886874bb098ff12c29451562dbc8a01361e3f23c4-d
+packagefile runtime/cgo=/home/user/worldos/나라/SLB/소스/build/b000/_pkg_.a

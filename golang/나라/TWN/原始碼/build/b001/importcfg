@@ -1,0 +1,25 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/00/004c02441dd04305c578393b4b6907cd4ba329802c064617ef691b0f7abc8caf-d
+packagefile pci=/home/user/worldos/나라/TWN/소스/build/b017/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile 中斷=/home/user/worldos/나라/TWN/소스/build/b018/_pkg_.a
+packagefile 分頁管理=/home/user/worldos/나라/TWN/소스/build/b023/_pkg_.a
+packagefile 多重工作管理=/home/user/worldos/나라/TWN/소스/build/b019/_pkg_.a
+packagefile 工作管理/tss=/home/user/worldos/나라/TWN/소스/build/b025/_pkg_.a
+packagefile 工作管理/執行緒=/home/user/worldos/나라/TWN/소스/build/b026/_pkg_.a
+packagefile 工作管理/排程器=/home/user/worldos/나라/TWN/소스/build/b029/_pkg_.a
+packagefile 工作管理/程序=/home/user/worldos/나라/TWN/소스/build/b031/_pkg_.a
+packagefile 工具=/home/user/.cache/go-build/f9/f9c030fb615b58d6924724f811e0d46ce632b8b5d453a59c1026117afd249b46-d
+packagefile 控制台=/home/user/.cache/go-build/de/deb1b9df38783e58b92c7399bf391045cd6ab8a7860a0dbef1ad1ee2d612266f-d
+packagefile 檔案系統/fat=/home/user/worldos/나라/TWN/소스/build/b032/_pkg_.a
+packagefile 檔案系統/msdos分割區=/home/user/worldos/나라/TWN/소스/build/b033/_pkg_.a
+packagefile 檔案系統/可執行與可連結格式=/home/user/worldos/나라/TWN/소스/build/b035/_pkg_.a
+packagefile 系統呼叫=/home/user/worldos/나라/TWN/소스/build/b036/_pkg_.a
+packagefile 虛擬記憶體=/home/user/worldos/나라/TWN/소스/build/b027/_pkg_.a
+packagefile 記憶體管理器=/home/user/worldos/나라/TWN/소스/build/b020/_pkg_.a
+packagefile 驅動程式/ata=/home/user/worldos/나라/TWN/소스/build/b034/_pkg_.a
+packagefile 驅動程式/指向裝置=/home/user/worldos/나라/TWN/소스/build/b037/_pkg_.a
+packagefile 驅動程式/鍵盤=/home/user/worldos/나라/TWN/소스/build/b038/_pkg_.a
+packagefile 驅動程式/驅動程式=/home/user/.cache/go-build/19/19ac7a238f1fb57ee4801280c11eee98b8fdfed43e2466cb8e57419c7f5818e8-d
+packagefile runtime/cgo=/home/user/worldos/나라/TWN/소스/build/b000/_pkg_.a

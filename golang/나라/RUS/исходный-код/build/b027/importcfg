@@ -1,0 +1,16 @@
+# import config
+packagefile виртуальныйпамять=/home/user/worldos/나라/RUS/소스/build/b023/_pkg_.a
+packagefile драйвер/ata=/home/user/worldos/나라/RUS/소스/build/b025/_pkg_.a
+packagefile консоль=/home/user/.cache/go-build/c4/c46d7066ac0839ca780324e67c75bce17d9784d97a987e7a00d440764b8a817a-d
+packagefile многоуправлениеЗадачами=/home/user/worldos/나라/RUS/소스/build/b021/_pkg_.a
+packagefile памятьдиспетчер=/home/user/worldos/나라/RUS/소스/build/b022/_pkg_.a
+packagefile порт=/home/user/.cache/go-build/2d/2dbf04faeda3000f3dc12686f3b4cee0c98d05c9f09ea7d6ec7f755fd181116e-d
+packagefile прерывание=/home/user/worldos/나라/RUS/소스/build/b020/_pkg_.a
+packagefile управлениеЗадачами/планировщик=/home/user/worldos/나라/RUS/소스/build/b028/_pkg_.a
+packagefile управлениеЗадачами/поток=/home/user/worldos/나라/RUS/소스/build/b030/_pkg_.a
+packagefile управлениеСтраницами=/home/user/worldos/나라/RUS/소스/build/b032/_pkg_.a
+packagefile утилита=/home/user/.cache/go-build/3e/3e37808c7eef32a268ed666aa3620793609091337ed3585c554348ed41f0cae5-d
+packagefile файлсистема/fat=/home/user/worldos/나라/RUS/소스/build/b034/_pkg_.a
+packagefile файлсистема/msdosразделДиска=/home/user/worldos/나라/RUS/소스/build/b035/_pkg_.a
+packagefile файлсистема/исполняемый_и_компонуемый_формат=/home/user/worldos/나라/RUS/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/RUS/소스/build/b000/_pkg_.a

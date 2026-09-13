@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a1/a1b5562b9dd33ee70270db2617eb6c64a3b0f258151ff9b2425dc8c838c8e6d8-d
+packagefile driver/ata=/home/user/worldos/나라/FJI/소스/build/b004/_pkg_.a
+packagefile util=/home/user/.cache/go-build/3c/3c448db35ab7f48ab11fd43ecee23d6b2eeea07666ec962137f5584d50092d66-d
+packagefile runtime/cgo=/home/user/worldos/나라/FJI/소스/build/b000/_pkg_.a

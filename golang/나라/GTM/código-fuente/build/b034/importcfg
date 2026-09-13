@@ -1,0 +1,12 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/cf/cf3f2c5fc886099614558d301c8b8b9c0e61e829d4dc79fd4600837ab2d10889-d
+packagefile gdt=/home/user/.cache/go-build/ff/ffac5be80f6dcf764251096b323317d319e2b8d08c311859f990d8060ca56b48-d
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/GTM/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/tss=/home/user/worldos/나라/GTM/소스/build/b035/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/GTM/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/GTM/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/GTM/소스/build/b026/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/a3/a3abc2a4beb02bbed7ccb741193913fa4ca6822ac42e864364ab4c4417f58069-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile utilidad/lista=/home/user/worldos/나라/GTM/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GTM/소스/build/b000/_pkg_.a

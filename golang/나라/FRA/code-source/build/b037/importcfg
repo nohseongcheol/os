@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/worldos/나라/FRA/code-source/build/b002/_pkg_.a
+packagefile fichiersystème/fat=/home/user/worldos/나라/FRA/code-source/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/FRA/code-source/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/FRA/code-source/build/b005/_pkg_.a
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/FRA/code-source/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/FRA/code-source/build/b030/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/FRA/code-source/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/FRA/code-source/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/FRA/code-source/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/FRA/code-source/build/b023/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/FRA/code-source/build/b006/_pkg_.a
+packagefile port=/home/user/worldos/나라/FRA/code-source/build/b007/_pkg_.a
+packagefile utilitaire=/home/user/worldos/나라/FRA/code-source/build/b008/_pkg_.a
+packagefile virtuelmémoire=/home/user/worldos/나라/FRA/code-source/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FRA/code-source/build/b000/_pkg_.a

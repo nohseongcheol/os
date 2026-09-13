@@ -1,0 +1,73 @@
+package elf
+
+import . "unsafe"
+import . "console"
+
+import mem "स्मृती"
+
+type Link struct {
+	Dynamic		uintptr
+	Prev	*Link
+	Next		*Link
+}
+type LinkMap struct {
+	First	*Link
+	Last	*Link
+
+	Vआकार	int
+
+	mem	*mem.TMemoryManager
+}
+
+func (self *LinkMap) Vआरंभ_करणे(mem *mem.TMemoryManager) {
+	self.mem = mem
+}
+func (self *LinkMap) Clone() LinkMap {
+	var linkMap LinkMap
+
+	linkMap.Vआरंभ_करणे(self.mem)
+
+	Link := self.First
+
+	for ; Link != nil; Link = Link.Next {
+		linkMap.Vसूचीच्या_शेवटी_जोडणे(Link.Dynamic)
+	}
+	return linkMap
+}
+func (self *LinkMap) Vसूचीच्या_सुरुवातीला_जोडणे(Dynamic uintptr) {
+	newLink := (*Link)(self.mem.Vस्मृती_वाटप_करणे(uint32(Sizeof(Link{}))))
+	newLink.Dynamic = Dynamic
+	newLink.Next = self.First
+	self.First = newLink
+	self.Vआकार++
+
+	if self.First.Next == nil {
+		self.Last = self.First
+	}
+}
+func (self *LinkMap) Vसूचीच्या_शेवटी_जोडणे(Dynamic uintptr) {
+	if Dynamic == 0 {
+		return
+	}
+
+	if self.Vआकार == 0 {
+		self.Vसूचीच्या_सुरुवातीला_जोडणे(Dynamic)
+	} else {
+		newLink := (*Link)(self.mem.Vस्मृती_वाटप_करणे(uint32(Sizeof(Link{}))))
+		newLink.Dynamic = Dynamic
+		newLink.Next = nil
+		self.Last.Next = newLink
+		self.Last = newLink
+		self.Vआकार++
+	}
+}
+func (self *LinkMap) Print(x uint16, y uint16) {
+	Link := self.First
+	콘솔 := T콘솔{}
+	콘솔.M출력XY("linkmap : ", x, y)
+	for ; Link != nil; Link = Link.Next {
+		콘솔.MUint32출력(uint32(Link.Dynamic))
+		콘솔.M출력("+")
+
+	}
+}

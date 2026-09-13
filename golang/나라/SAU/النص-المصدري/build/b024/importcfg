@@ -1,0 +1,5 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/24/24e9d4b2ab8ac5bac018b77fa9cb1968406a3140d15dd17926824b6d4a5b7685-d
+packagefile ذاكرةمدير=/home/user/worldos/나라/SAU/소스/build/b021/_pkg_.a
+packagefile مقاطعة=/home/user/worldos/나라/SAU/소스/build/b019/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SAU/소스/build/b000/_pkg_.a

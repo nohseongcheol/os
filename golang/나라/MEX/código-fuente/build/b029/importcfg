@@ -1,0 +1,6 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/47/47fa36592f84e2f3e12b629a530852d18048a2097705ae3d97cdc593fe9307d2-d
+packagefile interrupción=/home/user/worldos/나라/MEX/소스/build/b024/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/b0/b04fbb8aab1c863815004afa030c1224b070e393da8cd18996b850db9ed2f8fc-d
+packagefile sistemallamada=/home/user/worldos/나라/MEX/소스/build/b030/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MEX/소스/build/b000/_pkg_.a

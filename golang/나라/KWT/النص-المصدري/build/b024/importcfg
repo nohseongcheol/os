@@ -1,0 +1,5 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/bd/bdf0049ffebaf57cdfa0d20fc7f5e715afea4f7b1b7fc620c8e10c9553624786-d
+packagefile ذاكرةمدير=/home/user/worldos/나라/KWT/소스/build/b021/_pkg_.a
+packagefile مقاطعة=/home/user/worldos/나라/KWT/소스/build/b019/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KWT/소스/build/b000/_pkg_.a

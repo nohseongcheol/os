@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ac/ac530772674059b75b60954803e1c326873b89e84800126c3378e905c897a216-d
+packagefile controlador/ata=/home/user/worldos/나라/BRA/소스/build/b004/_pkg_.a
+packagefile controlador/controlador=/home/user/.cache/go-build/c0/c09f4c8c3a6a1f172897897920e8751863becb66924f7509a8040a8db5b66b16-d
+packagefile controlador/dispositivo_apontador=/home/user/worldos/나라/BRA/소스/build/b007/_pkg_.a
+packagefile controlador/teclado=/home/user/worldos/나라/BRA/소스/build/b024/_pkg_.a
+packagefile ficheirosistema/fat=/home/user/worldos/나라/BRA/소스/build/b026/_pkg_.a
+packagefile ficheirosistema/formato_executável_e_ligável=/home/user/worldos/나라/BRA/소스/build/b029/_pkg_.a
+packagefile ficheirosistema/msdospartição=/home/user/worldos/나라/BRA/소스/build/b027/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/1f/1fca8b57e6d3a89863ad329b1ef6e56cba34d9bfa0723b3cd187cee2f47b1429-d
+packagefile gestãoTarefas/escalonador=/home/user/worldos/나라/BRA/소스/build/b031/_pkg_.a
+packagefile gestãoTarefas/fluxoExecução=/home/user/worldos/나라/BRA/소스/build/b032/_pkg_.a
+packagefile gestãoTarefas/processo=/home/user/worldos/나라/BRA/소스/build/b037/_pkg_.a
+packagefile gestãoTarefas/tss=/home/user/worldos/나라/BRA/소스/build/b035/_pkg_.a
+packagefile interrupção=/home/user/worldos/나라/BRA/소스/build/b008/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/BRA/소스/build/b023/_pkg_.a
+packagefile múltiplogestãoTarefas=/home/user/worldos/나라/BRA/소스/build/b022/_pkg_.a
+packagefile paginação=/home/user/worldos/나라/BRA/소스/build/b030/_pkg_.a
+packagefile pci=/home/user/worldos/나라/BRA/소스/build/b038/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sistemachamada=/home/user/worldos/나라/BRA/소스/build/b025/_pkg_.a
+packagefile utilitário=/home/user/.cache/go-build/20/20d5f40941da393c625a97621f1871253a14372311db7a82491c18e46fcc339f-d
+packagefile virtualmemória=/home/user/worldos/나라/BRA/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BRA/소스/build/b000/_pkg_.a

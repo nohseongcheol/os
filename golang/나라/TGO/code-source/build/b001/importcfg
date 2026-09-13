@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a3/a3c32d284215b59762eeb100a6166b89cdd60f54ecbbebc726eed49e2698f002-d
+packagefile fichiersystème/fat=/home/user/worldos/나라/TGO/소스/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/TGO/소스/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/TGO/소스/build/b005/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/37/378265b5d5315c3a64f4afbcade1a3865e9c92ef1a0d44759fab3fbe26a20f32-d
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/TGO/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/TGO/소스/build/b030/_pkg_.a
+packagefile gestionTâches/processus=/home/user/worldos/나라/TGO/소스/build/b033/_pkg_.a
+packagefile gestionTâches/tss=/home/user/worldos/나라/TGO/소스/build/b031/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/TGO/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/TGO/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/TGO/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/TGO/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/TGO/소스/build/b034/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/TGO/소스/build/b006/_pkg_.a
+packagefile pilote/clavier=/home/user/worldos/나라/TGO/소스/build/b036/_pkg_.a
+packagefile pilote/dispositif_de_pointage=/home/user/worldos/나라/TGO/소스/build/b038/_pkg_.a
+packagefile pilote/pilote=/home/user/.cache/go-build/76/760aeb0e128f1af7625aa921228b2f80328175b1fdb83003fded5d66783aaa06-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systèmeappel=/home/user/worldos/나라/TGO/소스/build/b037/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/b2/b2cfe333cc58f2b0f101a986612ec6b1f85320fe984b08789640c999120b484a-d
+packagefile virtuelmémoire=/home/user/worldos/나라/TGO/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/TGO/소스/build/b000/_pkg_.a

@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ed/ed33a322b1fe79527eca95cd3dd03b0ee7fe1173761937a51e21ab39e28b49e3-d
+packagefile მეხსიერებაmanager=/home/user/worldos/나라/GEO/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GEO/소스/build/b000/_pkg_.a

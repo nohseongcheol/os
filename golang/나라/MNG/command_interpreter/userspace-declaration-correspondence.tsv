@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Хаах
+SYS_exit	SYS__exit
+SYS_open	SYS_Нээх
+SYS_read	SYS_Унших
+SYS_write	SYS_Бичих
+close	Хаах
+open	Нээх
+read	Унших
+write	Бичих

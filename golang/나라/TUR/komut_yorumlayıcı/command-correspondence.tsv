@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	yardım_göster
+echo	bağımsız_değişkenleri_göster
+pwd	çalışma_dizinini_göster
+cat	dosya_içeriğini_göster
+stat	dosya_bilgilerini_göster
+pid	süreç_kimliklerini_göster
+uname	sistem_kimliğini_göster
+run	programı_çalıştır
+udp	veri_birimi_geri_dönüşünü_sına
+source	komut_dosyasını_yorumla
+cd	dizin_değiştir
+exit	çık

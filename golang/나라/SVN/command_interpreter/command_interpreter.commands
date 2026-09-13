@@ -1,0 +1,5 @@
+# WorldOS SVN UTF-8 command file
+echo "WorldOS SVN"
+help
+pwd
+pid

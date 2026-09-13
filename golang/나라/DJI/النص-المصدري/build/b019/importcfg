@@ -1,0 +1,7 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/b7/b7baa3e53e66397cb307dcf9a8bffe7dce8083ba4dde3b7bcdac9f80efa3db3c-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile طرفية=/home/user/.cache/go-build/6a/6ae7dfc9a4cf48d2ef3b977713f34d5c69c02102aa233381b894dd90bdb654a5-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/DJI/소스/build/b020/_pkg_.a
+packagefile منفذ=/home/user/.cache/go-build/12/128b17890be0d1abee801534045bcdc808d2b9dc2968cbb7d7f25cde00e4a00d-d
+packagefile runtime/cgo=/home/user/worldos/나라/DJI/소스/build/b000/_pkg_.a

@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	rakenna_komentotulkki
+executable_file	suoritettava_tiedosto
+include_directory	esittelyhakemisto
+library_file	kirjastotiedosto
+linker_file	linkitystiedosto
+object_file	kohdetiedosto
+source_file	lähdetiedosto
+startup_object	käynnistyskohde

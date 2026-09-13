@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Zapri
+SYS_exit	SYS__exit
+SYS_open	SYS_Odpri
+SYS_read	SYS_Branje
+SYS_write	SYS_Pisanje
+close	Zapri
+open	Odpri
+read	Branje
+write	Pisanje

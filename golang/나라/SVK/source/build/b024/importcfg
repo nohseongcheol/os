@@ -1,0 +1,16 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/SVK/소스/build/b002/_pkg_.a
+packagefile konzola=/home/user/.cache/go-build/e7/e7f819f2be85dae5b0c7628e604e0ab7337737bf71944854db6368f51b4267d8-d
+packagefile multitasking=/home/user/worldos/나라/SVK/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/SVK/소스/build/b025/_pkg_.a
+packagefile pamäťmanager=/home/user/worldos/나라/SVK/소스/build/b023/_pkg_.a
+packagefile port=/home/user/.cache/go-build/b8/b82a8c7c953d4932c06563c56d7adcb89cda47280cd25b9064780fdd58c989b4-d
+packagefile prerušenie=/home/user/worldos/나라/SVK/소스/build/b008/_pkg_.a
+packagefile súborSystém/elf=/home/user/worldos/나라/SVK/소스/build/b027/_pkg_.a
+packagefile súborSystém/fat=/home/user/worldos/나라/SVK/소스/build/b028/_pkg_.a
+packagefile súborSystém/msdospartition=/home/user/worldos/나라/SVK/소스/build/b029/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/SVK/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/SVK/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/35/35419df00643ada6f74b0d1d99b917cd85a5edeac1212f07e0fff566a6b5c807-d
+packagefile virtuálnyPamäť=/home/user/worldos/나라/SVK/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SVK/소스/build/b000/_pkg_.a

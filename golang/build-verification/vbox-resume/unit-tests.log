@@ -1,0 +1,115 @@
+........................REFRESH BACKUP ZZZ /tmp/worldos-posix-test-souxqyly/worldos-posix-refresh-backup-1hckt3e0
+MOVED ZZZ posix-kor -> posix-ZZZ BACKUP /tmp/worldos-posix-test-souxqyly/worldos-posix-country-backup-crl89p77
+..............................................RENAMED ZZZ command_interpreter -> renamed_interpreter backup: /tmp/worldos-shell-migration-test-xb_iq8gb/worldos-shell-rename-backup-dtl8plzr
+.........INSTALLED KOR BACKUP /tmp/worldos-vbox-test-ek_k8co4/worldos-vbox-install-backup-gadtd1e0
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-ek_k8co4/나라/KOR/.vbox/logs/build-2334168e-f279-48a0-8e8f-c2f281620f96.log
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-d_9gy9h6/worldos-vbox-install-backup-yrzrjrfo
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-d_9gy9h6/나라/KOR/.vbox/logs/build-b37ede8d-f264-430a-b57f-38f0c0b136b1.log
+NEW_DISK /tmp/worldos-vbox-test-d_9gy9h6/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-d_9gy9h6/나라/KOR/.vbox/logs/serial-b37ede8d-f264-430a-b57f-38f0c0b136b1.log
+STARTED worldos KOR gui
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-cqq6161i/worldos-vbox-install-backup-7ub5ituy
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-cqq6161i/나라/KOR/.vbox/logs/build-acd2cfe7-1e26-429e-81de-976d39fe1c0e.log
+NEW_DISK /tmp/worldos-vbox-test-cqq6161i/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-cqq6161i/나라/KOR/.vbox/logs/serial-acd2cfe7-1e26-429e-81de-976d39fe1c0e.log
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-cqq6161i/나라/KOR/.vbox/logs/build-dc337a60-dc66-4dcc-9a5e-db01467aecbc.log
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-u3h6hmg3/worldos-vbox-install-backup-x17lt7qg
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-u3h6hmg3/나라/KOR/.vbox/logs/build-31fa2dd6-89bc-43cc-8f59-2a693bdec225.log
+NEW_DISK /tmp/worldos-vbox-test-u3h6hmg3/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR new 
+SERIAL_LOG /tmp/worldos-vbox-test-u3h6hmg3/나라/KOR/.vbox/logs/serial-31fa2dd6-89bc-43cc-8f59-2a693bdec225.log
+STARTED worldos KOR new gui
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-yb2opvbi/worldos-vbox-install-backup-ht_p9by3
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-6iuusn21/worldos-vbox-install-backup-3iyvso93
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-h1yt264p/worldos-vbox-install-backup-mvs4mytz
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-h1yt264p/나라/KOR/.vbox/logs/build-e8eaf3c1-126b-4a1d-8e9f-5979817d46aa.log
+NEW_DISK /tmp/worldos-vbox-test-h1yt264p/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-h1yt264p/나라/KOR/.vbox/logs/serial-e8eaf3c1-126b-4a1d-8e9f-5979817d46aa.log
+STARTED worldos KOR gui
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-q1uqmriq/worldos-vbox-install-backup-jecjm8js
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-q1uqmriq/나라/KOR/.vbox/logs/build-0dc430c7-1cc6-423c-ae15-8ab50d3b7dbd.log
+NEW_DISK /tmp/worldos-vbox-test-q1uqmriq/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-q1uqmriq/나라/KOR/.vbox/logs/serial-0dc430c7-1cc6-423c-ae15-8ab50d3b7dbd.log
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-a17lgqjk/worldos-vbox-install-backup-68pkxhcm
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-a17lgqjk/나라/KOR/.vbox/logs/build-656f2d4d-12d7-4d4a-8571-e3133af515c2.log
+NEW_DISK /tmp/worldos-vbox-test-a17lgqjk/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-a17lgqjk/나라/KOR/.vbox/logs/serial-656f2d4d-12d7-4d4a-8571-e3133af515c2.log
+STARTED worldos KOR gui
+RESUMING worldos KOR from paused
+RESUMED worldos KOR from paused (no rebuild, reconfiguration, or media replacement)
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-w33ajsqz/worldos-vbox-install-backup-z12jmxu9
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-w33ajsqz/나라/KOR/.vbox/logs/build-d21d79c9-4c8d-4e5f-84f4-1ae4400d0e60.log
+NEW_DISK /tmp/worldos-vbox-test-w33ajsqz/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-w33ajsqz/나라/KOR/.vbox/logs/serial-d21d79c9-4c8d-4e5f-84f4-1ae4400d0e60.log
+STARTED worldos KOR gui
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-zgpbuobo/worldos-vbox-install-backup-x52ahh5f
+INSTALLED KOR BACKUP /tmp/worldos-vbox-test-zgpbuobo/worldos-vbox-install-backup-_opmmi0_
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-5ilzgush/worldos-vbox-install-backup-wdz_c49b
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-5ilzgush/나라/KOR/.vbox/logs/build-612d8cff-eadb-4fba-ae5e-607135d8e57b.log
+NEW_DISK /tmp/worldos-vbox-test-5ilzgush/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-5ilzgush/나라/KOR/.vbox/logs/serial-612d8cff-eadb-4fba-ae5e-607135d8e57b.log
+STARTED worldos KOR gui
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-815id0jc/worldos-vbox-install-backup-4y8libqt
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-815id0jc/나라/KOR/.vbox/logs/build-c6764943-eecd-42f3-a067-84b4aa3dd8c0.log
+NEW_DISK /tmp/worldos-vbox-test-815id0jc/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-815id0jc/나라/KOR/.vbox/logs/serial-c6764943-eecd-42f3-a067-84b4aa3dd8c0.log
+STARTED worldos KOR gui
+RESUMING worldos KOR from saved
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-5zk9zs5i/worldos-vbox-install-backup-ffccp7ol
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-5zk9zs5i/나라/KOR/.vbox/logs/build-0b57df3f-db78-48b7-ae91-a1a3de8b6143.log
+NEW_DISK /tmp/worldos-vbox-test-5zk9zs5i/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-5zk9zs5i/나라/KOR/.vbox/logs/serial-0b57df3f-db78-48b7-ae91-a1a3de8b6143.log
+STARTED worldos KOR gui
+.ALREADY_RUNNING worldos KOR (no rebuild, poweroff, or disk changes)
+INSTALLED KOR BACKUP /tmp/worldos-vbox-test-hjbvdloo/worldos-vbox-install-backup-qpk5oyvk
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-hjbvdloo/나라/KOR/.vbox/logs/build-0a5e0a65-78c2-403b-acef-976038f5769b.log
+NEW_DISK /tmp/worldos-vbox-test-hjbvdloo/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-hjbvdloo/나라/KOR/.vbox/logs/serial-0a5e0a65-78c2-403b-acef-976038f5769b.log
+STARTED worldos KOR gui
+RESUMING worldos KOR from saved
+RESUMED worldos KOR from saved (no rebuild, reconfiguration, or media replacement)
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-_05hw9re/worldos-vbox-install-backup-omj6l0cs
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-_05hw9re/나라/KOR/.vbox/logs/build-a6761939-a379-43cb-972d-7f63333c12cf.log
+NEW_DISK /tmp/worldos-vbox-test-_05hw9re/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-_05hw9re/나라/KOR/.vbox/logs/serial-a6761939-a379-43cb-972d-7f63333c12cf.log
+STARTED worldos KOR gui
+RESUMING worldos KOR from saved
+RESUMED worldos KOR from saved (no rebuild, reconfiguration, or media replacement)
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-px5t95ap/worldos-vbox-install-backup-uojbicl8
+.PASS KOR independent make vbox entry; no VM changes
+NOT_CREATED worldos KOR
+INSTALLED KOR BACKUP /tmp/worldos-vbox-test-k9dhctyu/worldos-vbox-install-backup-vda41kjv
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-k9dhctyu/나라/KOR/.vbox/logs/build-ca41684b-814c-4038-9c8c-2816cdd6936a.log
+NEW_DISK /tmp/worldos-vbox-test-k9dhctyu/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-k9dhctyu/나라/KOR/.vbox/logs/serial-ca41684b-814c-4038-9c8c-2816cdd6936a.log
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-k9dhctyu/나라/KOR/.vbox/logs/build-a8ac23f8-a627-4fb0-9cd7-8456ba0a759e.log
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-k9dhctyu/나라/KOR/.vbox/logs/serial-a8ac23f8-a627-4fb0-9cd7-8456ba0a759e.log
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-k9dhctyu/나라/KOR/.vbox/logs/build-5da1cac1-b183-4f6a-a709-455ef828a520.log
+NEW_DISK /tmp/worldos-vbox-test-k9dhctyu/나라/KOR/.vbox/media/disk-2.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-k9dhctyu/나라/KOR/.vbox/logs/serial-5da1cac1-b183-4f6a-a709-455ef828a520.log
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-3fw5rldz/worldos-vbox-install-backup-su42jv8d
+.INSTALLED KOR BACKUP /tmp/worldos-vbox-test-ba4n3ohg/worldos-vbox-install-backup-otj8j3hh
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-ba4n3ohg/나라/KOR/.vbox/logs/build-86fc8eee-f04f-4b9e-b1c3-f739edb39723.log
+NEW_DISK /tmp/worldos-vbox-test-ba4n3ohg/나라/KOR/.vbox/media/disk-1.vdi (previous disk preserved)
+READY worldos KOR 
+SERIAL_LOG /tmp/worldos-vbox-test-ba4n3ohg/나라/KOR/.vbox/logs/serial-86fc8eee-f04f-4b9e-b1c3-f739edb39723.log
+BUILD KOR kernel / POSIX / shell; log: /tmp/worldos-vbox-test-ba4n3ohg/나라/KOR/.vbox/logs/build-4034b1f5-6183-44ba-b775-e5f6ae901c34.log
+.
+----------------------------------------------------------------------
+Ran 99 tests in 3.916s
+
+OK

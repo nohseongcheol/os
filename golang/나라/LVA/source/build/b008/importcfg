@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/c4/c47f0c987c300933bf848bc516be2311c9a243681f6e7839e63fc2befa81eaf0-d
+packagefile ports=/home/user/.cache/go-build/b5/b57588d8d9cb6a75dce613c733e3429212aa6dd873e5b23d297f29daf9595ab0-d
+packagefile pārtraukums=/home/user/worldos/나라/LVA/소스/build/b009/_pkg_.a
+packagefile sistēmacall=/home/user/worldos/나라/LVA/소스/build/b024/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LVA/소스/build/b000/_pkg_.a

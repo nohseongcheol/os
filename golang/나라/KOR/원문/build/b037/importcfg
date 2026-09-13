@@ -1,0 +1,7 @@
+# import config
+packagefile 기억공간관리자=/home/user/worldos/나라/KOR/원문/build/b019/_pkg_.a
+packagefile 도구=/home/user/worldos/나라/KOR/원문/build/b029/_pkg_.a
+packagefile 도구/목록=/home/user/worldos/나라/KOR/원문/build/b032/_pkg_.a
+packagefile 작업관리/실행흐름=/home/user/worldos/나라/KOR/원문/build/b030/_pkg_.a
+packagefile 작업관리/작업배정기=/home/user/worldos/나라/KOR/원문/build/b031/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KOR/원문/build/b000/_pkg_.a

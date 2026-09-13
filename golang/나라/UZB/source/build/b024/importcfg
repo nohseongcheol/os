@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/24/245e6a17d74dca14ffdfabae1bc52ccb32463266d280ce47a66ac55b18241ef7-d
+packagefile driver/ata=/home/user/worldos/나라/UZB/소스/build/b004/_pkg_.a
+packagefile faylTizim/elf=/home/user/worldos/나라/UZB/소스/build/b025/_pkg_.a
+packagefile faylTizim/fat=/home/user/worldos/나라/UZB/소스/build/b028/_pkg_.a
+packagefile faylTizim/msdospartition=/home/user/worldos/나라/UZB/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/UZB/소스/build/b008/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/UZB/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/UZB/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/ca/cab7f4d8fd985576087c1217a68a67e97d2e64fa5d3c4b640d546106c57ee98e-d
+packagefile tasking/scheduler=/home/user/worldos/나라/UZB/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/UZB/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/af/af4544c137324abb405cdfaa670caa505eac636ba959b14893f5d5101f400028-d
+packagefile virtualXotira=/home/user/worldos/나라/UZB/소스/build/b032/_pkg_.a
+packagefile xotiramanager=/home/user/worldos/나라/UZB/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/UZB/소스/build/b000/_pkg_.a

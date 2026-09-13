@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_بستن
+SYS_exit	SYS__exit
+SYS_open	SYS_بازکردن
+SYS_read	SYS_خواندن
+SYS_write	SYS_نوشتن
+close	بستن
+open	بازکردن
+read	خواندن
+write	نوشتن

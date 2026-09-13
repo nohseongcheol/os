@@ -1,0 +1,25 @@
+# import config
+packagefile gdt=/home/user/worldos/나라/CHN/源代码/build/b002/_pkg_.a
+packagefile pci=/home/user/worldos/나라/CHN/源代码/build/b017/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile 中断=/home/user/worldos/나라/CHN/源代码/build/b018/_pkg_.a
+packagefile 任务管理/tss=/home/user/worldos/나라/CHN/源代码/build/b023/_pkg_.a
+packagefile 任务管理/线程=/home/user/worldos/나라/CHN/源代码/build/b024/_pkg_.a
+packagefile 任务管理/调度器=/home/user/worldos/나라/CHN/源代码/build/b027/_pkg_.a
+packagefile 任务管理/进程=/home/user/worldos/나라/CHN/源代码/build/b029/_pkg_.a
+packagefile 内存管理器=/home/user/worldos/나라/CHN/源代码/build/b020/_pkg_.a
+packagefile 分页管理=/home/user/worldos/나라/CHN/源代码/build/b031/_pkg_.a
+packagefile 多重任务管理=/home/user/worldos/나라/CHN/源代码/build/b019/_pkg_.a
+packagefile 工具=/home/user/worldos/나라/CHN/源代码/build/b030/_pkg_.a
+packagefile 控制台=/home/user/worldos/나라/CHN/源代码/build/b016/_pkg_.a
+packagefile 文件系统/fat=/home/user/worldos/나라/CHN/源代码/build/b032/_pkg_.a
+packagefile 文件系统/msdos分区=/home/user/worldos/나라/CHN/源代码/build/b033/_pkg_.a
+packagefile 文件系统/可执行与可链接格式=/home/user/worldos/나라/CHN/源代码/build/b035/_pkg_.a
+packagefile 系统调用=/home/user/worldos/나라/CHN/源代码/build/b036/_pkg_.a
+packagefile 虚拟内存=/home/user/worldos/나라/CHN/源代码/build/b025/_pkg_.a
+packagefile 驱动程序/ata=/home/user/worldos/나라/CHN/源代码/build/b034/_pkg_.a
+packagefile 驱动程序/指向设备=/home/user/worldos/나라/CHN/源代码/build/b037/_pkg_.a
+packagefile 驱动程序/键盘=/home/user/worldos/나라/CHN/源代码/build/b038/_pkg_.a
+packagefile 驱动程序/驱动程序=/home/user/worldos/나라/CHN/源代码/build/b022/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHN/源代码/build/b000/_pkg_.a

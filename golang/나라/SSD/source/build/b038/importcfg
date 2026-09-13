@@ -1,0 +1,7 @@
+# import config
+packagefile memorymanager=/home/user/worldos/나라/SSD/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/SSD/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/SSD/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/1c/1c589ce9543f747b088ea3b0fd809e9e9b9677a56d1b9c9334ce9f693a20f535-d
+packagefile util/list=/home/user/worldos/나라/SSD/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SSD/소스/build/b000/_pkg_.a

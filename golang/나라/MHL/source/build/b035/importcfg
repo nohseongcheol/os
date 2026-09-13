@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/15/15001e2a3ee5c818a6ccc9a88456c41f3071af9157efb009ac7c52596a54da42-d
+packagefile memorymanager=/home/user/worldos/나라/MHL/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MHL/소스/build/b000/_pkg_.a

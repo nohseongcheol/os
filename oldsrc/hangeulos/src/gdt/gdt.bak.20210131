@@ -1,0 +1,71 @@
+package gdt
+
+import . "unsafe"
+
+func gdt_func(x uintptr)
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//
+//		세그먼트서술자 = 세그먼트서술자 = Segment Descriptor
+//
+///////////////////////////////////////////////////////////////////////////////////////////
+type T세그먼트서술자 struct{
+}
+var 세그먼트영역 [40] uint8
+func (self *T세그먼트서술자) Init(index uint8, base uint32, limit uint32, flags uint8) {
+
+	if(limit <= 65536) {
+		세그먼트영역[index+6] = 0x40
+	} else {
+		if((limit & 0xFFF) != 0xFFF){
+			limit = (limit >> 12) -1
+		}else{
+			limit = limit >> 12
+		}
+		세그먼트영역[index+6] = 0xC0
+	}
+
+
+	세그먼트영역[index+0] = uint8(limit & 0xFF)
+	세그먼트영역[index+1] = uint8((limit >> 8) & 0xFF)
+	세그먼트영역[index+6] = 세그먼트영역[index+6] | uint8((limit >> 16) & 0xF) //G, D, 0, AVL, segment
+	
+	세그먼트영역[index+2] = uint8(base & 0xFF)
+	세그먼트영역[index+3] = uint8((base >> 8) & 0xFF) 
+	세그먼트영역[index+4] = uint8((base >> 16) & 0xFF)
+	세그먼트영역[index+7] = uint8((base >> 24) & 0xFF)
+
+	세그먼트영역[index+5] = flags  // p, DPL, S, Type(4)
+
+}
+///////////////////////////////////////////////////////////////////////////////////////////
+//
+//			공용서술자표 = global descriptor table
+//
+///////////////////////////////////////////////////////////////////////////////////////////
+type T공용서술자표 struct{
+	세그먼트선택자 T세그먼트서술자
+}
+func (self *T공용서술자표) M초기화(){
+
+	self.세그먼트선택자.Init(0, 0, 0, 0) // null Segment
+	self.세그먼트선택자.Init(8, 0, 64*1024*1024, 0x9A) // code Segment
+	self.세그먼트선택자.Init(16, 0, 64*1024*1024, 0x92) // code Segment
+	
+	target := [6]uint8{0,0,0,0,0,0}
+	base_addr := (*uint32)(Pointer(&target[2]))
+	(*base_addr) = uint32(uintptr(Pointer(&세그먼트영역)))
+	
+	size := (*uint16)(Pointer(&target[0]))
+	(*size) = (uint16)((Sizeof(세그먼트영역)))
+
+	gdt_func(uintptr(Pointer(&target)))
+
+}
+func (self *T공용서술자표) M코드세그먼트선택자() uint16{
+	return uint16( uintptr(Pointer(&세그먼트영역[8])) - uintptr(Pointer(&세그먼트영역[0])))
+}
+func (self *T공용서술자표) M자료세그먼트선택자() uint16{
+	return *(*uint16)(Pointer(&세그먼트영역[16])) - *(*uint16)(Pointer(&세그먼트영역[0]))
+	
+}

@@ -1,0 +1,37 @@
+{
+  "editions": 295,
+  "current_builds_verified": 295,
+  "native_guest_boots": 295,
+  "current_artifacts_match_saved_boots": true,
+  "regression_guest_cases": 56,
+  "regression_editions": [
+    "ARE",
+    "CHN/zh_Hant",
+    "IND/hi_Deva",
+    "IND/ta_Taml",
+    "JPN/ja_Hira",
+    "JPN/ja_Kana",
+    "KOR",
+    "USA"
+  ],
+  "unit_tests_passed": 74,
+  "shell_builds_passed": 295,
+  "current_shell_boots_verified": [
+    "ARE",
+    "CHN/zh_Hant",
+    "IND/hi_Deva",
+    "IND/ta_Taml",
+    "JPN/ja_Hira",
+    "JPN/ja_Kana",
+    "KOR",
+    "USA"
+  ],
+  "shell_test_note": "USA strict log test initially failed due to background task output between echo arguments; unmodified single-edition retry passed. Initial logs preserved in USA-shell-interleaved.*.",
+  "all_49_function_names_present": 170,
+  "english_editions_in_that_count": 64,
+  "partial_or_undefined_language_editions": 125,
+  "all_61_selected_variable_names_present": 82,
+  "linguistic_review": "incomplete",
+  "complete_translation_all_identifiers": false,
+  "source_disks_unchanged": true
+}

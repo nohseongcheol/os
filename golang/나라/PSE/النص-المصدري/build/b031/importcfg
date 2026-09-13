@@ -1,0 +1,12 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/29/293ca3d2e2266d799a34dab86dae90d8e592239bc233ecd402ed98046b51bc2a-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile أداة/قائمة=/home/user/worldos/나라/PSE/소스/build/b030/_pkg_.a
+packagefile إدارةمهام/tss=/home/user/worldos/나라/PSE/소스/build/b025/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/PSE/소스/build/b026/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/PSE/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/be/beadee5a7d6161003d7c88391c70cfb028fc4f8f1879c747fe20f97c978b60d9-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/PSE/소스/build/b020/_pkg_.a
+packagefile مقاطعة=/home/user/worldos/나라/PSE/소스/build/b019/_pkg_.a
+packagefile منفذ=/home/user/.cache/go-build/7c/7c81c88c0f773818adc9df7f1d981f10aa078bdd248bd1d3d11ddce4a633a076-d
+packagefile runtime/cgo=/home/user/worldos/나라/PSE/소스/build/b000/_pkg_.a

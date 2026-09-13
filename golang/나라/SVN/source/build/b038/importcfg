@@ -1,0 +1,7 @@
+# import config
+packagefile pomnilnikmanager=/home/user/worldos/나라/SVN/소스/build/b006/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/SVN/소스/build/b033/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/SVN/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/5f/5f6f876ab3cdc25decd3a717634d61b3d680ee73b4a006808f74b125b0e3db7a-d
+packagefile util/seznam=/home/user/worldos/나라/SVN/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SVN/소스/build/b000/_pkg_.a

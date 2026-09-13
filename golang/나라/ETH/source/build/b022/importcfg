@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/9a/9a5578eda1e24bacab376bf9857969f5f1edc565e3bcd00962f85d95c556f431-d
+packagefile gdt=/home/user/.cache/go-build/39/39d58b279b6d4bb005e4f32496817c5fad4dc03f454de7f1516c210728f6bfe5-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile ማስታወሻmanager=/home/user/worldos/나라/ETH/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ETH/소스/build/b000/_pkg_.a

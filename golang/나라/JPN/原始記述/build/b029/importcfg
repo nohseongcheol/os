@@ -1,0 +1,4 @@
+# import config
+packagefile コンソール=/home/user/worldos/나라/JPN/原始記述/build/b016/_pkg_.a
+packagefile メモリ管理者=/home/user/worldos/나라/JPN/原始記述/build/b022/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/JPN/原始記述/build/b000/_pkg_.a

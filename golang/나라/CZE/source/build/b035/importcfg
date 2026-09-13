@@ -1,0 +1,4 @@
+# import config
+packagefile konzole=/home/user/.cache/go-build/cf/cf799bccd988dd4e5af6ae510771e666e7e4f2fb1ee21189ad57db7ec4387055-d
+packagefile paměťmanager=/home/user/worldos/나라/CZE/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CZE/소스/build/b000/_pkg_.a

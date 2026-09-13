@@ -1,0 +1,5 @@
+# WorldOS NOR UTF-8 command file
+echo "WorldOS NOR"
+help
+pwd
+pid

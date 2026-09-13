@@ -1,0 +1,5 @@
+# import config
+packagefile atmintismanager=/home/user/worldos/나라/LTU/소스/build/b002/_pkg_.a
+packagefile pertraukimas=/home/user/worldos/나라/LTU/소스/build/b009/_pkg_.a
+packagefile util=/home/user/.cache/go-build/3f/3f3a66f0a364cec761566045f1def869e63f501a58adc377e13725c24b838cd0-d
+packagefile runtime/cgo=/home/user/worldos/나라/LTU/소스/build/b000/_pkg_.a

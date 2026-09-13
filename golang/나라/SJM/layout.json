@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "SJM",
+  "language": "nb",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

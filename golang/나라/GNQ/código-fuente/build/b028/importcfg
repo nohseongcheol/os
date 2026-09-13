@@ -1,0 +1,5 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/6b/6b37f38a66dd44bb25e450c88db1ee5d93e4a1ea31b533db4ff48c4b83c6de62-d
+packagefile interrupción=/home/user/worldos/나라/GNQ/소스/build/b024/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/36/3651d508169fffaaeaf2399276290c9884298f5010d1bf6a9615966877f4a262-d
+packagefile runtime/cgo=/home/user/worldos/나라/GNQ/소스/build/b000/_pkg_.a

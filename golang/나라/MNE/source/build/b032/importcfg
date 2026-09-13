@@ -1,0 +1,4 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/84/84828da43f86d5f8c377dce50293610f7c8796124d60bc297b37fb1bb3a4614a-d
+packagefile конзола=/home/user/.cache/go-build/96/96afb6c7c74970845dd279ad257dff83181af6cc780f33712252e2d14fddf691-d
+packagefile runtime/cgo=/home/user/worldos/나라/MNE/소스/build/b000/_pkg_.a

@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{원문_자료철}=$1
+@{기계명령_자료철}=$2
+@{실행_자료철}=$3
+@{선언자료철_경로}=$4
+@{시동_기계명령}=$5
+@{함수모음_자료철}=$6
+@{연결배치_자료철}=$7
+
+@{명령해석기_만들기}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{선언자료철_경로}" -c "$@{원문_자료철}" -o "$@{기계명령_자료철}"
+    ld -n -m elf_i386 -e _start -T "$@{연결배치_자료철}" -static \
+        --no-ld-generated-unwind-info -o "$@{실행_자료철}" \
+        "$@{시동_기계명령}" "$@{기계명령_자료철}" "$@{함수모음_자료철}"
+}
+@{명령해석기_만들기}

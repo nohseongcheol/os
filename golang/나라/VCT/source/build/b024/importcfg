@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/4d/4d3ebb181174b80e124a2e70597359024a55ff8021554c7e6cbf9ec1d88a444e-d
+packagefile driver/ata=/home/user/worldos/나라/VCT/소스/build/b004/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/VCT/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/VCT/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/VCT/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/VCT/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/VCT/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/VCT/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/VCT/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/ef/efad2d6cb1e647e594265e4ecfcf3d0d12f4ef1bf853755f57a20c7f8c11fdea-d
+packagefile tasking/scheduler=/home/user/worldos/나라/VCT/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/VCT/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/b8/b81a140d3a0f0aa13b6589fe0e9393b8ea26ea1a03129ee7fc958fd528e70c91-d
+packagefile virtualmemory=/home/user/worldos/나라/VCT/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VCT/소스/build/b000/_pkg_.a

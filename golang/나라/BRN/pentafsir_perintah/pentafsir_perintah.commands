@@ -1,0 +1,5 @@
+# WorldOS BRN UTF-8 command file
+paparkan_argumen "WorldOS BRN"
+paparkan_bantuan
+paparkan_direktori_semasa
+paparkan_pengenal_proses

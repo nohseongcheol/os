@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{fail_sumber}=$1
+@{fail_objek}=$2
+@{fail_boleh_laksana}=$3
+@{direktori_pengisytiharan}=$4
+@{objek_permulaan}=$5
+@{fail_pustaka}=$6
+@{fail_pautan}=$7
+
+@{bina_pentafsir_perintah}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{direktori_pengisytiharan}" -c "$@{fail_sumber}" -o "$@{fail_objek}"
+    ld -n -m elf_i386 -e _start -T "$@{fail_pautan}" -static \
+        --no-ld-generated-unwind-info -o "$@{fail_boleh_laksana}" \
+        "$@{objek_permulaan}" "$@{fail_objek}" "$@{fail_pustaka}"
+}
+@{bina_pentafsir_perintah}

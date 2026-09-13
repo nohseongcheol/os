@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	分配内存	分配内存	project-proposal	function-based project proposal
+append	追加到表尾	追加到表尾	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	分配位图	分配位图	project-proposal	function-based project proposal
+boot	机器启动	机器启动	project-proposal	function-based project proposal
+boot_record	主引导记录	主引导记录	project-proposal	boot code and partition metadata, not an audio recording
+bus	共享传输总线	共享传输总线	project-proposal	function-based project proposal
+compile_kernel	编译内核	编译内核	project-proposal	function-based project proposal
+destination_port	目标端口号	目标端口号	project-proposal	function-based project proposal
+elf	可执行与可链接格式	可执行与可链接格式	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	错误编号	错误编号	project-proposal	function-based project proposal
+ethernet_frame	共享介质网络帧	共享介质网络帧	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	共享介质网络帧头	共享介质网络帧头	project-proposal	function-based project proposal
+ethernet_provider	共享介质网络帧提供器	共享介质网络帧提供器	project-proposal	function-based project proposal
+fat_parameters	文件系统参数	文件系统参数	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	文件控制	文件控制	project-proposal	function-based project proposal
+file_read	读取文件	读取文件	project-proposal	function-based project proposal
+file_status	文件状态	文件状态	project-proposal	function-based project proposal
+file_write	写入文件	写入文件	project-proposal	function-based project proposal
+free_memory	释放内存	释放内存	project-proposal	function-based project proposal
+headers	头文件	头文件	project-proposal	function-based project proposal
+heap	动态存储区	动态存储区	project-proposal	function-based project proposal
+icmp	互联网络控制报文协议	互联网络控制报文协议	project-proposal	function-based project proposal
+implementation	实现	实现	project-proposal	function-based project proposal
+insert_at	在指定位置插入	在指定位置插入	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	互联网络	互联网络	project-proposal	function-based project proposal
+ip_provider	互联网络协议提供器	互联网络协议提供器	project-proposal	function-based project proposal
+ipv4	互联网络协议4	互联网络协议4	project-proposal	function-based project proposal
+link_layout	链接布局	链接布局	project-proposal	function-based project proposal
+list_node	链表节点	链表节点	project-proposal	function-based project proposal
+log_decoder	解析串行日志	解析串行日志	project-proposal	function-based project proposal
+mouse	指向设备	指向设备	project-proposal	function-based project proposal
+page_directory	页目录	页目录	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	物理页	物理页	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	地址引用	地址引用	project-proposal	function-based project proposal
+prepend	添加到表头	添加到表头	project-proposal	src/util/list/list.go: links before head
+register	寄存器	寄存器	project-proposal	function-based project proposal
+set_coordinates	设置局部坐标	设置局部坐标	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	源端口号	源端口号	project-proposal	function-based project proposal
+stack	栈存储区	栈存储区	project-proposal	function-based project proposal
+startup	启动	启动	project-proposal	function-based project proposal
+structure_offsets	结构偏移	结构偏移	project-proposal	function-based project proposal
+system_call	系统调用	系统调用	project-proposal	function-based project proposal
+tests	测试	测试	project-proposal	function-based project proposal
+toggle_bit	反转分配位	反转分配位	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	工具	工具	project-proposal	function-based project proposal
+udp	用户数据报协议	用户数据报协议	project-proposal	function-based project proposal
+udp_header	用户数据报头	用户数据报头	project-proposal	function-based project proposal
+udp_socket	用户数据报通信端点	用户数据报通信端点	project-proposal	function-based project proposal
+user_space	用户空间	用户空间	project-proposal	function-based project proposal
+widget	界面元素	界面元素	project-proposal	function-based project proposal

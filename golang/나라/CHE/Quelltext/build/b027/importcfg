@@ -1,0 +1,7 @@
+# import config
+packagefile aufgabenverwaltung/ausführungsfaden=/home/user/worldos/나라/CHE/소스/build/b002/_pkg_.a
+packagefile aufgabenverwaltung/planer=/home/user/worldos/나라/CHE/소스/build/b022/_pkg_.a
+packagefile hilfswerkzeug=/home/user/.cache/go-build/53/538557b66d40c6776f03b837594271adfbc776c479b298b15f09a06f853937c1-d
+packagefile hilfswerkzeug/liste=/home/user/worldos/나라/CHE/소스/build/b025/_pkg_.a
+packagefile speicherVerwalter=/home/user/worldos/나라/CHE/소스/build/b019/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHE/소스/build/b000/_pkg_.a

@@ -1,0 +1,29 @@
+make[1]: Entering directory '/home/user/worldos/나라/JPN/소스'
+rm -rf iso
+mkdir -p iso/boot/grub
+cp build/kernel.bin iso/boot/
+echo 'set timeout=0' >> iso/boot/grub/grub.cfg
+echo 'set default=0' >> iso/boot/grub/grub.cfg
+echo '' >> iso/boot/grub/grub.cfg
+echo 'menuentry "worldos JPN" {' >> iso/boot/grub/grub.cfg
+echo 'multiboot2 /boot/kernel.bin' >> iso/boot/grub/grub.cfg
+echo 'boot' >> iso/boot/grub/grub.cfg
+echo '}' >> iso/boot/grub/grub.cfg
+grub-mkrescue --output=build/kernel.iso iso
+xorriso 1.4.8 : RockRidge filesystem manipulator, libburnia project.
+
+Drive current: -outdev 'stdio:build/kernel.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 7357m free
+Added to ISO image: directory '/'='/tmp/grub.R5JSh4'
+xorriso : UPDATE : 289 files added in 1 seconds
+Added to ISO image: directory '/'='/home/user/worldos/나라/JPN/소스/iso'
+xorriso : UPDATE : 293 files added in 1 seconds
+xorriso : NOTE : Copying to System Area: 512 bytes from file '/usr/lib/grub/i386-pc/boot_hybrid.img'
+ISO image produced: 5583 sectors
+Written to medium : 5583 sectors at LBA 0
+Writing to 'stdio:build/kernel.iso' completed successfully.
+
+rm -rf iso
+make[1]: Leaving directory '/home/user/worldos/나라/JPN/소스'

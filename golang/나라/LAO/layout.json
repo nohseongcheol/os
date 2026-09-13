@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "LAO",
+  "language": "lo",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/2e/2e89a99c4c23db99c51a039245a93331501d7dacd69d51b630d5229501a0afaa-d
+packagefile gdt=/home/user/.cache/go-build/89/89299c91288ca7c0d67cf2427e848e775fa614c38a32fee6ba42aef3aa9cd2a7-d
+packagefile interrupt=/home/user/worldos/나라/VIR/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/VIR/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/VIR/소스/build/b022/_pkg_.a
+packagefile port=/home/user/.cache/go-build/54/549aea4ce3114a2bcf940a36048ea6481be1fd2ac668543581b4b05c1adededb-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/VIR/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/VIR/소스/build/b034/_pkg_.a
+packagefile util/list=/home/user/worldos/나라/VIR/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VIR/소스/build/b000/_pkg_.a

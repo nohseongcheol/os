@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	visa_hjälp
+echo	visa_argument
+pwd	visa_arbetskatalog
+cat	visa_filinnehåll
+stat	visa_filinformation
+pid	visa_processidentifierare
+uname	visa_systemidentitet
+run	kör_program
+udp	prova_datagrammets_återföring
+source	tolka_kommandofil
+cd	byt_katalog
+exit	avsluta

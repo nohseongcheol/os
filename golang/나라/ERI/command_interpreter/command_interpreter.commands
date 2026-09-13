@@ -1,0 +1,5 @@
+# WorldOS ERI UTF-8 command file
+echo "WorldOS ERI"
+help
+pwd
+pid

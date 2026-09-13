@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Жабуу
+SYS_exit	SYS__exit
+SYS_open	SYS_Ачуу
+SYS_read	SYS_Окуу
+SYS_write	SYS_Жазуу
+close	Жабуу
+open	Ачуу
+read	Окуу
+write	Жазуу

@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/bf/bf86ad633c85bdeaca4ec93ed1b9bd51cac7e82defafea5247161b3938f999d1-d
+packagefile mémoiregestionnaire=/home/user/worldos/나라/REU/소스/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/REU/소스/build/b000/_pkg_.a

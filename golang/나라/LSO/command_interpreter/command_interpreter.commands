@@ -1,0 +1,5 @@
+# WorldOS LSO UTF-8 command file
+echo "WorldOS LSO"
+help
+pwd
+pid

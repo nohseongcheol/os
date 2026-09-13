@@ -1,0 +1,5 @@
+# import config
+packagefile atmiņamanager=/home/user/worldos/나라/LVA/소스/build/b002/_pkg_.a
+packagefile pārtraukums=/home/user/worldos/나라/LVA/소스/build/b009/_pkg_.a
+packagefile util=/home/user/.cache/go-build/d6/d6cce437742ac4319f3dbd302453cc430ceb3748e9455473377b191b3d906075-d
+packagefile runtime/cgo=/home/user/worldos/나라/LVA/소스/build/b000/_pkg_.a

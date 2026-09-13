@@ -1,0 +1,5 @@
+# WorldOS BIH UTF-8 command file
+echo "WorldOS BIH"
+help
+pwd
+pid

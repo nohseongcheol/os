@@ -1,0 +1,302 @@
+package arp
+
+import . "unsafe"
+import . "console"
+import . "etherframe"
+import . "util"
+
+var arp콘솔 T콘솔 = T콘솔{}
+type TAddressResolutionProtocolMessageBuffer struct{
+	hardwareType [2]byte
+	protocol [2]byte
+	hardwareAddressSize byte
+	protocolAddressSize byte
+	command [2]byte
+
+	srcMAC [6]byte
+	srcIP [4] byte
+	dstMAC [6]byte
+	dstIP [4]byte
+}
+var arpMesgSize uint32 =(64+92+64)/8+2
+
+type TAddressResolutionProtocolMessage struct{
+	hardwareType uint16
+	protocol uint16
+	hardwareAddressSize uint8
+	protocolAddressSize uint8
+	command uint16
+
+	srcMAC uint64
+	srcIP uint32
+	dstMAC uint64
+	dstIP uint32
+}
+func (self *TAddressResolutionProtocolMessage) Init(buffer *TAddressResolutionProtocolMessageBuffer) {
+
+	self.hardwareType = Uint16_R(ArrayToUint16(buffer.hardwareType))
+	self.protocol = Uint16_R(ArrayToUint16(buffer.protocol))
+	self.hardwareAddressSize = byte(buffer.hardwareAddressSize)
+	self.protocolAddressSize = byte(buffer.protocolAddressSize)
+	self.command = Uint16_R(ArrayToUint16(buffer.command))
+
+        self.srcMAC = Uint48_R(ArrayToUint48(buffer.srcMAC))
+        self.srcIP = Uint32_R(ArrayToUint32(buffer.srcIP))
+        self.dstMAC = Uint48_R(ArrayToUint48(buffer.dstMAC))
+        self.dstIP = Uint32_R(ArrayToUint32(buffer.dstIP))
+}
+func (self *TAddressResolutionProtocolMessage) SetBuffer(buffer *TAddressResolutionProtocolMessageBuffer) {
+	buffer.hardwareType = Uint16ToArray(self.hardwareType)
+	buffer.protocol = Uint16ToArray(self.protocol)
+	buffer.hardwareAddressSize = uint8(self.hardwareAddressSize)
+	buffer.protocolAddressSize= uint8(self.protocolAddressSize)
+	buffer.command = Uint16ToArray(self.command)
+        buffer.srcMAC = Uint48ToArray(self.srcMAC)
+        buffer.srcIP = Uint32ToArray(self.srcIP)
+        buffer.dstMAC = Uint48ToArray(self.dstMAC)
+        buffer.dstIP = Uint32ToArray(self.dstIP)
+}
+func (self *TAddressResolutionProtocolMessage) GetBuffer() TAddressResolutionProtocolMessageBuffer{
+	var buffer TAddressResolutionProtocolMessageBuffer = TAddressResolutionProtocolMessageBuffer{}
+	buffer.hardwareType = Uint16ToArray(self.hardwareType)
+	buffer.protocol = Uint16ToArray(self.protocol)
+	buffer.hardwareAddressSize = uint8(self.hardwareAddressSize)
+	buffer.protocolAddressSize= uint8(self.protocolAddressSize)
+	buffer.command = Uint16ToArray(self.command)
+	/*
+	buffer.hardwareType = self.hardwareType
+	buffer.protocol = self.protocol
+	buffer.hardwareAddressSize = self.hardwareAddressSize
+	buffer.protocolAddressSize= self.protocolAddressSize
+	buffer.command = self.command
+	*/
+
+        buffer.srcMAC = Uint48ToArray(self.srcMAC)
+        buffer.srcIP = Uint32ToArray(self.srcIP)
+        buffer.dstMAC = Uint48ToArray(self.dstMAC)
+        buffer.dstIP = Uint32ToArray(self.dstIP)
+
+	return buffer	
+}
+/////////////////////////////////////////////////////////////////////////////
+type TAddressResolutionProtocol struct {
+	TEtherFrameHandler
+}
+var arpProvider TAddressResolutionProtocolProvider
+/*
+provider AddressResolutionProtocolProvider,  
+func NewAddressResolutionProtocol(backend TEtherFrameProvider, handler IEtherFrameHandler) *TAddressResolutionProtocol{
+	arp := &TAddressResolutionProtocol{}
+	return arp
+}
+*/
+func (self *TAddressResolutionProtocol)InitARP(){
+        arp콘솔.M출력XY([]byte("arp Init:"), 0, 20)
+}
+func (self *TAddressResolutionProtocol)OnEtherFrameReceived(dataPointer uintptr, size int) bool{
+        arp콘솔.M출력XY([]byte("arp recv:"), 0, 23)
+        return arpProvider.OnEtherFrameReceived(dataPointer, uint32(size))
+}
+func (self *TAddressResolutionProtocol)Send(dstMAC_BE uint64, dataPointer uintptr, size uint32) {
+        arp콘솔.M출력XY([]byte("arp send:"), 0, 24)
+        self.TEtherFrameHandler.Send(dstMAC_BE, dataPointer, size)
+}
+/*
+func (self *TAddressResolutionProtocol)GetProvider() TAddressResolutionProtocolProvider{
+	return arpProvider
+}
+*/
+
+//////////////////////////////////////////////////////////////////////////////
+type TAddressResolutionProtocolProvider struct {
+	IPCache [128] uint32
+	MACCache [128] uint64
+	numCacheEntries int
+}
+/*
+func NewAddressResolutionProtocol() TAddressResolutionProtocol{
+	var arp TAddressResolutionProtocol = TAddressResolutionProtocol{}
+	return arp
+}
+*/
+
+var Handler IEtherFrameHandler
+func (self *TAddressResolutionProtocolProvider) Init(backend TEtherFrameProvider, handler IEtherFrameHandler) {
+	Handler = handler
+	Handler.Init(backend, 0x0806)
+	Handler.SetHandler(handler, 0x0806)
+	self.numCacheEntries = 0
+}
+/*
+func (self *TAddressResolutionProtocolProvider) InitARPHandler(){
+}
+*/
+func (self *TAddressResolutionProtocolProvider) OnEtherFrameReceived(dataPointer uintptr, size uint32) bool{
+	
+	if size < arpMesgSize {
+		return false
+	}
+	var arpBuffer TAddressResolutionProtocolMessageBuffer = *(*TAddressResolutionProtocolMessageBuffer)(Pointer(dataPointer))
+	var arp TAddressResolutionProtocolMessage = TAddressResolutionProtocolMessage{}
+	arp.Init(&arpBuffer)
+	//var etherFrameProvider TEtherFrameProvider = Handler.GetBackend()
+	if arp.hardwareType == 0x0100 {
+		//if (arp.protocol) == 0x0008 && arp.hardwareAddressSize == 6 && arp.protocolAddressSize == 4 && uint64(Uint32_R(arp.dstIP)) == etherFrameProvider.GetIPAddress() {
+		if arp.protocol == 0x0008 && arp.hardwareAddressSize == 6 && arp.protocolAddressSize == 4 && uint64(arp.dstIP) == Handler.GetIPAddress() {
+			switch arp.command {
+				case 0x0100:
+					arp콘솔.M출력([]byte("arp onetherframe"))
+					arp콘솔.MUint16출력(arp.protocol)
+					arp콘솔.M출력([]byte(":"))
+					arp콘솔.MUint64출력(uint64(arp.dstMAC))
+					arp콘솔.M출력([]byte(":"))
+					arp콘솔.MUint64출력(Handler.GetMACAddress())
+
+					arp.command = 0x0200
+					arp.dstIP = arp.srcIP
+					arp.dstMAC = arp.srcMAC
+					arp.srcIP = uint32(Handler.GetIPAddress())
+					arp.srcMAC = Handler.GetMACAddress()
+					arp.SetBuffer(&arpBuffer)
+					//var pointer uintptr = uintptr(Pointer(&arpBuffer))
+					//PrintBytes(pointer, 64)
+					return true
+					break
+				case 0x0200:
+					if self.numCacheEntries < 128 {
+						self.IPCache[self.numCacheEntries] = arp.srcIP
+						self.MACCache[self.numCacheEntries] = arp.srcMAC
+						self.numCacheEntries++
+					}
+					break
+			}
+		
+		}
+	}
+	return false
+	
+}
+
+func (self *TAddressResolutionProtocolProvider) BroadcastMacAddress(IP_BE uint32){
+
+	//var etherFrameProvider TEtherFrameProvider = Handler.GetBackend()
+
+	var arp TAddressResolutionProtocolMessage = TAddressResolutionProtocolMessage{}
+	arp.hardwareType = 0x0100
+	arp.protocol = 0x0008
+	arp.hardwareAddressSize = 6
+	arp.protocolAddressSize = 4
+	arp.command = 0x0200
+
+
+	arp.srcIP = uint32(Handler.GetIPAddress())
+	
+	arp.dstMAC = self.Resolve(IP_BE)
+	arp.dstIP = IP_BE
+	arp콘솔.M출력XY([]byte("broad mac"), 0, 15)
+
+	arp.srcMAC = Handler.GetMACAddress()
+
+	var arpBuffer TAddressResolutionProtocolMessageBuffer = TAddressResolutionProtocolMessageBuffer{}
+	arp.SetBuffer(&arpBuffer)
+
+	var pointer uintptr = uintptr(Pointer(&arpBuffer))
+	Handler.Send(arp.dstMAC, pointer , arpMesgSize)
+}
+func (self *TAddressResolutionProtocolProvider) RequestMACAddress(IP_BE uint32){
+
+	//var etherFrameProvider TEtherFrameProvider = Handler.GetBackend()
+
+	var arp TAddressResolutionProtocolMessage = TAddressResolutionProtocolMessage{}
+	arp.hardwareType = 0x0100
+	//arp.hardwareType = 0xABCD
+	arp.protocol = 0x0008
+	arp.hardwareAddressSize = 6
+	arp.protocolAddressSize = 4
+	arp.command = 0x0100
+
+	arp.srcMAC = Handler.GetMACAddress()
+	arp.srcIP = uint32(Handler.GetIPAddress())
+
+
+	arp.dstMAC = 0xFFFFFFFFFFFF // broadcast
+	arp.dstIP = IP_BE
+
+	var arpBuffer TAddressResolutionProtocolMessageBuffer = TAddressResolutionProtocolMessageBuffer{}
+	arp.SetBuffer(&arpBuffer)
+	
+	//var buffer [4096]byte = *(*([4096]byte))(Pointer(&arpBuffer))
+
+
+	//self.TestPrint((*[]byte)(Pointer(&arpBuffer)), 0xBBAA)
+	var pointer uintptr = uintptr(Pointer(&arpBuffer))
+	Handler.Send(arp.dstMAC, pointer, arpMesgSize)
+	//Handler.Send(arp.dstMAC, uintptr(Pointer(&arpBuffer)), arpMesgSize)
+	// frame.Send(arp.dstMAC, arp, sizeof(arpResolutionProtocolMessage)) 
+}
+func (self *TAddressResolutionProtocolProvider) TestPrint(data *[]byte, size uint32){
+	var buffer [4096] byte = *(*([4096]byte))(Pointer(data))
+	arp콘솔.M출력XY([]byte("["), 0, 17)
+	for i:=0; i<128; i++ {
+		arp콘솔.MHex출력(buffer[i])
+		arp콘솔.M출력([]byte(":"))
+	}
+	arp콘솔.M출력([]byte("]"))
+}
+
+func (self *TAddressResolutionProtocolProvider) GetMACFromCache(IP_BE uint32) uint64{
+	for i:=0; i<self.numCacheEntries; i++ {
+		for ipIdx:=0; ipIdx<4; ipIdx++ {
+			//printfHex(
+		}
+		//print \n
+		
+		for macIdx:=0; macIdx<6; macIdx++ {
+			//printfHex
+		}
+		//print \n
+
+		if self.IPCache[i] == IP_BE {
+			arp콘솔.M출력([]byte("getmacfromcache"))
+			return self.MACCache[i]
+		}
+	}
+	return 0xFFFFFFFFFFFF
+}
+func (self *TAddressResolutionProtocolProvider) Resolve(IP_BE uint32) uint64{
+	var result uint64 = self.GetMACFromCache(IP_BE)
+	if result == 0xFFFFFFFFFFFF {
+		self.RequestMACAddress(IP_BE)
+	}
+
+	/*
+	for result == 0xFFFFFFFFFFFF {
+		result = self.GetMACFromCache(IP_BE)
+		arp콘솔.M출력([]byte("broad mac"))
+		arp콘솔.MUint64출력(result)
+	}
+	*/
+	
+	return result
+}
+/*
+func (self *TAddressResolutionProtocolProvider) BroadcastMacAddress(IP_BE uint32){
+}
+*/
+/*
+type TARPEtherFrameHandler struct{
+	TEtherFrameHandler
+}
+var arpProvider TAddressResolutionProtocolProvider
+func (self *TARPEtherFrameHandler)InitARP(){
+	arp콘솔.M출력XY([]byte("arp Init:"), 0, 20)
+}
+func (self *TARPEtherFrameHandler)OnEtherFrameReceived(dataPointer uintptr, size int) bool{
+	arp콘솔.M출력XY([]byte("arp recv:"), 0, 23)
+	return arpProvider.OnEtherFrameReceived(dataPointer, uint32(size))
+}
+func (self *TARPEtherFrameHandler)Send(dstMAC_BE uint64, dataPointer uintptr, size uint32) {
+	arp콘솔.M출력XY([]byte("arp send:"), 0, 24)
+	self.TEtherFrameHandler.Send(dstMAC_BE, dataPointer, size)
+}
+*/

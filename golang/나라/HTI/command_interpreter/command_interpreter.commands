@@ -1,0 +1,5 @@
+# WorldOS HTI UTF-8 command file
+echo "WorldOS HTI"
+help
+pwd
+pid

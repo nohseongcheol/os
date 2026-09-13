@@ -1,0 +1,12 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/07/071031a0ca4431db1992eca9cfd9da8ec4a4e3fccb5df86ae11ae75a0592dc22-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile أداة/قائمة=/home/user/worldos/나라/SAU/소스/build/b030/_pkg_.a
+packagefile إدارةمهام/tss=/home/user/worldos/나라/SAU/소스/build/b025/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/SAU/소스/build/b026/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/SAU/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/47/4731f48ef1567f37d0fb08c445fcaf9572821969a11c2b36cd615f6a3ed0f6f6-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/SAU/소스/build/b020/_pkg_.a
+packagefile مقاطعة=/home/user/worldos/나라/SAU/소스/build/b019/_pkg_.a
+packagefile منفذ=/home/user/.cache/go-build/58/58e11c73da31c4e2d0c601d77f5bbe02667e0625f369d535869d784a35d2cf01-d
+packagefile runtime/cgo=/home/user/worldos/나라/SAU/소스/build/b000/_pkg_.a

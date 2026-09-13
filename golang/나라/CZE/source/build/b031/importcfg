@@ -1,0 +1,8 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/bc/bc39e438091c3712331fa0dba167f1aa449b8f7c7be2621196e05484a30dc8e0-d
+packagefile konzole=/home/user/.cache/go-build/cf/cf799bccd988dd4e5af6ae510771e666e7e4f2fb1ee21189ad57db7ec4387055-d
+packagefile multitasking=/home/user/worldos/나라/CZE/소스/build/b022/_pkg_.a
+packagefile paměťmanager=/home/user/worldos/나라/CZE/소스/build/b023/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile virtuálníPaměť=/home/user/worldos/나라/CZE/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CZE/소스/build/b000/_pkg_.a

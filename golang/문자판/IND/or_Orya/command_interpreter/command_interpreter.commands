@@ -1,0 +1,5 @@
+# WorldOS IND/or_Orya UTF-8 command file
+echo "WorldOS IND/or_Orya"
+help
+pwd
+pid

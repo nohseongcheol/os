@@ -1,0 +1,3 @@
+# import config
+packagefile 공통=/home/user/worldos/나라/KOR/원문/build/b016/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KOR/원문/build/b000/_pkg_.a

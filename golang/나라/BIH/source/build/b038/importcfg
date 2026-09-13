@@ -1,0 +1,7 @@
+# import config
+packagefile memorijamanager=/home/user/worldos/나라/BIH/소스/build/b005/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/BIH/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BIH/소스/build/b032/_pkg_.a
+packagefile util=/home/user/.cache/go-build/40/40886b6db5ef7760e25ccb76b123cbfae64050c658aef5940fbc8756f1aa8ccc-d
+packagefile util/list=/home/user/worldos/나라/BIH/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BIH/소스/build/b000/_pkg_.a

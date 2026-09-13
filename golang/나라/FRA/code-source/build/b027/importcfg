@@ -1,0 +1,8 @@
+# import config
+packagefile console=/home/user/worldos/나라/FRA/code-source/build/b002/_pkg_.a
+packagefile gdt=/home/user/worldos/나라/FRA/code-source/build/b025/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/FRA/code-source/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/FRA/code-source/build/b021/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile virtuelmémoire=/home/user/worldos/나라/FRA/code-source/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FRA/code-source/build/b000/_pkg_.a

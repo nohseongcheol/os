@@ -1,0 +1,12 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/46/46d87e2735fb7fdbee3c8a68ed1da0bfb57bd6189edcfa3c82421c3007e962f6-d
+packagefile gdt=/home/user/.cache/go-build/e5/e51b249b9f747570a002cdf0163cb8cafbaa639d7c57594fe5fe64cc71b003c5-d
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/CUB/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/tss=/home/user/worldos/나라/CUB/소스/build/b035/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/CUB/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/CUB/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/CUB/소스/build/b026/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/1a/1aa734058dfe8b68634c0513d64f45d0e849f0156680bec5061d2fc42ee6d7c5-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile utilidad/lista=/home/user/worldos/나라/CUB/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CUB/소스/build/b000/_pkg_.a

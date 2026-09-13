@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/91/919822c174845a7990b47a5ac6f1082ed24839b6c44733b3f45305cc31d44308-d
+packagefile port=/home/user/.cache/go-build/30/300bd5c468e2006fb60a19b8fa9c60f8f825d9f01201890a78c71f70ea8cea3a-d
+packagefile runtime/cgo=/home/user/worldos/나라/ATF/소스/build/b000/_pkg_.a

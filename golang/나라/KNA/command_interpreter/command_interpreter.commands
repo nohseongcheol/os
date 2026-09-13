@@ -1,0 +1,5 @@
+# WorldOS KNA UTF-8 command file
+print_arguments "WorldOS KNA"
+show_help
+show_working_directory
+show_process_identifiers

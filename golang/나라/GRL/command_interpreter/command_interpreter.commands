@@ -1,0 +1,5 @@
+# WorldOS GRL UTF-8 command file
+echo "WorldOS GRL"
+help
+pwd
+pid

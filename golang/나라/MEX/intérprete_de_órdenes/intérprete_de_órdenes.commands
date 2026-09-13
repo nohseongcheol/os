@@ -1,0 +1,5 @@
+# WorldOS MEX UTF-8 command file
+mostrar_argumentos "WorldOS MEX"
+mostrar_ayuda
+mostrar_directorio_actual
+mostrar_identificadores_de_procesos

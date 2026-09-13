@@ -1,0 +1,5 @@
+# WorldOS IND/mni_Beng UTF-8 command file
+echo "WorldOS IND/mni_Beng"
+help
+pwd
+pid

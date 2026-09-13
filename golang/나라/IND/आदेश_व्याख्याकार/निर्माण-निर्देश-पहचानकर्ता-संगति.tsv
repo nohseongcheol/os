@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	आदेश_व्याख्याकार_बनाना
+executable_file	निष्पादन_संचिका
+include_directory	घोषणा_निर्देशिका
+library_file	पुस्तकालय_संचिका
+linker_file	संयोजन_संचिका
+object_file	वस्तु_संचिका
+source_file	स्रोत_संचिका
+startup_object	आरंभ_वस्तु

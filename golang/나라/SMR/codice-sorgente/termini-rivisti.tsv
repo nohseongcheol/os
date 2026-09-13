@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	alloca memoria	alloca_memoria	project-proposal	function-based project proposal
+append	aggiungi in fondo alla lista	aggiungi_in_fondo_alla_lista	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	mappa di allocazione	mappa_di_allocazione	project-proposal	function-based project proposal
+boot	avvio macchina	avvio_macchina	project-proposal	function-based project proposal
+boot_record	record principale di avvio	record_principale_di_avvio	project-proposal	boot code and partition metadata, not an audio recording
+bus	via di trasmissione condivisa	via_di_trasmissione_condivisa	project-proposal	function-based project proposal
+compile_kernel	compila nucleo	compila_nucleo	project-proposal	function-based project proposal
+destination_port	numero della porta di destinazione	numero_della_porta_di_destinazione	project-proposal	function-based project proposal
+elf	formato eseguibile e collegabile	formato_eseguibile_e_collegabile	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	numero di errore	numero_di_errore	project-proposal	function-based project proposal
+ethernet_frame	trama della rete a mezzo condiviso	trama_della_rete_a_mezzo_condiviso	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	intestazione della trama di rete a mezzo condiviso	intestazione_della_trama_di_rete_a_mezzo_condiviso	project-proposal	function-based project proposal
+ethernet_provider	fornitore di trame di rete a mezzo condiviso	fornitore_di_trame_di_rete_a_mezzo_condiviso	project-proposal	function-based project proposal
+fat_parameters	parametri del file system	parametri_del_file_system	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	controllo file	controllo_file	project-proposal	function-based project proposal
+file_read	leggi file	leggi_file	project-proposal	function-based project proposal
+file_status	stato file	stato_file	project-proposal	function-based project proposal
+file_write	scrivi file	scrivi_file	project-proposal	function-based project proposal
+free_memory	libera memoria	libera_memoria	project-proposal	function-based project proposal
+headers	dichiarazioni	dichiarazioni	project-proposal	function-based project proposal
+heap	memoria dinamica	memoria_dinamica	project-proposal	function-based project proposal
+icmp	protocollo dei messaggi di controllo della rete interconnessa	protocollo_dei_messaggi_di_controllo_della_rete_interconnessa	project-proposal	function-based project proposal
+implementation	implementazione	implementazione	project-proposal	function-based project proposal
+insert_at	inserisci alla posizione	inserisci_alla_posizione	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	rete interconnessa	rete_interconnessa	project-proposal	function-based project proposal
+ip_provider	fornitore del protocollo di rete interconnessa	fornitore_del_protocollo_di_rete_interconnessa	project-proposal	function-based project proposal
+ipv4	protocollo di rete interconnessa 4	protocollo_di_rete_interconnessa_4	project-proposal	function-based project proposal
+link_layout	disposizione di collegamento	disposizione_di_collegamento	project-proposal	function-based project proposal
+list_node	nodo della lista	nodo_della_lista	project-proposal	function-based project proposal
+log_decoder	decodifica registro seriale	decodifica_registro_seriale	project-proposal	function-based project proposal
+mouse	dispositivo di puntamento	dispositivo_di_puntamento	project-proposal	function-based project proposal
+page_directory	indice delle pagine	indice_delle_pagine	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	pagina fisica	pagina_fisica	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	riferimento di memoria	riferimento_di_memoria	project-proposal	function-based project proposal
+prepend	aggiungi in testa alla lista	aggiungi_in_testa_alla_lista	project-proposal	src/util/list/list.go: links before head
+register	registro	registro	project-proposal	function-based project proposal
+set_coordinates	imposta le coordinate locali	imposta_le_coordinate_locali	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	numero della porta sorgente	numero_della_porta_sorgente	project-proposal	function-based project proposal
+stack	memoria a pila	memoria_a_pila	project-proposal	function-based project proposal
+startup	avvio	avvio	project-proposal	function-based project proposal
+structure_offsets	scostamenti di struttura	scostamenti_di_struttura	project-proposal	function-based project proposal
+system_call	chiamata di sistema	chiamata_di_sistema	project-proposal	function-based project proposal
+tests	prove	prove	project-proposal	function-based project proposal
+toggle_bit	inverti il bit di allocazione	inverti_il_bit_di_allocazione	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	strumenti	strumenti	project-proposal	function-based project proposal
+udp	protocollo dei datagrammi utente	protocollo_dei_datagrammi_utente	project-proposal	function-based project proposal
+udp_header	intestazione dei datagrammi utente	intestazione_dei_datagrammi_utente	project-proposal	function-based project proposal
+udp_socket	estremo di comunicazione dei datagrammi utente	estremo_di_comunicazione_dei_datagrammi_utente	project-proposal	function-based project proposal
+user_space	spazio utente	spazio_utente	project-proposal	function-based project proposal
+widget	elemento grafico	elemento_grafico	project-proposal	function-based project proposal

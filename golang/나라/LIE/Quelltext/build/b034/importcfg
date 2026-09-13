@@ -1,0 +1,6 @@
+# import config
+packagefile anschluss=/home/user/.cache/go-build/9f/9f1f69a88d175290b6618fd8ff211d1952c76d248d46f506b64e58ac25af8e90-d
+packagefile konsole=/home/user/.cache/go-build/24/24b5a7eba1044d07e484089f9d60dc573e638be0298040df371c833763df5ae2-d
+packagefile treiber/treiber=/home/user/.cache/go-build/fb/fb88de2e1fdeccac6456488cb80174d6934c0865aaabd46290084db16202f25c-d
+packagefile unterbrechung=/home/user/worldos/나라/LIE/소스/build/b026/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LIE/소스/build/b000/_pkg_.a

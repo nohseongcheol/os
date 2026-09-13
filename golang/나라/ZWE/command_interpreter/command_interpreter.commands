@@ -1,0 +1,5 @@
+# WorldOS ZWE UTF-8 command file
+echo "WorldOS ZWE"
+help
+pwd
+pid

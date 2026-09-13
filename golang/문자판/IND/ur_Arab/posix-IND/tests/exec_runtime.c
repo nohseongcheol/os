@@ -1,0 +1,41 @@
+#include <errno.h>
+#include <fcntl.h>
+#include <sys/wait.h>
+#include <unistd.h>
+
+static void say(const char *text, unsigned int ہندسوں_کی_تعداد)
+{
+    (void)لکھنا(STDOUT_FILENO, text, ہندسوں_کی_تعداد);
+}
+
+int main(void)
+{
+    int حالت;
+    int فائل_کا_وصف_کنندہ;
+    char *دلائل_2[] = {(char *)"PXEXEC", (char *)"argument", (char *)0};
+    char *envp[] = {(char *)"POSIX_TEST=1", (char *)0};
+
+    say("\nPOSIX-EXEC:START\n", 18);
+    errno = 0;
+    if (waitpid(-1, &حالت, WNOHANG) == -1 && errno == ECHILD)
+        say("PTEST:PASS:waitpid-echild-empty\n", 32);
+    else
+        say("PTEST:FAIL:waitpid-echild-empty\n", 32);
+    errno = 0;
+    if (wait(&حالت) == -1 && errno == ECHILD)
+        say("PTEST:PASS:wait-echild-empty\n", 29);
+    else
+        say("PTEST:FAIL:wait-echild-empty\n", 29);
+
+    فائل_کا_وصف_کنندہ = open("/USER2", O_RDONLY);
+    if (فائل_کا_وصف_کنندہ < 0 || dup2(فائل_کا_وصف_کنندہ, 10) != 10 || fcntl(10, F_SETFD, FD_CLOEXEC) != 0) {
+        say("PTEST:FAIL:cloexec-setup\n", 25);
+        _exit(98);
+    }
+    if (فائل_کا_وصف_کنندہ != 10)
+        (void)close(فائل_کا_وصف_کنندہ);
+
+    (void)execve("/PXEXEC", دلائل_2, envp);
+    say("PTEST:FAIL:exec-image\n", 22);
+    _exit(99);
+}

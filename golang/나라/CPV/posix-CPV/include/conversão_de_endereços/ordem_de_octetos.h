@@ -1,0 +1,17 @@
+#ifndef _include_conversão_de_endereços_ordem_de_octetos
+#define _include_conversão_de_endereços_ordem_de_octetos
+
+#include <entre_redes/endereço.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+uint16_t converter_16_bits_para_ordem_da_rede(uint16_t valor_de_16_bits_na_ordem_da_máquina);
+uint16_t converter_16_bits_para_ordem_da_máquina(uint16_t valor_de_16_bits_na_ordem_da_rede);
+uint32_t converter_32_bits_para_ordem_da_rede(uint32_t valor_de_32_bits_na_ordem_da_máquina);
+uint32_t converter_32_bits_para_ordem_da_máquina(uint32_t valor_de_32_bits_na_ordem_da_rede);
+#ifdef __cplusplus
+}
+#endif
+
+#endif

@@ -1,0 +1,5 @@
+# WorldOS IDN UTF-8 command file
+tampilkan_argumen "WorldOS IDN"
+tampilkan_bantuan
+tampilkan_direktori_kerja
+tampilkan_pengenal_proses

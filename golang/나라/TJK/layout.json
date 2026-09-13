@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "TJK",
+  "language": "tg_Cyrl",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

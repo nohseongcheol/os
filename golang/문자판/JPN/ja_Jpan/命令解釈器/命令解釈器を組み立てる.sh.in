@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{原文書}=$1
+@{機械語文書}=$2
+@{実行文書}=$3
+@{宣言集の場所}=$4
+@{起動機械語}=$5
+@{関数集文書}=$6
+@{連結配置文書}=$7
+
+@{命令解釈器を組み立てる}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{宣言集の場所}" -c "$@{原文書}" -o "$@{機械語文書}"
+    ld -n -m elf_i386 -e _start -T "$@{連結配置文書}" -static \
+        --no-ld-generated-unwind-info -o "$@{実行文書}" \
+        "$@{起動機械語}" "$@{機械語文書}" "$@{関数集文書}"
+}
+@{命令解釈器を組み立てる}

@@ -1,0 +1,5 @@
+# WorldOS GRC UTF-8 command file
+echo "WorldOS GRC"
+help
+pwd
+pid

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "MDG",
+  "language": "mg",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

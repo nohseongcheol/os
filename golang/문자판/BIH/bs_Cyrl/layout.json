@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "BIH/bs_Cyrl",
+  "language": "bs_Cyrl",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

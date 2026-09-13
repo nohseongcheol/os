@@ -1,0 +1,5 @@
+# WorldOS AGO UTF-8 command file
+mostrar_argumentos "WorldOS AGO"
+mostrar_ajuda
+mostrar_diretório_atual
+mostrar_identificadores_de_processos

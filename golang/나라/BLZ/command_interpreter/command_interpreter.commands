@@ -1,0 +1,5 @@
+# WorldOS BLZ UTF-8 command file
+print_arguments "WorldOS BLZ"
+show_help
+show_working_directory
+show_process_identifiers

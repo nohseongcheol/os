@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "edition": "IND/mni_Beng",
+  "vm_name": "worldos IND mni_Beng",
+  "base_disk": "/home/user/VirtualBox VMs/eng operating system/NewVirtualDisk1-fixed-20260908.vdi",
+  "launcher_sha256": "b6baefbc21c8ee8a93633915c2dd9b4620d7b10c8bac0ba2e617ed1cea7f112f",
+  "kernel_directory": "source"
+}

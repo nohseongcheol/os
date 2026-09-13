@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/31/31d8a44045a7e1aa6f4bd45ff9e898e1cb815ac00b2137dcfa46702214a9dfd5-d
+packagefile port=/home/user/.cache/go-build/f4/f40a1c8bb7ab158154eef341e115fdff3816f3927ffc7c073cdf61773e37c103-d
+packagefile prekid=/home/user/worldos/나라/HRV/소스/build/b007/_pkg_.a
+packagefile sustavcall=/home/user/worldos/나라/HRV/소스/build/b030/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/HRV/소스/build/b000/_pkg_.a

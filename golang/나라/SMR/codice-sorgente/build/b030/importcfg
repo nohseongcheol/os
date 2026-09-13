@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/SMR/소스/build/b007/_pkg_.a
+packagefile memoriamanager=/home/user/worldos/나라/SMR/소스/build/b022/_pkg_.a
+packagefile util=/home/user/.cache/go-build/7e/7e49ab5ddec61551f859211a412252511d2cc27e76135ae0915d8fc1f40320a4-d
+packagefile runtime/cgo=/home/user/worldos/나라/SMR/소스/build/b000/_pkg_.a

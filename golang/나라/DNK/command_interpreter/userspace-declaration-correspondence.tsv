@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Luk
+SYS_exit	SYS__exit
+SYS_open	SYS_Åbn
+SYS_read	SYS_Læse
+SYS_write	SYS_Skrive
+close	Luk
+open	Åbn
+read	Læse
+write	Skrive

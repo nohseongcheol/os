@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	Befehlsauswerter_erstellen
+executable_file	ausführbare_Datei
+include_directory	Deklarationsverzeichnis
+library_file	Bibliotheksdatei
+linker_file	Bindungsdatei
+object_file	Objektdatei
+source_file	Quelldatei
+startup_object	Startobjekt

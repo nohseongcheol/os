@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "PRT",
+  "language": "pt",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "código-fonte"
+  }
+}

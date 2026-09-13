@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-11",
+  "editions_audited_and_built": 295,
+  "canonical_files_round_tripped": 12390,
+  "shell_editions_audited_and_built": 295,
+  "unit_tests_passed": 107,
+  "declaration_layout_language_settings_tested": [
+    "ko",
+    "ja_Hira",
+    "ja_Kana",
+    "zh_Hans",
+    "zh_Hant",
+    "hi_Deva",
+    "ta_Taml",
+    "fr",
+    "en"
+  ],
+  "new_declaration_keys": 233,
+  "edition_counts_by_named_declarations": {
+    "0": 125,
+    "30": 88,
+    "233": 82
+  },
+  "new_declaration_name_uses": 21746,
+  "editions_without_pending_c_identifiers": 82,
+  "english_editions_in_complete_coverage": 64,
+  "native_probe_binaries_identical_to_previous_generation": 295,
+  "korean_legacy_and_native_application_sha256": "5737d382160c3cb89bb66b99654f12691a646c74919e676cb71ee2d1f4406c2d",
+  "regression_guest_cases_passed": 64,
+  "regression_editions": [
+    "CHN/zh_Hans",
+    "CHN/zh_Hant",
+    "IND/hi_Deva",
+    "IND/ta_Taml",
+    "JPN/ja_Hira",
+    "JPN/ja_Kana",
+    "KOR",
+    "USA"
+  ],
+  "shell_guest_editions_passed": [
+    "ARE",
+    "CHN/zh_Hans",
+    "CHN/zh_Hant",
+    "DEU",
+    "FRA",
+    "IND/hi_Deva",
+    "IND/ta_Taml",
+    "JPN",
+    "JPN/ja_Hira",
+    "JPN/ja_Kana",
+    "KOR",
+    "USA"
+  ],
+  "initial_executed_guest_failures": [],
+  "unchanged_artifact_retry_directories": [],
+  "sandbox_attempt": "QEMU could not create temporary snapshots (read-only filesystem); guests did not start; original reports retained in report root",
+  "executed_guest_reports": "/home/user/worldos/build-verification/posix-declarations/guest-execution",
+  "source_disks_unchanged": true,
+  "virtualbox_state_and_disks_modified_by_this_task": false,
+  "complete_translation_all_languages": false,
+  "native_speaker_review": "incomplete",
+  "complete_POSIX_implementation": false
+}

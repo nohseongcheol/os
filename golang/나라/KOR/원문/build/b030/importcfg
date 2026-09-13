@@ -1,0 +1,8 @@
+# import config
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile 가상기억공간=/home/user/worldos/나라/KOR/원문/build/b015/_pkg_.a
+packagefile 기억공간관리자=/home/user/worldos/나라/KOR/원문/build/b019/_pkg_.a
+packagefile 다중작업관리=/home/user/worldos/나라/KOR/원문/build/b018/_pkg_.a
+packagefile 단말=/home/user/worldos/나라/KOR/원문/build/b020/_pkg_.a
+packagefile 전역서술자표=/home/user/worldos/나라/KOR/원문/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KOR/원문/build/b000/_pkg_.a

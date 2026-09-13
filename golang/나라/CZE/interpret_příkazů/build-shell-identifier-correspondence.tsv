@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	sestavit_interpret
+executable_file	spustitelný_soubor
+include_directory	adresář_deklarací
+library_file	soubor_knihovny
+linker_file	soubor_sestavení
+object_file	objektový_soubor
+source_file	zdrojový_soubor
+startup_object	spouštěcí_objekt

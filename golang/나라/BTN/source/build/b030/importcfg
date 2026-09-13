@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/3c/3c4364a5bd33acd812aa384407343acc777803b7793076323811b771d3b8d313-d
+packagefile gdt=/home/user/.cache/go-build/35/352f3ec4c5a2cd9f3bb0356e0d0a7c4210639c01d0100c0d8e365a209c7c8150-d
+packagefile interrupt=/home/user/worldos/나라/BTN/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/BTN/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/BTN/소스/build/b022/_pkg_.a
+packagefile port=/home/user/.cache/go-build/26/26e6c7fd1b19f7212759adc0a8db4bcd8ac3a9ea7a07698923d4c063cd4ebc8c-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/BTN/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/BTN/소스/build/b034/_pkg_.a
+packagefile util/list=/home/user/worldos/나라/BTN/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BTN/소스/build/b000/_pkg_.a

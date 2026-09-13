@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Yopish
+SYS_exit	SYS__exit
+SYS_open	SYS_Ochish
+SYS_read	SYS_Oʻqish
+SYS_write	SYS_Yozish
+close	Yopish
+open	Ochish
+read	Oʻqish
+write	Yozish

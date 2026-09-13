@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/74/7453ca1c0d649813a68b394fb83cd03228c81c3074298a2a4717065978af1e00-d
+packagefile gdt=/home/user/.cache/go-build/ae/ae55f2b19c4b0282c3e686c9baafddb563676030117a7385965cd4a4ac1b88fb-d
+packagefile interrupt=/home/user/worldos/나라/ZAF/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/ZAF/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/ZAF/소스/build/b022/_pkg_.a
+packagefile port=/home/user/.cache/go-build/5a/5a14d014e3867d82f158aab09f309971a477563a40e64b7f1b7a447ebeb2bd86-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/ZAF/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/ZAF/소스/build/b034/_pkg_.a
+packagefile util/list=/home/user/worldos/나라/ZAF/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ZAF/소스/build/b000/_pkg_.a

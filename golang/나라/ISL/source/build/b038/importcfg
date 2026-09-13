@@ -1,0 +1,7 @@
+# import config
+packagefile minnimanager=/home/user/worldos/나라/ISL/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/ISL/소스/build/b032/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ISL/소스/build/b033/_pkg_.a
+packagefile util=/home/user/.cache/go-build/dc/dcffb82e6e0685a5e97d1fb0c321d2a9118c2000a57c9eda60eafef64eed2056-d
+packagefile util/listi=/home/user/worldos/나라/ISL/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ISL/소스/build/b000/_pkg_.a

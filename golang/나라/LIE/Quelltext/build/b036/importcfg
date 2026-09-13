@@ -1,0 +1,16 @@
+# import config
+packagefile anschluss=/home/user/.cache/go-build/9f/9f1f69a88d175290b6618fd8ff211d1952c76d248d46f506b64e58ac25af8e90-d
+packagefile aufgabenverwaltung/ausführungsfaden=/home/user/worldos/나라/LIE/소스/build/b002/_pkg_.a
+packagefile aufgabenverwaltung/planer=/home/user/worldos/나라/LIE/소스/build/b022/_pkg_.a
+packagefile dateiSystem/ausführbares_und_bindbares_Format=/home/user/worldos/나라/LIE/소스/build/b029/_pkg_.a
+packagefile dateiSystem/fat=/home/user/worldos/나라/LIE/소스/build/b031/_pkg_.a
+packagefile dateiSystem/msdosPartition=/home/user/worldos/나라/LIE/소스/build/b032/_pkg_.a
+packagefile hilfswerkzeug=/home/user/.cache/go-build/19/19b0fd204f6e3f193a69e05607094ecaa18686c903b255f15eb83cd69479e4e2-d
+packagefile konsole=/home/user/.cache/go-build/24/24b5a7eba1044d07e484089f9d60dc573e638be0298040df371c833763df5ae2-d
+packagefile mehrfachAufgabenverwaltung=/home/user/worldos/나라/LIE/소스/build/b018/_pkg_.a
+packagefile seitenverwaltung=/home/user/worldos/나라/LIE/소스/build/b030/_pkg_.a
+packagefile speicherVerwalter=/home/user/worldos/나라/LIE/소스/build/b019/_pkg_.a
+packagefile treiber/ata=/home/user/worldos/나라/LIE/소스/build/b033/_pkg_.a
+packagefile unterbrechung=/home/user/worldos/나라/LIE/소스/build/b026/_pkg_.a
+packagefile virtuellSpeicher=/home/user/worldos/나라/LIE/소스/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LIE/소스/build/b000/_pkg_.a

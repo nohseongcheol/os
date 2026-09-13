@@ -1,0 +1,5 @@
+# import config
+packagefile 中斷=/home/user/worldos/나라/TWN/소스/build/b018/_pkg_.a
+packagefile 工具=/home/user/.cache/go-build/f9/f9c030fb615b58d6924724f811e0d46ce632b8b5d453a59c1026117afd249b46-d
+packagefile 記憶體管理器=/home/user/worldos/나라/TWN/소스/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/TWN/소스/build/b000/_pkg_.a

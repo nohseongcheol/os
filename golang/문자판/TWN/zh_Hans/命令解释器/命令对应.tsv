@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	显示帮助
+echo	显示参数
+pwd	显示当前目录
+cat	显示文件内容
+stat	显示文件信息
+pid	显示进程编号
+uname	显示系统信息
+run	运行程序
+udp	测试数据报回送
+source	解释命令文件
+cd	切换目录
+exit	退出

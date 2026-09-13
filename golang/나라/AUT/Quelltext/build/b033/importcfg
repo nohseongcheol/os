@@ -1,0 +1,4 @@
+# import config
+packagefile anschluss=/home/user/.cache/go-build/ce/cedfccaa2f047dc04eabb2e81f67b7a8d606b223c2ab6638b63f4a2dc3da608e-d
+packagefile konsole=/home/user/.cache/go-build/3f/3f38c8442a2ed0c2bcc5ed632e4a0b8bb2d1a16be82707901715d19338b760f2-d
+packagefile runtime/cgo=/home/user/worldos/나라/AUT/소스/build/b000/_pkg_.a

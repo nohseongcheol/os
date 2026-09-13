@@ -1,0 +1,3 @@
+QEMU 2.11.1 monitor - type 'help' for more information
+(qemu) qemu-system-x86_64: warning: TCG doesn't support requested feature: CPUID.01H:ECX.vmx [bit 5]
+q[K[Dqu[K[D[Dqui[K[D[D[Dquit[K

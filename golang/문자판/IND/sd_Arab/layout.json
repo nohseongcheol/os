@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/sd_Arab",
+  "language": "sd_Arab",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

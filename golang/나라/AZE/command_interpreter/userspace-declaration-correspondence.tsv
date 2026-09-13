@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Bağla
+SYS_exit	SYS__exit
+SYS_open	SYS_Aç
+SYS_read	SYS_Oxuma
+SYS_write	SYS_Yazma
+close	Bağla
+open	Aç
+read	Oxuma
+write	Yazma

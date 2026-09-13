@@ -1,0 +1,5 @@
+# WorldOS ITA UTF-8 command file
+mostra_argomenti "WorldOS ITA"
+mostra_aiuto
+mostra_cartella_corrente
+mostra_identificatori_dei_processi

@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/2a/2abe3cb3af4739112c90c8b28722c1d400b946fc18439eea3cc1bad065472586-d
+packagefile controlador/ata=/home/user/worldos/나라/AGO/소스/build/b004/_pkg_.a
+packagefile ficheirosistema/fat=/home/user/worldos/나라/AGO/소스/build/b026/_pkg_.a
+packagefile ficheirosistema/formato_executável_e_ligável=/home/user/worldos/나라/AGO/소스/build/b029/_pkg_.a
+packagefile ficheirosistema/msdospartição=/home/user/worldos/나라/AGO/소스/build/b027/_pkg_.a
+packagefile gestãoTarefas/escalonador=/home/user/worldos/나라/AGO/소스/build/b031/_pkg_.a
+packagefile gestãoTarefas/fluxoExecução=/home/user/worldos/나라/AGO/소스/build/b032/_pkg_.a
+packagefile interrupção=/home/user/worldos/나라/AGO/소스/build/b008/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/AGO/소스/build/b023/_pkg_.a
+packagefile múltiplogestãoTarefas=/home/user/worldos/나라/AGO/소스/build/b022/_pkg_.a
+packagefile paginação=/home/user/worldos/나라/AGO/소스/build/b030/_pkg_.a
+packagefile porto=/home/user/.cache/go-build/e0/e03d31031eee6d189bf99254b44af13ce5bc450f1729dead8035d58717580547-d
+packagefile utilitário=/home/user/.cache/go-build/77/77de536a62ef1d55da2ce8dba70ac7113a6348d38f168e161fe1f150ed29ddf3-d
+packagefile virtualmemória=/home/user/worldos/나라/AGO/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AGO/소스/build/b000/_pkg_.a

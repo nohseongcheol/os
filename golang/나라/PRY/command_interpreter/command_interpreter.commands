@@ -1,0 +1,5 @@
+# WorldOS PRY UTF-8 command file
+echo "WorldOS PRY"
+help
+pwd
+pid

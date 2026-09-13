@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "CHE",
+  "language": "de",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "Quelltext"
+  }
+}

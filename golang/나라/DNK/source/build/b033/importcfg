@@ -1,0 +1,3 @@
+# import config
+packagefile almen=/home/user/worldos/나라/DNK/소스/build/b034/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/DNK/소스/build/b000/_pkg_.a

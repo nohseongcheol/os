@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Užverti
+SYS_exit	SYS__exit
+SYS_open	SYS_Atverti
+SYS_read	SYS_Skaitymas
+SYS_write	SYS_Rašymas
+close	Užverti
+open	Atverti
+read	Skaitymas
+write	Rašymas

@@ -1,0 +1,150 @@
+package memorymananger
+
+import . "unsafe"
+
+const MAX_QUEUE_SIZE uint32 = 0x1FFFFFF
+const QUEUE_START_ADDR uint32 = 0x1000000
+
+type TMemoryChunk struct {
+	next		*TMemoryChunk
+	prev	*TMemoryChunk
+	allocated	bool
+
+	আকার	uint32
+}
+
+type TMemoryManager struct {
+}
+
+var first *TMemoryChunk
+var ActiveMemoryManager *TMemoryManager = nil
+var memoryChunkSize uint32
+
+func (self *TMemoryManager) Vআরম্ভ_করা(start uint32, আকার uint32) {
+
+	ActiveMemoryManager = self
+
+	memoryChunkSize = uint32(Sizeof(TMemoryChunk{}))
+
+	if আকার < memoryChunkSize {
+		first = nil
+	} else {
+		first = (*TMemoryChunk)(Pointer(uintptr(QUEUE_START_ADDR) + uintptr(start)))
+		first.allocated = false
+		first.prev = nil
+		first.next = nil
+		first.আকার = আকার - memoryChunkSize
+	}
+}
+func (self *TMemoryManager) Destroy() {
+	if ActiveMemoryManager == self {
+		ActiveMemoryManager = nil
+	}
+}
+func (self *TMemoryManager) Vস্মৃতি_বরাদ্দ_করা(আকার uint32) Pointer {
+	var result *TMemoryChunk = nil
+
+	var chunk *TMemoryChunk = first
+	for ; chunk != nil && result == nil; chunk = chunk.next {
+		if chunk.আকার > আকার && !chunk.allocated {
+			result = chunk
+		}
+	}
+
+	if result == nil {
+		return nil
+	}
+
+	if result.আকার >= (আকার + memoryChunkSize + 1) {
+
+		var temp *TMemoryChunk
+		temp = (*TMemoryChunk)(Pointer(uintptr(uint32(uintptr(Pointer(result))) + memoryChunkSize + আকার)))
+
+		temp.allocated = false
+		temp.আকার = result.আকার - আকার - memoryChunkSize
+		temp.prev = result
+		temp.next = result.next
+
+		if temp.next != nil {
+			temp.next.prev = temp
+		}
+
+		result.আকার = আকার
+		result.next = temp
+	}
+	result.allocated = true
+
+	return Pointer(uintptr(Pointer(result)) + uintptr(memoryChunkSize))
+}
+func (self *TMemoryManager) AlignedMalloc(আকার uint32) (Pointer, uint32) {
+	// Account for leading alignment padding before selecting a free chunk.
+	// Otherwise the split header can overlap a live page or underflow its size.
+	if আকার == 0 || আকার > ^uint32(0)-0x1000 {
+		return nil, 0
+	}
+	var result *TMemoryChunk
+	var diff uint32
+	for chunk := first; chunk != nil; chunk = chunk.next {
+		if chunk.allocated {
+			continue
+		}
+		addr := uint32(uintptr(Pointer(chunk)) + uintptr(memoryChunkSize))
+		diff = (0x1000 - (addr & 0xFFF)) & 0xFFF
+		if addr+diff < addr {
+			continue
+		}
+		if diff <= chunk.আকার && আকার <= chunk.আকার-diff {
+			result = chunk
+			break
+		}
+	}
+	if result == nil {
+		return nil, 0
+	}
+	আকার += diff
+	if result.আকার-আকার >= memoryChunkSize+1 {
+		temp := (*TMemoryChunk)(Pointer(uintptr(Pointer(result)) + uintptr(memoryChunkSize) + uintptr(আকার)))
+		temp.allocated = false
+		temp.আকার = result.আকার - আকার - memoryChunkSize
+		temp.prev = result
+		temp.next = result.next
+		if temp.next != nil {
+			temp.next.prev = temp
+		}
+		result.আকার = আকার
+		result.next = temp
+	}
+	result.allocated = true
+	return Pointer(uintptr(Pointer(result)) + uintptr(memoryChunkSize) + uintptr(diff)), diff
+}
+func (self *TMemoryManager) Vস্মৃতি_মুক্ত_করা(ঠিকানা_নির্দেশক_2 Pointer) {
+	var chunk *TMemoryChunk = (*TMemoryChunk)(Pointer(uintptr(ঠিকানা_নির্দেশক_2) - uintptr(memoryChunkSize)))
+	chunk.allocated = false
+
+	if chunk.prev != nil && !chunk.prev.allocated {
+		chunk.prev.next = chunk.next
+		chunk.prev.আকার += chunk.আকার + memoryChunkSize
+		if chunk.next != nil {
+			chunk.next.prev = chunk.prev
+		}
+	}
+
+	if chunk.next != nil && !chunk.next.allocated {
+		chunk.আকার += chunk.next.আকার + memoryChunkSize
+		chunk.next = chunk.next.next
+		if chunk.next != nil {
+			chunk.next.prev = chunk
+		}
+	}
+}
+func New(আকার int) Pointer {
+	if ActiveMemoryManager == nil {
+		return nil
+	}
+	return ActiveMemoryManager.Vস্মৃতি_বরাদ্দ_করা(uint32(আকার))
+}
+func Delete(ঠিকানা_নির্দেশক_2 Pointer) {
+	if ActiveMemoryManager != nil {
+		ActiveMemoryManager.Vস্মৃতি_মুক্ত_করা(ঠিকানা_নির্দেশক_2)
+	}
+}

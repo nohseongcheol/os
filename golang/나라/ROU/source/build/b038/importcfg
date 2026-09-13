@@ -1,0 +1,7 @@
+# import config
+packagefile memoriemanager=/home/user/worldos/나라/ROU/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/ROU/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ROU/소스/build/b032/_pkg_.a
+packagefile util=/home/user/.cache/go-build/65/652396ed2750ddc06ad13ad06e9dc22d6f9943d96d258e29232066aa98ab153d-d
+packagefile util/listă=/home/user/worldos/나라/ROU/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ROU/소스/build/b000/_pkg_.a

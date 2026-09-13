@@ -1,0 +1,5 @@
+# WorldOS AUT UTF-8 command file
+Argumente_ausgeben "WorldOS AUT"
+Hilfe_anzeigen
+Arbeitsverzeichnis_anzeigen
+Prozesskennungen_anzeigen

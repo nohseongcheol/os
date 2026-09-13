@@ -1,0 +1,1 @@
+package spustitelný_a_spojitelný_formát

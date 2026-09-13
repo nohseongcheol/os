@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/42/4224c28cf2a1bdd85871c72a2285a8aa9b9bc510d6a9aecb39c135a0f8d7bfce-d
+packagefile driver/ata=/home/user/worldos/나라/GUY/소스/build/b004/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/GUY/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/GUY/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/GUY/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/GUY/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/GUY/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/GUY/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/GUY/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/c3/c301e883cf8a4d5df5342acc61155614356c2f70c3cc7f7927c456b13f470d7b-d
+packagefile tasking/scheduler=/home/user/worldos/나라/GUY/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/GUY/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/f6/f6c41c6ce146ae861dd97bb876ac07a83a3c6a6063ecad7d6061460613b6787c-d
+packagefile virtualmemory=/home/user/worldos/나라/GUY/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GUY/소스/build/b000/_pkg_.a

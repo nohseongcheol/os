@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "GUY",
+  "language": "en",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "source"
+  }
+}

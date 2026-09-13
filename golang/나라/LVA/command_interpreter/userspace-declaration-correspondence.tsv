@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Aizvērt
+SYS_exit	SYS__exit
+SYS_open	SYS_Atvērt
+SYS_read	SYS_Lasīt
+SYS_write	SYS_Rakstīt
+close	Aizvērt
+open	Atvērt
+read	Lasīt
+write	Rakstīt

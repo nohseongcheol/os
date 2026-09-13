@@ -1,0 +1,5 @@
+# WorldOS BIH/bs_Cyrl UTF-8 command file
+echo "WorldOS BIH/bs_Cyrl"
+help
+pwd
+pid

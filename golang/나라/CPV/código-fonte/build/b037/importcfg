@@ -1,0 +1,7 @@
+# import config
+packagefile gestãoTarefas/escalonador=/home/user/worldos/나라/CPV/소스/build/b031/_pkg_.a
+packagefile gestãoTarefas/fluxoExecução=/home/user/worldos/나라/CPV/소스/build/b032/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/CPV/소스/build/b023/_pkg_.a
+packagefile utilitário=/home/user/.cache/go-build/e2/e249cec88766594acdd7f3bc57780dc06d1dc9120f3715274f365dec21aa7802-d
+packagefile utilitário/lista=/home/user/worldos/나라/CPV/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CPV/소스/build/b000/_pkg_.a

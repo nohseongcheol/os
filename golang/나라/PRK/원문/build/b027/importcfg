@@ -1,0 +1,4 @@
+# import config
+packagefile 단말=/home/user/.cache/go-build/8a/8a2f19d750cbb337093dad92e5c748dc119ae0615678ac96cf87a3807f064ab0-d
+packagefile 입출력접속=/home/user/.cache/go-build/c4/c433372ed06c0b071d2e0491bfe60eb87b7ac1ecb7c4f95fab4bc1e639b97c2d-d
+packagefile runtime/cgo=/home/user/worldos/나라/PRK/소스/build/b000/_pkg_.a

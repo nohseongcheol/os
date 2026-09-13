@@ -1,0 +1,97 @@
+package port
+
+var pos uint16=1
+/////////////////////////////////////////////////////////////////
+type T접속 struct{
+	접속번호 uint16
+}
+
+/////////////////////////////////////////////////////////////////
+type T8비트_접속 struct{
+}
+type TPort8Bit struct{
+	TPort
+}
+func (self *TPort8Bit) Init(portnumber uint16){
+	self.portnumber = portnumber
+}
+func (self *TPort8Bit) Write(data uint8){
+	PortOutByte(self.portnumber, data)
+}
+func PortWriteByte(portnumber uint16, data uint8) {
+	PortOutByte(portnumber, data)
+}
+func PortReadByte(portnumber uint16) uint8{
+	result := PortInByte(portnumber)
+	return result
+}
+/////////////////////////////////////////////////////////////////
+func M바이트쓰기포트(포트번호 uint16, 자료 uint8) {
+	PortOutByte(포트번호, 자료)
+}
+func M바이트읽기포트(포트번호 uint16) uint8{
+	자료 := PortInByte(포트번호)
+	return 자료
+}
+func M워드쓰기포트(포트번호 uint16, 자료 uint16){
+	PortOutWord(포트번호, 자료)
+}
+func M워드읽기포트(포트번호 uint16) uint16 {
+	자료 := PortInWord(포트번호)
+	return 자료
+}
+func M더블워드쓰기포트(포트번호 uint16, 자료 uint32){
+	PortOutDword(포트번호, 자료)
+}
+func M더블워드읽기포트(포트번호 uint16) uint32{
+	자료 := PortInDword(포트번호)
+	return 자료
+}
+/////////////////////////////////////////////////////////////////
+/*
+type TPort8BitSlow struct{
+	TPort8Bit
+}
+func (self *TPort8BitSlow) Init(portnumber uint16) {
+	self.portnumber = portnumber
+}*/
+/*
+func (self *TPort8BitSlow) Write(data uint8){
+	PortOutByteslow(self.portnumber, data)
+} */
+/////////////////////////////////////////////////////////////////
+/*
+type TPort16Bit struct{
+	TPort
+}
+*/
+func PortWriteWord(portnumber uint16, data uint16){
+	PortOutWord(portnumber, data)
+}
+func PortReadWord(portnumber uint16) uint16{
+	var result uint16 = PortInWord(portnumber)
+	return result
+}
+/*
+/////////////////////////////////////////////////////////////////
+type TPort32Bit struct{
+	TPort
+}
+*/
+func PortWriteDword(portnumber uint16, data uint32) {
+	PortOutDword(portnumber, data)
+}
+func PortReadDword(portnumber uint16) uint32 {
+	var result uint32 = PortInDword(portnumber)
+	return result
+}
+
+func PortOutByte(portnumber uint16, data uint8)
+func PortInByte(portnumber uint16) uint8
+
+func PortOutWord(portnumber uint16, data uint16)
+func PortInWord(portnumber uint16) uint16
+
+func PortOutDword(portnumber uint16, data uint32)
+func PortInDword(portnumber uint16) uint32
+

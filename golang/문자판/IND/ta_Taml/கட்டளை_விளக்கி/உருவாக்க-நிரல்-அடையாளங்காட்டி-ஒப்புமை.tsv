@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	கட்டளை_விளக்கியை_உருவாக்கு
+executable_file	இயக்கக்_கோப்பு
+include_directory	அறிவிப்பு_அடைவு
+library_file	நூலகக்_கோப்பு
+linker_file	இணைப்புக்_கோப்பு
+object_file	பொருட்_கோப்பு
+source_file	மூலக்_கோப்பு
+startup_object	தொடக்கப்_பொருள்

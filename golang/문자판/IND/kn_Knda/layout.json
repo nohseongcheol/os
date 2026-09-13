@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/kn_Knda",
+  "language": "kn_Knda",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

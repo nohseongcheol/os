@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/17/1755177cd2e87fab9439b03ce2ab0b83dc072a69859b3965cc520cc7e6f1a8c1-d
+packagefile driver/ata=/home/user/worldos/나라/BLR/소스/build/b004/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/BLR/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/BLR/소스/build/b025/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/BLR/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BLR/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/73/73afa30d1f9b4cf02490c55075d075c7a269c89562cc585f950062bf024f85a7-d
+packagefile virtualПамяць=/home/user/worldos/나라/BLR/소스/build/b029/_pkg_.a
+packagefile памяцьmanager=/home/user/worldos/나라/BLR/소스/build/b023/_pkg_.a
+packagefile перарыванне=/home/user/worldos/나라/BLR/소스/build/b008/_pkg_.a
+packagefile порт=/home/user/.cache/go-build/e6/e6221b42aad38d57645facd62ca99419bcb22c2d7e73aa836411479ca2716310-d
+packagefile файлСістэма/elf=/home/user/worldos/나라/BLR/소스/build/b033/_pkg_.a
+packagefile файлСістэма/fat=/home/user/worldos/나라/BLR/소스/build/b034/_pkg_.a
+packagefile файлСістэма/msdospartition=/home/user/worldos/나라/BLR/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BLR/소스/build/b000/_pkg_.a

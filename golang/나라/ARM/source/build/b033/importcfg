@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/db/db2865fcde0d3ae055d8515e686d058a215b0ad10fe51a6cbb285b8b6c49053f-d
+packagefile հիշողությունmanager=/home/user/worldos/나라/ARM/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ARM/소스/build/b000/_pkg_.a

@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{tệp_nguồn}=$1
+@{tệp_đối_tượng}=$2
+@{tệp_thực_thi}=$3
+@{thư_mục_khai_báo}=$4
+@{đối_tượng_khởi_động}=$5
+@{tệp_thư_viện}=$6
+@{tệp_liên_kết}=$7
+
+@{dựng_bộ_thông_dịch}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{thư_mục_khai_báo}" -c "$@{tệp_nguồn}" -o "$@{tệp_đối_tượng}"
+    ld -n -m elf_i386 -e _start -T "$@{tệp_liên_kết}" -static \
+        --no-ld-generated-unwind-info -o "$@{tệp_thực_thi}" \
+        "$@{đối_tượng_khởi_động}" "$@{tệp_đối_tượng}" "$@{tệp_thư_viện}"
+}
+@{dựng_bộ_thông_dịch}

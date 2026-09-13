@@ -1,0 +1,12 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/b7/b77a5da0ba74facafd0bdbf1974802b1cb380223c2030779d0cfc6cddeaf3f3d-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile консоль=/home/user/.cache/go-build/bc/bc3df3e4e80e6c0620425f19acb8fb6718cba16b4c71d15898adfd9f37098563-d
+packagefile многоуправлениеЗадачами=/home/user/worldos/나라/KAZ/소스/build/b021/_pkg_.a
+packagefile памятьдиспетчер=/home/user/worldos/나라/KAZ/소스/build/b022/_pkg_.a
+packagefile порт=/home/user/.cache/go-build/a0/a0421e71c51064d10dec709da8eef47c31c900996a616eb14e93b48b93e55503-d
+packagefile прерывание=/home/user/worldos/나라/KAZ/소스/build/b020/_pkg_.a
+packagefile управлениеЗадачами/tss=/home/user/worldos/나라/KAZ/소스/build/b029/_pkg_.a
+packagefile управлениеЗадачами/поток=/home/user/worldos/나라/KAZ/소스/build/b030/_pkg_.a
+packagefile утилита/список=/home/user/worldos/나라/KAZ/소스/build/b031/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KAZ/소스/build/b000/_pkg_.a

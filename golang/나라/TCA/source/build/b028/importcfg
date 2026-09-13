@@ -1,0 +1,7 @@
+# import config
+packagefile console=/home/user/.cache/go-build/4d/4d6c2a5c1cfc836a18d55fec1fce78173b5593f6a2cd088ddab3ae8f0993a85b-d
+packagefile driver/ata=/home/user/worldos/나라/TCA/소스/build/b004/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/TCA/소스/build/b029/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/TCA/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/58/585a771c7fae1e6ec8cc327d43b17b46902c144c025704e198ee80b62e97af75-d
+packagefile runtime/cgo=/home/user/worldos/나라/TCA/소스/build/b000/_pkg_.a

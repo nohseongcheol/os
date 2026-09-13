@@ -1,0 +1,25 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/7f/7f65c7fd3fbaebdedd172cbace5d9f7df15ad2ef001896e5215554456c1581a6-d
+packagefile pci=/home/user/worldos/나라/RUS/소스/build/b017/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile виртуальныйпамять=/home/user/worldos/나라/RUS/소스/build/b023/_pkg_.a
+packagefile драйвер/ata=/home/user/worldos/나라/RUS/소스/build/b025/_pkg_.a
+packagefile драйвер/драйвер=/home/user/.cache/go-build/a5/a52256175cd232ae7d292160c44f1402f7e363f86c821ad4657bee9262fe6930-d
+packagefile драйвер/клавиатура=/home/user/worldos/나라/RUS/소스/build/b026/_pkg_.a
+packagefile драйвер/устройство_указания=/home/user/worldos/나라/RUS/소스/build/b037/_pkg_.a
+packagefile консоль=/home/user/.cache/go-build/c4/c46d7066ac0839ca780324e67c75bce17d9784d97a987e7a00d440764b8a817a-d
+packagefile многоуправлениеЗадачами=/home/user/worldos/나라/RUS/소스/build/b021/_pkg_.a
+packagefile памятьдиспетчер=/home/user/worldos/나라/RUS/소스/build/b022/_pkg_.a
+packagefile прерывание=/home/user/worldos/나라/RUS/소스/build/b020/_pkg_.a
+packagefile системавызов=/home/user/worldos/나라/RUS/소스/build/b027/_pkg_.a
+packagefile управлениеЗадачами/tss=/home/user/worldos/나라/RUS/소스/build/b029/_pkg_.a
+packagefile управлениеЗадачами/планировщик=/home/user/worldos/나라/RUS/소스/build/b028/_pkg_.a
+packagefile управлениеЗадачами/поток=/home/user/worldos/나라/RUS/소스/build/b030/_pkg_.a
+packagefile управлениеЗадачами/процесс=/home/user/worldos/나라/RUS/소스/build/b038/_pkg_.a
+packagefile управлениеСтраницами=/home/user/worldos/나라/RUS/소스/build/b032/_pkg_.a
+packagefile утилита=/home/user/.cache/go-build/3e/3e37808c7eef32a268ed666aa3620793609091337ed3585c554348ed41f0cae5-d
+packagefile файлсистема/fat=/home/user/worldos/나라/RUS/소스/build/b034/_pkg_.a
+packagefile файлсистема/msdosразделДиска=/home/user/worldos/나라/RUS/소스/build/b035/_pkg_.a
+packagefile файлсистема/исполняемый_и_компонуемый_формат=/home/user/worldos/나라/RUS/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/RUS/소스/build/b000/_pkg_.a

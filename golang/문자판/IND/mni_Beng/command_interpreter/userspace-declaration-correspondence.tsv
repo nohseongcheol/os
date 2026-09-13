@@ -1,0 +1,6 @@
+compiler_identifier	native_identifier
+SYS_exit	SYS__exit
+SYS_read	SYS_পাবা
+SYS_write	SYS_ইবা
+read	পাবা
+write	ইবা

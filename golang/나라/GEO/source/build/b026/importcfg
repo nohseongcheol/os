@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/GEO/소스/build/b008/_pkg_.a
+packagefile util=/home/user/.cache/go-build/25/2506a6b3e92be26b2b97dafe102b104bb2cb262662ee28ee8572c487f716dd11-d
+packagefile მეხსიერებაmanager=/home/user/worldos/나라/GEO/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GEO/소스/build/b000/_pkg_.a

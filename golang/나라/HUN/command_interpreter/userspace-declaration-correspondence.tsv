@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Bezárás
+SYS_exit	SYS__exit
+SYS_open	SYS_Megnyitás
+SYS_read	SYS_Olvasás
+SYS_write	SYS_Írás
+close	Bezárás
+open	Megnyitás
+read	Olvasás
+write	Írás

@@ -1,0 +1,53 @@
+package main
+
+import . "unsafe"
+
+type TMemoryChunk struct {
+	next, prev *TMemoryChunk
+	allocated bool
+	size uint32
+}
+type TMemoryManager struct{}
+var first *TMemoryChunk
+var memoryChunkSize = uint32(Sizeof(TMemoryChunk{}))
+var storage [65536]byte
+
+func (self *TMemoryManager) AlignedMalloc(size uint32) (Pointer, uint32) @BODY@
+
+func main() {
+	base := (uintptr(Pointer(&storage[0])) + 4095) &^ uintptr(4095)
+	first = (*TMemoryChunk)(Pointer(base + 16))
+	first.size = 5000 // Fits 4096 alone, but not the required 4064 padding.
+	second := (*TMemoryChunk)(Pointer(uintptr(Pointer(first)) + uintptr(memoryChunkSize) + uintptr(first.size)))
+	second.size = 12000
+	second.prev = first
+	first.next = second
+	end := uintptr(Pointer(second)) + uintptr(memoryChunkSize) + uintptr(second.size)
+	manager := TMemoryManager{}
+	result, padding := manager.AlignedMalloc(4096)
+	if result == nil || uintptr(result)&4095 != 0 || padding == 0 {
+		panic("misaligned result")
+	}
+	if first.allocated || first.next != second || !second.allocated {
+		panic("selected a chunk that cannot hold alignment padding")
+	}
+	if uintptr(result)+4096 > end || second.next == nil || second.next.prev != second {
+		panic("split overlaps another allocation")
+	}
+	if uintptr(Pointer(second.next))+uintptr(memoryChunkSize)+uintptr(second.next.size) != end {
+		panic("split changed total capacity")
+	}
+	first = (*TMemoryChunk)(Pointer(base + 32768 - uintptr(memoryChunkSize)))
+	first.size = 4096 // An already aligned exact fit must be accepted.
+	result, padding = manager.AlignedMalloc(4096)
+	if uintptr(result) != base+32768 || padding != 0 || first.next != nil {
+		panic("exact fit was not preserved")
+	}
+	if result, _ = manager.AlignedMalloc(0); result != nil {
+		panic("zero allocation accepted")
+	}
+	if result, _ = manager.AlignedMalloc(^uint32(0)); result != nil {
+		panic("overflow allocation accepted")
+	}
+	println("ALIGNED-ALLOCATION:PASS")
+}

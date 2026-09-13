@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_დახურვა
+SYS_exit	SYS__exit
+SYS_open	SYS_გახსნა
+SYS_read	SYS_კითხვა
+SYS_write	SYS_ჩაწერა
+close	დახურვა
+open	გახსნა
+read	კითხვა
+write	ჩაწერა

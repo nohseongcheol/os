@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	hulp_tonen
+echo	argumenten_tonen
+pwd	werkmap_tonen
+cat	bestandsinhoud_tonen
+stat	bestandsinformatie_tonen
+pid	procesnummers_tonen
+uname	systeemidentiteit_tonen
+run	programma_uitvoeren
+udp	terugkeer_van_datagram_testen
+source	opdrachtbestand_vertolken
+cd	map_wisselen
+exit	verlaten

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "ABW",
+  "language": "nl",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ba/badfbf0cca5ef2661fd3535fde83b159200b72025ea3e2151ef2daa1e253de96-d
+packagefile fichiersystème/fat=/home/user/worldos/나라/CAF/소스/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/CAF/소스/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/CAF/소스/build/b005/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/76/769d28454458525beff99b656f94824f96c5ca253716c154126c9bef776c7b2e-d
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/CAF/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/CAF/소스/build/b030/_pkg_.a
+packagefile gestionTâches/processus=/home/user/worldos/나라/CAF/소스/build/b033/_pkg_.a
+packagefile gestionTâches/tss=/home/user/worldos/나라/CAF/소스/build/b031/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/CAF/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/CAF/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/CAF/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/CAF/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/CAF/소스/build/b034/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/CAF/소스/build/b006/_pkg_.a
+packagefile pilote/clavier=/home/user/worldos/나라/CAF/소스/build/b036/_pkg_.a
+packagefile pilote/dispositif_de_pointage=/home/user/worldos/나라/CAF/소스/build/b038/_pkg_.a
+packagefile pilote/pilote=/home/user/.cache/go-build/5a/5a8108717721ed31f392b0db8c18be7b2109768f66a1310359f4d41638c7092c-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systèmeappel=/home/user/worldos/나라/CAF/소스/build/b037/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/a9/a9556486b0842dd1f743355b3b5a0c3a43f923fad442526b0e1b3b15ed1aeb21-d
+packagefile virtuelmémoire=/home/user/worldos/나라/CAF/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CAF/소스/build/b000/_pkg_.a

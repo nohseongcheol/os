@@ -1,0 +1,25 @@
+# import config
+packagefile atmiņamanager=/home/user/worldos/나라/LVA/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/c4/c47f0c987c300933bf848bc516be2311c9a243681f6e7839e63fc2befa81eaf0-d
+packagefile driver/ata=/home/user/worldos/나라/LVA/소스/build/b005/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/27/27541310bd676b57e775da6fed080763d63199c1239bcb585eeb0c50bb6cde9f-d
+packagefile driver/klaviatūra=/home/user/worldos/나라/LVA/소스/build/b008/_pkg_.a
+packagefile driver/pele=/home/user/worldos/나라/LVA/소스/build/b036/_pkg_.a
+packagefile failsSistēma/elf=/home/user/worldos/나라/LVA/소스/build/b025/_pkg_.a
+packagefile failsSistēma/fat=/home/user/worldos/나라/LVA/소스/build/b028/_pkg_.a
+packagefile failsSistēma/msdospartition=/home/user/worldos/나라/LVA/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/88/88e0c8490aa820bd5a0aba9733647ffc1f24b1ee404e9146cdbe603d38227f02-d
+packagefile multitasking=/home/user/worldos/나라/LVA/소스/build/b023/_pkg_.a
+packagefile paging=/home/user/worldos/나라/LVA/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/LVA/소스/build/b037/_pkg_.a
+packagefile pārtraukums=/home/user/worldos/나라/LVA/소스/build/b009/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sistēmacall=/home/user/worldos/나라/LVA/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/LVA/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/LVA/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/LVA/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/LVA/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/d6/d6cce437742ac4319f3dbd302453cc430ceb3748e9455473377b191b3d906075-d
+packagefile virtuālaAtmiņa=/home/user/worldos/나라/LVA/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LVA/소스/build/b000/_pkg_.a

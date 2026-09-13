@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/b8/b8e515b3f8ab99b606bec564c7d16d0b3d292aa8bcc7034b3070ec73745b421f-d
+packagefile mémoiregestionnaire=/home/user/worldos/나라/MYT/소스/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MYT/소스/build/b000/_pkg_.a

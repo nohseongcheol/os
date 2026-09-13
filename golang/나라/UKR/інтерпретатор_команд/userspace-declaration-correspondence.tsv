@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Закрити
+SYS_exit	SYS__exit
+SYS_open	SYS_Відкрити
+SYS_read	SYS_Читання
+SYS_write	SYS_Запис
+argv	аргументи_2
+buf	буфер_передавання
+close	Закрити
+fd	дескриптор_файла
+open	Відкрити
+read	Читання
+write	Запис
