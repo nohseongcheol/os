@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _include_பிணையங்களிடை_முகவரி
 #define _include_பிணையங்களிடை_முகவரி
 

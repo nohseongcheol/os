@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 package ramka_sieci_o_wspólnym_medium
 
 import . "konsola"

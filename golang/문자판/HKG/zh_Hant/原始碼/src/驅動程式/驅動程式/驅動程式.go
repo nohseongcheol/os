@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 package 驅動程式
 
 type I驅動程式 interface {

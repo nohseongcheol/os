@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _include_преобразование_адресов_порядок_байтов
 #define _include_преобразование_адресов_порядок_байтов
 

@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _LIBC_STDLIB_H
 #define _LIBC_STDLIB_H
 #include <मूल_परिभाषाएँ.h>

@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _선언_문자분류
 #define _선언_문자분류
 int 영문자나숫자인지확인하기(int 문자값);

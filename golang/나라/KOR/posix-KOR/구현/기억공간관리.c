@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <일반함수.h>
 #include <문자열과기억내용.h>
 #include <입출력과실행.h>

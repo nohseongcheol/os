@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _宣告_整數極限
 #define _宣告_整數極限
 /* This package's compiler ABI is i386 ILP32 with signed plain char. */

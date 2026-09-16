@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <にゅうしゅつりょくとじっこう.h>
 
 static void でんぶんをかく(const char *もじれつ, unsigned int おおきさ)

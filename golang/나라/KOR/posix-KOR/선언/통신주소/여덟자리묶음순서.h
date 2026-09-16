@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _선언_통신주소_여덟자리묶음순서
 #define _선언_통신주소_여덟자리묶음순서
 

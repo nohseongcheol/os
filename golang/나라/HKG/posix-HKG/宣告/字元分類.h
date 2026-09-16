@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _宣告_字元分類
 #define _宣告_字元分類
 int 檢查是否字母或數字(int 字元值);

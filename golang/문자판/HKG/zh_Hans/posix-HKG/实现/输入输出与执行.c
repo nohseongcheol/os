@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <错误编号.h>
 #include <文件控制.h>
 #include <系统/文件状态.h>

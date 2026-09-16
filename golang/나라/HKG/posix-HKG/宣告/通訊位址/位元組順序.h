@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _宣告_通訊位址_位元組順序
 #define _宣告_通訊位址_位元組順序
 

@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _include_conversão_de_endereços_ordem_de_octetos
 #define _include_conversão_de_endereços_ordem_de_octetos
 

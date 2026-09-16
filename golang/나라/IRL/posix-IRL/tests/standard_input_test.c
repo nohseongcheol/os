@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <unistd.h>
 
 static void write_message(const char *text, unsigned int digit_count)

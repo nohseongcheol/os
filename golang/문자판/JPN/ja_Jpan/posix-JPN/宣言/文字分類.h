@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _宣言_文字分類
 #define _宣言_文字分類
 int 英字か数字か調べる(int 文字値);

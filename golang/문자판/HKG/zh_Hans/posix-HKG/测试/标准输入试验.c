@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <输入输出与执行.h>
 
 static void 写出报文(const char *字符串, unsigned int 大小)

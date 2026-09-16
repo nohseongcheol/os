@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <輸入輸出與執行.h>
 #include <檔案控制.h>
 #include <錯誤編號.h>

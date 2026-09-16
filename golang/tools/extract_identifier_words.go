@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 // Command extract_identifier_words reports the English word components used by
 // project-defined Go identifiers.  It deliberately ignores Go ABI/builtin
 // names; the localization generator must leave those names intact.

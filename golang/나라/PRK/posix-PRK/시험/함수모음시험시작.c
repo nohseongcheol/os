@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <입출력과실행.h>
 int 함수모음동작시험하기(void);
 int main(void)

@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _宣告_字串大小寫比較
 #define _宣告_字串大小寫比較
 #include <基本定義.h>

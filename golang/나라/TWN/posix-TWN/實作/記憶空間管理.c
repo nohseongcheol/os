@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <通用函式.h>
 #include <字串與記憶內容.h>
 #include <輸入輸出與執行.h>

@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <통신주소/여덟자리묶음순서.h>
 #include <오류번호.h>
 #include <체계/통신끝점.h>

@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <字符串与内存内容.h>
 #include <字符串大小写比较.h>
 #include <通用函数.h>

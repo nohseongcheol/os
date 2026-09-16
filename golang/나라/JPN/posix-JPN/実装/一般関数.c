@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <一般関数.h>
 #include <文字列と記憶内容.h>
 #include <文字分類.h>

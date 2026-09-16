@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <系統/子行程等待.h>
 #include <檔案控制.h>
 #include <輸入輸出與執行.h>

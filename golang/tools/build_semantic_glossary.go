@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 // Command build_semantic_glossary mines the host's installed, human-reviewed
 // gettext catalogs for translations of the English words used in engos
 // identifiers.  The result is a deterministic TSV consumed by the source

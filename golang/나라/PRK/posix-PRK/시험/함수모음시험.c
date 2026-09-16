@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <문자열과기억내용.h>
 #include <문자열대소비교.h>
 #include <문자분류.h>

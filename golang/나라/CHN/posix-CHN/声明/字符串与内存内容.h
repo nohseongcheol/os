@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _声明_字符串与内存内容
 #define _声明_字符串与内存内容
 #include <基本定义.h>

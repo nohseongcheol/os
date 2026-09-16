@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 package протокол_управляющих_сообщений_объединённой_сети
 
 import . "unsafe"

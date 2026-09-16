@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <輸入輸出與執行.h>
 int 測試函式集行為(void);
 int main(void)

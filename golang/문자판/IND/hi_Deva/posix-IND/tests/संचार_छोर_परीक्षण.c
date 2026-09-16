@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <संचार_पता_परिवर्तन/अष्टक_क्रम.h>
 #include <errno.h>
 #include <प्रणाली/socket.h>

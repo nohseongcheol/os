@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _宣言_文字列と記憶内容
 #define _宣言_文字列と記憶内容
 #include <基本定義.h>

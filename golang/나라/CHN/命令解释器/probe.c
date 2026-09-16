@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <输入输出与执行.h>
 
 int main(int 参数数量, char **参数列表_2)

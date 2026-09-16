@@ -1,0 +1,29 @@
+#include <sys/stat.h>
+#include <sys/utsname.h>
+#include <sys/syscall.h>
+
+enum { SYS_stat = 106, SYS_lstat = 107, SYS_fstat = 108, SYS_uname = 122 };
+
+int stat(const char *jalur, struct stat *penyangga_transfer)
+{
+    return (int)__syscall_result(
+        __syscall6(SYS_stat, (long)jalur, (long)penyangga_transfer, 0, 0, 0, 0));
+}
+
+int lstat(const char *jalur, struct stat *penyangga_transfer)
+{
+    return (int)__syscall_result(
+        __syscall6(SYS_lstat, (long)jalur, (long)penyangga_transfer, 0, 0, 0, 0));
+}
+
+int fstat(int deskriptor_berkas, struct stat *penyangga_transfer)
+{
+    return (int)__syscall_result(
+        __syscall6(SYS_fstat, deskriptor_berkas, (long)penyangga_transfer, 0, 0, 0, 0));
+}
+
+int uname(struct utsname *identitas_sistem)
+{
+    return (int)__syscall_result(
+        __syscall6(SYS_uname, (long)identitas_sistem, 0, 0, 0, 0, 0));
+}

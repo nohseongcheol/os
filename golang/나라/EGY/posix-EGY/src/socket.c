@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <تحويل_عناوين_الاتصال/ترتيب_الثمانيات.h>
 #include <النظام/syscall.h>
 #include <النظام/socket.h>

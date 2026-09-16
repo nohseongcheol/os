@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <入出力と実行.h>
 
 static void 電文を書く(const char *文字列, unsigned int 大きさ)

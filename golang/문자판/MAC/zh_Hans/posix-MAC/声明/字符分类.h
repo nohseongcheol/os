@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _声明_字符分类
 #define _声明_字符分类
 int 检查是否字母或数字(int 字符值);

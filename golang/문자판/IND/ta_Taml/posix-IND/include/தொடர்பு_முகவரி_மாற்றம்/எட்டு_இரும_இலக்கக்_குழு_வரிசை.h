@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _include_தொடர்பு_முகவரி_மாற்றம்_எட்டு_இரும_இலக்கக்_குழு_வரிசை
 #define _include_தொடர்பு_முகவரி_மாற்றம்_எட்டு_இரும_இலக்கக்_குழு_வரிசை
 

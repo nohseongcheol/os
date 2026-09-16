@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <النظام/stat.h>
 #include <النظام/هوية_النظام.h>
 #include <النظام/syscall.h>

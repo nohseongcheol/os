@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <தொடர்பு_முகவரி_மாற்றம்/எட்டு_இரும_இலக்கக்_குழு_வரிசை.h>
 #include <errno.h>
 #include <fcntl.h>

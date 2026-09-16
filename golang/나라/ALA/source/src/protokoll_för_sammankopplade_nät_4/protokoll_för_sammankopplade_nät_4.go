@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 package protokoll_för_sammankopplade_nät_4
 
 import . "unsafe"

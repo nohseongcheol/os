@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #ifndef _宣言_整数限界
 #define _宣言_整数限界
 /* This package's compiler ABI is i386 ILP32 with signed plain char. */

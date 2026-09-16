@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 package protocole_des_messages_de_contrôle_du_réseau_interconnecté
 
 import . "unsafe"

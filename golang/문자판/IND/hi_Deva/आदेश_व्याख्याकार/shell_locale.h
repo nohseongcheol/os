@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 /* Native command proposals; ASCII aliases remain accepted. */
 static const char *आधार_आदेश[] = {"help", "echo", "pwd", "cat", "stat", "pid", "uname", "run", "udp", "source", "cd", "exit"};
 static const char *स्थानीय_आदेश_नाम[] = {"सहायता_दिखाना", "तर्क_दिखाना", "वर्तमान_निर्देशिका_दिखाना", "संचिका_की_सामग्री_दिखाना", "संचिका_की_जानकारी_दिखाना", "प्रक्रिया_क्रमांक_दिखाना", "प्रणाली_की_पहचान_दिखाना", "कार्यक्रम_चलाना", "स्वतंत्र_संदेश_की_वापसी_जाँचना", "आदेश_संचिका_का_अर्थ_निकालना", "निर्देशिका_बदलना", "बाहर"};

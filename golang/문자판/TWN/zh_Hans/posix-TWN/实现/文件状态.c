@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <系统/文件状态.h>
 #include <系统/系统身份.h>
 #include <系统/系统调用.h>

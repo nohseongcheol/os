@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <通信番地/八桁組順序.h>
 #include <体系/体系呼出.h>
 #include <体系/通信端点.h>

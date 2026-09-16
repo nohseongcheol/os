@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <入出力と実行.h>
 
 int main(int 引数の数, char **引数一覧)

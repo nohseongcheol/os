@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <conversão_de_endereços/ordem_de_octetos.h>
 #include <errno.h>
 #include <fcntl.h>

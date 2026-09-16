@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <système/attente_des_enfants.h>
 #include <fcntl.h>
 #include <unistd.h>

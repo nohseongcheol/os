@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 package giao_thức_thông_điệp_điều_khiển_mạng_liên_kết
 
 import . "unsafe"

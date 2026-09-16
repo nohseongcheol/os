@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <النظام/انتظار_العمليات_الفرعية.h>
 #include <fcntl.h>
 #include <unistd.h>

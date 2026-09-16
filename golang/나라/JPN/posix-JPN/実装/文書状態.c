@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <体系/文書状態.h>
 #include <体系/体系情報.h>
 #include <体系/体系呼出.h>

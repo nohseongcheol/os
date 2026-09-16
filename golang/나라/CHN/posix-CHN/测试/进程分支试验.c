@@ -1,3 +1,7 @@
+/*
+	Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+*/
+
 #include <系统/子进程等待.h>
 #include <文件控制.h>
 #include <输入输出与执行.h>
