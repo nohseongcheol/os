@@ -1,0 +1,5 @@
+# WorldOS NLD UTF-8 command file
+argumenten_tonen "WorldOS NLD"
+hulp_tonen
+werkmap_tonen
+procesnummers_tonen

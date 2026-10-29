@@ -1,0 +1,5 @@
+# WorldOS SWE UTF-8 command file
+visa_argument "WorldOS SWE"
+visa_hjälp
+visa_arbetskatalog
+visa_processidentifierare

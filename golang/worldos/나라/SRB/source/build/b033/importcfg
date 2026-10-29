@@ -1,0 +1,4 @@
+# import config
+packagefile конзола=/home/user/.cache/go-build/bc/bc0f03a60a2b59d966353431fd45324bc272b78312ec331e7509a44fc9e4f43c-d
+packagefile меморијаmanager=/home/user/worldos/나라/SRB/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SRB/소스/build/b000/_pkg_.a

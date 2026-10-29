@@ -1,0 +1,7 @@
+# import config
+packagefile archivosistema/msdospartición=/home/user/worldos/나라/SLV/소스/build/b003/_pkg_.a
+packagefile consola=/home/user/.cache/go-build/c4/c44bad98143f08bd6c13a3c82e4365e7fd123782cf9647c8059a1905aa0afba7-d
+packagefile controlador/ata=/home/user/worldos/나라/SLV/소스/build/b006/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/SLV/소스/build/b021/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/5d/5d83281fffa848dfaadd5e18f483cfb15f4a3128eaa99c5eaabb021786bc0408-d
+packagefile runtime/cgo=/home/user/worldos/나라/SLV/소스/build/b000/_pkg_.a

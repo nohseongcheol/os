@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/f8/f889fa6741cb213993c3e6491140ba1dd39a49f56f7690cc2d8430651d648bea-d
+packagefile prekinitev=/home/user/worldos/나라/SVN/소스/build/b007/_pkg_.a
+packagefile sistemcall=/home/user/worldos/나라/SVN/소스/build/b030/_pkg_.a
+packagefile vrata=/home/user/.cache/go-build/b5/b5e5199d0a94e22de1762b6473bd40fdf5a5336332165ebc78134e8397bb5786-d
+packagefile runtime/cgo=/home/user/worldos/나라/SVN/소스/build/b000/_pkg_.a

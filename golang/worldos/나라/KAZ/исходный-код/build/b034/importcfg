@@ -1,0 +1,7 @@
+# import config
+packagefile драйвер/ata=/home/user/worldos/나라/KAZ/소스/build/b025/_pkg_.a
+packagefile консоль=/home/user/.cache/go-build/bc/bc3df3e4e80e6c0620425f19acb8fb6718cba16b4c71d15898adfd9f37098563-d
+packagefile памятьдиспетчер=/home/user/worldos/나라/KAZ/소스/build/b022/_pkg_.a
+packagefile утилита=/home/user/.cache/go-build/4c/4cc1d8cab9d94cc40d0b287864cf8948d0c63f8a5045942d93f8d90c6cbd62ba-d
+packagefile файлсистема/msdosразделДиска=/home/user/worldos/나라/KAZ/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KAZ/소스/build/b000/_pkg_.a

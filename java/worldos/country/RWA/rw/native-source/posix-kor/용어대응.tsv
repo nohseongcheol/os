@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	kurema_dosiye	FUNCTION_agaciro	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	kurema_dosiye_e47823fb	FUNCTION_agaciro	kwandika 전용 생성 또는 Ibirimo_agaciro gukuraho_TOC	파일규약.h
+read	파일자료읽기	FUNCTION_agaciro	열린 대상에서 bayiti_agaciro 자료를 읽는다	파일규약.h
+write	kwandika_dosiye_amakurushingiro	FUNCTION_agaciro	열린 대상에 bayiti_agaciro 자료를 쓴다	파일규약.h
+close	gufunga_dosiye	FUNCTION_agaciro	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	파일위치옮기기	FUNCTION_agaciro	열린 파일의 I_O 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	FUNCTION_agaciro	같은 열린 Idosiye 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	FUNCTION_agaciro	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	gukuramo_dosiye_icyinjizwa_izina	FUNCTION_agaciro	Izina 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	itsinda_dosiye_uburebure	FUNCTION_agaciro	열린 파일의 bayiti_agaciro 길이를 정한다	파일규약.h
+fstat	파일상태읽기	FUNCTION_agaciro	열린 대상의 종류 Ingano 링크 수 등을 읽는다	파일규약.h
+fsync	파일저장확정	FUNCTION_agaciro	Store_agaciro 매체에 현재 Idosiye 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	FUNCTION_agaciro	서술자별 설정과 공유 Gufungura 설정을 다룬다	파일규약.h
+socket	통신종단점만들기	FUNCTION_agaciro	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_aderesi	FUNCTION_agaciro	종단점에 mu_gace_urwego 주소와 접속번호를 묶는다	통신규약.h
+sendto	자료전문보내기	FUNCTION_agaciro	지정한 상대에게 전문 하나를 보낸다	통신규약.h
+recvfrom	자료전문받기	FUNCTION_agaciro	전문 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	FUNCTION_agaciro	mu_gace_urwego 종단점의 현재 주소를 읽는다	통신규약.h
+setsockopt	guhindura_Urusobemiyoboro_Amagenamiterere	FUNCTION_agaciro	지원하는 수신 대기 설정을 바꾼다	통신규약.h
+inet_pton	gusesengura_Urusobemiyoboro_aderesi	FUNCTION_agaciro	umubare_agaciro aderesi 문자열을 ikibazo_agaciro 바이트로 해석한다	통신규약.h
+inet_ntop	imiterere_Urusobemiyoboro_aderesi	FUNCTION_agaciro	ikibazo_agaciro 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	FUNCTION_agaciro	16비트 값을 망의 bayiti_agaciro 차례로 바꾼다	통신규약.h
+htonl	Urusobemiyoboro_umubare_wuzuye	FUNCTION_agaciro	32비트 값을 망의 bayiti_agaciro 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	FUNCTION_agaciro	16비트 값을 gukora_ibwiriza 장치의 bayiti_agaciro 차례로 바꾼다	통신규약.h
+ntohl	igendanwa_umujyo_umubare_wuzuye	FUNCTION_agaciro	32비트 값을 gukora_ibwiriza 장치의 bayiti_agaciro 차례로 바꾼다	통신규약.h
+errno	오류번호	변수	실패한 C 호출의 양수 IKOSA umugerekashakiro	errno.h
+fd	파일서술자	변수	Inzira_agaciro 안의 열린 대상을 식별하는 umubare_wuzuye	dosiye_I_O.c
+count	바이트수	변수	amakurushingiro 전송량의 단위가 바이트임을 드러낸다	dosiye_I_O.c
+offset	Ofuseti_agaciro	변수	기준 위치에 더할 gusobeka_agaciro 있는 거리	dosiye_I_O.c
+flags	kurema_Amagenamiterere	변수	Idosiye kwinjira_icyinjizwa 방식과 Gufungura Igikorwa	dosiye_I_O.c
+mode	허가	변수	생성 파일에 기록할 허가 bit_agaciro	dosiye_I_O.c
+timeout	수신대기밀리초	변수	수신 대기 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	변수	UDP 종단점에 배정한 번호들	Urusobemiyoboro_Ikirundo.java
+통신장치.포트	Urusobemiyoboro_mukoresha.입출력기준주소	변수	NIC의 CPU I_O aderesi 공간 기준	Urusobemiyoboro_mukoresha.java
+generation	세대번호	변수	성공한 Store_agaciro 시점의 umujyo_agaciro	파일보존.java
+포트읽기	입출력바이트읽기	FUNCTION_agaciro	CPU I_O 주소에서 한 바이트를 읽는다	igendanwa_agaciro.java
+포트쓰기	입출력바이트쓰기	FUNCTION_agaciro	CPU I_O 주소에 한 바이트를 쓴다	igendanwa_agaciro.java
+포트정수읽기	입출력정수읽기	FUNCTION_agaciro	CPU I_O 주소에서 32비트를 읽는다	igendanwa_agaciro.java
+포트정수쓰기	입출력정수쓰기	FUNCTION_agaciro	CPU I_O 주소에 32비트를 쓴다	igendanwa_agaciro.java
+포트짧은쓰기	입출력짧은수쓰기	FUNCTION_agaciro	CPU I_O 주소에 16비트를 쓴다	igendanwa_agaciro.java
+메모리파일.java	ububiko_sisitemu_ya_dosiye.java	Idosiye·imiterere_agaciro	주기억 내 Idosiye 자료와 이름을 관리한다	os/Inkomoko
+통신장치.java	Urusobemiyoboro_mukoresha.java	Idosiye·imiterere_agaciro	PCI 망장치를 찾아 초기화하고 송수신한다	os/Inkomoko
+file I/O	dosiye_I_O.c	Idosiye	C 호출과 intima_agaciro 파일서술자 호출의 경계	posix-kor/Inkomoko/구현
+socket interface	통신종단점.c	Idosiye	C 소켓과 intima_agaciro 자료전문 기능의 경계	posix-kor/Inkomoko/구현
+syscall bridge	운영체제호출.s	Idosiye	C 호출 규약과 intima_agaciro 레지스터 규약의 경계	posix-kor/imashini
+startup	Itangira_ukoresha_porogaramu.s	Idosiye	ukoresha 진입점에서 C main을 시작한다	posix-kor/imashini

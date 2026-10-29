@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Ενέργεια",
+    "identifier": "Ενέργεια",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "Παράμετροι",
+    "identifier": "Παράμετροι",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "κουμπί",
+    "identifier": "κουμπί",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "επιλογή...",
+    "identifier": "επιλογή",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Κλάση",
+    "identifier": "Κλάση",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Κλείσιμο",
+    "identifier": "Κλείσιμο",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Εντολή",
+    "identifier": "Εντολή",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Σύνδεση",
+    "identifier": "Σύνδεση",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "Τρέχον",
+    "identifier": "Τρέχον",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Κατάλογος",
+    "identifier": "Κατάλογος",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "ΣΦΑΛΜΑ",
+    "identifier": "ΣΦΑΛΜΑ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Συμβάν",
+    "identifier": "Συμβάν",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Εκτέλεση",
+    "identifier": "Εκτέλεση",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Αρχείο",
+    "identifier": "Αρχείο",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Κλειδί",
+    "identifier": "Κλειδί",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Ετικέτα",
+    "identifier": "Ετικέτα",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "Γραμμή",
+    "identifier": "Γραμμή",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Φόρτος",
+    "identifier": "Φόρτος",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Κατάσταση",
+    "identifier": "Κατάσταση",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Όνομα",
+    "identifier": "Όνομα",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Άνοιγμα",
+    "identifier": "Άνοιγμα",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "Έξοδος",
+    "identifier": "Έξοδος",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/gnome-flashback.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "Πίνακας εφαρμογών",
+    "identifier": "Πίνακας_εφαρμογών",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "ΔΙΑΔΡΟΜΗ",
+    "identifier": "ΔΙΑΔΡΟΜΗ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "Θύρα",
+    "identifier": "Θύρα",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/kategdbplugin.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Θέση",
+    "identifier": "Θέση",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Διεργασία",
+    "identifier": "Διεργασία",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "Α_νάγνωση",
+    "identifier": "Ανάγνωση",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Αφαίρεση",
+    "identifier": "Αφαίρεση",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Εκτέλεση",
+    "identifier": "Εκτέλεση_2",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "Απο_θήκευση",
+    "identifier": "Αποθήκευση",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Ρυθμίσεις",
+    "identifier": "Ρυθμίσεις",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Μέγεθος",
+    "identifier": "Μέγεθος",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "ΠΗΓΗ",
+    "identifier": "ΠΗΓΗ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "Σ_τοπ",
+    "identifier": "Στοπ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Τερματικό",
+    "identifier": "Τερματικό",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/katekonsoleplugin.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Κείμενο",
+    "identifier": "Κείμενο",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Εργαλειοθήκη",
+    "identifier": "Εργαλειοθήκη",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Παράθυρο",
+    "identifier": "Παράθυρο",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "Ε_γγραφή",
+    "identifier": "Εγγραφή",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/el/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

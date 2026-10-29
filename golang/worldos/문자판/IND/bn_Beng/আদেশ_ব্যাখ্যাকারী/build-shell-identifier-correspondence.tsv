@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	আদেশ_ব্যাখ্যাকারী_নির্মাণ
+executable_file	নির্বাহযোগ্য_নথি
+include_directory	ঘোষণার_নির্দেশিকা
+library_file	সংগ্রহশালা_নথি
+linker_file	সংযোগ_নথি
+object_file	অবজেক্ট_নথি
+source_file	উৎস_নথি
+startup_object	প্রারম্ভিক_অবজেক্ট

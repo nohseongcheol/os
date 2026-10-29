@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	파일열기	함수	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	파일만들기	함수	ashajaa 전용 생성 또는 alu_ujatüü_ajutuu ama_inrüinjiraa_TA	파일규약.h
+read	파일자료읽기	함수	열린 대상에서 waai_ajutuu 자료를 읽는다	파일규약.h
+write	ashajaa_anaajaalaa_atijaaya	함수	열린 대상에 waai_ajutuu 자료를 쓴다	파일규약.h
+close	asürülaa_anaajaalaa	함수	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	파일위치옮기기	함수	열린 파일의 E_A 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	함수	같은 열린 anaajaalaa 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	함수	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	파일이름지우기	함수	이름 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	파일길이정하기	함수	열린 파일의 waai_ajutuu 길이를 정한다	파일규약.h
+fstat	파일상태읽기	함수	열린 대상의 종류 크기 링크 수 등을 읽는다	파일규약.h
+fsync	파일저장확정	함수	저장 매체에 현재 anaajaalaa 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	함수	서술자별 설정과 공유 열기 설정을 다룬다	파일규약.h
+socket	통신종단점만들기	함수	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	alaasajaa_ejepüsee	함수	종단점에 지역 주소와 접속번호를 묶는다	통신규약.h
+sendto	자료전문보내기	함수	지정한 상대에게 전문 하나를 보낸다	통신규약.h
+recvfrom	자료전문받기	함수	전문 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	함수	지역 종단점의 현재 주소를 읽는다	통신규약.h
+setsockopt	통신설정바꾸기	함수	지원하는 수신 대기 설정을 바꾼다	통신규약.h
+inet_pton	akatajaa_kusu_ejepüsee	함수	숫자 ejepüsee 문자열을 achikii_ajutuu 바이트로 해석한다	통신규약.h
+inet_ntop	akua_ipaa_kusu_ejepüsee	함수	achikii_ajutuu 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	함수	16비트 값을 망의 waai_ajutuu 차례로 바꾼다	통신규약.h
+htonl	kusu_waneepiasü	함수	32비트 값을 망의 waai_ajutuu 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	함수	16비트 값을 실행 장치의 waai_ajutuu 차례로 바꾼다	통신규약.h
+ntohl	serulaalü_anaajiaakua_ipa_waneepiasü	함수	32비트 값을 실행 장치의 waai_ajutuu 차례로 바꾼다	통신규약.h
+errno	오류번호	변수	실패한 C 호출의 양수 ajachitia ee_iyatialujuna	errno.h
+fd	파일서술자	변수	과정 안의 열린 대상을 식별하는 waneepiasü	anaajaalaa_E_A.c
+count	바이트수	변수	atijaaya 전송량의 단위가 바이트임을 드러낸다	anaajaalaa_E_A.c
+offset	변위	변수	기준 위치에 더할 atijitaalüjiaa_ajutuu 있는 거리	anaajaalaa_E_A.c
+flags	열기설정	변수	anaajaalaa a_ttaaya_ekeroliaa 방식과 열기 aa_inra_awai	anaajaalaa_E_A.c
+mode	허가	변수	생성 파일에 기록할 허가 wiitü_ajutuu	anaajaalaa_E_A.c
+timeout	수신대기밀리초	변수	수신 대기 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	변수	UDP 종단점에 배정한 번호들	통신망.java
+통신장치.포트	kusu_aa_inmajülü.입출력기준주소	변수	NIC의 CPU E_A ejepüsee 공간 기준	kusu_aa_inmajülü.java
+generation	세대번호	변수	성공한 저장 시점의 anaajiaakua_ipa_ajutuu	파일보존.java
+포트읽기	입출력바이트읽기	함수	CPU E_A 주소에서 한 바이트를 읽는다	serulaalü_ajutuu.java
+포트쓰기	입출력바이트쓰기	함수	CPU E_A 주소에 한 바이트를 쓴다	serulaalü_ajutuu.java
+포트정수읽기	입출력정수읽기	함수	CPU E_A 주소에서 32비트를 읽는다	serulaalü_ajutuu.java
+포트정수쓰기	입출력정수쓰기	함수	CPU E_A 주소에 32비트를 쓴다	serulaalü_ajutuu.java
+포트짧은쓰기	입출력짧은수쓰기	함수	CPU E_A 주소에 16비트를 쓴다	serulaalü_ajutuu.java
+메모리파일.java	주기억파일체계.java	anaajaalaa·akua_ipaa_ajutuu	주기억 내 anaajaalaa 자료와 이름을 관리한다	os/eejeejetülein
+통신장치.java	kusu_aa_inmajülü.java	anaajaalaa·akua_ipaa_ajutuu	PCI 망장치를 찾아 초기화하고 송수신한다	os/eejeejetülein
+file I/O	anaajaalaa_E_A.c	anaajaalaa	C 호출과 keetnerü_ajutuu 파일서술자 호출의 경계	posix-kor/eejeejetülein/구현
+socket interface	통신종단점.c	anaajaalaa	C 소켓과 keetnerü_ajutuu 자료전문 기능의 경계	posix-kor/eejeejetülein/구현
+syscall bridge	운영체제호출.s	anaajaalaa	C 호출 규약과 keetnerü_ajutuu 레지스터 규약의 경계	posix-kor/기계
+startup	achuwalaa_ka_yataayakalü_akumajiaa.s	anaajaalaa	ka_yataayakalü 진입점에서 C main을 시작한다	posix-kor/기계

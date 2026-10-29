@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "VUT",
+  "language": "bi",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

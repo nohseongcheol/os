@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/ZAF/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/ZAF/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/20/20e5fe45ca30b2634464d3e85208d1bdd5340ce5f9e383771b6a5f1ae5268c40-d
+packagefile runtime/cgo=/home/user/worldos/나라/ZAF/소스/build/b000/_pkg_.a

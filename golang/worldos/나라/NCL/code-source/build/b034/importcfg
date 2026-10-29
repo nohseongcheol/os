@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/25/25c7733ea58e3502d07c94d99bd787a7ff86537a637084760a45b08176acd5c1-d
+packagefile interruption=/home/user/worldos/나라/NCL/소스/build/b024/_pkg_.a
+packagefile pilote/pilote=/home/user/.cache/go-build/54/549f518fafdfd51b0db14f975b200a399649d4d2f6ea787cf428eef262740b5e-d
+packagefile port=/home/user/.cache/go-build/24/242f8033f612a8c715a0ac891d854a75634e59b5a05d584cf4e63eabb50b9889-d
+packagefile runtime/cgo=/home/user/worldos/나라/NCL/소스/build/b000/_pkg_.a

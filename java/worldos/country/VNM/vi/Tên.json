@@ -1,0 +1,535 @@
+{
+  "action": {
+    "text": "Hành động",
+    "identifier": "Hành_động",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "lời gọi hệ thống",
+    "identifier": "lời_gọi_hệ_thống",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "thêm vào cuối danh sách",
+    "identifier": "thêm_vào_cuối_danh_sách",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "đối số",
+    "identifier": "đối_số",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "nút",
+    "identifier": "nút",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Hạng",
+    "identifier": "Hạng",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Đóng tập tin ",
+    "identifier": "Đóng_tập_tin",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "lệnh",
+    "identifier": "lệnh",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "biênDịch",
+    "identifier": "biênDịch",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "_Kết nối",
+    "identifier": "Kết_nối",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "tiếnTrìnhHiệnTại",
+    "identifier": "tiếnTrìnhHiệnTại",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "dữLiệu",
+    "identifier": "dữLiệu",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "thưMục",
+    "identifier": "thưMục",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "lỗi",
+    "identifier": "lỗi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Sự kiện",
+    "identifier": "Sự_kiện",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Chạy",
+    "identifier": "Chạy",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "tậpTin",
+    "identifier": "tậpTin",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "khởiTạo",
+    "identifier": "khởiTạo",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Nhãn",
+    "identifier": "Nhãn",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "dòng nhập",
+    "identifier": "dòng_nhập",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "nạpNguồn",
+    "identifier": "nạpNguồn",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "thôngBáo",
+    "identifier": "thôngBáo",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "Chế độ",
+    "identifier": "Chế_độ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Tên",
+    "identifier": "Tên",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Mở",
+    "identifier": "Mở",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "đầuRaVănBản",
+    "identifier": "đầuRaVănBản",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "Bảng",
+    "identifier": "Bảng",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "bộPhânTíchĐốiSố",
+    "identifier": "bộPhânTíchĐốiSố",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "đườngDẫn",
+    "identifier": "đườngDẫn",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "sốCổng",
+    "identifier": "sốCổng",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "vị trí",
+    "identifier": "vị_trí",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Tiến trình",
+    "identifier": "Tiến_trình",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "Đọ_c",
+    "identifier": "Đọc",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "bộĐọcVănBản",
+    "identifier": "bộĐọcVănBản",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "Gỡ bỏ",
+    "identifier": "Gỡ_bỏ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "kếtQuả",
+    "identifier": "kếtQuả",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "khởiChạy",
+    "identifier": "khởiChạy",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "_Lưu",
+    "identifier": "Lưu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Thiết _lập",
+    "identifier": "Thiết_lập",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Kích cỡ",
+    "identifier": "Kích_cỡ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "mãNguồn",
+    "identifier": "mãNguồn",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Dừng",
+    "identifier": "Dừng",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "thiếtBịĐầuCuối",
+    "identifier": "thiếtBịĐầuCuối",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "văn bản",
+    "identifier": "văn_bản",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "luồngThựcThi",
+    "identifier": "luồngThựcThi",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "Thanh _công cụ",
+    "identifier": "Thanh_công_cụ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "tácVụNền",
+    "identifier": "tácVụNền",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "KhôngGianLàmViệc",
+    "identifier": "KhôngGianLàmViệc",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "_Ghi",
+    "identifier": "Ghi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/vi/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

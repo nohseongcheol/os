@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/f6/f6969ce9b896a073b61de3ffc3f08e58a096972b7babbe99501bcf52a01e8fb4-d
+packagefile intrerupere=/home/user/worldos/나라/MDA/소스/build/b008/_pkg_.a
+packagefile port=/home/user/.cache/go-build/7a/7acaa26860adb5426d34188efaa154bae262afe7b1b113adf86cb2561782d57e-d
+packagefile sistemcall=/home/user/worldos/나라/MDA/소스/build/b025/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MDA/소스/build/b000/_pkg_.a

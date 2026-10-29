@@ -1,0 +1,7 @@
+# import config
+packagefile memorymanager=/home/user/worldos/나라/VIR/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/VIR/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/VIR/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/a7/a7fcb026c9ab939a36b837b5fbc2b5d079867b0278e5e1c50208412f351722b3-d
+packagefile util/list=/home/user/worldos/나라/VIR/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VIR/소스/build/b000/_pkg_.a

@@ -1,0 +1,4 @@
+# import config
+packagefile ذاكرةمدير=/home/user/worldos/나라/KWT/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/b8/b81d2520726c75193ace012e2c8eb847101983a88e50f83f65fd701bafe5d85e-d
+packagefile runtime/cgo=/home/user/worldos/나라/KWT/소스/build/b000/_pkg_.a

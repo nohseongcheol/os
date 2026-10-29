@@ -1,0 +1,8 @@
+# import config
+packagefile console=/home/user/.cache/go-build/fe/feab6f32bc9dbe20231a91b08febdab65a406790b5a5c89ed891b6d2bd128eca-d
+packagefile gdt=/home/user/.cache/go-build/54/5464958658ddd2b327fcc3191c9cb3f0839a86c9f46905db40ff4a162fe8a602-d
+packagefile multitasking=/home/user/worldos/나라/MKD/소스/build/b022/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile виртуелноМеморија=/home/user/worldos/나라/MKD/소스/build/b030/_pkg_.a
+packagefile меморијаmanager=/home/user/worldos/나라/MKD/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MKD/소스/build/b000/_pkg_.a

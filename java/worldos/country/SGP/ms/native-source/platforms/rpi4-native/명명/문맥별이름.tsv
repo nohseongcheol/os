@@ -1,0 +1,8 @@
+Fail	이전이름	최종이름	쓰임
+시언어번역기/Jalan.c	h	fail_boleh_laku_Pengepala	ELF Pengepala_VALUE
+mesin/ruang_pengguna.c	h	fail_boleh_laku_Pengepala	ELF sahkan·적재 Pengepala_VALUE
+mesin/ruang_pengguna.h	x	daftar_data	ARM64 x0..x30 stor_VALUE ARRAY_VALUE
+mesin/Papan.c	h	열여섯진숫자	진수 tukar_VALUE 문자표
+ruang_pengguna/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+alat/*.py	root	akar_laluan	Fail 계층의 projek_akar LALUAN
+mesin/Terminal.c	w	tetingkap_pemasukan	Terminal Tetingkap status_VALUE penuding

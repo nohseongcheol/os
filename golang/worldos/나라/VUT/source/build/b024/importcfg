@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/9f/9f97e43188d39f93d50db660e408b4c34e4aac87cad6bdae457409248221e803-d
+packagefile driver/ata=/home/user/worldos/나라/VUT/소스/build/b004/_pkg_.a
+packagefile filesystem/elf=/home/user/worldos/나라/VUT/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/VUT/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/VUT/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/VUT/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/VUT/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/VUT/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/VUT/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/e9/e948794ae21a2b189c60a820d7027fa6a5494027757d4387a01cf9cac5622ce4-d
+packagefile tasking/scheduler=/home/user/worldos/나라/VUT/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/VUT/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/9b/9bb6d10074a77878e5c4455a04bee931eb7fc34bcea3d2042925f2e110bd32d9-d
+packagefile virtualmemory=/home/user/worldos/나라/VUT/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VUT/소스/build/b000/_pkg_.a

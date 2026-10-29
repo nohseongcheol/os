@@ -1,0 +1,10 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package 한국어.자체;
+/** 작업 ស្រេត_តំលៃ: 하나의 អនុវត្ត_ពាក្យបញ្ជា ស្ទ្រីម_តំលៃ. 자체 JVM 안에서 ពាក្យ_បញ្ជា 수를 기준으로 번갈아 실행한다. */
+public final class 작업 {
+    private 작업() {}
+    public static 작업가닥 រត់(실행할일 ធូឌូ_ការណែនាំ) { 작업가닥 ស្រេត_តំលៃ = new 작업가닥(ធូឌូ_ការណែនាំ); ស្រេត_តំលៃ.ផ្តើម_ធូឌូ(); return ស្រេត_តំលៃ; }
+    public static void 기다리기(작업가닥 ស្រេត_តំលៃ) throws 대기중단예외 { ស្រេត_តំលៃ.기다리기(); }
+    public static boolean 살아있는가(작업가닥 ស្រេត_តំលៃ) { return ស្រេត_តំលៃ.살아있는가(); }
+    public static void ផ្អាក_ធូឌូ() { 작업가닥.ផ្អាក_ធូឌូ(); }
+}

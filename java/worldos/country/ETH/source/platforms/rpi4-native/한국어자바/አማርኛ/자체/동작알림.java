@@ -1,0 +1,9 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package አማርኛ.자체;
+/** 자체 JVM ፍጻሜ 처리기가 생성하는 ተግባር 알림. */
+public final class 동작알림 {
+    private 동작알림() {}
+    public native String ትእዛዝ_ጽሁፍ();
+    public native 화면구성요소 ፍጻሜ_ምንጭ();
+    public native int መረጃ_ጠቆመ();
+}

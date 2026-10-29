@@ -1,0 +1,8 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package баталгаажуулах;
+public class 꾸러미시험 {
+    public static void main(String[] a) {
+        Монгол.자체.출력.бичих_мөр("한글 꾸러미와 класс_утга Нэр");
+        Монгол.자체.출력.수쓰기(Монгол.자체.문자.코드포인트수("누리😀"));
+    }
+}

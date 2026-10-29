@@ -1,0 +1,21 @@
+#ifndef JKOROS_SOCKET_H
+#define JKOROS_SOCKET_H
+#include <sys/types.h>
+typedef unsigned int socklen_t;
+typedef unsigned short sa_family_t;
+struct sockaddr { sa_family_t sa_family; char sa_data[14]; };
+#define AF_INET 2
+#define SOCK_STREAM 1
+#define SOCK_DGRAM 2
+#define MSG_DONTWAIT 64
+#define SOL_SOCKET 1
+#define SO_RCVTIMEO 20
+int socket(int 주소체계, int 통신종류, int 규약번호);
+int bind(int 파일서술자, const struct sockaddr *አድራሻ, socklen_t አድራሻ_ርዝመት);
+ssize_t sendto(int 파일서술자, const void *ውሂብ, size_t 바이트수, int ማሰናጃዎች,
+               const struct sockaddr *አድራሻ, socklen_t አድራሻ_ርዝመት);
+ssize_t recvfrom(int 파일서술자, void *ውሂብ, size_t 바이트수, int ማሰናጃዎች,
+                 struct sockaddr *አድራሻ, socklen_t *አድራሻ_ርዝመት);
+int getsockname(int 파일서술자, struct sockaddr *አድራሻ, socklen_t *አድራሻ_ርዝመት);
+int setsockopt(int 파일서술자, int ንብርብር_እሴት, int ቅንብሮች_ስም, const void *እሴት, socklen_t እሴት_ርዝመት);
+#endif

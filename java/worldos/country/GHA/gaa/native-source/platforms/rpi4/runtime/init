@@ -1,0 +1,74 @@
+#!/bin/busybox sh
+# Initramfs: immutable system + a separate, portable /home/user tree.
+export PATH=/bin:/sbin
+/bin/busybox --install -s /bin
+mkdir -p /proc /sys /dev /run /system /data /newroot
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+mount -t devtmpfs devtmpfs /dev
+mount -t tmpfs tmpfs /run
+fail() {
+    echo "JKOROS BOOT ERROR: $*"
+    echo 'No device will be formatted. Attach the JKDATA disk or check kernel parameters.'
+    exec setsid sh -i </dev/console >/dev/console 2>&1
+}
+system_device=/dev/mmcblk0p2
+data_device=LABEL=JKDATA
+maintenance=
+for parameter in $(cat /proc/cmdline); do
+    case "$parameter" in
+        jkoros.system=*) system_device=${parameter#*=} ;;
+        jkoros.data=*) data_device=${parameter#*=} ;;
+        jkoros.test=migrate) maintenance=migrate ;;
+    esac
+done
+for module in loop squashfs overlay ext4 virtio_pci virtio_mmio virtio_blk \
+    sdhci sdhci_pltfm sdhci_iproc mmc_block bcm2835 pcie_brcmstb xhci_pci \
+    xhci_plat_hcd usb_storage uas; do
+    modprobe "$module" 2>/dev/null || true
+done
+attempt=0
+until mount -t squashfs -o ro "$system_device" /system; do
+    attempt=$((attempt + 1))
+    [ "$attempt" -lt 30 ] || fail "Cannot mount system: $system_device"
+    sleep 1
+done
+attempt=0
+data_mode=rw
+[ "$maintenance" = migrate ] && data_mode=ro
+until mount -t ext4 -o "$data_mode" "$data_device" /data; do
+    attempt=$((attempt + 1))
+    [ "$attempt" -lt 30 ] || fail "Cannot mount user data: $data_device"
+    sleep 1
+done
+if [ "$maintenance" = migrate ]; then
+    # Copy the source home while its system overlay is inactive and read-only.
+    mkdir -p /run/maintenance/upper /run/maintenance/work
+    mount -t overlay overlay -o lowerdir=/system,upperdir=/run/maintenance/upper,workdir=/run/maintenance/work /newroot || fail 'Maintenance overlay'
+else
+mkdir -p /data/user
+state=/data/user/.jkoros/system
+mkdir -p "$state"
+base_id=$(cat /system/etc/jkoros-base-id)
+if [ -f "$state/base-id" ]; then
+    [ "$(cat "$state/base-id")" = "$base_id" ] || fail 'User environment belongs to a different system image. Boot the matching image.'
+else
+    printf '%s\n' "$base_id" > "$state/base-id"
+fi
+mkdir -p "$state/upper" "$state/work"
+mount -t overlay overlay -o "lowerdir=/system,upperdir=$state/upper,workdir=$state/work,index=off,redirect_dir=off,metacopy=off" /newroot || fail 'Cannot mount persistent system overlay'
+fi
+# Both backing filesystems remain reachable for orderly shutdown.
+mkdir -p /newroot/run /newroot/home/user
+mount --move /run /newroot/run
+mkdir -p /newroot/run/jkoros/system /newroot/run/jkoros/data
+mount --move /system /newroot/run/jkoros/system
+mount --move /data /newroot/run/jkoros/data
+mount --bind /newroot/run/jkoros/data/user /newroot/home/user || fail 'Cannot attach user home'
+for directory in dev proc sys; do
+    mount --move "/$directory" "/newroot/$directory" || fail "Cannot move $directory"
+done
+if [ "$maintenance" = migrate ]; then
+    exec switch_root /newroot /bin/sh /opt/jkoros/tests/migrate.sh
+fi
+exec switch_root /newroot /sbin/init

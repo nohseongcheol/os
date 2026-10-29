@@ -1,0 +1,63 @@
+{
+  "policy": "Whole-role functional proposals. Do not attribute a single philosophy to an entire country. Unreviewed etymologies are not asserted.",
+  "sources": [
+    "WorldOS naming/terms.json (CLDR language selection and prior proposals)",
+    "golang/worldos/tools/naming_lexicon.py (whole-role paths)",
+    "WorldOS native/terms.py (current implementation roles)"
+  ],
+  "review": "Native-speaker review pending; proposals are not official standard terminology.",
+  "lexical_evidence": [],
+  "thread_example": {
+    "name": "작업가닥",
+    "meaning": "An independently scheduled execution sequence; current kernel schedules cooperatively.",
+    "historical_root": "No language-specific historical claim.",
+    "reference": null
+  },
+  "country_language_policy": {
+    "country_code": "BGD",
+    "country_name": "Bangladesh",
+    "language": "my",
+    "selection": "explicit-language-edition",
+    "country_source": "naming/countries.json (ISO 3166-1)",
+    "language_source": "Unicode CLDR 48; native/inputs/representatives.tsv; editions.json",
+    "namespace": {
+      "label": "ဘင်္ဂလားဒေ့ရှ်",
+      "identifier": "ဘင်္ဂလားဒေ့ရှ်",
+      "source_locale": "my",
+      "identifier_policy": "cldr-name-as-code-identifier",
+      "status": "cldr-territory-name",
+      "os_name": "JBgdOS"
+    },
+    "native_review": "pending",
+    "etymology_review": "partial; see term evidence"
+  },
+  "naming_scope": "First-party identifiers and paths; language keywords, external APIs, dependency archives, legal clauses, copyright and literal character values retain their specified identities.",
+  "unverified_terms": "native-pending.tsv; terms absent from language dictionaries are not certified translations.",
+  "functional_review": {
+    "revision": "e8906eb02790a30b14e05d059c0c6e9949d2120ecf54b3dd2b9e511fa311c8bb",
+    "references": [],
+    "verified_lexeme_history": [],
+    "compound_status": "Modern function-based project proposals; native-speaker review pending."
+  },
+  "terminology_proposals": {
+    "references": [
+      "https://learn.microsoft.com/en-us/globalization/reference/microsoft-terminology"
+    ],
+    "archive_sha256": null,
+    "archive_member": null,
+    "scope": "Explicit whole-role proposals; uncovered roles remain pending.",
+    "status": "function-based-project-proposals",
+    "native_review": "pending",
+    "etymology_review": "Modern functional proposals. No historical attestation is claimed for compounds.",
+    "manual_glossary_sha256": "6299769019fcae558eaf4d1947ce7e3e6c536f94d9bae767b1f5fab6bb3c565c",
+    "whole_role_corrections_sha256": "10d51a4d52b2bc5b28e12061ef66293d7a60338779f83e5fd1ae13d77ed5a737",
+    "naming_principles": "Burmese object-before-verb action names and function-based noun groups. Addresses are locations, not email; sending is a transport operation. Standard proper names and character fixtures retain their identities.",
+    "verified_lexeme_history": [],
+    "whole_roles": 0,
+    "pending_roles": 880
+  },
+  "java_prose": {
+    "revision": "1812699f83db1b359c217ad68e3ce7b439619cf1c8a678f9af0c3cc438b7afee",
+    "scope": "Explicit whole-sentence Java translations; other prose remains pending."
+  }
+}

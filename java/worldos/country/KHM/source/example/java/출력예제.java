@@ -1,0 +1,7 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+public class 출력예제 {
+    public static void រត់() {
+        한국어.자체.លទ្ធផល.សរសេរ_បណ្ដាញ("JAVA លទ្ធផល: សួស្តី 😀");
+        한국어.자체.លទ្ធផល.수쓰기(6 * 7);
+    }
+}

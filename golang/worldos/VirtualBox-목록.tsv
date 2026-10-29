@@ -1,0 +1,296 @@
+edition	directory	vm_name	entry_check
+ABW	나라/ABW	worldos ABW	PASS
+AFG	나라/AFG	worldos AFG	PASS
+AGO	나라/AGO	worldos AGO	PASS
+AIA	나라/AIA	worldos AIA	PASS
+ALA	나라/ALA	worldos ALA	PASS
+ALB	나라/ALB	worldos ALB	PASS
+AND	나라/AND	worldos AND	PASS
+ARE	나라/ARE	worldos ARE	PASS
+ARG	나라/ARG	worldos ARG	PASS
+ARM	나라/ARM	worldos ARM	PASS
+ASM	나라/ASM	worldos ASM	PASS
+ATA	나라/ATA	worldos ATA	PASS
+ATF	나라/ATF	worldos ATF	PASS
+ATG	나라/ATG	worldos ATG	PASS
+AUS	나라/AUS	worldos AUS	PASS
+AUT	나라/AUT	worldos AUT	PASS
+AZE	나라/AZE	worldos AZE	PASS
+BDI	나라/BDI	worldos BDI	PASS
+BEL	나라/BEL	worldos BEL	PASS
+BEN	나라/BEN	worldos BEN	PASS
+BES	나라/BES	worldos BES	PASS
+BFA	나라/BFA	worldos BFA	PASS
+BGD	나라/BGD	worldos BGD	PASS
+BGR	나라/BGR	worldos BGR	PASS
+BHR	나라/BHR	worldos BHR	PASS
+BHS	나라/BHS	worldos BHS	PASS
+BIH	나라/BIH	worldos BIH	PASS
+BLM	나라/BLM	worldos BLM	PASS
+BLR	나라/BLR	worldos BLR	PASS
+BLZ	나라/BLZ	worldos BLZ	PASS
+BMU	나라/BMU	worldos BMU	PASS
+BOL	나라/BOL	worldos BOL	PASS
+BRA	나라/BRA	worldos BRA	PASS
+BRB	나라/BRB	worldos BRB	PASS
+BRN	나라/BRN	worldos BRN	PASS
+BTN	나라/BTN	worldos BTN	PASS
+BVT	나라/BVT	worldos BVT	PASS
+BWA	나라/BWA	worldos BWA	PASS
+CAF	나라/CAF	worldos CAF	PASS
+CAN	나라/CAN	worldos CAN	PASS
+CCK	나라/CCK	worldos CCK	PASS
+CHE	나라/CHE	worldos CHE	PASS
+CHL	나라/CHL	worldos CHL	PASS
+CHN	나라/CHN	worldos CHN	PASS
+CIV	나라/CIV	worldos CIV	PASS
+CMR	나라/CMR	worldos CMR	PASS
+COD	나라/COD	worldos COD	PASS
+COG	나라/COG	worldos COG	PASS
+COK	나라/COK	worldos COK	PASS
+COL	나라/COL	worldos COL	PASS
+COM	나라/COM	worldos COM	PASS
+CPV	나라/CPV	worldos CPV	PASS
+CRI	나라/CRI	worldos CRI	PASS
+CUB	나라/CUB	worldos CUB	PASS
+CUW	나라/CUW	worldos CUW	PASS
+CXR	나라/CXR	worldos CXR	PASS
+CYM	나라/CYM	worldos CYM	PASS
+CYP	나라/CYP	worldos CYP	PASS
+CZE	나라/CZE	worldos CZE	PASS
+DEU	나라/DEU	worldos DEU	PASS
+DJI	나라/DJI	worldos DJI	PASS
+DMA	나라/DMA	worldos DMA	PASS
+DNK	나라/DNK	worldos DNK	PASS
+DOM	나라/DOM	worldos DOM	PASS
+DZA	나라/DZA	worldos DZA	PASS
+ECU	나라/ECU	worldos ECU	PASS
+EGY	나라/EGY	worldos EGY	PASS
+ERI	나라/ERI	worldos ERI	PASS
+ESH	나라/ESH	worldos ESH	PASS
+ESP	나라/ESP	worldos ESP	PASS
+EST	나라/EST	worldos EST	PASS
+ETH	나라/ETH	worldos ETH	PASS
+FIN	나라/FIN	worldos FIN	PASS
+FJI	나라/FJI	worldos FJI	PASS
+FLK	나라/FLK	worldos FLK	PASS
+FRA	나라/FRA	worldos FRA	PASS
+FRO	나라/FRO	worldos FRO	PASS
+FSM	나라/FSM	worldos FSM	PASS
+GAB	나라/GAB	worldos GAB	PASS
+GBR	나라/GBR	worldos GBR	PASS
+GEO	나라/GEO	worldos GEO	PASS
+GGY	나라/GGY	worldos GGY	PASS
+GHA	나라/GHA	worldos GHA	PASS
+GIB	나라/GIB	worldos GIB	PASS
+GIN	나라/GIN	worldos GIN	PASS
+GLP	나라/GLP	worldos GLP	PASS
+GMB	나라/GMB	worldos GMB	PASS
+GNB	나라/GNB	worldos GNB	PASS
+GNQ	나라/GNQ	worldos GNQ	PASS
+GRC	나라/GRC	worldos GRC	PASS
+GRD	나라/GRD	worldos GRD	PASS
+GRL	나라/GRL	worldos GRL	PASS
+GTM	나라/GTM	worldos GTM	PASS
+GUF	나라/GUF	worldos GUF	PASS
+GUM	나라/GUM	worldos GUM	PASS
+GUY	나라/GUY	worldos GUY	PASS
+HKG	나라/HKG	worldos HKG	PASS
+HMD	나라/HMD	worldos HMD	PASS
+HND	나라/HND	worldos HND	PASS
+HRV	나라/HRV	worldos HRV	PASS
+HTI	나라/HTI	worldos HTI	PASS
+HUN	나라/HUN	worldos HUN	PASS
+IDN	나라/IDN	worldos IDN	PASS
+IMN	나라/IMN	worldos IMN	PASS
+IND	나라/IND	worldos IND	PASS
+IOT	나라/IOT	worldos IOT	PASS
+IRL	나라/IRL	worldos IRL	PASS
+IRN	나라/IRN	worldos IRN	PASS
+IRQ	나라/IRQ	worldos IRQ	PASS
+ISL	나라/ISL	worldos ISL	PASS
+ISR	나라/ISR	worldos ISR	PASS
+ITA	나라/ITA	worldos ITA	PASS
+JAM	나라/JAM	worldos JAM	PASS
+JEY	나라/JEY	worldos JEY	PASS
+JOR	나라/JOR	worldos JOR	PASS
+JPN	나라/JPN	worldos JPN	PASS
+KAZ	나라/KAZ	worldos KAZ	PASS
+KEN	나라/KEN	worldos KEN	PASS
+KGZ	나라/KGZ	worldos KGZ	PASS
+KHM	나라/KHM	worldos KHM	PASS
+KIR	나라/KIR	worldos KIR	PASS
+KNA	나라/KNA	worldos KNA	PASS
+KOR	나라/KOR	worldos KOR	PASS
+KWT	나라/KWT	worldos KWT	PASS
+LAO	나라/LAO	worldos LAO	PASS
+LBN	나라/LBN	worldos LBN	PASS
+LBR	나라/LBR	worldos LBR	PASS
+LBY	나라/LBY	worldos LBY	PASS
+LCA	나라/LCA	worldos LCA	PASS
+LIE	나라/LIE	worldos LIE	PASS
+LKA	나라/LKA	worldos LKA	PASS
+LSO	나라/LSO	worldos LSO	PASS
+LTU	나라/LTU	worldos LTU	PASS
+LUX	나라/LUX	worldos LUX	PASS
+LVA	나라/LVA	worldos LVA	PASS
+MAC	나라/MAC	worldos MAC	PASS
+MAF	나라/MAF	worldos MAF	PASS
+MAR	나라/MAR	worldos MAR	PASS
+MCO	나라/MCO	worldos MCO	PASS
+MDA	나라/MDA	worldos MDA	PASS
+MDG	나라/MDG	worldos MDG	PASS
+MDV	나라/MDV	worldos MDV	PASS
+MEX	나라/MEX	worldos MEX	PASS
+MHL	나라/MHL	worldos MHL	PASS
+MKD	나라/MKD	worldos MKD	PASS
+MLI	나라/MLI	worldos MLI	PASS
+MLT	나라/MLT	worldos MLT	PASS
+MMR	나라/MMR	worldos MMR	PASS
+MNE	나라/MNE	worldos MNE	PASS
+MNG	나라/MNG	worldos MNG	PASS
+MNP	나라/MNP	worldos MNP	PASS
+MOZ	나라/MOZ	worldos MOZ	PASS
+MRT	나라/MRT	worldos MRT	PASS
+MSR	나라/MSR	worldos MSR	PASS
+MTQ	나라/MTQ	worldos MTQ	PASS
+MUS	나라/MUS	worldos MUS	PASS
+MWI	나라/MWI	worldos MWI	PASS
+MYS	나라/MYS	worldos MYS	PASS
+MYT	나라/MYT	worldos MYT	PASS
+NAM	나라/NAM	worldos NAM	PASS
+NCL	나라/NCL	worldos NCL	PASS
+NER	나라/NER	worldos NER	PASS
+NFK	나라/NFK	worldos NFK	PASS
+NGA	나라/NGA	worldos NGA	PASS
+NIC	나라/NIC	worldos NIC	PASS
+NIU	나라/NIU	worldos NIU	PASS
+NLD	나라/NLD	worldos NLD	PASS
+NOR	나라/NOR	worldos NOR	PASS
+NPL	나라/NPL	worldos NPL	PASS
+NRU	나라/NRU	worldos NRU	PASS
+NZL	나라/NZL	worldos NZL	PASS
+OMN	나라/OMN	worldos OMN	PASS
+PAK	나라/PAK	worldos PAK	PASS
+PAN	나라/PAN	worldos PAN	PASS
+PCN	나라/PCN	worldos PCN	PASS
+PER	나라/PER	worldos PER	PASS
+PHL	나라/PHL	worldos PHL	PASS
+PLW	나라/PLW	worldos PLW	PASS
+PNG	나라/PNG	worldos PNG	PASS
+POL	나라/POL	worldos POL	PASS
+PRI	나라/PRI	worldos PRI	PASS
+PRK	나라/PRK	worldos PRK	PASS
+PRT	나라/PRT	worldos PRT	PASS
+PRY	나라/PRY	worldos PRY	PASS
+PSE	나라/PSE	worldos PSE	PASS
+PYF	나라/PYF	worldos PYF	PASS
+QAT	나라/QAT	worldos QAT	PASS
+REU	나라/REU	worldos REU	PASS
+ROU	나라/ROU	worldos ROU	PASS
+RUS	나라/RUS	worldos RUS	PASS
+RWA	나라/RWA	worldos RWA	PASS
+SAU	나라/SAU	worldos SAU	PASS
+SDN	나라/SDN	worldos SDN	PASS
+SEN	나라/SEN	worldos SEN	PASS
+SGP	나라/SGP	worldos SGP	PASS
+SGS	나라/SGS	worldos SGS	PASS
+SHN	나라/SHN	worldos SHN	PASS
+SJM	나라/SJM	worldos SJM	PASS
+SLB	나라/SLB	worldos SLB	PASS
+SLE	나라/SLE	worldos SLE	PASS
+SLV	나라/SLV	worldos SLV	PASS
+SMR	나라/SMR	worldos SMR	PASS
+SOM	나라/SOM	worldos SOM	PASS
+SPM	나라/SPM	worldos SPM	PASS
+SRB	나라/SRB	worldos SRB	PASS
+SSD	나라/SSD	worldos SSD	PASS
+STP	나라/STP	worldos STP	PASS
+SUR	나라/SUR	worldos SUR	PASS
+SVK	나라/SVK	worldos SVK	PASS
+SVN	나라/SVN	worldos SVN	PASS
+SWE	나라/SWE	worldos SWE	PASS
+SWZ	나라/SWZ	worldos SWZ	PASS
+SXM	나라/SXM	worldos SXM	PASS
+SYC	나라/SYC	worldos SYC	PASS
+SYR	나라/SYR	worldos SYR	PASS
+TCA	나라/TCA	worldos TCA	PASS
+TCD	나라/TCD	worldos TCD	PASS
+TGO	나라/TGO	worldos TGO	PASS
+THA	나라/THA	worldos THA	PASS
+TJK	나라/TJK	worldos TJK	PASS
+TKL	나라/TKL	worldos TKL	PASS
+TKM	나라/TKM	worldos TKM	PASS
+TLS	나라/TLS	worldos TLS	PASS
+TON	나라/TON	worldos TON	PASS
+TTO	나라/TTO	worldos TTO	PASS
+TUN	나라/TUN	worldos TUN	PASS
+TUR	나라/TUR	worldos TUR	PASS
+TUV	나라/TUV	worldos TUV	PASS
+TWN	나라/TWN	worldos TWN	PASS
+TZA	나라/TZA	worldos TZA	PASS
+UGA	나라/UGA	worldos UGA	PASS
+UKR	나라/UKR	worldos UKR	PASS
+UMI	나라/UMI	worldos UMI	PASS
+URY	나라/URY	worldos URY	PASS
+USA	나라/USA	worldos USA	PASS
+UZB	나라/UZB	worldos UZB	PASS
+VAT	나라/VAT	worldos VAT	PASS
+VCT	나라/VCT	worldos VCT	PASS
+VEN	나라/VEN	worldos VEN	PASS
+VGB	나라/VGB	worldos VGB	PASS
+VIR	나라/VIR	worldos VIR	PASS
+VNM	나라/VNM	worldos VNM	PASS
+VUT	나라/VUT	worldos VUT	PASS
+WLF	나라/WLF	worldos WLF	PASS
+WSM	나라/WSM	worldos WSM	PASS
+YEM	나라/YEM	worldos YEM	PASS
+ZAF	나라/ZAF	worldos ZAF	PASS
+ZMB	나라/ZMB	worldos ZMB	PASS
+ZWE	나라/ZWE	worldos ZWE	PASS
+IND/as_Beng	문자판/IND/as_Beng	worldos IND as_Beng	PASS
+IND/bn_Beng	문자판/IND/bn_Beng	worldos IND bn_Beng	PASS
+IND/brx_Deva	문자판/IND/brx_Deva	worldos IND brx_Deva	PASS
+IND/doi_Deva	문자판/IND/doi_Deva	worldos IND doi_Deva	PASS
+IND/gu_Gujr	문자판/IND/gu_Gujr	worldos IND gu_Gujr	PASS
+IND/hi_Deva	문자판/IND/hi_Deva	worldos IND hi_Deva	PASS
+IND/kn_Knda	문자판/IND/kn_Knda	worldos IND kn_Knda	PASS
+IND/ks_Arab	문자판/IND/ks_Arab	worldos IND ks_Arab	PASS
+IND/kok_Deva	문자판/IND/kok_Deva	worldos IND kok_Deva	PASS
+IND/mai_Deva	문자판/IND/mai_Deva	worldos IND mai_Deva	PASS
+IND/ml_Mlym	문자판/IND/ml_Mlym	worldos IND ml_Mlym	PASS
+IND/mni_Mtei	문자판/IND/mni_Mtei	worldos IND mni_Mtei	PASS
+IND/mr_Deva	문자판/IND/mr_Deva	worldos IND mr_Deva	PASS
+IND/ne_Deva	문자판/IND/ne_Deva	worldos IND ne_Deva	PASS
+IND/or_Orya	문자판/IND/or_Orya	worldos IND or_Orya	PASS
+IND/pa_Guru	문자판/IND/pa_Guru	worldos IND pa_Guru	PASS
+IND/sa_Deva	문자판/IND/sa_Deva	worldos IND sa_Deva	PASS
+IND/sat_Olck	문자판/IND/sat_Olck	worldos IND sat_Olck	PASS
+IND/sd_Arab	문자판/IND/sd_Arab	worldos IND sd_Arab	PASS
+IND/ta_Taml	문자판/IND/ta_Taml	worldos IND ta_Taml	PASS
+IND/te_Telu	문자판/IND/te_Telu	worldos IND te_Telu	PASS
+IND/ur_Arab	문자판/IND/ur_Arab	worldos IND ur_Arab	PASS
+IND/kok_Latn	문자판/IND/kok_Latn	worldos IND kok_Latn	PASS
+IND/ks_Deva	문자판/IND/ks_Deva	worldos IND ks_Deva	PASS
+IND/mni_Beng	문자판/IND/mni_Beng	worldos IND mni_Beng	PASS
+IND/pa_Arab	문자판/IND/pa_Arab	worldos IND pa_Arab	PASS
+IND/sat_Beng	문자판/IND/sat_Beng	worldos IND sat_Beng	PASS
+IND/sat_Deva	문자판/IND/sat_Deva	worldos IND sat_Deva	PASS
+IND/sd_Deva	문자판/IND/sd_Deva	worldos IND sd_Deva	PASS
+JPN/ja_Jpan	문자판/JPN/ja_Jpan	worldos JPN ja_Jpan	PASS
+JPN/ja_Hira	문자판/JPN/ja_Hira	worldos JPN ja_Hira	PASS
+JPN/ja_Kana	문자판/JPN/ja_Kana	worldos JPN ja_Kana	PASS
+CHN/zh_Hans	문자판/CHN/zh_Hans	worldos CHN zh_Hans	PASS
+CHN/zh_Hant	문자판/CHN/zh_Hant	worldos CHN zh_Hant	PASS
+HKG/zh_Hans	문자판/HKG/zh_Hans	worldos HKG zh_Hans	PASS
+HKG/zh_Hant	문자판/HKG/zh_Hant	worldos HKG zh_Hant	PASS
+MAC/zh_Hans	문자판/MAC/zh_Hans	worldos MAC zh_Hans	PASS
+MAC/zh_Hant	문자판/MAC/zh_Hant	worldos MAC zh_Hant	PASS
+TWN/zh_Hans	문자판/TWN/zh_Hans	worldos TWN zh_Hans	PASS
+TWN/zh_Hant	문자판/TWN/zh_Hant	worldos TWN zh_Hant	PASS
+SRB/sr_Cyrl	문자판/SRB/sr_Cyrl	worldos SRB sr_Cyrl	PASS
+SRB/sr_Latn	문자판/SRB/sr_Latn	worldos SRB sr_Latn	PASS
+MNE/sr_Cyrl	문자판/MNE/sr_Cyrl	worldos MNE sr_Cyrl	PASS
+MNE/sr_Latn	문자판/MNE/sr_Latn	worldos MNE sr_Latn	PASS
+BIH/bs_Cyrl	문자판/BIH/bs_Cyrl	worldos BIH bs_Cyrl	PASS
+BIH/bs_Latn	문자판/BIH/bs_Latn	worldos BIH bs_Latn	PASS

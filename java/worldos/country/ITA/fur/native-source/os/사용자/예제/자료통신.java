@@ -1,0 +1,51 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+public final class 자료통신 {
+    static int 숫자(String Test) {
+        if (Test == null || Test.length() == 0) return -1;
+        int 결과 = 0;
+        for (int 번호 = 0; 번호 < Test.length(); 번호++) {
+            int 값 = Test.charAt(번호) - '0';
+            if (값 < 0 || 값 > 9 || 결과 > 6553) return -1;
+            결과 = 결과 * 10 + 값;
+            if (결과 > 65535) return -1;
+        }
+        return 결과;
+    }
+    static int 주소(String Test) {
+        if (Test == null) return 0;
+        int 값 = 0, 결과 = 0, 부분 = 0, 자릿수 = 0;
+        for (int 번호 = 0; 번호 <= Test.length(); 번호++) {
+            int 문자 = 번호 == Test.length() ? '.' : Test.charAt(번호);
+            if (문자 == '.') {
+                if (자릿수 == 0 || 부분 == 4) return 0;
+                결과 = (결과 << 8) | 값; 부분++; 값 = 0; 자릿수 = 0;
+            } else {
+                if (문자 < '0' || 문자 > '9') return 0;
+                값 = 값 * 10 + 문자 - '0';
+                if (++자릿수 > 3 || 값 > 255) return 0;
+            }
+        }
+        return 부분 == 4 ? 결과 : 0;
+    }
+    public static int Eseguis() {
+        if (사용자.인수개수() != 3) { 사용자.Scrivi("Usage: run udp IP PORT TEXT\n"); return 2; }
+        int 주소 = 주소(사용자.인수(0)), 창구 = 숫자(사용자.인수(1));
+        String 내용 = 사용자.인수(2);
+        if (주소 == 0 || 창구 < 1 || 내용.length() > 1024) { 사용자.Scrivi("Bad destination\n"); return 2; }
+        int 손잡이 = 사용자.통신열기(0);
+        if (손잡이 < 0) { 사용자.Scrivi("UDP OPEN FAILED (network unavailable)\n"); return 3; }
+        int[] 자료 = new int[1024];
+        for (int 번호 = 0; 번호 < 내용.length(); 번호++) 자료[번호] = 내용.charAt(번호);
+        if (사용자.자료보내기(손잡이, 주소, 창구, 자료, 내용.length()) < 0) {
+            사용자.Scrivi("UDP SEND FAILED\n"); 사용자.통신닫기(손잡이); return 4;
+        }
+        사용자.Scrivi("UDP SENT\n");
+        int 받은길이 = 사용자.자료받기(손잡이, 자료, 1500);
+        boolean 같음 = 받은길이 == 내용.length() && 사용자.보낸주소(손잡이) == 주소 && 사용자.보낸창구(손잡이) == 창구;
+        if (같음) for (int 번호 = 0; 번호 < 받은길이; 번호++) if (자료[번호] != 내용.charAt(번호)) 같음 = false;
+        사용자.통신닫기(손잡이);
+        if (받은길이 < 0) { 사용자.Scrivi("UDP RECEIVE TIMEOUT/ERROR\n"); return 5; }
+        사용자.Scrivi(같음 ? "UDP ECHO PASS\n" : "UDP REPLY MISMATCH\n");
+        return 같음 ? 0 : 6;
+    }
+}

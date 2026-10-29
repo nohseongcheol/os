@@ -1,0 +1,3642 @@
+[
+  {
+    "P": "adwaita-icon-theme",
+    "V": "50.0-r1",
+    "C": "Q12arwr9uguAjYRy8AdbVO96Jb/os=",
+    "L": "LGPL-3.0-or-later OR CC-BY-SA-3.0",
+    "U": "https://gitlab.gnome.org/GNOME/adwaita-icon-theme",
+    "o": "adwaita-icon-theme"
+  },
+  {
+    "P": "alpine-baselayout",
+    "V": "3.7.2-r1",
+    "C": "Q18Pz9wvTaBYr2RzvEXE6rYpFiJbI=",
+    "L": "GPL-2.0-only",
+    "U": "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/alpine-baselayout",
+    "o": "alpine-baselayout"
+  },
+  {
+    "P": "alpine-baselayout-data",
+    "V": "3.7.2-r1",
+    "C": "Q1xvm97RfYRLbxsLtXZtLDXA1chQg=",
+    "L": "GPL-2.0-only",
+    "U": "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/main/alpine-baselayout",
+    "o": "alpine-baselayout"
+  },
+  {
+    "P": "alpine-keys",
+    "V": "2.6-r0",
+    "C": "Q12Na4DlPAWad+SRXaeLqWTz/+okA=",
+    "L": "MIT",
+    "U": "https://alpinelinux.org",
+    "o": "alpine-keys"
+  },
+  {
+    "P": "alsa-lib",
+    "V": "1.2.15.3-r0",
+    "C": "Q1rwPJIBVSVLxnBPBc41rvUNUZhFc=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://alsa-project.org/",
+    "o": "alsa-lib"
+  },
+  {
+    "P": "anthy",
+    "V": "9100h-r4",
+    "C": "Q14CG1HoUsaucCYgIhKuALyPe+pFU=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://sourceforge.jp/projects/anthy/",
+    "o": "anthy"
+  },
+  {
+    "P": "aom-libs",
+    "V": "3.14.1-r0",
+    "C": "Q1+owZ+EjlRnyn+TuagGVfzNRP3fQ=",
+    "L": "BSD-2-Clause AND custom",
+    "U": "https://aomedia.org/",
+    "o": "aom"
+  },
+  {
+    "P": "apk-tools",
+    "V": "3.0.8-r0",
+    "C": "Q1eGEwqPLTrGn8MWEYdXt+gVG4uMM=",
+    "L": "GPL-2.0-only",
+    "U": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+    "o": "apk-tools"
+  },
+  {
+    "P": "at-spi2-core",
+    "V": "2.60.5-r0",
+    "C": "Q1J7di2EoKFuQu5fLEUvDDTw21hR8=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/",
+    "o": "at-spi2-core"
+  },
+  {
+    "P": "at-spi2-core-libs",
+    "V": "2.60.5-r0",
+    "C": "Q1gMhUKYmeJ7LyeX0UuK/g+oGUyy0=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/",
+    "o": "at-spi2-core"
+  },
+  {
+    "P": "avahi-libs",
+    "V": "0.9_rc4-r0",
+    "C": "Q1MxdZZH9w8iSaM9INDfEBnaDtjn8=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.avahi.org/",
+    "o": "avahi"
+  },
+  {
+    "P": "binutils",
+    "V": "2.45.1-r1",
+    "C": "Q1PoE7y6LhxU+kQVBIyMWyKRmhhjE=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause",
+    "U": "https://www.gnu.org/software/binutils/",
+    "o": "binutils"
+  },
+  {
+    "P": "brotli-libs",
+    "V": "1.2.0-r1",
+    "C": "Q1gviBUWwEXwbyLX3AqDzGTKVU7xA=",
+    "L": "MIT",
+    "U": "https://github.com/google/brotli",
+    "o": "brotli"
+  },
+  {
+    "P": "bubblewrap",
+    "V": "0.12.0-r0",
+    "C": "Q1FMzri/p0D+kt6pUekO1LBSFqrvw=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/containers/bubblewrap",
+    "o": "bubblewrap"
+  },
+  {
+    "P": "busybox",
+    "V": "1.37.0-r31",
+    "C": "Q1tUBevAL33YvpW2JlxUskPVRWq48=",
+    "L": "GPL-2.0-only",
+    "U": "https://busybox.net/",
+    "o": "busybox"
+  },
+  {
+    "P": "busybox-binsh",
+    "V": "1.37.0-r31",
+    "C": "Q1XL0UrMbxgExbrGx33CxJLwELD8c=",
+    "L": "GPL-2.0-only",
+    "U": "https://busybox.net/",
+    "o": "busybox"
+  },
+  {
+    "P": "busybox-extras",
+    "V": "1.37.0-r31",
+    "C": "Q18sGfPOTAHPYobrCh6bXIAzC9jsQ=",
+    "L": "GPL-2.0-only",
+    "U": "https://busybox.net/",
+    "o": "busybox"
+  },
+  {
+    "P": "c-ares",
+    "V": "1.34.8-r0",
+    "C": "Q1ZAoo/2JF9wHUZPulOgWxvGV8N6c=",
+    "L": "MIT",
+    "U": "https://c-ares.org/",
+    "o": "c-ares"
+  },
+  {
+    "P": "ca-certificates",
+    "V": "20260909-r0",
+    "C": "Q1X8p9+exCokkN6LEF+NRJN+g/4uI=",
+    "L": "MPL-2.0 AND MIT",
+    "U": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+    "o": "ca-certificates"
+  },
+  {
+    "P": "ca-certificates-bundle",
+    "V": "20260909-r0",
+    "C": "Q1eRI3zuh3mIiTo1S19snETzXU7bk=",
+    "L": "MPL-2.0 AND MIT",
+    "U": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+    "o": "ca-certificates"
+  },
+  {
+    "P": "cairo",
+    "V": "1.18.4-r1",
+    "C": "Q1mRbEfXW9K+sC2wp7w3my62N2aSo=",
+    "L": "LGPL-2.1-or-later OR MPL-1.1",
+    "U": "https://cairographics.org/",
+    "o": "cairo"
+  },
+  {
+    "P": "cairo-gobject",
+    "V": "1.18.4-r1",
+    "C": "Q14cxB+Zzh6FTaYfIEEdZqUvMtHkI=",
+    "L": "LGPL-2.1-or-later OR MPL-1.1",
+    "U": "https://cairographics.org/",
+    "o": "cairo"
+  },
+  {
+    "P": "cjson",
+    "V": "1.7.19-r1",
+    "C": "Q1vvdu7gxr14pTjSBpUJw4C4ooblo=",
+    "L": "MIT",
+    "U": "https://github.com/DaveGamble/cJSON",
+    "o": "cjson"
+  },
+  {
+    "P": "cryptsetup-libs",
+    "V": "2.8.6-r0",
+    "C": "Q1C4p+QO2QI/vUYg58QzvN24VduYU=",
+    "L": "GPL-2.0-or-later WITH cryptsetup-OpenSSL-exception",
+    "U": "https://gitlab.com/cryptsetup/cryptsetup",
+    "o": "cryptsetup"
+  },
+  {
+    "P": "cups-libs",
+    "V": "2.4.19-r0",
+    "C": "Q1wPPoPRk7srpqi5LsBjhDsClqfdU=",
+    "L": "Apache-2.0",
+    "U": "https://github.com/OpenPrinting/cups/",
+    "o": "cups"
+  },
+  {
+    "P": "dbus",
+    "V": "1.16.2-r2",
+    "C": "Q1AmnmFQPqoTOmdQb7JATkJFRPZ6A=",
+    "L": "AFL-2.1 OR GPL-2.0-or-later",
+    "U": "https://www.freedesktop.org/Software/dbus",
+    "o": "dbus"
+  },
+  {
+    "P": "dbus-daemon-launch-helper",
+    "V": "1.16.2-r2",
+    "C": "Q19Js93zeTycbvg3e8yq3cFDyFvME=",
+    "L": "AFL-2.1 OR GPL-2.0-or-later",
+    "U": "https://www.freedesktop.org/Software/dbus",
+    "o": "dbus"
+  },
+  {
+    "P": "dbus-libs",
+    "V": "1.16.2-r2",
+    "C": "Q1LMt2GrBN+tecFdJaZ8jseUS5xc0=",
+    "L": "AFL-2.1 OR GPL-2.0-or-later",
+    "U": "https://www.freedesktop.org/Software/dbus",
+    "o": "dbus"
+  },
+  {
+    "P": "dconf",
+    "V": "0.49.0-r1",
+    "C": "Q1TzPscc1gHEkJOrD02M2GEUS6lPY=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/dconf",
+    "o": "dconf"
+  },
+  {
+    "P": "device-mapper",
+    "V": "2.03.35-r3",
+    "C": "Q1qSyfWIWDFAHsEf7tchOCl4bUmBo=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://sourceware.org/lvm2/",
+    "o": "device-mapper"
+  },
+  {
+    "P": "device-mapper-libs",
+    "V": "2.03.35-r3",
+    "C": "Q1GxP2dFUjS4Fg/n9PGSdz3DBOGEs=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://sourceware.org/lvm2/",
+    "o": "device-mapper"
+  },
+  {
+    "P": "device-mapper-udev",
+    "V": "2.03.35-r3",
+    "C": "Q1cEZUx2j27QObqHMgNdnF8IfdMqA=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://sourceware.org/lvm2/",
+    "o": "device-mapper"
+  },
+  {
+    "P": "double-conversion",
+    "V": "3.4.0-r0",
+    "C": "Q1IYETxr0KupM/XZm/orhfkzaW8hU=",
+    "L": "BSD-3-Clause",
+    "U": "https://github.com/google/double-conversion",
+    "o": "double-conversion"
+  },
+  {
+    "P": "duktape-libs",
+    "V": "2.7.0-r3",
+    "C": "Q1+tQAeTrfoVif+6ByGq1x4o0GvYk=",
+    "L": "MIT",
+    "U": "https://duktape.org",
+    "o": "duktape"
+  },
+  {
+    "P": "e2fsprogs",
+    "V": "1.47.4-r0",
+    "C": "Q1Z6MrNzc8bi6MpEmTrDMqNBbzxZ8=",
+    "L": "GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT",
+    "U": "https://e2fsprogs.sourceforge.net/",
+    "o": "e2fsprogs"
+  },
+  {
+    "P": "e2fsprogs-libs",
+    "V": "1.47.4-r0",
+    "C": "Q1fhNGSZRsEW+dt3doIy9Oyc+nwnE=",
+    "L": "GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT",
+    "U": "https://e2fsprogs.sourceforge.net/",
+    "o": "e2fsprogs"
+  },
+  {
+    "P": "enchant2-libs",
+    "V": "2.8.15-r0",
+    "C": "Q1c7IrKVfNoppqGIOXJcwec35Joeg=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://rrthomas.github.io/enchant/",
+    "o": "enchant2"
+  },
+  {
+    "P": "encodings",
+    "V": "1.1.0-r0",
+    "C": "Q1dnp0cwnhYUc8Z++65c8UTOtMGGU=",
+    "L": "Public Domain",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "encodings"
+  },
+  {
+    "P": "eudev",
+    "V": "3.2.14-r6",
+    "C": "Q15huy//vzw/jcmoxRIVHgyblLQGo=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://github.com/eudev-project/eudev",
+    "o": "eudev"
+  },
+  {
+    "P": "eudev-libs",
+    "V": "3.2.14-r6",
+    "C": "Q1EK3Gf4IDEuYXrkR0CV7elh0zAAI=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://github.com/eudev-project/eudev",
+    "o": "eudev"
+  },
+  {
+    "P": "fcitx5",
+    "V": "5.1.19-r0",
+    "C": "Q1wLYgp74+CR3PGU4ccF13ICnJpUI=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/fcitx/fcitx5",
+    "o": "fcitx5"
+  },
+  {
+    "P": "fcitx5-anthy",
+    "V": "5.1.10-r0",
+    "C": "Q16rxIVhD0WvQbMJYfDbRyiXQN/3U=",
+    "L": "GPL-3.0-or-later",
+    "U": "https://github.com/fcitx/fcitx5-anthy",
+    "o": "fcitx5-anthy"
+  },
+  {
+    "P": "fcitx5-chinese-addons",
+    "V": "5.1.12-r1",
+    "C": "Q1zLEuVXLGTDUrjOCRjgqIuiEAXYk=",
+    "L": "LGPL-2.1-or-later AND GPL-2.0-or-later",
+    "U": "https://github.com/fcitx/fcitx5-chinese-addons",
+    "o": "fcitx5-chinese-addons"
+  },
+  {
+    "P": "fcitx5-hangul",
+    "V": "5.1.9-r0",
+    "C": "Q1/hWAh0RBbAhyAJ7CLUhgjQGcBkQ=",
+    "L": "GPL-3.0-or-later",
+    "U": "https://github.com/fcitx/fcitx5-hangul",
+    "o": "fcitx5-hangul"
+  },
+  {
+    "P": "fcitx5-m17n",
+    "V": "5.1.6-r0",
+    "C": "Q1bf28tOjcgthYpg8OtkK0xCeVnao=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/fcitx/fcitx5-m17n",
+    "o": "fcitx5-m17n"
+  },
+  {
+    "P": "fcitx5-qt",
+    "V": "5.1.13-r1",
+    "C": "Q1PlBiSEKzFosugR2TbDbmkdNuV9A=",
+    "L": "LGPL-2.1-or-later AND BSD-3-Clause",
+    "U": "https://github.com/fcitx/fcitx5-qt",
+    "o": "fcitx5-qt"
+  },
+  {
+    "P": "fcitx5-rime",
+    "V": "5.1.13-r0",
+    "C": "Q1qJBsjWCAKTmmZE52yrYhmE42M6E=",
+    "L": "GPL-3.0-or-later",
+    "U": "https://github.com/fcitx/fcitx5-rime",
+    "o": "fcitx5-rime"
+  },
+  {
+    "P": "fcitx5-unikey",
+    "V": "5.1.10-r0",
+    "C": "Q1/dnY06PHXeXN6bTrS+SQang7LhU=",
+    "L": "LGPL-2.0-or-later AND GPL-2.0-or-later",
+    "U": "https://github.com/fcitx/fcitx5-unikey",
+    "o": "fcitx5-unikey"
+  },
+  {
+    "P": "ffmpeg-libavcodec",
+    "V": "8.1.2-r0",
+    "C": "Q1la5bbSwZ28kv5J3XwSDM0tCU0Ck=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://ffmpeg.org/",
+    "o": "ffmpeg"
+  },
+  {
+    "P": "ffmpeg-libavformat",
+    "V": "8.1.2-r0",
+    "C": "Q1alkomZiT3fLHgLAh9JwzIGmkhlw=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://ffmpeg.org/",
+    "o": "ffmpeg"
+  },
+  {
+    "P": "ffmpeg-libavutil",
+    "V": "8.1.2-r0",
+    "C": "Q18mgvW2mHv7zXM7O48mBAlwXfbEw=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://ffmpeg.org/",
+    "o": "ffmpeg"
+  },
+  {
+    "P": "ffmpeg-libswresample",
+    "V": "8.1.2-r0",
+    "C": "Q146YZPdBjV/uQFNCV9EKBBd8ogNA=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://ffmpeg.org/",
+    "o": "ffmpeg"
+  },
+  {
+    "P": "file",
+    "V": "5.47-r2",
+    "C": "Q1ityLcSZ9U7FF9Xzr4MpX502S6nI=",
+    "L": "BSD-2-Clause",
+    "U": "https://www.darwinsys.com/file/",
+    "o": "file"
+  },
+  {
+    "P": "font-alias",
+    "V": "1.0.6-r0",
+    "C": "Q1bkbgFJDaMcdaP4j++0KGlwsHJkU=",
+    "L": "custom",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "font-alias"
+  },
+  {
+    "P": "font-cursor-misc",
+    "V": "1.0.4-r1",
+    "C": "Q1QquW4v1X9e3QguTw2ytbMQQUrmc=",
+    "L": "Public Domain",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "font-cursor-misc"
+  },
+  {
+    "P": "font-dejavu",
+    "V": "2.37-r6",
+    "C": "Q1eVXdqCY2KSDT3Jaj4+AQakSS8B8=",
+    "L": "Bitstream-Vera",
+    "U": "https://dejavu-fonts.github.io/",
+    "o": "font-dejavu"
+  },
+  {
+    "P": "font-misc-misc",
+    "V": "1.1.3-r1",
+    "C": "Q14b0i0vilAQ9Od1VDG6fUaCvq8CE=",
+    "L": "Public Domain",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "font-misc-misc"
+  },
+  {
+    "P": "font-noto",
+    "V": "2026.06.01-r0",
+    "C": "Q1a1BsvMSLeHr2wNW6e+JeZxmU1RI=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-adlam",
+    "V": "2026.06.01-r0",
+    "C": "Q1FfjJb0Nsh/Vqnq5ZgpMqV6AbrwA=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-ahom",
+    "V": "2026.06.01-r0",
+    "C": "Q1mQLluKmU5OYaRg9FSuSTdTUALJA=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-all",
+    "V": "2026.06.01-r0",
+    "C": "Q1m/lH3hyyiDzeLj4E8bBF+5vb5BA=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-arabic",
+    "V": "2026.06.01-r0",
+    "C": "Q1cUtHPtRW+yVsjc1m+mJRft5ifN0=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-armenian",
+    "V": "2026.06.01-r0",
+    "C": "Q1G82Yxxu4yRoWPHvECIwUE590T+0=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-balinese",
+    "V": "2026.06.01-r0",
+    "C": "Q1P5+GMIPdnAGWvnAHPf7iHzYGgaQ=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-bamum",
+    "V": "2026.06.01-r0",
+    "C": "Q1WTWBtFXjHpiYPYd4Qt4yun85tjE=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-bassa-vah",
+    "V": "2026.06.01-r0",
+    "C": "Q19OtsMrZi2GY/JcwD4Y6s35QSeuc=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-batak",
+    "V": "2026.06.01-r0",
+    "C": "Q1I4I/bzMCDQnCE7TIFXfGT4ETmLM=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-bengali",
+    "V": "2026.06.01-r0",
+    "C": "Q1zOQTIkhRyjApLG3Z3RxkWHOrCI0=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-buginese",
+    "V": "2026.06.01-r0",
+    "C": "Q1H2XS/3lL3GYfcjIlNdjSHD3GCC0=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-buhid",
+    "V": "2026.06.01-r0",
+    "C": "Q1ms/BQa4NzHMBhVohxagYsRFMnxY=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-canadian-aboriginal",
+    "V": "2026.06.01-r0",
+    "C": "Q1N89wQ2CilnBf2LIRET/qm8z5+dU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-chakma",
+    "V": "2026.06.01-r0",
+    "C": "Q1Nz8jDBjYhKqVDGVmeA78y2Z9g5A=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-cham",
+    "V": "2026.06.01-r0",
+    "C": "Q1IfHsdo0BeYiVvlLX3nQt+PTMB8M=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-cherokee",
+    "V": "2026.06.01-r0",
+    "C": "Q1nDIY1hyuZVV751MpxPn0K2PHDJg=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-chorasmian",
+    "V": "2026.06.01-r0",
+    "C": "Q1VvJRAAe4XQGlFKI9B69TtHEpFms=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-cjk",
+    "V": "0_git20220127-r1",
+    "C": "Q159S8Z1vR70AQ1f0QuyXKcHZ6wWs=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/noto-fonts",
+    "o": "font-noto-cjk"
+  },
+  {
+    "P": "font-noto-common",
+    "V": "2026.06.01-r0",
+    "C": "Q1zNEqPu+ys2YRnHe66Ef9sVaM31k=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-coptic",
+    "V": "2026.06.01-r0",
+    "C": "Q1+snO8RAyR8dlxbaKV9Muy+/SDUs=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-cypro-minoan",
+    "V": "2026.06.01-r0",
+    "C": "Q1hkvSNGqTczKRRYZzIQU5tVvNHZw=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-devanagari",
+    "V": "2026.06.01-r0",
+    "C": "Q1HvxYa/qjxXniQG/+NO9jJH9nyG8=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-dives-akuru",
+    "V": "2026.06.01-r0",
+    "C": "Q1qXDWK3xntxSeq/6L8TlmGz3AUCY=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-duployan",
+    "V": "2026.06.01-r0",
+    "C": "Q1IHz+1tvfqj/XIWVIAnd/tWWWSNs=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-elbasan",
+    "V": "2026.06.01-r0",
+    "C": "Q1vWFz6L+QCn0GyyxRMhC3M9oUwnY=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-ethiopic",
+    "V": "2026.06.01-r0",
+    "C": "Q17znIRfVHGIFd5kCrEghOQ2++BL4=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-extra",
+    "V": "2026.06.01-r0",
+    "C": "Q1gQjbrHvG1iPuLLzrjWbajQAveMI=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-fangsong",
+    "V": "2026.06.01-r0",
+    "C": "Q1oNnqZ1lNyHlBWvTVrb4rCM3ba40=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-georgian",
+    "V": "2026.06.01-r0",
+    "C": "Q1mFHKd894LldH4zhkcjSfEyXdUFw=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-grantha",
+    "V": "2026.06.01-r0",
+    "C": "Q1ZvWsd2IqVr278ChnN9e3NyAlcYc=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-gujarati",
+    "V": "2026.06.01-r0",
+    "C": "Q10jESUITRlVaoIgp0OR7rpUMT/QE=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-gunjala-gondi",
+    "V": "2026.06.01-r0",
+    "C": "Q1hrg7bk6iQVnGiz2T4NTSkLpgcug=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-gurmukhi",
+    "V": "2026.06.01-r0",
+    "C": "Q1rF2PcDNlXefCTvmYEW3IikAuCZo=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-hanifi-rohingya",
+    "V": "2026.06.01-r0",
+    "C": "Q1oOFVCBIou33O/H5DcIyGGMGyo9Q=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-hanunoo",
+    "V": "2026.06.01-r0",
+    "C": "Q1BAn2MY9zmPNtGmQQihwutik7Jjo=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-hebrew",
+    "V": "2026.06.01-r0",
+    "C": "Q1taD18Qg9ASw+lr+VMMOKDq2qSFA=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-hentaigana",
+    "V": "2026.06.01-r0",
+    "C": "Q1OnN2fHblvg1q8BGTlsoJMa5GEOE=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-historical",
+    "V": "2026.06.01-r0",
+    "C": "Q1Cb3GucknHvLyyrNeTkj+Q1/FaJw=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-indic-siyaq-numbers",
+    "V": "2026.06.01-r0",
+    "C": "Q1KBn83fGO37xcXmMNYPJLkueqKY4=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-javanese",
+    "V": "2026.06.01-r0",
+    "C": "Q1o6edmuTeY6BABVj7dtV4K/ysz8s=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-kaithi",
+    "V": "2026.06.01-r0",
+    "C": "Q1sMQ46zk2msxLDjCOYRBmuaxlCsI=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-kannada",
+    "V": "2026.06.01-r0",
+    "C": "Q1I0Feb9813jZvOnov7uvYNK8roXA=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-kawi",
+    "V": "2026.06.01-r0",
+    "C": "Q1f5+z+xMg/FT2OFCppDTJxGzGKqg=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-kayah-li",
+    "V": "2026.06.01-r0",
+    "C": "Q1pYb7vJOGwZSN5EUq8KR5M03hr2E=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-khitan-small-script",
+    "V": "2026.06.01-r0",
+    "C": "Q1rxIqkNd4j3P367zaTwYcQ6yRgIk=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-khmer",
+    "V": "2026.06.01-r0",
+    "C": "Q1Yr0f1l/790qkgcxrtm64kI7kSd8=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-khojki",
+    "V": "2026.06.01-r0",
+    "C": "Q1oYEHadRKdzVlHjTyZyBakJWtHlM=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-kufi-arabic",
+    "V": "2026.06.01-r0",
+    "C": "Q1JVYfU88BCVSNHcfCrToy85DcYEo=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-lao",
+    "V": "2026.06.01-r0",
+    "C": "Q1mgUSMRhYaob06Q+q9In07qqyxk8=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-lepcha",
+    "V": "2026.06.01-r0",
+    "C": "Q1eQwo9uwfv0Dgaz0gOZYdNpUlqos=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-limbu",
+    "V": "2026.06.01-r0",
+    "C": "Q1JjFp0AcEj4TfeWR056e+vn7v89s=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-lisu",
+    "V": "2026.06.01-r0",
+    "C": "Q1v4wuimPOe4WSuWWsSCXZXI7+oco=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-makasar",
+    "V": "2026.06.01-r0",
+    "C": "Q17e1PUqmJUCwrSxfGSU7CtraW3N4=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-malayalam",
+    "V": "2026.06.01-r0",
+    "C": "Q1d6WCZXeoEXtx2/Vetkg/dFLDsBY=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-masaram-gondi",
+    "V": "2026.06.01-r0",
+    "C": "Q14PksNs5wyFceULQ4ndmw0gG0jZM=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-math",
+    "V": "2026.06.01-r0",
+    "C": "Q1UahPIZasW2j+oYrjqxcBrQGwBwU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-mayan-numerals",
+    "V": "2026.06.01-r0",
+    "C": "Q1yFeMe+UqGNCsx0f/2vzGVb0lpwY=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-medefaidrin",
+    "V": "2026.06.01-r0",
+    "C": "Q1qyDosOr61HKNRfJdP4kQ6K6HEA4=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-meetei-mayek",
+    "V": "2026.06.01-r0",
+    "C": "Q1o3tNdplzU2mS44H7Q/4QhxIlgIw=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-mende-kikakui",
+    "V": "2026.06.01-r0",
+    "C": "Q1rauOw4+ogiKZ16x0damXt53TMzo=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-miao",
+    "V": "2026.06.01-r0",
+    "C": "Q1YG3ymp1HX4dv0Py2zMaif7F4qPs=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-modi",
+    "V": "2026.06.01-r0",
+    "C": "Q18sp4rORZ/T9dc+NklxumMDQRuZ4=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-mongolian",
+    "V": "2026.06.01-r0",
+    "C": "Q1NSyf5vTiAlkVDlot+eKzUF4Fo1g=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-mro",
+    "V": "2026.06.01-r0",
+    "C": "Q1TOoflBcv7OBMgvuEyEdHmWLkNeo=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-music",
+    "V": "2026.06.01-r0",
+    "C": "Q1uEeZRvHEKCFBYAHJqyJlAqgVuQY=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-myanmar",
+    "V": "2026.06.01-r0",
+    "C": "Q1hPXsmtpAb0vYMJBhXJuv3f55MFc=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-nag-mundari",
+    "V": "2026.06.01-r0",
+    "C": "Q16AHROm/fPco+Al6YMqmD58TjT5Q=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-nandinagari",
+    "V": "2026.06.01-r0",
+    "C": "Q1q9IMGKj25DWr1Oc4Qk5jdsY10iU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-naskh-arabic",
+    "V": "2026.06.01-r0",
+    "C": "Q1FaVK5QKLx5afoWpkIxV234phlWs=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-nastaliq-urdu",
+    "V": "2026.06.01-r0",
+    "C": "Q14UPmRzLq9vhv7rfhwCaeajPiSSQ=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-new-tai-lue",
+    "V": "2026.06.01-r0",
+    "C": "Q1966U21NFWyY+VJEqu7nw4CfN7xI=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-newa",
+    "V": "2026.06.01-r0",
+    "C": "Q1jdb6uSm/+KgkooLVrqVb5Fokr3M=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-nko",
+    "V": "2026.06.01-r0",
+    "C": "Q1s5MPBxZb7/HuVX0KnZlwhut79yk=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-nushu",
+    "V": "2026.06.01-r0",
+    "C": "Q1Oby+iIPvgKyfUelcKCTf/tXmzRM=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-nyiakeng-puachue-hmong",
+    "V": "2026.06.01-r0",
+    "C": "Q1u9Wrtdc7pwuq8wCxm5tC4X4LI3k=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-ol-chiki",
+    "V": "2026.06.01-r0",
+    "C": "Q1yLFhdeci8ihqfSemHQCJPW+DdKM=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-old-uyghur",
+    "V": "2026.06.01-r0",
+    "C": "Q1LblgjQQ6ZmEK3W5hkVWT7TZ5og8=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-oriya",
+    "V": "2026.06.01-r0",
+    "C": "Q1XVkfE2xbtxAkro7dbBa7ie5LqqQ=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-osage",
+    "V": "2026.06.01-r0",
+    "C": "Q1I+259cxRjL9AhSKatej/1adrkow=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-ottoman-siyaq",
+    "V": "2026.06.01-r0",
+    "C": "Q1m7D8OdqbwKcK7/kmOkV9wJvxw64=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-pahawh-hmong",
+    "V": "2026.06.01-r0",
+    "C": "Q1jqCs4MYNW/4A10/cB3QREPWXqxU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-pau-cin-hau",
+    "V": "2026.06.01-r0",
+    "C": "Q1NHDRrmwbnZJgPNXT1o8f1oKJhvU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-rashi-hebrew",
+    "V": "2026.06.01-r0",
+    "C": "Q1mL4YZIsx08sJd3BqCs5CPSMuEY8=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-rejang",
+    "V": "2026.06.01-r0",
+    "C": "Q1cGejZvQWF2jbz6oT3UrjivWlsTU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-samaritan",
+    "V": "2026.06.01-r0",
+    "C": "Q11e/0zMYtwQkdxXnbct9U4jZQkKA=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-saurashtra",
+    "V": "2026.06.01-r0",
+    "C": "Q1j2xCZ9UJWNLpeqYjYOsApnOq9dI=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-sharada",
+    "V": "2026.06.01-r0",
+    "C": "Q1UWk7cpTM8nKdhDqh/+vp/rHmtLU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-signwriting",
+    "V": "2026.06.01-r0",
+    "C": "Q1jZZ9R95FoZ7FU9NTzfHCWudS8HA=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-sinhala",
+    "V": "2026.06.01-r0",
+    "C": "Q1xOcGeSsd4RmyNEQmNhf00fG63aM=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-sora-sompeng",
+    "V": "2026.06.01-r0",
+    "C": "Q1sNS7ghrBpAzbM6WSiU0I9uICIxA=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-soyombo",
+    "V": "2026.06.01-r0",
+    "C": "Q1Ue7HJVMLMZjfW9CXxdDdirzneKE=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-sundanese",
+    "V": "2026.06.01-r0",
+    "C": "Q1yHbeYFrAC/5OIvwZITwb1YYWPF4=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-sunuwar",
+    "V": "2026.06.01-r0",
+    "C": "Q1D9F5lxdgGj6WFFZixeTolm3e77w=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-syloti-nagri",
+    "V": "2026.06.01-r0",
+    "C": "Q1EA1vRVp8QHsUk8Tvz1+wQR9znN8=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-symbols",
+    "V": "2026.06.01-r0",
+    "C": "Q1VfzQaG9NZIZ8BdDxm/4fBBxUP0c=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-syriac",
+    "V": "2026.06.01-r0",
+    "C": "Q1U2297kIofm1qAC61DIHds+1i6p4=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-tagbanwa",
+    "V": "2026.06.01-r0",
+    "C": "Q1aTyVdr5NWznvDzYHSAu0GOL38/0=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-tai",
+    "V": "2026.06.01-r0",
+    "C": "Q1XOPWswTtrYffQaFKPFaca/7LCas=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-tamil",
+    "V": "2026.06.01-r0",
+    "C": "Q1MAPRD9+WadvJ75ieyCSerZ6DOUw=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-tangsa",
+    "V": "2026.06.01-r0",
+    "C": "Q14ZrwXFTV6nfuO6V/+Onq7egPnys=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-telugu",
+    "V": "2026.06.01-r0",
+    "C": "Q1rc9gUFu0pZK92rlaCTzKRfrrCRc=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-test",
+    "V": "2026.06.01-r0",
+    "C": "Q1MwOPrL4Lvp7Kjh4jcEYlwuDnzEs=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-thaana",
+    "V": "2026.06.01-r0",
+    "C": "Q1ENZk05LkmFACvizcy2LZjkMXYDU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-thai",
+    "V": "2026.06.01-r0",
+    "C": "Q1hGbA5z1quNiaH00hqnBT3Lk2hPg=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-tibetan",
+    "V": "2026.06.01-r0",
+    "C": "Q1oyXXOgioOZPOEuRFBRYRQcRU3c0=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-tifinagh",
+    "V": "2026.06.01-r0",
+    "C": "Q1K+Ehl0FRF8JU/cZ1LjH5uIwU6tQ=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-tirhuta",
+    "V": "2026.06.01-r0",
+    "C": "Q1yv4IeIp9TkuIqQMhPvkKA1kNdYU=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-todhri",
+    "V": "2026.06.01-r0",
+    "C": "Q1nwQDFO6mDsS2JWjcUNK7kz0LqcQ=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-toto",
+    "V": "2026.06.01-r0",
+    "C": "Q1lLL9rCIa5656TaOMan88OrpQLRY=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-vai",
+    "V": "2026.06.01-r0",
+    "C": "Q1s+2J+6ehtEE/RMLdRCTBQVcgoSc=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-vithkuqi",
+    "V": "2026.06.01-r0",
+    "C": "Q1UkxvUV/UHbc35IWJschBhzIo/tY=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-wancho",
+    "V": "2026.06.01-r0",
+    "C": "Q1F42yG4BorjRJAYC0jd1vwIPmktM=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-warang-citi",
+    "V": "2026.06.01-r0",
+    "C": "Q1i5rEzgCH8+AyygFLGw70j8N6e/Y=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-yezidi",
+    "V": "2026.06.01-r0",
+    "C": "Q1HRJyWNYunwsMwuyhIQ47hJ7Ey8c=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-yi",
+    "V": "2026.06.01-r0",
+    "C": "Q1kFEodhfF+iVa/AW3rq+FqtbT3Fs=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "font-noto-znamenny",
+    "V": "2026.06.01-r0",
+    "C": "Q1AWdgnthw/L1hSBzExN2YuQZrD7c=",
+    "L": "OFL-1.1",
+    "U": "https://github.com/notofonts/notofonts.github.io",
+    "o": "font-noto"
+  },
+  {
+    "P": "fontconfig",
+    "V": "2.17.1-r1",
+    "C": "Q1KigEPCtTgE7pePNWEk/JYw0I71s=",
+    "L": "MIT",
+    "U": "https://www.freedesktop.org/wiki/Software/fontconfig",
+    "o": "fontconfig"
+  },
+  {
+    "P": "freetype",
+    "V": "2.14.3-r0",
+    "C": "Q1inTeCTllWaiIzsEB0gXPSI2KScY=",
+    "L": "FTL OR GPL-2.0-or-later",
+    "U": "https://www.freetype.org/",
+    "o": "freetype"
+  },
+  {
+    "P": "fribidi",
+    "V": "1.0.16-r3",
+    "C": "Q1gS+zbhT4tRc1ucHlI2fww4Bh/pI=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/fribidi/fribidi",
+    "o": "fribidi"
+  },
+  {
+    "P": "gcc",
+    "V": "15.2.0-r5",
+    "C": "Q1ReMw7n/rV2Z/hbIV2XSCr/AxfQ0=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://gcc.gnu.org",
+    "o": "gcc"
+  },
+  {
+    "P": "gdbm",
+    "V": "1.26-r0",
+    "C": "Q1YZST2BJP5JqO4dj3oTcs9+OXczc=",
+    "L": "GPL-3.0-or-later",
+    "U": "https://www.gnu.org/software/gdbm/",
+    "o": "gdbm"
+  },
+  {
+    "P": "gdk-pixbuf",
+    "V": "2.44.7-r1",
+    "C": "Q1kpIV149bbf4v5kWha6s8M6g1g1I=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/gdk-pixbuf",
+    "o": "gdk-pixbuf"
+  },
+  {
+    "P": "gflags",
+    "V": "2.3.0-r0",
+    "C": "Q1EyrDHMqWYcmjxAPm2gx1/T2LEyk=",
+    "L": "BSD-3-Clause",
+    "U": "https://gflags.github.io/gflags/",
+    "o": "gflags"
+  },
+  {
+    "P": "giflib",
+    "V": "5.2.2-r2",
+    "C": "Q1QNP1/mlTJAIu0CqtKuhxoDEZFqw=",
+    "L": "MIT",
+    "U": "https://sourceforge.net/projects/giflib/",
+    "o": "giflib"
+  },
+  {
+    "P": "glib",
+    "V": "2.88.1-r1",
+    "C": "Q1nwgRDuT0i7Sr+TesASg4HK9SGaY=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://developer.gnome.org/glib/",
+    "o": "glib"
+  },
+  {
+    "P": "glog",
+    "V": "0.7.1-r3",
+    "C": "Q1LXyxqNFgpeRcz+bgtdW6FGttXDg=",
+    "L": "BSD-3-Clause",
+    "U": "https://github.com/google/glog",
+    "o": "glog"
+  },
+  {
+    "P": "glycin-image-rs",
+    "V": "2.1.5-r0",
+    "C": "Q1RyYw77Cc0a6EKWqi0q0c6SSS8Jw=",
+    "L": "MPL-2.0 OR LGPL-2.0-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/glycin",
+    "o": "glycin"
+  },
+  {
+    "P": "glycin-svg",
+    "V": "2.1.5-r0",
+    "C": "Q1R4rHVb8cyvigafzStFyoV0UOojE=",
+    "L": "MPL-2.0 OR LGPL-2.0-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/glycin",
+    "o": "glycin"
+  },
+  {
+    "P": "gmp",
+    "V": "6.3.0-r4",
+    "C": "Q1ubqhYMW2Z+LZyyQCCZknhvXStOk=",
+    "L": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+    "U": "https://gmplib.org/",
+    "o": "gmp"
+  },
+  {
+    "P": "gnutls",
+    "V": "3.8.13-r0",
+    "C": "Q14nxbmLkKv8dsrylMbpJdDbVj3xA=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.gnutls.org/",
+    "o": "gnutls"
+  },
+  {
+    "P": "gobject-introspection",
+    "V": "1.86.0-r1",
+    "C": "Q1sDGuq3xfJUeCdQC2xJ39yWpgKRM=",
+    "L": "LGPL-2.0-or-later AND GPL-2.0-or-later AND MIT",
+    "U": "https://gi.readthedocs.io",
+    "o": "gobject-introspection"
+  },
+  {
+    "P": "graphite2",
+    "V": "1.3.14-r6",
+    "C": "Q1AUCVS0kUQNM5jVofUbKhgbEPo3g=",
+    "L": "LGPL-2.1-or-later OR MPL-1.1",
+    "U": "https://graphite.sil.org/",
+    "o": "graphite2"
+  },
+  {
+    "P": "gsettings-desktop-schemas",
+    "V": "50.1-r0",
+    "C": "Q1OIfTJpYVNbiqqleeaSNbMux2cKw=",
+    "L": "LGPL-2.0-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/gsettings-desktop-schemas",
+    "o": "gsettings-desktop-schemas"
+  },
+  {
+    "P": "gtk+3.0",
+    "V": "3.24.52-r0",
+    "C": "Q1KDNWlV5ar9S6bu3Dz5W1G4Auyo4=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.gtk.org/",
+    "o": "gtk+3.0"
+  },
+  {
+    "P": "gtk-update-icon-cache",
+    "V": "3.24.52-r0",
+    "C": "Q1ICk5eUAEz/3nO5JZBpbsGbY/jTY=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.gtk.org/",
+    "o": "gtk+3.0"
+  },
+  {
+    "P": "harfbuzz",
+    "V": "13.2.1-r0",
+    "C": "Q1lx2ZwfHbq7wVFRmDPYUIiSzzLhk=",
+    "L": "MIT",
+    "U": "https://harfbuzz.github.io/",
+    "o": "harfbuzz"
+  },
+  {
+    "P": "harfbuzz-subset",
+    "V": "13.2.1-r0",
+    "C": "Q1ETF7H+xIidysKpTNqNPcqOSv5Es=",
+    "L": "MIT",
+    "U": "https://harfbuzz.github.io/",
+    "o": "harfbuzz"
+  },
+  {
+    "P": "hicolor-icon-theme",
+    "V": "0.18-r0",
+    "C": "Q1gLT7OyOZbZxcpo8C7Rl+6/6fK3Q=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://www.freedesktop.org/wiki/Software/icon-theme/",
+    "o": "hicolor-icon-theme"
+  },
+  {
+    "P": "hwdata-pci",
+    "V": "0.408-r0",
+    "C": "Q1WkJlq1KrNxIV3zWCZ0uWhn/Dy9Q=",
+    "L": "GPL-2.0-or-later OR XFree86-1.1",
+    "U": "https://github.com/vcrhonek/hwdata",
+    "o": "hwdata"
+  },
+  {
+    "P": "ibus",
+    "V": "1.5.34-r0",
+    "C": "Q1dlGb6SmFPzSEjoxuoDq0FMSF8no=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/ibus/ibus/wiki",
+    "o": "ibus"
+  },
+  {
+    "P": "ibus-gtk3",
+    "V": "1.5.34-r0",
+    "C": "Q1fYJZwu3YeUwA7z7FlMI8TfNzrWQ=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/ibus/ibus/wiki",
+    "o": "ibus"
+  },
+  {
+    "P": "ibus-hangul",
+    "V": "1.5.5-r3",
+    "C": "Q1bpIKXj2g1uEBs5PvJT3VMh8INoI=",
+    "L": "GPL-2.0-only",
+    "U": "https://github.com/libhangul/ibus-hangul",
+    "o": "ibus-hangul"
+  },
+  {
+    "P": "ibus-hangul-pyc",
+    "V": "1.5.5-r3",
+    "C": "Q1hFHW8ypiIVOV0XXrRGNZi93U7pA=",
+    "L": "GPL-2.0-only",
+    "U": "https://github.com/libhangul/ibus-hangul",
+    "o": "ibus-hangul"
+  },
+  {
+    "P": "ibus-pyc",
+    "V": "1.5.34-r0",
+    "C": "Q1kuCzWfHoqvz9qIPYMcvGEby//g8=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/ibus/ibus/wiki",
+    "o": "ibus"
+  },
+  {
+    "P": "icu-data-en",
+    "V": "78.1-r0",
+    "C": "Q1UKJU3SreKbZBDHrr4zMZcr6yst0=",
+    "L": "ICU",
+    "U": "https://icu.unicode.org/",
+    "o": "icu"
+  },
+  {
+    "P": "icu-libs",
+    "V": "78.1-r0",
+    "C": "Q1Rr02F/bREvA12AbSTFz46m5Zf1A=",
+    "L": "ICU",
+    "U": "https://icu.unicode.org/",
+    "o": "icu"
+  },
+  {
+    "P": "imlib2",
+    "V": "1.12.6-r0",
+    "C": "Q1usG8zhT5uHoyzdF8yZakv/ykVf0=",
+    "L": "Imlib2",
+    "U": "https://sourceforge.net/projects/enlightenment/",
+    "o": "imlib2"
+  },
+  {
+    "P": "isl26",
+    "V": "0.26-r2",
+    "C": "Q1h2aiavL175vZ/r5IDg4dnzU3m4c=",
+    "L": "MIT",
+    "U": "http://isl.gforge.inria.fr/",
+    "o": "isl26"
+  },
+  {
+    "P": "iso-codes",
+    "V": "4.20.1-r0",
+    "C": "Q1KM4rePbBg6erFi+CC8coaIDvGLU=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://salsa.debian.org/iso-codes-team/iso-codes",
+    "o": "iso-codes"
+  },
+  {
+    "P": "jansson",
+    "V": "2.15.0-r0",
+    "C": "Q1stvtY3e3CwJPyWQOnjlB9nQqEvU=",
+    "L": "MIT",
+    "U": "http://www.digip.org/jansson/",
+    "o": "jansson"
+  },
+  {
+    "P": "java-cacerts",
+    "V": "1.1-r0",
+    "C": "Q1lk88pTTFOxyGYQ8hI486Ln2XsCU=",
+    "L": "MIT",
+    "U": "https://git.alpinelinux.org/aports/tree/community/java-cacerts",
+    "o": "java-cacerts"
+  },
+  {
+    "P": "java-common",
+    "V": "1.0-r2",
+    "C": "Q1Liw4QNllx22JWbUTFhhBvy3oTyQ=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/java-common",
+    "o": "java-common"
+  },
+  {
+    "P": "json-c",
+    "V": "0.18-r1",
+    "C": "Q12w0mSfr4pSQU34qdbkrNtgMDtAM=",
+    "L": "MIT",
+    "U": "https://github.com/json-c/json-c/wiki",
+    "o": "json-c"
+  },
+  {
+    "P": "json-glib",
+    "V": "1.10.8-r0",
+    "C": "Q1LMr+2CXZlf0EZPJZNHrdjXmFleY=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/json-glib",
+    "o": "json-glib"
+  },
+  {
+    "P": "kmod",
+    "V": "34.2-r1",
+    "C": "Q19o7eTAWB4M6r9a2KrwfCrhxt6Wo=",
+    "L": "GPL-2.0-or-later",
+    "U": "http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary",
+    "o": "kmod"
+  },
+  {
+    "P": "kmod-libs",
+    "V": "34.2-r1",
+    "C": "Q17D3S9e+3rtDF8L4EKGr7FVQhKdk=",
+    "L": "LGPL-2.1-or-later",
+    "U": "http://git.kernel.org/?p=utils/kernel/kmod/kmod.git;a=summary",
+    "o": "kmod"
+  },
+  {
+    "P": "lame-libs",
+    "V": "3.100-r5",
+    "C": "Q1zEPleXcO8hgXJyg8pX+nhzxIQTE=",
+    "L": "LGPL-2.0-or-later",
+    "U": "https://lame.sourceforge.net/",
+    "o": "lame"
+  },
+  {
+    "P": "lcms2",
+    "V": "2.19-r0",
+    "C": "Q1W5Tp72Knc1v0HtRficgyY9Lb0To=",
+    "L": "MIT",
+    "U": "https://www.littlecms.com",
+    "o": "lcms2"
+  },
+  {
+    "P": "lddtree",
+    "V": "1.27-r0",
+    "C": "Q1qONm4YZ0VaHptpkpN1iMW1HwN3c=",
+    "L": "GPL-2.0-only",
+    "U": "https://github.com/ncopa/lddtree",
+    "o": "lddtree"
+  },
+  {
+    "P": "leveldb",
+    "V": "1.23-r1",
+    "C": "Q1aFWJwFlJ9vB2Ir5/iwt7x4mOyoc=",
+    "L": "BSD-3-Clause",
+    "U": "https://github.com/google/leveldb",
+    "o": "leveldb"
+  },
+  {
+    "P": "libapk",
+    "V": "3.0.8-r0",
+    "C": "Q1uTzpVzwdDbPup84yhBrQhXq8SlQ=",
+    "L": "GPL-2.0-only",
+    "U": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+    "o": "apk-tools"
+  },
+  {
+    "P": "libatk-1.0",
+    "V": "2.60.5-r0",
+    "C": "Q12PrN182+547fGhzZE8eTAFBwYOc=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/",
+    "o": "at-spi2-core"
+  },
+  {
+    "P": "libatk-bridge-2.0",
+    "V": "2.60.5-r0",
+    "C": "Q1LjZOB7l0KrzCE/swyWviKOXsIOE=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/",
+    "o": "at-spi2-core"
+  },
+  {
+    "P": "libatomic",
+    "V": "15.2.0-r5",
+    "C": "Q1CYp9vyHwoo/+1nsRF1KjCO0RLLM=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://gcc.gnu.org",
+    "o": "gcc"
+  },
+  {
+    "P": "libb2",
+    "V": "0.98.1-r3",
+    "C": "Q10drdLru0AytP12UOSPwwyf5PzGM=",
+    "L": "CC0-1.0",
+    "U": "https://blake2.net/",
+    "o": "libb2"
+  },
+  {
+    "P": "libblkid",
+    "V": "2.42.3-r1",
+    "C": "Q1B0eyM6avTem7+AUq2YfRl/hqcrQ=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+    "o": "util-linux"
+  },
+  {
+    "P": "libbluray",
+    "V": "1.4.0-r0",
+    "C": "Q1Ha5nZJGC/reD7NmvkcvCTmx5pYM=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.videolan.org/developers/libbluray.html",
+    "o": "libbluray"
+  },
+  {
+    "P": "libbsd",
+    "V": "0.12.2-r0",
+    "C": "Q1gkX/ff7mAMnaZ+N1ehVr2FJ2QlE=",
+    "L": "BSD-3-Clause",
+    "U": "https://libbsd.freedesktop.org/",
+    "o": "libbsd"
+  },
+  {
+    "P": "libbz2",
+    "V": "1.0.8-r6",
+    "C": "Q1CFZrpcevl8JUdL6LJOi0jwEWtn0=",
+    "L": "bzip2-1.0.6",
+    "U": "https://sourceware.org/bzip2/",
+    "o": "bzip2"
+  },
+  {
+    "P": "libcap2",
+    "V": "2.78-r0",
+    "C": "Q1Vi3y8KkXpS2XsFrXvtM0FK2izUs=",
+    "L": "BSD-3-Clause OR GPL-2.0-only",
+    "U": "https://sites.google.com/site/fullycapable/",
+    "o": "libcap"
+  },
+  {
+    "P": "libcom_err",
+    "V": "1.47.4-r0",
+    "C": "Q1S5+1iZ6gscDPuyosWVJwRDfU7O8=",
+    "L": "GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND MIT",
+    "U": "https://e2fsprogs.sourceforge.net/",
+    "o": "e2fsprogs"
+  },
+  {
+    "P": "libcrypto3",
+    "V": "3.5.9-r0",
+    "C": "Q1HA3ulzTPIvyXzdGBkTu9cQ5t+wg=",
+    "L": "Apache-2.0",
+    "U": "https://www.openssl.org/",
+    "o": "openssl"
+  },
+  {
+    "P": "libcurl",
+    "V": "8.22.0-r0",
+    "C": "Q1eBYAa2ryJwq25+hfdK25TBa9xIs=",
+    "L": "curl",
+    "U": "https://curl.se/",
+    "o": "curl"
+  },
+  {
+    "P": "libdatrie-libs",
+    "V": "0.2.14-r1",
+    "C": "Q1uHbhm3tNkQspKign1WCIvaKI7Zk=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/tlwg/libdatrie",
+    "o": "libdatrie"
+  },
+  {
+    "P": "libdav1d",
+    "V": "1.5.3-r0",
+    "C": "Q19QMIkG43lvBAaJ48gBGbWDlGvKY=",
+    "L": "BSD-2-Clause",
+    "U": "https://code.videolan.org/videolan/dav1d",
+    "o": "dav1d"
+  },
+  {
+    "P": "libdbusmenu-glib",
+    "V": "16.04.0-r6",
+    "C": "Q1Ztt5xwRRghF2vyrbm1+yKYvrk/s=",
+    "L": "GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later",
+    "U": "https://launchpad.net/libdbusmenu",
+    "o": "libdbusmenu-glib"
+  },
+  {
+    "P": "libdbusmenu-gtk3",
+    "V": "16.04.0-r6",
+    "C": "Q1oiR9BoLNfyp1XaPAtMua/aI7/Rw=",
+    "L": "GPL-3.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later",
+    "U": "https://launchpad.net/libdbusmenu",
+    "o": "libdbusmenu-glib"
+  },
+  {
+    "P": "libde265",
+    "V": "1.0.18-r0",
+    "C": "Q1eRMNQMac0tkAH5RDobBMeAVaxCQ=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://github.com/strukturag/libde265",
+    "o": "libde265"
+  },
+  {
+    "P": "libdrm",
+    "V": "2.4.134-r0",
+    "C": "Q1JfwxYBbLCtoCCs6kks6MxkdbfP8=",
+    "L": "MIT",
+    "U": "https://gitlab.freedesktop.org/mesa/drm",
+    "o": "libdrm"
+  },
+  {
+    "P": "libdvdcss",
+    "V": "1.4.3-r0",
+    "C": "Q1iCzKdFFpUpAYxGIiezZMBlZRlA4=",
+    "L": "GPL-2.0-or-later",
+    "U": "http://www.videolan.org/developers/libdvdcss.html",
+    "o": "libdvdcss"
+  },
+  {
+    "P": "libdvdnav",
+    "V": "6.1.1-r1",
+    "C": "Q1ohWYBq3PyUZxZovi8CzqcIzfNXE=",
+    "L": "GPL-2.0-or-later",
+    "U": "http://dvdnav.mplayerhq.hu/",
+    "o": "libdvdnav"
+  },
+  {
+    "P": "libdvdread",
+    "V": "6.1.3-r2",
+    "C": "Q1I7FYgo5vqDFDXGaNvX1s0JFGmOQ=",
+    "L": "GPL-2.0-or-later",
+    "U": "http://dvdnav.mplayerhq.hu/",
+    "o": "libdvdread"
+  },
+  {
+    "P": "libeconf",
+    "V": "0.8.3-r0",
+    "C": "Q1M57ga4q1Zc6sMwKtO44cuhd6S2g=",
+    "L": "MIT",
+    "U": "https://github.com/openSUSE/libeconf",
+    "o": "libeconf"
+  },
+  {
+    "P": "libelf",
+    "V": "0.195-r0",
+    "C": "Q1jDk1so4Fk4hXYTF9Jgu116xuUAA=",
+    "L": "GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )",
+    "U": "https://sourceware.org/elfutils/",
+    "o": "elfutils"
+  },
+  {
+    "P": "libepoxy",
+    "V": "1.5.10-r1",
+    "C": "Q1iS6WSUAECByRvzi3yg3GpUo0v1s=",
+    "L": "MIT",
+    "U": "https://github.com/anholt/libepoxy",
+    "o": "libepoxy"
+  },
+  {
+    "P": "libevdev",
+    "V": "1.13.6-r0",
+    "C": "Q1YtxPcXa8eaavON1IS2FHS1qhjk0=",
+    "L": "MIT",
+    "U": "https://www.freedesktop.org/wiki/Software/libevdev",
+    "o": "libevdev"
+  },
+  {
+    "P": "libexpat",
+    "V": "2.8.5-r0",
+    "C": "Q1H6vHuQDzoSWyIP9VB9qmd331BI0=",
+    "L": "MIT",
+    "U": "https://libexpat.github.io/",
+    "o": "expat"
+  },
+  {
+    "P": "libffi",
+    "V": "3.5.2-r1",
+    "C": "Q1L3smH3/OzE7r2LMw5/b7gHE7/jo=",
+    "L": "MIT",
+    "U": "https://sourceware.org/libffi/",
+    "o": "libffi"
+  },
+  {
+    "P": "libfontenc",
+    "V": "1.1.9-r0",
+    "C": "Q1gXjyiLZrW+NvqMyiPTnozLiZylI=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libfontenc"
+  },
+  {
+    "P": "libgcc",
+    "V": "15.2.0-r5",
+    "C": "Q1N5wVbFPgzBQOh8ecCj3SK27lFVI=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://gcc.gnu.org",
+    "o": "gcc"
+  },
+  {
+    "P": "libgcc-static",
+    "V": "15.2.0-r5",
+    "C": "Q1LSywFilrZ7CEu/f6MfIEV5TB+sY=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://gcc.gnu.org",
+    "o": "gcc"
+  },
+  {
+    "P": "libglycin",
+    "V": "2.1.5-r0",
+    "C": "Q1K3be5FKNDfRjM7DY29ksexKxB/Y=",
+    "L": "MPL-2.0 OR LGPL-2.0-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/glycin",
+    "o": "libglycin"
+  },
+  {
+    "P": "libgomp",
+    "V": "15.2.0-r5",
+    "C": "Q1pQKGM0/KCNQbVAnY4xg2u5d+RbI=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://gcc.gnu.org",
+    "o": "gcc"
+  },
+  {
+    "P": "libhangul",
+    "V": "0.2.0-r0",
+    "C": "Q1P6MxhomxQkPdK2LmKawiLfM8Qyw=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/libhangul/libhangul",
+    "o": "libhangul"
+  },
+  {
+    "P": "libheif",
+    "V": "1.23.4-r0",
+    "C": "Q185xvnod0m6NPquJIiXN9Oc2QRJg=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-aom",
+    "V": "1.23.4-r0",
+    "C": "Q1u8VBcg3q9ujycaRwTZxRYNX+LIk=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-dav1d",
+    "V": "1.23.4-r0",
+    "C": "Q1XbMTx0vbeeIwgGvnpUMuQRcmwZw=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-ffmpeg",
+    "V": "1.23.4-r0",
+    "C": "Q1n/RrQjdk31un+MXmF66qbukj6XI=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-jpeg",
+    "V": "1.23.4-r0",
+    "C": "Q1XVQFvWfa/unil6lL9BEiLQlR9s8=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-libde265",
+    "V": "1.23.4-r0",
+    "C": "Q1UB5GRx63F75o1Tb4lbX/LKhEWNc=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-rav1e",
+    "V": "1.23.4-r0",
+    "C": "Q1vzjgoMToTw9rTd/hKh3I4I8EuB4=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-svtenc",
+    "V": "1.23.4-r0",
+    "C": "Q1/p5qSfyE0YHUG5XcG67YKcbVdKE=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-x264",
+    "V": "1.23.4-r0",
+    "C": "Q1f8P0WPw89S1vMWHt/FTbDf4dzDA=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libheif-x265",
+    "V": "1.23.4-r0",
+    "C": "Q17ABshpc8VZu9woaK3bdkyb0093I=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.libde265.org/",
+    "o": "libheif"
+  },
+  {
+    "P": "libhwy",
+    "V": "1.3.0-r0",
+    "C": "Q1GAAQbZLPQhQb7vW+q2kLsPICeUM=",
+    "L": "Apache-2.0",
+    "U": "https://github.com/google/highway",
+    "o": "highway"
+  },
+  {
+    "P": "libice",
+    "V": "1.1.2-r0",
+    "C": "Q1gqfVlQBMOcjx70za4Vc8eRaQoF0=",
+    "L": "X11",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libice"
+  },
+  {
+    "P": "libid3tag",
+    "V": "0.16.3-r0",
+    "C": "Q1vE2kJinDvMe7smgwlINASfomZPg=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://codeberg.org/tenacityteam/libid3tag",
+    "o": "libid3tag"
+  },
+  {
+    "P": "libidn2",
+    "V": "2.3.8-r0",
+    "C": "Q1WADRTOieFhSPTMwt90I1znrt+AA=",
+    "L": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "U": "https://www.gnu.org/software/libidn#libidn2",
+    "o": "libidn2"
+  },
+  {
+    "P": "libime",
+    "V": "1.1.14-r0",
+    "C": "Q10+XNsKfLKhkPDjy9FitnmQ967oE=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/fcitx/libime",
+    "o": "libime"
+  },
+  {
+    "P": "libinput-libs",
+    "V": "1.31.3-r0",
+    "C": "Q1BSKQigpXcvVkWtqW0NlGMb0GWHQ=",
+    "L": "MIT",
+    "U": "https://www.freedesktop.org/wiki/Software/libinput",
+    "o": "libinput"
+  },
+  {
+    "P": "libinput-udev",
+    "V": "1.31.3-r0",
+    "C": "Q1dESQXqqIqL3cqvT4PagAzhYVgQ0=",
+    "L": "MIT",
+    "U": "https://www.freedesktop.org/wiki/Software/libinput",
+    "o": "libinput"
+  },
+  {
+    "P": "libintl",
+    "V": "1.0-r0",
+    "C": "Q1KC1mQsyshyN+Q6hkFZ1zz1q+dVA=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.gnu.org/software/gettext/gettext.html",
+    "o": "gettext"
+  },
+  {
+    "P": "libjpeg-turbo",
+    "V": "3.1.3-r0",
+    "C": "Q1XoUYPAUnQ5Fs2YfIwwW3cJrMu9k=",
+    "L": "BSD-3-Clause AND IJG AND Zlib",
+    "U": "https://libjpeg-turbo.org/",
+    "o": "libjpeg-turbo"
+  },
+  {
+    "P": "libjxl",
+    "V": "0.11.2-r1",
+    "C": "Q10z/SwefqrLFA3fS52GgPIRbOnts=",
+    "L": "Apache-2.0",
+    "U": "https://jpeg.org/jpegxl/",
+    "o": "libjxl"
+  },
+  {
+    "P": "libm17n-core",
+    "V": "1.8.6-r1",
+    "C": "Q1MXem0zXuKY5OhsKhGjN+dXogFpI=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.nongnu.org/m17n/",
+    "o": "m17n-lib"
+  },
+  {
+    "P": "libm17n-flt",
+    "V": "1.8.6-r1",
+    "C": "Q1MinjeG1vewceoi9UauTfwubXUz0=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.nongnu.org/m17n/",
+    "o": "m17n-lib"
+  },
+  {
+    "P": "libmagic",
+    "V": "5.47-r2",
+    "C": "Q1ltPuxLs43HElRQ0kbH7Cm2J0cJc=",
+    "L": "BSD-2-Clause",
+    "U": "https://www.darwinsys.com/file/",
+    "o": "file"
+  },
+  {
+    "P": "libmarisa",
+    "V": "0.2.6-r8",
+    "C": "Q1aXz4W6wdbDYEuR2yQpGzZ/b2irc=",
+    "L": "BSD-2-Clause OR LGPL-2.1-or-later",
+    "U": "https://github.com/s-yata/marisa-trie",
+    "o": "libmarisa"
+  },
+  {
+    "P": "libmd",
+    "V": "1.2.0-r0",
+    "C": "Q1NHil8cK7mbjgH+nwTRdcKuhuC/M=",
+    "L": "BSD-3-Clause AND BSD-2-Clause AND ISC AND Beerware AND Public Domain",
+    "U": "https://www.hadrons.org/software/libmd/",
+    "o": "libmd"
+  },
+  {
+    "P": "libmount",
+    "V": "2.42.3-r1",
+    "C": "Q1wo9h/WfRT1pMKoyHQWQgQ4Jxykw=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+    "o": "util-linux"
+  },
+  {
+    "P": "libncursesw",
+    "V": "6.6_p20260516-r0",
+    "C": "Q1nzGObjJNaCcnSCkZTPasavut7RI=",
+    "L": "X11",
+    "U": "https://invisible-island.net/ncurses/",
+    "o": "ncurses"
+  },
+  {
+    "P": "libnotify",
+    "V": "0.8.8-r0",
+    "C": "Q1rrLmCyQDXvFHSGHAw4e+nbf0BPI=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/libnotify",
+    "o": "libnotify"
+  },
+  {
+    "P": "libogg",
+    "V": "1.3.6-r0",
+    "C": "Q1VaET5Bz6akl4cJ1GNKuzYAwNfDw=",
+    "L": "BSD-3-Clause",
+    "U": "https://xiph.org/ogg/",
+    "o": "libogg"
+  },
+  {
+    "P": "libopenmpt",
+    "V": "0.8.9-r0",
+    "C": "Q1YcT6doOomHMMIfNrDteEv9oWz60=",
+    "L": "BSD-3-Clause",
+    "U": "https://lib.openmpt.org/libopenmpt/",
+    "o": "libopenmpt"
+  },
+  {
+    "P": "libpanelw",
+    "V": "6.6_p20260516-r0",
+    "C": "Q1FJvcQ0Iy7RH8W7l1ulGaBxVKb1Y=",
+    "L": "X11",
+    "U": "https://invisible-island.net/ncurses/",
+    "o": "ncurses"
+  },
+  {
+    "P": "libpciaccess",
+    "V": "0.19-r0",
+    "C": "Q1uL2CK0H32JRLgUg9qtWLM2RuDfg=",
+    "L": "X11",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libpciaccess"
+  },
+  {
+    "P": "libpcre2-16",
+    "V": "10.49-r0",
+    "C": "Q1cdO9sqg6KjxRzv1SKY2Gdv1qPRY=",
+    "L": "BSD-3-Clause",
+    "U": "https://pcre.org/",
+    "o": "pcre2"
+  },
+  {
+    "P": "libpng",
+    "V": "1.6.59-r0",
+    "C": "Q1qtsPrh9nP39XxYLvdXFAUOykO5I=",
+    "L": "Libpng",
+    "U": "http://www.libpng.org",
+    "o": "libpng"
+  },
+  {
+    "P": "libproxy",
+    "V": "0.5.12-r0",
+    "C": "Q1Xh+EoV6teIPVlXCk+sBJNifXqeA=",
+    "L": "LGPL-2.0-or-later",
+    "U": "https://github.com/libproxy/libproxy",
+    "o": "libproxy"
+  },
+  {
+    "P": "libpsl",
+    "V": "0.21.5-r3",
+    "C": "Q1pVHd1dbLORPhofR7AvIa4Gi16Qo=",
+    "L": "MIT",
+    "U": "https://rockdaboot.github.io/libpsl",
+    "o": "libpsl"
+  },
+  {
+    "P": "librime",
+    "V": "1.17.0-r0",
+    "C": "Q1UMmRxL/IR1/VXjQDiRWmsdjdyyk=",
+    "L": "BSD-3-Clause",
+    "U": "https://github.com/rime/librime",
+    "o": "librime"
+  },
+  {
+    "P": "librist",
+    "V": "0.2.15-r0",
+    "C": "Q1IFoK7O3TwFvfT2KBczLbdRu8CvU=",
+    "L": "BSD-2-Clause",
+    "U": "https://www.rist.tv/",
+    "o": "librist"
+  },
+  {
+    "P": "librsvg",
+    "V": "2.62.3-r0",
+    "C": "Q1j5F0Hc9LJY4VeXZAq8WfuKmoo0k=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://gitlab.gnome.org/GNOME/librsvg",
+    "o": "librsvg"
+  },
+  {
+    "P": "libseccomp",
+    "V": "2.6.0-r2",
+    "C": "Q1dUKN/JfR4Pf5WJv6EARbp/upgsk=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/seccomp/libseccomp",
+    "o": "libseccomp"
+  },
+  {
+    "P": "libsharpyuv",
+    "V": "1.6.0-r0",
+    "C": "Q1trZ9j68zMdqH8tS/RCaKY/wYkkk=",
+    "L": "BSD-3-Clause",
+    "U": "https://developers.google.com/speed/webp",
+    "o": "libwebp"
+  },
+  {
+    "P": "libsm",
+    "V": "1.2.6-r0",
+    "C": "Q1rBqHA6oP4lVu2xMwkpIbuQ+JxsM=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libsm"
+  },
+  {
+    "P": "libsodium",
+    "V": "1.0.22-r0",
+    "C": "Q15b+nuMfgY59E1X1KqsJiHkZSOq0=",
+    "L": "ISC",
+    "U": "https://github.com/jedisct1/libsodium",
+    "o": "libsodium"
+  },
+  {
+    "P": "libsrt",
+    "V": "1.5.3-r1",
+    "C": "Q1uO3ttRMwMztoTIfjO98267CopVk=",
+    "L": "MPL-2.0",
+    "U": "https://www.srtalliance.org/",
+    "o": "libsrt"
+  },
+  {
+    "P": "libssh",
+    "V": "0.12.2-r0",
+    "C": "Q1rFOgvxOnMiD1Kx237ML6O0MiuwA=",
+    "L": "LGPL-2.1-or-later BSD-2-Clause",
+    "U": "https://www.libssh.org/",
+    "o": "libssh"
+  },
+  {
+    "P": "libssl3",
+    "V": "3.5.9-r0",
+    "C": "Q1IMTJDqnSCp3ToE3q3yxsT2QjNkM=",
+    "L": "Apache-2.0",
+    "U": "https://www.openssl.org/",
+    "o": "openssl"
+  },
+  {
+    "P": "libstdc++",
+    "V": "15.2.0-r5",
+    "C": "Q1X3oq12RhKLoCzA1vuUZytoRWSNU=",
+    "L": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "U": "https://gcc.gnu.org",
+    "o": "gcc"
+  },
+  {
+    "P": "libSvtAv1Enc",
+    "V": "4.1.0-r0",
+    "C": "Q1xDjDWsyR8GUVUIXmelGaaAZBf4c=",
+    "L": "BSD-3-Clause-Clear",
+    "U": "https://gitlab.com/AOMediaCodec/SVT-AV1",
+    "o": "svt-av1"
+  },
+  {
+    "P": "libtasn1",
+    "V": "4.21.0-r0",
+    "C": "Q1xRqnsk0Fo1SoN+/7lK672EKQzm8=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.gnu.org/software/gnutls/",
+    "o": "libtasn1"
+  },
+  {
+    "P": "libthai",
+    "V": "0.1.30-r1",
+    "C": "Q1sfHVaEJt6CbejGF8gs9+1UpYeIc=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://github.com/tlwg/libthai",
+    "o": "libthai"
+  },
+  {
+    "P": "libtheora",
+    "V": "1.2.0-r1",
+    "C": "Q1TiKmMjCXl/a+g44HUcBE2gBkGyc=",
+    "L": "BSD-3-Clause",
+    "U": "https://www.xiph.org",
+    "o": "libtheora"
+  },
+  {
+    "P": "libudfread",
+    "V": "1.2.0-r1",
+    "C": "Q1vabiwrjlgHeTsdKAaym6KipjcD4=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://code.videolan.org/videolan/libudfread",
+    "o": "libudfread"
+  },
+  {
+    "P": "libunistring",
+    "V": "1.4.2-r0",
+    "C": "Q19QnIAdBw+OqfdADVCTyIj/H+4C4=",
+    "L": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "U": "https://www.gnu.org/software/libunistring/",
+    "o": "libunistring"
+  },
+  {
+    "P": "libunwind",
+    "V": "1.8.3-r0",
+    "C": "Q1EUdNAxX4rwQq1saw5tmnC9UvtYM=",
+    "L": "MIT",
+    "U": "https://www.nongnu.org/libunwind/",
+    "o": "libunwind"
+  },
+  {
+    "P": "libuuid",
+    "V": "2.42.3-r1",
+    "C": "Q1jwQe9jetdfOBzAwDTyr7uwMDJk4=",
+    "L": "BSD-3-Clause",
+    "U": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+    "o": "util-linux"
+  },
+  {
+    "P": "libuv",
+    "V": "1.52.1-r0",
+    "C": "Q1htHtaGu526x5ZXLBpvOUAO1pAA0=",
+    "L": "MIT",
+    "U": "https://libuv.org/",
+    "o": "libuv"
+  },
+  {
+    "P": "libva",
+    "V": "2.23.0-r0",
+    "C": "Q1KCyIfyfDpFH6lCtnp1bxfI7pl1Q=",
+    "L": "MIT",
+    "U": "https://01.org/linuxmedia",
+    "o": "libva"
+  },
+  {
+    "P": "libvdpau",
+    "V": "1.5-r4",
+    "C": "Q1w6C71Z6nWUi2Jvi0duZoIv8dJ+U=",
+    "L": "MIT",
+    "U": "https://gitlab.freedesktop.org/vdpau/libvdpau",
+    "o": "libvdpau"
+  },
+  {
+    "P": "libvorbis",
+    "V": "1.3.7-r2",
+    "C": "Q1WJhCIqu4fgL3OkjP953HUoC/QzU=",
+    "L": "BSD-3-Clause",
+    "U": "https://xiph.org/vorbis",
+    "o": "libvorbis"
+  },
+  {
+    "P": "libvpl",
+    "V": "2.15.0-r1",
+    "C": "Q1xhv0pU51kqTI9argQ4i2z9hMZnw=",
+    "L": "MIT",
+    "U": "https://github.com/intel/libvpl",
+    "o": "libvpl"
+  },
+  {
+    "P": "libvpx",
+    "V": "1.15.2-r1",
+    "C": "Q1LQqE6Z+DqGR4+324XIj6qKF++Pw=",
+    "L": "BSD-3-Clause",
+    "U": "https://www.webmproject.org/",
+    "o": "libvpx"
+  },
+  {
+    "P": "libwebp",
+    "V": "1.6.0-r0",
+    "C": "Q1R8iOacTO/eYdlBdKzosRtSmHEso=",
+    "L": "BSD-3-Clause",
+    "U": "https://developers.google.com/speed/webp",
+    "o": "libwebp"
+  },
+  {
+    "P": "libwebpdemux",
+    "V": "1.6.0-r0",
+    "C": "Q1UM/N+cqAZ+PIN/tvVcw47h/M8To=",
+    "L": "BSD-3-Clause",
+    "U": "https://developers.google.com/speed/webp",
+    "o": "libwebp"
+  },
+  {
+    "P": "libwebpmux",
+    "V": "1.6.0-r0",
+    "C": "Q1J5EVeQdIvG6K4K0RuPuDPxy2/EE=",
+    "L": "BSD-3-Clause",
+    "U": "https://developers.google.com/speed/webp",
+    "o": "libwebp"
+  },
+  {
+    "P": "libx11",
+    "V": "1.8.13-r0",
+    "C": "Q1LdyNF7O7mkXtXKt43TvITXj8otA=",
+    "L": "X11",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libx11"
+  },
+  {
+    "P": "libxau",
+    "V": "1.0.12-r0",
+    "C": "Q1T7YttHMkJFjfa81G/zrQjSqogDg=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxau"
+  },
+  {
+    "P": "libxaw",
+    "V": "1.0.16-r1",
+    "C": "Q13N3+9tEZ/WdGcmFseYwKaHLXsxc=",
+    "L": "MIT",
+    "U": "https://www.x.org/",
+    "o": "libxaw"
+  },
+  {
+    "P": "libxcb",
+    "V": "1.17.0-r2",
+    "C": "Q1jKp0ng0vxHiOBwaTAmKsgdnNDhA=",
+    "L": "MIT",
+    "U": "https://xcb.freedesktop.org/",
+    "o": "libxcb"
+  },
+  {
+    "P": "libxcomposite",
+    "V": "0.4.7-r0",
+    "C": "Q1nDxMW+Jn1vLxTlo9PsuyEA6r7Jg=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxcomposite"
+  },
+  {
+    "P": "libxcursor",
+    "V": "1.2.3-r0",
+    "C": "Q1nT223QbM/EwANHlF5vleRjKOTMM=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxcursor"
+  },
+  {
+    "P": "libxcvt",
+    "V": "0.1.3-r0",
+    "C": "Q1PYdBppEocGqfmmCWgrgr9I93TLU=",
+    "L": "custom",
+    "U": "https://gitlab.freedesktop.org/xorg/lib/libxcvt",
+    "o": "libxcvt"
+  },
+  {
+    "P": "libxdamage",
+    "V": "1.1.7-r0",
+    "C": "Q1ua/w9Hq4smSs+KPK6+rhVEOfqmU=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxdamage"
+  },
+  {
+    "P": "libxdmcp",
+    "V": "1.1.5-r1",
+    "C": "Q1IE5BPAIitq56lK3FO5BX01Nv0gA=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxdmcp"
+  },
+  {
+    "P": "libxext",
+    "V": "1.3.7-r0",
+    "C": "Q1b2MeKzO2ZKVGs6Gn3WWAW4d2vvA=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxext"
+  },
+  {
+    "P": "libxfixes",
+    "V": "6.0.2-r0",
+    "C": "Q1YnmzvrZmxx7WHqZGSYi5MOKepBQ=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxfixes"
+  },
+  {
+    "P": "libxfont2",
+    "V": "2.0.8-r0",
+    "C": "Q1HUDoWKmdpDXCHDQUvcq33/n6pgc=",
+    "L": "MIT",
+    "U": "https://www.x.org",
+    "o": "libxfont2"
+  },
+  {
+    "P": "libxft",
+    "V": "2.3.9-r0",
+    "C": "Q1C2HfCg7rpmq+u+TvmD9kQ4y5n7s=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxft"
+  },
+  {
+    "P": "libxi",
+    "V": "1.8.3-r0",
+    "C": "Q12itLPrMOz7XHswX9xRebNjUnRY0=",
+    "L": "MIT AND X11",
+    "U": "https://www.x.org",
+    "o": "libxi"
+  },
+  {
+    "P": "libxinerama",
+    "V": "1.1.6-r0",
+    "C": "Q1X52Kyh8cfOkA/MPF16ynphurZSk=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxinerama"
+  },
+  {
+    "P": "libxkbcommon",
+    "V": "1.13.1-r0",
+    "C": "Q1k65kXTCa2xzAK3z99tuh6ZUcGmg=",
+    "L": "MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND LicenseRef-digital-equipment-corporation",
+    "U": "https://xkbcommon.org/",
+    "o": "libxkbcommon"
+  },
+  {
+    "P": "libxkbcommon-x11",
+    "V": "1.13.1-r0",
+    "C": "Q1NW+F69X3vkPyo2vIX0wCBmD0p1k=",
+    "L": "MIT AND MIT-open-group AND HPND AND HPND-sell-variant AND LicenseRef-digital-equipment-corporation",
+    "U": "https://xkbcommon.org/",
+    "o": "libxkbcommon"
+  },
+  {
+    "P": "libxkbfile",
+    "V": "1.2.0-r0",
+    "C": "Q1xbhk/KUtXGm1AgIWeF+4I5uzQY4=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxkbfile"
+  },
+  {
+    "P": "libxml2",
+    "V": "2.13.9-r2",
+    "C": "Q1wsLLRGR93IyCrnjIrKm9StWnNto=",
+    "L": "MIT",
+    "U": "https://gitlab.gnome.org/GNOME/libxml2",
+    "o": "libxml2"
+  },
+  {
+    "P": "libxmu",
+    "V": "1.3.1-r0",
+    "C": "Q1iYAdsAq4sFrBVA3Ev/eBEDoZ5W8=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxmu"
+  },
+  {
+    "P": "libxpm",
+    "V": "3.5.19-r0",
+    "C": "Q14j/h6IeBQw2zR6Z7NNll+67xskU=",
+    "L": "X11",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxpm"
+  },
+  {
+    "P": "libxrandr",
+    "V": "1.5.5-r0",
+    "C": "Q1i0+76U2qePA1XSC599zZClNzDvU=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxrandr"
+  },
+  {
+    "P": "libxrender",
+    "V": "0.9.12-r0",
+    "C": "Q1+OocEoQngK4men+uK/V5HBYJM+E=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxrender"
+  },
+  {
+    "P": "libxshmfence",
+    "V": "1.3.3-r0",
+    "C": "Q1IyjDGlzmb5PmueK1VpEIK4uC8+0=",
+    "L": "MIT",
+    "U": "https://www.x.org/",
+    "o": "libxshmfence"
+  },
+  {
+    "P": "libxslt",
+    "V": "1.1.43-r3",
+    "C": "Q1p4oclqpPSnY6uNLusoVzTAOH6zE=",
+    "L": "X11",
+    "U": "http://xmlsoft.org/XSLT/",
+    "o": "libxslt"
+  },
+  {
+    "P": "libxt",
+    "V": "1.3.1-r0",
+    "C": "Q1GxlGTAr4L6FAk1RUQPVVXWfIq7o=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxt"
+  },
+  {
+    "P": "libxtst",
+    "V": "1.2.5-r0",
+    "C": "Q1dIGe5keFtcue0XURgZuAjPGITHU=",
+    "L": "MIT",
+    "U": "https://wiki.freedesktop.org/xorg/",
+    "o": "libxtst"
+  },
+  {
+    "P": "libxxf86vm",
+    "V": "1.1.7-r0",
+    "C": "Q1iPhbFxSAdNY6/ZgAbqVxrHdQMd4=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "libxxf86vm"
+  },
+  {
+    "P": "libzmq",
+    "V": "4.3.5-r2",
+    "C": "Q1CL3OqVq5/qdC46wfdJ5qmSJ/nbU=",
+    "L": "MPL-2.0",
+    "U": "https://zeromq.org/",
+    "o": "zeromq"
+  },
+  {
+    "P": "linux-headers",
+    "V": "7.0.0-r1",
+    "C": "Q1TvmkpYrpdxlaXC3inH5jhFYWFDA=",
+    "L": "GPL-2.0-only",
+    "U": "https://kernel.org/",
+    "o": "linux-headers"
+  },
+  {
+    "P": "linux-virt",
+    "V": "6.18.55-r0",
+    "C": "Q1eJHzUB4k4FFlOkGiGWI8embguw4=",
+    "L": "GPL-2.0-only",
+    "U": "https://www.kernel.org",
+    "o": "linux-lts"
+  },
+  {
+    "P": "llvm22-libs",
+    "V": "22.1.3-r0",
+    "C": "Q1VF2MAgWKlu0OUghoP2kVGwUj4XU=",
+    "L": "Apache-2.0",
+    "U": "https://llvm.org/",
+    "o": "llvm22"
+  },
+  {
+    "P": "m17n-db",
+    "V": "1.8.11-r0",
+    "C": "Q1yW1iKODYviH9RAHdiZK/fg736cQ=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.nongnu.org/m17n/",
+    "o": "m17n-db"
+  },
+  {
+    "P": "m17n-lib",
+    "V": "1.8.6-r1",
+    "C": "Q1IphS+uA+fNW4c5l6Cn4Btd1JLqQ=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.nongnu.org/m17n/",
+    "o": "m17n-lib"
+  },
+  {
+    "P": "make",
+    "V": "4.4.1-r4",
+    "C": "Q16u7esOU7FzmPmdhm1ULM2FUDXoc=",
+    "L": "GPL-3.0-or-later",
+    "U": "https://www.gnu.org/software/make",
+    "o": "make"
+  },
+  {
+    "P": "mbedtls3",
+    "V": "3.6.7-r0",
+    "C": "Q1ykIMmHi7UI2INhimjybj0OYtKIo=",
+    "L": "Apache-2.0 OR GPL-2.0-or-later",
+    "U": "https://www.trustedfirmware.org/projects/mbed-tls/",
+    "o": "mbedtls3"
+  },
+  {
+    "P": "mcookie",
+    "V": "2.42.3-r1",
+    "C": "Q1aipauLuAAoMvK5tJAw7R95uIi6g=",
+    "L": "Public-Domain",
+    "U": "https://git.kernel.org/cgit/utils/util-linux/util-linux.git",
+    "o": "util-linux"
+  },
+  {
+    "P": "mdev-conf",
+    "V": "4.10-r0",
+    "C": "Q1KLmZv7/kWrWBUERvJrmnJvxXnRk=",
+    "L": "MIT",
+    "U": "https://gitlab.alpinelinux.org/alpine/mdev-conf",
+    "o": "mdev-conf"
+  },
+  {
+    "P": "mesa",
+    "V": "26.1.6-r0",
+    "C": "Q1Tu9nmlrTDgDYldiNCVYUmPHxGTc=",
+    "L": "MIT AND SGI-B-2.0 AND BSL-1.0",
+    "U": "https://www.mesa3d.org",
+    "o": "mesa"
+  },
+  {
+    "P": "mesa-dri-gallium",
+    "V": "26.1.6-r0",
+    "C": "Q1ItlR3mzyFcop3BQqqUinx4xlmF4=",
+    "L": "MIT AND SGI-B-2.0 AND BSL-1.0",
+    "U": "https://www.mesa3d.org",
+    "o": "mesa"
+  },
+  {
+    "P": "mesa-egl",
+    "V": "26.1.6-r0",
+    "C": "Q1Vaxdi5YOkA7PHNjslvSftOdnhwY=",
+    "L": "MIT AND SGI-B-2.0 AND BSL-1.0",
+    "U": "https://www.mesa3d.org",
+    "o": "mesa"
+  },
+  {
+    "P": "mesa-gbm",
+    "V": "26.1.6-r0",
+    "C": "Q1tKou9z8Qtn5nispIQrJ4oP0c+uM=",
+    "L": "MIT AND SGI-B-2.0 AND BSL-1.0",
+    "U": "https://www.mesa3d.org",
+    "o": "mesa"
+  },
+  {
+    "P": "mesa-gl",
+    "V": "26.1.6-r0",
+    "C": "Q1QCXfMfeZizpV8k980YRLObPSslQ=",
+    "L": "MIT AND SGI-B-2.0 AND BSL-1.0",
+    "U": "https://www.mesa3d.org",
+    "o": "mesa"
+  },
+  {
+    "P": "mesa-gles",
+    "V": "26.1.6-r0",
+    "C": "Q1UXgGeddpJXhUidiEDZNqXJSeplw=",
+    "L": "MIT AND SGI-B-2.0 AND BSL-1.0",
+    "U": "https://www.mesa3d.org",
+    "o": "mesa"
+  },
+  {
+    "P": "minizip",
+    "V": "1.3.2-r1",
+    "C": "Q1HyTUS8GLLhP5uJ3gG38F7an2BW4=",
+    "L": "Zlib",
+    "U": "https://zlib.net/",
+    "o": "minizip"
+  },
+  {
+    "P": "mkfontscale",
+    "V": "1.2.4-r0",
+    "C": "Q1IEr/eAn2vx3CUim23zL477B3xK0=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "mkfontscale"
+  },
+  {
+    "P": "mkinitfs",
+    "V": "3.14.1-r0",
+    "C": "Q1FSXn2c9DQmwOAywLCKxii9NbU2w=",
+    "L": "GPL-2.0-only",
+    "U": "https://gitlab.alpinelinux.org/alpine/mkinitfs",
+    "o": "mkinitfs"
+  },
+  {
+    "P": "mpc1",
+    "V": "1.3.1-r1",
+    "C": "Q1zoHFOiiws36XfRdKmvFr3Q6g86U=",
+    "L": "LGPL-3.0-or-later",
+    "U": "http://www.multiprecision.org/",
+    "o": "mpc1"
+  },
+  {
+    "P": "mpdecimal",
+    "V": "4.0.1-r0",
+    "C": "Q1DIHOsOi1lms8MPVXtY2cb+RvbvY=",
+    "L": "BSD-2-Clause",
+    "U": "https://www.bytereef.org/mpdecimal/index.html",
+    "o": "mpdecimal"
+  },
+  {
+    "P": "mpfr4",
+    "V": "4.2.2-r0",
+    "C": "Q1WQj5oBtPWCI27xE1p9BXYXu0KnI=",
+    "L": "LGPL-3.0-or-later",
+    "U": "https://www.mpfr.org/",
+    "o": "mpfr4"
+  },
+  {
+    "P": "mpg123-libs",
+    "V": "1.33.5-r0",
+    "C": "Q1YXsRtLXGCK9yVWd/kJmkt6zXQpA=",
+    "L": "LGPL-2.1-only",
+    "U": "https://www.mpg123.org/",
+    "o": "mpg123"
+  },
+  {
+    "P": "mtdev",
+    "V": "1.1.7-r0",
+    "C": "Q1YrMtgK+6kZoRAU479PQ5KLNs8c0=",
+    "L": "MIT",
+    "U": "http://bitmath.org/code/mtdev/",
+    "o": "mtdev"
+  },
+  {
+    "P": "musl",
+    "V": "1.2.6-r2",
+    "C": "Q1D35YJ+ThpzYxvtont4QxqLokDgU=",
+    "L": "MIT",
+    "U": "https://musl.libc.org/",
+    "o": "musl"
+  },
+  {
+    "P": "musl-dev",
+    "V": "1.2.6-r2",
+    "C": "Q1GLxvowsPniwgZS2WwkMNuxSTj0M=",
+    "L": "MIT",
+    "U": "https://musl.libc.org/",
+    "o": "musl"
+  },
+  {
+    "P": "ncurses-terminfo-base",
+    "V": "6.6_p20260516-r0",
+    "C": "Q1nVUdgo6cjuUsWAHB1gRoKOvxV1I=",
+    "L": "X11",
+    "U": "https://invisible-island.net/ncurses/",
+    "o": "ncurses"
+  },
+  {
+    "P": "nettle",
+    "V": "3.10.2-r0",
+    "C": "Q1pe98EdcWKxUmOG7aiHSLzR4SfRQ=",
+    "L": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "U": "https://www.lysator.liu.se/~nisse/nettle/",
+    "o": "nettle"
+  },
+  {
+    "P": "nghttp2-libs",
+    "V": "1.70.0-r0",
+    "C": "Q1Y70xm5rxw9PHMMlrBKiJlkaW82c=",
+    "L": "MIT",
+    "U": "https://nghttp2.org",
+    "o": "nghttp2"
+  },
+  {
+    "P": "nspr",
+    "V": "4.38.2-r0",
+    "C": "Q13wb4/JHmWkW3GbArgZb0nKITqhw=",
+    "L": "MPL-2.0",
+    "U": "https://www.mozilla.org/projects/nspr/",
+    "o": "nspr"
+  },
+  {
+    "P": "nss",
+    "V": "3.124-r0",
+    "C": "Q1vJybxhWPsYTPkxSCJ95GjjnEO7c=",
+    "L": "MPL-2.0",
+    "U": "https://developer.mozilla.org/docs/Mozilla/Projects/NSS",
+    "o": "nss"
+  },
+  {
+    "P": "numactl",
+    "V": "2.0.19-r0",
+    "C": "Q1PcAOVrefQ5JrXxK1PMPrntCQZ4Y=",
+    "L": "LGPL-2.1-only",
+    "U": "https://github.com/numactl/numactl",
+    "o": "numactl"
+  },
+  {
+    "P": "openbox",
+    "V": "3.6.1-r8",
+    "C": "Q179E35F8lkTwiK72j90BgAHPjl5A=",
+    "L": "GPL-2.0-or-later",
+    "U": "http://openbox.org",
+    "o": "openbox"
+  },
+  {
+    "P": "openbox-libs",
+    "V": "3.6.1-r8",
+    "C": "Q1mJHKsWKkekvT8914yDCf1OcnXoo=",
+    "L": "GPL-2.0-or-later",
+    "U": "http://openbox.org",
+    "o": "openbox"
+  },
+  {
+    "P": "opencc-libs",
+    "V": "1.3.1-r0",
+    "C": "Q1mcCZIAUygXsCp3KKhgRnvTIKaYA=",
+    "L": "Apache-2.0",
+    "U": "https://opencc.byvoid.com/",
+    "o": "opencc"
+  },
+  {
+    "P": "openjdk25",
+    "V": "25.0.4_p7-r0",
+    "C": "Q1UqlbL4LsowDCmlG64Yjs5gt/y4o=",
+    "L": "GPL-2.0-with-classpath-exception",
+    "U": "https://github.com/openjdk/jdk25u",
+    "o": "openjdk25"
+  },
+  {
+    "P": "openjdk25-demos",
+    "V": "25.0.4_p7-r0",
+    "C": "Q1ZElcSlNAVFowqD3Y/c7Dfd4Hsjg=",
+    "L": "GPL-2.0-with-classpath-exception",
+    "U": "https://github.com/openjdk/jdk25u",
+    "o": "openjdk25"
+  },
+  {
+    "P": "openjdk25-jdk",
+    "V": "25.0.4_p7-r0",
+    "C": "Q18Lr+AFMM8vchsII0rABegv5Q+5Y=",
+    "L": "GPL-2.0-with-classpath-exception",
+    "U": "https://github.com/openjdk/jdk25u",
+    "o": "openjdk25"
+  },
+  {
+    "P": "openjdk25-jmods",
+    "V": "25.0.4_p7-r0",
+    "C": "Q1LrwGDF4RUTYEAOWRVuT1Nkvle8E=",
+    "L": "GPL-2.0-with-classpath-exception",
+    "U": "https://github.com/openjdk/jdk25u",
+    "o": "openjdk25"
+  },
+  {
+    "P": "openjdk25-jre",
+    "V": "25.0.4_p7-r0",
+    "C": "Q1IiXuxUGNWIvVGPkpDXaH8CVGiKs=",
+    "L": "GPL-2.0-with-classpath-exception",
+    "U": "https://github.com/openjdk/jdk25u",
+    "o": "openjdk25"
+  },
+  {
+    "P": "openjdk25-jre-headless",
+    "V": "25.0.4_p7-r0",
+    "C": "Q14ze/vMJKr4VsWjyFRq9ccNURBCw=",
+    "L": "GPL-2.0-with-classpath-exception",
+    "U": "https://github.com/openjdk/jdk25u",
+    "o": "openjdk25"
+  },
+  {
+    "P": "opus",
+    "V": "1.6.1-r0",
+    "C": "Q1DHHBO1zyeGJTXduPomH5Yjx6iPI=",
+    "L": "BSD-3-Clause",
+    "U": "https://www.opus-codec.org/",
+    "o": "opus"
+  },
+  {
+    "P": "p11-kit",
+    "V": "0.26.2-r0",
+    "C": "Q1LnVzyqXTfa2bTyKUwAVGF6UIN8Q=",
+    "L": "BSD-3-Clause",
+    "U": "https://p11-glue.freedesktop.org/",
+    "o": "p11-kit"
+  },
+  {
+    "P": "p11-kit-trust",
+    "V": "0.26.2-r0",
+    "C": "Q1JonTuA880GnqDZNb3DIgj4CA9OA=",
+    "L": "BSD-3-Clause",
+    "U": "https://p11-glue.freedesktop.org/",
+    "o": "p11-kit"
+  },
+  {
+    "P": "pango",
+    "V": "1.57.1-r0",
+    "C": "Q1KX8rnmRg5JAp+2ru8bRq90Ei6/s=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.pango.org/",
+    "o": "pango"
+  },
+  {
+    "P": "pcre2",
+    "V": "10.49-r0",
+    "C": "Q17JkrALr3G7od2eIXlhP5IzrzXI0=",
+    "L": "BSD-3-Clause",
+    "U": "https://pcre.org/",
+    "o": "pcre2"
+  },
+  {
+    "P": "pixman",
+    "V": "0.46.4-r0",
+    "C": "Q17QqdMjF6NFxwcqertd9DGx5JFKs=",
+    "L": "MIT",
+    "U": "https://gitlab.freedesktop.org/pixman",
+    "o": "pixman"
+  },
+  {
+    "P": "pkgconf",
+    "V": "2.5.1-r0",
+    "C": "Q1B0VN8FiPJzB3eATqTdiQ3m4d/d4=",
+    "L": "ISC",
+    "U": "https://gitea.treehouse.systems/ariadne/pkgconf",
+    "o": "pkgconf"
+  },
+  {
+    "P": "py3-gobject3",
+    "V": "3.56.3-r0",
+    "C": "Q1IzbeoVWJmjVi/YLkMMjklRWQXxQ=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://pygobject.gnome.org",
+    "o": "py3-gobject3"
+  },
+  {
+    "P": "py3-gobject3-atspi",
+    "V": "2.60.5-r0",
+    "C": "Q1CIvClw5MrXziS0lN88nJ8TUkElk=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/",
+    "o": "at-spi2-core"
+  },
+  {
+    "P": "py3-gobject3-atspi-pyc",
+    "V": "2.60.5-r0",
+    "C": "Q1GduWAFl0yHbGxpdMgCBEYlEnYtM=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/",
+    "o": "at-spi2-core"
+  },
+  {
+    "P": "py3-gobject3-pyc",
+    "V": "3.56.3-r0",
+    "C": "Q1zrd6YjCVLwBoAUIors+USvEccvc=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://pygobject.gnome.org",
+    "o": "py3-gobject3"
+  },
+  {
+    "P": "pyc",
+    "V": "3.14.8-r0",
+    "C": "Q1wgaD0pVz4F1y7XtBGmZasGdmJu8=",
+    "L": "PSF-2.0",
+    "U": "https://www.python.org/",
+    "o": "python3"
+  },
+  {
+    "P": "python3",
+    "V": "3.14.8-r0",
+    "C": "Q1NN2I5sUMrXRCS/HMuJ8t3+9QOso=",
+    "L": "PSF-2.0",
+    "U": "https://www.python.org/",
+    "o": "python3"
+  },
+  {
+    "P": "python3-pyc",
+    "V": "3.14.8-r0",
+    "C": "Q1MgO/ybewDyjFtXMxB4S6JNXetqg=",
+    "L": "PSF-2.0",
+    "U": "https://www.python.org/",
+    "o": "python3"
+  },
+  {
+    "P": "python3-pycache-pyc0",
+    "V": "3.14.8-r0",
+    "C": "Q1MWKq8KirrFH8CR5AQjQy+sNiXXA=",
+    "L": "PSF-2.0",
+    "U": "https://www.python.org/",
+    "o": "python3"
+  },
+  {
+    "P": "qt6-qtbase",
+    "V": "6.11.1-r0",
+    "C": "Q1VVGtPv37HnVcS7Jc83kU/7UY7MY=",
+    "L": "LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0",
+    "U": "https://qt.io/",
+    "o": "qt6-qtbase"
+  },
+  {
+    "P": "qt6-qtbase-wayland",
+    "V": "6.11.1-r0",
+    "C": "Q16YrZ87yScwnNifx0CWT2xObpSuQ=",
+    "L": "LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0",
+    "U": "https://qt.io/",
+    "o": "qt6-qtbase"
+  },
+  {
+    "P": "qt6-qtbase-x11",
+    "V": "6.11.1-r0",
+    "C": "Q11DI5BQwGCuJugP/G0qL/+nPJDBQ=",
+    "L": "LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0",
+    "U": "https://qt.io/",
+    "o": "qt6-qtbase"
+  },
+  {
+    "P": "qt6-qtdeclarative",
+    "V": "6.11.1-r0",
+    "C": "Q1box8zSKAPfZxzbtcaP+WSzY2PbY=",
+    "L": "LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0",
+    "U": "https://qt.io/",
+    "o": "qt6-qtdeclarative"
+  },
+  {
+    "P": "qt6-qtpositioning",
+    "V": "6.11.1-r0",
+    "C": "Q1chohIfyCgFapmwCIJ/5liC2rjH8=",
+    "L": "LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0",
+    "U": "https://qt.io/",
+    "o": "qt6-qtpositioning"
+  },
+  {
+    "P": "qt6-qtsvg",
+    "V": "6.11.1-r0",
+    "C": "Q18Jq6l/7uQeaIeGeribbLdZTvLVI=",
+    "L": "LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0",
+    "U": "https://qt.io/",
+    "o": "qt6-qtsvg"
+  },
+  {
+    "P": "qt6-qtwebchannel",
+    "V": "6.11.1-r0",
+    "C": "Q1hxJBZjR53b90ohloywC6akSKCmA=",
+    "L": "LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0",
+    "U": "https://qt.io/",
+    "o": "qt6-qtwebchannel"
+  },
+  {
+    "P": "qt6-qtwebengine",
+    "V": "6.11.1-r3",
+    "C": "Q1WiATgnh19kmxFoRRLfbjaBZPQfM=",
+    "L": "LGPL-2.1-only AND LGPL-3.0-only AND GPL-3.0-only AND Qt-GPL-exception-1.0",
+    "U": "https://qt.io/",
+    "o": "qt6-qtwebengine"
+  },
+  {
+    "P": "rav1e-libs",
+    "V": "0.8.1-r0",
+    "C": "Q14iG3pb7z45YtmbyOyO8dGzvQu58=",
+    "L": "BSD-2-Clause custom",
+    "U": "https://github.com/xiph/rav1e",
+    "o": "rav1e"
+  },
+  {
+    "P": "readline",
+    "V": "8.3.3-r1",
+    "C": "Q1lFsW43i8AORNidTegSS7p2R/300=",
+    "L": "GPL-3.0-or-later",
+    "U": "https://tiswww.cwru.edu/php/chet/readline/rltop.html",
+    "o": "readline"
+  },
+  {
+    "P": "scanelf",
+    "V": "1.3.9-r1",
+    "C": "Q1AT+QPQuiGWc6673QT3S7XtgrAfA=",
+    "L": "GPL-2.0-only",
+    "U": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+    "o": "pax-utils"
+  },
+  {
+    "P": "shared-mime-info",
+    "V": "2.4-r7",
+    "C": "Q1CKOncm+QpR3cJ6E+T1yzDlCrWuo=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://www.freedesktop.org/Software/shared-mime-info",
+    "o": "shared-mime-info"
+  },
+  {
+    "P": "snappy",
+    "V": "1.2.2-r0",
+    "C": "Q1KjidAXSm3ugspAUQY87qkyBXkes=",
+    "L": "BSD-3-Clause",
+    "U": "https://github.com/google/snappy",
+    "o": "snappy"
+  },
+  {
+    "P": "soxr",
+    "V": "0.1.3-r7",
+    "C": "Q1bG+ny1CcsBzuUORQajRz1iMSHX8=",
+    "L": "LGPL-2.1-or-later",
+    "U": "https://sourceforge.net/projects/soxr/",
+    "o": "soxr"
+  },
+  {
+    "P": "spirv-tools",
+    "V": "1.4.341.0-r0",
+    "C": "Q1ah36VvFW7hW2s05JJeiATjP6LJY=",
+    "L": "Apache-2.0",
+    "U": "https://github.com/KhronosGroup/SPIRV-Tools",
+    "o": "spirv-tools"
+  },
+  {
+    "P": "sqlite-libs",
+    "V": "3.53.4-r0",
+    "C": "Q192MM6zfCMrZgmGGuq2zbnNEg5vo=",
+    "L": "blessing",
+    "U": "https://www.sqlite.org/",
+    "o": "sqlite"
+  },
+  {
+    "P": "ssl_client",
+    "V": "1.37.0-r31",
+    "C": "Q1wiD0pRJaMTr3M+mN75QTK7Hp1A0=",
+    "L": "GPL-2.0-only",
+    "U": "https://busybox.net/",
+    "o": "busybox"
+  },
+  {
+    "P": "startup-notification",
+    "V": "0.12-r8",
+    "C": "Q1AQUN/ZY6nIlJjslnehXvHBKQO8s=",
+    "L": "LGPL-2.0-or-later",
+    "U": "https://www.freedesktop.org/wiki/Software/startup-notification",
+    "o": "startup-notification"
+  },
+  {
+    "P": "tiff",
+    "V": "4.7.1-r0",
+    "C": "Q1d8WdZ98T6Nq+XC6pRkVy4SkZ/RI=",
+    "L": "libtiff",
+    "U": "https://gitlab.com/libtiff/libtiff",
+    "o": "tiff"
+  },
+  {
+    "P": "tslib",
+    "V": "1.24-r0",
+    "C": "Q1dR7Pk67YwN9V7xOk+kwCXZiPJbc=",
+    "L": "LGPL-2.0-or-later",
+    "U": "https://github.com/libts/tslib",
+    "o": "tslib"
+  },
+  {
+    "P": "tzdata",
+    "V": "2026d-r0",
+    "C": "Q1kBGUnrcDysh/MTI6t4ZIYqu4qTY=",
+    "L": "Public-Domain",
+    "U": "https://www.iana.org/time-zones",
+    "o": "tzdata"
+  },
+  {
+    "P": "udev-init-scripts",
+    "V": "35-r1",
+    "C": "Q1++ay+gbE2EeVXJmQeBbqqV80P7I=",
+    "L": "GPL-2.0-only",
+    "U": "https://gitweb.gentoo.org/repo/gentoo.git/tree/sys-fs/udev-init-scripts",
+    "o": "udev-init-scripts"
+  },
+  {
+    "P": "util-macros",
+    "V": "1.20.2-r0",
+    "C": "Q11jZnWd46u1qZjq+jZOMXdIhgVYg=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org",
+    "o": "util-macros"
+  },
+  {
+    "P": "wayland-libs-client",
+    "V": "1.25.0-r0",
+    "C": "Q1fTb7CIYS4EZu7Vn4we6m01MCPS0=",
+    "L": "MIT",
+    "U": "https://wayland.freedesktop.org",
+    "o": "wayland"
+  },
+  {
+    "P": "wayland-libs-cursor",
+    "V": "1.25.0-r0",
+    "C": "Q1Wloy8D4SZvGerZWSUmKbN9nlP/s=",
+    "L": "MIT",
+    "U": "https://wayland.freedesktop.org",
+    "o": "wayland"
+  },
+  {
+    "P": "wayland-libs-egl",
+    "V": "1.25.0-r0",
+    "C": "Q1vcAomhyuZwEf1ZGQz3zu1zbUsuE=",
+    "L": "MIT",
+    "U": "https://wayland.freedesktop.org",
+    "o": "wayland"
+  },
+  {
+    "P": "x264-libs",
+    "V": "0.164.3108-r1",
+    "C": "Q1sbYPdIabvGVemIeMJtDVYKBi7pU=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://www.videolan.org/developers/x264.html",
+    "o": "x264"
+  },
+  {
+    "P": "x265-libs",
+    "V": "4.1-r0",
+    "C": "Q1bBdKRlA7sjMAMIttZn4xketqAZo=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://www.videolan.org/developers/x265.html",
+    "o": "x265"
+  },
+  {
+    "P": "xauth",
+    "V": "1.1.5-r0",
+    "C": "Q1sjbwGrAFqC8dlxF4HmG+QUSglBU=",
+    "L": "custom",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "xauth"
+  },
+  {
+    "P": "xcb-imdkit",
+    "V": "1.0.9-r1",
+    "C": "Q1ZAkywhVyHs19d5eP8BaPds0tNbA=",
+    "L": "LGPL-2.1-only",
+    "U": "https://github.com/fcitx/xcb-imdkit",
+    "o": "xcb-imdkit"
+  },
+  {
+    "P": "xcb-util",
+    "V": "0.4.1-r3",
+    "C": "Q13Aj4gOOJQPcKRXbYCvwU6nkXY7Y=",
+    "L": "MIT",
+    "U": "https://xcb.freedesktop.org/",
+    "o": "xcb-util"
+  },
+  {
+    "P": "xcb-util-cursor",
+    "V": "0.1.5-r0",
+    "C": "Q1t1u1z5WUtjNWqJuCmj9ynoZCKh0=",
+    "L": "MIT",
+    "U": "https://gitlab.freedesktop.org/xorg/lib/libxcb-cursor",
+    "o": "xcb-util-cursor"
+  },
+  {
+    "P": "xcb-util-image",
+    "V": "0.4.1-r0",
+    "C": "Q12iF55IoGksnjuNut59J3dXgjzLk=",
+    "L": "MIT",
+    "U": "https://xcb.freedesktop.org/",
+    "o": "xcb-util-image"
+  },
+  {
+    "P": "xcb-util-keysyms",
+    "V": "0.4.1-r0",
+    "C": "Q1X8WEnnCSaUAcsXX8wmdIcdo0WBg=",
+    "L": "MIT",
+    "U": "https://xcb.freedesktop.org/",
+    "o": "xcb-util-keysyms"
+  },
+  {
+    "P": "xcb-util-renderutil",
+    "V": "0.3.10-r0",
+    "C": "Q1kp3zftm3geCF7jhwUY6XAFQu0gg=",
+    "L": "MIT",
+    "U": "https://xcb.freedesktop.org/",
+    "o": "xcb-util-renderutil"
+  },
+  {
+    "P": "xcb-util-wm",
+    "V": "0.4.2-r0",
+    "C": "Q1JydNso7b3SfM3gavawahwyTt6gw=",
+    "L": "MIT",
+    "U": "https://xcb.freedesktop.org/",
+    "o": "xcb-util-wm"
+  },
+  {
+    "P": "xdg-utils",
+    "V": "1.2.1-r1",
+    "C": "Q1BR8t0Tsi3lHG/Qg00hSk18QPJaQ=",
+    "L": "MIT",
+    "U": "https://www.freedesktop.org/wiki/Software/xdg-utils/",
+    "o": "xdg-utils"
+  },
+  {
+    "P": "xf86-input-libinput",
+    "V": "1.5.0-r0",
+    "C": "Q1O6gLRMybXJGy8j3taebo/mxl71s=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org",
+    "o": "xf86-input-libinput"
+  },
+  {
+    "P": "xf86-video-fbdev",
+    "V": "0.5.0-r6",
+    "C": "Q1IrVW+uC79vuxvv05u0imWA6cr5k=",
+    "L": "MIT",
+    "U": "https://www.x.org",
+    "o": "xf86-video-fbdev"
+  },
+  {
+    "P": "xinit",
+    "V": "1.4.4-r0",
+    "C": "Q1z69KVobiX3ABRZfdpkLjrL6Ns98=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "xinit"
+  },
+  {
+    "P": "xkbcomp",
+    "V": "1.5.0-r0",
+    "C": "Q1spi4j0Win91q9Fvxv1d5qDteZ9U=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org",
+    "o": "xkbcomp"
+  },
+  {
+    "P": "xkeyboard-config",
+    "V": "2.47-r0",
+    "C": "Q1PfbagiMiXpAy99uo9SVbzfkrzqs=",
+    "L": "MIT",
+    "U": "https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config",
+    "o": "xkeyboard-config"
+  },
+  {
+    "P": "xmodmap",
+    "V": "1.0.11-r1",
+    "C": "Q1xD6t40p8C+rzTjJ7XaWak3bxx8E=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "xmodmap"
+  },
+  {
+    "P": "xorg-server",
+    "V": "21.1.24-r0",
+    "C": "Q1G8XO8Y03kLj9Mlm8sk2BNY+PYvE=",
+    "L": "MIT",
+    "U": "https://www.x.org/wiki",
+    "o": "xorg-server"
+  },
+  {
+    "P": "xorg-server-common",
+    "V": "21.1.24-r0",
+    "C": "Q1WWno3MyPdfkfONuOBgz+oyZkrIQ=",
+    "L": "MIT",
+    "U": "https://www.x.org/wiki",
+    "o": "xorg-server"
+  },
+  {
+    "P": "xprop",
+    "V": "1.2.8-r0",
+    "C": "Q1R+Dog1KvToHbCySOhyMqaWrp82M=",
+    "L": "MIT",
+    "U": "https://cgit.freedesktop.org/xorg/app/xprop",
+    "o": "xprop"
+  },
+  {
+    "P": "xrdb",
+    "V": "1.2.2-r0",
+    "C": "Q1ptSvsDNzaQL5hqEQS06LyE8RrSM=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "xrdb"
+  },
+  {
+    "P": "xset",
+    "V": "1.2.5-r1",
+    "C": "Q1T2E8vmv9nAeieWoM9ifTWT6c6jg=",
+    "L": "MIT",
+    "U": "https://xorg.freedesktop.org/",
+    "o": "xset"
+  },
+  {
+    "P": "xterm",
+    "V": "410-r0",
+    "C": "Q15d/GX4bRYyfEXGKiFmAV48YbFw4=",
+    "L": "MIT",
+    "U": "https://invisible-island.net/xterm",
+    "o": "xterm"
+  },
+  {
+    "P": "xvfb",
+    "V": "21.1.24-r0",
+    "C": "Q1t0wIlwB2YcdDYTE6R9o642ktrZI=",
+    "L": "MIT",
+    "U": "https://www.x.org/wiki",
+    "o": "xorg-server"
+  },
+  {
+    "P": "xvidcore",
+    "V": "1.3.7-r2",
+    "C": "Q1Kdouwbh2Er48RDeOWHxWBW2Rfm0=",
+    "L": "GPL-2.0-or-later",
+    "U": "https://www.xvid.com/",
+    "o": "xvidcore"
+  },
+  {
+    "P": "xz-libs",
+    "V": "5.8.4-r0",
+    "C": "Q1hQEGWxhighYwF0xmO0WXRGLCluE=",
+    "L": "GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later",
+    "U": "https://tukaani.org/xz/",
+    "o": "xz"
+  },
+  {
+    "P": "yaml-cpp",
+    "V": "0.9.0-r0",
+    "C": "Q1iBHaq72g/IgFmg5jmS2dXVYMV6s=",
+    "L": "MIT",
+    "U": "https://github.com/jbeder/yaml-cpp",
+    "o": "yaml-cpp"
+  },
+  {
+    "P": "zlib",
+    "V": "1.3.2-r0",
+    "C": "Q13Uw9ECrK7ypxoUlZUdVfq8hoBhM=",
+    "L": "Zlib",
+    "U": "https://zlib.net/",
+    "o": "zlib"
+  },
+  {
+    "P": "zstd-libs",
+    "V": "1.5.7-r2",
+    "C": "Q1lWnOOpfEEJ6OU93enz4b0nJhNUA=",
+    "L": "BSD-3-Clause OR GPL-2.0-or-later",
+    "U": "https://facebook.github.io/zstd/",
+    "o": "zstd"
+  }
+]

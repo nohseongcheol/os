@@ -1,0 +1,6 @@
+# import config
+packagefile 内存管理器=/home/user/worldos/나라/CHN/源代码/build/b020/_pkg_.a
+packagefile 分页管理=/home/user/worldos/나라/CHN/源代码/build/b031/_pkg_.a
+packagefile 工具=/home/user/worldos/나라/CHN/源代码/build/b030/_pkg_.a
+packagefile 控制台=/home/user/worldos/나라/CHN/源代码/build/b016/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHN/源代码/build/b000/_pkg_.a

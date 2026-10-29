@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	buka_fail	fungsi_VALUE	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	cipta_fail	fungsi_VALUE	Tulis 전용 jana 또는 Kandungan_VALUE buang_TOC	파일규약.h
+read	파일자료읽기	fungsi_VALUE	열린 대상에서 bait_VALUE 자료를 읽는다	파일규약.h
+write	tulis_fail_data	fungsi_VALUE	열린 대상에 bait_VALUE 자료를 쓴다	파일규약.h
+close	Tutup_fail	fungsi_VALUE	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	cari_fail	fungsi_VALUE	열린 파일의 I_O 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	fungsi_VALUE	같은 열린 Fail 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	fungsi_VALUE	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	alih_keluar_fail_pemasukan_nama	fungsi_VALUE	Nama 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	set_fail_kepanjangan	fungsi_VALUE	열린 파일의 bait_VALUE 길이를 정한다	파일규약.h
+fstat	파일상태읽기	fungsi_VALUE	열린 대상의 종류 Saiz 링크 수 등을 읽는다	파일규약.h
+fsync	lakukan_storan_fail	fungsi_VALUE	stor_VALUE 매체에 현재 Fail 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	fungsi_VALUE	서술자별 설정과 공유 Buka 설정을 다룬다	파일규약.h
+socket	cipta_peserta	fungsi_VALUE	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	ikat_e_mel	fungsi_VALUE	종단점에 setempat_Skop 주소와 접속번호를 묶는다	통신규약.h
+sendto	자료전문보내기	fungsi_VALUE	지정한 상대에게 전문 하나를 보낸다	통신규약.h
+recvfrom	자료전문받기	fungsi_VALUE	전문 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	fungsi_VALUE	setempat_Skop 종단점의 현재 주소를 읽는다	통신규약.h
+setsockopt	ubah_rangkaian_Seting	fungsi_VALUE	지원하는 수신 tunggu_VALUE 설정을 바꾼다	통신규약.h
+inet_pton	hurai_rangkaian_e_mel	fungsi_VALUE	digit_VALUE e_mel 문자열을 kes_VALUE 바이트로 해석한다	통신규약.h
+inet_ntop	format_rangkaian_e_mel	fungsi_VALUE	kes_VALUE 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	fungsi_VALUE	16비트 값을 망의 bait_VALUE 차례로 바꾼다	통신규약.h
+htonl	rangkaian_integer	fungsi_VALUE	32비트 값을 망의 bait_VALUE 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	fungsi_VALUE	16비트 값을 laksanakan_perintah 장치의 bait_VALUE 차례로 바꾼다	통신규약.h
+ntohl	peranti_tertib_integer	fungsi_VALUE	32비트 값을 laksanakan_perintah 장치의 bait_VALUE 차례로 바꾼다	통신규약.h
+errno	오류번호	pemboleh_ubah_VALUE	실패한 C 호출의 양수 RALAT INDEX	errno.h
+fd	파일서술자	pemboleh_ubah_VALUE	Proses_VALUE 안의 열린 대상을 식별하는 integer	fail_I_O.c
+count	bait_COUNT	pemboleh_ubah_VALUE	data 전송량의 단위가 바이트임을 드러낸다	fail_I_O.c
+offset	Ofset_VALUE	pemboleh_ubah_VALUE	projek_akar 위치에 더할 pengekodan_VALUE 있는 거리	fail_I_O.c
+flags	buka_Seting	pemboleh_ubah_VALUE	Fail capai_pemasukan 방식과 Buka Aksi	fail_I_O.c
+mode	허가	pemboleh_ubah_VALUE	jana 파일에 기록할 허가 bit_VALUE	fail_I_O.c
+timeout	수신대기밀리초	pemboleh_ubah_VALUE	수신 tunggu_VALUE 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	pemboleh_ubah_VALUE	UDP 종단점에 배정한 번호들	rangkaian_tindan.java
+통신장치.포트	rangkaian_pemacu.입출력기준주소	pemboleh_ubah_VALUE	NIC의 CPU I_O e_mel e_mel_rantau projek_akar	rangkaian_pemacu.java
+generation	세대번호	pemboleh_ubah_VALUE	성공한 stor_VALUE 시점의 tertib_VALUE	파일보존.java
+포트읽기	입출력바이트읽기	fungsi_VALUE	CPU I_O 주소에서 한 바이트를 읽는다	peranti_VALUE.java
+포트쓰기	입출력바이트쓰기	fungsi_VALUE	CPU I_O 주소에 한 바이트를 쓴다	peranti_VALUE.java
+포트정수읽기	입출력정수읽기	fungsi_VALUE	CPU I_O 주소에서 32비트를 읽는다	peranti_VALUE.java
+포트정수쓰기	입출력정수쓰기	fungsi_VALUE	CPU I_O 주소에 32비트를 쓴다	peranti_VALUE.java
+포트짧은쓰기	입출력짧은수쓰기	fungsi_VALUE	CPU I_O 주소에 16비트를 쓴다	peranti_VALUE.java
+메모리파일.java	Memori_sistem_fail.java	Fail·format_VALUE	주기억 내 Fail 자료와 이름을 관리한다	os/SUMBER
+통신장치.java	rangkaian_pemacu.java	Fail·format_VALUE	PCI 망장치를 찾아 초기화하고 송수신한다	os/SUMBER
+file I/O	fail_I_O.c	Fail	C 호출과 kernel_VALUE 파일서술자 호출의 경계	posix-kor/SUMBER/pelaksanaan
+socket interface	통신종단점.c	Fail	C 소켓과 kernel_VALUE 자료전문 기능의 경계	posix-kor/SUMBER/pelaksanaan
+syscall bridge	sistem_pengendalian_Panggilan.s	Fail	C 호출 규약과 kernel_VALUE 레지스터 규약의 경계	posix-kor/mesin
+startup	Mula_pengguna_aplikasi.s	Fail	ruang_pengguna 진입점에서 C main을 시작한다	posix-kor/mesin

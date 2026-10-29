@@ -1,0 +1,5 @@
+# WorldOS KHM UTF-8 command file
+echo "WorldOS KHM"
+help
+pwd
+pid

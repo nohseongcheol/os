@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "HTI",
+  "language": "ht",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

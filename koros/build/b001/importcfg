@@ -1,0 +1,27 @@
+# import config
+packagefile amd_am79c973=/home/user/koros/build/b002/_pkg_.a
+packagefile gdt=/home/user/koros/build/b004/_pkg_.a
+packagefile interrupt=/home/user/koros/build/b003/_pkg_.a
+packagefile pci=/home/user/koros/build/b022/_pkg_.a
+packagefile util=/home/user/koros/build/b024/_pkg_.a
+packagefile 구동장치들/고급기술결합=/home/user/koros/build/b025/_pkg_.a
+packagefile 구동장치들/마우스=/home/user/koros/build/b026/_pkg_.a
+packagefile 구동장치들/자판=/home/user/koros/build/b027/_pkg_.a
+packagefile 구동장치들/장치제어기관리자=/home/user/koros/build/b023/_pkg_.a
+packagefile 기억공간관리자=/home/user/koros/build/b021/_pkg_.a
+packagefile 단말기=/home/user/koros/build/b019/_pkg_.a
+packagefile 시스템호출=/home/user/koros/build/b028/_pkg_.a
+packagefile 작업관리자=/home/user/koros/build/b020/_pkg_.a
+packagefile 작업관리자/scheduler=/home/user/koros/build/b029/_pkg_.a
+packagefile 작업관리자/thread=/home/user/koros/build/b031/_pkg_.a
+packagefile 작업관리자/tss=/home/user/koros/build/b032/_pkg_.a
+packagefile 통신/사용자자료단위규약=/home/user/koros/build/b033/_pkg_.a
+packagefile 통신/상호통신망규약V4=/home/user/koros/build/b034/_pkg_.a
+packagefile 통신/상호통신망제어메시지규약=/home/user/koros/build/b037/_pkg_.a
+packagefile 통신/신호통신망형태=/home/user/koros/build/b035/_pkg_.a
+packagefile 통신/전송제어규약=/home/user/koros/build/b038/_pkg_.a
+packagefile 통신/주소결정규약=/home/user/koros/build/b036/_pkg_.a
+packagefile 파일시스템/MSDOS파티션=/home/user/koros/build/b039/_pkg_.a
+packagefile 파일시스템/elf=/home/user/koros/build/b040/_pkg_.a
+packagefile 파일시스템/fat=/home/user/koros/build/b041/_pkg_.a
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d

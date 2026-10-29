@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "SRB/sr_Latn",
+  "language": "sr_Latn",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

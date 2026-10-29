@@ -1,0 +1,3 @@
+# import config
+packagefile 共通=/home/user/worldos/나라/JPN/原始記述/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/JPN/原始記述/build/b000/_pkg_.a

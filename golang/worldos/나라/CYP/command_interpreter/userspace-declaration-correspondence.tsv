@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Κλείσιμο
+SYS_exit	SYS__exit
+SYS_open	SYS_Άνοιγμα
+SYS_read	SYS_Ανάγνωση
+SYS_write	SYS_Εγγραφή
+close	Κλείσιμο
+open	Άνοιγμα
+read	Ανάγνωση
+write	Εγγραφή

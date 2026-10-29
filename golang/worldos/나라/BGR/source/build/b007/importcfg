@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/45/451e5eb248262786b3e1d281afaa64b08a1db9506e830204a929e8de6bd12e0b-d
+packagefile порт=/home/user/.cache/go-build/31/319db170a3afb3d4a6720b52ca5adb1df23a4a819e386f42a054484cde1bef8e-d
+packagefile прекъсване=/home/user/worldos/나라/BGR/소스/build/b008/_pkg_.a
+packagefile системаcall=/home/user/worldos/나라/BGR/소스/build/b024/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BGR/소스/build/b000/_pkg_.a

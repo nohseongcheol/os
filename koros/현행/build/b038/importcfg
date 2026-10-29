@@ -1,0 +1,7 @@
+# import config
+packagefile util=/home/user/koros/현행/build/b023/_pkg_.a
+packagefile util/list=/home/user/koros/현행/build/b032/_pkg_.a
+packagefile 메모리매니저=/home/user/koros/현행/build/b021/_pkg_.a
+packagefile 태스킹/스레드=/home/user/koros/현행/build/b030/_pkg_.a
+packagefile 태스킹/스케줄러=/home/user/koros/현행/build/b031/_pkg_.a
+packagefile runtime/cgo=/home/user/koros/현행/build/b000/_pkg_.a

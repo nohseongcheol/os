@@ -1,0 +1,29 @@
+/* A real Linux AArch64 static ELF example. No jkoros headers or ABI note. */
+static long 호출(long Dizin, long 가, long SANİYE_işlenen, long 다, long 라) {
+    register long yazmaç_sıfır __asm__("x0")=가, 저장기일 __asm__("x1")=SANİYE_işlenen;
+    register long 저장기이 __asm__("x2")=다, 저장기삼 __asm__("x3")=라;
+    register long 저장기팔 __asm__("x8")=Dizin;
+    __asm__ volatile("svc #0" : "+r"(yazmaç_sıfır) : "r"(저장기일),"r"(저장기이),"r"(저장기삼),"r"(저장기팔) : "memory","cc");
+    return yazmaç_sıfır;
+}
+static int süre_değer(const char *metin) { int 수=0;while(metin[수])수++;return 수; }
+static int metinÇıktısı(const char *metin) { int 수=süre_değer(metin);return 호출(64,1,(long)metin,수,0)==수; }
+int main(int bağımsız_değişken_BAĞ_DEĞ_SAY,char **bağımsız_değişkenler) {
+    if(bağımsız_değişken_BAĞ_DEĞ_SAY!=2 || !bağımsız_değişkenler[0] || !bağımsız_değişkenler[1] || bağımsız_değişkenler[2])return 2;
+    /* Linux syscall 6 is not jkoros's exit syscall. */
+    long 미지원=호출(6,99,0,0,0);
+    if(미지원!=-38 && 미지원!=-14)return 3; /* Linux: EFAULT; subset: ENOSYS */
+    if(호출(64,1,0x80000,1,0)!=-14)return 4;
+    const char içerik_değer[]="LINUX ELF FILE IO\n";
+    long 문서=호출(56,-100,(long)"linux.txt",578,0600);
+    if(문서<0)return 5;
+    if(호출(64,문서,(long)içerik_değer,sizeof(içerik_değer)-1,0)!=sizeof(içerik_değer)-1)return 6;
+    if(호출(62,문서,0,0,0)!=0)return 7;
+    char 읽은글[sizeof(içerik_değer)]={0};
+    if(호출(63,문서,(long)읽은글,sizeof(içerik_değer)-1,0)!=sizeof(içerik_değer)-1)return 8;
+    for(unsigned 순번=0;순번<sizeof(içerik_değer);순번++)if(içerik_değer[순번]!=읽은글[순번])return 9;
+    if(호출(57,문서,0,0,0))return 10;
+    long zaman_değeri[2];if(호출(113,1,(long)zaman_değeri,0,0) || zaman_değeri[1]<0 || zaman_değeri[1]>=1000000000)return 11;
+    if(!metinÇıktısı("LINUX ARM64 ELF PASS\n") || !metinÇıktısı(bağımsız_değişkenler[1]) || !metinÇıktısı("\n"))return 12;
+    return 0;
+}

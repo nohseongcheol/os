@@ -1,0 +1,6 @@
+# import config
+packagefile avbrudd=/home/user/worldos/나라/SJM/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/ca/ca7fe3757f81d4efe4e5a7b8cada60baf721071ad2a5675499db2d79c2560298-d
+packagefile driver/driver=/home/user/.cache/go-build/1c/1c5acd83bf3d9be082e988f02306cc175de753dca3fac0a2629495a93f217bc6-d
+packagefile port=/home/user/.cache/go-build/c8/c8f2be678b9fec57207093b23bf637a1dba158940b1090f9ec946bdf05228b35-d
+packagefile runtime/cgo=/home/user/worldos/나라/SJM/소스/build/b000/_pkg_.a

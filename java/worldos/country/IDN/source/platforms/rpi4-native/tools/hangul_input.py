@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 jalur 호환 entri_p. aktual_data implementasi: ../alat/한글입력.py"""
+import importlib as TAKE_VALUE
+import sys as sistem_operasi_VALUE
+from pathlib import Path as jalur
+sistem_operasi_VALUE.path.insert(0, str(jalur(__file__).resolve().parents[1] / 'alat'))
+if __name__ == '__main__':
+    import runpy as apl_peluncur
+    apl_peluncur.run_module('한글입력', run_name='__main__', alter_sys=True)
+else:
+    implementasi = TAKE_VALUE.import_module('한글입력')
+    대응 = {'old': '이전', 'backspace': '앞글자지우기', 'committed': '확정글', 'KEYS': 'Kunci_Navigasi', 'self': '자신', 'FINALS': '겹끝소리', 'VOWELS': '겹가운뎃소리', 'INITIAL': '첫소리목록', 'initial': '첫소리', 'commit': '조합확정', 'feed': 'feed_Kunci', 'vowel': '가운뎃소리', 'Hangul': '한글조합', 'SPLIT': '끝소리가르기', 'final': '끝소리', 'key': '누름값', 'send': 'kirim', 'left': '왼쪽', 'FINAL': '끝소리목록', 'history': 'Riwayat', 'pair': '한쌍', 'char': 'data_karakter', 'VOWEL': '가운뎃소리목록', 'right': 'RIGHT', 'value': 'VALUE', 'text': 'teks'}
+    for 이전, saat_ini_item in 대응.items():
+        if hasattr(implementasi, saat_ini_item): globals()[이전] = getattr(implementasi, saat_ini_item)

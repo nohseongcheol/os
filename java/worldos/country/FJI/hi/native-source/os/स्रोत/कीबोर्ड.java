@@ -1,0 +1,23 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+/** PC/AT PS/2 अनुवाद_स्रोत 집합 1 폴링 입력. डिफ़ॉल्ट_मान 미국식 자판, Shift, Backspace, Enter. */
+public final class कीबोर्ड {
+    static boolean 왼올림 = false;
+    static boolean 오른올림 = false;
+    static boolean एक्सटेंशन_मान = false;
+    static String डिफ़ॉल्ट_मान = "\0\0" + "1234567890-=\b\tqwertyuiop[]\n\0asdfghjkl;'`\0\\zxcvbnm,./\0*\0 ";
+    static String 올림 = "\0\0" + "!@#$%^&*()_+\b\tQWERTYUIOP{}\n\0ASDFGHJKL:\"~\0|ZXCVBNM<>?\0*\0 ";
+
+    static int पढ़ें() {
+        int अवस्था_मान = उपकरण_मान.입출력바이트읽기(0x64);
+        if ((अवस्था_मान & 1) == 0) return -1;
+        int मान = उपकरण_मान.입출력바이트읽기(0x60);
+        if ((अवस्था_मान & 0x20) != 0) return -1;
+        if (मान == 0xe0 || मान == 0xe1) { एक्सटेंशन_मान = true; return -1; }
+        if (एक्सटेंशन_मान) { एक्सटेंशन_मान = false; return -1; }
+        if (मान == 42 || मान == 170) { 왼올림 = मान == 42; return -1; }
+        if (मान == 54 || मान == 182) { 오른올림 = मान == 54; return -1; }
+        if (मान >= डिफ़ॉल्ट_मान.length()) return -1;
+        int 문자 = (왼올림 || 오른올림) ? 올림.charAt(मान) : डिफ़ॉल्ट_मान.charAt(मान);
+        return 문자 == 0 ? -1 : 문자;
+    }
+}

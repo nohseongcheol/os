@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a1/a190d12f74533b7e2b65ac68b4a5ada042a3ff757579655e192430983333ed39-d
+packagefile controlador/ata=/home/user/worldos/나라/CPV/소스/build/b004/_pkg_.a
+packagefile ficheirosistema/fat=/home/user/worldos/나라/CPV/소스/build/b026/_pkg_.a
+packagefile ficheirosistema/formato_executável_e_ligável=/home/user/worldos/나라/CPV/소스/build/b029/_pkg_.a
+packagefile ficheirosistema/msdospartição=/home/user/worldos/나라/CPV/소스/build/b027/_pkg_.a
+packagefile gestãoTarefas/escalonador=/home/user/worldos/나라/CPV/소스/build/b031/_pkg_.a
+packagefile gestãoTarefas/fluxoExecução=/home/user/worldos/나라/CPV/소스/build/b032/_pkg_.a
+packagefile interrupção=/home/user/worldos/나라/CPV/소스/build/b008/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/CPV/소스/build/b023/_pkg_.a
+packagefile múltiplogestãoTarefas=/home/user/worldos/나라/CPV/소스/build/b022/_pkg_.a
+packagefile paginação=/home/user/worldos/나라/CPV/소스/build/b030/_pkg_.a
+packagefile porto=/home/user/.cache/go-build/9a/9a0c8da042b67e2f1d1ee647e768e3c06c322d9949cbabcc28554b315cc182a2-d
+packagefile utilitário=/home/user/.cache/go-build/e2/e249cec88766594acdd7f3bc57780dc06d1dc9120f3715274f365dec21aa7802-d
+packagefile virtualmemória=/home/user/worldos/나라/CPV/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CPV/소스/build/b000/_pkg_.a

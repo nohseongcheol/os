@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "FJI",
+  "language": "en",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "source"
+  }
+}

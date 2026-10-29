@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{lähdetiedosto}=$1
+@{kohdetiedosto}=$2
+@{suoritettava_tiedosto}=$3
+@{esittelyhakemisto}=$4
+@{käynnistyskohde}=$5
+@{kirjastotiedosto}=$6
+@{linkitystiedosto}=$7
+
+@{rakenna_komentotulkki}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{esittelyhakemisto}" -c "$@{lähdetiedosto}" -o "$@{kohdetiedosto}"
+    ld -n -m elf_i386 -e _start -T "$@{linkitystiedosto}" -static \
+        --no-ld-generated-unwind-info -o "$@{suoritettava_tiedosto}" \
+        "$@{käynnistyskohde}" "$@{kohdetiedosto}" "$@{kirjastotiedosto}"
+}
+@{rakenna_komentotulkki}

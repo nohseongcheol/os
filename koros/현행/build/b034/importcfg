@@ -1,0 +1,6 @@
+# import config
+packagefile util=/home/user/koros/현행/build/b023/_pkg_.a
+packagefile 메모리매니저=/home/user/koros/현행/build/b021/_pkg_.a
+packagefile 콘솔=/home/user/koros/현행/build/b016/_pkg_.a
+packagefile 페이징=/home/user/koros/현행/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/koros/현행/build/b000/_pkg_.a

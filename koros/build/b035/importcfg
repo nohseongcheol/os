@@ -1,0 +1,4 @@
+# import config
+packagefile amd_am79c973=/home/user/koros/build/b002/_pkg_.a
+packagefile util=/home/user/koros/build/b024/_pkg_.a
+packagefile 단말기=/home/user/koros/build/b019/_pkg_.a

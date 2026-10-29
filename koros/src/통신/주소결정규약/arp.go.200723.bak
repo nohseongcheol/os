@@ -1,0 +1,228 @@
+package arp
+
+import . "unsafe"
+import . "단말기"
+import . "etherframe"
+import . "util"
+
+var arp단말기 T단말기 = T단말기{}
+/////////////////////////////////////////////////////////////////////////////
+//
+//		주소결정규약 = Address Resolution Protocol = ARP
+//
+/////////////////////////////////////////////////////////////////////////////
+type T주소결정규약MessageBuffer struct{
+	hardwareType [2]byte
+	protocol [2]byte
+	hardwareAddressSize byte
+	protocolAddressSize byte
+	command [2]byte
+
+	srcMAC [6]byte
+	srcIP [4] byte
+	dstMAC [6]byte
+	dstIP [4]byte
+}
+var arpMesgSize uint32 =(64+92+64)/8+2
+
+type T주소결정규약Message struct{
+	hardwareType uint16
+	protocol uint16
+	hardwareAddressSize uint8
+	protocolAddressSize uint8
+	command uint16
+
+	srcMAC uint64
+	srcIP uint32
+	dstMAC uint64
+	dstIP uint32
+}
+func (자신 *T주소결정규약Message) Init(buffer *T주소결정규약MessageBuffer) {
+
+	자신.hardwareType = Uint16_R(ArrayToUint16(buffer.hardwareType))
+	자신.protocol = Uint16_R(ArrayToUint16(buffer.protocol))
+	자신.hardwareAddressSize = byte(buffer.hardwareAddressSize)
+	자신.protocolAddressSize = byte(buffer.protocolAddressSize)
+	자신.command = Uint16_R(ArrayToUint16(buffer.command))
+
+        자신.srcMAC = Uint48_R(ArrayToUint48(buffer.srcMAC))
+        자신.srcIP = Uint32_R(ArrayToUint32(buffer.srcIP))
+        자신.dstMAC = Uint48_R(ArrayToUint48(buffer.dstMAC))
+        자신.dstIP = Uint32_R(ArrayToUint32(buffer.dstIP))
+}
+func (자신 *T주소결정규약Message) SetBuffer(buffer *T주소결정규약MessageBuffer) {
+	buffer.hardwareType = Uint16ToArray(자신.hardwareType)
+	buffer.protocol = Uint16ToArray(자신.protocol)
+	buffer.hardwareAddressSize = uint8(자신.hardwareAddressSize)
+	buffer.protocolAddressSize= uint8(자신.protocolAddressSize)
+
+	buffer.command = Uint16ToArray(자신.command)
+        buffer.srcMAC = Uint48ToArray(자신.srcMAC)
+        buffer.srcIP = Uint32ToArray(자신.srcIP)
+        buffer.dstMAC = Uint48ToArray(자신.dstMAC)
+        buffer.dstIP = Uint32ToArray(자신.dstIP)
+}
+/////////////////////////////////////////////////////////////////////////////
+type T주소결정규약_이더넷프레임_처리기 struct {
+	T이더넷프레임_처리기
+}
+var 주소결정규약_제공자 T주소결정규약_제공자
+var 이더넷프레임_제공자 T이더넷프레임_제공자
+func (자신 *T주소결정규약_이더넷프레임_처리기)OnEtherFrameReceived(dataPointer uintptr, size int) bool{
+        arp단말기.M출력XY([]byte("arp recv:"), 0, 23)
+        return 주소결정규약_제공자.OnEtherFrameReceived(dataPointer, uint32(size))
+}
+func (자신 *T주소결정규약_이더넷프레임_처리기)Send(dstMAC_BE uint64, dataPointer uintptr, size uint32) {
+        arp단말기.M출력XY([]byte("arp send:"), 0, 24)
+	var etherType_BE = Uint16_R(0x0806)
+        자신.T이더넷프레임_처리기.SendFrame(dstMAC_BE, etherType_BE, dataPointer, size)
+}
+
+//////////////////////////////////////////////////////////////////////////////
+type T주소결정규약_제공자 struct {
+	IPCache [128] uint32
+	MACCache [128] uint64
+	numCacheEntries int
+
+	handler I이더넷프레임_처리기
+}
+var handler I이더넷프레임_처리기
+func (자신 *T주소결정규약_제공자) Init(backend T이더넷프레임_제공자, userhandler I이더넷프레임_처리기) {
+	handler = userhandler
+	handler.Init(backend)
+	handler.SetHandler(userhandler, 0x0806)
+	자신.numCacheEntries = 0
+	주소결정규약_제공자 = *자신
+
+}
+func (자신 *T주소결정규약_제공자) OnEtherFrameReceived(dataPointer uintptr, size uint32) bool{
+
+	if size < arpMesgSize {
+		return false
+	}
+	var arpBuffer *T주소결정규약MessageBuffer = (*T주소결정규약MessageBuffer)(Pointer(dataPointer))
+	var arp T주소결정규약Message = T주소결정규약Message{}
+	arp.Init(arpBuffer)
+
+	if arp.hardwareType == 0x0100 {
+		if arp.protocol == 0x0008 && arp.hardwareAddressSize == 6 && arp.protocolAddressSize == 4 && uint64(arp.dstIP) == handler.GetIPAddress() {
+
+			switch arp.command {
+				case 0x0100: // requested 
+					if 자신.GetMACFromCache(arp.srcIP) == 0xFFFFFFFFFFFF {
+						if 자신.numCacheEntries < 128 {
+							자신.IPCache[자신.numCacheEntries] = arp.srcIP
+							자신.MACCache[자신.numCacheEntries] = arp.srcMAC
+							자신.numCacheEntries++
+						}
+					}
+					arp.command = 0x0200
+					arp.dstIP = arp.srcIP
+					arp.dstMAC = arp.srcMAC
+					arp.srcIP = uint32(handler.GetIPAddress())
+					arp.srcMAC = handler.GetMACAddress()
+					arp.SetBuffer(arpBuffer)
+
+					return true
+					break
+
+				case 0x0200: // 
+					if 자신.numCacheEntries < 128 {
+						자신.IPCache[자신.numCacheEntries] = arp.srcIP
+						자신.MACCache[자신.numCacheEntries] = arp.srcMAC
+						자신.numCacheEntries++
+					}
+					break
+			}
+		
+		}
+	}
+	return false
+	
+}
+
+func (자신 *T주소결정규약_제공자) BroadcastMacAddress(IP_BE uint32){
+
+	var 주소결정규약 T주소결정규약Message = T주소결정규약Message{}
+	주소결정규약.hardwareType = 0x0100
+	주소결정규약.protocol = 0x0008
+	주소결정규약.hardwareAddressSize = 6
+	주소결정규약.protocolAddressSize = 4
+	주소결정규약.command = 0x0200
+
+
+	주소결정규약.srcIP = uint32(handler.GetIPAddress())
+	
+	주소결정규약.dstMAC = 자신.Resolve(IP_BE) // infinite loop
+	주소결정규약.dstIP = IP_BE
+	arp단말기.M출력XY([]byte("broad mac"), 0, 15)
+
+	주소결정규약.srcMAC = handler.GetMACAddress()
+
+	var 주소결정규약Buffer T주소결정규약MessageBuffer = T주소결정규약MessageBuffer{}
+	주소결정규약.SetBuffer(&주소결정규약Buffer)
+
+	var pointer uintptr = uintptr(Pointer(&주소결정규약Buffer))
+	handler.Send(주소결정규약.dstMAC, pointer , arpMesgSize)
+}
+func (자신 *T주소결정규약_제공자) RequestMacAddress(IP_BE uint32){
+
+	var arp T주소결정규약Message = T주소결정규약Message{}
+	arp.hardwareType = 0x0100
+	arp.protocol = 0x0008
+	arp.hardwareAddressSize = 6
+	arp.protocolAddressSize = 4
+	arp.command = 0x0100
+
+	arp.srcMAC = handler.GetMACAddress()
+	arp.srcIP = uint32(handler.GetIPAddress())
+
+
+	arp.dstMAC = 0xFFFFFFFFFFFF // broadcast
+	arp.dstIP = IP_BE
+
+	var arpBuffer T주소결정규약MessageBuffer = T주소결정규약MessageBuffer{}
+	arp.SetBuffer(&arpBuffer)
+	
+	var pointer uintptr = uintptr(Pointer(&arpBuffer))
+	handler.Send(arp.dstMAC, pointer, arpMesgSize)
+}
+func (자신 *T주소결정규약_제공자) TestPrint(data *[]byte, size uint32){
+	var buffer [4096] byte = *(*([4096]byte))(Pointer(data))
+	arp단말기.M출력XY([]byte("["), 0, 17)
+	for i:=0; i<128; i++ {
+		arp단말기.MHex출력(buffer[i])
+		arp단말기.M출력([]byte(":"))
+	}
+	arp단말기.M출력([]byte("]"))
+}
+
+func (자신 *T주소결정규약_제공자) GetMACFromCache(IP_BE uint32) uint64{
+	for i:=0; i<자신.numCacheEntries; i++ {
+		for ipIdx:=0; ipIdx<4; ipIdx++ {
+			//printfHex(
+		}
+		//print \n
+		
+		for macIdx:=0; macIdx<6; macIdx++ {
+			//printfHex
+		}
+
+		if 자신.IPCache[i] == IP_BE {
+			arp단말기.M출력([]byte("getmacfromcache"))
+			return 자신.MACCache[i]
+		}
+	}
+	return 0xFFFFFFFFFFFF
+}
+func (자신 *T주소결정규약_제공자) Resolve(IP_BE uint32) uint64{
+	var result uint64 = 자신.GetMACFromCache(IP_BE)
+	if result == 0xFFFFFFFFFFFF {
+		자신.RequestMacAddress(IP_BE)
+	}
+	for i:=0; i<=128 && result == 0xFFFFFFFFFFFF; i++ {
+		result = 자신.GetMACFromCache(IP_BE)
+	}
+	
+	return result
+}

@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/9a/9a5578eda1e24bacab376bf9857969f5f1edc565e3bcd00962f85d95c556f431-d
+packagefile driver/ata=/home/user/worldos/나라/ETH/소스/build/b004/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/ETH/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/ETH/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/db/db885483dfd09b7341c0b1f673a37dc8722867d4eae7df0968cff1857fea26b1-d
+packagefile tasking/scheduler=/home/user/worldos/나라/ETH/소스/build/b028/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ETH/소스/build/b029/_pkg_.a
+packagefile util=/home/user/.cache/go-build/62/6293b1d56a04be3bdb49a0e78b7a6fd107f1728fd1effc5e63d59822cd4026d2-d
+packagefile virtualማስታወሻ=/home/user/worldos/나라/ETH/소스/build/b030/_pkg_.a
+packagefile ማስታወሻmanager=/home/user/worldos/나라/ETH/소스/build/b023/_pkg_.a
+packagefile ማቋረጫ=/home/user/worldos/나라/ETH/소스/build/b008/_pkg_.a
+packagefile ፋይልስርአት/elf=/home/user/worldos/나라/ETH/소스/build/b034/_pkg_.a
+packagefile ፋይልስርአት/fat=/home/user/worldos/나라/ETH/소스/build/b035/_pkg_.a
+packagefile ፋይልስርአት/msdospartition=/home/user/worldos/나라/ETH/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ETH/소스/build/b000/_pkg_.a

@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	顯示說明
+echo	顯示引數
+pwd	顯示目前目錄
+cat	顯示檔案內容
+stat	顯示檔案資訊
+pid	顯示行程編號
+uname	顯示系統資訊
+run	執行程式
+udp	測試資料報回送
+source	解譯命令檔案
+cd	切換目錄
+exit	離開

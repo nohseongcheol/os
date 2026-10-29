@@ -1,0 +1,7 @@
+# import config
+packagefile memorymanager=/home/user/worldos/나라/BDI/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/BDI/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BDI/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/ab/ab65a221094c0fd9ee8c3f6d97685fa67aeb4adff2ad355f4b201dd32dac27c4-d
+packagefile util/list=/home/user/worldos/나라/BDI/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BDI/소스/build/b000/_pkg_.a

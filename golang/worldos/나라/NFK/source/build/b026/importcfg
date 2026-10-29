@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/NFK/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/NFK/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/8c/8cbeff4f5ed87ef8d8ea535df0180ccaf1db79d77da5ef6db15418a0118dce3e-d
+packagefile runtime/cgo=/home/user/worldos/나라/NFK/소스/build/b000/_pkg_.a

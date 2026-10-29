@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+SYS_exit	SYS__exit
+SYS_read	SYS_پڑھنا
+SYS_write	SYS_لکھنا
+argv	دلائل_2
+buf	منتقلی_کا_عارضی_ذخیرہ
+fd	فائل_کا_وصف_کنندہ
+read	پڑھنا
+write	لکھنا

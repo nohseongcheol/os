@@ -1,0 +1,250 @@
+country_alpha3	country_alpha2	country_name	language	population_percent	status	native_name	translated_terms	fallback_terms	naming
+ABW	AW	Aruba	nl	97	official	Nederlands	239	632	semantic-word-translation
+AFG	AF	Afghanistan	fa	50	official	فارسی	162	709	semantic-word-translation
+AGO	AO	Angola	pt	67	official	Português	267	604	semantic-word-translation
+AIA	AI	Anguilla	en	95	official	English	871	0	semantic-word-translation
+ALA	AX	Åland Islands	sv	99	official	Svenska	245	626	semantic-word-translation
+ALB	AL	Albania	sq	100	official	Albanian	182	689	semantic-word-translation
+AND	AD	Andorra	ca	51	official	Català	230	641	semantic-word-translation
+ARE	AE	United Arab Emirates	ar	78	official	العربية	255	616	semantic-word-translation
+ARG	AR	Argentina	es	100	official	Español	275	596	semantic-word-translation
+ARM	AM	Armenia	hy	98	official	Armenian	172	699	semantic-word-translation
+ASM	AS	American Samoa	sm	99	official	Samoan	3	868	semantic-word-translation
+ATA	AQ	Antarctica	und	100		Undetermined	871	0	semantic-word-translation
+ATF	TF	French Southern Territories	fr	100		français	260	611	semantic-word-translation
+ATG	AG	Antigua and Barbuda	en	86	official	English	871	0	semantic-word-translation
+AUS	AU	Australia	en	96	de_facto_official	English	871	0	semantic-word-translation
+AUT	AT	Austria	de	97	official	Deutsch	292	579	semantic-word-translation
+AZE	AZ	Azerbaijan	az_Latn	89	official	Azerbaijani	95	776	semantic-word-translation
+BDI	BI	Burundi	rn	63	official	Rundi	3	868	semantic-word-translation
+BEL	BE	Belgium	nl	55	official	Nederlands	239	632	semantic-word-translation
+BEN	BJ	Benin	fr	35	official	français	260	611	semantic-word-translation
+BES	BQ	Bonaire, Sint Eustatius and Saba	nl	8	official	Nederlands	239	632	semantic-word-translation
+BFA	BF	Burkina Faso	fr	22	official	français	260	611	semantic-word-translation
+BGD	BD	Bangladesh	bn	98	official	বাংলা	11	860	semantic-word-translation
+BGR	BG	Bulgaria	bg	100	official	Български	250	621	semantic-word-translation
+BHR	BH	Bahrain	ar	87	official	العربية	255	616	semantic-word-translation
+BHS	BS	Bahamas	en	100	official	English	871	0	semantic-word-translation
+BIH	BA	Bosnia and Herzegovina	bs_Cyrl	99	official	Bosnian	141	730	semantic-word-translation
+BLM	BL	Saint Barthélemy	fr	95	official	français	260	611	semantic-word-translation
+BLR	BY	Belarus	be	100	official	Belarusian	227	644	semantic-word-translation
+BLZ	BZ	Belize	en	100	official	English	871	0	semantic-word-translation
+BMU	BM	Bermuda	en	92	official	English	871	0	semantic-word-translation
+BOL	BO	Bolivia, Plurinational State of	es	61	official	Español	275	596	semantic-word-translation
+BRA	BR	Brazil	pt	91	official	Português	267	604	semantic-word-translation
+BRB	BB	Barbados	en	100	official	English	871	0	semantic-word-translation
+BRN	BN	Brunei Darussalam	ms_Latn	93	official	Malay (macrolanguage)	198	673	semantic-word-translation
+BTN	BT	Bhutan	dz	47	official	Dzongkha	6	865	semantic-word-translation
+BVT	BV	Bouvet Island	und	100		Undetermined	871	0	semantic-word-translation
+BWA	BW	Botswana	en	81	official	English	871	0	semantic-word-translation
+CAF	CF	Central African Republic	fr	49	official	français	260	611	semantic-word-translation
+CAN	CA	Canada	en	86	official	English	871	0	semantic-word-translation
+CCK	CC	Cocos (Keeling) Islands	en	17	de_facto_official	English	871	0	semantic-word-translation
+CHE	CH	Switzerland	de	73	official	Deutsch	292	579	semantic-word-translation
+CHL	CL	Chile	es	98	official	Español	275	596	semantic-word-translation
+CHN	CN	China	zh_Hans	90	official	Chinese	293	578	semantic-word-translation
+CIV	CI	Côte d'Ivoire	fr	49	official	français	260	611	semantic-word-translation
+CMR	CM	Cameroon	fr	68	official	français	260	611	semantic-word-translation
+COD	CD	Congo, The Democratic Republic of the	fr	3.8	official	français	260	611	semantic-word-translation
+COG	CG	Congo	fr	84	official	français	260	611	semantic-word-translation
+COK	CK	Cook Islands	en	98	official	English	871	0	semantic-word-translation
+COL	CO	Colombia	es	93	official	Español	275	596	semantic-word-translation
+COM	KM	Comoros	ar	66	official	العربية	255	616	semantic-word-translation
+CPV	CV	Cabo Verde	pt	76	official	Português	267	604	semantic-word-translation
+CRI	CR	Costa Rica	es	95	official	Español	275	596	semantic-word-translation
+CUB	CU	Cuba	es	100	official	Español	275	596	semantic-word-translation
+CUW	CW	Curaçao	pap	81	de_facto_official	Papiamento	3	868	semantic-word-translation
+CXR	CX	Christmas Island	en	92	official	English	871	0	semantic-word-translation
+CYM	KY	Cayman Islands	en	98	official	English	871	0	semantic-word-translation
+CYP	CY	Cyprus	el	75	official	Modern Greek (1453-)	249	622	semantic-word-translation
+CZE	CZ	Czechia	cs	98	official	čeština	249	622	semantic-word-translation
+DEU	DE	Germany	de	91	official	Deutsch	292	579	semantic-word-translation
+DJI	DJ	Djibouti	ar	7.3	official	العربية	255	616	semantic-word-translation
+DMA	DM	Dominica	en	94	official	English	871	0	semantic-word-translation
+DNK	DK	Denmark	da	93	official	Dansk	222	649	semantic-word-translation
+DOM	DO	Dominican Republic	es	78	official	Español	275	596	semantic-word-translation
+DZA	DZ	Algeria	ar	74	official	العربية	255	616	semantic-word-translation
+ECU	EC	Ecuador	es	96	official	Español	275	596	semantic-word-translation
+EGY	EG	Egypt	ar	94	official	العربية	255	616	semantic-word-translation
+ERI	ER	Eritrea	ti	60	de_facto_official	ትግርኛ	3	868	semantic-word-translation
+ESH	EH	Western Sahara	ar	100	official	العربية	255	616	semantic-word-translation
+ESP	ES	Spain	es	99	official	Español	275	596	semantic-word-translation
+EST	EE	Estonia	et	71	official	Eesti	222	649	semantic-word-translation
+ETH	ET	Ethiopia	am	33	official	አማርኛ	173	698	semantic-word-translation
+FIN	FI	Finland	fi	94	official	suomi	243	628	semantic-word-translation
+FJI	FJ	Fiji	en	94	official	English	871	0	semantic-word-translation
+FLK	FK	Falkland Islands (Malvinas)	en	84	official	English	871	0	semantic-word-translation
+FRA	FR	France	fr	99	official	français	260	611	semantic-word-translation
+FRO	FO	Faroe Islands	fo	95	official	Faroese	47	824	semantic-word-translation
+FSM	FM	Micronesia, Federated States of	en	57	official	English	871	0	semantic-word-translation
+GAB	GA	Gabon	fr	63	official	français	260	611	semantic-word-translation
+GBR	GB	United Kingdom	en	99	official	English	871	0	semantic-word-translation
+GEO	GE	Georgia	ka	86	official	Georgian	126	745	semantic-word-translation
+GGY	GG	Guernsey	en	100	official	English	871	0	semantic-word-translation
+GHA	GH	Ghana	en	21	official	English	871	0	semantic-word-translation
+GIB	GI	Gibraltar	en	80	official	English	871	0	semantic-word-translation
+GIN	GN	Guinea	fr	29	official	français	260	611	semantic-word-translation
+GLP	GP	Guadeloupe	fr	90	official	français	260	611	semantic-word-translation
+GMB	GM	Gambia	en	40	official	English	871	0	semantic-word-translation
+GNB	GW	Guinea-Bissau	pt	100	official	Português	267	604	semantic-word-translation
+GNQ	GQ	Equatorial Guinea	es	87	official	Español	275	596	semantic-word-translation
+GRC	GR	Greece	el	99	official	Modern Greek (1453-)	249	622	semantic-word-translation
+GRD	GD	Grenada	en	96	official	English	871	0	semantic-word-translation
+GRL	GL	Greenland	kl	84	official	Kalaallisut	3	868	semantic-word-translation
+GTM	GT	Guatemala	es	93	official	Español	275	596	semantic-word-translation
+GUF	GF	French Guiana	fr	77	official	français	260	611	semantic-word-translation
+GUM	GU	Guam	en	91	de_facto_official	English	871	0	semantic-word-translation
+GUY	GY	Guyana	en	100	official	English	871	0	semantic-word-translation
+HKG	HK	Hong Kong	zh_Hant	95	official	Chinese	290	581	semantic-word-translation
+HMD	HM	Heard Island and McDonald Islands	und	100		Undetermined	871	0	semantic-word-translation
+HND	HN	Honduras	es	78	official	Español	275	596	semantic-word-translation
+HRV	HR	Croatia	hr	99	official	hrvatski	224	647	semantic-word-translation
+HTI	HT	Haiti	ht	81	official	Haitian	7	864	semantic-word-translation
+HUN	HU	Hungary	hu	100	official	magyar	255	616	semantic-word-translation
+IDN	ID	Indonesia	id	64	official	Indonesian	213	658	semantic-word-translation
+IMN	IM	Isle of Man	en	100	official	English	871	0	semantic-word-translation
+IND	IN	India	hi	41	official	हिंदी	14	857	semantic-word-translation
+IOT	IO	British Indian Ocean Territory	en	100	official	English	871	0	semantic-word-translation
+IRL	IE	Ireland	en	98	official	English	871	0	semantic-word-translation
+IRN	IR	Iran, Islamic Republic of	fa	75	official	فارسی	162	709	semantic-word-translation
+IRQ	IQ	Iraq	ar	68	official	العربية	255	616	semantic-word-translation
+ISL	IS	Iceland	is	100	official	Íslenska	198	673	semantic-word-translation
+ISR	IL	Israel	he	100	official	עברית	220	651	semantic-word-translation
+ITA	IT	Italy	it	95	official	Italiano	244	627	semantic-word-translation
+JAM	JM	Jamaica	en	98	official	English	871	0	semantic-word-translation
+JEY	JE	Jersey	en	95	official	English	871	0	semantic-word-translation
+JOR	JO	Jordan	ar	100	official	العربية	255	616	semantic-word-translation
+JPN	JP	Japan	ja	95	official	日本語	277	594	semantic-word-translation
+KAZ	KZ	Kazakhstan	ru	72	official	русский	301	570	semantic-word-translation
+KEN	KE	Kenya	sw	66	official	Swahili (macrolanguage)	4	867	semantic-word-translation
+KGZ	KG	Kyrgyzstan	ky_Cyrl	48	official	Kirghiz	132	739	semantic-word-translation
+KHM	KH	Cambodia	km	89	official	Central Khmer	7	864	semantic-word-translation
+KIR	KI	Kiribati	en	100	official	English	871	0	semantic-word-translation
+KNA	KN	Saint Kitts and Nevis	en	98	official	English	871	0	semantic-word-translation
+KOR	KR	Korea, Republic of	ko	100	official	한국어	401	484	semantic-word-translation
+KWT	KW	Kuwait	ar	100	official	العربية	255	616	semantic-word-translation
+LAO	LA	Lao People's Democratic Republic	lo	69	official	Lao	3	868	semantic-word-translation
+LBN	LB	Lebanon	ar	86	official	العربية	255	616	semantic-word-translation
+LBR	LR	Liberia	en	83	official	English	871	0	semantic-word-translation
+LBY	LY	Libya	ar	74	official	العربية	255	616	semantic-word-translation
+LCA	LC	Saint Lucia	en	90	official	English	871	0	semantic-word-translation
+LIE	LI	Liechtenstein	de	100	official	Deutsch	292	579	semantic-word-translation
+LKA	LK	Sri Lanka	si	68	official	Sinhala	19	852	semantic-word-translation
+LSO	LS	Lesotho	st	98	official	Southern Sotho	3	868	semantic-word-translation
+LTU	LT	Lithuania	lt	86	official	Lietuvių	252	619	semantic-word-translation
+LUX	LU	Luxembourg	fr	87	official	français	260	611	semantic-word-translation
+LVA	LV	Latvia	lv	61	official	Latviešu	205	666	semantic-word-translation
+MAC	MO	Macao	zh_Hant	98	official	Chinese	290	581	semantic-word-translation
+MAF	MF	Saint Martin (French part)	fr	100	official	français	260	611	semantic-word-translation
+MAR	MA	Morocco	ar	62	official	العربية	255	616	semantic-word-translation
+MCO	MC	Monaco	fr	99	official	français	260	611	semantic-word-translation
+MDA	MD	Moldova, Republic of	ro	63	official	Română	207	664	semantic-word-translation
+MDG	MG	Madagascar	mg	90	official	Malagasy	114	757	semantic-word-translation
+MDV	MV	Maldives	dv	94	official	Dhivehi	3	868	semantic-word-translation
+MEX	MX	Mexico	es	83	de_facto_official	Español	275	596	semantic-word-translation
+MHL	MH	Marshall Islands	en	93	official	English	871	0	semantic-word-translation
+MKD	MK	Macedonia, Republic of	mk	67	official	Македонски	163	708	semantic-word-translation
+MLI	ML	Mali	fr	46	official	français	260	611	semantic-word-translation
+MLT	MT	Malta	mt	100	official	Malti	3	868	semantic-word-translation
+MMR	MM	Myanmar	my	64	official	Burmese	3	868	semantic-word-translation
+MNE	ME	Montenegro	sr_Latn	100	official	српски	269	602	semantic-word-translation
+MNG	MN	Mongolia	mn_Cyrl	93	official	Монгол	108	763	semantic-word-translation
+MNP	MP	Northern Mariana Islands	en	97	de_facto_official	English	871	0	semantic-word-translation
+MOZ	MZ	Mozambique	pt	27	official	Português	267	604	semantic-word-translation
+MRT	MR	Mauritania	ar	85	official	العربية	255	616	semantic-word-translation
+MSR	MS	Montserrat	en	67	official	English	871	0	semantic-word-translation
+MTQ	MQ	Martinique	fr	98	official	français	260	611	semantic-word-translation
+MUS	MU	Mauritius	en	72	official	English	871	0	semantic-word-translation
+MWI	MW	Malawi	en	63	official	English	871	0	semantic-word-translation
+MYS	MY	Malaysia	ms_Latn	75	official	Malay (macrolanguage)	198	673	semantic-word-translation
+MYT	YT	Mayotte	fr	57	official	français	260	611	semantic-word-translation
+NAM	NA	Namibia	en	7	official	English	871	0	semantic-word-translation
+NCL	NC	New Caledonia	fr	96	official	français	260	611	semantic-word-translation
+NER	NE	Niger	fr	29	official	français	260	611	semantic-word-translation
+NFK	NF	Norfolk Island	en	76	official	English	871	0	semantic-word-translation
+NGA	NG	Nigeria	en	53	official	English	871	0	semantic-word-translation
+NIC	NI	Nicaragua	es	78	official	Español	275	596	semantic-word-translation
+NIU	NU	Niue	en	95	official	English	871	0	semantic-word-translation
+NLD	NL	Netherlands	nl	100	official	Nederlands	239	632	semantic-word-translation
+NOR	NO	Norway	nb	100	official	Norwegian Bokmål	226	645	semantic-word-translation
+NPL	NP	Nepal	ne	44	official	Nepali (macrolanguage)	10	861	semantic-word-translation
+NRU	NR	Nauru	en	98	official	English	871	0	semantic-word-translation
+NZL	NZ	New Zealand	en	98	de_facto_official	English	871	0	semantic-word-translation
+OMN	OM	Oman	ar	81	official	العربية	255	616	semantic-word-translation
+PAK	PK	Pakistan	ur	95	official	Urdu	165	706	semantic-word-translation
+PAN	PA	Panama	es	69	official	Español	275	596	semantic-word-translation
+PCN	PN	Pitcairn	en	96	official	English	871	0	semantic-word-translation
+PER	PE	Peru	es	73	official	Español	275	596	semantic-word-translation
+PHL	PH	Philippines	en	64	official	English	871	0	semantic-word-translation
+PLW	PW	Palau	pau	74	official	Palauan	2	869	semantic-word-translation
+PNG	PG	Papua New Guinea	tpi	71	official	Tok Pisin	3	868	semantic-word-translation
+POL	PL	Poland	pl	96	official	polski	261	610	semantic-word-translation
+PRI	PR	Puerto Rico	es	87	official	Español	275	596	semantic-word-translation
+PRK	KP	Korea, Democratic People's Republic of	ko	88	official	한국어	401	484	semantic-word-translation
+PRT	PT	Portugal	pt	96	official	Português	267	604	semantic-word-translation
+PRY	PY	Paraguay	gn	80	official	Guarani	3	868	semantic-word-translation
+PSE	PS	Palestine, State of	ar	100	official	العربية	255	616	semantic-word-translation
+PYF	PF	French Polynesia	fr	61	official	français	260	611	semantic-word-translation
+QAT	QA	Qatar	ar	89	official	العربية	255	616	semantic-word-translation
+REU	RE	Réunion	fr	89	official	français	260	611	semantic-word-translation
+ROU	RO	Romania	ro	90	official	Română	207	664	semantic-word-translation
+RUS	RU	Russian Federation	ru	94	official	русский	301	570	semantic-word-translation
+RWA	RW	Rwanda	rw	77	official	Ikinyarwanda	85	786	semantic-word-translation
+SAU	SA	Saudi Arabia	ar	100	official	العربية	255	616	semantic-word-translation
+SDN	SD	Sudan	ar	61	official	العربية	255	616	semantic-word-translation
+SEN	SN	Senegal	wo	70	de_facto_official	Wolof	8	863	semantic-word-translation
+SGP	SG	Singapore	en	93	official	English	871	0	semantic-word-translation
+SGS	GS	South Georgia and the South Sandwich Islands	und	100		Undetermined	871	0	semantic-word-translation
+SHN	SH	Saint Helena, Ascension and Tristan da Cunha	en	69	official	English	871	0	semantic-word-translation
+SJM	SJ	Svalbard and Jan Mayen	nb	80	official	Norwegian Bokmål	226	645	semantic-word-translation
+SLB	SB	Solomon Islands	en	100	official	English	871	0	semantic-word-translation
+SLE	SL	Sierra Leone	en	35	official	English	871	0	semantic-word-translation
+SLV	SV	El Salvador	es	89	official	Español	275	596	semantic-word-translation
+SMR	SM	San Marino	it	89	official	Italiano	244	627	semantic-word-translation
+SOM	SO	Somalia	so	78	official	Somali	3	868	semantic-word-translation
+SPM	PM	Saint Pierre and Miquelon	fr	90	official	français	260	611	semantic-word-translation
+SRB	RS	Serbia	sr_Cyrl	99	official	српски	269	602	semantic-word-translation
+SSD	SS	South Sudan	en	27	official	English	871	0	semantic-word-translation
+STP	ST	Sao Tome and Principe	pt	85	official	Português	267	604	semantic-word-translation
+SUR	SR	Suriname	nl	90	official	Nederlands	239	632	semantic-word-translation
+SVK	SK	Slovakia	sk	90	official	Slovenský	245	626	semantic-word-translation
+SVN	SI	Slovenia	sl	87	official	slovenščina	225	646	semantic-word-translation
+SWE	SE	Sweden	sv	95	official	Svenska	245	626	semantic-word-translation
+SWZ	SZ	Swaziland	en	80	official	English	871	0	semantic-word-translation
+SXM	SX	Sint Maarten (Dutch part)	en	68	official	English	871	0	semantic-word-translation
+SYC	SC	Seychelles	fr	60	official	français	260	611	semantic-word-translation
+SYR	SY	Syrian Arab Republic	ar	80	official	العربية	255	616	semantic-word-translation
+TCA	TC	Turks and Caicos Islands	en	98	official	English	871	0	semantic-word-translation
+TCD	TD	Chad	fr	26	official	français	260	611	semantic-word-translation
+TGO	TG	Togo	fr	61	official	français	260	611	semantic-word-translation
+THA	TH	Thailand	th	80	official	ไทย	54	817	semantic-word-translation
+TJK	TJ	Tajikistan	tg_Cyrl	100	official	Tajik	49	822	semantic-word-translation
+TKL	TK	Tokelau	en	100	official	English	871	0	semantic-word-translation
+TKM	TM	Turkmenistan	tk_Latn	70	official	Turkmen	48	823	semantic-word-translation
+TLS	TL	Timor-Leste	pt	59	official	Português	267	604	semantic-word-translation
+TON	TO	Tonga	to	95	official	Tonga (Tonga Islands)	3	868	semantic-word-translation
+TTO	TT	Trinidad and Tobago	en	88	official	English	871	0	semantic-word-translation
+TUN	TN	Tunisia	ar	90	official	العربية	255	616	semantic-word-translation
+TUR	TR	Turkey	tr	93	official	Türkçe	252	619	semantic-word-translation
+TUV	TV	Tuvalu	tvl	91	official	Tuvalu	2	869	semantic-word-translation
+TWN	TW	Taiwan, Province of China	zh_Hant	95	official	Chinese	290	581	semantic-word-translation
+TZA	TZ	Tanzania, United Republic of	sw	90	official	Swahili (macrolanguage)	4	867	semantic-word-translation
+UGA	UG	Uganda	sw	75	official	Swahili (macrolanguage)	4	867	semantic-word-translation
+UKR	UA	Ukraine	uk	65	official	українська	278	593	semantic-word-translation
+UMI	UM	United States Minor Outlying Islands	en	100	de_facto_official	English	871	0	semantic-word-translation
+URY	UY	Uruguay	es	88	official	Español	275	596	semantic-word-translation
+USA	US	United States	en	96	de_facto_official	English	871	0	semantic-word-translation
+UZB	UZ	Uzbekistan	uz_Latn	85	official	Uzbek	128	743	semantic-word-translation
+VAT	VA	Holy See (Vatican City State)	it	98		Italiano	244	627	semantic-word-translation
+VCT	VC	Saint Vincent and the Grenadines	en	96	official	English	871	0	semantic-word-translation
+VEN	VE	Venezuela, Bolivarian Republic of	es	82	official	Español	275	596	semantic-word-translation
+VGB	VG	Virgin Islands, British	en	98	official	English	871	0	semantic-word-translation
+VIR	VI	Virgin Islands, U.S.	en	75	de_facto_official	English	871	0	semantic-word-translation
+VNM	VN	Viet Nam	vi	86	official	Tiếng Việt	213	658	semantic-word-translation
+VUT	VU	Vanuatu	bi	90	official	Bislama	3	868	semantic-word-translation
+WLF	WF	Wallis and Futuna	fr	49	official	français	260	611	semantic-word-translation
+WSM	WS	Samoa	sm	100	official	Samoan	3	868	semantic-word-translation
+YEM	YE	Yemen	ar	74	official	العربية	255	616	semantic-word-translation
+ZAF	ZA	South Africa	en	31	official	English	871	0	semantic-word-translation
+ZMB	ZM	Zambia	en	16	official	English	871	0	semantic-word-translation
+ZWE	ZW	Zimbabwe	sn	81	official	Shona	3	868	semantic-word-translation

@@ -1,0 +1,5 @@
+# WorldOS HUN UTF-8 command file
+echo "WorldOS HUN"
+help
+pwd
+pid

@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{ملف_المصدر}=$1
+@{ملف_الكائن}=$2
+@{الملف_التنفيذي}=$3
+@{مجلد_التصريحات}=$4
+@{كائن_بدء_التشغيل}=$5
+@{ملف_المكتبة}=$6
+@{ملف_الربط}=$7
+
+@{بناء_مفسر_الأوامر}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{مجلد_التصريحات}" -c "$@{ملف_المصدر}" -o "$@{ملف_الكائن}"
+    ld -n -m elf_i386 -e _start -T "$@{ملف_الربط}" -static \
+        --no-ld-generated-unwind-info -o "$@{الملف_التنفيذي}" \
+        "$@{كائن_بدء_التشغيل}" "$@{ملف_الكائن}" "$@{ملف_المكتبة}"
+}
+@{بناء_مفسر_الأوامر}

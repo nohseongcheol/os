@@ -1,0 +1,6 @@
+compiler_identifier	native_identifier
+SYS_exit	SYS__exit
+SYS_read	SYS_moñeẽ
+SYS_write	SYS_hai
+read	moñeẽ
+write	hai

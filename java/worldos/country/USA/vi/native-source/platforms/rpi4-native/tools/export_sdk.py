@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 đườngDẫn 호환 điểmMục. dữLiệuThựcTế phầnCàiĐặt: ../CôngCụ/sDKXuất.py"""
+import importlib as giáTrịThu
+import sys as giáTrịHệThốngĐiềuHành
+from pathlib import Path as đườngDẫn
+giáTrịHệThốngĐiềuHành.path.insert(0, str(đườngDẫn(__file__).resolve().parents[1] / 'CôngCụ'))
+if __name__ == '__main__':
+    import runpy as TrìnhKhởiChạyChươngTrình
+    TrìnhKhởiChạyChươngTrình.run_module('sDKXuất', run_name='__main__', alter_sys=True)
+else:
+    phầnCàiĐặt = giáTrịThu.import_module('sDKXuất')
+    giáTrịPhépÁnhXạ = {'out': 'dữLiệuKếtQuả', 'obj': 'tệpĐích', 'relative': 'đườngDẫnTươngĐối', 'compiler_archive': 'khoLưuTrữTrìnhBiênDịch', 'sdk': 'bộCôngCụPhátTriển', 'dist': 'đườngDẫnBảnPhânPhối', 'archive': 'khoLưuTrữ', 'main': 'chạy', 'posix': 'pOSIX', 'files': 'danhSáchTệp', 'source': 'dữLiệuNguyênBản', 'name': 'tên', 'target': 'giáTrịĐốiĐích', 'ROOT': 'gốcCâyDựÁn', 'destination': 'địaChỉDữLiệuĐích', 'manifest': 'bảnKêGóiGộp', 'work': 'đườngDẫnĐangLàmViệc'}
+    for phầnMụcTrướcĐó, phầnMụcHiệnTại in giáTrịPhépÁnhXạ.items():
+        if hasattr(phầnCàiĐặt, phầnMụcHiệnTại): globals()[phầnMụcTrướcĐó] = getattr(phầnCàiĐặt, phầnMụcHiệnTại)

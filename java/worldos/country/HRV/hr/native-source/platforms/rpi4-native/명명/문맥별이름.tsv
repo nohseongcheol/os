@@ -1,0 +1,8 @@
+Datoteka	이전이름	최종이름	쓰임
+C_kompilator/Pokreni.c	h	실행머리	ELF Zaglavlje_VALUE
+stroj/korisnik.c	h	실행머리	ELF potvrditi·적재 Zaglavlje_VALUE
+stroj/korisnik.h	x	registar_podaci	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+stroj/pano.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+korisnik/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Alati/*.py	root	korijen_put	Datoteka 계층의 akcija_korijen PUTANJA
+stroj/Terminal.c	w	prozor_unos	Terminal Prozor Stanje_VALUE pokazivač

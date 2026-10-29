@@ -1,0 +1,5 @@
+# WorldOS IND/mni_Mtei UTF-8 command file
+echo "WorldOS IND/mni_Mtei"
+help
+pwd
+pid

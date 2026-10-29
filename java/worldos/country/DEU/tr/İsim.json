@@ -1,0 +1,535 @@
+{
+  "action": {
+    "text": "Eylem",
+    "identifier": "Eylem",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "sistem çağrısı",
+    "identifier": "sistem_çağrısı",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "listenin sonuna ekle",
+    "identifier": "listenin_sonuna_ekle",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "bağımsız değişkenler",
+    "identifier": "bağımsız_değişkenler",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "düğme",
+    "identifier": "düğme",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "seç...",
+    "identifier": "seç",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Sınıf",
+    "identifier": "Sınıf",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Kapat",
+    "identifier": "Kapat",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "komut",
+    "identifier": "komut",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "derle",
+    "identifier": "derle",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "_Bağlan",
+    "identifier": "Bağlan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "geçerliSüreç",
+    "identifier": "geçerliSüreç",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "veri",
+    "identifier": "veri",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "dizin",
+    "identifier": "dizin",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "hata",
+    "identifier": "hata",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Olay",
+    "identifier": "Olay",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "Ç_alıştır",
+    "identifier": "Çalıştır",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "dosya",
+    "identifier": "dosya",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "başlat",
+    "identifier": "başlat",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "Anahtar",
+    "identifier": "Anahtar",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Etiket",
+    "identifier": "Etiket",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "girdi satırı",
+    "identifier": "girdi_satırı",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "kaynakYükle",
+    "identifier": "kaynakYükle",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "iletiler",
+    "identifier": "iletiler",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "Kip",
+    "identifier": "Kip",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "İsim",
+    "identifier": "İsim",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Aç",
+    "identifier": "Aç",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "metinÇıktısı",
+    "identifier": "metinÇıktısı",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "Tabla",
+    "identifier": "Tabla",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/lxpanel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "bağımsızDeğişkenÇözümleyici",
+    "identifier": "bağımsızDeğişkenÇözümleyici",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "yol",
+    "identifier": "yol",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "bağlantıNoktasıNumarası",
+    "identifier": "bağlantıNoktasıNumarası",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "konum",
+    "identifier": "konum",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Süreç",
+    "identifier": "Süreç",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Okuma",
+    "identifier": "Okuma",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "metinOkuyucu",
+    "identifier": "metinOkuyucu",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "Kaldır",
+    "identifier": "Kaldır",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "sonuç",
+    "identifier": "sonuç",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "çalıştır",
+    "identifier": "çalıştır",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "_Kaydet",
+    "identifier": "Kaydet",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Ayarlar",
+    "identifier": "Ayarlar",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Boyut",
+    "identifier": "Boyut",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "kaynakKod",
+    "identifier": "kaynakKod",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Durdur",
+    "identifier": "Durdur",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "uçbirim",
+    "identifier": "uçbirim",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "metin",
+    "identifier": "metin",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "yürütmeİşParçacığı",
+    "identifier": "yürütmeİşParçacığı",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "_Araç Çubuğu",
+    "identifier": "Araç_Çubuğu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Pencere",
+    "identifier": "Pencere",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "arkaPlanGörevi",
+    "identifier": "arkaPlanGörevi",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "ÇalışmaAlanı",
+    "identifier": "ÇalışmaAlanı",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "_Yazma",
+    "identifier": "Yazma",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/tr/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

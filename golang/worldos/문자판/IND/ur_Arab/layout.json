@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/ur_Arab",
+  "language": "ur_Arab",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "RUS",
+  "language": "ru",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "исходный-код"
+  }
+}

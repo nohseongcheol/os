@@ -1,0 +1,8 @@
+Fil	이전이름	최종이름	쓰임
+시언어번역기/Køyr_2.c	h	실행머리	ELF hode_VALUE
+maskin/brukar.c	h	실행머리	ELF bekrefte·적재 hode_VALUE
+maskin/brukar.h	x	registrere_data	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+maskin/Tavle.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+brukar/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Verktøy/*.py	root	rot_bane	Fil 계층의 spegle_rot STIGE
+maskin/Terminal.c	w	vindauge_oppføring	Terminal vindauge status_VALUE peikar

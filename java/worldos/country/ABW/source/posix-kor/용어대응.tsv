@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	soort_WAARDE	기능에따른뜻	적용위치
+open	open_Bestand	FUNCTIE_WAARDE	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	maken_Bestand	FUNCTIE_WAARDE	Schrijven 전용 genereren 또는 Inhoud_WAARDE wissen_Inhoud	파일규약.h
+read	파일자료읽기	FUNCTIE_WAARDE	열린 대상에서 byte_WAARDE 자료를 읽는다	파일규약.h
+write	schrijven_Bestand_gegevens	FUNCTIE_WAARDE	열린 대상에 byte_WAARDE 자료를 쓴다	파일규약.h
+close	Sluiten_Bestand	FUNCTIE_WAARDE	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	zoeken_Bestand	FUNCTIE_WAARDE	열린 파일의 I_O 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	FUNCTIE_WAARDE	같은 열린 bestand 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	FUNCTIE_WAARDE	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	verwijderen_Bestand_invoer_naam	FUNCTIE_WAARDE	Naam 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	set_Bestand_tijdsduur	FUNCTIE_WAARDE	열린 파일의 byte_WAARDE 길이를 정한다	파일규약.h
+fstat	파일상태읽기	FUNCTIE_WAARDE	열린 대상의 soort_WAARDE Grootte 링크 nummer 등을 읽는다	파일규약.h
+fsync	doorvoeren_Files	FUNCTIE_WAARDE	Store_WAARDE 매체에 actueel_item bestand 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	FUNCTIE_WAARDE	서술자별 설정과 공유 Openen 설정을 다룬다	파일규약.h
+socket	maken_eindpunt	FUNCTIE_WAARDE	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_ADRES	FUNCTIE_WAARDE	종단점에 lokaal_scope 주소와 접속번호를 묶는다	통신규약.h
+sendto	e_mailen_datagram_gegevens	FUNCTIE_WAARDE	지정한 상대에게 datagram 하나를 보낸다	통신규약.h
+recvfrom	ontvangen_datagram_gegevens	FUNCTIE_WAARDE	datagram 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	FUNCTIE_WAARDE	lokaal_scope 종단점의 actueel_item 주소를 읽는다	통신규약.h
+setsockopt	wijzigen_net_Instellingen	FUNCTIE_WAARDE	지원하는 ontvangen_WAARDE wachten_WAARDE 설정을 바꾼다	통신규약.h
+inet_pton	parseren_netwerk_id	FUNCTIE_WAARDE	cijfer_WAARDE ADRES 문자열을 contractwaarde 바이트로 해석한다	통신규약.h
+inet_ntop	opmaak_netwerk_id	FUNCTIE_WAARDE	contractwaarde 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	FUNCTIE_WAARDE	16비트 값을 망의 byte_WAARDE 차례로 바꾼다	통신규약.h
+htonl	net_geheel_getal	FUNCTIE_WAARDE	32비트 값을 망의 byte_WAARDE 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	FUNCTIE_WAARDE	16비트 값을 Uitvoeren_opdracht 장치의 byte_WAARDE 차례로 바꾼다	통신규약.h
+ntohl	mobiel_order_geheel_getal	FUNCTIE_WAARDE	32비트 값을 Uitvoeren_opdracht 장치의 byte_WAARDE 차례로 바꾼다	통신규약.h
+errno	foutnummer	variabele_WAARDE	실패한 C 호출의 양수 fout INDEX	errno.h
+fd	파일서술자	variabele_WAARDE	Proces_WAARDE 안의 열린 대상을 식별하는 geheel_getal	Bestand_I_O.c
+count	byte_AANTAL	variabele_WAARDE	gegevens 전송량의 단위가 바이트임을 드러낸다	Bestand_I_O.c
+offset	VERSCHUIVING_WAARDE	variabele_WAARDE	Taken_wortel 위치에 더할 Encoding_WAARDE 있는 거리	Bestand_I_O.c
+flags	open_Instellingen	variabele_WAARDE	bestand toegang_invoer 방식과 Openen Actie	Bestand_I_O.c
+mode	toekenning_machtiging	variabele_WAARDE	genereren 파일에 기록할 toekenning_machtiging bit_WAARDE	Bestand_I_O.c
+timeout	수신대기밀리초	variabele_WAARDE	ontvangen_WAARDE wachten_WAARDE 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	variabele_WAARDE	UDP 종단점에 배정한 nummer_Lijst	net_stack.java
+통신장치.hardware_poort	net_stuurprogramma.입출력기준주소	variabele_WAARDE	NIC의 CPU I_O ADRES ADRES_regio Taken_wortel	net_stuurprogramma.java
+generation	generatie_nummer	variabele_WAARDE	성공한 Store_WAARDE 시점의 order_WAARDE	파일보존.java
+포트읽기	입출력바이트읽기	FUNCTIE_WAARDE	CPU I_O 주소에서 한 바이트를 읽는다	mobiel_WAARDE.java
+포트쓰기	입출력바이트쓰기	FUNCTIE_WAARDE	CPU I_O 주소에 한 바이트를 쓴다	mobiel_WAARDE.java
+포트정수읽기	입출력정수읽기	FUNCTIE_WAARDE	CPU I_O 주소에서 32비트를 읽는다	mobiel_WAARDE.java
+포트정수쓰기	입출력정수쓰기	FUNCTIE_WAARDE	CPU I_O 주소에 32비트를 쓴다	mobiel_WAARDE.java
+포트짧은쓰기	입출력짧은수쓰기	FUNCTIE_WAARDE	CPU I_O 주소에 16비트를 쓴다	mobiel_WAARDE.java
+메모리파일.java	Geheugen_bestandssysteem.java	bestand·opmaak_WAARDE	주기억 내 bestand 자료와 이름을 관리한다	os/broncode
+통신장치.java	net_stuurprogramma.java	bestand·opmaak_WAARDE	PCI 망장치를 찾아 초기화하고 송수신한다	os/broncode
+file I/O	Bestand_I_O.c	bestand	C 호출과 kernel_WAARDE 파일서술자 호출의 grens_WAARDE	posix-kor/broncode/implementatie
+socket interface	socket_eindpunt.c	bestand	C 소켓과 kernel_WAARDE 자료전문 기능의 grens_WAARDE	posix-kor/broncode/implementatie
+syscall bridge	besturingssysteem_Oproepen.s	bestand	C 호출 규약과 kernel_WAARDE 레지스터 규약의 grens_WAARDE	posix-kor/machine
+startup	START_gebruiker_app.s	bestand	gebruikersruimte 진입점에서 C main을 시작한다	posix-kor/machine

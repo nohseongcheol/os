@@ -1,0 +1,8 @@
+Datoteka	이전이름	최종이름	쓰임
+C_prevajalnik/Zaženi.c	h	실행머리	ELF Glava_VALUE
+računalnik/uporabnik.c	h	실행머리	ELF preveriti_veljavnost·적재 Glava_VALUE
+računalnik/uporabnik.h	x	register_podatki	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+računalnik/Tabla.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+uporabnik/자바/자바가상기계.java 화면호출	w h	너비 višina_VALUE	화면 치수
+Orodja/*.py	root	koren_pot	Datoteka 계층의 pobuda_koren POT
+računalnik/Terminal.c	w	okno_vnos	Terminal okno stanje_VALUE kazalec

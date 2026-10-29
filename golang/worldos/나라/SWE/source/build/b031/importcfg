@@ -1,0 +1,12 @@
+# import config
+packagefile avbrott=/home/user/worldos/나라/SWE/소스/build/b024/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/ef/ef2ba40c7b9c0785e6623744f1ce92740612a2aa3badf01d5bd174736a70ae52-d
+packagefile konsol=/home/user/.cache/go-build/8f/8fb4fd9055236d5b1fd12bfe2716a19a259d9fdd773c1118af3907f8e7281bef-d
+packagefile minnemanager=/home/user/worldos/나라/SWE/소스/build/b021/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/SWE/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/51/51c8ce3d3279ee903efa1ca048c015f133a44ae307680e0b2f5efcc054442e0c-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/SWE/소스/build/b032/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/SWE/소스/build/b035/_pkg_.a
+packagefile util/lista=/home/user/worldos/나라/SWE/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SWE/소스/build/b000/_pkg_.a

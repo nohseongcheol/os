@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""배포 묶음에서 libassh/TinyCC를 교체하고 자체 커널을 다시 연결한다."""
+import argparse
+import hashlib
+import json
+import os
+from pathlib import Path
+import re
+import subprocess
+import tempfile
+
+기준 = Path(__file__).resolve().parent
+
+
+def ṣiṣẹ́_àṣẹ(Ọ̀rọ̀_SMS):
+    subprocess.check_call([str(ìgbéwọlé_iye) for ìgbéwọlé_iye in Ọ̀rọ̀_SMS], cwd=str(기준))
+
+
+def Rọ́ọ̀nù():
+    해석기 = argparse.ArgumentParser(description=__doc__)
+    해석기.add_argument('--verify', action='store_true', help='원래 이미지와 동일한 SHA256인지 ridájú')
+    해석기.add_argument('--libassh-archive', type=Path, help='별도로 수정·컴파일한 libassh.a 사용')
+    해석기.add_argument('--tinycc', action='store_true', help='TinyCC 소스도 다시 컴파일하고 커널에 탑재')
+    해석기.add_argument('--sdk', type=Path, help='TinyCC용 Alpine ARM64 SDK rootfs (원래 헤더·libgcc)')
+    인수 = 해석기.parse_args()
+    명세 = json.loads((기준 / 'relink.json').read_text())
+    àtòpọ̀_ètò = 기준 / 'build'
+    새묶음 = àtòpọ̀_ètò / 'relinked'
+    새묶음.mkdir(exist_ok=True)
+    번역기 = os.environ.get('ARM64_CC', 'clang')
+    olùsopọ̀ = os.environ.get('ARM64_LD', 'aarch64-linux-gnu-ld')
+    Ìpamọ_ọlọ́jọ́pípẹ́_irinṣẹ́ = os.environ.get('ARM64_AR', 'aarch64-linux-gnu-ar')
+    Ìjìnnà_Àwọn_ààtò = json.loads((àtòpọ̀_ètò / 'remote/libassh-build.json').read_text())
+    Àwọn_ààtò = Ìjìnnà_Àwọn_ààtò['flags']
+    if 인수.libassh_archive:
+        Ààbò_àkópọ̀ = 인수.libassh_archive.resolve()
+    else:
+        목적들 = []
+        포함 = ['-I', 기준 / 'Ìjìnnà_iye', '-I', 기준 / 'vendor/libassh/src', '-isystem', '/usr/include/newlib']
+        for Orúkọ in Ìjìnnà_Àwọn_ààtò['sources']:
+            èbúté_iye = 새묶음 / (Path(Orúkọ).stem + '.o')
+            ṣiṣẹ́_àṣẹ([번역기] + Àwọn_ààtò + ['-std=c11', '-DNDEBUG', '-ffunction-sections', '-fdata-sections'] + 포함 +
+                 ['-c', 기준 / Orúkọ, '-o', èbúté_iye])
+            목적들.append(èbúté_iye)
+        Ààbò_àkópọ̀ = 새묶음 / 'libassh.a'
+        with tempfile.TemporaryDirectory(dir=str(새묶음)) as 임시:
+            임시묶음 = Path(임시) / 'libassh.a'
+            ṣiṣẹ́_àṣẹ([Ìpamọ_ọlọ́jọ́pípẹ́_irinṣẹ́, 'rcs', 임시묶음] + 목적들)
+            임시묶음.replace(Ààbò_àkópọ̀)
+    if 인수.tinycc:
+        if not 인수.sdk:
+            해석기.error('--tinycc requires --sdk pointing to the documented Alpine ARM64 SDK rootfs')
+        개발 = 인수.sdk.resolve()
+        산술 = sorted((개발 / 'usr/lib/gcc/aarch64-alpine-linux-musl').glob('*/libgcc.a'))
+        if not 산술 or not (개발 / 'usr/include/stdio.h').is_file():
+            해석기.error('SDK must contain ARM64 musl headers and libgcc.a')
+        설정시 = [ẹ̀yàn_iye for ẹ̀yàn_iye in Àwọn_ààtò if ẹ̀yàn_iye != '-mgeneral-regs-only']
+        èbúté_iye = 새묶음 / '번역기.o'
+        ṣiṣẹ́_àṣẹ([번역기] + 설정시 + ['-ffunction-sections', '-fdata-sections',
+             '-I', 기준 / '시언어번역기', '-I', 기준 / 'vendor/tinycc', '-I', 기준 / 'aṣàmúlò',
+             '-I', àtòpọ̀_ètò / 'ccompiler', '-isystem', 개발 / 'usr/include', '-c', 기준 / '시언어번역기/번역기.c', '-o', èbúté_iye])
+        ṣiṣẹ́_àṣẹ([olùsopọ̀, '--gc-sections', '-T', 기준 / 'aṣàmúlò/ṣàsopọ̀_ètò_ìrísí.ld', '-z', 'max-page-size=4096',
+             '-o', àtòpọ̀_ètò / 'user/cc.elf', àtòpọ̀_ètò / 'user/start.o', àtòpọ̀_ètò / 'user/runtime.o', èbúté_iye] +
+             [àtòpọ̀_ètò / 'ccompiler' / (Orúkọ + '.o') for Orúkọ in ('àkókò_iṣẹ́_èdè_tówọ́pọ̀_àtìlẹ́yìn', 'Rọ́ọ̀nù', '미리번역', '되돌림')] +
+             [àtòpọ̀_ètò / 'user' / (Orúkọ + '.o') for Orúkọ in ('jar', 'tinflate', 'crc32', 'adler32')] + [산술[-1]])
+        머리 = àtòpọ̀_ètò / 'programs.h'
+        머리.write_text(re.sub(r'(\{user_blob_cc, )\d+', lambda 일치: 일치.group(1) + str((àtòpọ̀_ètò / 'user/cc.elf').stat().st_size), 머리.read_text()))
+        ṣiṣẹ́_àṣẹ([번역기] + Àwọn_ààtò + ['-c', àtòpọ̀_ètò / 'programs.S', '-o', 기준 / 'objects/programs.o'])
+        ṣiṣẹ́_àṣẹ([번역기] + Àwọn_ààtò + ['-std=c11', '-I', 기준 / 'posix-kor/arm64-native/포함', '-I', àtòpọ̀_ètò,
+             '-c', 기준 / 'maṣíìnì/aṣàmúlò.c', '-o', 기준 / 'objects/user.o'])
+    ṣiṣẹ́_àṣẹ([olùsopọ̀, '--gc-sections', '-T', 기준 / '부팅/ṣàsopọ̀_ètò_ìrísí.ld', '-o', 새묶음 / 'kernel.elf'] +
+         [기준 / ọ̀nà for ọ̀nà in 명세['objects']] + ['--start-group'] +
+         [Ààbò_àkópọ̀ if ọ̀nà == 'objects/libassh.a' else 기준 / ọ̀nà for ọ̀nà in 명세['libraries']] + ['--end-group'])
+    ṣiṣẹ́_àṣẹ([os.environ.get('ARM64_OBJCOPY', 'aarch64-linux-gnu-objcopy'), '-O', 'binary', 새묶음 / 'kernel.elf', 새묶음 / 'kernel8.img'])
+    burú_fáìlì = hashlib.sha256((새묶음 / 'kernel8.img').read_bytes()).hexdigest()
+    if 인수.verify and burú_fáìlì != 명세['kernel_sha256']:
+        raise SystemExit('재연결 결과가 원본과 다릅니다. 의도적으로 라이브러리를 수정했다면 --verify 없이 실행하세요. SHA256=' + burú_fáìlì)
+    print('RELINK PASS', burú_fáìlì, 새묶음 / 'kernel8.img')
+
+
+if __name__ == '__main__':
+    Rọ́ọ̀nù()

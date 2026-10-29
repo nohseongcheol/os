@@ -1,0 +1,25 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/CZE/소스/build/b002/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/f5/f5af1c889ac55c692480e364b486e21f5df78c4b3e93497ffa2d0b98a122376d-d
+packagefile driver/klávesnice=/home/user/worldos/나라/CZE/소스/build/b007/_pkg_.a
+packagefile driver/polohovací_zařízení=/home/user/worldos/나라/CZE/소스/build/b036/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/bc/bc39e438091c3712331fa0dba167f1aa449b8f7c7be2621196e05484a30dc8e0-d
+packagefile konzole=/home/user/.cache/go-build/cf/cf799bccd988dd4e5af6ae510771e666e7e4f2fb1ee21189ad57db7ec4387055-d
+packagefile multitasking=/home/user/worldos/나라/CZE/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/CZE/소스/build/b025/_pkg_.a
+packagefile paměťmanager=/home/user/worldos/나라/CZE/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/CZE/소스/build/b037/_pkg_.a
+packagefile přerušení=/home/user/worldos/나라/CZE/소스/build/b008/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile souborSystém/fat=/home/user/worldos/나라/CZE/소스/build/b027/_pkg_.a
+packagefile souborSystém/msdospartition=/home/user/worldos/나라/CZE/소스/build/b028/_pkg_.a
+packagefile souborSystém/spustitelný_a_spojitelný_formát=/home/user/worldos/나라/CZE/소스/build/b029/_pkg_.a
+packagefile systémcall=/home/user/worldos/나라/CZE/소스/build/b024/_pkg_.a
+packagefile tasking/proces=/home/user/worldos/나라/CZE/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/CZE/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/CZE/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/CZE/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/42/42c5653c8e172b08b34b5bb36c9a8399e482adaf2603fb9439f7455aeb94fb8d-d
+packagefile virtuálníPaměť=/home/user/worldos/나라/CZE/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CZE/소스/build/b000/_pkg_.a

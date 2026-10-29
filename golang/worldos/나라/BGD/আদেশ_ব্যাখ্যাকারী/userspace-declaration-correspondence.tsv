@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+SYS_exit	SYS__exit
+SYS_read	SYS_pora
+SYS_write	SYS_lekha
+argv	আর্গুমেন্ট_তালিকা_2
+buf	স্থানান্তরের_অস্থায়ী_ভান্ডার
+fd	নথি_নির্দেশক
+read	pora
+write	lekha

@@ -1,0 +1,8 @@
+Kartelë	이전이름	최종이름	쓰임
+시언어번역기/Ekzekuto.c	h	실행머리	ELF Kreu_VALUE
+makinë/përdorues.c	h	실행머리	ELF vlerësoj·적재 Kreu_VALUE
+makinë/përdorues.h	x	regjistroj_të_dhëna	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+makinë/panel.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+përdorues/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Mjete/*.py	root	rrënjë_shteg	Kartelë 계층의 Project_rrënjë POZICIONI
+makinë/Terminali.c	w	dritare_futje	Terminali Dritare status_VALUE tregues

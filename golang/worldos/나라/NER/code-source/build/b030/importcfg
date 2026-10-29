@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/72/727bd7b15bc7faf1d507dd1b62cb31c44c99138ca2bece2c54f7d1600153dc97-d
+packagefile gdt=/home/user/.cache/go-build/1f/1f802ef3c1e51cb61f11b33664ac40ccbb4de02696564b9e1be7dac7a78b3c8c-d
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/NER/소스/build/b027/_pkg_.a
+packagefile gestionTâches/tss=/home/user/worldos/나라/NER/소스/build/b031/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/NER/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/NER/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/NER/소스/build/b021/_pkg_.a
+packagefile port=/home/user/.cache/go-build/63/6321f0018773ab7365a1c71b7458c535d6f3607ada6d0a5c6f78e8a2953f5e7a-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile utilitaire/liste=/home/user/worldos/나라/NER/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/NER/소스/build/b000/_pkg_.a

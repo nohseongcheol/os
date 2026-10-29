@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "কাৰ্য্য",
+    "identifier": "কাৰ্য্য",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "className",
+    "identifier": "className",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "বন্ধ কৰক (_C)",
+    "identifier": "বন্ধ_কৰক",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "কমান্ড",
+    "identifier": "কমান্ড",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "সংযোগ স্থাপনা (_C)",
+    "identifier": "সংযোগ_স্থাপনা",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "ডিৰেক্টৰি",
+    "identifier": "ডিৰেক্টৰি",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "ত্ৰুটি",
+    "identifier": "ত্ৰুটি",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "চলাওক",
+    "identifier": "চলাওক",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/kparts5.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "নথিপত্ৰ (_F)",
+    "identifier": "নথিপত্ৰ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "লেবেল",
+    "identifier": "লেবেল",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "তুলি লওক",
+    "identifier": "তুলি_লওক",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "মোড",
+    "identifier": "মোড",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "নাম",
+    "identifier": "নাম",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/alacarte.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "খোলো (_O)",
+    "identifier": "খোলো",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "নিৰ্গম",
+    "identifier": "নিৰ্গম",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/mate-media.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "পেনেল",
+    "identifier": "পেনেল",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "পথ",
+    "identifier": "পথ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "পোৰ্ট",
+    "identifier": "পোৰ্ট",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "অৱস্থান",
+    "identifier": "অৱস্থান",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "প্ৰসেস",
+    "identifier": "প্ৰসেস",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "পড়া (_R)",
+    "identifier": "পড়া",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "আঁতৰাওঁক",
+    "identifier": "আঁতৰাওঁক",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "সঞ্চালন (_R)",
+    "identifier": "সঞ্চালন",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "সংৰক্ষণ (_S)",
+    "identifier": "সংৰক্ষণ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "বৈশিষ্ট্য (_S)",
+    "identifier": "বৈশিষ্ট্য",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "মাপ",
+    "identifier": "মাপ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "উৎস",
+    "identifier": "উৎস",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "বন্ধ কৰক",
+    "identifier": "বন্ধ_কৰক_2",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "টাৰ্মিনেল",
+    "identifier": "টাৰ্মিনেল",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/mate-terminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "টেক্সট",
+    "identifier": "টেক্সট",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "টুল-বাৰ(_T)",
+    "identifier": "টুল_বাৰ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "লিখা (_W)",
+    "identifier": "লিখা",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/as/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

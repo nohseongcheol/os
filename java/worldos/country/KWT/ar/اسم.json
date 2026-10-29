@@ -1,0 +1,425 @@
+{
+  "action": {
+    "text": "إجراء",
+    "identifier": "إجراء",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "عنوان",
+    "identifier": "عنوان",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "نداءاتالنظام",
+    "identifier": "نداءاتالنظام",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "إلحاق",
+    "identifier": "إلحاق",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "وسائط",
+    "identifier": "وسائط",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "زر",
+    "identifier": "زر",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "اختيار",
+    "identifier": "اختيار",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "منتقي",
+    "identifier": "منتقي",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "اسمالصنف",
+    "identifier": "اسمالصنف",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "إغلاق",
+    "identifier": "إغلاق",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "أمر",
+    "identifier": "أمر",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "ترجمة",
+    "identifier": "ترجمة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "اتصال",
+    "identifier": "اتصال",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "العمليةالحالية",
+    "identifier": "العمليةالحالية",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "بيانات",
+    "identifier": "بيانات",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "رزمةمستقلة",
+    "identifier": "رزمةمستقلة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "دليل",
+    "identifier": "دليل",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "خطأ",
+    "identifier": "خطأ",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "حدث",
+    "identifier": "حدث",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "استثناء",
+    "identifier": "استثناء",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "تنفيذ",
+    "identifier": "تنفيذ",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "ملف",
+    "identifier": "ملف",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "تهيئة",
+    "identifier": "تهيئة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "مفتاح",
+    "identifier": "مفتاح",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "تسمية",
+    "identifier": "تسمية",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "سطر",
+    "identifier": "سطر",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "تحميل",
+    "identifier": "تحميل",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "رسائل",
+    "identifier": "رسائل",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "نمط",
+    "identifier": "نمط",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "اسم",
+    "identifier": "اسم",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "فتح",
+    "identifier": "فتح",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "مخرجات",
+    "identifier": "مخرجات",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "لوحة",
+    "identifier": "لوحة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "محلل",
+    "identifier": "محلل",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "مسار",
+    "identifier": "مسار",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "رقمالمنفذ",
+    "identifier": "رقمالمنفذ",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "موضع",
+    "identifier": "موضع",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "عملية",
+    "identifier": "عملية",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "قراءة",
+    "identifier": "قراءة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "قارئ",
+    "identifier": "قارئ",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "إزالة",
+    "identifier": "إزالة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "نتيجة",
+    "identifier": "نتيجة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "تشغيل",
+    "identifier": "تشغيل",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "حفظ",
+    "identifier": "حفظ",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "نقلالموضع",
+    "identifier": "نقلالموضع",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "إعدادات",
+    "identifier": "إعدادات",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "حجم",
+    "identifier": "حجم",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "مصدر",
+    "identifier": "مصدر",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "تقسيم",
+    "identifier": "تقسيم",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "إيقاف",
+    "identifier": "إيقاف",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "مزامنة",
+    "identifier": "مزامنة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "طرفية",
+    "identifier": "طرفية",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "نص",
+    "identifier": "نص",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "خيط",
+    "identifier": "خيط",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "شريطالأدوات",
+    "identifier": "شريطالأدوات",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "نافذة",
+    "identifier": "نافذة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "خيطالعمل",
+    "identifier": "خيطالعمل",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "ورشة",
+    "identifier": "ورشة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "كتابة",
+    "identifier": "كتابة",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  }
+}

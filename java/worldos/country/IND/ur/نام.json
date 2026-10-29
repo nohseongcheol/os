@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "عمل",
+    "identifier": "عمل",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/mate-control-center.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "دلائل",
+    "identifier": "دلائل",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "بٹن",
+    "identifier": "بٹن",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/xfce4-places-plugin.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "منتخب کریں...",
+    "identifier": "منتخب_کریں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "className",
+    "identifier": "className",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "_بند کریں",
+    "identifier": "بند_کریں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "حکم",
+    "identifier": "حکم",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_متصل ہوں",
+    "identifier": "متصل_ہوں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "موجودہ مقام",
+    "identifier": "موجودہ_مقام",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "راستہ",
+    "identifier": "راستہ",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "غلطی",
+    "identifier": "غلطی",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/libxfce4ui.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "واقعہ",
+    "identifier": "واقعہ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "ا_طلاق",
+    "identifier": "اطلاق",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "فائل کا نام",
+    "identifier": "فائل_کا_نام",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "سرنامہ",
+    "identifier": "سرنامہ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "اندراج کی سطر",
+    "identifier": "اندراج_کی_سطر",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "بوجھ",
+    "identifier": "بوجھ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/mate-applets.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "mode",
+    "identifier": "mode",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "نام",
+    "identifier": "نام",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "ک_ھولیں",
+    "identifier": "کھولیں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "اخراج کا مقام",
+    "identifier": "اخراج_کا_مقام",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "پینل",
+    "identifier": "پینل",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/lxpanel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "راستہ",
+    "identifier": "راستہ_2",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "پورٹ",
+    "identifier": "پورٹ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "مقام",
+    "identifier": "مقام",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "عمل کاری",
+    "identifier": "عمل_کاری",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_پڑھیں",
+    "identifier": "پڑھیں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "حذف کریں",
+    "identifier": "حذف_کریں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_چلائیں",
+    "identifier": "چلائیں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_محفوظ کریں",
+    "identifier": "محفوظ_کریں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "ترتیبات",
+    "identifier": "ترتیبات",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/xfce4-settings.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "حجم",
+    "identifier": "حجم",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "ماخذ فائل",
+    "identifier": "ماخذ_فائل",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_روکیں",
+    "identifier": "روکیں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "حکم کی تشریح کرنے والا",
+    "identifier": "حکم_کی_تشریح_کرنے_والا",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "متن",
+    "identifier": "متن",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_اوزار پٹی",
+    "identifier": "اوزار_پٹی",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/engrampa.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "ونڈو",
+    "identifier": "ونڈو",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "لک_ھیں",
+    "identifier": "لکھیں",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ur/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

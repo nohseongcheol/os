@@ -1,0 +1,25 @@
+# import config
+packagefile archivosistema/fat=/home/user/worldos/나라/PAN/소스/build/b002/_pkg_.a
+packagefile archivosistema/formato_ejecutable_y_enlazable=/home/user/worldos/나라/PAN/소스/build/b022/_pkg_.a
+packagefile archivosistema/msdospartición=/home/user/worldos/나라/PAN/소스/build/b003/_pkg_.a
+packagefile consola=/home/user/.cache/go-build/52/52da751803a08abb4bffa846a5ecc4aac21874375adf274c75d9a2eecc72d7ff-d
+packagefile controlador/ata=/home/user/worldos/나라/PAN/소스/build/b006/_pkg_.a
+packagefile controlador/controlador=/home/user/.cache/go-build/90/90f7cba826f8802f4b260a436ca57472c539eaa8192baeeb7de4d2f4f3e6fc21-d
+packagefile controlador/dispositivo_señalador=/home/user/worldos/나라/PAN/소스/build/b028/_pkg_.a
+packagefile controlador/teclado=/home/user/worldos/나라/PAN/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/99/99c4cf954abe9a8c672317c52359c570a2825b53fb5e8f05f7be5d3658330575-d
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/PAN/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/planificador=/home/user/worldos/나라/PAN/소스/build/b034/_pkg_.a
+packagefile gestiónTareas/proceso=/home/user/worldos/나라/PAN/소스/build/b037/_pkg_.a
+packagefile gestiónTareas/tss=/home/user/worldos/나라/PAN/소스/build/b035/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/PAN/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/PAN/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/PAN/소스/build/b026/_pkg_.a
+packagefile paginación=/home/user/worldos/나라/PAN/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/PAN/소스/build/b038/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sistemallamada=/home/user/worldos/나라/PAN/소스/build/b030/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/ab/abbc3e26f6bf14c0950287b19822eabd826a36ada74a2f7333e0fdf1133b736c-d
+packagefile virtualmemoria=/home/user/worldos/나라/PAN/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PAN/소스/build/b000/_pkg_.a

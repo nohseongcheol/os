@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "date": "2026-10-03",
+  "unit_tests": 33,
+  "installed_edition_checks": 295,
+  "actual_vm": {
+    "uuid": "12edc548-ca02-4c78-bd6e-6ed5850af279",
+    "state": "saved",
+    "configuration": "/home/user/golang/worldos/나라/KOR/.vbox/machines/worldos KOR/worldos KOR.vbox",
+    "current_disk": "/home/user/golang/worldos/나라/KOR/.vbox/media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi",
+    "current_iso": "/home/user/golang/worldos/나라/KOR/.vbox/media/kernel-b88077e9b378cb35c7ab219fb28a81f491aff468861bc81c42a68ac95af631a2.iso"
+  },
+  "state_version": 2,
+  "managed_paths_relative": true,
+  "media_and_saved_state_unchanged": true,
+  "boot_or_resume_tested": false,
+  "backup": "/home/user/golang/worldos/나라/KOR/.vbox/relocation-backup-6422fef7-d99d-4f8f-94a1-2b87e8a99f5d",
+  "launcher_sha256": "aa8d4685eec48c8bcb8f90e230160fcd1e3f4de92b8b7c3afd2a008f3bc6b912",
+  "evidence": [
+    "unit-tests.log",
+    "install.log",
+    "before.json",
+    "after.json",
+    "actual-vminfo.txt"
+  ]
+}

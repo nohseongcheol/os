@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/d0/d08ca999eb5e39238226bda108b582976fd0334e8b6ae17a08b32471201017ed-d
+packagefile gdt=/home/user/.cache/go-build/5f/5fa70588012621e19c52c2a4c93ed76f2a7a2ba4a3ea55e3ef0864a92fbeccb8-d
+packagefile interrupt=/home/user/worldos/나라/MDV/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/MDV/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/MDV/소스/build/b022/_pkg_.a
+packagefile port=/home/user/.cache/go-build/9b/9b78f921b0abdaa0529549477d0fc00a8245b0f57ddabce6db471f7a3306168f-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/MDV/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/MDV/소스/build/b034/_pkg_.a
+packagefile util/list=/home/user/worldos/나라/MDV/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MDV/소스/build/b000/_pkg_.a

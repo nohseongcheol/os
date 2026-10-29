@@ -1,0 +1,10 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package 한국어.자체;
+
+/** 검사(檢査): អនុវត្ត_ពាក្យបញ្ជា 예제와 시험에서 기대한 조건을 확인한다. */
+public final class 검사 {
+    private 검사() {}
+    public static void 참인지(boolean លក្ខខណ្ឌ, String 까닭) {
+        if (!លក្ខខណ្ឌ) throw new មិនត្រឹមត្រូវ_អាគុយម៉ង់_ការលើកលែង(까닭);
+    }
+}

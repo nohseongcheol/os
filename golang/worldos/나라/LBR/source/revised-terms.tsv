@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	allocate memory	allocate_memory	project-proposal	function-based project proposal
+append	append to list	append_to_list	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	allocation bitmap	allocation_bitmap	project-proposal	function-based project proposal
+boot	machine boot	machine_boot	project-proposal	function-based project proposal
+boot_record	master boot record	master_boot_record	project-proposal	boot code and partition metadata, not an audio recording
+bus	shared transfer bus	shared_transfer_bus	project-proposal	function-based project proposal
+compile_kernel	compile kernel	compile_kernel	project-proposal	function-based project proposal
+destination_port	destination port number	destination_port_number	project-proposal	function-based project proposal
+elf	executable and linkable format	executable_and_linkable_format	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	error number	error_number	project-proposal	function-based project proposal
+ethernet_frame	shared medium network frame	shared_medium_network_frame	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	shared medium network frame header	shared_medium_network_frame_header	project-proposal	function-based project proposal
+ethernet_provider	shared medium network frame provider	shared_medium_network_frame_provider	project-proposal	function-based project proposal
+fat_parameters	file system parameters	file_system_parameters	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	file control	file_control	project-proposal	function-based project proposal
+file_read	read file	read_file	project-proposal	function-based project proposal
+file_status	file status	file_status	project-proposal	function-based project proposal
+file_write	write file	write_file	project-proposal	function-based project proposal
+free_memory	release memory	release_memory	project-proposal	function-based project proposal
+headers	headers	headers	project-proposal	function-based project proposal
+heap	dynamic memory	dynamic_memory	project-proposal	function-based project proposal
+icmp	interconnected network control message protocol	interconnected_network_control_message_protocol	project-proposal	function-based project proposal
+implementation	implementation	implementation	project-proposal	function-based project proposal
+insert_at	insert at index	insert_at_index	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	interconnected network	interconnected_network	project-proposal	function-based project proposal
+ip_provider	interconnected network protocol provider	interconnected_network_protocol_provider	project-proposal	function-based project proposal
+ipv4	interconnected network protocol 4	interconnected_network_protocol_4	project-proposal	function-based project proposal
+link_layout	link layout	link_layout	project-proposal	function-based project proposal
+list_node	list node	list_node	project-proposal	function-based project proposal
+log_decoder	decode serial log	decode_serial_log	project-proposal	function-based project proposal
+mouse	pointing device	pointing_device	project-proposal	function-based project proposal
+page_directory	page directory	page_directory	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	physical page	physical_page	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	address reference	address_reference	project-proposal	function-based project proposal
+prepend	prepend to list	prepend_to_list	project-proposal	src/util/list/list.go: links before head
+register	register	register	project-proposal	function-based project proposal
+set_coordinates	set local coordinates	set_local_coordinates	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	source port number	source_port_number	project-proposal	function-based project proposal
+stack	stack storage	stack_storage	project-proposal	function-based project proposal
+startup	startup	startup	project-proposal	function-based project proposal
+structure_offsets	structure offsets	structure_offsets	project-proposal	function-based project proposal
+system_call	system call	system_call	project-proposal	function-based project proposal
+tests	tests	tests	project-proposal	function-based project proposal
+toggle_bit	toggle allocation bit	toggle_allocation_bit	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	tools	tools	project-proposal	function-based project proposal
+udp	user datagram protocol	user_datagram_protocol	project-proposal	function-based project proposal
+udp_header	user datagram header	user_datagram_header	project-proposal	function-based project proposal
+udp_socket	user datagram endpoint	user_datagram_endpoint	project-proposal	function-based project proposal
+user_space	user space	user_space	project-proposal	function-based project proposal
+widget	screen element	screen_element	project-proposal	function-based project proposal

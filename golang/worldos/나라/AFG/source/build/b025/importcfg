@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/AFG/소스/build/b008/_pkg_.a
+packagefile util=/home/user/.cache/go-build/e2/e2683dbc1224a0209b8cd593f4714c566e3bf9972e33e5d6910648728e30f5b2-d
+packagefile حافظهmanager=/home/user/worldos/나라/AFG/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AFG/소스/build/b000/_pkg_.a

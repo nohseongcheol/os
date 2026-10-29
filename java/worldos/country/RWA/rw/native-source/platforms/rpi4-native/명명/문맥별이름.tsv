@@ -1,0 +1,8 @@
+Idosiye	이전이름	최종이름	쓰임
+시언어번역기/ihuriro.c	h	실행머리	ELF Umutwengaruka_agaciro
+imashini/ukoresha.c	h	실행머리	ELF kwemeza·적재 Umutwengaruka_agaciro
+imashini/ukoresha.h	x	저장기값	ARM64 x0..x30 Store_agaciro ARRAY_agaciro
+imashini/보드.c	h	열여섯진숫자	진수 변환 문자표
+ukoresha/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Ibikoresho/*.py	root	기준경로	Idosiye 계층의 기준 Inzira
+imashini/터미널.c	w	idirishya_icyinjizwa	터미널 idirishya imimerere_agaciro mwerekana

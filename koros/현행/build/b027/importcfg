@@ -1,0 +1,16 @@
+# import config
+packagefile util=/home/user/koros/현행/build/b023/_pkg_.a
+packagefile 드라이버/ata=/home/user/koros/현행/build/b024/_pkg_.a
+packagefile 멀티태스킹=/home/user/koros/현행/build/b020/_pkg_.a
+packagefile 메모리매니저=/home/user/koros/현행/build/b021/_pkg_.a
+packagefile 버추얼메모리=/home/user/koros/현행/build/b028/_pkg_.a
+packagefile 인터럽트=/home/user/koros/현행/build/b019/_pkg_.a
+packagefile 콘솔=/home/user/koros/현행/build/b016/_pkg_.a
+packagefile 태스킹/스레드=/home/user/koros/현행/build/b030/_pkg_.a
+packagefile 태스킹/스케줄러=/home/user/koros/현행/build/b031/_pkg_.a
+packagefile 파일시스템/elf=/home/user/koros/현행/build/b034/_pkg_.a
+packagefile 파일시스템/fat=/home/user/koros/현행/build/b036/_pkg_.a
+packagefile 파일시스템/msdospart=/home/user/koros/현행/build/b037/_pkg_.a
+packagefile 페이징=/home/user/koros/현행/build/b035/_pkg_.a
+packagefile 포트=/home/user/koros/현행/build/b022/_pkg_.a
+packagefile runtime/cgo=/home/user/koros/현행/build/b000/_pkg_.a

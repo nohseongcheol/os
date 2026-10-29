@@ -1,0 +1,10 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package المغرب.JMarOS.작업;
+
+public enum عملية_حالة {
+    إعداد,
+    ينفذ_أمر,
+    حالة_انتظار,
+    خروج_تطبيق
+}
+

@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/MNG/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/MNG/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/bc/bc1724440406a0363b6a84248c6c526a7c1ddfe992a06251f5b6a991ee4d3c4e-d
+packagefile util/list=/home/user/worldos/나라/MNG/소스/build/b032/_pkg_.a
+packagefile санахойЗохицуулагч=/home/user/worldos/나라/MNG/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MNG/소스/build/b000/_pkg_.a

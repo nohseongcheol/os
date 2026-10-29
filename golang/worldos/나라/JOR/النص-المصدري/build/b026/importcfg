@@ -1,0 +1,8 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/67/67486195ecf3d4e6da60de51c947b35e6b5cfe6576c5fa033fbdaf1443ff6ee3-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile افتراضيذاكرة=/home/user/worldos/나라/JOR/소스/build/b027/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/JOR/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/26/2694ebff914ea72a60c980cdd5b69d3eba70e11619da1202ce5416b13f0689d5-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/JOR/소스/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/JOR/소스/build/b000/_pkg_.a

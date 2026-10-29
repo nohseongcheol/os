@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	виділити памʼять	виділити_памʼять	project-proposal	function-based project proposal
+append	додати в кінець списку	додати_в_кінець_списку	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	карта зайнятості	карта_зайнятості	project-proposal	function-based project proposal
+boot	запуск машини	запуск_машини	project-proposal	function-based project proposal
+boot_record	головний завантажувальний запис	головний_завантажувальний_запис	project-proposal	boot code and partition metadata, not an audio recording
+bus	спільна шина передавання	спільна_шина_передавання	project-proposal	function-based project proposal
+compile_kernel	зібрати ядро	зібрати_ядро	project-proposal	function-based project proposal
+destination_port	номер порту одержувача	номер_порту_одержувача	project-proposal	function-based project proposal
+elf	виконуваний і компонований формат	виконуваний_і_компонований_формат	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	номер помилки	номер_помилки	project-proposal	function-based project proposal
+ethernet_frame	кадр мережі зі спільним середовищем	кадр_мережі_зі_спільним_середовищем	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	заголовок кадру мережі зі спільним середовищем	заголовок_кадру_мережі_зі_спільним_середовищем	project-proposal	function-based project proposal
+ethernet_provider	постачальник кадрів мережі зі спільним середовищем	постачальник_кадрів_мережі_зі_спільним_середовищем	project-proposal	function-based project proposal
+fat_parameters	параметри файлової системи	параметри_файлової_системи	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	керування файлом	керування_файлом	project-proposal	function-based project proposal
+file_read	прочитати файл	прочитати_файл	project-proposal	function-based project proposal
+file_status	стан файла	стан_файла	project-proposal	function-based project proposal
+file_write	записати файл	записати_файл	project-proposal	function-based project proposal
+free_memory	звільнити памʼять	звільнити_памʼять	project-proposal	function-based project proposal
+headers	оголошення	оголошення	project-proposal	function-based project proposal
+heap	динамічна памʼять	динамічна_памʼять	project-proposal	function-based project proposal
+icmp	протокол керувальних повідомлень обʼєднаної мережі	протокол_керувальних_повідомлень_обʼєднаної_мережі	project-proposal	function-based project proposal
+implementation	реалізація	реалізація	project-proposal	function-based project proposal
+insert_at	вставити за індексом	вставити_за_індексом	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	обʼєднана мережа	обʼєднана_мережа	project-proposal	function-based project proposal
+ip_provider	постачальник протоколу обʼєднаної мережі	постачальник_протоколу_обʼєднаної_мережі	project-proposal	function-based project proposal
+ipv4	протокол обʼєднаної мережі 4	протокол_обʼєднаної_мережі_4	project-proposal	function-based project proposal
+link_layout	схема компонування	схема_компонування	project-proposal	function-based project proposal
+list_node	вузол списку	вузол_списку	project-proposal	function-based project proposal
+log_decoder	розібрати послідовний журнал	розібрати_послідовний_журнал	project-proposal	function-based project proposal
+mouse	вказівний пристрій	вказівний_пристрій	project-proposal	function-based project proposal
+page_directory	каталог сторінок	каталог_сторінок	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	фізична сторінка	фізична_сторінка	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	посилання на адресу	посилання_на_адресу	project-proposal	function-based project proposal
+prepend	додати на початок списку	додати_на_початок_списку	project-proposal	src/util/list/list.go: links before head
+register	регістр	регістр	project-proposal	function-based project proposal
+set_coordinates	задати локальні координати	задати_локальні_координати	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	номер порту відправника	номер_порту_відправника	project-proposal	function-based project proposal
+stack	стекова памʼять	стекова_памʼять	project-proposal	function-based project proposal
+startup	запуск	запуск	project-proposal	function-based project proposal
+structure_offsets	зсуви структури	зсуви_структури	project-proposal	function-based project proposal
+system_call	системний виклик	системний_виклик	project-proposal	function-based project proposal
+tests	випробування	випробування	project-proposal	function-based project proposal
+toggle_bit	інвертувати біт зайнятості	інвертувати_біт_зайнятості	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	інструменти	інструменти	project-proposal	function-based project proposal
+udp	протокол користувацьких датаграм	протокол_користувацьких_датаграм	project-proposal	function-based project proposal
+udp_header	заголовок користувацької датаграми	заголовок_користувацької_датаграми	project-proposal	function-based project proposal
+udp_socket	кінцева точка користувацьких датаграм	кінцева_точка_користувацьких_датаграм	project-proposal	function-based project proposal
+user_space	простір користувача	простір_користувача	project-proposal	function-based project proposal
+widget	елемент екрана	елемент_екрана	project-proposal	function-based project proposal

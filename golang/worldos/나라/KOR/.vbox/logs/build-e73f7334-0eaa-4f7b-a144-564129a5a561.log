@@ -1,0 +1,281 @@
+$ make -C /home/user/worldos/나라/KOR shell
+make[1]: Entering directory '/home/user/worldos/나라/KOR'
+make -C "명령해석기" all
+make[2]: Entering directory '/home/user/worldos/나라/KOR/명령해석기'
+python3 shell_build.py build
+make[3]: Entering directory '/home/user/worldos/나라/KOR/posix-KOR'
+python3 posix_build.py build
+make[4]: Entering directory '/home/user/worldos/나라/KOR/posix-KOR/build/posix-stage-5n1sw6m3'
+mkdir -p build
+cc -m32 -c src/syscall.S -o build/syscall.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/errno.c -o build/errno.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/unistd.c -o build/unistd.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/fcntl.c -o build/fcntl.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/stat.c -o build/stat.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/socket.c -o build/socket.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/string.c -o build/string.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/ctype.c -o build/ctype.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/stdlib.c -o build/stdlib.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/allocation.c -o build/allocation.o
+ar rcs build/libposix.a build/syscall.o build/errno.o build/unistd.o build/fcntl.o build/stat.o build/socket.o build/string.o build/ctype.o build/stdlib.o build/allocation.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/runtime.c -o build/runtime.o
+cc -m32 -c src/crt0.S -o build/crt0.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-runtime build/crt0.o build/runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/exec_target.c -o build/exec-target.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-target build/crt0.o build/exec-target.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/exec_runtime.c -o build/exec-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-runtime build/crt0.o build/exec-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/heap_runtime.c -o build/heap-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-heap-runtime build/crt0.o build/heap-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/fork_runtime.c -o build/fork-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-fork-runtime build/crt0.o build/fork-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/stdin_runtime.c -o build/stdin-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-stdin-runtime build/crt0.o build/stdin-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/socket_runtime.c -o build/socket-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-socket-runtime build/crt0.o build/socket-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c tests/compile.c -o build/compile-test.o
+
+syscall.o:
+
+errno.o:
+
+unistd.o:
+         U __syscall_result
+         U errno
+         U fstat
+
+fcntl.o:
+         U __syscall_result
+
+stat.o:
+         U __syscall_result
+
+socket.o:
+         U __syscall_result
+
+string.o:
+         U malloc
+         U tolower
+
+ctype.o:
+
+stdlib.o:
+         U environ
+         U errno
+         U isalpha
+         U isdigit
+         U isspace
+         U strchr
+         U strlen
+         U strncmp
+         U tolower
+
+allocation.o:
+         U errno
+         U memcpy
+         U memset
+         U sbrk
+make[4]: Leaving directory '/home/user/worldos/나라/KOR/posix-KOR/build/posix-stage-5n1sw6m3'
+PASS KOR native POSIX build
+make[3]: Leaving directory '/home/user/worldos/나라/KOR/posix-KOR'
+PASS KOR build
+make[2]: Leaving directory '/home/user/worldos/나라/KOR/명령해석기'
+make[1]: Leaving directory '/home/user/worldos/나라/KOR'
+$ make -B -C /home/user/worldos/나라/KOR/소스 iso
+make[1]: Entering directory '/home/user/worldos/나라/KOR/소스'
+mkdir -p build
+nasm -g -f elf32 -F dwarf -o build/multiboot_header.o 기계시동/다중시동머리부.s
+nasm -g -f elf32 -F dwarf -I 기계시동/ -o build/rt0.o 기계시동/시동.s
+[ld] linking kernel.bin
+ld -n -melf_i386 -T 연결배치.ld -static --no-ld-generated-unwind-info -o build/kernel.bin build/multiboot_header.o build/rt0.o build/go.o
+rm -rf iso
+mkdir -p iso/boot/grub
+cp build/kernel.bin iso/boot/
+echo 'set timeout=0' >> iso/boot/grub/grub.cfg
+echo 'set default=0' >> iso/boot/grub/grub.cfg
+echo '' >> iso/boot/grub/grub.cfg
+echo 'menuentry "worldos KOR" {' >> iso/boot/grub/grub.cfg
+echo 'multiboot2 /boot/kernel.bin' >> iso/boot/grub/grub.cfg
+echo 'boot' >> iso/boot/grub/grub.cfg
+echo '}' >> iso/boot/grub/grub.cfg
+grub-mkrescue --output=build/kernel.iso iso
+xorriso 1.4.8 : RockRidge filesystem manipulator, libburnia project.
+
+Drive current: -outdev 'stdio:build/kernel.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 2690m free
+Added to ISO image: directory '/'='/tmp/grub.6GhlGp'
+xorriso : UPDATE : 289 files added in 1 seconds
+Added to ISO image: directory '/'='/home/user/worldos/나라/KOR/소스/iso'
+xorriso : UPDATE : 293 files added in 1 seconds
+xorriso : NOTE : Copying to System Area: 512 bytes from file '/usr/lib/grub/i386-pc/boot_hybrid.img'
+ISO image produced: 5583 sectors
+Written to medium : 5583 sectors at LBA 0
+Writing to 'stdio:build/kernel.iso' completed successfully.
+
+rm -rf iso
+make[1]: Leaving directory '/home/user/worldos/나라/KOR/소스'
+$ qemu-img convert -O raw /home/user/VirtualBox VMs/eng operating system/NewVirtualDisk1-fixed-20260908.vdi /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw
+$ sfdisk -d /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw
+label: dos
+label-id: 0x00000000
+device: /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw
+unit: sectors
+
+/home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw1 : start=          63, size=      102327, type=83
+/home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw2 : start=      102390, size=      102410, type=83
+$ mdir -i /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw@@32256 ::LINKER
+ Volume in drive : has no label
+ Volume Serial Number is DE05-91C2
+Directory for ::/
+
+LINKER            3956 2025-08-24  11:47  linker
+        1 file                3 956 bytes
+                         51 506 176 bytes free
+
+$ mdir -i /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw@@32256 ::LIB1.SO
+ Volume in drive : has no label
+ Volume Serial Number is DE05-91C2
+Directory for ::/
+
+LIB1     SO       1976 2026-09-08   2:21 
+        1 file                1 976 bytes
+                         51 506 176 bytes free
+
+$ mdir -i /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw@@32256 ::LIB2.SO
+ Volume in drive : has no label
+ Volume Serial Number is DE05-91C2
+Directory for ::/
+
+LIB2     SO       2568 2026-09-08   2:21 
+        1 file                2 568 bytes
+                         51 506 176 bytes free
+
+$ mcopy -o -i /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw@@32256 /home/user/worldos/나라/KOR/명령해석기/build/worldos-shell ::USER1
+$ mcopy -o -i /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw@@32256 /home/user/worldos/나라/KOR/명령해석기/build/worldos-idle ::USER2
+$ mcopy -o -i /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw@@32256 /home/user/worldos/나라/KOR/명령해석기/build/worldos-idle ::USER3
+$ mcopy -o -i /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw@@32256 /home/user/worldos/나라/KOR/명령해석기/build/worldos-shell-probe ::SHEXEC
+$ mcopy -o -i /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw@@32256 /home/user/worldos/나라/KOR/명령해석기/명령해석기.commands ::COMMANDS
+$ qemu-img convert -f raw -O vdi /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.raw /home/user/worldos/나라/KOR/.vbox/prepare-u8775xro/disk.vdi
+$ VBoxManage createvm --name worldos KOR --uuid 12edc548-ca02-4c78-bd6e-6ed5850af279 --ostype Other --basefolder /home/user/worldos/나라/KOR/.vbox/machines --register
+Virtual machine 'worldos KOR' is created and registered.
+UUID: 12edc548-ca02-4c78-bd6e-6ed5850af279
+Settings file: '/home/user/worldos/나라/KOR/.vbox/machines/worldos KOR/worldos KOR.vbox'
+$ VBoxManage setextradata 12edc548-ca02-4c78-bd6e-6ed5850af279 WorldOS/Owner 62295285-9732-4491-8922-d6ead29ce61d
+$ VBoxManage setextradata 12edc548-ca02-4c78-bd6e-6ed5850af279 WorldOS/Edition KOR
+$ VBoxManage showvminfo 12edc548-ca02-4c78-bd6e-6ed5850af279 --machinereadable
+name="worldos KOR"
+groups="/"
+ostype="Other/Unknown"
+UUID="12edc548-ca02-4c78-bd6e-6ed5850af279"
+CfgFile="/home/user/worldos/나라/KOR/.vbox/machines/worldos KOR/worldos KOR.vbox"
+SnapFldr="/home/user/worldos/나라/KOR/.vbox/machines/worldos KOR/Snapshots"
+LogFldr="/home/user/worldos/나라/KOR/.vbox/machines/worldos KOR/Logs"
+hardwareuuid="12edc548-ca02-4c78-bd6e-6ed5850af279"
+memory=128
+pagefusion="off"
+vram=8
+cpuexecutioncap=100
+hpet="off"
+chipset="piix3"
+firmware="BIOS"
+cpus=1
+pae="on"
+longmode="off"
+triplefaultreset="off"
+apic="on"
+x2apic="off"
+cpuid-portability-level=0
+bootmenu="messageandmenu"
+boot1="floppy"
+boot2="dvd"
+boot3="disk"
+boot4="none"
+acpi="on"
+ioapic="off"
+biosapic="apic"
+biossystemtimeoffset=0
+rtcuseutc="off"
+hwvirtex="on"
+nestedpaging="on"
+largepages="off"
+vtxvpid="on"
+vtxux="on"
+paravirtprovider="default"
+effparavirtprovider="none"
+VMState="poweroff"
+VMStateChangeTime="2026-09-10T11:06:38.735000000"
+graphicscontroller="vboxvga"
+monitorcount=1
+accelerate3d="off"
+accelerate2dvideo="off"
+teleporterenabled="off"
+teleporterport=0
+teleporteraddress=""
+teleporterpassword=""
+tracing-enabled="off"
+tracing-allow-vm-access="off"
+tracing-config=""
+autostart-enabled="off"
+autostart-delay=0
+defaultfrontend=""
+natnet1="nat"
+macaddress1="080027003837"
+cableconnected1="on"
+nic1="nat"
+nictype1="Am79C973"
+nicspeed1="0"
+mtu="0"
+sockSnd="64"
+sockRcv="64"
+tcpWndSnd="64"
+tcpWndRcv="64"
+nic2="none"
+nic3="none"
+nic4="none"
+nic5="none"
+nic6="none"
+nic7="none"
+nic8="none"
+hidpointing="ps2mouse"
+hidkeyboard="ps2kbd"
+uart1="off"
+uart2="off"
+uart3="off"
+uart4="off"
+lpt1="off"
+lpt2="off"
+audio="pulse"
+audio_in="false"
+audio_out="false"
+clipboard="disabled"
+draganddrop="disabled"
+vrde="off"
+usb="off"
+ehci="off"
+xhci="off"
+videocap="off"
+videocap_audio="off"
+videocapscreens=0
+videocapfile="/home/user/worldos/나라/KOR/.vbox/machines/worldos KOR/worldos KOR.webm"
+videocapres=1024x768
+videocaprate=512
+videocapfps=25
+videocapopts=
+GuestMemoryBalloon=0
+$ VBoxManage modifyvm 12edc548-ca02-4c78-bd6e-6ed5850af279 --memory 512 --cpus 1 --vram 16 --firmware bios --chipset piix3 --ioapic off --pae off --paravirtprovider none --boot1 dvd --boot2 disk --boot3 none --boot4 none
+$ VBoxManage storagectl 12edc548-ca02-4c78-bd6e-6ed5850af279 --name IDE --add ide --controller PIIX4
+$ VBoxManage storageattach 12edc548-ca02-4c78-bd6e-6ed5850af279 --storagectl IDE --port 0 --device 1 --type hdd --medium /home/user/worldos/나라/KOR/.vbox/media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi
+$ VBoxManage storageattach 12edc548-ca02-4c78-bd6e-6ed5850af279 --storagectl IDE --port 1 --device 0 --type dvddrive --medium /home/user/worldos/나라/KOR/.vbox/media/kernel-b88077e9b378cb35c7ab219fb28a81f491aff468861bc81c42a68ac95af631a2.iso
+$ VBoxManage modifyvm 12edc548-ca02-4c78-bd6e-6ed5850af279 --uart1 0x3F8 4 --uartmode1 file /home/user/worldos/나라/KOR/.vbox/logs/serial-e73f7334-0eaa-4f7b-a144-564129a5a561.log
+$ VBoxManage startvm 12edc548-ca02-4c78-bd6e-6ed5850af279 --type gui
+Waiting for VM "12edc548-ca02-4c78-bd6e-6ed5850af279" to power on...
+VM "12edc548-ca02-4c78-bd6e-6ed5850af279" has been successfully started.

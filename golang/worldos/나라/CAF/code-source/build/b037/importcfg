@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ba/badfbf0cca5ef2661fd3535fde83b159200b72025ea3e2151ef2daa1e253de96-d
+packagefile fichiersystème/fat=/home/user/worldos/나라/CAF/소스/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/CAF/소스/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/CAF/소스/build/b005/_pkg_.a
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/CAF/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/CAF/소스/build/b030/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/CAF/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/CAF/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/CAF/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/CAF/소스/build/b023/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/CAF/소스/build/b006/_pkg_.a
+packagefile port=/home/user/.cache/go-build/4a/4abae5904127b253f381b8f2227e768c517072a43b9ccd77beee45d821586cc7-d
+packagefile utilitaire=/home/user/.cache/go-build/a9/a9556486b0842dd1f743355b3b5a0c3a43f923fad442526b0e1b3b15ed1aeb21-d
+packagefile virtuelmémoire=/home/user/worldos/나라/CAF/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CAF/소스/build/b000/_pkg_.a

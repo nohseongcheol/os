@@ -1,0 +1,5 @@
+# import config
+packagefile util=/home/user/koros/build/b023/_pkg_.a
+packagefile 단말기=/home/user/koros/build/b019/_pkg_.a
+packagefile 통신/신호통신망형태=/home/user/koros/build/b029/_pkg_.a
+packagefile 통신/주소결정규약=/home/user/koros/build/b030/_pkg_.a

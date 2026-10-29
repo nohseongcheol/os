@@ -1,0 +1,583 @@
+#include "../명명/기계연결이름.h"
+#include "화면정보.h"
+// EL0 mee_nnyemiwu ngwa_komputa òkpùkpù_valuu. Faịlụ datà/정책은 기존 AOT Java 커널에 위임한다.
+#include "òjìàrụ.h"
+#include "파일규약.h"
+#include "통신규약.h"
+#include "../Netwọọkụ_ikpo/Netwọọkụ_ikpo.h"
+extern int32_t 자바전문원격주소(int32_t), 자바흐름주소(int32_t);
+#define 기계저장기(첫째값) (*(volatile uint32_t *)(uintptr_t)(첫째값))
+#define IRQ_onye_nkesa 0xff841000ul
+#define IRQ_CPU_ihuọrụ 0xff842000ul
+#define ụhàrà_ihuakwụkwọ 4096ul
+#define 접근표시 (1ul << 10)
+#define 권한실행금지 (1ul << 53)
+#define 사용자실행금지 (1ul << 54)
+#define 보통기억 ((1ul << 2) | (3ul << 8) | 접근표시)
+#define mkpụrụobī_kọmpùta_ihuakwụkwọ (3ul | 보통기억 | 권한실행금지 | 사용자실행금지)
+#define òjìàrụ_gụọ_dèe (3ul | 보통기억 | (1ul << 6) | 권한실행금지 | 사용자실행금지)
+#define òjìàrụ_ọgụgụ_naanị (3ul | 보통기억 | (3ul << 6) | 권한실행금지 | 사용자실행금지)
+#define 사용자읽고실행 (3ul | 보통기억 | (3ul << 6) | 권한실행금지)
+extern void *memcpy(void *, const void *, size_t);
+extern void *memset(void *, int, size_t);
+extern uintptr_t 보드글자쓰기(uintptr_t), 보드글자읽기(void), 보드밀리초(void);
+extern uintptr_t 보드화소(uintptr_t, uintptr_t, uintptr_t);
+extern uintptr_t 보드화면기억공간(void);
+extern uintptr_t 보드터미널(uintptr_t);
+extern int 터미널대기(void);
+extern int32_t 자바셸대화형(void);
+extern int32_t 자바경로시작(int32_t), 자바경로바이트(int32_t,int32_t);
+extern int32_t 자바폴더만들기(void), 자바폴더지우기(void), 자바항목종류(void);
+extern int 화면호출(int,unsigned,int,int,int,int,int),화면글(int,int,const uint32_t *,unsigned);
+extern void 화면초기화(int),화면누름(int,unsigned);
+extern int òjìàrụ_CV(òjìàrụ_okpokoro *,void *);
+extern void 사용자실수보관(void *);
+extern int òjìàrụ_tinye(uintptr_t ndebà_akara, uintptr_t ikpo_Nchekwa, uintptr_t 전달값);
+extern void 사용자복귀(void);
+extern void 커널중단(const char *) __attribute__((noreturn));
+static uint64_t 뿌리주소[512] __attribute__((aligned(4096)));
+static uint64_t 가운데[4][512] __attribute__((aligned(4096)));
+static uint64_t ihuakwụkwọ_ndepụta[사용자쪽수] __attribute__((aligned(4096)));
+static uint8_t Òhèrèikike_ndepụta[사용자쪽수];
+static int kèdịìrè, ọbọakwụkwọ_ndepụta[16], 리눅스규약;
+static unsigned 통신끝점들[24];
+extern int32_t 자바전문만들기(int32_t, int32_t, int32_t), 자바전문묶기(int32_t, int32_t, int32_t);
+extern int32_t 자바전문넣기(int32_t, int32_t), 자바전문얻기(int32_t), 자바전문보내기(int32_t, int32_t, int32_t, int32_t);
+extern int32_t 자바전문받기(int32_t, int32_t), 자바전문접속번호(int32_t), 자바전문주소(int32_t), 자바전문상대(int32_t), 자바전문닫기(int32_t);
+extern int32_t 자바흐름만들기(void),자바흐름묶기(int32_t,int32_t,int32_t),자바흐름듣기(int32_t,int32_t),자바흐름연결(int32_t,int32_t,int32_t),자바흐름연결받기(int32_t),자바흐름읽기(int32_t,int32_t),자바흐름쓰기(int32_t,int32_t),자바흐름접속번호(int32_t),자바흐름상대(int32_t),자바흐름닫기(int32_t);
+static int 통신끝점닫기(unsigned ọbọakwụkwọ_ebenjìaka){return ọbọakwụkwọ_ebenjìaka<40?자바전문닫기(ọbọakwụkwọ_ebenjìaka):자바흐름닫기(ọbọakwụkwọ_ebenjìaka);}
+static uint64_t 진동수, 마감시각;
+static uintptr_t 동적기억끝;
+// mkpụrụobī_kọmpùta_valuu 셸이 준비한 UTF-8 인수. EL0에는 ṅomie_valuu 호출만 제공한다.
+static unsigned 전달인수개수, 전달인수길이[8];
+static unsigned char 전달인수[8][256];
+typedef struct {
+    int 멈춤상태,kèmmekọrịta,리눅스규약,ọbọakwụkwọ_ndepụta[16]; unsigned 통신끝점들[24],인수개수,인수길이[8];
+    unsigned char agụment_MKPOKỌTA[8][256],Òhèrèikike_ndepụta[사용자쪽수];
+    uintptr_t 동적기억공간; òjìàrụ_okpokoro 실행틀;
+    unsigned char 실수저장상태[528] __attribute__((aligned(16)));
+} 저장된작업;
+static 저장된작업 저장값[4];
+static int nwe_ihe,kèmmekọrịta;
+static uint32_t nọmba_nke_ọjịọrụ[4], 사용자시작시각[4], 사용자누적시각[4], 사용자실행시각[4], 다음사용자번호=10;
+static unsigned char òjìàrụ_nnyemiwu_akara_ahà[4][288];
+uint32_t 사용자상태읽기(unsigned ndebà_valuu, unsigned indèks) {
+    unsigned 자리=indèks&3;
+    int ọnọdụ_valuu=(kèdịìrè && nwe_ihe==(int)자리) ? 1 : 저장값[자리].멈춤상태 ? 2 : 0;
+    if (ndebà_valuu==0) return ọnọdụ_valuu;
+    if (!ọnọdụ_valuu) return 0;
+    if (ndebà_valuu==1) return nọmba_nke_ọjịọrụ[자리];
+    if (ndebà_valuu==2) {
+        unsigned char *쪽들=ọnọdụ_valuu==1?Òhèrèikike_ndepụta:저장값[자리].Òhèrèikike_ndepụta;
+        unsigned 쪽수=0; for (unsigned 순번=0; 순번<사용자쪽수; 순번++) if(쪽들[순번]) 쪽수++;
+        return 쪽수*4;
+    }
+    if (ndebà_valuu==3) return (uint32_t)보드밀리초()-사용자시작시각[자리];
+    if (ndebà_valuu==4) return 사용자누적시각[자리]+(ọnọdụ_valuu==1?(uint32_t)보드밀리초()-사용자실행시각[자리]:0);
+    if (ndebà_valuu==5) return indèks/4<sizeof(òjìàrụ_nnyemiwu_akara_ahà[0])?òjìàrụ_nnyemiwu_akara_ahà[자리][indèks/4]:0;
+    return 0;
+}
+uintptr_t 보드인수시작(uintptr_t 항목수) {
+    if (kèdịìrè || 항목수 > 8) return (uint32_t)-22;
+    전달인수개수 = 항목수;
+    memset(전달인수길이, 0, sizeof(전달인수길이));
+    memset(전달인수, 0, sizeof(전달인수));
+    return 0;
+}
+uintptr_t 보드인수바이트(uintptr_t 색인, uintptr_t 현재위치, uintptr_t baịtị_datà) {
+    if (kèdịìrè || 색인 >= 전달인수개수 || 현재위치 >= 255 || 현재위치 != 전달인수길이[색인] || !baịtị_datà || baịtị_datà > 255)
+        return (uint32_t)-22;
+    전달인수[색인][현재위치] = baịtị_datà;
+    전달인수길이[색인] = 현재위치 + 1;
+    return 0;
+}
+static void 변환표맞추기(void) {
+    __asm__ volatile("dsb sy; tlbi vmalle1; dsb sy; isb" ::: "memory");
+}
+static uint64_t elekere_valuu(void) { uint64_t 임시값; __asm__ volatile("mrs %0, cntpct_el0" : "=r"(임시값)); return 임시값; }
+static void 시간제한멈춤(void) {
+    __asm__ volatile("msr cntp_ctl_el0, xzr; isb; dsb sy" ::: "memory");
+    기계저장기(IRQ_onye_nkesa + 0x280) = 1u << 30;
+    __asm__ volatile("dsb sy" ::: "memory");
+}
+static void 시간제한시작(void) {
+    uint64_t 간격 = 진동수 * 2, gbanye = 1;
+    마감시각 = elekere_valuu() + 간격;
+    __asm__ volatile("msr cntp_tval_el0, %0; msr cntp_ctl_el0, %1; isb" :: "r"(간격), "r"(gbanye) : "memory");
+}
+void 사용자체계준비(void) {
+    for (unsigned datà_gbochie = 0; datà_gbochie < 4; datà_gbochie++) {
+        뿌리주소[datà_gbochie] = (uintptr_t)가운데[datà_gbochie] | 3;
+        for (unsigned 순번 = 0; 순번 < 512; 순번++) {
+            uintptr_t àdreèsì = ((uintptr_t)datà_gbochie << 30) | ((uintptr_t)순번 << 21);
+            가운데[datà_gbochie][순번] = àdreèsì | 1 | 접근표시 | 사용자실행금지;
+            if (àdreèsì >= 0xfc000000ul) 가운데[datà_gbochie][순번] |= 권한실행금지; // Device-nGnRnE
+            else 가운데[datà_gbochie][순번] |= 보통기억; // Normal, non-cacheable
+        }
+    }
+    for (unsigned 둘째값 = 0; 둘째값 < 사용자쪽수 / 512; 둘째값++)
+        가운데[0][(사용자바탕 >> 21) + 둘째값] = (uintptr_t)(ihuakwụkwọ_ndepụta + 둘째값 * 512) | 3;
+    for (unsigned 순번 = 0; 순번 < 사용자쪽수; 순번++) ihuakwụkwọ_ndepụta[순번] = (사용자바탕 + 순번 * ụhàrà_ihuakwụkwọ) | mkpụrụobī_kọmpùta_ihuakwụkwọ;
+    uint64_t 기억속성저장값 = 0x4400, àdreèsì_Ntụgharị_njizi = 32 | (3ul << 12) | (1ul << 23), 체계제어저장값;
+    __asm__ volatile("dsb sy; msr mair_el1, %0; msr tcr_el1, %1; msr ttbr0_el1, %2; msr ttbr1_el1, xzr; isb"
+        :: "r"(기억속성저장값), "r"(àdreèsì_Ntụgharị_njizi), "r"((uintptr_t)뿌리주소) : "memory");
+    변환표맞추기();
+    __asm__ volatile("mrs %0, sctlr_el1" : "=r"(체계제어저장값));
+    체계제어저장값 = (체계제어저장값 & ~((1ul << 2) | (1ul << 12))) | 1;
+    __asm__ volatile("msr sctlr_el1, %0; isb" :: "r"(체계제어저장값) : "memory");
+    uint64_t 실수저장상태 = 3ul << 20;
+    __asm__ volatile("msr cpacr_el1, %0; isb" :: "r"(실수저장상태) : "memory");
+    __asm__ volatile("mrs %0, cntfrq_el0" : "=r"(진동수));
+    시간제한멈춤();
+    // Pi4 GIC-400, non-secure physical timer PPI 30. IRQ는 EL0 ndebà_akara_valuu 때만 Kwère_valuu.
+    기계저장기(IRQ_onye_nkesa) = 0;
+    기계저장기(IRQ_onye_nkesa + 0x180) = 0xffffffff;
+    기계저장기(IRQ_onye_nkesa + 0x80) = 0xffffffff;
+    기계저장기(IRQ_onye_nkesa + 0x280) = 1u << 30;
+    기계저장기(IRQ_onye_nkesa + 0x41c) = 0x80808080;
+    기계저장기(IRQ_onye_nkesa + 0x100) = 1u << 30;
+    기계저장기(IRQ_CPU_ihuọrụ + 4) = 0xff;
+    기계저장기(IRQ_CPU_ihuọrụ + 8) = 0;
+    // Security 확장이 없는 GICv2는 Secure 뷰로 보인다. Group1 enable과
+    // AckCtl을 함께 설정해야 IRQ 30을 IAR에서 정상 확인할 수 있다.
+    int Nche = (기계저장기(IRQ_onye_nkesa + 4) & (1u << 10)) != 0;
+    기계저장기(IRQ_onye_nkesa) = Nche ? 1 : 3;
+    기계저장기(IRQ_CPU_ihuọrụ) = Nche ? 1 : 7;
+    __asm__ volatile("dsb sy; isb" ::: "memory");
+}
+
+typedef struct {
+    unsigned char 형식식별[16]; uint16_t pinye_otu, ngwa_komputa_pinye; uint32_t 판번호;
+    uint64_t ndebà_akara, app_isi_Nnokwata, nkebì_isi_Nnokwata; uint32_t 설정비트;
+    uint16_t 실행머리크기, app_isi_ndebà_ụha, 프로그램머리개수, nkebì_isi_ndebà_ụha, 구역머리개수, nkebì_akara_ahà_tebùl_indèks;
+} 실행파일머리;
+typedef struct { uint32_t pinye_otu, 설정비트; uint64_t Nnokwata_valuu, àdreèsì, 물리주소, 파일영역크기, 기억영역크기, 맞춤; } 실행파일구획;
+_Static_assert(sizeof(실행파일머리) == 64 && sizeof(실행파일구획) == 56, "ELF layout");
+_Static_assert(sizeof(òjìàrụ_okpokoro) == 272, "exception assembly layout");
+static int 포함된범위(uint64_t Nnokwata_valuu, uint64_t Ụhara, uint64_t mèdebe_Nnokwata) {
+    return Nnokwata_valuu <= mèdebe_Nnokwata && Ụhara <= mèdebe_Nnokwata - Nnokwata_valuu;
+}
+static int 부가정보검사(const unsigned char *자료위치, size_t Ụhara) {
+    size_t 현재위치 = 0;
+    while (포함된범위(현재위치, 12, Ụhara)) {
+        uint32_t 낱말들[3]; memcpy(낱말들, 자료위치 + 현재위치, 12); 현재위치 += 12;
+        uint64_t 이름영역크기 = ((uint64_t)낱말들[0] + 3) & ~3ul;
+        uint64_t 설명크기 = ((uint64_t)낱말들[1] + 3) & ~3ul;
+        if (!포함된범위(현재위치, 이름영역크기, Ụhara) || !포함된범위(현재위치 + 이름영역크기, 설명크기, Ụhara)) return 0;
+        const unsigned char Aha[] = {'J','K','O','R','O','S',0};
+        int 일치 = 낱말들[0] == sizeof(Aha) && 낱말들[1] == 4 && 낱말들[2] == 1;
+        if (일치) for (unsigned 순번 = 0; 순번 < sizeof(Aha); 순번++) if (자료위치[현재위치 + 순번] != Aha[순번]) 일치 = 0;
+        uint32_t 판번호 = 0;
+        if (일치) memcpy(&판번호, 자료위치 + 현재위치 + 이름영역크기, 4);
+        if (일치 && 판번호 == 1) return 1;
+        현재위치 += 이름영역크기 + 설명크기;
+    }
+    return 0;
+}
+static int 실행파일검사(const unsigned char *datà, size_t Ụhara, int 리눅스방식) {
+    if (Ụhara < sizeof(실행파일머리)) return 사용자실행파일오류;
+    실행파일머리 실행머리; memcpy(&실행머리, datà, sizeof(실행머리));
+    if (실행머리.형식식별[0] != 127 || 실행머리.형식식별[1] != 'E' || 실행머리.형식식별[2] != 'L' || 실행머리.형식식별[3] != 'F' ||
+        실행머리.형식식별[4] != 2 || 실행머리.형식식별[5] != 1 || 실행머리.형식식별[6] != 1 || (실행머리.형식식별[7] != 0 && (!리눅스방식 || 실행머리.형식식별[7] != 3)) ||
+        실행머리.pinye_otu != 2 || 실행머리.ngwa_komputa_pinye != 183 || 실행머리.판번호 != 1 || 실행머리.설정비트 || 실행머리.실행머리크기 != sizeof(실행머리) ||
+        실행머리.app_isi_ndebà_ụha != sizeof(실행파일구획) || !실행머리.프로그램머리개수 || 실행머리.프로그램머리개수 > 16 ||
+        실행머리.app_isi_Nnokwata < sizeof(실행머리) || !포함된범위(실행머리.app_isi_Nnokwata, (uint64_t)실행머리.프로그램머리개수 * sizeof(실행파일구획), Ụhara)) return 사용자실행파일오류;
+    uint8_t 사용량[(òjìàrụ_foto_mèdebe - 사용자바탕) / ụhàrà_ihuakwụkwọ] = {0};
+    int 진입점정상 = 0, 호출규약정상 = 0, 적재구획 = 0;
+    for (unsigned 순번 = 0; 순번 < 실행머리.프로그램머리개수; 순번++) {
+        실행파일구획 자료위치; memcpy(&자료위치, datà + 실행머리.app_isi_Nnokwata + 순번 * sizeof(자료위치), sizeof(자료위치));
+        if (자료위치.pinye_otu == 4) {
+            if (!포함된범위(자료위치.Nnokwata_valuu, 자료위치.파일영역크기, Ụhara)) return 사용자실행파일오류;
+            if (부가정보검사(datà + 자료위치.Nnokwata_valuu, 자료위치.파일영역크기)) 호출규약정상 = 1;
+            continue;
+        }
+        if (자료위치.pinye_otu == 0 || 자료위치.pinye_otu == 6 || (자료위치.pinye_otu == 0x6474e551 && !(자료위치.설정비트 & 1))) continue;
+        if (자료위치.pinye_otu != 1) return 사용자실행파일오류; // PT_INTERP, DYNAMIC, TLS 미지원
+        if (!자료위치.기억영역크기) continue;
+        if (자료위치.설정비트 & ~7u || !(자료위치.설정비트 & 4) || (자료위치.설정비트 & 3) == 3 || 자료위치.파일영역크기 > 자료위치.기억영역크기 ||
+            (자료위치.파일영역크기 && !포함된범위(자료위치.Nnokwata_valuu, 자료위치.파일영역크기, Ụhara)) || 자료위치.àdreèsì < 사용자바탕 ||
+            !포함된범위(자료위치.àdreèsì, 자료위치.기억영역크기, òjìàrụ_foto_mèdebe) ||
+            (!리눅스방식 && ((자료위치.àdreèsì & (ụhàrà_ihuakwụkwọ - 1)) || (자료위치.Nnokwata_valuu & (ụhàrà_ihuakwụkwọ - 1)) || 자료위치.맞춤 != ụhàrà_ihuakwụkwọ)) ||
+            (리눅스방식 && (((자료위치.àdreèsì ^ 자료위치.Nnokwata_valuu) & (ụhàrà_ihuakwụkwọ - 1)) || !자료위치.맞춤 ||
+                (자료위치.맞춤 & (자료위치.맞춤 - 1)) || 자료위치.맞춤 > 0x200000 || ((자료위치.àdreèsì ^ 자료위치.Nnokwata_valuu) & (자료위치.맞춤 - 1))))) return 사용자실행파일오류;
+        unsigned 첫항목 = (자료위치.àdreèsì - 사용자바탕) / ụhàrà_ihuakwụkwọ;
+        unsigned 항목수 = ((자료위치.àdreèsì & (ụhàrà_ihuakwụkwọ - 1)) + 자료위치.기억영역크기 + ụhàrà_ihuakwụkwọ - 1) / ụhàrà_ihuakwụkwọ;
+        for (unsigned ihuakwụkwọ_valuu = 첫항목; ihuakwụkwọ_valuu < 첫항목 + 항목수; ihuakwụkwọ_valuu++) {
+            if (사용량[ihuakwụkwọ_valuu]) return 사용자실행파일오류;
+            사용량[ihuakwụkwọ_valuu] = 1;
+        }
+        if ((자료위치.설정비트 & 1) && 실행머리.ndebà_akara >= 자료위치.àdreèsì && 실행머리.ndebà_akara < 자료위치.àdreèsì + 자료위치.파일영역크기 && !(실행머리.ndebà_akara & 3)) 진입점정상 = 1;
+        적재구획++;
+    }
+    return 진입점정상 && (리눅스방식 ? !호출규약정상 : 호출규약정상) && 적재구획 ? 0 : 사용자실행파일오류;
+}
+int 사용자실행파일검사(const unsigned char *datà, size_t Ụhara) { return 실행파일검사(datà, Ụhara, 0); }
+static void nhazi_ihuakwụkwọ(uintptr_t àdreèsì, uint64_t 설정비트, unsigned Òhèrèikike) {
+    unsigned 색인 = (àdreèsì - 사용자바탕) / ụhàrà_ihuakwụkwọ;
+    ihuakwụkwọ_ndepụta[색인] = àdreèsì | 설정비트;
+    Òhèrèikike_ndepụta[색인] = Òhèrèikike;
+}
+static int 사용자범위(uintptr_t àdreèsì, size_t 항목수, int 쓰는중) {
+    if (àdreèsì < 사용자바탕 || !포함된범위(àdreèsì, 항목수, òjìàrụ_mèdebe)) return 0;
+    if (!항목수) return 1;
+    unsigned 첫항목 = (àdreèsì - 사용자바탕) / ụhàrà_ihuakwụkwọ, 마지막 = (àdreèsì + 항목수 - 1 - 사용자바탕) / ụhàrà_ihuakwụkwọ;
+    for (unsigned 순번 = 첫항목; 순번 <= 마지막; 순번++) if (!(Òhèrèikike_ndepụta[순번] & (쓰는중 ? 2 : 1))) return 0;
+    return 1;
+}
+static int ṅomie_ụzọ_ozi(uintptr_t àdreèsì, char *ụzọ_ozi) {
+    for (unsigned 순번 = 0; 순번 < 65; 순번++) {
+        if (!사용자범위(àdreèsì, 1, 0)) return -14;
+        ụzọ_ozi[순번] = *(const char *)àdreèsì++;
+        if (!ụzọ_ozi[순번]) return 0;
+    }
+    return -36;
+}
+static intptr_t 커널결과(intptr_t 결과) { return 결과 < 0 ? -오류번호 : 결과; }
+static int 대응파일기술자(uint64_t ọbọakwụkwọ_ebenjìaka) { return ọbọakwụkwọ_ebenjìaka >= 3 && ọbọakwụkwọ_ebenjìaka < 19 ? ọbọakwụkwọ_ndepụta[ọbọakwụkwọ_ebenjìaka - 3] : -1; }
+static int 통신끝점소유(uint64_t ọbọakwụkwọ_ebenjìaka) { return ọbọakwụkwọ_ebenjìaka >= 32 && ọbọakwụkwọ_ebenjìaka < 56 && 통신끝점들[ọbọakwụkwọ_ebenjìaka - 32]; }
+static int 주소입력(uintptr_t 가리킴값, size_t ogologo_valuu, struct pk_sockaddr_in *àdreèsì) {
+    if (ogologo_valuu != sizeof(*àdreèsì)) return -22;
+    if (!사용자범위(가리킴값, ogologo_valuu, 0)) return -14;
+    memcpy(àdreèsì, (const void *)가리킴값, sizeof(*àdreèsì));
+    return àdreèsì->sin_family == AF_INET ? 0 : -97;
+}
+static int 주소출력검사(uintptr_t 가리킴값, uintptr_t ogologo_nrụaka, pk_socklen_t *수용량) {
+    if (!사용자범위(ogologo_nrụaka, sizeof(*수용량), 1)) return -14;
+    memcpy(수용량, (const void *)ogologo_nrụaka, sizeof(*수용량));
+    if (*수용량 > sizeof(struct pk_sockaddr_in)) *수용량 = sizeof(struct pk_sockaddr_in);
+    if (*수용량 && !사용자범위(가리킴값, *수용량, 1)) return -14;
+    return 0;
+}
+static void 주소출력(uintptr_t 가리킴값, uintptr_t ogologo_nrụaka, pk_socklen_t 수용량, int àdreèsì, int 접속번호) {
+    struct pk_sockaddr_in valuu; memset(&valuu, 0, sizeof(valuu));
+    valuu.sin_family = AF_INET; valuu.sin_port = pk_htons(접속번호); valuu.sin_addr.s_addr = pk_htonl(àdreèsì);
+    if (수용량) memcpy((void *)가리킴값, &valuu, 수용량);
+    pk_socklen_t ogologo_valuu = sizeof(valuu); memcpy((void *)ogologo_nrụaka, &ogologo_valuu, sizeof(ogologo_valuu));
+}
+extern uintptr_t 보드통로(uintptr_t, uintptr_t);
+static intptr_t 자체체계호출(òjìàrụ_okpokoro *ọbọakwụkwọ_ndebà) {
+    uintptr_t 첫째값 = ọbọakwụkwọ_ndebà->저장기값[0], 둘째값 = ọbọakwụkwọ_ndebà->저장기값[1], koòdù_nkeakàrà = ọbọakwụkwọ_ndebà->저장기값[2];
+    char ụzọ_ozi[65];
+    int ọbọakwụkwọ_ebenjìaka, 결과;
+    switch (ọbọakwụkwọ_ndebà->저장기값[8]) {
+    case 0: return 1; // 자체 ABI 버전
+    case 1: // write: nrụaka 전체를 검사한 Àzụ_valuu 출력/Faịlụ gbanwèe_valuu
+        if (koòdù_nkeakàrà > 65536) return -22;
+        if (!사용자범위(둘째값, koòdù_nkeakàrà, 0)) return -14;
+        if (첫째값 == 1 || 첫째값 == 2) {
+            uint64_t 출력시작=elekere_valuu();
+            for (size_t 순번 = 0; 순번 < koòdù_nkeakàrà; 순번++) 보드통로(첫째값, ((const unsigned char *)둘째값)[순번]);
+            /* 큰 tty를 그린 mkpụrụobī_kọmpùta_valuu 시간만 돌려준다. EL0 계산 기한은 늘리지 않는다. */
+            if(kèmmekọrịta){
+                마감시각+=elekere_valuu()-출력시작;
+                __asm__ volatile("msr cntp_cval_el0, %0; isb" :: "r"(마감시각) : "memory");
+            }
+            return koòdù_nkeakàrà;
+        }
+        if(첫째값>=40&&통신끝점소유(첫째값)){
+            size_t 개수=koòdù_nkeakàrà>512?512:koòdù_nkeakàrà;for(size_t 순번=0;순번<개수;순번++)자바전문넣기(순번,((const unsigned char *)둘째값)[순번]);return 자바흐름쓰기(첫째값,개수);
+        }
+        ọbọakwụkwọ_ebenjìaka = 대응파일기술자(첫째값); if (ọbọakwụkwọ_ebenjìaka < 0) return -9;
+        return 커널결과(pk_write(ọbọakwụkwọ_ebenjìaka, (const void *)둘째값, koòdù_nkeakàrà));
+    case 2:
+        if (koòdù_nkeakàrà > 65536) return -22;
+        if (!사용자범위(둘째값, koòdù_nkeakàrà, 1)) return -14;
+        if (첫째값 == 0) {
+            size_t 개수 = 0;
+            while (개수 < koòdù_nkeakàrà) {
+                int mkpụrụedemede_valuu = (int32_t)보드글자읽기(); if (mkpụrụedemede_valuu == -2) return 개수; if (mkpụrụedemede_valuu < 0) break;
+                ((unsigned char *)둘째값)[개수++] = mkpụrụedemede_valuu;
+            }
+            return 개수 ? (intptr_t)개수 : (koòdù_nkeakàrà ? -11 : 0);
+        }
+        if(첫째값>=40&&통신끝점소유(첫째값)){
+            결과=자바흐름읽기(첫째값,koòdù_nkeakàrà>512?512:koòdù_nkeakàrà);if(결과>0)for(int 순번=0;순번<결과;순번++)((unsigned char *)둘째값)[순번]=자바전문얻기(순번);return 결과;
+        }
+        ọbọakwụkwọ_ebenjìaka = 대응파일기술자(첫째값); if (ọbọakwụkwọ_ebenjìaka < 0) return -9;
+        return 커널결과(pk_read(ọbọakwụkwọ_ebenjìaka, (void *)둘째값, koòdù_nkeakàrà));
+    case 3:
+        결과 = ṅomie_ụzọ_ozi(첫째값, ụzọ_ozi); if (결과) return 결과;
+        if (둘째값 > 0x7ff) return -22;
+        for (unsigned 순번 = 0; 순번 < 16; 순번++) if (ọbọakwụkwọ_ndepụta[순번] < 0) {
+            ọbọakwụkwọ_ebenjìaka = pk_open(ụzọ_ozi, (int)둘째값, 0600);
+            if (ọbọakwụkwọ_ebenjìaka < 0) return -오류번호;
+            ọbọakwụkwọ_ndepụta[순번] = ọbọakwụkwọ_ebenjìaka; return 순번 + 3;
+        }
+        return -24;
+    case 4:
+        if (통신끝점소유(첫째값)) { 결과 = 통신끝점닫기(첫째값); if (!결과) 통신끝점들[첫째값 - 32] = 0; return 결과; }
+        ọbọakwụkwọ_ebenjìaka = 대응파일기술자(첫째값); if (ọbọakwụkwọ_ebenjìaka < 0) return -9;
+        결과 = pk_close(ọbọakwụkwọ_ebenjìaka); if (!결과) ọbọakwụkwọ_ndepụta[첫째값 - 3] = -1;
+        return 커널결과(결과);
+    case 5:
+        ọbọakwụkwọ_ebenjìaka = 대응파일기술자(첫째값); if (ọbọakwụkwọ_ebenjìaka < 0) return -9;
+        if (koòdù_nkeakàrà > 2) return -22;
+        return 커널결과(pk_lseek(ọbọakwụkwọ_ebenjìaka, (int64_t)둘째값, koòdù_nkeakàrà));
+    case 7: return 보드밀리초();
+    case 8: { // brk: 별도 òjìàrụ RW/NX 힙, 새로 노출되는 페이지는 0으로 kwàdo_mmàlite
+        if (!첫째값) return 동적기억끝;
+        if (첫째값 < òjìàrụ_foto_mèdebe || 첫째값 > 사용자동적기억끝) return -12;
+        uintptr_t 이전쪽들 = (동적기억끝 + ụhàrà_ihuakwụkwọ - 1) & ~(ụhàrà_ihuakwụkwọ - 1);
+        uintptr_t 새쪽들 = (첫째값 + ụhàrà_ihuakwụkwọ - 1) & ~(ụhàrà_ihuakwụkwọ - 1);
+        if (새쪽들 > 이전쪽들) {
+            for (uintptr_t 자료위치 = 이전쪽들; 자료위치 < 새쪽들; 자료위치 += ụhàrà_ihuakwụkwọ) nhazi_ihuakwụkwọ(자료위치, mkpụrụobī_kọmpùta_ihuakwụkwọ, 0);
+            변환표맞추기();
+            memset((void *)이전쪽들, 0, 새쪽들 - 이전쪽들);
+            for (uintptr_t 자료위치 = 이전쪽들; 자료위치 < 새쪽들; 자료위치 += ụhàrà_ihuakwụkwọ) nhazi_ihuakwụkwọ(자료위치, òjìàrụ_gụọ_dèe, 3);
+        } else {
+            for (uintptr_t 자료위치 = 새쪽들; 자료위치 < 이전쪽들; 자료위치 += ụhàrà_ihuakwụkwọ) {
+                ihuakwụkwọ_ndepụta[(자료위치 - 사용자바탕) / ụhàrà_ihuakwụkwọ] = 0; Òhèrèikike_ndepụta[(자료위치 - 사용자바탕) / ụhàrà_ihuakwụkwọ] = 0;
+            }
+        }
+        동적기억끝 = 첫째값; 변환표맞추기(); return 첫째값;
+    }
+    case 9:
+        ọbọakwụkwọ_ebenjìaka = 대응파일기술자(첫째값); return ọbọakwụkwọ_ebenjìaka < 0 ? -9 : 커널결과(pk_size(ọbọakwụkwọ_ebenjìaka));
+    case 10:
+        ọbọakwụkwọ_ebenjìaka = 대응파일기술자(첫째값); return ọbọakwụkwọ_ebenjìaka < 0 ? -9 : 커널결과(pk_ftruncate(ọbọakwụkwọ_ebenjìaka, (int64_t)둘째값));
+    case 11:
+        결과 = ṅomie_ụzọ_ozi(첫째값, ụzọ_ozi); return 결과 ? 결과 : 커널결과(pk_unlink(ụzọ_ozi));
+    case 12:
+        ọbọakwụkwọ_ebenjìaka = 대응파일기술자(첫째값); return ọbọakwụkwọ_ebenjìaka < 0 ? -9 : 커널결과(pk_fsync(ọbọakwụkwọ_ebenjìaka));
+    case 13: { // 그래픽 기초 API: òjìàrụ 포인터로 MMIO/framebuffer를 직접 노출하지 않음
+        uintptr_t 너비값 = ọbọakwụkwọ_ndebà->저장기값[3], 높이값 = ọbọakwụkwọ_ndebà->저장기값[4];
+        if (!보드화면기억공간()) return -19;
+        uintptr_t 화면폭 = 보드화면너비(), 화면길이 = 보드화면높이();
+        if (첫째값 > 화면폭 || 둘째값 > 화면길이 || 너비값 > 화면폭 - 첫째값 || 높이값 > 화면길이 - 둘째값) return -22;
+        for (uintptr_t 세로좌표 = 둘째값; 세로좌표 < 둘째값 + 높이값; 세로좌표++) for (uintptr_t ngakọrịta_x = 첫째값; ngakọrịta_x < 첫째값 + 너비값; ngakọrịta_x++) 보드화소(ngakọrịta_x, 세로좌표, koòdù_nkeakàrà);
+        return 0;
+    }
+    case 14: return (int32_t)보드글자읽기();
+    case 15: // args(-1,0,0)=개수; args(index,buffer,capacity)=UTF-8 ogologo_valuu
+        if (첫째값 == UINTPTR_MAX) return 전달인수개수;
+        if (첫째값 >= 전달인수개수) return -22;
+        if (koòdù_nkeakàrà <= 전달인수길이[첫째값]) return -36;
+        if (!사용자범위(둘째값, 전달인수길이[첫째값] + 1, 1)) return -14;
+        memcpy((void *)둘째값, 전달인수[첫째값], 전달인수길이[첫째값] + 1);
+        return 전달인수길이[첫째값];
+    case 16: // Interactive tty: cooperative wait renews the 2-second CPU deadline.
+        if(첫째값==0){if(!자바셸대화형())return -95;kèmmekọrịta=1;return 보드터미널(13);}
+        if(첫째값==2){kèmmekọrịta=0;return 0;}
+        if(첫째값==3)return 보드터미널(13);
+        if(첫째값!=1||!kèmmekọrịta)return -22;
+        결과=(int32_t)보드글자읽기();
+        if(결과==-4096)return 결과;
+        시간제한시작();return 결과<0?-11:결과;
+    case 17: { // 유한한 협력 대기: 통신 처리를 계속하며 CPU 독점 제한을 새로 시작한다.
+        if (첫째값 > 100) return -22;
+        uint64_t 끝시각 = elekere_valuu() + 진동수 * 첫째값 / 1000;
+        do { 통신망살피기(); 파일전송살피기(); __asm__ volatile("yield"); } while (elekere_valuu() < 끝시각);
+        시간제한시작(); return 0;
+    }
+    case 18: { // kind(0), mkdir(1), rmdir(2); VFS가 경로와 부모·빈 폴더를 검사한다.
+        if (둘째값 > 2) return -22;
+        결과 = ṅomie_ụzọ_ozi(첫째값, ụzọ_ozi); if (결과) return 결과;
+        unsigned ogologo_valuu = 0; while (ụzọ_ozi[ogologo_valuu]) ogologo_valuu++;
+        결과 = 자바경로시작(ogologo_valuu); if (결과 < 0) return 결과;
+        for (unsigned 순번 = 0; 순번 < ogologo_valuu; 순번++) 자바경로바이트(순번, (unsigned char)ụzọ_ozi[순번]);
+        return 둘째값 == 0 ? 자바항목종류() : 둘째값 == 1 ? 자바폴더만들기() : 자바폴더지우기();
+    }
+    case 20:
+        if(첫째값==5){int mkpụrụedemede_valuu=(int32_t)보드글자읽기();if(mkpụrụedemede_valuu==-4096)return mkpụrụedemede_valuu;if(mkpụrụedemede_valuu>=0)화면누름(nwe_ihe,mkpụrụedemede_valuu);시간제한시작();}
+        if(첫째값==3&&koòdù_nkeakàrà){if(!자바셸대화형())return -95;kèmmekọrịta=1;보드터미널(300);}
+        return 화면호출(nwe_ihe,첫째값,둘째값,koòdù_nkeakàrà,ọbọakwụkwọ_ndebà->저장기값[3],ọbọakwụkwọ_ndebà->저장기값[4],ọbọakwụkwọ_ndebà->저장기값[5]);
+    case 21:
+        if(koòdù_nkeakàrà>127)return -22;if(!사용자범위(둘째값,koòdù_nkeakàrà*sizeof(uint32_t),0))return -14;
+        return 화면글(nwe_ihe,첫째값,(const uint32_t *)둘째값,koòdù_nkeakàrà);
+    case 22: // 화면 Ụhara mgbaajụjụ_valuu: 0=너비, 1=높이. 사용자에게 주소를 노출하지 않는다.
+        if (첫째값 > 1) return -22;
+        if (!보드화면기억공간()) return -19;
+        return 첫째값 == 0 ? 보드화면너비() : 보드화면높이();
+    case 32:
+        if (첫째값 != AF_INET) return -97;
+        if(둘째값==SOCK_STREAM&&(koòdù_nkeakàrà==0||koòdù_nkeakàrà==6))결과=자바흐름만들기();
+        else if(둘째값==SOCK_DGRAM&&(koòdù_nkeakàrà==0||koòdù_nkeakàrà==IPPROTO_UDP))결과=자바전문만들기(첫째값,둘째값,koòdù_nkeakàrà);
+        else return -93;
+        if (결과 >= 32 && 결과 < 56) 통신끝점들[결과 - 32] = 1;
+        return 결과;
+    case 33: {
+        if (!통신끝점소유(첫째값)) return -9;
+        struct pk_sockaddr_in àdreèsì;
+        결과 = 주소입력(둘째값, koòdù_nkeakàrà, &àdreèsì); if (결과) return 결과;
+        return 첫째값>=40?자바흐름묶기(첫째값,pk_htonl(àdreèsì.sin_addr.s_addr),pk_htons(àdreèsì.sin_port)):자바전문묶기(첫째값, pk_htonl(àdreèsì.sin_addr.s_addr), pk_htons(àdreèsì.sin_port));
+    }
+    case 34: {
+        if (!통신끝점소유(첫째값)) return -9;
+        if(첫째값>=40)return -95;
+        if (ọbọakwụkwọ_ndebà->저장기값[3]) return -95;
+        if (koòdù_nkeakàrà > 512) return -90;
+        if (koòdù_nkeakàrà && !사용자범위(둘째값, koòdù_nkeakàrà, 0)) return -14;
+        struct pk_sockaddr_in àdreèsì;
+        결과 = 주소입력(ọbọakwụkwọ_ndebà->저장기값[4], ọbọakwụkwọ_ndebà->저장기값[5], &àdreèsì); if (결과) return 결과;
+        for (unsigned 순번 = 0; 순번 < koòdù_nkeakàrà; 순번++) 자바전문넣기(순번, ((const unsigned char *)둘째값)[순번]);
+        return 자바전문보내기(첫째값, pk_htonl(àdreèsì.sin_addr.s_addr), pk_htons(àdreèsì.sin_port), koòdù_nkeakàrà);
+    }
+    case 35: {
+        if (!통신끝점소유(첫째값)) return -9;
+        if(첫째값>=40)return -95;
+        if (ọbọakwụkwọ_ndebà->저장기값[3]) return -95;
+        if (koòdù_nkeakàrà > 512) return -90;
+        if (koòdù_nkeakàrà && !사용자범위(둘째값, koòdù_nkeakàrà, 1)) return -14;
+        pk_socklen_t 수용량 = 0;
+        if (ọbọakwụkwọ_ndebà->저장기값[4]) { 결과 = 주소출력검사(ọbọakwụkwọ_ndebà->저장기값[4], ọbọakwụkwọ_ndebà->저장기값[5], &수용량); if (결과) return 결과; }
+        결과 = 자바전문받기(첫째값, koòdù_nkeakàrà); if (결과 < 0) return 결과;
+        for (int 순번 = 0; 순번 < 결과; 순번++) ((unsigned char *)둘째값)[순번] = 자바전문얻기(순번);
+        if (ọbọakwụkwọ_ndebà->저장기값[4]) 주소출력(ọbọakwụkwọ_ndebà->저장기값[4], ọbọakwụkwọ_ndebà->저장기값[5], 수용량, 자바전문원격주소(첫째값), 자바전문상대(첫째값));
+        return 결과;
+    }
+    case 36: {
+        if (!통신끝점소유(첫째값)) return -9;
+        pk_socklen_t 수용량;
+        결과 = 주소출력검사(둘째값, koòdù_nkeakàrà, &수용량); if (결과) return 결과;
+        주소출력(둘째값,koòdù_nkeakàrà,수용량,첫째값>=40?자바흐름주소(첫째값):자바전문주소(첫째값),첫째값>=40?자바흐름접속번호(첫째값):자바전문접속번호(첫째값)); return 0;
+    }
+    case 37: {
+        if(첫째값<40||!통신끝점소유(첫째값))return -9;struct pk_sockaddr_in àdreèsì;
+        결과=주소입력(둘째값,koòdù_nkeakàrà,&àdreèsì);if(결과)return 결과;
+        return 자바흐름연결(첫째값,pk_htonl(àdreèsì.sin_addr.s_addr),pk_htons(àdreèsì.sin_port));
+    }
+    case 38: return 첫째값>=40&&통신끝점소유(첫째값)?자바흐름듣기(첫째값,둘째값):-9;
+    case 39:
+        if(첫째값<40||!통신끝점소유(첫째값))return -9;
+        if(둘째값||koòdù_nkeakàrà)return -95;결과=자바흐름연결받기(첫째값);if(결과>=40&&결과<56)통신끝점들[결과-32]=1;return 결과;
+    case 40: return 첫째값>=40&&통신끝점소유(첫째값)?자바흐름상대(첫째값):-9;
+    default: return -38; // 미지원 기능을 성공으로 가장하지 않음
+    }
+}
+#include "리눅스호환.inc"
+static intptr_t 체계호출(òjìàrụ_okpokoro *ọbọakwụkwọ_ndebà) {
+    network_poll();
+    return 리눅스규약 ? 리눅스체계호출(ọbọakwụkwọ_ndebà) : 자체체계호출(ọbọakwụkwọ_ndebà);
+}
+static void 커널돌아가기(òjìàrụ_okpokoro *ọbọakwụkwọ_ndebà, int 결과) {
+    시간제한멈춤();
+    ọbọakwụkwọ_ndebà->저장기값[0] = (uint64_t)(int64_t)결과;
+    ọbọakwụkwọ_ndebà->명령위치 = (uintptr_t)사용자복귀;
+    ọbọakwụkwọ_ndebà->상태값 = 0x3c5; // EL1h, DAIF masked
+}
+int 사용자예외(òjìàrụ_okpokoro *ọbọakwụkwọ_ndebà, unsigned 가로채기) {
+    if (!kèdịìrè || (ọbọakwụkwọ_ndebà->상태값 & 15) != 0) return 0;
+    if (가로채기) {
+        uint32_t 승인값 = 기계저장기(IRQ_CPU_ihuọrụ + 0xc), ihe_nkọwapụta_valuu = 승인값 & 1023;
+        if (ihe_nkọwapụta_valuu == 30) { 커널돌아가기(ọbọakwụkwọ_ndebà, 사용자시간초과); 기계저장기(IRQ_CPU_ihuọrụ + 0x10) = 승인값; return 1; }
+        if (ihe_nkọwapụta_valuu < 1020) 기계저장기(IRQ_CPU_ihuọrụ + 0x10) = 승인값;
+        return 1;
+    }
+    uint64_t 예외상태; __asm__ volatile("mrs %0, esr_el1" : "=r"(예외상태));
+    if (elekere_valuu() >= 마감시각) { 커널돌아가기(ọbọakwụkwọ_ndebà, 사용자시간초과); return 1; }
+    unsigned 예외분류 = 예외상태 >> 26;
+    if (예외분류 == 0x15 && (예외상태 & 0xffff) == 0) {
+        if (리눅스규약 ? ọbọakwụkwọ_ndebà->저장기값[8] == 93 || ọbọakwụkwọ_ndebà->저장기값[8] == 94 : ọbọakwụkwọ_ndebà->저장기값[8] == 6) 커널돌아가기(ọbọakwụkwọ_ndebà, (int)(ọbọakwụkwọ_ndebà->저장기값[0] & 255));
+        else {
+            intptr_t 결과=체계호출(ọbọakwụkwọ_ndebà);
+            if(결과==-4096&&kèmmekọrịta){
+                저장값[nwe_ihe].실행틀=*ọbọakwụkwọ_ndebà;저장값[nwe_ihe].실행틀.명령위치-=4;
+                사용자실수보관(저장값[nwe_ihe].실수저장상태);커널돌아가기(ọbọakwụkwọ_ndebà,사용자중단됨);
+            }else ọbọakwụkwọ_ndebà->저장기값[0]=(uint64_t)결과;
+        }
+    } else 커널돌아가기(ọbọakwụkwọ_ndebà, 예외분류 == 0x24 ? òjìàrụ_datà_mmejọ : 예외분류 == 0x20 ? 사용자실행오류 : òjìàrụ_abànihe_okwunkụzi);
+    return 1;
+}
+
+// 생성된 const ELF otu_valuu: 실행은 반드시 app_f5044b9b 헤더 검증을 통과해야 한다.
+typedef struct { const unsigned char *datà; size_t Ụhara; unsigned 전달값; } app;
+#include "programs.h"
+static void *fòto(unsigned 자리){return (void *)(0x04000000ul+자리*(òjìàrụ_mèdebe-사용자바탕));}
+static int Gwụ_app(int 결과){
+    사용자누적시각[nwe_ihe]+=(uint32_t)보드밀리초()-사용자실행시각[nwe_ihe];
+    시간제한멈춤();kèdịìrè=0;
+    if(결과==사용자중단됨){
+        저장된작업 *ùsòròokwū_datà=&저장값[nwe_ihe];ùsòròokwū_datà->멈춤상태=1;ùsòròokwū_datà->kèmmekọrịta=kèmmekọrịta;ùsòròokwū_datà->리눅스규약=리눅스규약;ùsòròokwū_datà->동적기억공간=동적기억끝;ùsòròokwū_datà->인수개수=전달인수개수;
+        memcpy(ùsòròokwū_datà->Òhèrèikike_ndepụta,Òhèrèikike_ndepụta,sizeof(Òhèrèikike_ndepụta));memcpy(ùsòròokwū_datà->ọbọakwụkwọ_ndepụta,ọbọakwụkwọ_ndepụta,sizeof(ọbọakwụkwọ_ndepụta));memcpy(ùsòròokwū_datà->통신끝점들,통신끝점들,sizeof(통신끝점들));
+        memcpy(ùsòròokwū_datà->agụment_MKPOKỌTA,전달인수,sizeof(전달인수));memcpy(ùsòròokwū_datà->인수길이,전달인수길이,sizeof(전달인수길이));
+        for(unsigned 순번=0;순번<사용자쪽수;순번++)if(Òhèrèikike_ndepụta[순번])memcpy((unsigned char *)fòto(nwe_ihe)+순번*ụhàrà_ihuakwụkwọ,(void *)(사용자바탕+순번*ụhàrà_ihuakwụkwọ),ụhàrà_ihuakwụkwọ);
+    }else{
+        저장값[nwe_ihe].멈춤상태=0;화면초기화(nwe_ihe);
+        for(unsigned 순번=0;순번<16;순번++)if(ọbọakwụkwọ_ndepụta[순번]>=0)pk_close(ọbọakwụkwọ_ndepụta[순번]);
+        for(unsigned 순번=0;순번<24;순번++)if(통신끝점들[순번])통신끝점닫기(순번+32);
+    }
+    for(unsigned 순번=0;순번<사용자쪽수;순번++){ihuakwụkwọ_ndepụta[순번]=0;Òhèrèikike_ndepụta[순번]=0;}변환표맞추기();return 결과;
+}
+uintptr_t 보드사용자제어(uintptr_t mmèm){
+    unsigned 자리=mmèm&15;if(자리>=4||kèdịìrè)return (uint32_t)-22;
+    저장된작업 *ùsòròokwū_datà=&저장값[자리];
+    if(mmèm>=32){if(ùsòròokwū_datà->멈춤상태){for(unsigned 순번=0;순번<16;순번++)if(ùsòròokwū_datà->ọbọakwụkwọ_ndepụta[순번]>=0)pk_close(ùsòròokwū_datà->ọbọakwụkwọ_ndepụta[순번]);for(unsigned 순번=0;순번<24;순번++)if(ùsòròokwū_datà->통신끝점들[순번])통신끝점닫기(순번+32);}ùsòròokwū_datà->멈춤상태=0;화면초기화(자리);return 0;}
+    if(mmèm>=16)return ùsòròokwū_datà->멈춤상태;
+    if(!ùsòròokwū_datà->멈춤상태)return (uint32_t)-22;
+    nwe_ihe=자리;kèmmekọrịta=ùsòròokwū_datà->kèmmekọrịta;리눅스규약=ùsòròokwū_datà->리눅스규약;동적기억끝=ùsòròokwū_datà->동적기억공간;전달인수개수=ùsòròokwū_datà->인수개수;
+    memcpy(ọbọakwụkwọ_ndepụta,ùsòròokwū_datà->ọbọakwụkwọ_ndepụta,sizeof(ọbọakwụkwọ_ndepụta));memcpy(통신끝점들,ùsòròokwū_datà->통신끝점들,sizeof(통신끝점들));memcpy(전달인수,ùsòròokwū_datà->agụment_MKPOKỌTA,sizeof(전달인수));memcpy(전달인수길이,ùsòròokwū_datà->인수길이,sizeof(전달인수길이));
+    for(unsigned 순번=0;순번<사용자쪽수;순번++)ihuakwụkwọ_ndepụta[순번]=(사용자바탕+순번*ụhàrà_ihuakwụkwọ)|mkpụrụobī_kọmpùta_ihuakwụkwọ;변환표맞추기();
+    memset((void *)사용자바탕,0,òjìàrụ_mèdebe-사용자바탕);
+    for(unsigned 순번=0;순번<사용자쪽수;순번++)if(ùsòròokwū_datà->Òhèrèikike_ndepụta[순번])memcpy((void *)(사용자바탕+순번*ụhàrà_ihuakwụkwọ),(unsigned char *)fòto(자리)+순번*ụhàrà_ihuakwụkwọ,ụhàrà_ihuakwụkwọ);
+    memcpy(Òhèrèikike_ndepụta,ùsòròokwū_datà->Òhèrèikike_ndepụta,sizeof(Òhèrèikike_ndepụta));
+    for(unsigned 순번=0;순번<사용자쪽수;순번++){unsigned 자료위치=Òhèrèikike_ndepụta[순번];ihuakwụkwọ_ndepụta[순번]=자료위치?(사용자바탕+순번*ụhàrà_ihuakwụkwọ)|(자료위치==3?òjìàrụ_gụọ_dèe:자료위치==5?사용자읽고실행:òjìàrụ_ọgụgụ_naanị):0;}
+    변환표맞추기();__asm__ volatile("ic iallu; dsb sy; isb" ::: "memory");kèdịìrè=1;ùsòròokwū_datà->멈춤상태=0;시간제한시작();
+    사용자실행시각[nwe_ihe]=보드밀리초();
+    return (uint32_t)Gwụ_app(òjìàrụ_CV(&ùsòròokwū_datà->실행틀,ùsòròokwū_datà->실수저장상태));
+}
+static int mee_app(const unsigned char *datà, size_t Ụhara, unsigned 전달값, int 리눅스방식, const char *Aha) {
+    if (kèdịìrè) return -16;
+    nwe_ihe=보드터미널(11);if(nwe_ihe<0||nwe_ihe>3||저장값[nwe_ihe].멈춤상태)return -16;kèmmekọrịta=0;
+    int 유효함 = 실행파일검사(datà, Ụhara, 리눅스방식); if (유효함) return 유효함;
+    리눅스규약 = 리눅스방식;
+    unsigned akara_ahà_indèks=0;
+    while (*Aha && akara_ahà_indèks<31) òjìàrụ_nnyemiwu_akara_ahà[nwe_ihe][akara_ahà_indèks++]=(unsigned char)*Aha++;
+    if (전달인수개수 && 전달인수길이[0]) {
+        if (akara_ahà_indèks) òjìàrụ_nnyemiwu_akara_ahà[nwe_ihe][akara_ahà_indèks++]=' ';
+        for (unsigned 자리=0; 자리<전달인수길이[0]; 자리++) òjìàrụ_nnyemiwu_akara_ahà[nwe_ihe][akara_ahà_indèks++]=전달인수[0][자리];
+    }
+    òjìàrụ_nnyemiwu_akara_ahà[nwe_ihe][akara_ahà_indèks]=0; nọmba_nke_ọjịọrụ[nwe_ihe]=다음사용자번호++;
+    if (다음사용자번호>0x7fffffffu) 다음사용자번호=10;
+    사용자시작시각[nwe_ihe]=보드밀리초(); 사용자누적시각[nwe_ihe]=0;
+    for (unsigned 순번 = 0; 순번 < 사용자쪽수; 순번++) ihuakwụkwọ_ndepụta[순번] = (사용자바탕 + 순번 * ụhàrà_ihuakwụkwọ) | mkpụrụobī_kọmpùta_ihuakwụkwọ;
+    변환표맞추기();
+    memset((void *)사용자바탕, 0, òjìàrụ_mèdebe - 사용자바탕);
+    memset(Òhèrèikike_ndepụta, 0, sizeof(Òhèrèikike_ndepụta));
+    실행파일머리 실행머리; memcpy(&실행머리, datà, sizeof(실행머리));
+    for (unsigned 순번 = 0; 순번 < 실행머리.프로그램머리개수; 순번++) {
+        실행파일구획 자료위치; memcpy(&자료위치, datà + 실행머리.app_isi_Nnokwata + 순번 * sizeof(자료위치), sizeof(자료위치));
+        if (자료위치.pinye_otu != 1 || !자료위치.기억영역크기) continue;
+        if (자료위치.파일영역크기) memcpy((void *)(uintptr_t)자료위치.àdreèsì, datà + 자료위치.Nnokwata_valuu, 자료위치.파일영역크기);
+        for (uintptr_t 현재위치 = 자료위치.àdreèsì & ~(ụhàrà_ihuakwụkwọ - 1); 현재위치 < 자료위치.àdreèsì + 자료위치.기억영역크기; 현재위치 += ụhàrà_ihuakwụkwọ) {
+            Òhèrèikike_ndepụta[(현재위치 - 사용자바탕) / ụhàrà_ihuakwụkwọ] = (자료위치.설정비트 & 2) ? 3 : ((자료위치.설정비트 & 1) ? 5 : 1);
+        }
+    }
+    for (uintptr_t 현재위치 = òjìàrụ_ikpo_àdreèsì; 현재위치 < òjìàrụ_mèdebe; 현재위치 += ụhàrà_ihuakwụkwọ) Òhèrèikike_ndepụta[(현재위치 - 사용자바탕) / ụhàrà_ihuakwụkwọ] = 3;
+    uintptr_t 초기쌓임공간 = 리눅스방식 ? 리눅스시작쌓임(실행머리.ndebà_akara) : òjìàrụ_mèdebe;
+    for (unsigned 순번 = 0; 순번 < 사용자쪽수; 순번++) {
+        unsigned Òhèrèikike = Òhèrèikike_ndepụta[순번];
+        ihuakwụkwọ_ndepụta[순번] = Òhèrèikike ? (사용자바탕 + 순번 * ụhàrà_ihuakwụkwọ) | (Òhèrèikike == 3 ? òjìàrụ_gụọ_dèe : Òhèrèikike == 5 ? 사용자읽고실행 : òjìàrụ_ọgụgụ_naanị) : 0;
+    }
+    변환표맞추기();
+    __asm__ volatile("ic iallu; dsb sy; isb" ::: "memory");
+    for (unsigned 순번 = 0; 순번 < 16; 순번++) ọbọakwụkwọ_ndepụta[순번] = -1;
+    memset(통신끝점들, 0, sizeof(통신끝점들));
+    동적기억끝 = òjìàrụ_foto_mèdebe;
+    kèdịìrè = 1; 시간제한시작();
+    사용자실행시각[nwe_ihe]=보드밀리초();
+    int 결과 = òjìàrụ_tinye(실행머리.ndebà_akara, 초기쌓임공간, 전달값);
+    return Gwụ_app(결과);
+}
+uintptr_t 보드사용자실행(uintptr_t 색인) {
+    if (색인 >= sizeof(실행항목들) / sizeof(실행항목들[0])) return (uint32_t)-22;
+    const char *Aha=색인==10?"javac":색인==11?"java":색인==12?"python":색인==13?"vi":색인==14?"jar":색인==15?"cc":색인==16?"jaot":"ELF";
+    return (uint32_t)mee_app(실행항목들[색인].datà, 실행항목들[색인].Ụhara, 실행항목들[색인].전달값, 0, Aha);
+}
+static uintptr_t mee_ọbọakwụkwọ(int 리눅스방식) {
+    static unsigned char foto[16384];
+    if (kèdịìrè || !전달인수개수) return (uint32_t)-22;
+    int ọbọakwụkwọ_ebenjìaka = pk_open((const char *)전달인수[0], ọgụgụ_naanị_valuu, 0);
+    if (ọbọakwụkwọ_ebenjìaka < 0) return (uint32_t)-오류번호;
+    int Ụhara = pk_size(ọbọakwụkwọ_ebenjìaka);
+    if (Ụhara < 0 || (unsigned)Ụhara > sizeof(foto)) { pk_close(ọbọakwụkwọ_ebenjìaka); return (uint32_t)-27; }
+    int 받은수 = pk_read(ọbọakwụkwọ_ebenjìaka, foto, Ụhara); pk_close(ọbọakwụkwọ_ebenjìaka);
+    if (받은수 != Ụhara) return (uint32_t)-5;
+    return (uint32_t)mee_app(foto, Ụhara, 0, 리눅스방식, "");
+}
+uintptr_t 보드사용자파일(void) { return mee_ọbọakwụkwọ(0); }
+uintptr_t 보드사용자리눅스파일(void) { return mee_ọbọakwụkwọ(1); }
+uintptr_t 보드사용자검사(void) {
+    for (unsigned 순번 = 0; 순번 < sizeof(잘못된실행항목들) / sizeof(잘못된실행항목들[0]); 순번++)
+        if (사용자실행파일검사(잘못된실행항목들[순번].datà, 잘못된실행항목들[순번].Ụhara) != 사용자실행파일오류) return 순번 + 1;
+    return 0;
+}

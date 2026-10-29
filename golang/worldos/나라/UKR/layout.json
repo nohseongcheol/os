@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "UKR",
+  "language": "uk",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

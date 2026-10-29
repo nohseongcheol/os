@@ -1,0 +1,72 @@
+{
+  "edition": "KOR/ko",
+  "display": "Xvfb",
+  "focus": "all",
+  "boots": [
+    {
+      "index": 0,
+      "passed": true,
+      "filesystem_clean": true,
+      "checks": [
+        "PASS file-io-unicode",
+        "PASS atomic-move",
+        "PASS symbolic-links",
+        "PASS memory-map",
+        "PASS jdk-compiler-module",
+        "PASS guest-javac",
+        "PASS guest-java-unicode-class",
+        "PASS guest-jar",
+        "PASS executable-jar",
+        "PASS threads-atomics",
+        "PASS tcp-loopback",
+        "PASS udp-loopback",
+        "PASS http-external-to-guest",
+        "PASS https-verified-certificate",
+        "PASS dns-resolution",
+        "PASS reflection",
+        "PASS jit-compiler",
+        "PASS headful-awt",
+        "PASS swing-robot-input",
+        "PASS localized-starter-source-loaded",
+        "PASS workbench-edit-save-compile-run-unicode-arguments",
+        "PASS native-posix-file-pthread-unix-socket-fork-wait",
+        "PASS localized-posix-names",
+        "PASS jni-native-library-getpid",
+        "PASS fcitx-unicode-keyboard-input"
+      ]
+    },
+    {
+      "index": 1,
+      "passed": true,
+      "filesystem_clean": true,
+      "checks": [
+        "PASS persistence-after-reboot",
+        "PASS file-io-unicode",
+        "PASS atomic-move",
+        "PASS symbolic-links",
+        "PASS memory-map",
+        "PASS jdk-compiler-module",
+        "PASS guest-javac",
+        "PASS guest-java-unicode-class",
+        "PASS guest-jar",
+        "PASS executable-jar",
+        "PASS threads-atomics",
+        "PASS tcp-loopback",
+        "PASS udp-loopback",
+        "PASS http-external-to-guest",
+        "PASS https-verified-certificate",
+        "PASS dns-resolution",
+        "PASS reflection",
+        "PASS jit-compiler",
+        "PASS headful-awt",
+        "PASS swing-robot-input",
+        "PASS localized-starter-source-loaded",
+        "PASS workbench-edit-save-compile-run-unicode-arguments",
+        "PASS native-posix-file-pthread-unix-socket-fork-wait",
+        "PASS localized-posix-names",
+        "PASS jni-native-library-getpid",
+        "PASS fcitx-unicode-keyboard-input"
+      ]
+    }
+  ]
+}

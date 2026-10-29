@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "BOL",
+  "language": "es",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "código-fuente"
+  }
+}

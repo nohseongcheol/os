@@ -1,0 +1,18 @@
+from 한국어 import 출력, 전문통신열기, 바깥전문보내기, 전문받기, ýap_Tor, 밀리초
+from 한국어 import ulgam_säwlik, 다시시도오류, 글부호화, 명령인수, bitin
+종단 = 전문통신열기(0)
+try:
+    전문 = 글부호화("PYTHON UDP Turkmen")
+    바깥전문보내기(종단, "10.0.2.2", bitin(명령인수[1]), 전문)
+    Bitir = 밀리초()
+    while True:
+        try:
+            jogap_bermek, port_baha = 전문받기(종단)
+            break
+        except ulgam_säwlik as Hata:
+            if Hata.indeks != 다시시도오류 or 밀리초() - Bitir >= 700:
+                raise
+    assert jogap_bermek == 전문
+    출력("PYTHON 네트워크 barla: UDP Turkmen")
+finally:
+    ýap_Tor(종단)

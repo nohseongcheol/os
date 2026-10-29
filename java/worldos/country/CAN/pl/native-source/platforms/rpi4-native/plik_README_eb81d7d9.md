@@ -1,0 +1,279 @@
+# Raspberry Pi 4 własny Java jądro_WARTOŚĆ — przestrzeń_użytkownika Wykonaj_polecenie 기반
+
+bieżący_towar własny 코드의 COSL 상업 choroba, 제3자 고지 및 LGPL 재연결 자료는 [COSL dystrybucja_WARTOŚĆ plik_README_eb81d7d9](COSL배포안내.md)를 참고한다. zmiana_tryb 전 GPL 구성의 판단은 [Wstecz_towar 라이선스 검토](licencja_przegląd.md)에 기록했다.
+
+polski komunikacja·wyjątek 사용법은 [polski Java API](한국어자바/plik_README_eb81d7d9.md), FUNKCJA_WARTOŚĆ·zmienna_WARTOŚĆ·nazwa_pliku 이름의 변경과 어원 근거는 [명명 plik_README_eb81d7d9](명명/plik_README_eb81d7d9.md)를 참고한다.
+
+Linux 없이 부팅하는 własny AArch64 커널이다. Java AOT jądro_WARTOŚĆ 위에 **wiersz_polecenia powłoka, 게스트 Java kompilator·JVM, MicroPython, EL0 C++ Wykonaj_polecenie, nazwa_pliku·UDP 루프백 시스템 호출, 여러 한글 GUI interpretator_poleceń·vi edytor·Swing 부분집합**을 제공한다. 커널의 nazwa_pliku dane/정책·루프백 transfer_WARTOŚĆ·powłoka 상태는 Java, 화면 합성·piksel zmienić_WARTOŚĆ·wskaźnik·클리핑도 Java로 구현하며, CPU/MMU/urządzenie_WARTOŚĆ 경계와 interpretator_poleceń·znak_WARTOŚĆ 그리기 연결은 C와 어셈블리다.
+
+**전체 JDK/JRE·CPython·표준 C++ 런타임·Swing 이식은 아직 완료되지 않았다.** 기존 [ARM64 Linux 실행판](../rpi4/README.md)의 OpenJDK/Python 패키지를 이 własny 커널에 탑재했다고 표시하지 않는다.
+
+새로운 게스트 `cc`/`jaot`, JAR 직접 Wykonaj_polecenie, lwIP TCP/UDP와 FTP는 [FTP·C·JAR·AOT 매뉴얼](파일전송과번역.md)을 참고한다. 게스트 SSH·VNC와 Pi4 GENET/PHY·DHCP 드라이버를 추가했다. **SSH·VNC는 QEMU에서 검증하며, 실물 Pi4의 przewodowy_WARTOŚĆ 송수신은 아직 미검증이다.** Wykonaj_polecenie·połączenie_e05f319b·hasło_WARTOŚĆ 확인은 [zewnętrzny_WARTOŚĆ połączenie_e05f319b plik_README_eb81d7d9](zewnętrzny_połączenie_prowadnica.md)에 정리했다.
+
+셸은 EL1 jądro_WARTOŚĆ, `java` 등 przestrzeń_użytkownika Wykonaj_polecenie 파일은 EL0에서 실행한다.
+`ps`·`top`의 표시와 제한, QEMU 네트워크 Wykonaj_polecenie·połączenie_e05f319b 방법 및 rzeczywisty_dane 검증은
+[Wykonaj_polecenie 계층과 zewnętrzny_WARTOŚĆ komunikacja 점검](실행계층과외부통신점검.md)을 참고한다.
+
+ELF는 확장자가 아닌 rzeczywisty_dane Wykonaj_polecenie 형식으로 검사한다. `./인사`처럼 확장자 없이 실행하며, 제한된 Linux ARM64 statyczny_WARTOŚĆ ELF는 `run --linux nazwa_pliku_SMS`으로 실행한다. [ELF·Linux ABI wsparcie_WARTOŚĆ 범위와 동일 바이너리 testy](wykonywalny_ABI.md).
+
+GUI와 네트워크는 `python3 narzędzia/Wykonaj_polecenie.py --desktop --network`로 함께 사용한다. Java·C·Python의 polski 예제 13개는 [jkoros/example](../../example/README.md)에 있으며, **게스트 rozruch_maszyny 시 `/example/java`, `/example/c`, `/example/python`에 자동으로 준비된다.** `example java|c|python`으로 지운 예제를 복원할 identyfikator 있다. Remmina에서 **F9/Shift+Space/한·zero_operand Klucz_WARTOŚĆ**로 `[EN]`↔`[KO]` 두벌식을 전환한다(`help ko`). `make test-examples`는 같은 GUI VM에서 FTP·rzeczywisty_dane TCP/UDP·nazwa_pliku bajt_WARTOŚĆ·그래픽 픽셀을 검증한다.
+
+게스트에서 `cd /example/java` 후 `java PrzykładOkna`로 polski Swing 예제를 실행한다. interpretator_poleceń 모서리에 마우스를 대고 **왼쪽 버튼으로 끌면 크기가 바뀐다**. `terminal size`는 bieżący_towar kolumna_WARTOŚĆ·WIERSZ_WARTOŚĆ 수를 보여 준다.
+
+## bieżący_towar wsparcie_WARTOŚĆ obcinać
+
+| 기능 | implementacja·시험한 obcinać | 아직 미지원 |
+|---|---|---|
+| rozruch_maszyny | Pi4 AArch64 EL1, UART, SD용 BLD_OBRAZ, QEMU raspi4b rozruch_maszyny | rzeczywisty_dane Pi4 보드에서의 펌웨어 rozruch_maszyny testy |
+| Java jądro_WARTOŚĆ | statyczny_WARTOŚĆ Java 부분집합 → freestanding C → AArch64 AOT | 전체 Java obiekt_WARTOŚĆ/wyjątek/GC/JVM/표준 biblioteka |
+| Java materiał_pochodny narzędzia | 게스트 własny `javac`/`java`, JVM 0.4/JAR: 다중 Klasa_WARTOŚĆ·obiekt_WARTOŚĆ·상속·wyjątek·GC·일부 컬렉션·Thread·IPv4 Socket/UDP·Swing 일부 API, polski biblioteka. 게스트 컴파일러는 statyczny_WARTOŚĆ Java 부분집합 | 전체 JDK/JRE·HotSpot·Java SE·임의의 모든 JAR·AWT/Swing 전체 |
+| Python | rzeczywisty_dane MicroPython 1.24.1 EL0 이식, źródło_drzewo kompilować_źródło/Wykonaj_polecenie, Klasa_WARTOŚĆ·wyjątek·GC·큰 liczba_całkowita·Unicode·nazwa_pliku·UDP/화면 Połącz | CPython, pip, C rozszerzenie_WARTOŚĆ, 부동소수점, 일반 OS/스레드/gniazdo_WARTOŚĆ moduł_WARTOŚĆ, interakcyjny REPL |
+| powłoka | UTF-8 Edytuj_WARTOŚĆ·LOG_zapis·Wykonane_WARTOŚĆ, 디렉터리·nazwa_pliku polecenie, zmienna_WARTOŚĆ·choroba·skrypt_WARTOŚĆ, 16 KiB 순차 파이프·리다이렉션, ELF Wykonaj_polecenie | 전체 POSIX sh/Bash, 작업 kontrola_WARTOŚĆ·동시 프로세스·PTY |
+| C/AOT kompilować_źródło | 게스트 TinyCC 및 statyczny_WARTOŚĆ Java 부분집합 `jaot` → własny ARM64 ELF | 전체 libc·모든 Java Klasa_WARTOŚĆ AOT |
+| C++ | 독립 ELF64를 EL0에서 Wykonaj_polecenie; statyczny_WARTOŚĆ 생성자, RAII 소멸자, FP/SIMD, polski nazwa_pliku/루프백 호출 | libc/libstdc++, STL, C++ wyjątek·RTTI·동적 Połącz |
+| przestrzeń_użytkownika chronić_WARTOŚĆ | 4 KiB 페이지, KOD_WARTOŚĆ RX/dane RW·NX, jądro_WARTOŚĆ·MMIO 차단, guard page, 잘못된 wskaźnik 검사 | 다중 przestrzeń_użytkownika pozwolenie_WARTOŚĆ, 일반 프로세스/스레드 스케줄러 |
+| Wykonaj_polecenie wartość_czasu 제한 | GIC-400 타이머로 무한 iteracja_WARTOŚĆ wyjść_program; interakcyjny wejście_WARTOŚĆ 대기는 기한 odświeżyć, 터미널별 EL0 program_f5044b9b 중단·CV_wykonanie | 일반적인 선점형 다중작업. 긴 jądro_WARTOŚĆ 호출 도중에는 종료가 지연될 identyfikator 있음 |
+| nazwa_pliku | Java RAM nazwa_pliku 64개 × 16384바이트, 루트를 포함한 디렉터리 16개, węzeł_równorzędny_WARTOŚĆ/절대 ścieżka_2 63바이트, deskryptor_wpis 16개 | pozwolenie_WARTOŚĆ, 디스크/SD 영속 Store_WARTOŚĆ |
+| 네트워크 | lwIP IPv4 TCP/UDP/ARP/ICMP, SLIP, GENET/PHY·DHCP implementacja, 게스트 FTP·SSH·VNC | GENET 실물 walidować, Wi-Fi, DNS, 일반 TLS gniazdo_WARTOŚĆ, RDP |
+| GUI | 최대 네 interpretator_poleceń Okno, zaznaczenie_WARTOŚĆ·przenosić_WARTOŚĆ·X Zamknięte, 한글 czcionka_WARTOŚĆ, Swing 부분집합; 게스트 VNC 화면·wejście_WARTOŚĆ·두벌식 | 실물 USB wejście_WARTOŚĆ, 전체 AWT/Swing·Java2D·Okno 관리 정책 |
+| 작업 wątek_WARTOŚĆ | jądro_WARTOŚĆ 작업 2개와 주 작업; JVM 내부 wątek_WARTOŚĆ 최대 4개, start/join/yield·synchronized | pthread, SMP, Java Thread 전체 API |
+| 다국어 | UTF-16 리터럴→UTF-8 UART, 한글·일본어·아랍어·이모지, UTF-8 nazwa_pliku_SMS/datagram | GUI의 일반 다국어 조판 |
+
+Wykonaj_polecenie 버튼 화면은 5×7 영문 글꼴을 쓰며, interpretator_poleceń 창은 Noto CJK/DejaVu에서 생성한 한글·Unicode 비트맵 글꼴을 쓴다. UART와 rzeczywisty_dane 프레임버퍼의 한글 표시를 시험한다. 루프백은 동일 jądro_WARTOŚĆ 내부의 datagram 전달이며 IP 패킷을 Ethernet으로 내보내는 드라이버가 아니다. 바깥 IPv4는 lwIP TCP/UDP 스택으로 보조 UART SLIP 경로를 사용한다. `python3 narzędzia/Wykonaj_polecenie.py --network`로 QEMU NAT를 연결하고 `ftpd start`로 서비스를 시작한다.
+
+Java의 정확한 API·문법·Wykonaj_polecenie 제한과 polski 사용법은 [własny JVM과 polski biblioteka](자바실행환경.md)에 정리했다. Klasa_WARTOŚĆ nazwa_pliku/JAR 배포는 [한국어자바](한국어자바) 소스에서 재현한다. 기존 Linux판 `polski.자바`와 별도인 `polski.własny` 패키지다.
+
+**vi·여러 Okno·Swing·한글 Java/Python/C/C++·posix-kor 예제는 [한글 materiał_pochodny 매뉴얼](materiał_pochodny_prowadnica.md)에 정리했다.**
+
+GUI interpretator_poleceń Wykonaj_polecenie·단축키·powłoka polecenie·제한은 [셸과 interpretator_poleceń 사용법](powłoka_ORAZ_Terminal.md)에 정리했다.
+
+## bieżący_towar 컴퓨터에서 Wykonaj_polecenie
+
+```sh
+cd /home/user/jkoros/platforms/rpi4-native
+make test
+make run
+```
+
+wyjść_program: **Ctrl+A Dalej_towar X**. 게스트 C/AOT narzędzia 빌드에는 `make rpi-prepare`로 준비한 ARM64 SDK 헤더와 libgcc 산술 보조 함수도 필요하다. libc나 Linux 커널을 게스트에 넣는 것은 아니다. host 도구는 JDK 11 이상, Python 3.6 이상, Clang/Clang++, AArch64 GNU binutils, Make, `libnewlib-dev` 헤더다. MicroPython은 `/usr/include/newlib` 헤더를 사용하며 다른 위치는 `NEWLIB_INCLUDE`로 지정한다. newlib 런타임을 이식·링크한 것은 아니다. kompilator 의미 비교에는 GCC/UBSan도 사용한다. 기존 `../rpi4/build/host`의 QEMU 11.0.3이 있으면 이용하며, 그렇지 않으면 PATH의 QEMU를 사용한다. `QEMU_AARCH64=/절대/ścieżka_2/qemu-system-aarch64`로 지정할 수도 있다. `raspi4b` wsparcie_WARTOŚĆ 여부를 확인한 후 실행한다.
+
+명령은 **Enter를 눌러 Wykonaj_polecenie**한다. 기존 한 znak_WARTOŚĆ 명령도 Enter가 필요하다.
+
+```text
+javac Hello.java
+java Hello "한글 argumenty 😀"
+python hello.py
+python -c 'print(2**100)'
+ls
+cat python.txt
+run cpp
+net test
+gui
+```
+
+| polecenie | Akcja |
+|---|---|
+| `help` / `info` | polecenie·rzeczywisty_dane implementacja Stan_WARTOŚĆ |
+| `ls` / `cat FILE` / `rm FILE` | RAM nazwa_pliku wpis_Lista·treść_WARTOŚĆ_cb0f2404·삭제 |
+| `vi FILE` | przestrzeń_użytkownika region_WARTOŚĆ vi 부분집합, 한글 Edytuj_WARTOŚĆ·Store_WARTOŚĆ·검색·되돌리기 |
+| `edit FILE` | nazwa_pliku 전체를 새로 wejście_WARTOŚĆ; 단독 `.` 줄로 Store_WARTOŚĆ, Ctrl-C로 Anuluj_zabieg |
+| `javac FILE.java` / `java CLASS [ARGS]` | własny 제한형 Java kompilować_źródło·Wykonaj_polecenie |
+| `python FILE.py [ARGS]` / `python -c 'CODE'` | MicroPython kompilować_źródło·Wykonaj_polecenie |
+| `load FILE` / `hex FILE` | 16진수 바이너리 wejście_WARTOŚĆ/pozycja_wyjścia; 입력은 단독 `.` 줄로 Store_WARTOŚĆ |
+| `run FILE.elf [ARGS]` / `run cpp` | 업로드한 własny ABI ELF / 내장 C++ 예제 |
+| `net test` / `tasks` / `selftest` | UDP 루프백 / 협력식 작업 / EL0 chronić_WARTOŚĆ testy |
+| `gui` / `terminal` | Wykonaj_polecenie 화면 / 한글 GUI interpretator_poleceń; F12로 interpretator_poleceń Otwórz·Zamknięte |
+| `samples` | 삭제한 wartość_domyślna 예제 odzyskać_Stan; 기존 파일은 보존 |
+
+예를 들어 `edit 인사.java`를 입력한 Dalej_towar 아래 소스를 입력한다.
+
+```java
+public class 인사 { public static void main(String[] args) { int WARTOŚĆ = 7; System.out.println("한글=" + WARTOŚĆ); } }
+```
+
+그다음 단독 `.` 줄로 저장하고 `javac 인사.java`, `java 인사`를 실행한다. 편집기는 기존 파일에 커서를 이동하는 방식이 아니라 전체 교체 방식이다. Anuluj_zabieg·잘못된 16진수·pojemność_WARTOŚĆ 초과는 원본을 보존한다. 줄은 4096바이트, 파일은 16384바이트, Wykonaj_polecenie 인수는 최대 8개·각각 UTF-8 255바이트다. 일반 polecenie 인수는 최대 32개다. Cytat·백슬래시·powłoka zmienna_WARTOŚĆ·파이프·리다이렉션 범위는 [powłoka 설명](powłoka_ORAZ_Terminal.md)을 참고한다.
+
+GUI 터미널은 다음과 같이 실행하고 Remmina에서 **VNC**, Adres **127.0.0.1:5902**로 연결한다. 키보드·한글 Unicode wejście_WARTOŚĆ·명시적 wkleić_WARTOŚĆ·Wykonaj_polecenie 버튼의 마우스 클릭을 QEMU 도구가 UART에 전달한다.
+
+```sh
+make desktop
+# GUI + 네트워크: python3 narzędzia/Wykonaj_polecenie.py --desktop --network
+# 다른 sprzęt_port: python3 narzędzia/Wykonaj_polecenie.py --desktop --port 5903
+```
+
+종료는 실행한 host 터미널에서 Ctrl+C다. 기존 `python3 narzędzia/Wykonaj_polecenie.py --vnc 127.0.0.1:2`는 화면 보기와 별도 UART 입력을 유지한다. `make run`은 일반 UART 셸이다. rzeczywisty_dane Pi4 USB 입력기는 아직 없으며, VNC Połącz 도구는 QEMU 시험용이다.
+
+GUI의 다섯 버튼은 rzeczywisty_dane C++/UDP ELF Wykonaj_polecenie, `Hello.java` kompilować_źródło 후 JVM Wykonaj_polecenie, `hello.py` Wykonaj_polecenie, GUI interpretator_poleceń 열기를 수행한다. 한 번에 한 프로그램이 CPU에서 실행되며 일반 실행에는 약 2초 기한이 있다. vi·Swing은 interakcyjny 대기에서 기한을 갱신하고 다른 터미널로 전환할 때 Pamięć_dane·CPU 문맥을 보관한다. powłoka·편집기에서 입력을 기다리는 시간에는 이 제한이 적용되지 않는다.
+
+## rzeczywisty_dane 산출물과 Pi4 SD BLD_OBRAZ
+
+```sh
+make image   # jądro_WARTOŚĆ, SD BLD_OBRAZ, rozruch_maszyny ZIP, 사용자용 SDK
+make sdk     # SDK만 다시 generować
+```
+
+| ścieżka_2 | 용도 |
+|---|---|
+| `build/kernel8.img` | własny jądro_WARTOŚĆ 기계어, 적재 Adres 0x80000 |
+| `build/kernel.elf`, `kernel.map` | jądro_WARTOŚĆ symbol_WARTOŚĆ·układ_konsolidacji |
+| `build/user/demo.elf` | przestrzeń_użytkownika tryb_WARTOŚĆ C++ nazwa_pliku/sterta_WARTOŚĆ/liczba_zmiennoprzecinkowa_WARTOŚĆ/그래픽 예제 |
+| `build/user/network.elf` | przestrzeń_użytkownika tryb_WARTOŚĆ C++ UDP 루프백 예제 |
+| `build/user/java-tools.elf` | własny Java 부분집합 kompilator/JVM, 전체 JDK/JRE 아님 |
+| `dist/jkoros-native-korean.jar` | host javac용 polski API Klasa_WARTOŚĆ; 같은 클래스가 własny JVM에도 내장됨 |
+| `dist/jkoros-native-korean-sources.zip` | polski API Java plik_źródłowy |
+| `build/user/vi.elf` | własny UTF-8 vi polecenie 부분집합 edytor |
+| `build/user/python.elf` | własny ABI용 MicroPython 1.24.1, CPython 아님 |
+| `build/user/fault.elf` | 의도적 침범/무한 반복을 수행하는 chronić_WARTOŚĆ testy 전용 |
+| `build/libposix-kor-arm64.a` | **jądro_WARTOŚĆ 내부**에서 Java nazwa_pliku 구현을 직접 부르는 기존 Połącz |
+| `build/libposix-kor-user.a` | **EL0 przestrzeń_użytkownika program_f5044b9b**에서 SVC로 nazwa_pliku/루프백을 호출하는 새 Połącz |
+| `dist/jkoros-native-rpi4.img` | 128 MiB MBR/FAT32 SD BLD_OBRAZ |
+| `dist/jkoros-native-rpi4-boot.zip` | FAT32 rozruch_maszyny 파티션에 복사할 nazwa_pliku grupa_WARTOŚĆ |
+| `dist/jkoros-native-aarch64-sdk.tar.gz` | 사용자용 헤더·Uruchom_2 KOD_WARTOŚĆ·biblioteka·링커 skrypt_WARTOŚĆ·예제 |
+| `dist/manifest.json`, `build/build.json` | SHA256과 rzeczywisty_dane wsparcie_WARTOŚĆ Stan_WARTOŚĆ |
+
+이미지는 확인된 공식 Pi rozruch_maszyny 묶음에서 `start4.elf`, `fixup4.dat`, Pi4 DTB와 disable-bt overlay를 가져온다. Linux kernel/initramfs/rootfs는 넣지 않는다. 펌웨어·MicroPython·interpretator_poleceń czcionka_WARTOŚĆ 라이선스와 czcionka_WARTOŚĆ źródło_WARTOŚĆ 해시도 동봉한다. nazwa_pliku generować 스크립트는 물리 디스크에 기록하지 않는다.
+
+예비 microSD에 BLD_OBRAZ LOG_zapis 도구로 `.img`를 기록하거나 FAT32 rozruch_maszyny 파티션 최상위에 ZIP 내용을 푼다. BLD_OBRAZ 기록은 선택한 카드의 기존 내용을 지우므로 대상을 확인한다. Pi4 wartość_domyślna EEPROM SD 부팅을 전제로 한다. UART는 **3.3V TTL, 115200 8N1**, GPIO14/TXD(8번)→어댑터 RX, GPIO15/RXD(10번)→TX, GND(6번) 연결이다. GPIO에 5V 신호를 연결하지 않는다.
+
+**실물 Pi4 부팅은 미검증이다.** QEMU `-kernel`은 SD의 VideoCore 펌웨어를 실행하지 않고 커널을 직접 적재한다. SD nazwa_pliku 구성·jądro_WARTOŚĆ 체크섬 검사와 물리 Tablica rozruch_maszyny 검증은 별개다. MMU używać_WARTOŚĆ 전에는 펌웨어의 캐시/MMU가 꺼져 있고 EL1 또는 EL2로 진입하는 통상 rozruch_maszyny 조건을 전제로 한다. 세 보조 코어는 대기시키며 한 코어만 사용한다.
+
+## C++와 polski API używać_WARTOŚĆ
+
+SDK를 풀고 호스트에서 컴파일한다.
+
+```sh
+tar -xzf dist/jkoros-native-aarch64-sdk.tar.gz -C build
+cd build/jkoros-native-sdk
+python3 compile.py examples/PrzykładPliku.cpp -o demo.elf
+python3 compile.py examples/통신예제.cpp -o network.elf
+```
+
+진입점은 `extern "C" int START_użytkownik_program(int)`이다. przestrzeń_użytkownika C++는 FP/SIMD를 사용할 identyfikator 있다. jądro_WARTOŚĆ C/Java AOT는 일반 레지스터만 사용하므로 wyjątek Proces_WARTOŚĆ_wpis 중 przestrzeń_użytkownika FP 상태를 건드리지 않는다. przestrzeń_użytkownika punkt_wejścia_WARTOŚĆ 시 FP 상태를 초기화하고 jądro_WARTOŚĆ 복귀에 필요한 상태를 보존한다.
+
+```cpp
+#include "Plik_ABI.h"
+extern "C" int START_użytkownik_program(int) {
+    int nazwa_pliku = otwarty_Plik("인사.txt", R_W | 없으면만들기 | obcinać_Spis_treści, 0600);
+    if (nazwa_pliku < 0) return 1;
+    const char treść_WARTOŚĆ_cb0f2404[] = "안녕하세요";
+    int WYNIK = zapis_Plik_dane(nazwa_pliku, treść_WARTOŚĆ_cb0f2404, sizeof(treść_WARTOŚĆ_cb0f2404) - 1);
+    Zamknij_Plik(nazwa_pliku);
+    return WYNIK == sizeof(treść_WARTOŚĆ_cb0f2404) - 1 ? 0 : 2;
+}
+```
+
+[nazwa_pliku 예제](przestrzeń_użytkownika/PrzykładPliku.cpp)와 [komunikacja 예제](przestrzeń_użytkownika/통신예제.cpp)가 rzeczywisty_dane rozruch_maszyny testy 대상이다. `Plik_ABI.h`의 이름은 커널용/사용자용 모두 같지만 **링크하는 라이브러리가 다르다**. 사용자용은 `svc #0`으로 호출하고 nazwa_pliku Proces_WARTOŚĆ_wpis 및 루프백 전달은 Java 커널에서 실행한다. `sieć_ABI.h`의 gniazdo_WARTOŚĆ 함수는 bieżący_towar 사용자용 라이브러리에 구현돼 있다.
+
+새 프로그램은 jądro_WARTOŚĆ 재빌드 없이 `load FILE.elf`와 `run FILE.elf`로 실행한다. 호스트에서 Dalej_towar 도구를 사용하면 **새 QEMU를 부팅해 업로드한 rzeczywisty_dane 바이트를 재확인한 BACK_WARTOŚĆ 게스트에서 Wykonaj_polecenie**하고 종료한다. 이 도구의 새 VM에서 만든 RAM 자료는 종료할 때 사라진다.
+
+```sh
+cd /home/user/jkoros/platforms/rpi4-native
+python3 narzędzia/Wykonaj_Plik.py build/jkoros-native-sdk/demo.elf
+python3 narzędzia/Wykonaj_Plik.py 예제/Hello.java "한글 argumenty"
+python3 narzędzia/Wykonaj_Plik.py 예제/hello.py
+```
+
+이 경로는 16KiB 이하의 `.elf`, `.java`, `.class`, `.py`를 지원한다. 큰 내장 Java/MicroPython ELF 자체는 jądro_WARTOŚĆ 묶음에 포함되어 이 nazwa_pliku 한도를 적용받지 않는다. **C++ 컴파일러는 host SDK의 Clang++**이며 게스트 내부 GCC/Clang 컴파일러는 아직 없다. SDK만으로 일반 Linux 프로그램을 실행할 수는 없다. Linux ELF, 동적 biblioteka, PT_TLS, PT_INTERP, PT_DYNAMIC, Wykonaj_polecenie·Zapis 겸용 세그먼트는 로더가 거부한다. 구체적인 호출 INDEKS·Adres obcinać·오류는 [przestrzeń_użytkownika ABI](użytkownik_Połącz_ABI.md)를 참고한다.
+
+RAM 파일은 재부팅 시 사라진다. `przekazywać_Files`은 -1과 ENOSYS를 반환한다. 파일의 mode 인수를 저장하지 않으며 pozwolenie_WARTOŚĆ·dup/fcntl은 없다. 디렉터리와 węzeł_równorzędny_WARTOŚĆ/절대 경로는 같은 RAM 저장소에서 처리한다. UDP 전문은 최대 512바이트, 소켓은 8개, odbierać_WARTOŚĆ 큐는 소켓당 4개다. 수신할 자료가 없거나 큐가 가득 차면 EAGAIN을 반환한다. przestrzeń_użytkownika wyjść_program 시 열린 nazwa_pliku 서술자와 소켓을 회수한다.
+
+## walidować WYNIK
+
+`make test-jvm`은 9개 프로그램을 OpenJDK와 rzeczywisty_dane własny 커널에서 실행해 결과를 비교한다. `make test`에도 포함된다. 별도 `narzędzia/부팅시험.py`는 Java prostokąt API의 rzeczywisty_dane 화면 픽셀까지 검사한다. `make test-shell`, `make test-desktop`은 새 셸과 rzeczywisty_dane VNC wejście_WARTOŚĆ·한글 interpretator_poleceń 화면을 검사하며 `make test`에도 포함된다.
+
+`make test-windows`, `make test-swing`, `make test-stream`, `make test-coding`도 제공하며 `make test`에 포함된다.
+
+`make test`는 OpenJDK와 AOT zabieg_WARTOŚĆ WYNIK 비교, 런타임 błąd 중단, 미지원 Java 거부와 함께 별도 QEMU VM에서 다음을 검사한다.
+
+- 기존 Java jądro_WARTOŚĆ 계산·UTF-8·C++ 직접 호출·협력식 작업 및 프레임버퍼.
+- 손상/잘못된 ABI/Adres 초과/겹친 페이지/W+X 등 ELF odrzucić_WARTOŚĆ 사례 22개.
+- EL0 C++ 생성자·RAII·liczba_zmiennoprzecinkowa_WARTOŚĆ zabieg_WARTOŚĆ·nazwa_pliku·sterta_WARTOŚĆ 및 잘못된 시스템 호출 wskaźnik.
+- jądro_WARTOŚĆ/KOD_WARTOŚĆ/MMIO Zapis·dostęp_wpis, NX operand_Stos·NULL Wykonaj_polecenie, guard page, 특권 polecenie 차단.
+- SVC를 호출하지 않는 무한 반복을 타이머로 종료한 후 systemy_informacyjne_zwykła program_f5044b9b 재실행.
+- iteracja_WARTOŚĆ Wykonaj_polecenie 시 nazwa_pliku/gniazdo_WARTOŚĆ 누수 방지, UDP 왕복·보낸 Adres·잘린 odbierać_WARTOŚĆ·큐 포화·빈 datagram·미지원 komunikacja błąd.
+- powłoka Edytuj_WARTOŚĆ·Anuluj_zabieg·16진수 업로드/다운로드·przestrzeń_użytkownika ELF 실행과 잘못된 ELF odrzucić_WARTOŚĆ.
+- 게스트 Java → OpenJDK `-Xverify:all`, OpenJDK → 게스트 JVM 교차 Wykonaj_polecenie, 한글 Klasa_WARTOŚĆ·zmienna_WARTOŚĆ·nazwa_pliku_SMS.
+- 여러 Okno·vi Store_WARTOŚĆ·Edytuj_WARTOŚĆ·Zwrot_mostek·przestrzeń_użytkownika Stan_WARTOŚĆ 중단/CV_wykonanie, Swing 한글 wejście_WARTOŚĆ·이벤트·X Zamknięte, 연결형 루프백, C/C++ 한글 SDK 예제.
+- MicroPython Unicode·큰 liczba_całkowita·Klasa_WARTOŚĆ·GC iteracja_WARTOŚĆ·nazwa_pliku import·wyjątek·nazwa_pliku·UDP 왕복·wartość_czasu 초과 후 복귀.
+- GUI zaznaczenie_WARTOŚĆ przenosić_WARTOŚĆ, C++/UDP/Java/MicroPython 버튼 Wykonaj_polecenie, 콘솔 복귀 및 rzeczywisty_dane 프레임버퍼 픽셀/czcionka_WARTOŚĆ.
+- 디렉터리·zmienna_WARTOŚĆ·choroba·nazwa_pliku polecenie·skrypt_WARTOŚĆ·순차 파이프·리다이렉션·pojemność_WARTOŚĆ 초과 odzyskać_Stan, Python stdin/EOF와 Java/Python stdout.
+- polecenie LOG_zapis·긴 한글 wejście_WARTOŚĆ Edytuj_WARTOŚĆ·Wykonane_WARTOŚĆ·interpretator_poleceń 스크롤, 그래픽 program_f5044b9b wyjść_program 후 Okno 복원, rzeczywisty_dane VNC Unicode Klucz_WARTOŚĆ·wkleić_WARTOŚĆ·마우스.
+
+[jądro_WARTOŚĆ testy LOG_zapis](build/verification/implementation-test.log), [powłoka testy](build/verification/shell/report.json), [VNC testy](build/verification/desktop/report.json), [maszyna 판독 WYNIK](build/verification/report.json), [직렬 LOG_WARTOŚĆ](build/verification/serial.log), [GUI 화면](build/verification/gui-python.png)을 확인할 identyfikator 있다. VNC RFB 3.8 Połącz 및 640×480 화면 정보도 검사한다. [SDK 재컴파일 WYNIK](build/verification/sdk.json)는 두 예제의 punkt_wejścia·적재 세그먼트·ABI note가 rozruch_maszyny 시험한 ELF와 일치함을 확인한다. symbol_WARTOŚĆ 등 비적재 메타데이터를 포함한 nazwa_pliku 전체의 SHA256까지 같다고 의미하지는 않는다.
+
+## Java와 Python의 정확한 obcinać
+
+własny `javac`는 버전 49 `.class`를 생성하며 JVM은 wsparcie_WARTOŚĆ 명령으로 구성된 버전 45–52 클래스를 실행한다. statyczny_WARTOŚĆ FUNKCJA_WARTOŚĆ·재귀·int/boolean/char/String·choroba/iteracja_WARTOŚĆ·ciąg_WARTOŚĆ 결합과 일부 nazwa_pliku 스트림을 지원한다. UTF-8 문자열과 문자 리터럴, ASCII 및 현대 한글 음절/kompozycja_WARTOŚĆ 자모 식별자를 처리한다. Unicode identyfikator_WARTOŚĆ 전체 WYSZUKAJ_tabela·Unicode źródło_drzewo 이스케이프는 구현하지 않았다. 게스트 źródło_drzewo 컴파일러는 일반 obiekt_WARTOŚĆ·wyjątek·Thread 구문을 아직 컴파일하지 못한다. host `javac --release 8`로 만든 wsparcie_WARTOŚĆ 부분집합 클래스는 własny JVM 0.4의 obiekt_WARTOŚĆ·wyjątek·Thread·UDP와 polski API를 사용할 identyfikator 있다. Swing은 문서화한 własny API 부분집합을 제공하며 JAR 로더는 제공하지만 전체 AWT/Swing·JDK 표준 라이브러리는 없다. 정확한 범위는 [własny JVM 설명](자바실행환경.md)이 기준이다. 상세 Język 범위는 [공유 Java narzędzia 설명](../../문서/IDE_Java.md)을 참고하되, 그 문서의 x86 powłoka/Store_WARTOŚĆ/실행시간과 이 ARM64 판의 차이에 유의한다.
+
+MicroPython은 공식 **1.24.1 źródło_drzewo**를 własny AArch64 EL0/SVC 대상으로 빌드했다. Python 문법의 FUNKCJA_WARTOŚĆ·Klasa_WARTOŚĆ·wyjątek·리스트/słownik·Unicode·GC·가변 precyzja_WARTOŚĆ 정수를 제공한다. bieżący_towar 구성은 liczba_całkowita 빌드로 `float`, `complex`, `math`가 없으며 CPython 전체 표준 biblioteka, pip, subprocess, threading, 일반 socket과 wartość_domyślna `open()` nazwa_pliku 객체는 제공하지 않는다. `python FILE.py` 및 `-c` 실행만 제공하며 REPL은 아직 없다. 각 실행의 obiekt_WARTOŚĆ·모듈은 wyjść_program 시 회수되고 RAM 파일만 Dalej_towar 실행에 남는다.
+
+`import jkoros`로 Dalej_towar 시스템 연결을 쓴다. 모두 SVC를 통해 własny Java 커널에 접근한다.
+
+| FUNKCJA_WARTOŚĆ | Akcja |
+|---|---|
+| `stdin(limit)` | bieżący_towar 표준 입력에서 최대 limit바이트(0…16384)를 bytes로 읽음; EOF는 빈 bytes, UART dane 없음은 OSError(11) |
+| `read(name)` | węzeł_równorzędny_WARTOŚĆ/절대 RAM 경로의 nazwa_pliku 전체를 bytes로 읽음 |
+| `write(name, data)` | str/bytes 버퍼를 RAM 파일에 새로 Store_WARTOŚĆ, 쓴 bajt_WARTOŚĆ identyfikator Zwrot_KR |
+| `remove(name)` | RAM nazwa_pliku 삭제 |
+| `rect(x, y, w, h, color)` | 선택한 rzeczywisty_dane 화면 Rozmiar 안의 prostokąt rysunek_WARTOŚĆ; 기존 보드의 RGB32 WARTOŚĆ |
+| `ticks_ms()` | rozruch_maszyny 후 밀리초, 32비트 Cykl_WARTOŚĆ |
+| `udp_open(port)` | 127.0.0.1의 UDP gniazdo_WARTOŚĆ Otwórz/BIND_uczestnik; 0은 자동 sprzęt_port |
+| `udp_send(fd, port, data)` | 루프백 cel_WARTOŚĆ 포트에 str/bytes 버퍼 transfer_WARTOŚĆ |
+| `udp_recv(fd)` | `(bytes, 보낸포트)` Zwrot_KR; 비어 있으면 `OSError(11)` |
+| `udp_close(fd)` | gniazdo_WARTOŚĆ Zamknięte |
+
+```python
+import jkoros
+first = jkoros.udp_open(9401)
+second = jkoros.udp_open(9402)
+jkoros.udp_send(first, 9402, b"hello")
+print(jkoros.udp_recv(second))  # (b'hello', 9401)
+jkoros.udp_close(first)
+jkoros.udp_close(second)
+```
+
+이식 KOD_WARTOŚĆ: [python/](PYTHON_mostek/), [przestrzeń_użytkownika Java Połącz](przestrzeń_użytkownika/자바연결.c). 공식 [MicroPython 이식 plik_README_eb81d7d9](https://docs.micropython.org/en/latest/develop/porting.html)를 참고했다. źródło_drzewo URL·skrót_Plik·라이선스는 [vendor plik_README_eb81d7d9](vendor/README.md)에 기록했다.
+
+## 남은 작업
+
+| Dalej_towar etap_WARTOŚĆ | 완료 Project_korzeń |
+|---|---|
+| 영속 Store_WARTOŚĆ·Wykonaj_polecenie nazwa_pliku wejście_WARTOŚĆ | SD/MMC 및 디스크 nazwa_pliku 시스템, 시스템/przestrzeń_użytkownika 볼륨; bieżący_towar ELF nazwa_pliku 실행은 RAM에 한정 |
+| 일반 프로세스·스레드 | 프로세스별 Adres ADRES_region, 선점 스케줄러, TLS, synchronizować/chwileczkę_WARTOŚĆ, 신호, mmap/mprotect |
+| libc와 C++ 런타임 | własny ABI용 libc, malloc/free, 표준 We_Wy·Zegar·środowisko·locale, libstdc++/wyjątek Proces_WARTOŚĆ_wpis walidować |
+| CPython | 해당 libc와 OS API 대상으로 이식·교차 빌드하고 nazwa_pliku/Unicode/스레드/gniazdo_WARTOŚĆ testy |
+| OpenJDK/JRE | HotSpot OS warstwa_WARTOŚĆ, GC/JIT/스레드/신호/동적 연결과 Java 네이티브 biblioteka 이식; javac/java rzeczywisty_dane Wykonaj_polecenie |
+| zewnętrzny_WARTOŚĆ 네트워크 | 추가한 GENET/PHY·DHCP 드라이버의 rzeczywisty_dane Tablica 송수신 walidować, DNS·Wi-Fi |
+| GUI rozszerzenie_WARTOŚĆ | USB HID, 게스트 입력기·문자 조판, Swing Okno Rozmiar 조절·클리핑 rozszerzenie_WARTOŚĆ, 전체 AWT/Swing 이식 |
+
+이 표는 남은 작업이며 implementacja 완료 목록이 아니다. QEMU Pi4 모델에는 GENET Ethernet과 PCIe root port가 없어 zewnętrzny_WARTOŚĆ 네트워크 드라이버는 실물 검증도 필요하다. [QEMU urządzenie_WARTOŚĆ 지원표](https://www.qemu.org/docs/master/system/arm/raspi.html)
+
+sprzęt_WARTOŚĆ 및 ABI 참고: [BCM2711 akcesorium](https://datasheets.raspberrypi.com/bcm2711/bcm2711-peripherals.pdf), [Pi4 GIC Adres](https://github.com/raspberrypi/linux/blob/rpi-6.12.y/arch/arm/boot/dts/broadcom/bcm2711.dtsi), [mailbox wartość_kontraktu](https://github.com/raspberrypi/firmware/wiki/Mailbox-property-interface), [Arm ELF64](https://github.com/ARM-software/abi-aa/blob/main/aaelf64/aaelf64.rst), [Arm FP kontrola_WARTOŚĆ 레지스터 Definicja_WARTOŚĆ](https://github.com/ARM-software/arm-trusted-firmware/blob/master/include/arch/aarch64/arch.h).
+
+
+## polski C typ_danych·Python błąd·pakiet instalować_WARTOŚĆ
+
+C 네트워크 API는 `struct chmura_gniazdo_ADRES`, enum 상수와 rzeczywisty_dane polski 함수로
+구현한다. makro_WARTOŚĆ 별칭을 사용하지 않으며 Wstecz_towar pk_* ABI도 유지한다.
+Python 예제는 `błąd_systemu`, `błąd.INDEKS`, `błąd.설명`을 사용한다.
+
+`python3 narzędzia/Wykonaj_polecenie.py --desktop --network --pip`로 시작하면 게스트에서
+`pip install micropython-bisect==3.3.3`을 사용할 identyfikator 있다. 현재는 host 중계를
+이용하는 제한형 MicroPython źródło_drzewo 설치기이며 CPython pip·자동 의존성 해결·C 확장은
+미지원이다. 설치한 `/lib` 자료는 RAM이다. [사용법과 제한](PYTHON_pakiet.md).
+
+## 화면 Rozmiar zaznaczenie_WARTOŚĆ
+
+`python3 narzędzia/Wykonaj_polecenie.py --desktop --network --resolution 1920x1080`으로 Full HD 화면을 사용한다. 기본값은 640×480이며 1280×720도 가능하다. interpretator_poleceń przenosić_WARTOŚĆ, Swing 가운데 układ_konsolidacji, Java·C·Python 그리기도 rzeczywisty_dane 크기를 따른다. SD 영상은 `make image RESOLUTION=1920x1080`으로 만든다. [Ustawienia·polski API·walidować plik_README_eb81d7d9](rozdzielczość_ekranu.md).
+
+## polski 직접 API와 화면 odświeżyć
+
+`example/java`는 `실행할일`, `동작받이`, `akcja_powiadomienie`, `przycisk`, `konkurs_kolejka`,
+`pracownik`, `Uruchom_2()`을 사용할 identyfikator 있다. polski GUI/가닥을 własny JVM에 직접
+연결했으며, 표준 Swing/Thread를 감싸지 않는다. ciąg_WARTOŚĆ 등 javac의 표준
+계약과 전체 źródło_drzewo 검토 범위는 [명명 plik_README_eb81d7d9](명명/plik_README_eb81d7d9.md), 사용법과 호환성 변경은
+[polski Java API](한국어자바/plik_README_eb81d7d9.md)를 본다.
+
+interpretator_poleceń przenosić_WARTOŚĆ·Rozmiar 변경은 바뀐 영역만 합성하고 달라진 화소만 표시한다.
+[화면 odświeżyć 설명](자바실행환경.md#interpretator_poleceń-부분-odświeżyć),
+[부분 odświeżyć 검사](build/verification/redraw/report.json)를 참고한다.

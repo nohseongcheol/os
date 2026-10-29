@@ -1,0 +1,7 @@
+# import config
+packagefile hukommelsemanager=/home/user/worldos/나라/DNK/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/DNK/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/DNK/소스/build/b032/_pkg_.a
+packagefile util=/home/user/.cache/go-build/61/6191ad97d51cea0c680ab8a6bc1a4e303beabad51c004d809c8b4651c8c4eeda-d
+packagefile util/liste=/home/user/worldos/나라/DNK/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/DNK/소스/build/b000/_pkg_.a

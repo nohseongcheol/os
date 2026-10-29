@@ -1,0 +1,5 @@
+# WorldOS IND/sat_Olck UTF-8 command file
+echo "WorldOS IND/sat_Olck"
+help
+pwd
+pid

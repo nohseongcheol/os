@@ -1,0 +1,5 @@
+# WorldOS MSR UTF-8 command file
+print_arguments "WorldOS MSR"
+show_help
+show_working_directory
+show_process_identifiers

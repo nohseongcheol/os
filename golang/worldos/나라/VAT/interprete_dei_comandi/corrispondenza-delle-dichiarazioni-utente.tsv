@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Chiudi
+SYS_exit	SYS__exit
+SYS_open	SYS_Apri
+SYS_read	SYS_Lettura
+SYS_write	SYS_Scrittura
+argv	argomenti_2
+buf	memoria_intermedia_di_trasferimento
+close	Chiudi
+fd	descrittore_del_file
+open	Apri
+read	Lettura
+write	Scrittura

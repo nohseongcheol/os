@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "EGY",
+  "language": "ar",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "النص-المصدري"
+  }
+}

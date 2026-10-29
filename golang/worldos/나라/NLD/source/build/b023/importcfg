@@ -1,0 +1,5 @@
+# import config
+packagefile geheugenmanager=/home/user/worldos/나라/NLD/소스/build/b021/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/NLD/소스/build/b024/_pkg_.a
+packagefile util=/home/user/.cache/go-build/f0/f0a92c9d57df8c5a835b3fba99f4215b956f126c5952fabca0dc4938e962829b-d
+packagefile runtime/cgo=/home/user/worldos/나라/NLD/소스/build/b000/_pkg_.a

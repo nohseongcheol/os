@@ -1,0 +1,20 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.rgba: none
+XTerm*renderFont: true
+XTerm*faceName: DejaVu Sans Mono
+XTerm*faceNameDoublesize: Noto Sans Mono CJK KR
+XTerm*faceSize: 12
+XTerm*utf8: 2
+XTerm*locale: true
+XTerm*inputMethod: fcitx
+XTerm*openIm: true
+XTerm*preeditType: Root
+XTerm*background: #fafbfc
+XTerm*foreground: #202b3a
+XTerm*cursorColor: #2563eb
+XTerm*internalBorder: 10
+XTerm*saveLines: 10000
+XTerm*geometry: 92x26

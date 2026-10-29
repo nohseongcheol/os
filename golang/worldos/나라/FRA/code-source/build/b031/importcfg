@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/worldos/나라/FRA/code-source/build/b002/_pkg_.a
+packagefile gdt=/home/user/worldos/나라/FRA/code-source/build/b025/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FRA/code-source/build/b000/_pkg_.a

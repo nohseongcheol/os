@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Sulje
+SYS_exit	SYS__exit
+SYS_open	SYS_Avaa
+SYS_read	SYS_Luku
+SYS_write	SYS_Kirjoitus
+argv	argumentit_2
+buf	siirtopuskuri
+close	Sulje
+fd	tiedostokuvaaja
+open	Avaa
+read	Luku
+write	Kirjoitus

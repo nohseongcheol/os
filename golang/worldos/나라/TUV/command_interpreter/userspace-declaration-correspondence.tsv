@@ -1,0 +1,6 @@
+compiler_identifier	native_identifier
+SYS_exit	SYS__exit
+SYS_read	SYS_faitau
+SYS_write	SYS_tusitusi
+read	faitau
+write	tusitusi

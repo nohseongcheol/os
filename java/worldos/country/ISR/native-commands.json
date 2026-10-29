@@ -1,0 +1,33 @@
+{
+  "aliases": {
+    "ipconfig": "הגדרות-רשת",
+    "ip": "כתובת-רשת",
+    "ping": "בדיקת-הד",
+    "route": "נתיבים",
+    "netstat": "חיבורים",
+    "ps": "תהליכים",
+    "top": "פעילות",
+    "free": "זיכרון",
+    "df": "אחסון",
+    "uptime": "זמן-פעולה",
+    "poweroff": "כיבוי",
+    "help": "עזרה"
+  },
+  "descriptions": [
+    "IPv4 settings: address, netmask, gateway",
+    "IPv4 interface and route tools",
+    "ICMP echo and round-trip time",
+    "Connected network and default route",
+    "TCP/UDP sockets and traffic",
+    "Kernel tasks and user processes",
+    "Refresh tasks and memory; q or Ctrl+C quits",
+    "Actual kernel pools and user mappings",
+    "RAM filesystem capacity and file slots",
+    "Time since boot",
+    "Stop the OS; RAM files are not preserved",
+    "Commands and local names"
+  ],
+  "pending": [],
+  "status": "functional-proposals; native-speaker review pending",
+  "description_language": "en"
+}

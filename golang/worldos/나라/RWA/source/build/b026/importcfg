@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/7c/7c6723a986cf010a8c7b2fc397a12e8163521697ead0baf2b41b33df8b1475ce-d
+packagefile paging=/home/user/worldos/나라/RWA/소스/build/b027/_pkg_.a
+packagefile ububikomanager=/home/user/worldos/나라/RWA/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/0b/0b0c16ff052c0a469ce843cde4e98dd05d0e1334a91dd15ad07bd6cc264e7f49-d
+packagefile runtime/cgo=/home/user/worldos/나라/RWA/소스/build/b000/_pkg_.a

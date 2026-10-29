@@ -1,0 +1,8 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package Соединенные_Штаты.JUsaOS.IRQ;
+
+@FunctionalInterface
+public interface IRQ_обработчик {
+    int Процесс_ЗНАЧЕН_ввод(int 저장된쌓임주소);
+}
+

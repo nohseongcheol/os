@@ -1,0 +1,8 @@
+Fayl	이전이름	최종이름	쓰임
+시언어번역기/Bajarish.c	h	실행머리	ELF Sarlavha_VALUE
+기계/foydalanuvchi.c	h	실행머리	ELF tasdiqlash·적재 Sarlavha_VALUE
+기계/foydalanuvchi.h	x	저장기값	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+기계/yozuv_taxtasi.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+foydalanuvchi/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Vositalar/*.py	root	ildiz_yo_l	Fayl 계층의 Project_ildiz yo_l
+기계/Terminal.c	w	oyna_kiritish	Terminal oyna holat_VALUE_e10195a1 kursor

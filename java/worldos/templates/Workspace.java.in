@@ -1,0 +1,174 @@
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.*;
+import java.util.*;
+import java.util.List;
+import java.util.concurrent.*;
+import javax.swing.*;
+
+/** WorldOS project-owned source. Standard Java API names are preserved. */
+public final class __workspace__ {
+    private final JFrame __window__ = new JFrame();
+    private final JTextArea __source__ = new JTextArea();
+    private final JTextArea __output__ = new JTextArea();
+    private final JTextField __path__ = new JTextField("__source__.java", 26);
+    private final JTextField __name__ = new JTextField("__source__", 15);
+    private final JTextField __arguments__ = new JTextField(25);
+    private final Properties __messages__ = new Properties();
+    private final Path __directory__ = Paths.get(System.getProperty("user.home"), "workspace");
+    private final ExecutorService __worker__ = Executors.newSingleThreadExecutor();
+    private volatile Process __process__;
+
+    private String __label__(String __key__) {
+        return __messages__.getProperty(__key__, __key__);
+    }
+
+    private void __append__(String __text__) {
+        SwingUtilities.invokeLater(() -> {
+            __output__.append(__text__);
+            __output__.setCaretPosition(__output__.getDocument().getLength());
+        });
+    }
+
+    private void __error__(Exception __exception__) {
+        __append__(__label__("error") + ": " + __exception__.toString() + "\n");
+    }
+
+    private void __button__(JPanel __panel__, String __key__, Runnable __action__) {
+        JButton __button__ = new JButton(__label__(__key__));
+        __button__.addActionListener(__event__ -> __action__.run());
+        __panel__.add(__button__);
+    }
+
+    private void __load__() {
+        try {
+            __source__.setText(Files.readString(__directory__.resolve(__path__.getText()), StandardCharsets.UTF_8));
+            __source__.setCaretPosition(0);
+        } catch (Exception __exception__) { __error__(__exception__); }
+    }
+
+    private boolean __save__() {
+        try {
+            Path __file__ = __directory__.resolve(__path__.getText()).normalize();
+            Files.createDirectories(__file__.getParent());
+            Files.writeString(__file__, __source__.getText(), StandardCharsets.UTF_8);
+            __append__(__label__("save") + ": " + __file__ + "\n");
+            return true;
+        } catch (Exception __exception__) { __error__(__exception__); return false; }
+    }
+
+    private int __execute__(List<String> __command__) throws Exception {
+        __process__ = new ProcessBuilder(__command__).directory(__directory__.toFile()).redirectErrorStream(true).start();
+        try (BufferedReader __reader__ = new BufferedReader(new InputStreamReader(__process__.getInputStream(), StandardCharsets.UTF_8))) {
+            String __line__;
+            while ((__line__ = __reader__.readLine()) != null) __append__(__line__ + "\n");
+        }
+        int __result__ = __process__.waitFor();
+        __process__ = null;
+        __append__(__label__("result") + ": " + __result__ + "\n");
+        return __result__;
+    }
+
+    private void __compile__(boolean __run__) {
+        if (!__save__()) return;
+        String __file__ = __directory__.resolve(__path__.getText()).toString();
+        String __class__ = __name__.getText().trim();
+        String __text__ = __arguments__.getText();
+        __worker__.submit(() -> {
+            try {
+                Files.createDirectories(__directory__.resolve("classes"));
+                int __result__ = __execute__(Arrays.asList("javac", "-encoding", "UTF-8", "-cp", "/opt/worldos/edition.jar",
+                        "-d", __directory__.resolve("classes").toString(), __file__));
+                if (__run__ && __result__ == 0) {
+                    List<String> __command__ = new ArrayList<>(Arrays.asList("java", "-cp", __directory__.resolve("classes")
+                            + File.pathSeparator + "/opt/worldos/edition.jar", __class__));
+                    StreamTokenizer __parser__ = new StreamTokenizer(new StringReader(__text__));
+                    __parser__.resetSyntax(); __parser__.wordChars(33, 65535); __parser__.whitespaceChars(0, 32);
+                    __parser__.quoteChar('"'); __parser__.quoteChar('\'');
+                    while (__parser__.nextToken() != StreamTokenizer.TT_EOF) __command__.add(__parser__.sval);
+                    __execute__(__command__);
+                }
+            } catch (Exception __exception__) { __error__(__exception__); }
+        });
+    }
+
+    private void __stop__() {
+        Process __current__ = __process__;
+        if (__current__ != null) {
+            __current__.descendants().forEach(ProcessHandle::destroyForcibly);
+            __current__.destroyForcibly();
+        }
+    }
+
+    private void __terminal__() {
+        try { new ProcessBuilder("xterm", "-fa", "monospace", "-fs", "12", "-e", "/bin/sh")
+                .directory(__directory__.toFile()).start(); }
+        catch (Exception __exception__) { __error__(__exception__); }
+    }
+
+    private void __choose__() {
+        JFileChooser __chooser__ = new JFileChooser(__directory__.toFile());
+        if (__chooser__.showOpenDialog(__window__) == JFileChooser.APPROVE_OPTION) {
+            __path__.setText(__chooser__.getSelectedFile().getAbsolutePath());
+            __load__();
+        }
+    }
+
+    private void __initialize__() {
+        try (Reader __reader__ = new InputStreamReader(__workspace__.class.getResourceAsStream("/messages.properties"), StandardCharsets.UTF_8)) {
+            __messages__.load(__reader__);
+            Files.createDirectories(__directory__);
+        } catch (Exception __exception__) { throw new IllegalStateException(__exception__); }
+        __window__.setTitle(__label__("workspace") + " · WorldOS " + __label__("identity"));
+        __window__.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        __window__.addWindowListener(new WindowAdapter() {
+            @Override public void windowClosed(WindowEvent __event__) {
+                __stop__(); __worker__.shutdownNow(); System.exit(0);
+            }
+        });
+        __source__.setFont(new Font("Monospaced", Font.PLAIN, 17));
+        __source__.setTabSize(4);
+        __output__.setFont(new Font("Monospaced", Font.PLAIN, 14));
+        __output__.setEditable(false);
+        JPanel __panel__ = new JPanel(new GridLayout(0, 1));
+        JPanel __file__ = new JPanel(new FlowLayout(FlowLayout.LEADING));
+        __file__.add(new JLabel(__label__("file"))); __file__.add(__path__);
+        __panel__.add(__file__);
+        JPanel __toolbar__ = new JPanel(new FlowLayout(FlowLayout.LEADING));
+        __button__(__toolbar__, "open", () -> __choose__());
+        __button__(__toolbar__, "save", () -> __save__());
+        __button__(__toolbar__, "compile", () -> __compile__(false));
+        __button__(__toolbar__, "run", () -> __compile__(true));
+        __button__(__toolbar__, "stop", () -> __stop__());
+        __button__(__toolbar__, "terminal", () -> __terminal__());
+        __panel__.add(__toolbar__);
+        JPanel __settings__ = new JPanel(new FlowLayout(FlowLayout.LEADING));
+        __settings__.add(new JLabel(__label__("class"))); __settings__.add(__name__);
+        __settings__.add(new JLabel(__label__("arguments"))); __settings__.add(__arguments__);
+        __panel__.add(__settings__);
+        JSplitPane __split__ = new JSplitPane(JSplitPane.VERTICAL_SPLIT, new JScrollPane(__source__), new JScrollPane(__output__));
+        __split__.setResizeWeight(0.72);
+        __window__.add(__panel__, BorderLayout.NORTH);
+        __window__.add(__split__, BorderLayout.CENTER);
+        __panel__.applyComponentOrientation(ComponentOrientation.getOrientation(Locale.forLanguageTag(__label__("locale"))));
+        __split__.applyComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
+        // Source code has its own bidirectional ordering; do not reverse the source editor.
+        __source__.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
+        __output__.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
+        Dimension __size__ = Toolkit.getDefaultToolkit().getScreenSize();
+        __window__.setSize(Math.min(1240, __size__.width - 40), Math.min(760, __size__.height - 60));
+        __window__.setLocationRelativeTo(null);
+        __window__.setVisible(true);
+        __load__();
+        __split__.setDividerLocation(0.72);
+        __append__("OpenJDK " + System.getProperty("java.version") + " · " + System.getProperty("os.name") + "\n");
+        __append__(__label__("help") + "\n");
+    }
+
+    public static void main(String[] __arguments__) {
+        Locale.setDefault(Locale.forLanguageTag(System.getProperty("worldos.locale", "en")));
+        SwingUtilities.invokeLater(() -> new __workspace__().__initialize__());
+    }
+}

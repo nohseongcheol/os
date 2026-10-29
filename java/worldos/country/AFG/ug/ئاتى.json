@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "مەشغۇلات",
+    "identifier": "مەشغۇلات",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "ئۆزگەرگۈچىلەر",
+    "identifier": "ئۆزگەرگۈچىلەر",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "كۇنۇپكا",
+    "identifier": "كۇنۇپكا",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "تاللا...",
+    "identifier": "تاللا",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "تىپ",
+    "identifier": "تىپ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "ياپ(_C)",
+    "identifier": "ياپ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "بۇيرۇق",
+    "identifier": "بۇيرۇق",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "ئۇلا(_C)",
+    "identifier": "ئۇلا",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "ھازىرقى ۋاقىت",
+    "identifier": "ھازىرقى_ۋاقىت",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "مۇندەرىجە",
+    "identifier": "مۇندەرىجە",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "خاتالىق",
+    "identifier": "خاتالىق",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "ھادىسە",
+    "identifier": "ھادىسە",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "ئىجرا قىل(_E)",
+    "identifier": "ئىجرا_قىل",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "ھۆججەت",
+    "identifier": "ھۆججەت",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "ئەن",
+    "identifier": "ئەن",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "قۇر",
+    "identifier": "قۇر",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/katebacktracebrowserplugin.mo",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "يۈك",
+    "identifier": "يۈك",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "ھالىتى",
+    "identifier": "ھالىتى",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "ئاتى",
+    "identifier": "ئاتى",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "ئاچ(_O)",
+    "identifier": "ئاچ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "چىقار",
+    "identifier": "چىقار",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/katebuild-plugin.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "تاختا",
+    "identifier": "تاختا",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "يول",
+    "identifier": "يول",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "ئېغىز",
+    "identifier": "ئېغىز",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/kategdbplugin.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "ئورۇن(_P)",
+    "identifier": "ئورۇن",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/ristretto.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "process",
+    "identifier": "process",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "ئوقۇ(_R)",
+    "identifier": "ئوقۇ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "چىقىرىۋەت",
+    "identifier": "چىقىرىۋەت",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "ئىجرا قىل(_R)",
+    "identifier": "ئىجرا_قىل_2",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "(_S)ساقلاش",
+    "identifier": "ساقلاش",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "تەڭشەكلەر",
+    "identifier": "تەڭشەكلەر",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "چوڭلۇقى",
+    "identifier": "چوڭلۇقى",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "مەنبە",
+    "identifier": "مەنبە",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "توختا(_S)",
+    "identifier": "توختا",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "تېرمىنال",
+    "identifier": "تېرمىنال",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/katekonsoleplugin.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "تېكىست",
+    "identifier": "تېكىست",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "قورال بالداق(_T)",
+    "identifier": "قورال_بالداق",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/engrampa.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "كۆزنەك",
+    "identifier": "كۆزنەك",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "ياز(_W)",
+    "identifier": "ياز",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ug/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

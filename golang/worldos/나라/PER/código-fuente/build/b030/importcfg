@@ -1,0 +1,16 @@
+# import config
+packagefile archivosistema/fat=/home/user/worldos/나라/PER/소스/build/b002/_pkg_.a
+packagefile archivosistema/formato_ejecutable_y_enlazable=/home/user/worldos/나라/PER/소스/build/b022/_pkg_.a
+packagefile archivosistema/msdospartición=/home/user/worldos/나라/PER/소스/build/b003/_pkg_.a
+packagefile consola=/home/user/.cache/go-build/0e/0e254d5dc36f139e23258b946b656dfa685f7d4ef5431db5cd98c5d8adca21cb-d
+packagefile controlador/ata=/home/user/worldos/나라/PER/소스/build/b006/_pkg_.a
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/PER/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/planificador=/home/user/worldos/나라/PER/소스/build/b034/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/PER/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/PER/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/PER/소스/build/b026/_pkg_.a
+packagefile paginación=/home/user/worldos/나라/PER/소스/build/b023/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/39/39e569c0d94ea9622a0b9b2ca994a88ed92ac9125b94681a3006407e04fdd5bd-d
+packagefile utilidad=/home/user/.cache/go-build/52/52f731254dc8c1f811ded7d4d68a4eb4105448831ea3a9afbbdfbbc72e12ea4a-d
+packagefile virtualmemoria=/home/user/worldos/나라/PER/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PER/소스/build/b000/_pkg_.a

@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ba/ba44d3b0195f1914af6374325209151f04d29bbc4659af29269ad1f29bf76a33-d
+packagefile mémoiregestionnaire=/home/user/worldos/나라/PYF/소스/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PYF/소스/build/b000/_pkg_.a

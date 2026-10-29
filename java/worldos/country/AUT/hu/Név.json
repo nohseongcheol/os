@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Művelet",
+    "identifier": "Művelet",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "Argumentumok",
+    "identifier": "Argumentumok",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "gomb",
+    "identifier": "gomb",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "Válasszon…",
+    "identifier": "Válasszon",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Osztály",
+    "identifier": "Osztály",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Bezárás",
+    "identifier": "Bezárás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Parancs",
+    "identifier": "Parancs",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "Kapcs_olódás",
+    "identifier": "Kapcsolódás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "Jelenlegi",
+    "identifier": "Jelenlegi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Könyvtár",
+    "identifier": "Könyvtár",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "HIBA",
+    "identifier": "HIBA",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Esemény",
+    "identifier": "Esemény",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Végrehajtás",
+    "identifier": "Végrehajtás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Fájl",
+    "identifier": "Fájl",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Billentyű",
+    "identifier": "Billentyű",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Címke",
+    "identifier": "Címke",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "Vonal",
+    "identifier": "Vonal",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Terhelés",
+    "identifier": "Terhelés",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Mód",
+    "identifier": "Mód",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Név",
+    "identifier": "Név",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Megnyitás",
+    "identifier": "Megnyitás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "Kimenet",
+    "identifier": "Kimenet",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/gnome-flashback.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "ÚTVONAL",
+    "identifier": "ÚTVONAL",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Pozíció",
+    "identifier": "Pozíció",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Folyamat",
+    "identifier": "Folyamat",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Olvasás",
+    "identifier": "Olvasás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Eltávolítás",
+    "identifier": "Eltávolítás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Futtatás",
+    "identifier": "Futtatás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "M_entés",
+    "identifier": "Mentés",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Beállítások",
+    "identifier": "Beállítások",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Méret",
+    "identifier": "Méret",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "FORRÁS",
+    "identifier": "FORRÁS",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Leállítás",
+    "identifier": "Leállítás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Terminál",
+    "identifier": "Terminál",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/katekonsoleplugin.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Szöveg",
+    "identifier": "Szöveg",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Eszköztár",
+    "identifier": "Eszköztár",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Ablak",
+    "identifier": "Ablak",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "Í_rás",
+    "identifier": "Írás",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/hu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "aliases": {
+    "ipconfig": "নেট-বিন্যাস",
+    "ip": "নেট-ঠিকানা",
+    "ping": "প্রতিধ্বনি-পরীক্ষা",
+    "route": "পথ",
+    "netstat": "সংযোগ",
+    "ps": "প্রক্রিয়া",
+    "top": "কাজের-অবস্থা",
+    "free": "স্মৃতি",
+    "df": "সংরক্ষণ",
+    "uptime": "চলমান-সময়",
+    "poweroff": "বন্ধ-করুন",
+    "help": "সাহায্য"
+  },
+  "descriptions": [
+    "IPv4 settings: address, netmask, gateway",
+    "IPv4 interface and route tools",
+    "ICMP echo and round-trip time",
+    "Connected network and default route",
+    "TCP/UDP sockets and traffic",
+    "Kernel tasks and user processes",
+    "Refresh tasks and memory; q or Ctrl+C quits",
+    "Actual kernel pools and user mappings",
+    "RAM filesystem capacity and file slots",
+    "Time since boot",
+    "Stop the OS; RAM files are not preserved",
+    "Commands and local names"
+  ],
+  "pending": [],
+  "status": "functional-proposals; native-speaker review pending",
+  "description_language": "en"
+}

@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	åben_fil	FUNKTION_VÆRDI	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	åbne_fil	FUNKTION_VÆRDI	Skrive 전용 generere 또는 Indhold_VÆRDI rydde_Indhold	파일규약.h
+read	파일자료읽기	FUNKTION_VÆRDI	열린 대상에서 byte_VÆRDI 자료를 읽는다	파일규약.h
+write	skrive_fil_data	FUNKTION_VÆRDI	열린 대상에 byte_VÆRDI 자료를 쓴다	파일규약.h
+close	Luk_fil	FUNKTION_VÆRDI	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	søge_fil	FUNKTION_VÆRDI	열린 파일의 I_O 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	FUNKTION_VÆRDI	같은 열린 Fil 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	FUNKTION_VÆRDI	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	fjerne_fil_post_navn	FUNKTION_VÆRDI	Navn 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	sæt_fil_varighed	FUNKTION_VÆRDI	열린 파일의 byte_VÆRDI 길이를 정한다	파일규약.h
+fstat	파일상태읽기	FUNKTION_VÆRDI	열린 대상의 종류 Størrelse 링크 tal 등을 읽는다	파일규약.h
+fsync	udføre_Files	FUNKTION_VÆRDI	Store_VÆRDI 매체에 aktuel_vare Fil 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	FUNKTION_VÆRDI	서술자별 설정과 공유 Åbn 설정을 다룬다	파일규약.h
+socket	åbne_slutpunkt	FUNKTION_VÆRDI	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_mail	FUNKTION_VÆRDI	종단점에 lokal_Omfang 주소와 접속번호를 묶는다	통신규약.h
+sendto	maile_datagram_data	FUNKTION_VÆRDI	지정한 상대에게 datagram 하나를 보낸다	통신규약.h
+recvfrom	modtage_datagram_data	FUNKTION_VÆRDI	datagram 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	FUNKTION_VÆRDI	lokal_Omfang 종단점의 aktuel_vare 주소를 읽는다	통신규약.h
+setsockopt	ændre_netværk_Indstillinger	FUNKTION_VÆRDI	지원하는 modtage_VÆRDI vent_VÆRDI 설정을 바꾼다	통신규약.h
+inet_pton	opdele_tekst_netværks_id	FUNKTION_VÆRDI	ciffer_VÆRDI mail 문자열을 kontraktværdi 바이트로 해석한다	통신규약.h
+inet_ntop	format_netværks_id	FUNKTION_VÆRDI	kontraktværdi 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	FUNKTION_VÆRDI	16비트 값을 망의 byte_VÆRDI 차례로 바꾼다	통신규약.h
+htonl	netværk_heltal	FUNKTION_VÆRDI	32비트 값을 망의 byte_VÆRDI 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	FUNKTION_VÆRDI	16비트 값을 Udfør_kommando 장치의 byte_VÆRDI 차례로 바꾼다	통신규약.h
+ntohl	enhed_ordre_heltal	FUNKTION_VÆRDI	32비트 값을 Udfør_kommando 장치의 byte_VÆRDI 차례로 바꾼다	통신규약.h
+errno	fejlnummer	variabel_VÆRDI	실패한 C 호출의 양수 fejl INDEKS	errno.h
+fd	파일서술자	variabel_VÆRDI	Proces_VÆRDI 안의 열린 대상을 식별하는 heltal	fil_I_O.c
+count	byte_TÆL	variabel_VÆRDI	data 전송량의 단위가 바이트임을 드러낸다	fil_I_O.c
+offset	FORSKYDNING_VÆRDI	variabel_VÆRDI	To_do_rod 위치에 더할 kodning_VÆRDI 있는 거리	fil_I_O.c
+flags	åben_Indstillinger	variabel_VÆRDI	Fil åbne_post 방식과 Åbn Handling	fil_I_O.c
+mode	허가	variabel_VÆRDI	generere 파일에 기록할 허가 bit_VÆRDI	fil_I_O.c
+timeout	수신대기밀리초	variabel_VÆRDI	modtage_VÆRDI vent_VÆRDI 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	variabel_VÆRDI	UDP 종단점에 배정한 tal_Liste	netværk_Stak.java
+통신장치.hardware_port	netværk_driver.입출력기준주소	variabel_VÆRDI	NIC의 CPU I_O mail mail_område To_do_rod	netværk_driver.java
+generation	세대번호	variabel_VÆRDI	성공한 Store_VÆRDI 시점의 ordre_VÆRDI	파일보존.java
+포트읽기	입출력바이트읽기	FUNKTION_VÆRDI	CPU I_O 주소에서 한 바이트를 읽는다	enhed_VÆRDI.java
+포트쓰기	입출력바이트쓰기	FUNKTION_VÆRDI	CPU I_O 주소에 한 바이트를 쓴다	enhed_VÆRDI.java
+포트정수읽기	입출력정수읽기	FUNKTION_VÆRDI	CPU I_O 주소에서 32비트를 읽는다	enhed_VÆRDI.java
+포트정수쓰기	입출력정수쓰기	FUNKTION_VÆRDI	CPU I_O 주소에 32비트를 쓴다	enhed_VÆRDI.java
+포트짧은쓰기	입출력짧은수쓰기	FUNKTION_VÆRDI	CPU I_O 주소에 16비트를 쓴다	enhed_VÆRDI.java
+메모리파일.java	Hukommelse_filsystem.java	Fil·format_VÆRDI	주기억 내 Fil 자료와 이름을 관리한다	os/KILDE
+통신장치.java	netværk_driver.java	Fil·format_VÆRDI	PCI 망장치를 찾아 초기화하고 송수신한다	os/KILDE
+file I/O	fil_I_O.c	Fil	C 호출과 kerne_VÆRDI 파일서술자 호출의 grænse_VÆRDI	posix-kor/KILDE/구현
+socket interface	socket_slutpunkt.c	Fil	C 소켓과 kerne_VÆRDI 자료전문 기능의 grænse_VÆRDI	posix-kor/KILDE/구현
+syscall bridge	operativsystem_Opkald.s	Fil	C 호출 규약과 kerne_VÆRDI 레지스터 규약의 grænse_VÆRDI	posix-kor/maskine
+startup	START_bruger_app.s	Fil	bruger 진입점에서 C main을 시작한다	posix-kor/maskine

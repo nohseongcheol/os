@@ -1,0 +1,16 @@
+# import config
+packagefile bộnhớmanager=/home/user/worldos/나라/VNM/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/88/8870d12c880b6219d07872fc69111f2a6d369a7fd0342369d0d228ccead7f302-d
+packagefile cổng=/home/user/.cache/go-build/ce/ceb9effa3fd48d7e4485f34fc04d2d24ff335385ae1b8b6498e874949c2c8de0-d
+packagefile driver/ata=/home/user/worldos/나라/VNM/소스/build/b005/_pkg_.a
+packagefile giánđoạn=/home/user/worldos/나라/VNM/소스/build/b008/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/VNM/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/VNM/소스/build/b024/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/VNM/소스/build/b026/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/VNM/소스/build/b027/_pkg_.a
+packagefile tậptinHệthống/fat=/home/user/worldos/나라/VNM/소스/build/b032/_pkg_.a
+packagefile tậptinHệthống/msdospartition=/home/user/worldos/나라/VNM/소스/build/b033/_pkg_.a
+packagefile tậptinHệthống/định_dạng_thực_thi_và_liên_kết=/home/user/worldos/나라/VNM/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/b9/b937ded4fd3cf98b8c7cb30c49f907155ede542be5acd79f7bcf73673f688afd-d
+packagefile ảoBộnhớ=/home/user/worldos/나라/VNM/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VNM/소스/build/b000/_pkg_.a

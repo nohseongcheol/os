@@ -1,0 +1,16 @@
+{
+  "edition": "SAU/ar",
+  "display": "Xorg",
+  "focus": "workbench",
+  "boots": [
+    {
+      "index": 0,
+      "passed": true,
+      "filesystem_clean": true,
+      "checks": [
+        "PASS localized-starter-source-loaded",
+        "PASS workbench-edit-save-compile-run-unicode-arguments"
+      ]
+    }
+  ]
+}

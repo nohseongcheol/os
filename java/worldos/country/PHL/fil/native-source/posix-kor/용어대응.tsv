@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	buksan_file	pormula_VALUE	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	Create_file	pormula_VALUE	sumulat 전용 mag_generate 또는 Nilalaman_VALUE i_clear_TOC	파일규약.h
+read	파일자료읽기	pormula_VALUE	열린 대상에서 byte_VALUE 자료를 읽는다	파일규약.h
+write	sumulat_file_data	pormula_VALUE	열린 대상에 byte_VALUE 자료를 쓴다	파일규약.h
+close	isara_file	pormula_VALUE	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	i_seek_file	pormula_VALUE	열린 파일의 I_O 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	pormula_VALUE	같은 열린 file 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	pormula_VALUE	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	tanggalin_file_pagpasok_pangalan	pormula_VALUE	pangalan 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	set_file_haba	pormula_VALUE	열린 파일의 byte_VALUE 길이를 정한다	파일규약.h
+fstat	파일상태읽기	pormula_VALUE	열린 대상의 종류 sukat_82232621 링크 수 등을 읽는다	파일규약.h
+fsync	파일저장확정	pormula_VALUE	Store_VALUE 매체에 현재 file 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	pormula_VALUE	서술자별 설정과 공유 buksan 설정을 다룬다	파일규약.h
+socket	통신종단점만들기	pormula_VALUE	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_email	pormula_VALUE	종단점에 lokal_lawak 주소와 접속번호를 묶는다	통신규약.h
+sendto	자료전문보내기	pormula_VALUE	지정한 상대에게 전문 하나를 보낸다	통신규약.h
+recvfrom	자료전문받기	pormula_VALUE	전문 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	pormula_VALUE	lokal_lawak 종단점의 현재 주소를 읽는다	통신규약.h
+setsockopt	baguhin_Network_Mga_Setting	pormula_VALUE	지원하는 수신 maghintay_VALUE 설정을 바꾼다	통신규약.h
+inet_pton	mag_parse_Network_email	pormula_VALUE	digit_VALUE email 문자열을 kaso_VALUE 바이트로 해석한다	통신규약.h
+inet_ntop	format_Network_email	pormula_VALUE	kaso_VALUE 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	pormula_VALUE	16비트 값을 망의 byte_VALUE 차례로 바꾼다	통신규약.h
+htonl	Network_integer_buong_numero	pormula_VALUE	32비트 값을 망의 byte_VALUE 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	pormula_VALUE	16비트 값을 Mag_execute_utos 장치의 byte_VALUE 차례로 바꾼다	통신규약.h
+ntohl	device_pagkakasunud_sunod_integer_buong_numero	pormula_VALUE	32비트 값을 Mag_execute_utos 장치의 byte_VALUE 차례로 바꾼다	통신규약.h
+errno	오류번호	변수	실패한 C 호출의 양수 error INDEX	errno.h
+fd	파일서술자	변수	Proseso_VALUE 안의 열린 대상을 식별하는 integer_buong_numero	file_I_O.c
+count	byte_COUNT	변수	data 전송량의 단위가 바이트임을 드러낸다	file_I_O.c
+offset	OFFSET_VALUE	변수	Project_root 위치에 더할 pag_encode_VALUE 있는 거리	file_I_O.c
+flags	buksan_Mga_Setting	변수	file access_pagpasok 방식과 buksan aksyon	file_I_O.c
+mode	허가	변수	mag_generate 파일에 기록할 허가 bit_VALUE	file_I_O.c
+timeout	수신대기밀리초	변수	수신 maghintay_VALUE 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	변수	UDP 종단점에 배정한 번호들	Network_Stack.java
+통신장치.포트	Network_driver.입출력기준주소	변수	NIC의 CPU I_O email 공간 Project_root	Network_driver.java
+generation	세대번호	변수	성공한 Store_VALUE 시점의 pagkakasunud_sunod_VALUE	파일보존.java
+포트읽기	입출력바이트읽기	pormula_VALUE	CPU I_O 주소에서 한 바이트를 읽는다	device_VALUE.java
+포트쓰기	입출력바이트쓰기	pormula_VALUE	CPU I_O 주소에 한 바이트를 쓴다	device_VALUE.java
+포트정수읽기	입출력정수읽기	pormula_VALUE	CPU I_O 주소에서 32비트를 읽는다	device_VALUE.java
+포트정수쓰기	입출력정수쓰기	pormula_VALUE	CPU I_O 주소에 32비트를 쓴다	device_VALUE.java
+포트짧은쓰기	입출력짧은수쓰기	pormula_VALUE	CPU I_O 주소에 16비트를 쓴다	device_VALUE.java
+메모리파일.java	Memory_sistema_ng_file.java	file·format_VALUE	주기억 내 file 자료와 이름을 관리한다	os/pinagmulan
+통신장치.java	Network_driver.java	file·format_VALUE	PCI 망장치를 찾아 초기화하고 송수신한다	os/pinagmulan
+file I/O	file_I_O.c	file	C 호출과 kernel_VALUE 파일서술자 호출의 경계	posix-kor/pinagmulan/구현
+socket interface	통신종단점.c	file	C 소켓과 kernel_VALUE 자료전문 기능의 경계	posix-kor/pinagmulan/구현
+syscall bridge	operating_system_Mga_Tawag.s	file	C 호출 규약과 kernel_VALUE 레지스터 규약의 경계	posix-kor/machine
+startup	Start_gumagamit_app.s	file	gumagamit 진입점에서 C main을 시작한다	posix-kor/machine

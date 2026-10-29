@@ -1,0 +1,25 @@
+# import config
+packagefile archivosistema/fat=/home/user/worldos/나라/GTM/소스/build/b002/_pkg_.a
+packagefile archivosistema/formato_ejecutable_y_enlazable=/home/user/worldos/나라/GTM/소스/build/b022/_pkg_.a
+packagefile archivosistema/msdospartición=/home/user/worldos/나라/GTM/소스/build/b003/_pkg_.a
+packagefile consola=/home/user/.cache/go-build/cf/cf3f2c5fc886099614558d301c8b8b9c0e61e829d4dc79fd4600837ab2d10889-d
+packagefile controlador/ata=/home/user/worldos/나라/GTM/소스/build/b006/_pkg_.a
+packagefile controlador/controlador=/home/user/.cache/go-build/64/64e4d92d5c76539950127234f2205d6407f7a26b8b9b7f03bff696e75107cd98-d
+packagefile controlador/dispositivo_señalador=/home/user/worldos/나라/GTM/소스/build/b028/_pkg_.a
+packagefile controlador/teclado=/home/user/worldos/나라/GTM/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/ff/ffac5be80f6dcf764251096b323317d319e2b8d08c311859f990d8060ca56b48-d
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/GTM/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/planificador=/home/user/worldos/나라/GTM/소스/build/b034/_pkg_.a
+packagefile gestiónTareas/proceso=/home/user/worldos/나라/GTM/소스/build/b037/_pkg_.a
+packagefile gestiónTareas/tss=/home/user/worldos/나라/GTM/소스/build/b035/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/GTM/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/GTM/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/GTM/소스/build/b026/_pkg_.a
+packagefile paginación=/home/user/worldos/나라/GTM/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/GTM/소스/build/b038/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sistemallamada=/home/user/worldos/나라/GTM/소스/build/b030/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/64/640cc23f7966e829de5f195a4fd7686d7145c35993ff96761a3c49ab256d21d3-d
+packagefile virtualmemoria=/home/user/worldos/나라/GTM/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GTM/소스/build/b000/_pkg_.a

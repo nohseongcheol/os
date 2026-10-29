@@ -1,0 +1,5 @@
+# WorldOS IND/pa_Arab UTF-8 command file
+echo "WorldOS IND/pa_Arab"
+help
+pwd
+pid

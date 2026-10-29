@@ -1,0 +1,7 @@
+# import config
+packagefile memorijamanager=/home/user/worldos/나라/MNE/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/MNE/소스/build/b028/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/MNE/소스/build/b029/_pkg_.a
+packagefile util=/home/user/.cache/go-build/bd/bd405dc10a752363f4b17e483016e96cea95a59c38ee22d918e8ebbe68f32081-d
+packagefile util/spisak=/home/user/worldos/나라/MNE/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MNE/소스/build/b000/_pkg_.a

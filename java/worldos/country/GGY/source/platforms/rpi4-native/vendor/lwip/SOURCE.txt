@@ -1,0 +1,4 @@
+lwIP STABLE-2_2_0_RELEASE
+https://github.com/lwip-tcpip/lwip/tree/STABLE-2_2_0_RELEASE
+archive sha256: 631bead5344605141ab5367dc7913eb81671469d5467c40cdb29701313855afe
+Unmodified upstream src and COPYING; local port in ../../network.

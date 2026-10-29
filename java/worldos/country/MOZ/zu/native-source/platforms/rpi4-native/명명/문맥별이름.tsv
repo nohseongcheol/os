@@ -1,0 +1,8 @@
+Ihele	이전이름	최종이름	쓰임
+시언어번역기/Sebenzisa.c	h	실행머리	ELF Unhlokweni_inani
+umshini/umsebenzisi.c	h	실행머리	ELF qinisekisa·적재 Unhlokweni_inani
+umshini/umsebenzisi.h	x	bhalisa_imininingwane	ARM64 x0..x30 Store_inani AMALUNGU_AFANAYO_inani
+umshini/보드.c	h	열여섯진숫자	진수 변환 문자표
+umsebenzisi/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Amathuluzi/*.py	root	기준경로	Ihele 계층의 기준 Indlela_2
+umshini/터미널.c	w	ifasitela_okufakwayo	터미널 ifasitela isimo_inani isikhombi

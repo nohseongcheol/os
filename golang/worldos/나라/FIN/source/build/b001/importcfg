@@ -1,0 +1,25 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/FIN/소스/build/b002/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/1d/1d147e9b21b4e821011bb588a15d68ceab2eb007b7cf16800d4a291306aebf8f-d
+packagefile driver/näppäimistö=/home/user/worldos/나라/FIN/소스/build/b007/_pkg_.a
+packagefile driver/osoitinlaite=/home/user/worldos/나라/FIN/소스/build/b036/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/c0/c08cf4ea29ab449df5ff21bf9d6d833a197dce188ecc1c8d41ed0e0be7c5e6cf-d
+packagefile järjestelmäcall=/home/user/worldos/나라/FIN/소스/build/b008/_pkg_.a
+packagefile keskeytys=/home/user/worldos/나라/FIN/소스/build/b009/_pkg_.a
+packagefile konsoli=/home/user/.cache/go-build/2a/2a1c6d0259aab9894bc97296e6c2e36ac7ce409bb551141fa155e3e67c5fe77d-d
+packagefile muistimanager=/home/user/worldos/나라/FIN/소스/build/b024/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/FIN/소스/build/b023/_pkg_.a
+packagefile paging=/home/user/worldos/나라/FIN/소스/build/b025/_pkg_.a
+packagefile pci=/home/user/worldos/나라/FIN/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile tasking/prosessi=/home/user/worldos/나라/FIN/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/FIN/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/FIN/소스/build/b028/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/FIN/소스/build/b031/_pkg_.a
+packagefile tiedostoJärjestelmä/fat=/home/user/worldos/나라/FIN/소스/build/b033/_pkg_.a
+packagefile tiedostoJärjestelmä/msdospartition=/home/user/worldos/나라/FIN/소스/build/b034/_pkg_.a
+packagefile tiedostoJärjestelmä/suoritettava_ja_linkitettävä_muoto=/home/user/worldos/나라/FIN/소스/build/b035/_pkg_.a
+packagefile util=/home/user/.cache/go-build/ca/ca78ba0d45832d27f4b7264a4c6018b3d4fbeaa9431cc70a7302ede80bee8134-d
+packagefile virtuaalinenMuisti=/home/user/worldos/나라/FIN/소스/build/b029/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FIN/소스/build/b000/_pkg_.a

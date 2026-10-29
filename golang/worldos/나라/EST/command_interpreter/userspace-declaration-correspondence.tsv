@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Sulge
+SYS_exit	SYS__exit
+SYS_open	SYS_Ava
+SYS_read	SYS_Lugemine
+SYS_write	SYS_Kirjutamine
+close	Sulge
+open	Ava
+read	Lugemine
+write	Kirjutamine

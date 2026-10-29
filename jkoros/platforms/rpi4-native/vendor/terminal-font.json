@@ -1,0 +1,11 @@
+{
+  "name": "JKOROS terminal bitmap",
+  "format": "16 rows, big-endian uint16 mask; BMP then U+1F600..1F64F",
+  "glyphs": 65616,
+  "sha256": "1f2ff47ea8921970048c76fdbccb5f1a84d08c402fae25ce4dfd81f453d2735f",
+  "sources": {
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf": "8c8b4894c328236143c9f57f690e2199482e0a4bed2567747e99ffbbf84ca3af",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc": "5dcd1c336cc9344cb77c03a0cd8982ca8a7dc97d620fd6c9c434e02dcb1ceeb3",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf": "437a5ecec2ec177cba9284cbffc56055311347f3e9fe4f2b4b40323d0290a6db"
+  }
+}

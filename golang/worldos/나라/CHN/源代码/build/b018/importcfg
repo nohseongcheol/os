@@ -1,0 +1,7 @@
+# import config
+packagefile gdt=/home/user/worldos/나라/CHN/源代码/build/b002/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile 多重任务管理=/home/user/worldos/나라/CHN/源代码/build/b019/_pkg_.a
+packagefile 控制台=/home/user/worldos/나라/CHN/源代码/build/b016/_pkg_.a
+packagefile 端口=/home/user/worldos/나라/CHN/源代码/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHN/源代码/build/b000/_pkg_.a

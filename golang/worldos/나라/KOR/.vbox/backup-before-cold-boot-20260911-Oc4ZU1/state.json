@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "edition": "KOR",
+  "owner": "62295285-9732-4491-8922-d6ead29ce61d",
+  "name": "worldos KOR",
+  "media_history": [
+    "/home/user/worldos/나라/KOR/.vbox/media/kernel-b88077e9b378cb35c7ab219fb28a81f491aff468861bc81c42a68ac95af631a2.iso",
+    "/home/user/worldos/나라/KOR/.vbox/media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi"
+  ],
+  "disk": "/home/user/worldos/나라/KOR/.vbox/media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi",
+  "programs": {
+    "USER1": "04a47363f1c44dcc86cb225fd1cf0d4af1a7d34e743939c4d39a98af9560c019",
+    "USER2": "364d73ecf8e84ece8fcdd3f8d98d8fd26e816b53ca5373b82d29ffe2357c9067",
+    "USER3": "364d73ecf8e84ece8fcdd3f8d98d8fd26e816b53ca5373b82d29ffe2357c9067",
+    "SHEXEC": "e61f004c92d4322cac379db1e39319de6041bf5086ecb1184948384b4f8c3bf4",
+    "COMMANDS": "b09a450824ee89603411efe9df953476d8700e23c0d09b4f7ce898e5d66abfa3"
+  },
+  "disk_generations": [
+    {
+      "disk": "/home/user/worldos/나라/KOR/.vbox/media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi",
+      "source": "/home/user/VirtualBox VMs/eng operating system/NewVirtualDisk1-fixed-20260908.vdi",
+      "source_sha256_unchanged": "7a0565e7225658c92307b0918f5c24479f76500494d9a485d9c5987d597e627b"
+    }
+  ],
+  "iso": "/home/user/worldos/나라/KOR/.vbox/media/kernel-b88077e9b378cb35c7ab219fb28a81f491aff468861bc81c42a68ac95af631a2.iso",
+  "serial_log": "/home/user/worldos/나라/KOR/.vbox/logs/serial-e73f7334-0eaa-4f7b-a144-564129a5a561.log",
+  "vm_uuid": "12edc548-ca02-4c78-bd6e-6ed5850af279"
+}

@@ -1,0 +1,6 @@
+# import config
+packagefile avbrudd=/home/user/worldos/나라/NOR/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/17/174bc352b019b79c9caf708d0a1537ed15015ef0ded1bc96549a894e2a79859f-d
+packagefile port=/home/user/.cache/go-build/d0/d07287a9521dc22bda137d836c3ca97a8f72da1d9e932c18889f0ce7b5b9a863-d
+packagefile systemcall=/home/user/worldos/나라/NOR/소스/build/b025/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/NOR/소스/build/b000/_pkg_.a

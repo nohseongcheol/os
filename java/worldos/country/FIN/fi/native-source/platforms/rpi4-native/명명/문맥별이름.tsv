@@ -1,0 +1,8 @@
+tiedoston_nimi	이전이름	최종이름	쓰임
+C_kääntäjä/Suorita_2.c	h	suoritettava_tiedosto_otsikko	ELF otsikko_ARVO
+kone/käyttäjätila.c	h	suoritettava_tiedosto_otsikko	ELF vahvista·적재 otsikko_ARVO
+kone/käyttäjätila.h	x	rekisteri_data	ARM64 x0..x30 Store_ARVO MATRIISI_ARVO
+kone/Taulu.c	h	열여섯진숫자	진수 MUUNNA_ARVO 문자표
+käyttäjätila/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+työkalut/*.py	root	juuri_polku	tiedoston_nimi 계층의 aloite_juuri polku_2
+kone/komentotulkki.c	w	ikkuna_merkintä	komentotulkki Ikkuna Tila_ARVO osoitin

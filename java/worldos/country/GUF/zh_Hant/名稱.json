@@ -1,0 +1,425 @@
+{
+  "action": {
+    "text": "動作",
+    "identifier": "動作",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "位址",
+    "identifier": "位址",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "系統呼叫",
+    "identifier": "系統呼叫",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "附加",
+    "identifier": "附加",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "引數",
+    "identifier": "引數",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "按鈕",
+    "identifier": "按鈕",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "選擇",
+    "identifier": "選擇",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "選擇器",
+    "identifier": "選擇器",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "類別名稱",
+    "identifier": "類別名稱",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "關閉",
+    "identifier": "關閉",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "命令",
+    "identifier": "命令",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "編譯",
+    "identifier": "編譯",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "連線",
+    "identifier": "連線",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "目前行程",
+    "identifier": "目前行程",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "資料",
+    "identifier": "資料",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "獨立電文",
+    "identifier": "獨立電文",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "目錄",
+    "identifier": "目錄",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "錯誤",
+    "identifier": "錯誤",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "事件",
+    "identifier": "事件",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "例外",
+    "identifier": "例外",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "執行",
+    "identifier": "執行",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "檔案",
+    "identifier": "檔案",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "初始化",
+    "identifier": "初始化",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "鍵",
+    "identifier": "鍵",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "標籤",
+    "identifier": "標籤",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "列",
+    "identifier": "列",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "載入",
+    "identifier": "載入",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "訊息",
+    "identifier": "訊息",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "方式",
+    "identifier": "方式",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "名稱",
+    "identifier": "名稱",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "開啟",
+    "identifier": "開啟",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "輸出",
+    "identifier": "輸出",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "面板",
+    "identifier": "面板",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "剖析器",
+    "identifier": "剖析器",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "路徑",
+    "identifier": "路徑",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "通訊埠號碼",
+    "identifier": "通訊埠號碼",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "位置",
+    "identifier": "位置",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "行程",
+    "identifier": "行程",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "讀取",
+    "identifier": "讀取",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "讀取器",
+    "identifier": "讀取器",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "刪除",
+    "identifier": "刪除",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "結果",
+    "identifier": "結果",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "運行",
+    "identifier": "運行",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "儲存",
+    "identifier": "儲存",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "定位",
+    "identifier": "定位",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "設定",
+    "identifier": "設定",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "大小",
+    "identifier": "大小",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "原文",
+    "identifier": "原文",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "分割",
+    "identifier": "分割",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "停止",
+    "identifier": "停止",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "同步",
+    "identifier": "同步",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "終端",
+    "identifier": "終端",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "文字",
+    "identifier": "文字",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "執行緒",
+    "identifier": "執行緒",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "工具列",
+    "identifier": "工具列",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "視窗",
+    "identifier": "視窗",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "工作執行緒",
+    "identifier": "工作執行緒",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "工作坊",
+    "identifier": "工作坊",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "寫入",
+    "identifier": "寫入",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  }
+}

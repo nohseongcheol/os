@@ -1,0 +1,8 @@
+Datoteka	이전이름	최종이름	쓰임
+C_kompajler/koristiti.c	h	실행머리	ELF Zaglavlje_VALUE
+računar/korisnik.c	h	실행머리	ELF potvrditi·적재 Zaglavlje_VALUE
+računar/korisnik.h	x	registar_podaci	ARM64 x0..x30 Store_VALUE niz_VALUE
+računar/Tabla.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+korisnik/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Alatke/*.py	root	koren_putanja	Datoteka 계층의 radnja_koren putanja
+računar/Terminal.c	w	prozor_stavka	Terminal prozor Status_VALUE pokazivač

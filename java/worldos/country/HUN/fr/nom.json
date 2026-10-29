@@ -1,0 +1,425 @@
+{
+  "action": {
+    "text": "action",
+    "identifier": "action",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "adresse",
+    "identifier": "adresse",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "AppelsSystème",
+    "identifier": "AppelsSystème",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "ajouter",
+    "identifier": "ajouter",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "bouton",
+    "identifier": "bouton",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choisir",
+    "identifier": "choisir",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "sélecteur",
+    "identifier": "sélecteur",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "nomClasse",
+    "identifier": "nomClasse",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "fermer",
+    "identifier": "fermer",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "commande",
+    "identifier": "commande",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compiler",
+    "identifier": "compiler",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "connecter",
+    "identifier": "connecter",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "processusCourant",
+    "identifier": "processusCourant",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "données",
+    "identifier": "données",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagramme",
+    "identifier": "datagramme",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "répertoire",
+    "identifier": "répertoire",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "erreur",
+    "identifier": "erreur",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "événement",
+    "identifier": "événement",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "exécuter",
+    "identifier": "exécuter",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "fichier",
+    "identifier": "fichier",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialiser",
+    "identifier": "initialiser",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "clé",
+    "identifier": "clé",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "étiquette",
+    "identifier": "étiquette",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "ligne",
+    "identifier": "ligne",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "charger",
+    "identifier": "charger",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "mode",
+    "identifier": "mode",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "nom",
+    "identifier": "nom",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "ouvrir",
+    "identifier": "ouvrir",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "sortie",
+    "identifier": "sortie",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panneau",
+    "identifier": "panneau",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "analyseur",
+    "identifier": "analyseur",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "chemin",
+    "identifier": "chemin",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "numéroPort",
+    "identifier": "numéroPort",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "position",
+    "identifier": "position",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "processus",
+    "identifier": "processus",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "lire",
+    "identifier": "lire",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "lecteur",
+    "identifier": "lecteur",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "supprimer",
+    "identifier": "supprimer",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "résultat",
+    "identifier": "résultat",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "lancer",
+    "identifier": "lancer",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "enregistrer",
+    "identifier": "enregistrer",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "positionner",
+    "identifier": "positionner",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "réglages",
+    "identifier": "réglages",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "taille",
+    "identifier": "taille",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "source",
+    "identifier": "source",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "séparer",
+    "identifier": "séparer",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "arrêter",
+    "identifier": "arrêter",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "synchroniser",
+    "identifier": "synchroniser",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminal",
+    "identifier": "terminal",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "texte",
+    "identifier": "texte",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "fil",
+    "identifier": "fil",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "barreOutils",
+    "identifier": "barreOutils",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "fenêtre",
+    "identifier": "fenêtre",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "filTravail",
+    "identifier": "filTravail",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Atelier",
+    "identifier": "Atelier",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "écrire",
+    "identifier": "écrire",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  }
+}

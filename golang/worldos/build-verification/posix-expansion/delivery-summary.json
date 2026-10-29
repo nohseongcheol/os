@@ -1,0 +1,59 @@
+{
+  "editions": 295,
+  "current_builds_verified": 295,
+  "native_guest_boots": 295,
+  "current_artifacts_match_saved_boots": true,
+  "regression_guest_cases": 64,
+  "regression_editions": [
+    "ARE",
+    "CHN/zh_Hant",
+    "IND/hi_Deva",
+    "IND/ta_Taml",
+    "JPN/ja_Hira",
+    "JPN/ja_Kana",
+    "KOR",
+    "USA"
+  ],
+  "initial_regression_failures": [
+    {
+      "edition": "JPN/ja_Hira",
+      "case": "socket",
+      "result": "FAIL",
+      "program_sha256": "84493a1648273f84a428af02dcae1adb503d54216177f8491b3f91f0076c72e5",
+      "kernel_iso_sha256": "2f73a74b042f1ef9ca9af509eb4853f04e2a040c5b177d67c45509de28fd9acd"
+    }
+  ],
+  "unchanged_artifact_retries": [
+    {
+      "directory": "build-verification/posix-expansion/retry-hira",
+      "guest_cases": 8
+    }
+  ],
+  "unit_tests_passed": 79,
+  "shell_builds_passed": 295,
+  "current_shell_boots_verified": [
+    "ARE",
+    "CHN/zh_Hant",
+    "IND/hi_Deva",
+    "IND/ta_Taml",
+    "JPN/ja_Hira",
+    "JPN/ja_Kana",
+    "KOR",
+    "USA"
+  ],
+  "functions_per_edition": [
+    107
+  ],
+  "selected_identifiers_per_edition": [
+    117
+  ],
+  "all_function_names_present": 82,
+  "english_editions_in_that_count": 64,
+  "partial_or_undefined_language_editions": 213,
+  "all_selected_variable_names_present": 82,
+  "complete_POSIX_implementation": false,
+  "implementation_scope": "i386; single-thread; C-locale; kernel-dependent file/socket support",
+  "linguistic_review": "incomplete",
+  "complete_translation_all_identifiers": false,
+  "source_disks_unchanged": true
+}

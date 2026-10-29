@@ -1,0 +1,96 @@
+make -C compiler
+make[1]: Entering directory '/tmp/os-release-verification-20261005/jkoros/compiler'
+python3 컴파일러.py --entry 계산.시작 -o build/계산 예제/계산.java
+네이티브 컴파일 완료: /tmp/os-release-verification-20261005/jkoros/compiler/build/계산
+make[1]: Leaving directory '/tmp/os-release-verification-20261005/jkoros/compiler'
+make -C os
+make[1]: Entering directory '/tmp/os-release-verification-20261005/jkoros/os'
+mkdir -p build
+as --32 -o build/boot.o 부팅/진입.s
+python3 ../compiler/컴파일러.py --target kernel --entry 핵심.시작 --export kernel_dispatch=체계호출.처리 -o build/java.o 원문/글쇠판.java 원문/기억공간.java 원문/망장치구동기.java 원문/명령해석기.java 원문/문자단말.java 원문/실행관리.java 원문/장치.java 원문/저장장치접속.java 원문/주기억파일체계.java 원문/체계호출.java 원문/통신망.java 원문/파일보존.java 원문/파일서술자관리.java 원문/핵심.java
+네이티브 컴파일 완료: /tmp/os-release-verification-20261005/jkoros/os/build/java.o
+python3 도구/자바파일묶기.py -o build/java-files.bin 
+as --32 -o build/user.o 부팅/사용자.s
+python3 ../compiler/컴파일러.py --target user --entry 인사.시작 -o build/apps/hello.elf 사용자/선언/사용자.java 사용자/예제/인사.java
+네이티브 컴파일 완료: /tmp/os-release-verification-20261005/jkoros/os/build/apps/hello.elf
+python3 ../compiler/컴파일러.py --target user --entry 자료통신.시작 -o build/apps/udp.elf 사용자/선언/사용자.java 사용자/예제/자료통신.java
+네이티브 컴파일 완료: /tmp/os-release-verification-20261005/jkoros/os/build/apps/udp.elf
+python3 ../compiler/컴파일러.py --target user --entry 통신시험.시작 -o build/apps/netcheck.elf 사용자/선언/사용자.java 사용자/예제/통신시험.java
+네이티브 컴파일 완료: /tmp/os-release-verification-20261005/jkoros/os/build/apps/netcheck.elf
+python3 ../compiler/컴파일러.py --target user --entry 통신반복.시작 -o build/apps/stress.elf 사용자/선언/사용자.java 사용자/예제/통신반복.java
+네이티브 컴파일 완료: /tmp/os-release-verification-20261005/jkoros/os/build/apps/stress.elf
+python3 ../compiler/컴파일러.py --target user --entry 자바컴파일러.시작 -o build/apps/javac.elf 사용자/선언/사용자.java 사용자/자바/자바도구.java 사용자/자바/자바컴파일러.java
+네이티브 컴파일 완료: /tmp/os-release-verification-20261005/jkoros/os/build/apps/javac.elf
+python3 ../compiler/컴파일러.py --target user --entry 자바가상기계.시작 -o build/apps/java.elf 사용자/선언/사용자.java 사용자/자바/자바도구.java 사용자/자바/자바가상기계.java
+네이티브 컴파일 완료: /tmp/os-release-verification-20261005/jkoros/os/build/apps/java.elf
+make -C ../posix-kor
+make[2]: Entering directory '/tmp/os-release-verification-20261005/jkoros/posix-kor'
+mkdir -p build
+python3 도구/식별자변환.py 원문 build/원문
+touch build/변환완료
+gcc -m32 -std=c11 -O2 -ffreestanding -fno-builtin -fno-pie -fno-pic -fno-stack-protector -fno-asynchronous-unwind-tables -fextended-identifiers -nostdinc -Wall -Wextra -Werror -Ibuild/원문/포함 -c build/원문/구현/파일입출력.c -o build/파일입출력.o
+gcc -m32 -std=c11 -O2 -ffreestanding -fno-builtin -fno-pie -fno-pic -fno-stack-protector -fno-asynchronous-unwind-tables -fextended-identifiers -nostdinc -Wall -Wextra -Werror -Ibuild/원문/포함 -c build/원문/구현/통신종단점.c -o build/통신종단점.o
+gcc -m32 -std=c11 -O2 -ffreestanding -fno-builtin -fno-pie -fno-pic -fno-stack-protector -fno-asynchronous-unwind-tables -fextended-identifiers -nostdinc -Wall -Wextra -Werror -Ibuild/원문/포함 -c build/원문/구현/바이트문자열.c -o build/바이트문자열.o
+gcc -m32 -std=c11 -O2 -ffreestanding -fno-builtin -fno-pie -fno-pic -fno-stack-protector -fno-asynchronous-unwind-tables -fextended-identifiers -nostdinc -Wall -Wextra -Werror -Ibuild/원문/포함 -c build/원문/구현/사용자진입.c -o build/사용자진입.o
+mkdir -p build
+as --32 -o build/운영체제호출.o 기계/운영체제호출.s
+ar rcs build/libposix-kor.a build/파일입출력.o build/통신종단점.o build/바이트문자열.o build/사용자진입.o build/운영체제호출.o
+mkdir -p build
+as --32 -o build/사용자시작.o 기계/사용자시작.s
+gcc -m32 -std=c11 -O2 -ffreestanding -fno-builtin -fno-pie -fno-pic -fno-stack-protector -fno-asynchronous-unwind-tables -fextended-identifiers -nostdinc -Wall -Wextra -Werror -Ibuild/원문/포함 -c build/원문/시험/파일규약시험.c -o build/파일규약시험.o
+ld -m elf_i386 -T ../compiler/사용자배치.ld -o build/파일규약시험.elf build/사용자시작.o build/파일규약시험.o build/libposix-kor.a
+gcc -m32 -std=c11 -O2 -ffreestanding -fno-builtin -fno-pie -fno-pic -fno-stack-protector -fno-asynchronous-unwind-tables -fextended-identifiers -nostdinc -Wall -Wextra -Werror -Ibuild/원문/포함 -c build/원문/시험/자료전문시험.c -o build/자료전문시험.o
+ld -m elf_i386 -T ../compiler/사용자배치.ld -o build/자료전문시험.elf build/사용자시작.o build/자료전문시험.o build/libposix-kor.a
+gcc -m32 -std=c11 -O2 -ffreestanding -fno-builtin -fno-pie -fno-pic -fno-stack-protector -fno-asynchronous-unwind-tables -fextended-identifiers -nostdinc -Wall -Wextra -Werror -Ibuild/원문/포함 -c build/원문/시험/표준입력시험.c -o build/표준입력시험.o
+ld -m elf_i386 -T ../compiler/사용자배치.ld -o build/표준입력시험.elf build/사용자시작.o build/표준입력시험.o build/libposix-kor.a
+gcc -m32 -std=c11 -O2 -ffreestanding -fno-builtin -fno-pie -fno-pic -fno-stack-protector -fno-asynchronous-unwind-tables -fextended-identifiers -nostdinc -Wall -Wextra -Werror -Ibuild/원문/포함 -c build/원문/시험/파일보존시험.c -o build/파일보존시험.o
+ld -m elf_i386 -T ../compiler/사용자배치.ld -o build/파일보존시험.elf build/사용자시작.o build/파일보존시험.o build/libposix-kor.a
+make[2]: Leaving directory '/tmp/os-release-verification-20261005/jkoros/posix-kor'
+mkdir -p build/apps
+cp -u ../posix-kor/build/파일규약시험.elf build/apps/posixcheck.elf
+cp -u ../posix-kor/build/자료전문시험.elf build/apps/posixudp.elf
+cp -u ../posix-kor/build/표준입력시험.elf build/apps/posixinput.elf
+cp -u ../posix-kor/build/파일보존시험.elf build/apps/posixstore.elf
+python3 도구/묶기.py -o build/apps.bin hello=build/apps/hello.elf udp=build/apps/udp.elf netcheck=build/apps/netcheck.elf stress=build/apps/stress.elf javac=build/apps/javac.elf java=build/apps/java.elf posixcheck=build/apps/posixcheck.elf posixudp=build/apps/posixudp.elf posixinput=build/apps/posixinput.elf posixstore=build/apps/posixstore.elf
+as --32 -o build/apps.o 부팅/실행묶음.s
+ld -m elf_i386 -T 부팅/배치.ld -o build/kernel.elf build/boot.o build/java.o build/user.o build/apps.o
+grub-file --is-x86-multiboot build/kernel.elf
+make[1]: Leaving directory '/tmp/os-release-verification-20261005/jkoros/os'
+make -C 한국어자바
+make[1]: Entering directory '/tmp/os-release-verification-20261005/jkoros/한국어자바'
+mkdir -p build/classes
+javac --release 11 -encoding UTF-8 -d build/classes 원문/한국어/자바/통신.java 원문/한국어/자바/작업.java 원문/한국어/자바/문자.java 원문/한국어/자바/파일.java 원문/한국어/자바/작업마당.java 원문/한국어/자바/화면.java
+jar --create --file build/한국어자바.jar -C build/classes .
+make[1]: Leaving directory '/tmp/os-release-verification-20261005/jkoros/한국어자바'
+make -C os iso
+make[1]: Entering directory '/tmp/os-release-verification-20261005/jkoros/os'
+python3 도구/자바파일묶기.py -o build/java-files.bin 
+make -C ../posix-kor
+make[2]: Entering directory '/tmp/os-release-verification-20261005/jkoros/posix-kor'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/os-release-verification-20261005/jkoros/posix-kor'
+mkdir -p build/apps
+cp -u ../posix-kor/build/파일규약시험.elf build/apps/posixcheck.elf
+cp -u ../posix-kor/build/자료전문시험.elf build/apps/posixudp.elf
+cp -u ../posix-kor/build/표준입력시험.elf build/apps/posixinput.elf
+cp -u ../posix-kor/build/파일보존시험.elf build/apps/posixstore.elf
+mkdir -p build/iso/boot/grub
+cp build/kernel.elf build/iso/boot/kernel.elf
+cp 부팅/grub.cfg build/iso/boot/grub/grub.cfg
+grub-mkrescue -o build/kernel.iso build/iso
+xorriso 1.4.8 : RockRidge filesystem manipulator, libburnia project.
+
+Drive current: -outdev 'stdio:build/kernel.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 60.8g free
+Added to ISO image: directory '/'='/tmp/grub.5MOCCb'
+xorriso : UPDATE : 289 files added in 1 seconds
+Added to ISO image: directory '/'='/tmp/os-release-verification-20261005/jkoros/os/build/iso'
+xorriso : UPDATE : 293 files added in 1 seconds
+xorriso : NOTE : Copying to System Area: 512 bytes from file '/usr/lib/grub/i386-pc/boot_hybrid.img'
+ISO image produced: 3156 sectors
+Written to medium : 3156 sectors at LBA 0
+Writing to 'stdio:build/kernel.iso' completed successfully.
+
+make[1]: Leaving directory '/tmp/os-release-verification-20261005/jkoros/os'

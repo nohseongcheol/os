@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Tutup
+SYS_exit	SYS__exit
+SYS_open	SYS_Buka
+SYS_read	SYS_Baca
+SYS_write	SYS_Tulis
+argv	argumen_2
+buf	penyangga_transfer
+close	Tutup
+fd	deskriptor_berkas
+open	Buka
+read	Baca
+write	Tulis

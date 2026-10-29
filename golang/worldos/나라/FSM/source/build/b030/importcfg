@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/cd/cde78547bb28d70cea39caeb6b47bdd936dee88efd8ff368b77f4028f623ea58-d
+packagefile gdt=/home/user/.cache/go-build/42/422e36759851f8b255d35c16ae08b1149a3ac9ef9b08018c959d92539f5e3568-d
+packagefile interrupt=/home/user/worldos/나라/FSM/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/FSM/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/FSM/소스/build/b022/_pkg_.a
+packagefile port=/home/user/.cache/go-build/e8/e88d5598fe5a3542afa25a70c5a782b402b26c1427516c64232421989c34480d-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/FSM/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/FSM/소스/build/b034/_pkg_.a
+packagefile util/list=/home/user/worldos/나라/FSM/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FSM/소스/build/b000/_pkg_.a

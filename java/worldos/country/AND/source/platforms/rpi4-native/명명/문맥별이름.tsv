@@ -1,0 +1,8 @@
+Fitxer	이전이름	최종이름	쓰임
+시언어번역기/Executa_2.c	h	실행머리	ELF Capçalera_VALOR
+màquina/usuari.c	h	실행머리	ELF validar·적재 Capçalera_VALOR
+màquina/usuari.h	x	registrar_se_dades	ARM64 x0..x30 Store_VALOR MATRIU_VALOR
+màquina/Tauler.c	h	열여섯진숫자	진수 CONVERT_VALOR 문자표
+usuari/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Eines/*.py	root	rel_camí	Fitxer 계층의 Project_rel Camí
+màquina/Terminal.c	w	finestra_introducció	Terminal Finestra Estat_VALOR punter

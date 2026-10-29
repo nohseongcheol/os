@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Închide
+SYS_exit	SYS__exit
+SYS_open	SYS_Deschide
+SYS_read	SYS_Citire
+SYS_write	SYS_Scriere
+close	Închide
+open	Deschide
+read	Citire
+write	Scriere

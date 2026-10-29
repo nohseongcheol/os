@@ -1,0 +1,13 @@
+#define TCC_VERSION "0.9.28-jkoros"
+#define CONFIG_TCC_STATIC 1
+#define CONFIG_TCC_BACKTRACE 0
+#define CONFIG_TCC_BCHECK 0
+#define CONFIG_TCC_SEMLOCK 0
+#define CONFIG_TCC_PREDEFS 0
+#define CONFIG_TCCDIR "/sdk"
+#define CONFIG_TCC_SYSINCLUDEPATHS "/sdk/include"
+#define CONFIG_TCC_LIBPATHS "/sdk/lib"
+#define CONFIG_TCC_CRTPREFIX "/sdk/lib"
+#define CONFIG_TCC_ELFINTERP ""
+#define CONFIG_TCC_SWITCHES ""
+#define TCC_TARGET_ARM64 1

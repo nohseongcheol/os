@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "ITA",
+  "language": "it",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "codice-sorgente"
+  }
+}

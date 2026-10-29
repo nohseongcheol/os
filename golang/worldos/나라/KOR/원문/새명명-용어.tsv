@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	기억공간할당	기억공간할당	project-proposal	function-based project proposal
+append	맨뒤에추가	맨뒤에추가	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	사용표시표	사용표시표	project-proposal	function-based project proposal
+boot	기계시동	기계시동	project-proposal	function-based project proposal
+boot_record	주시동기록	주시동기록	project-proposal	boot code and partition metadata, not an audio recording
+bus	공용전송로	공용전송로	project-proposal	function-based project proposal
+compile_kernel	핵심컴파일	핵심컴파일	project-proposal	function-based project proposal
+destination_port	목적지통신접속번호	목적지통신접속번호	project-proposal	function-based project proposal
+elf	실행연결형식	실행연결형식	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	오류번호	오류번호	project-proposal	function-based project proposal
+ethernet_frame	공유매체망전송틀	공유매체망전송틀	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	공유매체망전송틀머리부	공유매체망전송틀머리부	project-proposal	function-based project proposal
+ethernet_provider	공유매체망전송틀제공자	공유매체망전송틀제공자	project-proposal	function-based project proposal
+fat_parameters	파일체계매개변수	파일체계매개변수	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	파일제어	파일제어	project-proposal	function-based project proposal
+file_read	파일읽기	파일읽기	project-proposal	function-based project proposal
+file_status	파일상태	파일상태	project-proposal	function-based project proposal
+file_write	파일쓰기	파일쓰기	project-proposal	function-based project proposal
+free_memory	기억공간해제	기억공간해제	project-proposal	function-based project proposal
+headers	머리파일	머리파일	project-proposal	function-based project proposal
+heap	동적기억공간	동적기억공간	project-proposal	function-based project proposal
+icmp	상호연결망제어전문규약	상호연결망제어전문규약	project-proposal	function-based project proposal
+implementation	구현	구현	project-proposal	function-based project proposal
+insert_at	지정위치에삽입	지정위치에삽입	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	상호연결망	상호연결망	project-proposal	function-based project proposal
+ip_provider	상호연결망규약제공자	상호연결망규약제공자	project-proposal	function-based project proposal
+ipv4	상호연결망규약4	상호연결망규약4	project-proposal	function-based project proposal
+link_layout	연결배치	연결배치	project-proposal	function-based project proposal
+list_node	연결항목	연결항목	project-proposal	function-based project proposal
+log_decoder	직렬기록해석	직렬기록해석	project-proposal	function-based project proposal
+mouse	위치입력기	위치입력기	project-proposal	function-based project proposal
+page_directory	기억쪽상위표	기억쪽상위표	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	물리기억쪽	물리기억쪽	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	주소참조	주소참조	project-proposal	function-based project proposal
+prepend	맨앞에추가	맨앞에추가	project-proposal	src/util/list/list.go: links before head
+register	저장기	저장기	project-proposal	function-based project proposal
+set_coordinates	지역좌표설정	지역좌표설정	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	출발지통신접속번호	출발지통신접속번호	project-proposal	function-based project proposal
+stack	쌓임공간	쌓임공간	project-proposal	function-based project proposal
+startup	시동	시동	project-proposal	function-based project proposal
+structure_offsets	구조변위	구조변위	project-proposal	function-based project proposal
+system_call	체계호출	체계호출	project-proposal	function-based project proposal
+tests	시험	시험	project-proposal	function-based project proposal
+toggle_bit	사용표시뒤집기	사용표시뒤집기	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	도구	도구	project-proposal	function-based project proposal
+udp	사용자자료전문규약	사용자자료전문규약	project-proposal	function-based project proposal
+udp_header	사용자자료전문머리부	사용자자료전문머리부	project-proposal	function-based project proposal
+udp_socket	사용자자료전문종단점	사용자자료전문종단점	project-proposal	function-based project proposal
+user_space	사용자영역	사용자영역	project-proposal	function-based project proposal
+widget	화면요소	화면요소	project-proposal	function-based project proposal

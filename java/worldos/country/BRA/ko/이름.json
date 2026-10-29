@@ -1,0 +1,425 @@
+{
+  "action": {
+    "text": "동작",
+    "identifier": "동작",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "주소",
+    "identifier": "주소",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "체계호출",
+    "identifier": "체계호출",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "덧붙이기",
+    "identifier": "덧붙이기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "인수",
+    "identifier": "인수",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "단추",
+    "identifier": "단추",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "고르기",
+    "identifier": "고르기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "고름창",
+    "identifier": "고름창",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "자료형이름",
+    "identifier": "자료형이름",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "닫기",
+    "identifier": "닫기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "명령",
+    "identifier": "명령",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "번역하기",
+    "identifier": "번역하기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "연결하기",
+    "identifier": "연결하기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "현재실행과정",
+    "identifier": "현재실행과정",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "자료",
+    "identifier": "자료",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "독립전문",
+    "identifier": "독립전문",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "자료목록",
+    "identifier": "자료목록",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "오류",
+    "identifier": "오류",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "사건",
+    "identifier": "사건",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "예외",
+    "identifier": "예외",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "실행하기",
+    "identifier": "실행하기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "자료파일",
+    "identifier": "자료파일",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "초기화하기",
+    "identifier": "초기화하기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "열쇠",
+    "identifier": "열쇠",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "표시말",
+    "identifier": "표시말",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "줄",
+    "identifier": "줄",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "불러오기",
+    "identifier": "불러오기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "안내말",
+    "identifier": "안내말",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "방식",
+    "identifier": "방식",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "이름",
+    "identifier": "이름",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "열기",
+    "identifier": "열기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "출력",
+    "identifier": "출력",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "판",
+    "identifier": "판",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "문장해석기",
+    "identifier": "문장해석기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "경로",
+    "identifier": "경로",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "통신문번호",
+    "identifier": "통신문번호",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "위치",
+    "identifier": "위치",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "실행과정",
+    "identifier": "실행과정",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "읽기",
+    "identifier": "읽기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "읽는이",
+    "identifier": "읽는이",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "지우기",
+    "identifier": "지우기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "결과",
+    "identifier": "결과",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "가동하기",
+    "identifier": "가동하기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "저장하기",
+    "identifier": "저장하기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "위치옮기기",
+    "identifier": "위치옮기기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "설정",
+    "identifier": "설정",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "크기",
+    "identifier": "크기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "원문",
+    "identifier": "원문",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "나누기",
+    "identifier": "나누기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "멈추기",
+    "identifier": "멈추기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "기록맞추기",
+    "identifier": "기록맞추기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "명령창",
+    "identifier": "명령창",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "글",
+    "identifier": "글",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "실행가닥",
+    "identifier": "실행가닥",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "도구막대",
+    "identifier": "도구막대",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "창",
+    "identifier": "창",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "작업가닥",
+    "identifier": "작업가닥",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "작업마당",
+    "identifier": "작업마당",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "쓰기",
+    "identifier": "쓰기",
+    "status": "proposal",
+    "source": "WorldOS functional naming proposal 2026-09-13",
+    "native_review": "pending"
+  }
+}

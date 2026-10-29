@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/88/8870d12c880b6219d07872fc69111f2a6d369a7fd0342369d0d228ccead7f302-d
+packagefile cổng=/home/user/.cache/go-build/ce/ceb9effa3fd48d7e4485f34fc04d2d24ff335385ae1b8b6498e874949c2c8de0-d
+packagefile driver/driver=/home/user/.cache/go-build/53/53e3132baac8a29b3d51269189398bf757b3a864b1ef32494f3c8a8adfe581db-d
+packagefile giánđoạn=/home/user/worldos/나라/VNM/소스/build/b008/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VNM/소스/build/b000/_pkg_.a

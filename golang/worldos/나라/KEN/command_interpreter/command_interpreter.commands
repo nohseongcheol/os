@@ -1,0 +1,5 @@
+# WorldOS KEN UTF-8 command file
+echo "WorldOS KEN"
+help
+pwd
+pid

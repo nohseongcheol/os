@@ -1,0 +1,13 @@
+#!/bin/sh
+# Called by BusyBox init after terminating managed services.
+date +%s > /var/lib/jkoros/last-time
+kill -TERM -1 2>/dev/null || true
+sleep 1
+kill -KILL -1 2>/dev/null || true
+sync
+/bin/busybox umount /home/user 2>/dev/null || true
+# The classic mount(2) remount changes flags only; util-linux's fsconfig path
+# attempts to resupply OverlayFS parameters, rejected by current kernels.
+/bin/busybox mount -o remount,ro / && echo JKOROS_OVERLAY_READONLY
+/bin/busybox mount -o remount,ro /run/jkoros/data && echo JKOROS_DATA_READONLY
+sync

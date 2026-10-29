@@ -1,0 +1,5 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/ALB/소스/build/b002/_pkg_.a
+packagefile konsolë=/home/user/.cache/go-build/e1/e18d4128147a1d73e7de3b47f6b868fb56fc01b0d5a0eadae38c159ec6d296a5-d
+packagefile util=/home/user/.cache/go-build/36/36595ee09420b53a7e22619165611f2e166dcae81a242ce167debb68d8c9b4ac-d
+packagefile runtime/cgo=/home/user/worldos/나라/ALB/소스/build/b000/_pkg_.a

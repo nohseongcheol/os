@@ -1,0 +1,33 @@
+{
+  "aliases": {
+    "ipconfig": "ကွန်ရက်ချိန်ညှိ",
+    "ip": "ကွန်ရက်လိပ်စာ",
+    "ping": "တုံ့ပြန်မှုစမ်းသပ်",
+    "route": "လမ်းကြောင်း",
+    "netstat": "ချိတ်ဆက်မှု",
+    "ps": "လုပ်ငန်းစဉ်",
+    "top": "လုပ်ဆောင်မှု",
+    "free": "မှတ်ဉာဏ်",
+    "df": "သိုလှောင်နေရာ",
+    "uptime": "အလုပ်လုပ်ချိန်",
+    "poweroff": "စက်ပိတ်",
+    "help": "အကူအညီ"
+  },
+  "descriptions": [
+    "IPv4 settings: address, netmask, gateway",
+    "IPv4 interface and route tools",
+    "ICMP echo and round-trip time",
+    "Connected network and default route",
+    "TCP/UDP sockets and traffic",
+    "Kernel tasks and user processes",
+    "Refresh tasks and memory; q or Ctrl+C quits",
+    "Actual kernel pools and user mappings",
+    "RAM filesystem capacity and file slots",
+    "Time since boot",
+    "Stop the OS; RAM files are not preserved",
+    "Commands and local names"
+  ],
+  "pending": [],
+  "status": "functional-proposals; native-speaker review pending",
+  "description_language": "en"
+}

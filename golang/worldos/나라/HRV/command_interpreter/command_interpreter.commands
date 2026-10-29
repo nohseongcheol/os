@@ -1,0 +1,5 @@
+# WorldOS HRV UTF-8 command file
+echo "WorldOS HRV"
+help
+pwd
+pid

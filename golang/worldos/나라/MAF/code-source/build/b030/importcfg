@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/7a/7a9b1337111eb7b21833eaf40bbc60f8ad56b3df960431584a73a529b1caf907-d
+packagefile gdt=/home/user/.cache/go-build/25/2520b4a5904fc828f75090403556ac77f1aaee11d79a0059cb8fbb6590b4add3-d
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/MAF/소스/build/b027/_pkg_.a
+packagefile gestionTâches/tss=/home/user/worldos/나라/MAF/소스/build/b031/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/MAF/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/MAF/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/MAF/소스/build/b021/_pkg_.a
+packagefile port=/home/user/.cache/go-build/cd/cd4e1b04f724c3678a09f26e79b947db8efd274b57fcb648985ff6d5bdd964b3-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile utilitaire/liste=/home/user/worldos/나라/MAF/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MAF/소스/build/b000/_pkg_.a

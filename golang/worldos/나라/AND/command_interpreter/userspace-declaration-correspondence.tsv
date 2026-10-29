@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Tanca
+SYS_exit	SYS__exit
+SYS_open	SYS_Obre
+SYS_read	SYS_Lectura
+SYS_write	SYS_Escriptura
+close	Tanca
+open	Obre
+read	Lectura
+write	Escriptura

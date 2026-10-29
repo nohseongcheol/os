@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	bina_pentafsir_perintah
+executable_file	fail_boleh_laksana
+include_directory	direktori_pengisytiharan
+library_file	fail_pustaka
+linker_file	fail_pautan
+object_file	fail_objek
+source_file	fail_sumber
+startup_object	objek_permulaan

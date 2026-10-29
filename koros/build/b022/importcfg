@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/koros/build/b003/_pkg_.a
+packagefile port=/home/user/koros/build/b006/_pkg_.a
+packagefile 구동장치들/장치제어기관리자=/home/user/koros/build/b023/_pkg_.a
+packagefile 단말기=/home/user/koros/build/b019/_pkg_.a

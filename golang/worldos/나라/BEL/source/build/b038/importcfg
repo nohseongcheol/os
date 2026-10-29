@@ -1,0 +1,7 @@
+# import config
+packagefile geheugenmanager=/home/user/worldos/나라/BEL/소스/build/b021/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/BEL/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BEL/소스/build/b032/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c6/c69d9ec68784223671d9e368b507b081432ec3d606d7c365b2cb56c4799c314b-d
+packagefile util/lijst=/home/user/worldos/나라/BEL/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BEL/소스/build/b000/_pkg_.a

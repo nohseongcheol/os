@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	حکم_کا_مفسر_بنانا
+executable_file	قابل_اجرا_فائل
+include_directory	اعلانات_کی_فہرست
+library_file	کتب_خانے_کی_فائل
+linker_file	ربط_کی_فائل
+object_file	آبجیکٹ_فائل
+source_file	ماخذ_فائل
+startup_object	ابتدائی_آبجیکٹ

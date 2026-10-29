@@ -1,0 +1,33 @@
+#!/bin/busybox sh
+export PATH=/bin:/sbin
+/bin/busybox --install -s /bin
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+mount -t devtmpfs devtmpfs /dev
+mkdir -p /dev/pts /run /lower /persist /newroot
+mount -t devpts devpts /dev/pts
+for module in virtio_blk virtio_net ext4 squashfs overlay; do
+    modprobe "$module" || true
+done
+attempt=0
+while [ ! -b /dev/vda ] && [ "$attempt" -lt 50 ]; do
+    sleep 0.1
+    attempt=$((attempt + 1))
+done
+mount -t squashfs -o ro /dev/vda /lower || exec sh
+if [ -b /dev/vdb ]; then
+    mount -t ext4 /dev/vdb /persist || exec sh
+else
+    mount -t tmpfs tmpfs /persist
+fi
+mkdir -p /persist/root /persist/work
+mount -t overlay overlay -o lowerdir=/lower,upperdir=/persist/root,workdir=/persist/work /newroot || exec sh
+mkdir -p /newroot/opt/worldos /newroot/run /newroot/proc /newroot/sys /newroot/dev
+cp -a /edition/. /newroot/opt/worldos/
+mkdir -p /newroot/mnt/persist /newroot/mnt/lower
+mount --move /persist /newroot/mnt/persist
+mount --move /lower /newroot/mnt/lower
+mount --move /proc /newroot/proc
+mount --move /sys /newroot/sys
+mount --move /dev /newroot/dev
+exec switch_root /newroot /opt/worldos/worldos-init

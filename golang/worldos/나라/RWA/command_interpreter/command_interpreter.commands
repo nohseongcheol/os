@@ -1,0 +1,5 @@
+# WorldOS RWA UTF-8 command file
+echo "WorldOS RWA"
+help
+pwd
+pid

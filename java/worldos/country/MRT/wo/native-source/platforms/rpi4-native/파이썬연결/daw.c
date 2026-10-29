@@ -1,0 +1,94 @@
+#include "../명명/기계연결이름.h"
+#include <string.h>
+#include "py/builtin.h"
+#include "py/compile.h"
+#include "py/gc.h"
+#include "py/mperrno.h"
+#include "py/mphal.h"
+#include "py/stackctrl.h"
+#include "shared/runtime/gchelper.h"
+#include "호출.h"
+static char 동적기억공간[256 * 1024];
+static char 원본자료[16385];
+static char 전달인수[8][256];
+
+// JSON이 사용하는 StringIO/BytesIO를 제공한다. 디스크 FileIO는 기존 한국어 API를 쓴다.
+static mp_obj_t sos_bara_denc_yëf(size_t 개수, const mp_obj_t *인수, mp_map_t *tanneef_xëyma) {
+    (void)개수; (void)인수; (void)tanneef_xëyma;
+    mp_raise_msg(&mp_type_NotImplementedError, MP_ERROR_TEXT("use jkoros.read/write or Korean file API"));
+}
+MP_DEFINE_CONST_FUN_OBJ_KW(mp_builtin_open_obj, 1, sos_bara_denc_yëf);
+
+mp_uint_t mp_hal_stdout_tx_strn(const char *Tekst, size_t diir_xëyma) {
+    intptr_t 결과 = 사용자호출(1, 1, (uintptr_t)Tekst, diir_xëyma, 0, 0, 0);
+    return 결과 < 0 ? 0 : 결과;
+}
+void mp_hal_stdout_tx_str(const char *araf_yu_bennoo_mbir) { mp_hal_stdout_tx_strn(araf_yu_bennoo_mbir, strlen(araf_yu_bennoo_mbir)); }
+void mp_hal_stdout_tx_strn_cooked(const char *araf_yu_bennoo_mbir, size_t 개수) { mp_hal_stdout_tx_strn(araf_yu_bennoo_mbir, 개수); }
+void nlr_jump_fail(void *xëyma) {
+    (void)xëyma;
+    mp_hal_stdout_tx_str("MicroPython fatal exception\n");
+    사용자호출(6, 1, 0, 0, 0, 0, 0); for (;;) {}
+}
+void abort(void) { nlr_jump_fail(NULL); }
+void gc_collect(void) { gc_collect_start(); gc_helper_collect_regs_and_stack(); gc_collect_end(); }
+mp_import_stat_t mp_import_stat(const char *Yoonu_jëmale) {
+    intptr_t 종류 = 사용자호출(18, (uintptr_t)Yoonu_jëmale, 0, 0, 0, 0, 0);
+    return 종류 == 2 ? MP_IMPORT_STAT_DIR : 종류 == 1 ? MP_IMPORT_STAT_FILE : MP_IMPORT_STAT_NO_EXIST;
+}
+mp_lexer_t *mp_lexer_new_from_file(qstr bara_denc_dugal_xabaar_tur) {
+    intptr_t bara_denc_yombal = 사용자호출(3, (uintptr_t)qstr_str(bara_denc_dugal_xabaar_tur), 0, 0, 0, 0, 0);
+    if (bara_denc_yombal < 0) mp_raise_OSError(-bara_denc_yombal);
+    intptr_t 항목수 = 사용자호출(2, bara_denc_yombal, (uintptr_t)원본자료, 16384, 0, 0, 0);
+    사용자호출(4, bara_denc_yombal, 0, 0, 0, 0, 0);
+    if (항목수 < 0) mp_raise_OSError(-항목수);
+    원본자료[항목수] = 0;
+    // Parsing completes before execution/import can reuse this buffer.
+    return mp_lexer_new_from_str_len(bara_denc_dugal_xabaar_tur, 원본자료, 항목수, 0);
+}
+int kiy_jariñoo_internet_Door(int 미사용값) {
+    (void)미사용값;
+    int 항목수 = 사용자호출(15, UINTPTR_MAX, 0, 0, 0, 0, 0);
+    for (int 순번 = 0; 순번 < 항목수; 순번++) 사용자호출(15, 순번, (uintptr_t)전달인수[순번], 256, 0, 0, 0);
+    if (항목수 >= 2 && !strcmp(전달인수[0], "-m") && !strcmp(전달인수[1], "pip")) {
+        strcpy(전달인수[0], "/lib/takku_xéewël.py");
+        for (int 순번 = 1; 순번 < 항목수 - 1; 순번++) strcpy(전달인수[순번], 전달인수[순번 + 1]);
+        항목수--;
+    }
+    if (!항목수 || !strcmp(전달인수[0], "--version")) {
+        mp_hal_stdout_tx_str("MicroPython 1.24.1 / jkoros AArch64 EL0 (not CPython; integer build)\n");
+        if (!항목수) mp_hal_stdout_tx_str("Usage: python FILE.py [ARGS] | python -c 'CODE'\n");
+        return 0;
+    }
+    if (!strcmp(전달인수[0], "-c") && 항목수 != 2) {
+        mp_hal_stdout_tx_str("Usage: python -c 'CODE'\n"); return 2;
+    }
+    mp_stack_ctrl_init(); mp_stack_set_limit(48 * 1024);
+    gc_init(동적기억공간, 동적기억공간 + sizeof(동적기억공간)); mp_init();
+    mp_obj_list_append(mp_sys_path, mp_obj_new_str("/lib", 4));
+    if (전달인수[0][0] != '-') {
+        const char *끝 = NULL;
+        for (const char *자리 = 전달인수[0]; *자리; 자리++) if (*자리 == '/') 끝 = 자리;
+        if (끝) mp_obj_list_append(mp_sys_path, mp_obj_new_str(전달인수[0], 끝 - 전달인수[0]));
+    }
+    // argv[0] is script name or -c; subsequent arguments follow it.
+    for (int 순번 = 0; 순번 < 항목수; 순번++) mp_obj_list_append(MP_OBJ_FROM_PTR(&MP_STATE_VM(mp_sys_argv_obj)), mp_obj_new_str(전달인수[순번], strlen(전달인수[순번])));
+    int nekkin_xëyma = 0; nlr_buf_t 비지역복귀;
+    if (nlr_push(&비지역복귀) == 0) {
+        mp_lexer_t *낱말해석기 = !strcmp(전달인수[0], "-c")
+            ? mp_lexer_new_from_str_len(MP_QSTR__lt_stdin_gt_, 전달인수[1], strlen(전달인수[1]), 0)
+            : mp_lexer_new_from_file(qstr_from_str(전달인수[0]));
+        qstr tur_253d1510 = 낱말해석기->source_name;
+        mp_parse_tree_t tëgg_waxin_tëralinuy_pàcc = mp_parse(낱말해석기, MP_PARSE_FILE_INPUT);
+        mp_obj_t ndigal_SEQUENCE = mp_compile(&tëgg_waxin_tëralinuy_pàcc, tur_253d1510, false);
+        mp_call_function_0(ndigal_SEQUENCE);
+        nlr_pop();
+    } else {
+        mp_obj_t 예외 = MP_OBJ_FROM_PTR(비지역복귀.ret_val);
+        if (mp_obj_is_subclass_fast(MP_OBJ_FROM_PTR(mp_obj_get_type(예외)), MP_OBJ_FROM_PTR(&mp_type_SystemExit))) {
+            mp_obj_t xëyma = mp_obj_exception_get_value(예외);
+            nekkin_xëyma = xëyma == mp_const_none ? 0 : mp_obj_is_int(xëyma) ? mp_obj_get_int(xëyma) : 1;
+        } else { mp_obj_print_exception(&mp_plat_print, 예외); nekkin_xëyma = 1; }
+    }
+    mp_deinit(); return nekkin_xëyma;
+}

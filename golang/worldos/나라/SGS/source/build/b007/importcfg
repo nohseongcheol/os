@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/e4/e423ab026724d0b1841f32eb8e526ae27d03ee6ce439cef3d48ca72563753ed6-d
+packagefile interrupt=/home/user/worldos/나라/SGS/소스/build/b008/_pkg_.a
+packagefile port=/home/user/.cache/go-build/af/af450e0959a8bbf5c07dd99f28e56d3ea19b98956dbe5df404718c182b6f4b07-d
+packagefile systemcall=/home/user/worldos/나라/SGS/소스/build/b024/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SGS/소스/build/b000/_pkg_.a

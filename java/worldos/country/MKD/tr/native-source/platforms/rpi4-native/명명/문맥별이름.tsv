@@ -1,0 +1,8 @@
+dosya	이전이름	최종이름	쓰임
+C_derleyici/çalıştır.c	h	yürütülebilir_Başlık	ELF Başlık_değer
+makine/kullanıcı_alanı.c	h	yürütülebilir_Başlık	ELF doğrulamak_5fb2b747·적재 Başlık_değer
+makine/kullanıcı_alanı.h	x	yazmaç_veri	ARM64 x0..x30 depo_değer DİZİ_değer
+makine/Pano.c	h	열여섯진숫자	진수 ÇEVİR_değer 문자표
+kullanıcı_alanı/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+araçlar/*.py	root	kök_yol	dosya 계층의 işlem_kök yol
+makine/uçbirim.c	w	pencere_girdi	uçbirim Pencere Durum_değer işaretçi

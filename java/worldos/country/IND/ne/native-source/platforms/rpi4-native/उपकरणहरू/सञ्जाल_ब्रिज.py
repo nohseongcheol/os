@@ -1,0 +1,163 @@
+"""Layer-2/SLIP bridge. TCP, UDP and FTP are processed by the guest, not Python.
+
+QEMU's user network supplies NAT/host forwarding. raspi4b has no emulated GENET,
+so a second UART carries IPv4 packets to the guest's lwIP stack.
+"""
+import select
+import socket
+import struct
+import threading
+import time
+import ipaddress
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'tools'))
+from ip_config import read_config, qemu_network
+
+मेशिन_ठेगाना = bytes.fromhex('525400123456')
+गेटवे_हार्डवेयर_ठेगाना = bytes.fromhex('52550a000202')
+इन्टरनेट_ठेगाना_मान = ipaddress.IPv4Address(read_config(Path(__file__).resolve().parents[1])['IP']).packed
+
+
+class सञ्जाल_ब्रिज:
+    def __init__(자신, 파일전송접속번호=2121, 전달규칙들=(), क्यापचर=False, अतिथि_ठेगाना=None, होस्ट_ठेगाना='127.0.0.1'):
+        if not 1024 <= 파일전송접속번호 <= 65535 or 50000 <= 파일전송접속번호 <= 50007:
+            raise ValueError('FTP host port must be 1024..65535 excluding 50000..50007')
+        자신.파일전송접속번호 = 파일전송접속번호
+        자신.ip_config = read_config(Path(__file__).resolve().parents[1])
+        अतिथि_ठेगाना = अतिथि_ठेगाना or 자신.ip_config['IP']
+        qemu_network(자신.ip_config, अतिथि_ठेगाना)
+        ठेगाना=ipaddress.IPv4Address(अतिथि_ठेगाना)
+        자신.अतिथि_ठेगाना=str(ठेगाना); 자신.현재주소=ठेगाना.packed
+        ठेगाना=ipaddress.IPv4Address(होस्ट_ठेगाना)
+        if ठेगाना.is_multicast or str(ठेगाना)=='255.255.255.255':raise ValueError('Network forwarding host must be a unicast IPv4 address or 0.0.0.0')
+        자신.होस्ट_ठेगाना=str(ठेगाना)
+        자신.क्यापचर = क्यापचर; 자신.추적기록 = []
+        자신.전달규칙들 = []
+        사용중주소 = {('tcp', 파일전송접속번호)} | {('tcp', लगत_राख्नुहोस्) for लगत_राख्नुहोस् in range(50000,50008)}
+        for नियम_मान in 전달규칙들:
+            बाटो_घटक = नियम_मान.split(':')
+            if len(बाटो_घटक) != 3 or बाटो_घटक[0] not in ('tcp', 'udp'):
+                raise ValueError('forward must be tcp:HOST_PORT:GUEST_PORT or udp:HOST_PORT:GUEST_PORT')
+            통신규약, होस्ट, अतिथि = बाटो_घटक[0], int(बाटो_घटक[1]), int(बाटो_घटक[2])
+            if not 1024 <= होस्ट <= 65535 or not 1 <= अतिथि <= 65535 or (통신규약, होस्ट) in 사용중주소:
+                raise ValueError('invalid or duplicate forward: ' + नियम_मान)
+            사용중주소.add((통신규약, होस्ट)); 자신.전달규칙들.append((통신규약, होस्ट, अतिथि))
+        자신.수신창구들 = []
+        for _ in range(2):
+            सर्भर_मान = socket.socket()
+            सर्भर_मान.bind(('127.0.0.1', 0)); सर्भर_मान.listen(1); सर्भर_मान.setblocking(False)
+            자신.수신창구들.append(सर्भर_मान)
+        자신.접속자들 = [None, None]
+        자신.대기중 = [bytearray(), bytearray()]
+        자신.इथरनेट = bytearray(); 자신.직렬전문 = bytearray(); 자신.탈출됨 = 자신.잘못됨 = False
+        자신.पज_घटना = threading.Event(); 자신.त्रुटि = None
+        자신.커널수신틀수 = 자신.커널발신틀수 = 0
+        자신.작업가닥 = threading.Thread(target=자신.चक्र_मान, daemon=True)
+        자신.작업가닥.start()
+
+    def 전달인수(자신):
+        직렬접속번호, इथरनेट_पोर्ट = [स्ट्रिङ_लगत.getsockname()[1] for स्ट्रिङ_लगत in 자신.수신창구들]
+        전달규칙 = 'user,id=wan,' + qemu_network(자신.ip_config, 자신.अतिथि_ठेगाना) + ',hostfwd=tcp:127.0.0.1:{}-{}:21'.format(자신.파일전송접속번호, 자신.अतिथि_ठेगाना)
+        for 접속번호 in range(50000, 50008):
+            전달규칙 += ',hostfwd=tcp:127.0.0.1:{0}-{1}:{0}'.format(접속번호, 자신.अतिथि_ठेगाना)
+        for 통신규약, होस्ट, अतिथि in 자신.전달규칙들:
+            전달규칙 += ',hostfwd={}:127.0.0.1:{}-{}:{}'.format(통신규약, होस्ट, 자신.अतिथि_ठेगाना, अतिथि)
+        전달규칙=전달규칙.replace('127.0.0.1:',자신.होस्ट_ठेगाना+':')
+        return ['-chardev', 'socket,id=slip,host=127.0.0.1,port={}'.format(직렬접속번호),
+                '-serial', 'chardev:slip', '-netdev', 전달규칙,
+                '-netdev', 'socket,id=wire,connect=127.0.0.1:{}'.format(इथरनेट_पोर्ट),
+                '-netdev', 'hubport,id=wanhub,hubid=0,netdev=wan',
+                '-netdev', 'hubport,id=wirehub,hubid=0,netdev=wire']
+
+    def 실행틀(자신, प्याकेट_लगत):
+        자신.대기중[1] += struct.pack('!I', len(प्याकेट_लगत)) + प्याकेट_लगत
+
+    def 전문추적(자신, 방향, प्याकेट_लगत):
+        if not 자신.क्यापचर or len(प्याकेट_लगत)<20: return
+        अफसेट_मान=(प्याकेट_लगत[0]&15)*4
+        प्रविष्टि_मान={'time':time.monotonic(),'direction':방향,'bytes':len(प्याकेट_लगत),'protocol':प्याकेट_लगत[9]}
+        if प्याकेट_लगत[9]==6 and len(प्याकेट_लगत)>=अफसेट_मान+20:
+            원본자료,गन्तव्य_लगत_ठेगाना,순서번호,확인번호,설정비트,सन्झ्याल=struct.unpack_from('!HHIIHH',प्याकेट_लगत,अफसेट_मान)
+            प्रविष्टि_मान.update(source=원본자료,destination=गन्तव्य_लगत_ठेगाना,seq=순서번호,ack=확인번호,flags=설정비트&255,window=सन्झ्याल,
+                        payload=len(प्याकेट_लगत)-अफसेट_मान-((प्याकेट_लगत[अफसेट_मान+12]>>4)*4))
+        자신.추적기록.append(प्रविष्टि_मान)
+        if len(자신.추적기록)>2048: del 자신.추적기록[:1024]
+
+    def 직렬전문입력(자신, लगत):
+        for वर्ण_सङ्केत in लगत:
+            if वर्ण_सङ्केत == 192:
+                if 자신.직렬전문 and not 자신.잘못됨 and not 자신.탈출됨:
+                    # Learn the actual SLIP source after guest ipconfig changes.
+                    # The bridge still only answers ARP for one current address.
+                    if len(자신.직렬전문)>=20 and 자신.직렬전문[0]>>4==4:
+                        ठेगाना=bytes(자신.직렬전문[12:16])
+                        try:
+                            qemu_network(자신.ip_config, str(ipaddress.IPv4Address(ठेगाना)))
+                            자신.현재주소=ठेगाना
+                        except ValueError:
+                            pass
+                    자신.전문추적('from_guest',자신.직렬전문)
+                    자신.실행틀(गेटवे_हार्डवेयर_ठेगाना + मेशिन_ठेगाना + b'\x08\x00' + 자신.직렬전문)
+                    자신.커널발신틀수 += 1
+                자신.직렬전문.clear(); 자신.탈출됨 = 자신.잘못됨 = False
+            elif वर्ण_सङ्केत == 219 and not 자신.탈출됨:
+                자신.탈출됨 = True
+            else:
+                if 자신.탈출됨:
+                    if वर्ण_सङ्केत not in (220, 221): 자신.잘못됨 = True
+                    वर्ण_सङ्केत = 192 if वर्ण_सङ्केत == 220 else 219
+                    자신.탈출됨 = False
+                if len(자신.직렬전문) < 1600: 자신.직렬전문.append(वर्ण_सङ्केत)
+                else: 자신.잘못됨 = True
+
+    def 이더넷입력(자신, लगत):
+        자신.इथरनेट += लगत
+        while len(자신.इथरनेट) >= 4:
+            개수 = struct.unpack_from('!I', 자신.इथरनेट)[0]
+            if 개수 > 65536: raise ValueError('oversized QEMU Ethernet frame')
+            if len(자신.इथरनेट) < 개수 + 4: return
+            실행틀 = bytes(자신.इथरनेट[4:4+개수]); del 자신.इथरनेट[:4+개수]
+            if len(실행틀) < 14: continue
+            if 실행틀[12:14] == b'\x08\x06' and len(실행틀) >= 42:
+                ठेगाना_रिजोल्यूशन_प्याकेट = 실행틀[14:42]
+                if ठेगाना_रिजोल्यूशन_प्याकेट[:8] == b'\x00\x01\x08\x00\x06\x04\x00\x01' and ठेगाना_रिजोल्यूशन_प्याकेट[24:28] == 자신.현재주소:
+                    응답자료 = ठेगाना_रिजोल्यूशन_प्याकेट[:6] + b'\x00\x02' + मेशिन_ठेगाना + 자신.현재주소 + ठेगाना_रिजोल्यूशन_प्याकेट[8:18]
+                    자신.실행틀(실행틀[6:12] + मेशिन_ठेगाना + b'\x08\x06' + 응답자료)
+            elif 실행틀[12:14] == b'\x08\x00':
+                प्याकेट_लगत = 실행틀[14:]
+                자신.전문추적('to_guest',प्याकेट_लगत)
+                자신.대기중[0] += b'\xc0' + प्याकेट_लगत.replace(b'\xdb', b'\xdb\xdd').replace(b'\xc0', b'\xdb\xdc') + b'\xc0'
+                자신.커널수신틀수 += 1
+
+    def चक्र_मान(자신):
+        try:
+            while not 자신.पज_घटना.is_set():
+                읽기대상들 = [स्ट्रिङ_लगत for 순번, स्ट्रिङ_लगत in enumerate(자신.수신창구들) if 자신.접속자들[순번] is None]
+                읽기대상들 += [स्ट्रिङ_लगत for स्ट्रिङ_लगत in 자신.접속자들 if स्ट्रिङ_लगत is not None]
+                쓰기대상들 = [स्ट्रिङ_लगत for 순번, स्ट्रिङ_लगत in enumerate(자신.접속자들) if स्ट्रिङ_लगत is not None and 자신.대기중[순번]]
+                읽을수있음, 쓸수있음, _ = select.select(읽기대상들, 쓰기대상들, [], .05)
+                for स्ट्रिङ_लगत in 읽을수있음:
+                    if स्ट्रिङ_लगत in 자신.수신창구들:
+                        순번 = 자신.수신창구들.index(स्ट्रिङ_लगत); 자신.접속자들[순번], _ = स्ट्रिङ_लगत.accept(); 자신.접속자들[순번].setblocking(False)
+                    else:
+                        순번 = 자신.접속자들.index(स्ट्रिङ_लगत); लगत = स्ट्रिङ_लगत.recv(16384)
+                        if not लगत: return
+                        (자신.직렬전문입력 if 순번 == 0 else 자신.이더넷입력)(लगत)
+                for स्ट्रिङ_लगत in 쓸수있음:
+                    순번 = 자신.접속자들.index(स्ट्रिङ_लगत)
+                    try: 개수 = स्ट्रिङ_लगत.send(자신.대기중[순번])
+                    except BlockingIOError: continue
+                    del 자신.대기중[순번][:개수]
+                if any(len(둘째값) > 1024 * 1024 for 둘째값 in 자신.대기중):
+                    raise RuntimeError('SLIP bridge queue exhausted')
+        except Exception as 보조항목:
+            if not 자신.पज_घटना.is_set(): 자신.त्रुटि = str(보조항목)
+
+    def बन्दगर्नुहोस्(자신):
+        자신.पज_घटना.set(); 자신.작업가닥.join(timeout=2)
+        for स्ट्रिङ_लगत in 자신.수신창구들 + 자신.접속자들:
+            if स्ट्रिङ_लगत is not None: स्ट्रिङ_लगत.close()
+
+    def __enter__(자신): return 자신
+    def __exit__(자신, *तर्क_विन्यास): 자신.बन्दगर्नुहोस्()

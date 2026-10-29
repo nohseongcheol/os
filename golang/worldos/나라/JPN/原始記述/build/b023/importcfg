@@ -1,0 +1,16 @@
+# import config
+packagefile コンソール=/home/user/worldos/나라/JPN/原始記述/build/b016/_pkg_.a
+packagefile タスク管理/スケジューラ=/home/user/worldos/나라/JPN/原始記述/build/b024/_pkg_.a
+packagefile タスク管理/スレッド=/home/user/worldos/나라/JPN/原始記述/build/b026/_pkg_.a
+packagefile ドライバー/ata=/home/user/worldos/나라/JPN/原始記述/build/b030/_pkg_.a
+packagefile ファイルシステム/fat=/home/user/worldos/나라/JPN/原始記述/build/b031/_pkg_.a
+packagefile ファイルシステム/msdos区分=/home/user/worldos/나라/JPN/原始記述/build/b032/_pkg_.a
+packagefile ファイルシステム/実行連結形式=/home/user/worldos/나라/JPN/原始記述/build/b034/_pkg_.a
+packagefile ページ管理=/home/user/worldos/나라/JPN/原始記述/build/b035/_pkg_.a
+packagefile ポート=/home/user/worldos/나라/JPN/原始記述/build/b019/_pkg_.a
+packagefile メモリ管理者=/home/user/worldos/나라/JPN/原始記述/build/b022/_pkg_.a
+packagefile 仮想メモリ=/home/user/worldos/나라/JPN/原始記述/build/b027/_pkg_.a
+packagefile 割込み=/home/user/worldos/나라/JPN/原始記述/build/b020/_pkg_.a
+packagefile 汎用=/home/user/worldos/나라/JPN/原始記述/build/b033/_pkg_.a
+packagefile 複数タスク管理=/home/user/worldos/나라/JPN/原始記述/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/JPN/原始記述/build/b000/_pkg_.a

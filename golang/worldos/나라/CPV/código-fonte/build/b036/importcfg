@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a1/a190d12f74533b7e2b65ac68b4a5ada042a3ff757579655e192430983333ed39-d
+packagefile memóriagestor=/home/user/worldos/나라/CPV/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CPV/소스/build/b000/_pkg_.a

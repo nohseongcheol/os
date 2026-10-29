@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/brx_Deva",
+  "language": "brx_Deva",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

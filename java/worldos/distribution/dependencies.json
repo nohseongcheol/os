@@ -1,0 +1,33 @@
+{
+  "project": "worldos",
+  "downloads": [
+    {
+      "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.1-x86_64.tar.gz",
+      "sha256": "41f73e3cf5fa919b8aa5ca6b30dc48f0da2720776d7423e2a7748211456fe081",
+      "profile": "linux",
+      "files": [
+        {
+          "path": "vendor/alpine-minirootfs-3.24.1-x86_64.tar.gz",
+          "sha256": "41f73e3cf5fa919b8aa5ca6b30dc48f0da2720776d7423e2a7748211456fe081"
+        }
+      ]
+    },
+    {
+      "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/main/x86_64/apk-tools-static-3.0.8-r0.apk",
+      "sha256": "c8e2c88c13ba12a12269b79a3543e1190ff8c0ab0beb32b58cadfd5881c619e3",
+      "profile": "linux",
+      "files": [
+        {
+          "path": "vendor/apk-tools-static-3.0.8-r0.apk",
+          "sha256": "c8e2c88c13ba12a12269b79a3543e1190ff8c0ab0beb32b58cadfd5881c619e3"
+        }
+      ]
+    }
+  ],
+  "exclude_dirs": ["native/resources/archives"],
+  "exclude_files": [
+    "vendor/alpine-virt-3.24.1-x86_64.iso",
+    "vendor/main-APKINDEX.tar.gz",
+    "vendor/community-APKINDEX.tar.gz"
+  ]
+}

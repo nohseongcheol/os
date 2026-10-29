@@ -1,0 +1,79 @@
+{
+  "policy": "Whole-role functional proposals. Do not attribute a single philosophy to an entire country. Unreviewed etymologies are not asserted.",
+  "sources": [
+    "WorldOS naming/terms.json (CLDR language selection and prior proposals)",
+    "golang/worldos/tools/naming_lexicon.py (whole-role paths)",
+    "WorldOS native/terms.py (current implementation roles)"
+  ],
+  "review": "Native-speaker review pending; proposals are not official standard terminology.",
+  "lexical_evidence": [
+    {
+      "lexeme": "Faden",
+      "role": "Arbeitsfaden: separately scheduled execution sequence",
+      "reference": "https://www.duden.de/rechtschreibung/Faden",
+      "verified": "dictionary meaning and word history",
+      "historical_etymology": "Middle High German vaden/vadem; Old High German fadum",
+      "compound_status": "project functional proposal"
+    }
+  ],
+  "thread_example": {
+    "name": "Arbeitsfaden",
+    "meaning": "An independently scheduled execution sequence; current kernel schedules cooperatively.",
+    "historical_root": "German Faden: documented Middle/Old High German forms; the compound Arbeitsfaden is a project proposal, not an ancient computing term.",
+    "reference": "https://www.duden.de/rechtschreibung/Faden"
+  },
+  "functional_review": {
+    "revision": "d4f2ecacae1945905f3c4741957cd0dc2c3542625b6f8ef48344a2d889d02632",
+    "references": [],
+    "verified_lexeme_history": [],
+    "compound_status": "Modern function-based project proposals; native-speaker review pending."
+  },
+  "country_language_policy": {
+    "country_code": "PRY",
+    "country_name": "Paraguay",
+    "language": "de",
+    "selection": "explicit-language-edition",
+    "country_source": "naming/countries.json (ISO 3166-1)",
+    "language_source": "Unicode CLDR 48; native/inputs/representatives.tsv; editions.json",
+    "namespace": {
+      "label": "Paraguay",
+      "identifier": "Paraguay",
+      "source_locale": "de",
+      "identifier_policy": "cldr-name-as-code-identifier",
+      "status": "cldr-territory-name",
+      "os_name": "JPryOS"
+    },
+    "native_review": "pending",
+    "etymology_review": "partial; see term evidence"
+  },
+  "naming_scope": "First-party identifiers and paths; language keywords, external APIs, dependency archives, legal clauses, copyright and literal character values retain their specified identities.",
+  "unverified_terms": "native-pending.tsv; terms absent from language dictionaries are not certified translations.",
+  "terminology_proposals": {
+    "references": [
+      "https://www.duden.de/rechtschreibung/Speicher"
+    ],
+    "archive_sha256": null,
+    "archive_member": null,
+    "scope": "Original code roles composed using this language glossary. Modern proposals, not historically attested compounds. No related-language fallback or opaque collision suffix.",
+    "status": "function-based-project-proposals",
+    "native_review": "pending",
+    "etymology_review": "pending",
+    "manual_glossary_sha256": "7529423eed2d6920412ac11264c0cec81473555a55008e6816c300f9b9d3d1bb",
+    "whole_role_corrections_sha256": "a4c64b5908907492b4f71675c8e63e4fc212241d8590510624ea324b4f9d6267",
+    "naming_principles": "German noun compounds and object-before-operation identifiers; source roles disambiguate hardware, execution and file persistence.",
+    "verified_lexeme_history": [
+      {
+        "lexeme": "Speicher",
+        "history": "Middle High German spīcher and Old High German spīhhāri, borrowed from Late Latin spicarium (grain store), from Latin spica (ear of grain).",
+        "source": "https://www.duden.de/rechtschreibung/Speicher",
+        "project_use": "The storage metaphor motivates memory and storage roles; new code compounds are modern proposals."
+      }
+    ],
+    "whole_roles": 3656,
+    "pending_roles": 0
+  },
+  "java_prose": {
+    "revision": "1812699f83db1b359c217ad68e3ce7b439619cf1c8a678f9af0c3cc438b7afee",
+    "scope": "Explicit whole-sentence Java translations; other prose remains pending."
+  }
+}

@@ -1,0 +1,8 @@
+Skrá	이전이름	최종이름	쓰임
+시언어번역기/Keyra_2.c	h	실행머리	ELF Haus_VALUE
+vél/notandi.c	h	실행머리	ELF staðfesta·적재 Haus_VALUE
+vél/notandi.h	x	skrá_gögn	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+vél/bretti.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+notandi/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Verkfæri/*.py	root	rót_slóð_3f268910	Skrá 계층의 verk_rót SLÓÐ
+vél/Skjáhermir.c	w	gluggi_færsla	Skjáhermir Gluggi staða_VALUE_e10195a1 bendill

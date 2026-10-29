@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "ተግባር",
+    "identifier": "ተግባር",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/libxfce4ui.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "መደብ",
+    "identifier": "መደብ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/metacity.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "መዝጊያ ",
+    "identifier": "መዝጊያ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "ትእዛዝ",
+    "identifier": "ትእዛዝ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_መገናኛ",
+    "identifier": "መገናኛ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "ዳይሬክቶሪ",
+    "identifier": "ዳይሬክቶሪ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "ስህተት",
+    "identifier": "ስህተት",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_መፈጸሚያ",
+    "identifier": "መፈጸሚያ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "ፋይል",
+    "identifier": "ፋይል",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "ቁልፍ ",
+    "identifier": "ቁልፍ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "ምልክት",
+    "identifier": "ምልክት",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "መጫኛ",
+    "identifier": "መጫኛ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/mate-applets.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "የአሠራሩ ዘዴ",
+    "identifier": "የአሠራሩ_ዘዴ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "ስም",
+    "identifier": "ስም",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_መክፈቻ",
+    "identifier": "መክፈቻ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "ውጤት ",
+    "identifier": "ውጤት",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/mate-media.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "ፓነል",
+    "identifier": "ፓነል",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "መተላለፊያ",
+    "identifier": "መተላለፊያ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "አካባቢ ",
+    "identifier": "አካባቢ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "ሂደቶች",
+    "identifier": "ሂደቶች",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_ማንበቢያ",
+    "identifier": "ማንበቢያ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "ማስወገጃ",
+    "identifier": "ማስወገጃ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_ማስኬጃ",
+    "identifier": "ማስኬጃ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_ማስቀመጫ",
+    "identifier": "ማስቀመጫ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "ማሰናጃዎች",
+    "identifier": "ማሰናጃዎች",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "መጠን",
+    "identifier": "መጠን",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "ምንጭ",
+    "identifier": "ምንጭ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_ማስቆሚያ",
+    "identifier": "ማስቆሚያ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "ተርሚናል",
+    "identifier": "ተርሚናል",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/mate-terminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "ጽሁፍ ",
+    "identifier": "ጽሁፍ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_እቃ መደርደሪያ ",
+    "identifier": "እቃ_መደርደሪያ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_መጻፊያ",
+    "identifier": "መጻፊያ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/am/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

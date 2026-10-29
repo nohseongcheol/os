@@ -1,0 +1,76 @@
+#include "../nommage/nomsLierMachine.h"
+#include "informationÉcran.h"
+/* Small native peer layer for the explicitly supported Swing subset. */
+#include <stdint.h>
+#include <stddef.h>
+extern uintptr_t pixelCarteMatérielle(uintptr_t,uintptr_t,uintptr_t),terminalCarteMatérielle(uintptr_t);
+extern void glypheTerminal(unsigned,unsigned,unsigned,unsigned,unsigned);
+extern void *memset(void *,int,size_t);
+typedef struct { int valeurCatégorie,parent,coordonnéeCoordonnéeHorizontale,coordonnéeCoordonnéeVerticale,valeurLargeurDemandé,valeurHauteurDemandé,estAffiché,dispositionManuel,politiqueDisposition;unsigned texte[128],longueur; } étatValeurComposantVisuel;
+static étatValeurComposantVisuel nœuds[4][32];
+static int focalisé[4],listeÉvènement[4][16];static unsigned entréeÉlémentPremier[4],nombreÉlémentsEntréeÉlément[4],résultatNonSigné[4],valeurLongNonSigné[4];
+static void évènement(int objetPropriétaire,int valeur){if(nombreÉlémentsEntréeÉlément[objetPropriétaire]<16){listeÉvènement[objetPropriétaire][(entréeÉlémentPremier[objetPropriétaire]+nombreÉlémentsEntréeÉlément[objetPropriétaire])%16]=valeur;nombreÉlémentsEntréeÉlément[objetPropriétaire]++;}}
+static étatValeurComposantVisuel *valeurÉlément(int objetPropriétaire,int valeurIdentificateur){return objetPropriétaire>=0&&objetPropriétaire<4&&valeurIdentificateur>0&&valeurIdentificateur<=32&&nœuds[objetPropriétaire][valeurIdentificateur-1].valeurCatégorie?&nœuds[objetPropriétaire][valeurIdentificateur-1]:0;}
+static void régionRectangulaire(int coordonnéeCoordonnéeHorizontale,int coordonnéeCoordonnéeVerticale,int valeurLargeurDemandé,int valeurHauteurDemandé,unsigned couleurPixel){remplirRectangleCarteMatérielle(coordonnéeCoordonnéeHorizontale,coordonnéeCoordonnéeVerticale,valeurLargeurDemandé,valeurHauteurDemandé,couleurPixel);}
+int visibleÉcran(int objetPropriétaire){if(objetPropriétaire<0||objetPropriétaire>=4)return 0;for(int indiceOrdinal=0;indiceOrdinal<32;indiceOrdinal++)if(nœuds[objetPropriétaire][indiceOrdinal].valeurCatégorie==1&&nœuds[objetPropriétaire][indiceOrdinal].estAffiché)return 1;return 0;}
+void initialiserÉcran(int objetPropriétaire){memset(nœuds[objetPropriétaire],0,sizeof(nœuds[objetPropriétaire]));nombreÉlémentsEntréeÉlément[objetPropriétaire]=entréeÉlémentPremier[objetPropriétaire]=focalisé[objetPropriétaire]=valeurLongNonSigné[objetPropriétaire]=0;}
+static void position(int objetPropriétaire,étatValeurComposantVisuel *valeurLargeurDemandé,int *coordonnéeCoordonnéeHorizontale,int *coordonnéeCoordonnéeVerticale){*coordonnéeCoordonnéeHorizontale=valeurLargeurDemandé->coordonnéeCoordonnéeHorizontale;*coordonnéeCoordonnéeVerticale=valeurLargeurDemandé->coordonnéeCoordonnéeVerticale;int positionDonnées=valeurLargeurDemandé->parent;for(int nombreÉlémentsÉlémentListe=0;positionDonnées&&nombreÉlémentsÉlémentListe<32;nombreÉlémentsÉlémentListe++){étatValeurComposantVisuel *côtéSupérieur=valeurÉlément(objetPropriétaire,positionDonnées);if(!côtéSupérieur)break;*coordonnéeCoordonnéeHorizontale+=côtéSupérieur->coordonnéeCoordonnéeHorizontale;*coordonnéeCoordonnéeVerticale+=côtéSupérieur->coordonnéeCoordonnéeVerticale+(côtéSupérieur->valeurCatégorie==1?30:0);positionDonnées=côtéSupérieur->parent;}}
+static int estPrésenté(int objetPropriétaire,étatValeurComposantVisuel *valeurLargeurDemandé){for(int nombreÉlémentsÉlémentListe=0;nombreÉlémentsÉlémentListe<32;nombreÉlémentsÉlémentListe++){if(!valeurLargeurDemandé->estAffiché)return 0;if(valeurLargeurDemandé->valeurCatégorie==1)return 1;valeurLargeurDemandé=valeurÉlément(objetPropriétaire,valeurLargeurDemandé->parent);if(!valeurLargeurDemandé)return 0;}return 0;}
+static void texte(int coordonnéeCoordonnéeHorizontale,int coordonnéeCoordonnéeVerticale,étatValeurComposantVisuel *valeurLargeurDemandé,int donnéesMaximal,unsigned couleurPixel,unsigned couleurArrièrePlan){int positionActuel=0;for(unsigned indiceOrdinal=0;indiceOrdinal<valeurLargeurDemandé->longueur;indiceOrdinal++){unsigned encodageCaractère=valeurLargeurDemandé->texte[indiceOrdinal],valeurLargeur=encodageCaractère>=256?16:8;if(positionActuel+(int)valeurLargeur>donnéesMaximal)break;glypheTerminal(coordonnéeCoordonnéeHorizontale+positionActuel,coordonnéeCoordonnéeVerticale,encodageCaractère,couleurPixel,couleurArrièrePlan);positionActuel+=valeurLargeur;}}
+void écranRedessiner(int objetPropriétaire){
+    if(!visibleÉcran(objetPropriétaire))return;
+    for(int ordreTraitement=1;ordreTraitement<=5;ordreTraitement++)for(int indiceOrdinal=0;indiceOrdinal<32;indiceOrdinal++){
+        étatValeurComposantVisuel *valeurLargeurDemandé=&nœuds[objetPropriétaire][indiceOrdinal];if(valeurLargeurDemandé->valeurCatégorie!=ordreTraitement||!estPrésenté(objetPropriétaire,valeurLargeurDemandé))continue;int coordonnéeCoordonnéeHorizontale,coordonnéeCoordonnéeVerticale;position(objetPropriétaire,valeurLargeurDemandé,&coordonnéeCoordonnéeHorizontale,&coordonnéeCoordonnéeVerticale);
+        if(ordreTraitement==1){régionRectangulaire(coordonnéeCoordonnéeHorizontale,coordonnéeCoordonnéeVerticale,valeurLargeurDemandé->valeurLargeurDemandé,valeurLargeurDemandé->valeurHauteurDemandé,0xeee9e0);régionRectangulaire(coordonnéeCoordonnéeHorizontale,coordonnéeCoordonnéeVerticale,valeurLargeurDemandé->valeurLargeurDemandé,30,0x905020);texte(coordonnéeCoordonnéeHorizontale+10,coordonnéeCoordonnéeVerticale+7,valeurLargeurDemandé,valeurLargeurDemandé->valeurLargeurDemandé-50,0xffffff,0x905020);régionRectangulaire(coordonnéeCoordonnéeHorizontale+valeurLargeurDemandé->valeurLargeurDemandé-28,coordonnéeCoordonnéeVerticale+4,24,22,0x5555b8);glypheTerminal(coordonnéeCoordonnéeHorizontale+valeurLargeurDemandé->valeurLargeurDemandé-20,coordonnéeCoordonnéeVerticale+7,'X',0xffffff,0x5555b8);}
+        if(ordreTraitement==2)régionRectangulaire(coordonnéeCoordonnéeHorizontale,coordonnéeCoordonnéeVerticale,valeurLargeurDemandé->valeurLargeurDemandé,valeurLargeurDemandé->valeurHauteurDemandé,0xeee9e0);
+        if(ordreTraitement>=3){unsigned couleurArrièrePlan=ordreTraitement==4?0xc0ab86:ordreTraitement==5?0xffffff:0xeee9e0;if(ordreTraitement!=3)régionRectangulaire(coordonnéeCoordonnéeHorizontale,coordonnéeCoordonnéeVerticale,valeurLargeurDemandé->valeurLargeurDemandé,valeurLargeurDemandé->valeurHauteurDemandé,couleurArrièrePlan);texte(coordonnéeCoordonnéeHorizontale+4,coordonnéeCoordonnéeVerticale+4,valeurLargeurDemandé,valeurLargeurDemandé->valeurLargeurDemandé-8,0x201a15,couleurArrièrePlan);if(ordreTraitement==5&&focalisé[objetPropriétaire]==indiceOrdinal+1)régionRectangulaire(coordonnéeCoordonnéeHorizontale,coordonnéeCoordonnéeVerticale+valeurLargeurDemandé->valeurHauteurDemandé-2,valeurLargeurDemandé->valeurLargeurDemandé,2,0x905020);}
+    }
+}
+int superposerÉcran(int objetPropriétaire,int coordonnéeCoordonnéeHorizontale,int coordonnéeCoordonnéeVerticale){
+    if(!visibleÉcran(objetPropriétaire))return 0;
+    for(int indiceOrdinal=0;indiceOrdinal<32;indiceOrdinal++){
+        étatValeurComposantVisuel *fenêtre=&nœuds[objetPropriétaire][indiceOrdinal];
+        if(fenêtre->valeurCatégorie==1&&fenêtre->estAffiché&&coordonnéeCoordonnéeHorizontale>=fenêtre->coordonnéeCoordonnéeHorizontale&&coordonnéeCoordonnéeVerticale>=fenêtre->coordonnéeCoordonnéeVerticale&&
+           coordonnéeCoordonnéeHorizontale<fenêtre->coordonnéeCoordonnéeHorizontale+fenêtre->valeurLargeurDemandé&&coordonnéeCoordonnéeVerticale<fenêtre->coordonnéeCoordonnéeVerticale+fenêtre->valeurHauteurDemandé)return 1;
+    }return 0;
+}
+int pointeurÉcran(int objetPropriétaire,unsigned estEnfoncé,int coordonnéeCoordonnéeHorizontale,int coordonnéeCoordonnéeVerticale){
+    if(!visibleÉcran(objetPropriétaire))return 0;
+    if(estEnfoncé&1)for(int indiceOrdinal=31;indiceOrdinal>=0;indiceOrdinal--){étatValeurComposantVisuel *valeurLargeurDemandé=&nœuds[objetPropriétaire][indiceOrdinal];if(!valeurLargeurDemandé->valeurCatégorie||!estPrésenté(objetPropriétaire,valeurLargeurDemandé))continue;int coordonnéeHorizontaleFenêtre,coordonnéeVerticaleFenêtre;position(objetPropriétaire,valeurLargeurDemandé,&coordonnéeHorizontaleFenêtre,&coordonnéeVerticaleFenêtre);
+        if(coordonnéeCoordonnéeHorizontale<coordonnéeHorizontaleFenêtre||coordonnéeCoordonnéeVerticale<coordonnéeVerticaleFenêtre||coordonnéeCoordonnéeHorizontale>=coordonnéeHorizontaleFenêtre+valeurLargeurDemandé->valeurLargeurDemandé||coordonnéeCoordonnéeVerticale>=coordonnéeVerticaleFenêtre+valeurLargeurDemandé->valeurHauteurDemandé)continue;
+        if(valeurLargeurDemandé->valeurCatégorie==1&&coordonnéeCoordonnéeVerticale<coordonnéeVerticaleFenêtre+30&&coordonnéeCoordonnéeHorizontale>=coordonnéeHorizontaleFenêtre+valeurLargeurDemandé->valeurLargeurDemandé-28){if(valeurLargeurDemandé->politiqueDisposition!=0)valeurLargeurDemandé->estAffiché=0;évènement(objetPropriétaire,0x10000+indiceOrdinal+1);terminalCarteMatérielle(3);return 1;}
+        if(valeurLargeurDemandé->valeurCatégorie==4){évènement(objetPropriétaire,indiceOrdinal+1);return 1;}if(valeurLargeurDemandé->valeurCatégorie==5){focalisé[objetPropriétaire]=indiceOrdinal+1;terminalCarteMatérielle(3);return 1;}
+        if(valeurLargeurDemandé->valeurCatégorie==1)return 1;
+    }return 0;
+}
+void enfoncerÉcran(int objetPropriétaire,unsigned valeurDeuxième){
+    étatValeurComposantVisuel *valeurLargeurDemandé=valeurÉlément(objetPropriétaire,focalisé[objetPropriétaire]);if(!valeurLargeurDemandé||valeurLargeurDemandé->valeurCatégorie!=5)return;
+    if(valeurDeuxième==13||valeurDeuxième==10){évènement(objetPropriétaire,focalisé[objetPropriétaire]);return;}
+    if(valeurDeuxième==8||valeurDeuxième==127){if(valeurLargeurDemandé->longueur)valeurLargeurDemandé->longueur--;valeurLongNonSigné[objetPropriétaire]=0;}
+    else{
+        unsigned encodageCaractère=valeurDeuxième;
+        if(valeurLongNonSigné[objetPropriétaire]){if((valeurDeuxième&192)!=128){valeurLongNonSigné[objetPropriétaire]=0;return;}résultatNonSigné[objetPropriétaire]=(résultatNonSigné[objetPropriétaire]<<6)|(valeurDeuxième&63);if(--valeurLongNonSigné[objetPropriétaire])return;encodageCaractère=résultatNonSigné[objetPropriétaire];}
+        else if(valeurDeuxième>=0xc2&&valeurDeuxième<=0xf4){valeurLongNonSigné[objetPropriétaire]=valeurDeuxième<0xe0?1:valeurDeuxième<0xf0?2:3;résultatNonSigné[objetPropriétaire]=valeurDeuxième&((1u<<(6-valeurLongNonSigné[objetPropriétaire]))-1);return;}
+        else if(valeurDeuxième<32||valeurDeuxième>=128)return;
+        if(encodageCaractère>0x10ffff||(encodageCaractère>=0xd800&&encodageCaractère<=0xdfff))return;if(valeurLargeurDemandé->longueur<127)valeurLargeurDemandé->texte[valeurLargeurDemandé->longueur++]=encodageCaractère;
+    }
+    terminalCarteMatérielle(3);
+}
+int invoquerÉcran(int objetPropriétaire,unsigned action,int valeurIdentificateur,int valeurPremier,int valeurDeuxième,int codeCaractère,int donnéesDestination){
+    if(objetPropriétaire<0||objetPropriétaire>=4)return -22;étatValeurComposantVisuel *valeurLargeurDemandé=valeurÉlément(objetPropriétaire,valeurIdentificateur);
+    if(action==0){if(valeurIdentificateur<1||valeurIdentificateur>5)return -22;for(int indiceOrdinal=0;indiceOrdinal<32;indiceOrdinal++)if(nœuds[objetPropriétaire][indiceOrdinal].valeurCatégorie==0){valeurLargeurDemandé=&nœuds[objetPropriétaire][indiceOrdinal];memset(valeurLargeurDemandé,0,sizeof(*valeurLargeurDemandé));valeurLargeurDemandé->valeurCatégorie=valeurIdentificateur;valeurLargeurDemandé->estAffiché=valeurIdentificateur!=1;valeurLargeurDemandé->valeurLargeurDemandé=valeurIdentificateur==1?380:220;valeurLargeurDemandé->valeurHauteurDemandé=valeurIdentificateur==1?240:28;valeurLargeurDemandé->politiqueDisposition=1;valeurLargeurDemandé->coordonnéeCoordonnéeHorizontale=valeurIdentificateur==1?130:16;valeurLargeurDemandé->coordonnéeCoordonnéeVerticale=valeurIdentificateur==1?110:16;return indiceOrdinal+1;}return -28;}
+    if(action==5){if(!nombreÉlémentsEntréeÉlément[objetPropriétaire])return 0;int valeurRetourné=listeÉvènement[objetPropriétaire][entréeÉlémentPremier[objetPropriétaire]];entréeÉlémentPremier[objetPropriétaire]=(entréeÉlémentPremier[objetPropriétaire]+1)%16;nombreÉlémentsEntréeÉlément[objetPropriétaire]--;return valeurRetourné;}
+    if(action==6)return visibleÉcran(objetPropriétaire);
+    if(!valeurLargeurDemandé)return -9;
+    int affichéÉtait=estPrésenté(objetPropriétaire,valeurLargeurDemandé);
+    if(action==1){int largeurArrièrePlan=largeurÉcranCarteMatérielle(),hauteurArrièrePlan=hauteurÉcranCarteMatérielle();if(valeurPremier<0||valeurDeuxième<0||codeCaractère<1||donnéesDestination<1||valeurPremier>largeurArrièrePlan||valeurDeuxième>hauteurArrièrePlan||codeCaractère>largeurArrièrePlan-valeurPremier||donnéesDestination>hauteurArrièrePlan-valeurDeuxième)return -22;valeurLargeurDemandé->coordonnéeCoordonnéeHorizontale=valeurPremier;valeurLargeurDemandé->coordonnéeCoordonnéeVerticale=valeurDeuxième;valeurLargeurDemandé->valeurLargeurDemandé=codeCaractère;valeurLargeurDemandé->valeurHauteurDemandé=donnéesDestination;valeurLargeurDemandé->dispositionManuel=1;}
+    else if(action==2){étatValeurComposantVisuel *élémentEnfant=valeurÉlément(objetPropriétaire,valeurPremier);if(!élémentEnfant||élémentEnfant==valeurLargeurDemandé||élémentEnfant->valeurCatégorie==1)return -22;int positionDonnées=valeurIdentificateur;for(int valeurProfondeur=0;positionDonnées&&valeurProfondeur<32;valeurProfondeur++){if(positionDonnées==valeurPremier)return -22;étatValeurComposantVisuel *côtéSupérieur=valeurÉlément(objetPropriétaire,positionDonnées);positionDonnées=côtéSupérieur?côtéSupérieur->parent:0;}élémentEnfant->parent=valeurIdentificateur;if(!élémentEnfant->dispositionManuel){int nœudsFrères=0;for(int indiceOrdinal=0;indiceOrdinal<32;indiceOrdinal++)if(&nœuds[objetPropriétaire][indiceOrdinal]!=élémentEnfant&&nœuds[objetPropriétaire][indiceOrdinal].parent==valeurIdentificateur)nœudsFrères++;élémentEnfant->coordonnéeCoordonnéeVerticale=16+nœudsFrères*36;}}
+    else if(action==3)valeurLargeurDemandé->estAffiché=valeurPremier!=0;
+    else if(action==4)valeurLargeurDemandé->estAffiché=0;
+    else if(action==7)valeurLargeurDemandé->politiqueDisposition=valeurPremier;
+    else if(action==8)return valeurLargeurDemandé->longueur;
+    else if(action==9)return valeurPremier>=0&&(unsigned)valeurPremier<valeurLargeurDemandé->longueur?valeurLargeurDemandé->texte[valeurPremier]:-22;
+    else return -22;
+    if(affichéÉtait||estPrésenté(objetPropriétaire,valeurLargeurDemandé))terminalCarteMatérielle(3);return 0;
+}
+int texteÉcran(int objetPropriétaire,int valeurIdentificateur,const uint32_t *Données,unsigned nombreÉlémentsÉlémentListe){étatValeurComposantVisuel *valeurLargeurDemandé=valeurÉlément(objetPropriétaire,valeurIdentificateur);if(!valeurLargeurDemandé)return -9;if(nombreÉlémentsÉlémentListe>127)return -22;for(unsigned indiceOrdinal=0;indiceOrdinal<nombreÉlémentsÉlémentListe;indiceOrdinal++){unsigned encodageCaractère=Données[indiceOrdinal];if(encodageCaractère>0x10ffff||(encodageCaractère>=0xd800&&encodageCaractère<=0xdfff))return -22;}for(unsigned indiceOrdinal=0;indiceOrdinal<nombreÉlémentsÉlémentListe;indiceOrdinal++)valeurLargeurDemandé->texte[indiceOrdinal]=Données[indiceOrdinal];valeurLargeurDemandé->longueur=nombreÉlémentsÉlémentListe;if(estPrésenté(objetPropriétaire,valeurLargeurDemandé))terminalCarteMatérielle(3);return 0;}

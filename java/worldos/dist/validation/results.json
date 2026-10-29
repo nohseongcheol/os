@@ -1,0 +1,15 @@
+{
+  "platform": "Linux-4.15.0-213-generic-x86_64-with-Ubuntu-18.04-bionic",
+  "host_tools": "existing Ubuntu host tools (--no-host-install); no host package changes",
+  "relocated_root": "/tmp/os-release-verification-20261005/worldos",
+  "automatic_prepare": "all profile passed; upstream bootstrap inputs verified from local cache; runtime packages downloaded online",
+  "native_build": "passed",
+  "build": "build-all passed: 1578 editions",
+  "portable_tests": "9 passed",
+  "notes": "Source archives exclude caches and build results; expanded build trees exceed 2 GB.",
+  "release": {
+    "bytes": 40793964,
+    "sha256": "01a8169b341159edb1544bd6f0e1db3e8b71bb253c049f07b8706cbefd1ce56b"
+  },
+  "final_archive_extraction": "passed with payload hashes and internal symlinks checked"
+}

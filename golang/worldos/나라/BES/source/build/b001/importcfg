@@ -1,0 +1,25 @@
+# import config
+packagefile bestandSysteem/fat=/home/user/worldos/나라/BES/소스/build/b002/_pkg_.a
+packagefile bestandSysteem/msdospartition=/home/user/worldos/나라/BES/소스/build/b003/_pkg_.a
+packagefile bestandSysteem/uitvoerbaar_en_koppelbaar_formaat=/home/user/worldos/나라/BES/소스/build/b022/_pkg_.a
+packagefile console=/home/user/.cache/go-build/2d/2d28c0a9cc324c7bb6a8db4cb938348deb98c0339cf21c880b3ed37b952cebd0-d
+packagefile driver/aanwijsapparaat=/home/user/worldos/나라/BES/소스/build/b027/_pkg_.a
+packagefile driver/ata=/home/user/worldos/나라/BES/소스/build/b006/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/b7/b7f08004b0841fcd02d2084efd3e2b148a28e7912b5a5240c7019a2087d3c573-d
+packagefile driver/toetsenbord=/home/user/worldos/나라/BES/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/24/247b7ea1a39264eec7733f207b0c85d2aaa9026c8912f0672739e11df52c9b8c-d
+packagefile geheugenmanager=/home/user/worldos/나라/BES/소스/build/b021/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/BES/소스/build/b024/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/BES/소스/build/b026/_pkg_.a
+packagefile paging=/home/user/worldos/나라/BES/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/BES/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systeemcall=/home/user/worldos/나라/BES/소스/build/b030/_pkg_.a
+packagefile tasking/proces=/home/user/worldos/나라/BES/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/BES/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BES/소스/build/b032/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/BES/소스/build/b035/_pkg_.a
+packagefile util=/home/user/.cache/go-build/cd/cdfebeb155480cbee7d7da05f8037809bb93a7c125abfdfcd6a9e6d3b12c6a09-d
+packagefile virtueelGeheugen=/home/user/worldos/나라/BES/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BES/소스/build/b000/_pkg_.a

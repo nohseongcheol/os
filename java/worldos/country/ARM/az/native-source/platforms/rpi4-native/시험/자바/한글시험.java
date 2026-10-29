@@ -1,0 +1,17 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+import 한국어.자체.문자;
+import 한국어.자체.FAYL;
+import 한국어.자체.daxiletmə_Siyahı;
+import 한국어.자체.lüğət;
+import 한국어.자체.출력;
+public class 한글시험 {
+    public static void main(String[] a) throws Exception {
+        String 인사 = "안녕하세요 · 日本語 · العربية · 😀";
+        출력.yazmaq_xətt(문자.şifr_açmaq_verilənlər(문자.부호화(인사))); 출력.수쓰기(문자.simvol_kodu_COUNT("한글😀"));
+        FAYL.Yazma("한글자료.txt", 인사); 출력.yazmaq_xətt(FAYL.Oxuma("한글자료.txt"));
+        daxiletmə_Siyahı 이름들 = new daxiletmə_Siyahı(); 이름들.더하기("가람"); 이름들.더하기("누리"); 출력.yazmaq_xətt(이름들.Oxuma(1));
+        lüğət 뜻 = new lüğət(); 뜻.넣기("가람", "강"); System.gc(); 출력.yazmaq_xətt(뜻.FIND_daxiletmə("가람"));
+        try { 문자.şifr_açmaq_verilənlər(new byte[] {(byte)0xc0, (byte)0xaf}); } catch (IllegalArgumentException e) { 출력.yazmaq_xətt("UTF-8 XƏTA 거부"); }
+        출력.yazmaq_xətt("한국어 kitabxana 완료");
+    }
+}

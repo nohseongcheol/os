@@ -1,0 +1,8 @@
+bestand	이전이름	최종이름	쓰임
+C_compiler/starten.c	h	uitvoerbaar_header	ELF header_WAARDE
+machine/gebruikersruimte.c	h	uitvoerbaar_header	ELF valideren·적재 header_WAARDE
+machine/gebruikersruimte.h	x	register_gegevens	ARM64 x0..x30 Store_WAARDE MATRIX_WAARDE
+machine/Bord.c	h	열여섯진숫자	진수 CONVERTEREN_WAARDE 문자표
+gebruikersruimte/자바/자바가상기계.java 화면호출	w h	너비 hoogte_WAARDE	scherm 치수
+hulpmiddelen/*.py	root	wortel_pad	bestand 계층의 Taken_wortel pad
+machine/terminal.c	w	venster_invoer	terminal Venster Status_WAARDE wijzer

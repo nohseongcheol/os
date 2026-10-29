@@ -1,0 +1,7 @@
+make: Entering directory '/home/user/golang/worldos/나라/KOR'
+python3 vbox.py run
+BUILD KOR kernel / POSIX / shell; log: /home/user/golang/worldos/나라/KOR/.vbox/logs/build-2993dd7c-1443-44c9-b5d0-feeecd24d319.log
+READY worldos KOR 
+SERIAL_LOG /home/user/golang/worldos/나라/KOR/.vbox/logs/serial-2993dd7c-1443-44c9-b5d0-feeecd24d319.log
+STARTED worldos KOR gui
+make: Leaving directory '/home/user/golang/worldos/나라/KOR'

@@ -1,0 +1,4 @@
+# import config
+packagefile konsola=/home/user/.cache/go-build/a9/a90d07c3174c9431dcb4c3b2ba7f30b52357cb644ff34e6a1d4fc22e6ac785a4-d
+packagefile pamięćmanager=/home/user/worldos/나라/POL/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/POL/소스/build/b000/_pkg_.a

@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/17/1755177cd2e87fab9439b03ce2ab0b83dc072a69859b3965cc520cc7e6f1a8c1-d
+packagefile driver/ata=/home/user/worldos/나라/BLR/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/c9/c977d892110d31d307e5ece7ed446b2f0efb97b1ba0e17396773fe898634e3cf-d
+packagefile driver/клавіятура=/home/user/worldos/나라/BLR/소스/build/b007/_pkg_.a
+packagefile driver/мыш=/home/user/worldos/나라/BLR/소스/build/b036/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/ce/cec5c04946b41f8bf33e4bf0970521f487e7c478eb5ce77405946dfd18139baf-d
+packagefile multitasking=/home/user/worldos/나라/BLR/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/BLR/소스/build/b025/_pkg_.a
+packagefile pci=/home/user/worldos/나라/BLR/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile tasking/scheduler=/home/user/worldos/나라/BLR/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BLR/소스/build/b028/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/BLR/소스/build/b031/_pkg_.a
+packagefile tasking/працэс=/home/user/worldos/나라/BLR/소스/build/b038/_pkg_.a
+packagefile util=/home/user/.cache/go-build/73/73afa30d1f9b4cf02490c55075d075c7a269c89562cc585f950062bf024f85a7-d
+packagefile virtualПамяць=/home/user/worldos/나라/BLR/소스/build/b029/_pkg_.a
+packagefile памяцьmanager=/home/user/worldos/나라/BLR/소스/build/b023/_pkg_.a
+packagefile перарыванне=/home/user/worldos/나라/BLR/소스/build/b008/_pkg_.a
+packagefile сістэмаcall=/home/user/worldos/나라/BLR/소스/build/b024/_pkg_.a
+packagefile файлСістэма/elf=/home/user/worldos/나라/BLR/소스/build/b033/_pkg_.a
+packagefile файлСістэма/fat=/home/user/worldos/나라/BLR/소스/build/b034/_pkg_.a
+packagefile файлСістэма/msdospartition=/home/user/worldos/나라/BLR/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BLR/소스/build/b000/_pkg_.a

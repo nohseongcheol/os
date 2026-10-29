@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/d0/d08ca999eb5e39238226bda108b582976fd0334e8b6ae17a08b32471201017ed-d
+packagefile memorymanager=/home/user/worldos/나라/MDV/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MDV/소스/build/b000/_pkg_.a

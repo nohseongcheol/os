@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	variant_värde	기능에따른뜻	적용위치
+open	skapa_fil	FUNKTION_värde	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	Skapa_fil	FUNKTION_värde	Skriv 전용 generera 또는 Innehåll_värde rensa_Innehåll	파일규약.h
+read	läsa_fil_data	FUNKTION_värde	열린 대상에서 byte_värde 자료를 읽는다	파일규약.h
+write	skriva_fil_data	FUNKTION_värde	열린 대상에 byte_värde 자료를 쓴다	파일규약.h
+close	Stäng_fil	FUNKTION_värde	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	söka_fil	FUNKTION_värde	열린 파일의 indata_utleverans 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	FUNKTION_värde	같은 열린 filnamn 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	FUNKTION_värde	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	ta_bort_fil_post_namn	FUNKTION_värde	Namn 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	uppsättning_fil_längd	FUNKTION_värde	열린 파일의 byte_värde 길이를 정한다	파일규약.h
+fstat	läsa_fil_status	FUNKTION_värde	열린 대상의 variant_värde Storlek 링크 nummer 등을 읽는다	파일규약.h
+fsync	incheckning_Files	FUNKTION_värde	Store_värde 매체에 aktuellt_objekt filnamn 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	FUNKTION_värde	서술자별 설정과 공유 Öppna 설정을 다룬다	파일규약.h
+socket	Skapa_deltagare	FUNKTION_värde	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_ADRESS	FUNKTION_värde	종단점에 lokal_scope 주소와 접속번호를 묶는다	통신규약.h
+sendto	skicka_datagram_data	FUNKTION_värde	지정한 상대에게 datagram 하나를 보낸다	통신규약.h
+recvfrom	få_datagram_data	FUNKTION_värde	datagram 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	läsa_socket_ADRESS	FUNKTION_värde	lokal_scope 종단점의 aktuellt_objekt 주소를 읽는다	통신규약.h
+setsockopt	ändra_nätverk_Inställningar	FUNKTION_värde	지원하는 få_värde vänta_värde 설정을 바꾼다	통신규약.h
+inet_pton	parsa_Nätverks_ID	FUNKTION_värde	siffra_värde Adress 문자열을 kontraktsvärde 바이트로 해석한다	통신규약.h
+inet_ntop	format_Nätverks_ID	FUNKTION_värde	kontraktsvärde 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	FUNKTION_värde	16비트 값을 망의 byte_värde 차례로 바꾼다	통신규약.h
+htonl	nätverk_heltal	FUNKTION_värde	32비트 값을 망의 byte_värde 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	FUNKTION_värde	16비트 값을 köra_kommando 장치의 byte_värde 차례로 바꾼다	통신규약.h
+ntohl	enhet_order_heltal	FUNKTION_värde	32비트 값을 köra_kommando 장치의 byte_värde 차례로 바꾼다	통신규약.h
+errno	felnummer	variabel_värde	실패한 C 호출의 양수 fel INDEX	errno.h
+fd	파일서술자	variabel_värde	Process_värde 안의 열린 대상을 식별하는 heltal	fil_indata_utleverans.c
+count	byte_ANTAL	variabel_värde	data 전송량의 단위가 바이트임을 드러낸다	fil_indata_utleverans.c
+offset	FÖRSKJUTNING_värde	variabel_värde	åtgärd_rot 위치에 더할 kodning_värde 있는 거리	fil_indata_utleverans.c
+flags	skapa_Inställningar	variabel_värde	filnamn ansluta_post 방식과 Öppna Åtgärd	fil_indata_utleverans.c
+mode	beviljande_behörighet	variabel_värde	generera 파일에 기록할 beviljande_behörighet bit_värde	fil_indata_utleverans.c
+timeout	수신대기밀리초	variabel_värde	få_värde vänta_värde 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	variabel_värde	UDP 종단점에 배정한 nummer_ange	nätverk_Stack.java
+통신장치.maskinvara_port	nätverk_drivrutin.입출력기준주소	variabel_värde	NIC의 CPU indata_utleverans Adress ADRESS_område åtgärd_rot	nätverk_drivrutin.java
+generation	세대번호	variabel_värde	성공한 Store_värde 시점의 order_värde	파일보존.java
+läsa_maskinvara_port	입출력바이트읽기	FUNKTION_värde	CPU indata_utleverans 주소에서 한 바이트를 읽는다	enhet_värde.java
+포트쓰기	입출력바이트쓰기	FUNKTION_värde	CPU indata_utleverans 주소에 한 바이트를 쓴다	enhet_värde.java
+포트정수읽기	입출력정수읽기	FUNKTION_värde	CPU indata_utleverans 주소에서 32비트를 읽는다	enhet_värde.java
+포트정수쓰기	입출력정수쓰기	FUNKTION_värde	CPU indata_utleverans 주소에 32비트를 쓴다	enhet_värde.java
+포트짧은쓰기	입출력짧은수쓰기	FUNKTION_värde	CPU indata_utleverans 주소에 16비트를 쓴다	enhet_värde.java
+메모리파일.java	Minne_filsystem.java	filnamn·format_värde	주기억 내 filnamn 자료와 이름을 관리한다	os/källfil
+통신장치.java	nätverk_drivrutin.java	filnamn·format_värde	PCI 망장치를 찾아 초기화하고 송수신한다	os/källfil
+file I/O	fil_indata_utleverans.c	filnamn	C 호출과 kärna_värde 파일서술자 호출의 gräns_värde	posix-kor/källfil/implementation
+socket interface	socket_deltagare.c	filnamn	C 소켓과 kärna_värde 자료전문 기능의 gräns_värde	posix-kor/källfil/implementation
+syscall bridge	operativsystem_Samtal.s	filnamn	C 호출 규약과 kärna_värde 레지스터 규약의 gräns_värde	posix-kor/dator
+startup	START_användare_app.s	filnamn	användarutrymme 진입점에서 C main을 시작한다	posix-kor/dator

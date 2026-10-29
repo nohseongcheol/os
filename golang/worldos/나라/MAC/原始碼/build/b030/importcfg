@@ -1,0 +1,4 @@
+# import config
+packagefile 控制台=/home/user/.cache/go-build/9b/9bd54e16c70f24ab50a196860fb0e7a9762f86bfee29a259ad93f4b1fefb4098-d
+packagefile 記憶體管理器=/home/user/worldos/나라/MAC/소스/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MAC/소스/build/b000/_pkg_.a

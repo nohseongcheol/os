@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	opið_skrá	fall_VALUE	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	stofna_skrá	fall_VALUE	Skrift 전용 skapa 또는 Efni_VALUE hreinsa_Innihald	파일규약.h
+read	파일자료읽기	fall_VALUE	열린 대상에서 bæti_VALUE 자료를 읽는다	파일규약.h
+write	skrifa_skrá_gögn	fall_VALUE	열린 대상에 bæti_VALUE 자료를 쓴다	파일규약.h
+close	loka_skrá	fall_VALUE	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	leita_skrá	fall_VALUE	열린 파일의 I_Ú 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	fall_VALUE	같은 열린 Skrá 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	fall_VALUE	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	fjarlægja_skrá_færsla_heiti	fall_VALUE	Heiti 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	sett_skrá_lengd	fall_VALUE	열린 파일의 bæti_VALUE 길이를 정한다	파일규약.h
+fstat	파일상태읽기	fall_VALUE	열린 대상의 종류 Stærð 링크 númer 등을 읽는다	파일규약.h
+fsync	파일저장확정	fall_VALUE	Store_VALUE 매체에 현재 Skrá 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	fall_VALUE	서술자별 설정과 공유 Opna 설정을 다룬다	파일규약.h
+socket	stofna_endastöð	fall_VALUE	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_slóð	fall_VALUE	종단점에 staðbundið_umfang 주소와 접속번호를 묶는다	통신규약.h
+sendto	자료전문보내기	fall_VALUE	지정한 상대에게 전문 하나를 보낸다	통신규약.h
+recvfrom	자료전문받기	fall_VALUE	전문 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	fall_VALUE	staðbundið_umfang 종단점의 현재 주소를 읽는다	통신규약.h
+setsockopt	breyta_Net_Stillingar	fall_VALUE	지원하는 수신 Bíddu_VALUE 설정을 바꾼다	통신규약.h
+inet_pton	þátta_Net_slóð	fall_VALUE	tölustafur_VALUE slóð 문자열을 samningsvirði 바이트로 해석한다	통신규약.h
+inet_ntop	snið_Net_slóð	fall_VALUE	samningsvirði 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	fall_VALUE	16비트 값을 망의 bæti_VALUE 차례로 바꾼다	통신규약.h
+htonl	Net_heiltala	fall_VALUE	32비트 값을 망의 bæti_VALUE 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	fall_VALUE	16비트 값을 keyra_skipun 장치의 bæti_VALUE 차례로 바꾼다	통신규약.h
+ntohl	tæki_röð_heiltala	fall_VALUE	32비트 값을 keyra_skipun 장치의 bæti_VALUE 차례로 바꾼다	통신규약.h
+errno	villa_númer	변수	실패한 C 호출의 양수 Villa INDEX	errno.h
+fd	파일서술자	변수	Ferli_VALUE 안의 열린 대상을 식별하는 heiltala	skrá_I_Ú.c
+count	bæti_COUNT	변수	gögn 전송량의 단위가 바이트임을 드러낸다	skrá_I_Ú.c
+offset	OFFSET_VALUE	변수	verk_rót 위치에 더할 kóðun_VALUE 있는 거리	skrá_I_Ú.c
+flags	opið_Stillingar	변수	Skrá aðgangur_færsla 방식과 Opna Aðgerð	skrá_I_Ú.c
+mode	허가	변수	skapa 파일에 기록할 허가 biti_VALUE	skrá_I_Ú.c
+timeout	수신대기밀리초	변수	수신 Bíddu_VALUE 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	변수	UDP 종단점에 배정한 númer_Listi	Net_bunki.java
+통신장치.포트	Net_rekill.입출력기준주소	변수	NIC의 CPU I_Ú slóð 공간 verk_rót	Net_rekill.java
+generation	세대번호	변수	성공한 Store_VALUE 시점의 röð_VALUE	파일보존.java
+포트읽기	입출력바이트읽기	fall_VALUE	CPU I_Ú 주소에서 한 바이트를 읽는다	tæki_VALUE.java
+포트쓰기	입출력바이트쓰기	fall_VALUE	CPU I_Ú 주소에 한 바이트를 쓴다	tæki_VALUE.java
+포트정수읽기	입출력정수읽기	fall_VALUE	CPU I_Ú 주소에서 32비트를 읽는다	tæki_VALUE.java
+포트정수쓰기	입출력정수쓰기	fall_VALUE	CPU I_Ú 주소에 32비트를 쓴다	tæki_VALUE.java
+포트짧은쓰기	입출력짧은수쓰기	fall_VALUE	CPU I_Ú 주소에 16비트를 쓴다	tæki_VALUE.java
+메모리파일.java	Minni_skrárkerfi.java	Skrá·snið_VALUE	주기억 내 Skrá 자료와 이름을 관리한다	os/Uppruni
+통신장치.java	Net_rekill.java	Skrá·snið_VALUE	PCI 망장치를 찾아 초기화하고 송수신한다	os/Uppruni
+file I/O	skrá_I_Ú.c	Skrá	C 호출과 kjarni_VALUE 파일서술자 호출의 경계	posix-kor/Uppruni/구현
+socket interface	통신종단점.c	Skrá	C 소켓과 kjarni_VALUE 자료전문 기능의 경계	posix-kor/Uppruni/구현
+syscall bridge	stýrikerfi_Símtöl.s	Skrá	C 호출 규약과 kjarni_VALUE 레지스터 규약의 경계	posix-kor/vél
+startup	Opna_notandi_forrit.s	Skrá	notandi 진입점에서 C main을 시작한다	posix-kor/vél

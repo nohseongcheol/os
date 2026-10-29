@@ -1,0 +1,16 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/05/058aad86d14199a69a6799a187ba61616c25bc01b2cbf0c5be4e0cd32804e144-d
+packagefile إدارةصفحات=/home/user/worldos/나라/TUN/소스/build/b024/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/TUN/소스/build/b026/_pkg_.a
+packagefile إدارةمهام/مجدول=/home/user/worldos/나라/TUN/소스/build/b031/_pkg_.a
+packagefile افتراضيذاكرة=/home/user/worldos/나라/TUN/소스/build/b027/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/TUN/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/aa/aae477a5417d0077661f0fba8a5bedbc698df8aa5671e4b2cd7edefef6120cb2-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/TUN/소스/build/b020/_pkg_.a
+packagefile مشغل/ata=/home/user/worldos/나라/TUN/소스/build/b032/_pkg_.a
+packagefile مقاطعة=/home/user/worldos/나라/TUN/소스/build/b019/_pkg_.a
+packagefile ملفنظام/fat=/home/user/worldos/나라/TUN/소스/build/b036/_pkg_.a
+packagefile ملفنظام/msdosتجزئة=/home/user/worldos/나라/TUN/소스/build/b037/_pkg_.a
+packagefile ملفنظام/صيغة_التنفيذ_والربط=/home/user/worldos/나라/TUN/소스/build/b038/_pkg_.a
+packagefile منفذ=/home/user/.cache/go-build/1e/1e90aaf9ffee03cbb4190daf6ef29e31397b254f1be1074667ca9c5fbf7cd702-d
+packagefile runtime/cgo=/home/user/worldos/나라/TUN/소스/build/b000/_pkg_.a

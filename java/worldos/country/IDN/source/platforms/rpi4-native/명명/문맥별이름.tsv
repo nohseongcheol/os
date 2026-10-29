@@ -1,0 +1,8 @@
+berkas	이전이름	최종이름	쓰임
+시언어번역기/jalankan.c	h	실행머리	ELF judul_VALUE
+mesin/ruang_pengguna.c	h	실행머리	ELF validasi·적재 judul_VALUE
+mesin/ruang_pengguna.h	x	daftar_data	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+mesin/Papan.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+ruang_pengguna/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+alat/*.py	root	akar_jalur	berkas 계층의 Tugas_akar jalur
+mesin/terminal.c	w	jendela_entri	terminal Jendela Status_VALUE pointer

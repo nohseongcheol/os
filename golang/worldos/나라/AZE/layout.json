@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "AZE",
+  "language": "az_Latn",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

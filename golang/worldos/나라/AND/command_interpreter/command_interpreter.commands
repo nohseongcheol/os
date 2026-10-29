@@ -1,0 +1,5 @@
+# WorldOS AND UTF-8 command file
+echo "WorldOS AND"
+help
+pwd
+pid

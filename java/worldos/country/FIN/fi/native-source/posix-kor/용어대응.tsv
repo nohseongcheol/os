@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	avata_Tiedosto	funktio_ARVO	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	Luo_Tiedosto	funktio_ARVO	Kirjoitus 전용 generoida 또는 Sisältö_ARVO selvittää_Sisällys	파일규약.h
+read	lukea_Tiedosto_data	funktio_ARVO	열린 대상에서 tavu_ARVO 자료를 읽는다	파일규약.h
+write	kirjoitus_Tiedosto_data	funktio_ARVO	열린 대상에 tavu_ARVO 자료를 쓴다	파일규약.h
+close	Sulje_Tiedosto	funktio_ARVO	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	hae_Tiedosto	funktio_ARVO	열린 파일의 I_O 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	funktio_ARVO	같은 열린 tiedoston_nimi 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	funktio_ARVO	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	poistaa_Tiedosto_merkintä_nimi	funktio_ARVO	Nimi 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	ryhmä_Tiedosto_kesto	funktio_ARVO	열린 파일의 tavu_ARVO 길이를 정한다	파일규약.h
+fstat	lukea_Tiedosto_tila	funktio_ARVO	열린 대상의 종류 Koko 링크 numero 등을 읽는다	파일규약.h
+fsync	vahvistaa_muutokset_Files	funktio_ARVO	Store_ARVO 매체에 nykyinen_kohde tiedoston_nimi 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	funktio_ARVO	서술자별 설정과 공유 Avaa 설정을 다룬다	파일규약.h
+socket	Luo_päätepiste	funktio_ARVO	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_OSOITE	funktio_ARVO	종단점에 paikallinen_laajuus 주소와 접속번호를 묶는다	통신규약.h
+sendto	lähettää_datagrammi_data	funktio_ARVO	지정한 상대에게 datagrammi 하나를 보낸다	통신규약.h
+recvfrom	saada_datagrammi_data	funktio_ARVO	datagrammi 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	lukea_vastake_OSOITE	funktio_ARVO	paikallinen_laajuus 종단점의 nykyinen_kohde 주소를 읽는다	통신규약.h
+setsockopt	muuttaa_verkko_Asetukset	funktio_ARVO	지원하는 saada_ARVO odottaa_ARVO 설정을 바꾼다	통신규약.h
+inet_pton	jäsentää_verkkotunnus	funktio_ARVO	numero_ARVO OSOITE 문자열을 sopimuksen_arvo 바이트로 해석한다	통신규약.h
+inet_ntop	muoto_verkkotunnus	funktio_ARVO	sopimuksen_arvo 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	funktio_ARVO	16비트 값을 망의 tavu_ARVO 차례로 바꾼다	통신규약.h
+htonl	verkko_kokonaisluku	funktio_ARVO	32비트 값을 망의 tavu_ARVO 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	funktio_ARVO	16비트 값을 Suorita_komento 장치의 tavu_ARVO 차례로 바꾼다	통신규약.h
+ntohl	laite_tilata_kokonaisluku	funktio_ARVO	32비트 값을 Suorita_komento 장치의 tavu_ARVO 차례로 바꾼다	통신규약.h
+errno	virhenumero	muuttuja_ARVO	실패한 C 호출의 양수 VIRHE INDEKSI	errno.h
+fd	파일서술자	muuttuja_ARVO	prosessi_ARVO 안의 열린 대상을 식별하는 kokonaisluku	Tiedosto_I_O.c
+count	tavu_LASKE	muuttuja_ARVO	data 전송량의 단위가 바이트임을 드러낸다	Tiedosto_I_O.c
+offset	SIIRTYMÄ_ARVO	muuttuja_ARVO	aloite_juuri 위치에 더할 koodaus_ARVO 있는 거리	Tiedosto_I_O.c
+flags	avata_Asetukset	muuttuja_ARVO	tiedoston_nimi pääsy_merkintä_68aed533 방식과 Avaa Toiminto	Tiedosto_I_O.c
+mode	허가	muuttuja_ARVO	generoida 파일에 기록할 허가 bitti_ARVO	Tiedosto_I_O.c
+timeout	수신대기밀리초	muuttuja_ARVO	saada_ARVO odottaa_ARVO 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	muuttuja_ARVO	UDP 종단점에 배정한 numero_luettelo	verkko_Pino.java
+통신장치.laitteisto_portti	verkko_ohjain.입출력기준주소	muuttuja_ARVO	NIC의 CPU I_O OSOITE OSOITE_alue aloite_juuri	verkko_ohjain.java
+generation	세대번호	muuttuja_ARVO	성공한 Store_ARVO 시점의 tilata_ARVO	파일보존.java
+lukea_laitteisto_portti	입출력바이트읽기	funktio_ARVO	CPU I_O 주소에서 한 바이트를 읽는다	laite_ARVO.java
+포트쓰기	입출력바이트쓰기	funktio_ARVO	CPU I_O 주소에 한 바이트를 쓴다	laite_ARVO.java
+포트정수읽기	입출력정수읽기	funktio_ARVO	CPU I_O 주소에서 32비트를 읽는다	laite_ARVO.java
+포트정수쓰기	입출력정수쓰기	funktio_ARVO	CPU I_O 주소에 32비트를 쓴다	laite_ARVO.java
+포트짧은쓰기	입출력짧은수쓰기	funktio_ARVO	CPU I_O 주소에 16비트를 쓴다	laite_ARVO.java
+메모리파일.java	Muisti_tiedostojärjestelmä.java	tiedoston_nimi·muoto_ARVO	주기억 내 tiedoston_nimi 자료와 이름을 관리한다	os/lähdetiedosto
+통신장치.java	verkko_ohjain.java	tiedoston_nimi·muoto_ARVO	PCI 망장치를 찾아 초기화하고 송수신한다	os/lähdetiedosto
+file I/O	Tiedosto_I_O.c	tiedoston_nimi	C 호출과 ydin_ARVO 파일서술자 호출의 rajattu_alue_ARVO	posix-kor/lähdetiedosto/toteutus
+socket interface	vastake_päätepiste.c	tiedoston_nimi	C 소켓과 ydin_ARVO 자료전문 기능의 rajattu_alue_ARVO	posix-kor/lähdetiedosto/toteutus
+syscall bridge	käyttöjärjestelmä_Puhelut.s	tiedoston_nimi	C 호출 규약과 ydin_ARVO 레지스터 규약의 rajattu_alue_ARVO	posix-kor/kone
+startup	alku_käyttäjä_ohjelma.s	tiedoston_nimi	käyttäjätila 진입점에서 C main을 시작한다	posix-kor/kone

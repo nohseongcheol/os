@@ -1,0 +1,5 @@
+# import config
+packagefile hilfswerkzeug=/home/user/.cache/go-build/e3/e3512289d084c59bb263ded63eb109d17b2f62155e1d33a4135d33f1b04ea38b-d
+packagefile speicherVerwalter=/home/user/worldos/나라/AUT/소스/build/b019/_pkg_.a
+packagefile unterbrechung=/home/user/worldos/나라/AUT/소스/build/b026/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AUT/소스/build/b000/_pkg_.a

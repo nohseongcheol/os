@@ -1,0 +1,122 @@
+package interrupt
+
+import "unsafe"
+
+import . "port"
+
+
+///////////////////////////////////////////////////////////////////////////////
+type TInterruptHandler struct {
+	InterruptNumber uint8
+	InterruptManager uintptr
+}
+/*
+func NewInterruptHandler(InterruptManager uintptr, InterruptNumber uint8) *TInterruptHandler{
+	interruptHandler := new(TInterruptHandler)
+	interruptHandler.InterruptNumber = InterruptNumber	
+	interruptHandler.InterruptManager = InterruptManager
+	return interruptHandler
+	
+}*/
+func (self *TInterruptHandler) Init(InterruptManager uintptr, InterruptNumber uint8){
+	self.InterruptNumber = InterruptNumber 
+	self.InterruptManager = InterruptManager
+	(*TInterruptManager)(unsafe.Pointer(self.InterruptManager)).SetHandler(uintptr(unsafe.Pointer(self)), InterruptNumber)
+}
+func (self *TInterruptHandler) Destroy(){
+	self_uintptr := uintptr(unsafe.Pointer(self))
+	InterruptManager := (*TInterruptManager)(unsafe.Pointer(self.InterruptManager))
+	if self_uintptr == InterruptManager.GetHandler(self.InterruptNumber) {
+		InterruptManager.SetHandler(0, self.InterruptNumber)
+	}
+
+}
+func (self *TInterruptHandler) SetInterruptNumber(InterruptNumber uint8){
+	self.InterruptNumber = InterruptNumber
+}
+func (self *TInterruptHandler) HandleInterrupt(esp uint32) uint32{
+	return esp
+}
+///////////////////////////////////////////////////////////////////////////////
+type TGateDescriptor struct{
+	handlerAddressLowBits uint16
+	gdt_codeSegmentSelector uint16
+	reserved uint8
+	access uint8
+	handlerAddressHighBits uint16
+	
+}
+type TInterruptDescriptorTablePointer struct{
+	size uint16
+	base uint32
+}
+var interruptDescriptorTable [256] TGateDescriptor
+var activeInterruptManager *TInterruptManager
+
+///////////////////////////////////////////////////////////////////////////////
+type TInterruptManager struct {
+	handlers [256] uint32
+	interruptDescriptorTable [256]TGateDescriptor
+	ActiveInterruptManager *TInterruptManager
+	
+	hardwareInterruptOffset uint16
+	
+	programmableInterruptControllerMasterCommandPort TPort8BitSlow
+	programmableInterruptControllerMasterDataPort TPort8BitSlow
+	programmableInterruptControllerSlaveCommandPort TPort8BitSlow
+	programmableInterruptControllerSlaveDataPort TPort8BitSlow
+
+	Test uint8
+}
+
+func (self *TInterruptManager) Init(InterruptHandler uintptr){
+	self.handlers[0] = InterruptHandler
+	(*TInterruptHandler)(unsafe.Pointer(InterruptHandler)).SetInterruptNumber(70)
+}
+
+func (self *TInterruptManager) SetInterruptDescriptorTableEntry(interrupt uint8, 
+							codeSegment uint16,
+							handler uintptr,
+							DescriptorPrivilegeLevel uint8,
+							DescriptorType uint8){ 
+	self.interruptDescriptorTable[interrupt].handlerAddressLowBits = uint16(uint32(handler) & 0xFFFF)
+	self.interruptDescriptorTable[interrupt].handlerAddressHighBits = uint16((uint32(handler) >> 16) & 0xFFFF)
+	self.interruptDescriptorTable[interrupt].gdt_codeSegmentSelector = codeSegment
+	var IDT_DESC_PRESENT uint8
+	IDT_DESC_PRESENT = 0x80
+	self.interruptDescriptorTable[interrupt].access = IDT_DESC_PRESENT | ((DescriptorPrivilegeLevel & 3) << 5) | DescriptorType
+	self.interruptDescriptorTable[interrupt].reserved = 0
+	myfunction := *(*func())(unsafe.Pointer(handler))
+	myfunction()
+}
+func (self *TInterruptManager) SetHandler(handler uintptr, InterruptNumber uint8){
+	self.handlers[InterruptNumber] = handler
+}
+func (self *TInterruptManager) GetHandler(InterruptNumber uint8) uintptr{
+	return self.handlers[InterruptNumber]
+}
+func (self *TInterruptManager) InterruptIgnore(){
+}
+
+func (self *TInterruptManager) HandleInterrupt(interrupt uint8, esp uint32) uint32{
+	/*
+	if uintptr(unsafe.Pointer(self.ActiveInterruptManager)) != 0 {
+		return *(self.ActiveInterruptManager).DoHandleInterrupt(interrupt, esp)
+	}*/
+	if self.ActiveInterruptManager != nil {
+		return self.ActiveInterruptManager.DoHandleInterrupt(interrupt, esp)
+	}
+	return esp
+}
+func (self *TInterruptManager) DoHandleInterrupt(interrupt uint8, esp uint32) uint32{
+	
+	if handlers[interrupt] != nil {
+		esp = self.handlers[interrupt].HandleInterrupt(esp)
+	}
+	return esp
+}
+
+func (self *TInterruptManager) Active(){
+}
+func (self *TInterruptManager) Deactive(){
+}

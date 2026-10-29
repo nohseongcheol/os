@@ -1,0 +1,5 @@
+# WorldOS PNG UTF-8 command file
+echo "WorldOS PNG"
+help
+pwd
+pid

@@ -1,0 +1,254 @@
+# jkoros Türkçe kitaplık kullanıcı_kılavuz
+
+확인일: 2026-09-27. 대상은 `platforms/rpi4`의 **ARM64 Linux + OpenJDK 실행판**이며, QEMU에서도 같은 Java 라이브러리를 사용한다. `os/`의 Öz x86 çekirdek_değer 및 `eski_kaynak/`의 관리 çekirdek_değer 모형과 구분한다.
+
+## 1. geçerli_öğe 제공하는 kitaplık
+
+패키지는 `Türkçe.자바`, işletim_sistemi 안의 JAR 경로는 `/opt/jkoros/lib/한국어자바.jar`다. **yardımcı_değer Sınıf_değer 5개, 공개 statik_değer metot_değer 22개, 별도 GUI 프로그램인 çalışma_alanı 1개**가 있다. JAR는 Java 11 이상을 대상으로 빌드하며 geçerli_öğe ARM64 배포판에는 OpenJDK 25가 포함돼 있다.
+
+| Sınıf_değer | metot_değer 수 | 기능 | kaynakKod |
+|---|---:|---|---|
+| `dosya` | 9 | UTF-8 텍스트·bayt_değer dosya, dizin_değer, girdi_Liste | [dosya.java](kaynakKod/Türkçe/자바/dosya.java) |
+| `문자` | 5 | UTF-8 ÇEVİR_değer, NFC normalleştirmek_değer, KOD_değer 포인트, dize_değer sınır_değer | [문자.java](kaynakKod/Türkçe/자바/문자.java) |
+| `iletişim` | 2 | HTTP(S) GET, TCP Bağlan | [iletişim.java](kaynakKod/Türkçe/자바/iletişim.java) |
+| `작업` | 4 | 스레드 yürütmek_komut·bekle_değer, 고정 Boyut 작업 program_Launcher | [작업.java](kaynakKod/Türkçe/자바/작업.java) |
+| `화면` | 2 | Swing 이벤트 işlem_değer_girdi 가닥에 작업 예약, Pencere oluşturmak | [화면.java](kaynakKod/Türkçe/자바/화면.java) |
+| `çalışma_alanı` | giriş_noktası `main` | Java kaynakKod Düzenle_değer·depo_değer·derlemek_kaynak·yürütmek_komut | [çalışma_alanı.java](kaynakKod/Türkçe/자바/çalışma_alanı.java) |
+
+표준 JDK 전체를 한국어로 번역한 라이브러리는 아니다. Java 키워드와 `String`, `Path`, `Socket`, `JFrame`, `IOException` 같은 표준 veri_türü·예외를 함께 사용한다. 이 도우미에 없는 기능은 OpenJDK의 표준 API 또는 별도 라이브러리로 구현한다. 예를 들어 HTTP POST, UDP, Swing düğme·메뉴에는 각각 표준 Java API를 사용한다.
+
+## 2. Java에서 Start_Görev
+
+게스트 운영체제의 작업 폴더에서 `사용예.java`를 작성한다.
+
+```java
+import Türkçe.자바.*;
+import java.nio.file.Path;
+
+public class 사용예 {
+    public static void main(String[] bağımsız_değişkenler) throws Exception {
+        Path dizin_değer = dosya.açmak_dizin(dosya.yol("사용예자료"));
+        Path 문서 = dizin_değer.resolve("인사.txt");
+        dosya.Yazma(문서, "한글 😀");
+        String içerik_değer = dosya.Okuma(문서);
+        System.out.println(içerik_değer);
+        System.out.println(문자.kod_öğesi_BAĞ_DEĞ_SAY(içerik_değer)); // 한, metin, 공백, 😀 → 4
+        Thread iş_değer = 작업.çalıştır("인사 작업", () -> System.out.println("작업 yürütmek_komut"));
+        작업.기다리기(iş_değer);
+    }
+}
+```
+
+```sh
+javac -encoding UTF-8 -cp /opt/jkoros/lib/한국어자바.jar 사용예.java
+java -cp .:/opt/jkoros/lib/한국어자바.jar 사용예
+```
+
+로그인 환경에 varsayılan_değer `CLASSPATH`도 설정돼 있지만, 명시적인 `-cp`는 다른 yürütmek_komut 환경에서도 경로를 분명하게 한다. 사용자가 `-cp`를 지정하면 필요한 JAR와 Sınıf_değer 폴더를 모두 그 값에 포함해야 한다.
+
+konak 저장소에서는 다음처럼 oluştur·실행한다. konak 경로와 게스트의 `/opt/...` 경로는 서로 다르다.
+
+```sh
+cd /home/user/jkoros/한국어자바
+make
+javac -encoding UTF-8 -cp build/한국어자바.jar 예제/인사.java
+java -cp build/한국어자바.jar:예제 인사
+```
+
+## 3. 전체 yardımcı_değer API
+
+아래 메서드는 모두 `public static`이며, 객체를 만들지 않고 `dosya.Okuma(...)`처럼 호출한다. 표의 이름은 fiili_veri kaynak_ağaç 및 JAR의 `javap -public` 결과와 대조했다. 선언된 검사 özel_durum 외에도 잘못된 bağımsız_değişkenler 등에 대한 표준 Java yürütmek_komut 시 예외가 발생할 수 있다.
+
+### dosya: `Türkçe.자바.dosya`
+
+`Path`는 `java.nio.file.Path`, `List`는 `java.util.List`다.
+
+| metot_değer | dönüş_türü | Eylem·koşul |
+|---|---|---|
+| `yol(String İsim)` | `Path` | 이름을 yol 객체로 ÇEVİR_değer. fiili_veri 파일을 만들지는 않음 |
+| `Okuma(Path yol)` | `String` | dosya 전체를 UTF-8 텍스트로 읽음 |
+| `Yazma(Path yol, String içerik_değer)` | `Path` | UTF-8 depo_değer. 파일이 없으면 생성하고, 있으면 기존 내용을 비움 |
+| `바이트읽기(Path yol)` | `byte[]` | dosya 전체를 bayt_değer 배열로 읽음 |
+| `yazma_bayt_değer(Path yol, byte[] içerik_değer)` | `Path` | bayt_değer depo_değer. 없으면 생성하고, 있으면 기존 내용을 비움 |
+| `açmak_dizin(Path yol)` | `Path` | 필요한 상위 폴더까지 oluşturmak |
+| `있는가(Path yol)` | `boolean` | 존재 여부 doğrulamak. 확인할 수 없는 경우도 `false`iş_değer 수 있음 |
+| `silmek_girdi(Path yol)` | `boolean` | 삭제했으면 `true`, 없으면 `false`. 폴더의 재귀 삭제는 아님 |
+| `girdi_Liste(Path yol)` | `List<Path>` | 바로 아래 항목을 yol hizalamak_değer 순서로 İade_KR. 재귀 탐색은 아님 |
+
+`yol`, `있는가`를 제외한 위 메서드는 `IOException`을 선언한다. `Yazma`와 `yazma_bayt_değer`는 상위 폴더를 자동으로 만들거나 내용을 이어 쓰지 않는다. 필요한 폴더는 먼저 생성한다. 큰 파일은 전체 내용을 메모리에 담는 대신 표준 Java 스트림·Kanal_değer API를 사용하는 방식으로 작성할 수 있다.
+
+### 문자: `Türkçe.자바.문자`
+
+| metot_değer | dönüş_türü | Eylem·koşul |
+|---|---|---|
+| `kodlamak(String içerik_değer)` | `byte[]` | 문자열을 UTF-8 바이트로 ÇEVİR_değer |
+| `şifre_çözmek_veri(byte[] içerik_değer)` | `String` | UTF-8 바이트를 문자열로 ÇEVİR_değer. 잘못된 입력은 대체 문자로 işlem_değer_girdi |
+| `normalleştirmek_değer(String içerik_değer)` | `String` | UNICODE_değer NFC normalleştirmek_değer. 예: 조합 자모 `ᄀ` + `ᅡ` → `가` |
+| `kod_öğesi_BAĞ_DEĞ_SAY(String içerik_değer)` | `int` | UTF-16 KOD_değer 단위가 아닌 UNICODE_değer KOD_değer 포인트 수 |
+| `낱말(String içerik_değer, Locale Dil)` | `List<String>` | Ata_değer 언어의 `BreakIterator` 낱말 경계로 나눈 SMS_aralık |
+
+`낱말`은 공백·문장부호 구간도 반환한다. 자연어 형태소 분석기나 공백을 제거한 Word_değer girdi_Liste API는 아니다. `normalleştirmek_değer`는 입력기나 çevir_kaynak 기능이 아니다. KOD_değer 포인트 수 역시 사람이 보는 karakter_değer 수와 항상 같지는 않다. 여러 KOD_değer 포인트로 이루어진 결합 문자·가족 이모지 등을 구분해야 한다.
+
+### iletişim: `Türkçe.자바.iletişim`
+
+| metot_değer | dönüş_türü | Eylem·koşul |
+|---|---|---|
+| `AL_değer(URI ADRES, Duration süre_sınırı)` | `HttpResponse<String>` | HTTP(S) GET. Bağlan 및 istek süre_sınırı Ayarlar. yanıt 본문을 UTF-8로 ayrıştırmak_değer |
+| `Connect_Endpoint(String ADRES, int donanım_taşımak, int 제한밀리초)` | `Socket` | TCP Bağlan 후 같은 값으로 Okuma 제한시간도 Ayarlar |
+
+`AL_değer`는 `IOException`, `InterruptedException`을 선언한다. 제한시간은 양수다. 404·500 같은 HTTP hata 상태도 응답으로 반환하므로 `statusCode()`로 판단하고 `body()`로 본문을 읽는다. geçerli_öğe 구현은 호출마다 HTTP 클라이언트를 만들며 자동 리다이렉트 설정을 추가하지 않는다.
+
+`Connect_Endpoint`는 `IOException`을 선언한다. 연결된 소켓은 호출자가 `close()` 또는 try-with-resources로 닫아야 한다. 제한밀리초의 0은 제한 없음이며, Yazma 전체의 son_tarih_değer 시간을 보장하는 옵션은 아니다.
+
+```java
+var yanıt = iletişim.AL_değer(
+    java.net.URI.create("http://127.0.0.1:8000/"),
+    java.time.Duration.ofSeconds(5));
+System.out.println(yanıt.statusCode());
+System.out.println(yanıt.body());
+```
+
+위 조각은 metot_değer 안에서 실행하며 별도로 해당 주소의 서버를 실행해야 한다. Java özel_durum 처리가 필요하다.
+
+### 작업: `Türkçe.자바.작업`
+
+| metot_değer | dönüş_türü | Eylem·koşul |
+|---|---|---|
+| `çalıştır(String İsim, Runnable Eylem)` | `Thread` | 이름을 지정한 스레드를 만들고 즉시 çalıştır |
+| `기다리기(Thread yazışma_değer)` | `void` | 해당 스레드가 종료할 때까지 `join()` |
+| `쉬기(long 밀리초)` | `void` | 호출한 스레드를 Ata_değer zaman_değeri 동안 `sleep()` |
+| `Workbench_değer(int yazışma_BAĞ_DEĞ_SAY)` | `ExecutorService` | 고정 Boyut 작업 program_Launcher oluşturmak. 가닥수는 양수 |
+
+`기다리기`, `쉬기`는 `InterruptedException`을 선언한다. 작업 실행기는 kullanmak_değer 후 `shutdown()`으로 종료하고 필요하면 `awaitTermination(...)`으로 완료를 기다린다. Swing 이벤트 işlem_değer_girdi 가닥에서 긴 작업이나 `기다리기`를 실행하면 화면이 멈출 수 있다.
+
+### 화면: `Türkçe.자바.화면`
+
+| metot_değer | dönüş_türü | Eylem·koşul |
+|---|---|---|
+| `나중에(Runnable Eylem)` | `void` | Swing 이벤트 işlem_değer_girdi 가닥에 실행을 예약하고 İade_KR |
+| `Pencere(String pencere_Başlık, JComponent içerik_değer, int 너비, int 높이)` | `JFrame` | içerik_değer·크기를 지정한 창을 생성해 şov_değer |
+
+`Pencere`을 Swing 이벤트 işlem_değer_girdi yazışma_değer 밖에서 부르면 `IllegalStateException`이 발생한다. 그래픽 세션도 필요하다. QEMU에서는 VNC 데스크톱의 터미널에서 실행한다.
+
+```java
+화면.나중에(() -> 화면.Pencere(
+    "Türkçe 화면", new javax.swing.JLabel("안녕하세요"), 500, 180));
+```
+
+반환된 `JFrame`에 표준 Swing API를 추가로 사용할 수 있다. 창의 Kapat 동작은 `DISPOSE_ON_CLOSE`다. `화면.나중에`가 반환됐다고 Pencere 생성이 이미 끝난 것은 아니다.
+
+### çalışma_alanı: Düzenle_değer·derlemek_kaynak GUI
+
+```sh
+java -cp /opt/jkoros/lib/한국어자바.jar Türkçe.자바.çalışma_alanı
+```
+
+`~/workspace`의 원문을 Aç·저장하고, `javac`로 컴파일해 `java`로 실행한다. yürütmek_komut dosya 만들기는 `jclassc --target openjdk` 경로를 사용한다. 작업마당은 개발용 프로그램이며 별도의 dosya·문자 API 클래스가 아니다. 생성하는 yürütmek_komut dosya 방식은 [derleyici 설명](../compiler/OpenJDK-çalıştırılabilir.md)을 따른다.
+
+## 4. Python과 C++에서 사용할 수 있는가?
+
+| metot_mod | geçerli_öğe bildirimler Durum_değer | 호출 가능 klip |
+|---|---|---|
+| Java → Türkçe JAR | varsayılan_değer bildirimler | 위 22개 메서드와 çalışma_alanı |
+| Python → `java` alt_değer 프로세스 | Python·Java varsayılan_değer bildirimler | 작은 Java 진입점을 통해 호출하고 표준 metinÇıktısı·dosya 등으로 sonuç İleri_değer |
+| Python → JPype → JVM | JPype는 varsayılan_değer 배포에 없음 | 별도 yükle_değer 후 Java Sınıf_değer·metot_değer 호출 가능. 이 배포판의 ARM64/musl/Python 3.14 조합은 Ekleme_girdi doğrulamak_5fb2b747 필요 |
+| C++ → JNI → JVM | `g++`, JNI 헤더, `libjvm.so` bildirimler | JVM을 생성하고 Türkçe Sınıf_değer·메서드를 직접 호출할 수 있음 |
+| Python용 독립 Türkçe kitaplık | geçerli_öğe varsayılan_değer 제공 없음 | 필요하면 Python 표준 라이브러리를 감싸는 Türkçe 모듈을 별도로 작성 |
+| C/C++용 독립 Türkçe kitaplık | Öz x86 `posix-kor`와 Öz ARM64 커널용 başlangıç_durumu RAM dosya 연결이 별도로 존재 | 둘 다 이 Linux/OpenJDK 실행판의 libc 라이브러리는 아님 |
+
+Python의 일반 `import`SANİYE_işlenen `ctypes.CDLL`로 JAR를 바로 읽을 수는 없다. C++의 `#include`SANİYE_işlenen 일반 네이티브 링커만으로 Java 메서드를 연결할 수도 없다. JVM 프로세스 또는 JVM Bağlan 계층을 거쳐야 한다.
+
+### Python: Ekleme_girdi 패키지 없이 호출
+
+yürütmek_komut 가능한 예제 원문은 [문자명령.java](예제/다른언어/문자명령.java), [PYTHON_Çağrılar.py](예제/다른언어/PYTHON_Çağrılar.py)다. Python이 Java 진입점을 실행하고 `문자.kod_öğesi_BAĞ_DEĞ_SAY`의 bilgi 결과를 받는다. bağımsız_değişkenler 목록을 사용하며 kabuk komut 문자열을 조립하지 않는다. `subprocess.run`의 프로세스 yürütmek_komut·Çıkış_program KOD_değer·metinÇıktısı işlem_değer_girdi 방식은 [Python 공식 문서](https://docs.python.org/3/library/subprocess.html)를 따른다.
+
+두 예제 파일을 게스트의 같은 폴더에 복사한 BACK_değer 그 폴더에서 실행한다. 예제 dosya 자체는 varsayılan_değer 시스템 이미지에 자동 설치돼 있지 않다.
+
+```sh
+mkdir -p classes
+javac -encoding UTF-8 -cp /opt/jkoros/lib/한국어자바.jar -d classes 문자명령.java
+python3 PYTHON_Çağrılar.py --text '한글 😀'
+```
+
+metinÇıktısı: `Python → Türkçe.자바.문자.kod_öğesi_BAĞ_DEĞ_SAY: 4`
+
+이 예제의 Python işlev_değer `kod_öğesi_BAĞ_DEĞ_SAY`는 이번 문서의 Bağlan 예제이며 기존에 설치된 Python 라이브러리는 아니다. geçerli_öğe 예제는 호출할 때마다 JVM 프로세스를 시작한다. Java nesne_değer 자체를 Python으로 가져오는 방식은 아니며, 다른 메서드를 사용하려면 진입점의 bağımsız_değişkenler·sonuç 형식을 확장한다.
+
+### Python: JPype로 같은 프로세스에서 호출
+
+JPype를 별도 설치한 환경에서는 Sonraki_öğe 형태로 연결할 수 있다. **아래는 seçim_değer 가능한 Bağlan 방법이며, geçerli_öğe 배포판에 JPype가 설치돼 있거나 yürütmek_komut 검증됐다는 뜻은 아니다.** JVM 시작과 `JClass`를 통한 Sınıf_değer 접근은 [JPype 공식 설명](https://jpype.readthedocs.io/en/latest/userguide.html)을 참고한다.
+
+```python
+import jpype
+
+jpype.startJVM(
+    "/usr/lib/jvm/java-25-openjdk/lib/server/libjvm.so",
+    classpath=["/opt/jkoros/lib/한국어자바.jar"])
+try:
+    문자 = jpype.JClass("Türkçe.자바.문자")
+    print(문자.kod_öğesi_BAĞ_DEĞ_SAY(jpype.JString("한글 😀")))
+finally:
+    jpype.shutdownJVM()
+```
+
+Python·JVM·Bağlan 모듈의 CPU 아키텍처가 맞아야 한다. 이 실행판은 ARM64 + musl이므로 일반 x86_64/glibc용 바이너리를 그대로 설치하는 방식은 맞지 않는다. JPype yükle_değer·패키지 빌드는 이번 문서 작업에서 수행하지 않았다.
+
+### C++: JNI로 직접 호출
+
+[자바호출.cpp](예제/다른언어/자바호출.cpp)는 fiili_veri yürütmek_komut 가능한 예제다. JVM을 작업 스레드에서 생성하고 Sonraki_öğe 메서드를 찾는다.
+
+```cpp
+jclass type = env->FindClass("Türkçe/자바/문자");
+jmethodID method = env->GetStaticMethodID(
+    type, "kod_öğesi_BAĞ_DEĞ_SAY", "(Ljava/lang/String;)I");
+```
+
+JVM oluşturmak·종료와 스레드 연결은 [JNI Invocation API](https://docs.oracle.com/en/java/javase/25/docs/specs/jni/invocation.html)의 방식이다. `JNIEnv*`는 oluşturmak·연결된 스레드에서 사용해야 한다. 예제는 Java 예외를 확인하고 JVM 종료까지 처리한다.
+
+게스트에 `자바호출.cpp`를 복사한 BACK_değer 컴파일한다. 로그인 환경의 `JAVA_HOME`은 `/usr/lib/jvm/java-25-openjdk`다.
+
+```sh
+g++ -std=c++11 -Wall -Wextra -pthread \
+  -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" \
+  자바호출.cpp -L"$JAVA_HOME/lib/server" \
+  -Wl,-rpath,"$JAVA_HOME/lib/server" -ljvm -o 자바호출
+./자바호출 /opt/jkoros/lib/한국어자바.jar
+```
+
+metinÇıktısı: `C++ → Türkçe.자바.문자.kod_öğesi_BAĞ_DEĞ_SAY: 4`
+
+예제는 `한글 😀`을 UTF-16으로 만들어 `NewString`에 전달한다. `NewStringUTF`가 받는 modified UTF-8은 일반 UTF-8과 차이가 있으므로, 일반 UTF-8 이모지 바이트를 그대로 넘기는 예제로 작성하지 않았다. [JNI dize_değer biçim_değer](https://docs.oracle.com/en/java/javase/25/docs/specs/jni/types.html#modified-utf-8-strings)
+
+다른 Türkçe 메서드도 JNI 서명과 bağımsız_değişkenler 자료형을 맞춰 호출할 수 있다. 예를 들어 `Path`를 받는 dosya API는 먼저 `dosya.yol`로 Java yol 객체를 얻어 전달한다. Swing 호출에는 그래픽 세션과 이벤트 işlem_değer_girdi yazışma_değer 규칙도 그대로 적용된다. JNI는 Java 실행을 기계어로 대체하는 기능이 아니며 JVM이 계속 필요하다.
+
+### 기존 posix-kor와의 관계
+
+추가된 [Öz ARM64 Bağlan](../posix-kor/arm64-native/안내.md)은 C++에서 AOT Java 커널의 RAM dosya API를 직접 호출하며, 별도 EL0 kullanıcı_alanı 라이브러리로 dosya/UDP 루프백 SVC 호출도 제공한다. JNI를 사용하지 않는다. 이 문서의 ARM64 **Linux** 및 Türkçe Java JAR와는 다른 yürütmek_komut 기반이며 Öz 커널은 별도 제한형 Java derleyici/JVM과 MicroPython 1.24.1을 실행한다. MicroPython의 `import jkoros`로 Java çekirdek_değer dosya·UDP 루프백·dikdörtgen 호출이 가능하지만 이 문서의 JAR를 가져오는 기능은 아니다. Öz 커널의 전체 OpenJDK/JRE/CPython 이식은 아직 미완성이다.
+
+[posix-kor](../posix-kor/안내.md)에는 `açık_Dosya`, `파일자료읽기`, `yazma_Dosya_veri`, `Kapat_Dosya`, `açmak_uç_nokta`, `göndermek_veri_birimi_veri` 등의 Türkçe C 별칭이 있다. 그러나 구현은 **Öz jkoros i386 커널의 `int 0x80` 호출 규약용**이다.
+
+이 `libposix-kor.a`와 Öz `sys/stat.h` 등의 헤더는 geçerli_öğe ARM64 Linux 실행판의 libc/C++용 라이브러리가 아니다. 해당 헤더·바이너리를 ARM64 Linux 프로그램에 그대로 연결해서는 ABI가 맞지 않는다. C++용 Türkçe Sınıf_değer 라이브러리나 Python용 바인딩을 varsayılan_değer 제공하는 상태도 아니다. geçerli_öğe Linux 실행판에서 그와 같은 독립 API를 제공하려면 Linux 표준 라이브러리를 대상으로 별도로 gerçekleme·빌드해야 한다.
+
+## 5. doğrulamak 범위와 재현
+
+패키지 bildirimler 여부는 [dağıtım_değer 패키지 girdi_Liste](../platforms/rpi4/dist/packages.lock.json) 및 oluştur 루트의 fiili_veri 파일로 확인했다. JNI 헤더는 JDK의 `include/jni.h`, `include/linux/jni_md.h`, JVM 라이브러리는 `lib/server/libjvm.so`에 있다. 사용자가 이후 별도로 설치한 패키지는 이 varsayılan_değer dağıtım_değer 목록과 다를 수 있다.
+
+이번에 **konak x86_64/OpenJDK 11에서** Python alt_değer 프로세스 호출과 C++ JNI 직접 호출을 derlemek_kaynak·실행해 각각 sonuç 4를 확인했다. JAR 공개 메서드도 소스와 대조했다. Python Bağlan 예제는 Ekleme_girdi 패키지를 설치하지 않는다.
+
+문서의 Java kullanmak_değer 예제도 derlemek_kaynak·실행했고, 22개 메서드의 문서 bildirimler 여부와 로컬 문서 링크를 확인했다. [예제 doğrulamak_5fb2b747 LOG_KAYIT](build/다른언어/doğrulama_Rapor.json)
+
+기존 ARM64 QEMU에서는 Java의 dosya·UNICODE_değer·스레드·HTTP 및 Swing sınamalar 결과가 있다. 이번 Python/C++ Bağlan 예제의 **ARM64 게스트 실행과 JPype 설치는 별도 검증하지 않았다.** 이미지와 yürütmek_komut 중인 kullanıcı_alanı 환경은 이 문서 작업에서 변경하지 않았다. [기존 işletim_sistemi doğrulamak_5fb2b747 LOG_KAYIT](../platforms/rpi4/VERIFICATION.md)
+
+호스트에서 Python 예제를 재현하려면:
+
+```sh
+cd /home/user/jkoros/한국어자바
+make
+mkdir -p build/다른언어
+javac -encoding UTF-8 --release 11 -cp build/한국어자바.jar \
+  -d build/다른언어 예제/다른언어/문자명령.java
+python3 예제/다른언어/PYTHON_Çağrılar.py \
+  --jar build/한국어자바.jar --classes build/다른언어
+```
+
+konak C++ 예제는 위 JNI derlemek_kaynak 명령의 JDK 경로를 **konak JDK yol**로 바꾸고, kaynakKod `예제/다른언어/자바호출.cpp`와 JAR `build/한국어자바.jar`를 지정한다. ARM64 게스트 JDK의 헤더·kitaplık 경로를 konak x86_64 링크 명령에 섞지 않는다.

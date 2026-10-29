@@ -1,0 +1,12 @@
+# import config
+packagefile anschluss=/home/user/.cache/go-build/c4/c4be570ec24a467e45765be0fcc8ff4c904202efe0d5ca707520760ae5e95d45-d
+packagefile aufgabenverwaltung/ausführungsfaden=/home/user/worldos/나라/CHE/소스/build/b002/_pkg_.a
+packagefile aufgabenverwaltung/tss=/home/user/worldos/나라/CHE/소스/build/b024/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/bb/bb2a5c28d110d8bb3f82d32f4dd51a4d37280e224eea2c8a642d5f637dd7d0d8-d
+packagefile hilfswerkzeug/liste=/home/user/worldos/나라/CHE/소스/build/b025/_pkg_.a
+packagefile konsole=/home/user/.cache/go-build/a0/a06958da64aaca196a5115e237f019795d87ed41d1fc88608f2075a52a924557-d
+packagefile mehrfachAufgabenverwaltung=/home/user/worldos/나라/CHE/소스/build/b018/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile speicherVerwalter=/home/user/worldos/나라/CHE/소스/build/b019/_pkg_.a
+packagefile unterbrechung=/home/user/worldos/나라/CHE/소스/build/b026/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHE/소스/build/b000/_pkg_.a

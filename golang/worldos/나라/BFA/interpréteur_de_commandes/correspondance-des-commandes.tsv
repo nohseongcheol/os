@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	afficher_l_aide
+echo	afficher_les_arguments
+pwd	afficher_le_répertoire_courant
+cat	afficher_le_contenu_du_fichier
+stat	afficher_les_informations_du_fichier
+pid	afficher_les_identifiants_des_processus
+uname	afficher_l_identité_du_système
+run	exécuter_un_programme
+udp	tester_le_retour_du_datagramme
+source	interpréter_un_fichier_de_commandes
+cd	changer_de_répertoire
+exit	quitter

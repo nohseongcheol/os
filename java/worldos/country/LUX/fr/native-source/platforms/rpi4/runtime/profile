@@ -1,0 +1,12 @@
+export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
+export LANG=ko_KR.UTF-8
+# XIM clients, including Java and xterm, need a named UTF-8 locale.
+unset LC_ALL
+export LC_CTYPE=ko_KR.UTF-8
+export PATH="$HOME/.local/bin:$HOME/bin:$JAVA_HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export CLASSPATH=".:/opt/jkoros/lib/JavaFrançais.jar"
+export PIP_CACHE_DIR="$HOME/.cache/pip"
+umask 022

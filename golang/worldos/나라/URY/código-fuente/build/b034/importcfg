@@ -1,0 +1,12 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/da/daac9520bfa85a3e806b63f31a136ff318637a9f45be99d0a6e1603a745ee556-d
+packagefile gdt=/home/user/.cache/go-build/50/509f24b06ba9036a71e943753a3a7a4ab634d262ace265885c0192624b59c89f-d
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/URY/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/tss=/home/user/worldos/나라/URY/소스/build/b035/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/URY/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/URY/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/URY/소스/build/b026/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/b9/b9cee73bcfd695bdf4a5c6d324ad8fa51880c138e777ad21bd3a2d4e70b52c92-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile utilidad/lista=/home/user/worldos/나라/URY/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/URY/소스/build/b000/_pkg_.a

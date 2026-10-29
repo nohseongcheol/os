@@ -1,0 +1,7 @@
+# import config
+packagefile タスク管理/スケジューラ=/home/user/worldos/나라/JPN/原始記述/build/b024/_pkg_.a
+packagefile タスク管理/スレッド=/home/user/worldos/나라/JPN/原始記述/build/b026/_pkg_.a
+packagefile メモリ管理者=/home/user/worldos/나라/JPN/原始記述/build/b022/_pkg_.a
+packagefile 汎用=/home/user/worldos/나라/JPN/原始記述/build/b033/_pkg_.a
+packagefile 汎用/一覧=/home/user/worldos/나라/JPN/原始記述/build/b029/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/JPN/原始記述/build/b000/_pkg_.a

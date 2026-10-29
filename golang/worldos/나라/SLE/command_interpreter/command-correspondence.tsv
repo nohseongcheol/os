@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	show_help
+echo	print_arguments
+pwd	show_working_directory
+cat	display_file_contents
+stat	show_file_information
+pid	show_process_identifiers
+uname	show_system_identity
+run	run_program
+udp	test_datagram_loopback
+source	interpret_command_file
+cd	change_directory
+exit	leave

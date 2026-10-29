@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/99/99d467452156d8437b205ad00cf4e04c17e723f5e2e11b01445197ba9182d6e6-d
+packagefile driver/ata=/home/user/worldos/나라/LAO/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/b9/b95369609357cadcc1dbf0a8171369f2ff0e3a3b25996f12fdc066ed18a2c7cf-d
+packagefile driver/keyboard=/home/user/worldos/나라/LAO/소스/build/b007/_pkg_.a
+packagefile driver/mouse=/home/user/worldos/나라/LAO/소스/build/b036/_pkg_.a
+packagefile filesystem/elf=/home/user/worldos/나라/LAO/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/LAO/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/LAO/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/50/506ce5cd9d7d50751a2832f347e92298358e86527ccd915af31731dcdd34e917-d
+packagefile interrupt=/home/user/worldos/나라/LAO/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/LAO/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/LAO/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/LAO/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/LAO/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/LAO/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/LAO/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/LAO/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/LAO/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/LAO/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/9e/9efd92d237588bba752e5876cffe072f0b0c692a8c862caaee65b8e83559413d-d
+packagefile virtualmemory=/home/user/worldos/나라/LAO/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LAO/소스/build/b000/_pkg_.a

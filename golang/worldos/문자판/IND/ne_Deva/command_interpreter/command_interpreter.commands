@@ -1,0 +1,5 @@
+# WorldOS IND/ne_Deva UTF-8 command file
+echo "WorldOS IND/ne_Deva"
+help
+pwd
+pid

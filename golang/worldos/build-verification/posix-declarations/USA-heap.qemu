@@ -1,0 +1,1 @@
+qemu-system-x86_64: -drive file=/tmp/worldos-posix-boot-9bcnqabt/disk.raw,format=raw,if=none,id=disk0,snapshot=on: Could not get temporary filename: Read-only file system

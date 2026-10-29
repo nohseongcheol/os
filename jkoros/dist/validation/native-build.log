@@ -1,0 +1,164 @@
+make -C platforms/rpi4-native build
+make[1]: Entering directory '/tmp/os-release-verification-20261005/jkoros/platforms/rpi4-native'
+python3 도구/빌드.py
+make[2]: Entering directory '/tmp/os-release-verification-20261005/jkoros/platforms/rpi4-native/파이썬연결'
+Use make V=1 or set BUILD_VERBOSE in your environment to increase build verbosity.
+mkdir -p ../build/python/genhdr
+mkdir -p ../build/python/
+mkdir -p ../build/python/extmod/
+mkdir -p ../build/python/py/
+mkdir -p ../build/python/shared/libc/
+mkdir -p ../build/python/shared/runtime/
+makeversionhdr.py: Warning: No git repo or tag info available, falling back to mpconfig.h version info.
+GEN ../build/python/genhdr/mpversion.h
+GEN ../build/python/genhdr/qstr.i.last
+GEN ../build/python/genhdr/qstr.split
+GEN ../build/python/genhdr/moduledefs.split
+GEN ../build/python/genhdr/root_pointers.split
+GEN ../build/python/genhdr/qstrdefs.collected.h
+QSTR updated
+GEN ../build/python/genhdr/moduledefs.collected
+Module registrations updated
+GEN ../build/python/genhdr/qstrdefs.generated.h
+GEN ../build/python/genhdr/moduledefs.h
+GEN ../build/python/genhdr/root_pointers.collected
+Root pointer registrations updated
+GEN ../build/python/genhdr/root_pointers.h
+CC ../build/micropython-1.24.1/py/nlr.c
+CC ../build/micropython-1.24.1/py/mpstate.c
+CC ../build/micropython-1.24.1/py/nlrx86.c
+CC ../build/micropython-1.24.1/py/nlrx64.c
+CC ../build/micropython-1.24.1/py/nlrthumb.c
+CC ../build/micropython-1.24.1/py/nlraarch64.c
+CC ../build/micropython-1.24.1/py/nlrmips.c
+CC ../build/micropython-1.24.1/py/nlrpowerpc.c
+CC ../build/micropython-1.24.1/py/nlrxtensa.c
+CC ../build/micropython-1.24.1/py/nlrrv32.c
+CC ../build/micropython-1.24.1/py/nlrrv64.c
+CC ../build/micropython-1.24.1/py/nlrsetjmp.c
+CC ../build/micropython-1.24.1/py/malloc.c
+CC ../build/micropython-1.24.1/py/gc.c
+CC ../build/micropython-1.24.1/py/pystack.c
+CC ../build/micropython-1.24.1/py/qstr.c
+CC ../build/micropython-1.24.1/py/vstr.c
+CC ../build/micropython-1.24.1/py/mpprint.c
+CC ../build/micropython-1.24.1/py/unicode.c
+CC ../build/micropython-1.24.1/py/mpz.c
+CC ../build/micropython-1.24.1/py/reader.c
+CC ../build/micropython-1.24.1/py/lexer.c
+CC ../build/micropython-1.24.1/py/parse.c
+CC ../build/micropython-1.24.1/py/scope.c
+CC ../build/micropython-1.24.1/py/compile.c
+CC ../build/micropython-1.24.1/py/emitcommon.c
+CC ../build/micropython-1.24.1/py/emitbc.c
+CC ../build/micropython-1.24.1/py/asmbase.c
+CC ../build/micropython-1.24.1/py/asmx64.c
+CC ../build/micropython-1.24.1/py/emitnx64.c
+CC ../build/micropython-1.24.1/py/emitnx86.c
+CC ../build/micropython-1.24.1/py/asmx86.c
+CC ../build/micropython-1.24.1/py/asmthumb.c
+CC ../build/micropython-1.24.1/py/emitnthumb.c
+CC ../build/micropython-1.24.1/py/asmarm.c
+CC ../build/micropython-1.24.1/py/emitinlinethumb.c
+CC ../build/micropython-1.24.1/py/emitnarm.c
+CC ../build/micropython-1.24.1/py/asmxtensa.c
+CC ../build/micropython-1.24.1/py/emitnxtensa.c
+CC ../build/micropython-1.24.1/py/emitinlinextensa.c
+CC ../build/micropython-1.24.1/py/emitnxtensawin.c
+CC ../build/micropython-1.24.1/py/asmrv32.c
+CC ../build/micropython-1.24.1/py/emitnrv32.c
+CC ../build/micropython-1.24.1/py/emitndebug.c
+CC ../build/micropython-1.24.1/py/formatfloat.c
+CC ../build/micropython-1.24.1/py/parsenumbase.c
+CC ../build/micropython-1.24.1/py/parsenum.c
+CC ../build/micropython-1.24.1/py/emitglue.c
+CC ../build/micropython-1.24.1/py/persistentcode.c
+CC ../build/micropython-1.24.1/py/runtime.c
+CC ../build/micropython-1.24.1/py/runtime_utils.c
+CC ../build/micropython-1.24.1/py/scheduler.c
+CC ../build/micropython-1.24.1/py/nativeglue.c
+CC ../build/micropython-1.24.1/py/pairheap.c
+CC ../build/micropython-1.24.1/py/ringbuf.c
+CC ../build/micropython-1.24.1/py/cstack.c
+CC ../build/micropython-1.24.1/py/stackctrl.c
+CC ../build/micropython-1.24.1/py/argcheck.c
+CC ../build/micropython-1.24.1/py/warning.c
+CC ../build/micropython-1.24.1/py/profile.c
+CC ../build/micropython-1.24.1/py/map.c
+CC ../build/micropython-1.24.1/py/obj.c
+CC ../build/micropython-1.24.1/py/objarray.c
+CC ../build/micropython-1.24.1/py/objattrtuple.c
+CC ../build/micropython-1.24.1/py/objbool.c
+CC ../build/micropython-1.24.1/py/objboundmeth.c
+CC ../build/micropython-1.24.1/py/objcell.c
+CC ../build/micropython-1.24.1/py/objclosure.c
+CC ../build/micropython-1.24.1/py/objcomplex.c
+CC ../build/micropython-1.24.1/py/objdeque.c
+CC ../build/micropython-1.24.1/py/objdict.c
+CC ../build/micropython-1.24.1/py/objenumerate.c
+CC ../build/micropython-1.24.1/py/objexcept.c
+CC ../build/micropython-1.24.1/py/objfilter.c
+CC ../build/micropython-1.24.1/py/objfloat.c
+CC ../build/micropython-1.24.1/py/objfun.c
+CC ../build/micropython-1.24.1/py/objgenerator.c
+CC ../build/micropython-1.24.1/py/objgetitemiter.c
+CC ../build/micropython-1.24.1/py/objint.c
+CC ../build/micropython-1.24.1/py/objint_longlong.c
+CC ../build/micropython-1.24.1/py/objint_mpz.c
+CC ../build/micropython-1.24.1/py/objlist.c
+CC ../build/micropython-1.24.1/py/objmap.c
+CC ../build/micropython-1.24.1/py/objmodule.c
+CC ../build/micropython-1.24.1/py/objobject.c
+CC ../build/micropython-1.24.1/py/objpolyiter.c
+CC ../build/micropython-1.24.1/py/objproperty.c
+CC ../build/micropython-1.24.1/py/objnone.c
+CC ../build/micropython-1.24.1/py/objnamedtuple.c
+CC ../build/micropython-1.24.1/py/objrange.c
+CC ../build/micropython-1.24.1/py/objreversed.c
+CC ../build/micropython-1.24.1/py/objringio.c
+CC ../build/micropython-1.24.1/py/objset.c
+CC ../build/micropython-1.24.1/py/objsingleton.c
+CC ../build/micropython-1.24.1/py/objslice.c
+CC ../build/micropython-1.24.1/py/objstr.c
+CC ../build/micropython-1.24.1/py/objstrunicode.c
+CC ../build/micropython-1.24.1/py/objstringio.c
+CC ../build/micropython-1.24.1/py/objtuple.c
+CC ../build/micropython-1.24.1/py/objtype.c
+CC ../build/micropython-1.24.1/py/objzip.c
+CC ../build/micropython-1.24.1/py/opmethods.c
+CC ../build/micropython-1.24.1/py/sequence.c
+CC ../build/micropython-1.24.1/py/stream.c
+CC ../build/micropython-1.24.1/py/binary.c
+CC ../build/micropython-1.24.1/py/builtinimport.c
+CC ../build/micropython-1.24.1/py/builtinevex.c
+CC ../build/micropython-1.24.1/py/builtinhelp.c
+CC ../build/micropython-1.24.1/py/modarray.c
+CC ../build/micropython-1.24.1/py/modbuiltins.c
+CC ../build/micropython-1.24.1/py/modcollections.c
+CC ../build/micropython-1.24.1/py/modgc.c
+CC ../build/micropython-1.24.1/py/modio.c
+CC ../build/micropython-1.24.1/py/modmath.c
+CC ../build/micropython-1.24.1/py/modcmath.c
+CC ../build/micropython-1.24.1/py/modmicropython.c
+CC ../build/micropython-1.24.1/py/modstruct.c
+CC ../build/micropython-1.24.1/py/modsys.c
+CC ../build/micropython-1.24.1/py/moderrno.c
+CC ../build/micropython-1.24.1/py/modthread.c
+CC ../build/micropython-1.24.1/py/vm.c
+CC ../build/micropython-1.24.1/py/bc.c
+CC ../build/micropython-1.24.1/py/showbc.c
+CC ../build/micropython-1.24.1/py/repl.c
+CC ../build/micropython-1.24.1/py/smallint.c
+CC ../build/micropython-1.24.1/py/frozenmod.c
+CC 시작.c
+CC 제이코로스모듈.c
+CC ../build/micropython-1.24.1/shared/libc/string0.c
+CC ../build/micropython-1.24.1/shared/libc/printf.c
+CC ../build/micropython-1.24.1/shared/runtime/gchelper_native.c
+CC ../build/micropython-1.24.1/extmod/modhashlib.c
+CC ../build/micropython-1.24.1/extmod/modjson.c
+CC 수거저장기.S
+LINK ../build/user/python.elf
+make[2]: Leaving directory '/tmp/os-release-verification-20261005/jkoros/platforms/rpi4-native/파이썬연결'
+완료: /tmp/os-release-verification-20261005/jkoros/platforms/rpi4-native/build/kernel8.img
+make[1]: Leaving directory '/tmp/os-release-verification-20261005/jkoros/platforms/rpi4-native'

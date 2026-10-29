@@ -1,0 +1,74 @@
+#!/bin/sh
+export PATH=/usr/lib/jvm/java-25-openjdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+mkdir -p /tmp /dev/pts /dev/shm /run/lock /run/dbus /var/log
+mount -t tmpfs -o mode=1777 tmpfs /tmp
+mount -t devpts -o gid=5,mode=620 devpts /dev/pts
+mount -t tmpfs -o mode=1777 tmpfs /dev/shm
+/bin/busybox --install -s
+hostname jkoros
+# Pi 4 normally has no battery-backed RTC. Start from the last saved/build
+# time so TLS is usable once NTP has synchronized the actual wall clock.
+mkdir -p /var/lib/jkoros
+saved_time=$(cat /var/lib/jkoros/last-time 2>/dev/null || cat /etc/jkoros-build-epoch)
+case "$saved_time" in ''|*[!0-9]*) saved_time=0;; esac
+if [ "$(date +%s)" -lt "$saved_time" ]; then date -s "@$saved_time"; fi
+if ! grep -q '^user:' /etc/passwd; then
+    addgroup -g 1000 user
+    adduser -D -u 1000 -G user -h /home/user -s /bin/bash user
+fi
+for group in video input audio netdev; do
+    addgroup -S "$group" 2>/dev/null || true
+    addgroup user "$group" 2>/dev/null || true
+done
+if ! grep -q '^messagebus:' /etc/passwd; then
+    addgroup -S messagebus
+    adduser -S -D -H -G messagebus -h /run/dbus -s /sbin/nologin messagebus
+fi
+mkdir -p /run/user/1000
+chown 1000:1000 /run/user/1000 /home/user
+chmod 700 /run/user/1000
+if [ ! -f /home/user/.jkoros/initialized ]; then
+    cp -an /etc/skel/. /home/user/
+    for item in /etc/skel/.[!.]* /etc/skel/*; do
+        [ -e "$item" ] || continue
+        chown -R 1000:1000 "/home/user/${item##*/}"
+    done
+    touch /home/user/.jkoros/initialized
+fi
+chown 1000:1000 /home/user
+# System overlay files retain their original owners. Never chown the whole home.
+udevd --daemon
+udevadm trigger --action=add
+udevadm settle --timeout=15
+for module in vc4 v3d brcmfmac bcmgenet virtio_net virtio_gpu; do
+    modprobe "$module" 2>/dev/null || true
+done
+ip link set lo up
+update-ca-certificates >/var/log/certificates.log 2>&1
+dbus-uuidgen --ensure
+dbus-daemon --system --fork
+glib-compile-schemas /usr/share/glib-2.0/schemas
+fc-cache >/var/log/fonts.log 2>&1 &
+for dev in /sys/class/net/*; do
+    interface=${dev##*/}
+    case "$interface" in lo|wlan*) continue;; esac
+    ip link set "$interface" up
+    udhcpc -b -i "$interface" -s /usr/share/udhcpc/default.script >/var/log/dhcp-$interface.log 2>&1
+done
+if [ -s /home/user/.config/jkoros/wifi.conf ]; then
+    n=0
+    while [ ! -e /sys/class/net/wlan0 ] && [ "$n" -lt 30 ]; do sleep 1; n=$((n+1)); done
+    wpa_supplicant -B -i wlan0 -c /home/user/.config/jkoros/wifi.conf >/var/log/wifi.log 2>&1
+    udhcpc -b -i wlan0 -s /usr/share/udhcpc/default.script >/var/log/dhcp-wlan0.log 2>&1
+fi
+/bin/busybox ntpd -p pool.ntp.org >/var/log/ntp.log 2>&1 || true
+echo JKOROS_ARM64_READY
+java -version
+case " $(cat /proc/cmdline) " in
+    *' jkoros.test='*) /opt/jkoros/tests/guest.sh >/dev/console 2>&1 & ;;
+    *' jkoros.desktop=off '*) : ;;
+    *) /usr/local/bin/jkoros-desktop >/var/log/desktop.log 2>&1 & ;;
+esac

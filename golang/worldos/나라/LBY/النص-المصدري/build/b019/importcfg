@@ -1,0 +1,7 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/f2/f207c1cb50043d6c7655b943fc43d4b4c714316d1875b6273bcb05e26c995b28-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile طرفية=/home/user/.cache/go-build/a8/a8dca312b41ec43195bd3e5cb37ab91ad7ce4df2eb21ebb98dcfe74c55d170c2-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/LBY/소스/build/b020/_pkg_.a
+packagefile منفذ=/home/user/.cache/go-build/82/823013ab089ef80882e1557c812ca98af7c17fc9f92c8d4f6f4af05b9320586c-d
+packagefile runtime/cgo=/home/user/worldos/나라/LBY/소스/build/b000/_pkg_.a

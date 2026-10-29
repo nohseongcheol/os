@@ -1,0 +1,10 @@
+# import config
+packagefile gdt=/home/user/koros/build/b004/_pkg_.a
+packagefile interrupt=/home/user/koros/build/b003/_pkg_.a
+packagefile port=/home/user/koros/build/b006/_pkg_.a
+packagefile util/list=/home/user/koros/build/b030/_pkg_.a
+packagefile 기억공간관리자=/home/user/koros/build/b021/_pkg_.a
+packagefile 단말기=/home/user/koros/build/b019/_pkg_.a
+packagefile 작업관리자=/home/user/koros/build/b020/_pkg_.a
+packagefile 작업관리자/thread=/home/user/koros/build/b031/_pkg_.a
+packagefile 작업관리자/tss=/home/user/koros/build/b032/_pkg_.a

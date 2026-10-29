@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	Kind_VALORE	기능에따른뜻	적용위치
+open	aperto_File	FUNZIONE_VALORE	이름으로 파일을 열어 서술자를 얻는다	File_ABI.h
+creat	Crea_File	FUNZIONE_VALORE	Scrittura 전용 generare 또는 Contenuto_VALORE liquidare_Sommario	File_ABI.h
+read	파일자료읽기	FUNZIONE_VALORE	열린 대상에서 byte_VALORE 자료를 읽는다	File_ABI.h
+write	scrivere_File_dati	FUNZIONE_VALORE	열린 대상에 byte_VALORE 자료를 쓴다	File_ABI.h
+close	Chiudi_File	FUNZIONE_VALORE	서술자의 열린 참조를 해제한다	File_ABI.h
+lseek	cercare_File	FUNZIONE_VALORE	열린 파일의 I_O 위치를 옮긴다	File_ABI.h
+dup	Duplica_File_descrittore	FUNZIONE_VALORE	같은 열린 file 상태를 가리키는 서술자를 만든다	File_ABI.h
+dup2	파일서술자지정복제	FUNZIONE_VALORE	지정한 descrittore_voce 번호에 열린 상태를 연결한다	File_ABI.h
+unlink	rimuovere_File_voce_nome	FUNZIONE_VALORE	Nome 연결을 없애고 열린 자료의 수명은 유지한다	File_ABI.h
+ftruncate	set_File_durata	FUNZIONE_VALORE	열린 파일의 byte_VALORE 길이를 정한다	File_ABI.h
+fstat	파일상태읽기	FUNZIONE_VALORE	열린 대상의 Kind_VALORE Dimensione 링크 numero 등을 읽는다	File_ABI.h
+fsync	commit_File	FUNZIONE_VALORE	Store_VALORE 매체에 Regolari_articolo file 상태를 반영한다	File_ABI.h
+fcntl	controllo_File_descrittore	FUNZIONE_VALORE	서술자별 설정과 공유 Apri 설정을 다룬다	File_ABI.h
+socket	Crea_endpoint	FUNZIONE_VALORE	자료전문을 주고받을 논리적 끝점을 만든다	rete_ABI.h
+bind	BIND_e_mail	FUNZIONE_VALORE	종단점에 locale_Scope 주소와 접속번호를 묶는다	rete_ABI.h
+sendto	inviare_datagramma_dati	FUNZIONE_VALORE	지정한 상대에게 datagramma 하나를 보낸다	rete_ABI.h
+recvfrom	ricevere_datagramma_dati	FUNZIONE_VALORE	datagramma 하나와 보낸 주소를 받는다	rete_ABI.h
+getsockname	통신주소읽기	FUNZIONE_VALORE	locale_Scope 종단점의 Regolari_articolo 주소를 읽는다	rete_ABI.h
+setsockopt	cambiare_rete_Impostazioni	FUNZIONE_VALORE	지원하는 ricevere_VALORE aspetta_VALORE 설정을 바꾼다	rete_ABI.h
+inet_pton	analizzare_ID_rete	FUNZIONE_VALORE	cifra_VALORE e_mail 문자열을 valore_di_contratto 바이트로 해석한다	rete_ABI.h
+inet_ntop	formato_ID_rete	FUNZIONE_VALORE	valore_di_contratto 주소를 사람이 읽는 문자열로 표기한다	rete_ABI.h
+htons	망차례짧은수	FUNZIONE_VALORE	16비트 값을 망의 byte_VALORE 차례로 바꾼다	rete_ABI.h
+htonl	rete_intero	FUNZIONE_VALORE	32비트 값을 망의 byte_VALORE 차례로 바꾼다	rete_ABI.h
+ntohs	장치차례짧은수	FUNZIONE_VALORE	16비트 값을 Esegui_comando 장치의 byte_VALORE 차례로 바꾼다	rete_ABI.h
+ntohl	cellulare_ordine_intero	FUNZIONE_VALORE	32비트 값을 Esegui_comando 장치의 byte_VALORE 차례로 바꾼다	rete_ABI.h
+errno	numero_errore	variabile_VALORE	실패한 C 호출의 양수 errore INDICE	errno.h
+fd	File_descrittore	variabile_VALORE	Processi_VALORE 안의 열린 대상을 식별하는 intero	File_I_O.c
+count	byte_CONTA_NUMERI	variabile_VALORE	dati 전송량의 단위가 바이트임을 드러낸다	File_I_O.c
+offset	SCARTO_VALORE	variabile_VALORE	azione_radice 위치에 더할 Codifica_VALORE 있는 거리	File_I_O.c
+flags	aperto_Impostazioni	variabile_VALORE	file accesso_voce 방식과 Apri Azione	File_I_O.c
+mode	concessione_privilegio	variabile_VALORE	generare 파일에 기록할 concessione_privilegio bit_VALORE	File_I_O.c
+timeout	수신대기밀리초	variabile_VALORE	ricevere_VALORE aspetta_VALORE 시간의 단위를 명시한다	File_descrittore_manager.java
+창구들	접속번호들	variabile_VALORE	UDP 종단점에 배정한 numero_elenco	rete_Pila.java
+통신장치.hardware_porta	rete_driver.입출력기준주소	variabile_VALORE	NIC의 CPU I_O e_mail e_mail_area azione_radice	rete_driver.java
+generation	generazione_numero	variabile_VALORE	성공한 Store_VALORE 시점의 ordine_VALORE	파일보존.java
+포트읽기	입출력바이트읽기	FUNZIONE_VALORE	CPU I_O 주소에서 한 바이트를 읽는다	cellulare_VALORE.java
+포트쓰기	입출력바이트쓰기	FUNZIONE_VALORE	CPU I_O 주소에 한 바이트를 쓴다	cellulare_VALORE.java
+포트정수읽기	입출력정수읽기	FUNZIONE_VALORE	CPU I_O 주소에서 32비트를 읽는다	cellulare_VALORE.java
+포트정수쓰기	입출력정수쓰기	FUNZIONE_VALORE	CPU I_O 주소에 32비트를 쓴다	cellulare_VALORE.java
+포트짧은쓰기	입출력짧은수쓰기	FUNZIONE_VALORE	CPU I_O 주소에 16비트를 쓴다	cellulare_VALORE.java
+메모리파일.java	Memoria_file_system.java	file·formato_VALORE	주기억 내 file 자료와 이름을 관리한다	os/codiceSorgente
+통신장치.java	rete_driver.java	file·formato_VALORE	PCI 망장치를 찾아 초기화하고 송수신한다	os/codiceSorgente
+file I/O	File_I_O.c	file	C 호출과 kernel_VALORE File_descrittore 호출의 limite_VALORE	posix-kor/codiceSorgente/implementazione
+socket interface	socket_endpoint.c	file	C 소켓과 kernel_VALORE 자료전문 기능의 limite_VALORE	posix-kor/codiceSorgente/implementazione
+syscall bridge	sistema_operativo_Chiamate.s	file	C 호출 규약과 kernel_VALORE 레지스터 규약의 limite_VALORE	posix-kor/computer
+startup	START_USER_app.s	file	spazio_utente 진입점에서 C main을 시작한다	posix-kor/computer

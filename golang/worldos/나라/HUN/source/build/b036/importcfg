@@ -1,0 +1,5 @@
+# import config
+packagefile konzol=/home/user/.cache/go-build/16/1620c5f7bb6184ed24dbf58f18c3233f78b6debbb3032b2ffabddd56e874df53-d
+packagefile megszakítás=/home/user/worldos/나라/HUN/소스/build/b007/_pkg_.a
+packagefile port=/home/user/.cache/go-build/fd/fda6d52a3b466d7d6f9dc66a7429d17d2fced696600ab4c6cb9e599c71b0fa0c-d
+packagefile runtime/cgo=/home/user/worldos/나라/HUN/소스/build/b000/_pkg_.a

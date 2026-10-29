@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Затваряне
+SYS_exit	SYS__exit
+SYS_open	SYS_Отваряне
+SYS_read	SYS_Четене
+SYS_write	SYS_Писане
+close	Затваряне
+open	Отваряне
+read	Четене
+write	Писане

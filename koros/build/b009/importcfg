@@ -1,0 +1,3 @@
+# import config
+packagefile runtime/internal/atomic=/home/user/koros/build/b010/_pkg_.a
+packagefile runtime/internal/sys=/home/user/koros/build/b011/_pkg_.a

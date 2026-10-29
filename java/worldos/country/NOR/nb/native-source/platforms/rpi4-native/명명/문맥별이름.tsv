@@ -1,0 +1,8 @@
+Fil	이전이름	최종이름	쓰임
+C_kompilator/Kjør_2.c	h	kjørbar_fil_Topptekst	ELF Topptekst_VERDI
+maskin/bruker.c	h	kjørbar_fil_Topptekst	ELF bekrefte_5fb2b747·적재 Topptekst_VERDI
+maskin/bruker.h	x	register_data	ARM64 x0..x30 Store_VERDI MATRISE_VERDI
+maskin/Tavle.c	h	열여섯진숫자	진수 KONVERTER_VERDI 문자표
+bruker/자바/자바가상기계.java 화면호출	w h	너비 높이	skjermbilde 치수
+Verktøy/*.py	root	rot_bane	Fil 계층의 speile_rot Sti
+maskin/Terminal.c	w	vindu_oppføring	Terminal Vindu status_VERDI peker

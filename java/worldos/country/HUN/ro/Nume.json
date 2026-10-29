@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Acțiuni",
+    "identifier": "Acțiuni",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "Argumente",
+    "identifier": "Argumente",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "buton",
+    "identifier": "buton",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "alegeți...",
+    "identifier": "alegeți",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Clasa",
+    "identifier": "Clasa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Închide",
+    "identifier": "Închide",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Comandă",
+    "identifier": "Comandă",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Conectează",
+    "identifier": "Conectează",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "Curentă",
+    "identifier": "Curentă",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Director",
+    "identifier": "Director",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "eroare",
+    "identifier": "eroare",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Eveniment",
+    "identifier": "Eveniment",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Execută",
+    "identifier": "Execută",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Fișier",
+    "identifier": "Fișier",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Cheie",
+    "identifier": "Cheie",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Etichetă",
+    "identifier": "Etichetă",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "Linie",
+    "identifier": "Linie",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/katebacktracebrowserplugin.mo",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Încărcare",
+    "identifier": "Încărcare",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Mod",
+    "identifier": "Mod",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Nume",
+    "identifier": "Nume",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Deschide",
+    "identifier": "Deschide",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "Rezultat",
+    "identifier": "Rezultat",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/katebuild-plugin.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "Panou",
+    "identifier": "Panou",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "Cale",
+    "identifier": "Cale",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Poziție",
+    "identifier": "Poziție",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Proces",
+    "identifier": "Proces",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "Citi_re",
+    "identifier": "Citire",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Elimină",
+    "identifier": "Elimină",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Pornește",
+    "identifier": "Pornește",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Salvează",
+    "identifier": "Salvează",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Setări",
+    "identifier": "Setări",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Mărime",
+    "identifier": "Mărime",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "SURSĂ",
+    "identifier": "SURSĂ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "Oprește",
+    "identifier": "Oprește",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminal",
+    "identifier": "terminal",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "text",
+    "identifier": "text",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "Bară cu _unelte",
+    "identifier": "Bară_cu_unelte",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Fereastră",
+    "identifier": "Fereastră",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Scriere",
+    "identifier": "Scriere",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ro/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

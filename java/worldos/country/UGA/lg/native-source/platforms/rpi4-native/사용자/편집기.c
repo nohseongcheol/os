@@ -1,0 +1,126 @@
+/* vi-style UTF-8 editor, a protected EL0 program using only JKOROS syscalls. */
+#include "호출.h"
+#include "파일규약.h"
+#define 편집용량 16384
+static unsigned char Bigambo[편집용량],되돌림자료[편집용량],복사자료[편집용량],결과자료[1024];
+static int 길이,자리값,맨위,왼쪽,변경됨,끼워넣기,되돌림길이,위쪽,되돌림변경,되돌림있음,복사길이,사용량,열수=68,행수=19;
+static char 파일이름[64],Mulimu[128],찾기[128];
+static const char *알림문="NORMAL  i:insert  :w:save  :q:quit";
+static unsigned 대기누름;
+static int 안내분류,상태그림,상태열;
+static void 출력비우기(void){if(사용량){사용자호출(1,1,(uintptr_t)결과자료,사용량,0,0,0);사용량=0;}}
+static void 바이트값(unsigned 문자값){if(상태그림){if((문자값&192)!=128){상태열+=문자값>=196?2:1;}if(상태열>=열수)return;}if(사용량==(int)sizeof(결과자료))출력비우기();결과자료[사용량++]=문자값;}
+static void 글내보내기(const char *문자열값){while(*문자열값)바이트값((unsigned char)*문자열값++);}
+static void 수치(unsigned 개수){char 둘째값[12];int 순번=0;do{둘째값[순번++]='0'+개수%10;개수/=10;}while(개수);while(순번)바이트값(둘째값[--순번]);}
+static void 이동(int 행위치,int 열위치){글내보내기("\033[");수치(행위치);바이트값(';');수치(열위치);바이트값('H');}
+static int 이전항목(int 자료위치){if(자료위치){자료위치--;while(자료위치>0&&(Bigambo[자료위치]&192)==128)자료위치--;}return 자료위치;}
+static int 다음(int 자료위치){if(자료위치<길이){자료위치++;while(자료위치<길이&&(Bigambo[자료위치]&192)==128)자료위치++;}return 자료위치;}
+static int Tandika(int 자료위치){while(자료위치>0&&Bigambo[자료위치-1]!='\n')자료위치--;return 자료위치;}
+static int 끝위치(int 자료위치){while(자료위치<길이&&Bigambo[자료위치]!='\n')자료위치++;return 자료위치;}
+static int 너비(unsigned 문자값){return 문자값>=196?2:1;}
+static int 열계산(int 자료위치){int 문자값=0;for(int 순번=Tandika(자료위치);순번<자료위치;순번=다음(순번))문자값+=Bigambo[순번]=='\t'?4-문자값%4:너비(Bigambo[순번]);return 문자값;}
+static void 되돌림저장(void){for(int 순번=0;순번<길이;순번++)되돌림자료[순번]=Bigambo[순번];되돌림길이=길이;위쪽=자리값;되돌림변경=변경됨;되돌림있음=1;}
+static void 바이트지우기(int 출발위치,int 도착위치){되돌림저장();for(int 순번=도착위치;순번<길이;순번++)Bigambo[출발위치+순번-도착위치]=Bigambo[순번];길이-=도착위치-출발위치;자리값=출발위치;변경됨=1;}
+static int 덧붙이기(const unsigned char *문자열값,int 개수){if(개수>편집용량-길이){알림문="File full (16384 bytes)";return 0;}되돌림저장();for(int 순번=길이-1;순번>=자리값;순번--)Bigambo[순번+개수]=Bigambo[순번];for(int 순번=0;순번<개수;순번++)Bigambo[자리값+순번]=문자열값[순번];길이+=개수;자리값+=개수;변경됨=1;return 1;}
+static void 세로이동(int 차이){int 열위치=열계산(자리값),자료위치=Tandika(자리값);if(차이<0){if(!자료위치)return;자료위치=Tandika(자료위치-1);}else{자료위치=끝위치(자료위치);if(자료위치==길이)return;자료위치++;}int 문자값=0;while(자료위치<길이&&Bigambo[자료위치]!='\n'&&문자값<열위치){문자값+=Bigambo[자료위치]=='\t'?4-문자값%4:너비(Bigambo[자료위치]);자료위치=다음(자료위치);}자리값=자료위치;}
+static void 화면그리기(void){
+    if(자리값>길이)자리값=길이;if(맨위>자리값)맨위=Tandika(자리값);맨위=Tandika(맨위);
+    int 행위치=0;for(int 순번=맨위;순번<자리값;순번++)if(Bigambo[순번]=='\n')행위치++;
+    while(행위치>=행수-1){맨위=끝위치(맨위);if(맨위<길이)맨위++;행위치--;}
+    int 열위치=열계산(자리값);if(열위치<왼쪽)왼쪽=열위치;if(열위치-왼쪽>=열수-1)왼쪽=열위치-열수+2;
+    글내보내기("\033[?25l");int 자료위치=맨위;
+    for(int 반환값=0;반환값<행수-1;반환값++){
+        이동(반환값+1,1);글내보내기("\033[0m\033[2K");int 문자값=0,그려진상태=0;
+        if(자료위치>=길이&&반환값>행위치){글내보내기("\033[90m~\033[0m");continue;}
+        while(자료위치<길이&&Bigambo[자료위치]!='\n'){
+            int 다음위치=다음(자료위치),너비값=Bigambo[자료위치]=='\t'?4-문자값%4:너비(Bigambo[자료위치]);
+            if(문자값>=왼쪽&&문자값-왼쪽+너비값<열수){
+                if(Bigambo[자료위치]=='\t'){for(int 안쪽순번=0;안쪽순번<너비값;안쪽순번++)바이트값(' ');}else if(Bigambo[자료위치]<32||Bigambo[자료위치]==127){바이트값('?');}else for(int 안쪽순번=자료위치;안쪽순번<다음위치;안쪽순번++)바이트값(Bigambo[안쪽순번]);그려진상태+=너비값;
+            }문자값+=너비값;자료위치=다음위치;
+        }
+        (void)그려진상태;if(자료위치<길이)자료위치++;
+    }
+    이동(행수,1);글내보내기("\033[7m\033[2K");상태그림=1;상태열=0;글내보내기(끼워넣기?"INSERT ":"NORMAL ");
+    int 이름바이트수=0;while(파일이름[이름바이트수]&&이름바이트수<30)바이트값(파일이름[이름바이트수++]);글내보내기(변경됨?" [+] ":" ");
+    글내보내기("L");int 줄=1;for(int 순번=0;순번<자리값;순번++)if(Bigambo[순번]=='\n')줄++;수치(줄);글내보내기(" ");
+    // A second status is printed only when it fits; command/message is ASCII.
+    if(알림문){int 개수=0;글내보내기(" | ");while(알림문[개수]&&개수<20)바이트값(알림문[개수++]);}
+    상태그림=0;글내보내기("\033[0m");이동(행위치+1,열위치-왼쪽+1);글내보내기("\033[?25h");출력비우기();
+}
+static int 누름값(void){
+    if(대기누름){int 셋째순번=대기누름;대기누름=0;return 셋째순번;}
+    for(;;){
+        int 셋째순번=사용자호출(16,1,0,0,0,0,0);
+        unsigned Bunene=사용자호출(16,3,0,0,0,0,0);
+        if(열수!=(int)(Bunene&65535)||행수!=(int)(Bunene>>16)){
+            열수=Bunene&65535;행수=Bunene>>16;화면그리기();
+            if(안내분류){이동(행수,1);글내보내기("\033[0m\033[2K");바이트값(안내분류);글내보내기(Mulimu);출력비우기();}
+        }
+        if(셋째순번>=0)return 셋째순번;
+    }
+}
+static int 탈출됨(void){
+    unsigned 현재위치=사용자호출(7,0,0,0,0,0,0);int 셋째순번=-1;
+    while((unsigned)사용자호출(7,0,0,0,0,0,0)-현재위치<100){셋째순번=사용자호출(16,1,0,0,0,0,0);if(셋째순번>=0)break;}
+    if(셋째순번<0)return 27;if(셋째순번!='['&&셋째순번!='O'){대기누름=셋째순번;return 27;}
+    int 개수=0;for(int 순번=0;순번<12;순번++){셋째순번=누름값();if(셋째순번>='0'&&셋째순번<='9'){개수=개수*10+셋째순번-'0';continue;}if(셋째순번=='A')return 1001;if(셋째순번=='B')return 1002;if(셋째순번=='C')return 1003;if(셋째순번=='D')return 1004;if(셋째순번=='H')return 1005;if(셋째순번=='F')return 1006;if(셋째순번=='~')return 개수==3?1007:개수==5?1008:개수==6?1009:개수==1?1005:개수==4?1006:27;return 27;}return 27;
+}
+static int 저장(void){
+    int 파일기술자=파일열기(파일이름,읽고쓰기|없으면만들기|내용비우기,0600);if(파일기술자<0){알림문="Cannot open for save";return 0;}
+    intptr_t 개수=파일자료쓰기(파일기술자,Bigambo,길이);파일닫기(파일기술자);if(개수!=길이){알림문="Write failed";return 0;}변경됨=0;알림문="Saved (RAM)";return 1;
+}
+static int 같은지(const char *첫째값,const char *둘째값){while(*첫째값&&*첫째값==*둘째값){첫째값++;둘째값++;}return *첫째값==*둘째값;}
+static void 다음찾기(void){int 개수=0;while(찾기[개수])개수++;if(!개수){알림문="No search pattern";return;}for(int 순번=1;순번<=길이;순번++){int 자료위치=(자리값+순번)%(길이?길이:1),안쪽순번=0;while(안쪽순번<개수&&자료위치+안쪽순번<길이&&Bigambo[자료위치+안쪽순번]==(unsigned char)찾기[안쪽순번])안쪽순번++;if(안쪽순번==개수){자리값=자료위치;알림문="Match";return;}}알림문="Pattern not found";}
+static int 안내문(int 분류){
+    int 개수=0;Mulimu[0]=0;
+    for(;;){이동(행수,1);글내보내기("\033[0m\033[2K");바이트값(분류);글내보내기(Mulimu);출력비우기();안내분류=분류;int 셋째순번=누름값();안내분류=0;
+        if(셋째순번==27||셋째순번==3)return 0;if(셋째순번==13||셋째순번==10)break;
+        if(셋째순번==127||셋째순번==8){if(개수){개수--;while(개수>0&&((unsigned char)Mulimu[개수]&192)==128)개수--;Mulimu[개수]=0;}continue;}
+        if(셋째순번>=32&&셋째순번<256&&개수<120){Mulimu[개수++]=셋째순번;Mulimu[개수]=0;}
+    }
+    if(분류=='/'){for(int 순번=0;순번<=개수;순번++)찾기[순번]=Mulimu[순번];다음찾기();return 0;}
+    if(같은지(Mulimu,"q!"))return 1;
+    if(같은지(Mulimu,"q")){if(!변경됨)return 1;알림문="Unsaved: :w or :q!";return 0;}
+    if(같은지(Mulimu,"wq")||같은지(Mulimu,"x"))return 저장();
+    if(같은지(Mulimu,"w")){저장();return 0;}
+    if(Mulimu[0]=='w'&&Mulimu[1]==' '){int 순번=2;while(Mulimu[순번]==' ')순번++;int Bunene=개수-순번;if(Bunene<1||Bunene>63){알림문="Invalid file name";return 0;}for(int 안쪽순번=0;안쪽순번<Bunene;안쪽순번++)파일이름[안쪽순번]=Mulimu[순번+안쪽순번];파일이름[Bunene]=0;저장();return 0;}
+    int 줄=0;for(int 순번=0;순번<개수;순번++){if(Mulimu[순번]<'0'||Mulimu[순번]>'9'){줄=0;break;}줄=줄*10+Mulimu[순번]-'0';if(줄>16384){줄=0;break;}}
+    if(줄){자리값=0;while(--줄&&자리값<길이){자리값=끝위치(자리값);if(자리값<길이)자리값++;}return 0;}
+    알림문="Unknown vi command";return 0;
+}
+int 사용자시작(int 무시값){
+    (void)무시값;if(사용자인수개수()!=1||사용자인수(0,파일이름,sizeof(파일이름))<0){글내보내기("Usage: vi FILE\n");출력비우기();return 2;}
+    int 파일기술자=파일열기(파일이름,읽기전용,0);
+    if(파일기술자>=0){int 개수=파일크기(파일기술자);if(개수<0||개수>편집용량){파일닫기(파일기술자);return 1;}길이=파일자료읽기(파일기술자,Bigambo,개수);파일닫기(파일기술자);if(길이!=개수)return 1;for(int 순번=0;순번<길이;순번++)if(!Bigambo[순번]){글내보내기("vi: NUL byte in text file\n");출력비우기();return 1;}}
+    else if(오류번호!=2){글내보내기("vi: cannot read file\n");출력비우기();return 1;}
+    int 흐린색=사용자호출(16,0,0,0,0,0,0);if(흐린색<0){글내보내기("vi: use a standalone interactive command\n");출력비우기();return 1;}열수=흐린색&65535;행수=(unsigned)흐린색>>16;
+    글내보내기("\033[2J\033[H");출력비우기();
+    int 앞부분=0,끝내기=0;
+    while(!끝내기){화면그리기();int 셋째순번=누름값();if(셋째순번==27)셋째순번=탈출됨();알림문=0;
+        if(셋째순번==1001){세로이동(-1);continue;}if(셋째순번==1002){세로이동(1);continue;}if(셋째순번==1003){자리값=다음(자리값);continue;}if(셋째순번==1004){자리값=이전항목(자리값);continue;}
+        if(셋째순번==1005){자리값=Tandika(자리값);continue;}if(셋째순번==1006){자리값=끝위치(자리값);continue;}
+        if(셋째순번==1008||셋째순번==1009){for(int 순번=0;순번<행수-2;순번++)세로이동(셋째순번==1008?-1:1);continue;}
+        if(끼워넣기){
+            if(셋째순번==27||셋째순번==3){끼워넣기=0;continue;}
+            if(셋째순번==127||셋째순번==8){if(자리값)바이트지우기(이전항목(자리값),자리값);continue;}
+            if(셋째순번==1007){if(자리값<길이)바이트지우기(자리값,다음(자리값));continue;}
+            if(셋째순번==13)셋째순번=10;if(셋째순번==10||셋째순번==9||(셋째순번>=32&&셋째순번<256)){
+                unsigned char 둘째값[4];둘째값[0]=셋째순번;int 개수=셋째순번<128?1:셋째순번>=0xc2&&셋째순번<0xe0?2:셋째순번<0xf0?3:셋째순번<=0xf4?4:0;
+                if(!개수){알림문="Invalid UTF-8";continue;}int 유효함=1;for(int 순번=1;순번<개수;순번++){int 문자값=누름값();if(문자값<128||문자값>191){대기누름=문자값;유효함=0;break;}둘째값[순번]=문자값;}
+                if(유효함)덧붙이기(둘째값,개수);
+            }continue;
+        }
+        if(앞부분){int 자료위치=앞부분;앞부분=0;if(자료위치=='g'&&셋째순번=='g'){자리값=0;continue;}if(자료위치=='Z'&&셋째순번=='Z'){끝내기=저장();continue;}if((자료위치=='d'&&셋째순번=='d')||(자료위치=='y'&&셋째순번=='y')){int 첫째값=Tandika(자리값),둘째값=끝위치(자리값);if(둘째값<길이)둘째값++;복사길이=둘째값-첫째값;for(int 순번=0;순번<복사길이;순번++)복사자료[순번]=Bigambo[첫째값+순번];if(자료위치=='d')바이트지우기(첫째값,둘째값);continue;}}
+        if(셋째순번=='i'){끼워넣기=1;continue;}if(셋째순번=='a'){if(자리값<끝위치(자리값))자리값=다음(자리값);끼워넣기=1;continue;}
+        if(셋째순번=='I'){자리값=Tandika(자리값);끼워넣기=1;continue;}if(셋째순번=='A'){자리값=끝위치(자리값);끼워넣기=1;continue;}
+        if(셋째순번=='o'||셋째순번=='O'){unsigned char 줄끝='\n';자리값=셋째순번=='o'?끝위치(자리값):Tandika(자리값);if(덧붙이기(&줄끝,1)){if(셋째순번=='O')자리값--;끼워넣기=1;}continue;}
+        if(셋째순번=='h'){자리값=이전항목(자리값);continue;}if(셋째순번=='l'){자리값=다음(자리값);continue;}if(셋째순번=='j'){세로이동(1);continue;}if(셋째순번=='k'){세로이동(-1);continue;}
+        if(셋째순번=='0'){자리값=Tandika(자리값);continue;}if(셋째순번=='$'){자리값=끝위치(자리값);continue;}if(셋째순번=='G'){자리값=Tandika(길이);continue;}
+        if(셋째순번=='g'||셋째순번=='d'||셋째순번=='y'||셋째순번=='Z'){앞부분=셋째순번;continue;}
+        if(셋째순번=='x'||셋째순번==1007){if(자리값<길이)바이트지우기(자리값,다음(자리값));continue;}
+        if(셋째순번=='p'&&복사길이){자리값=끝위치(자리값);if(자리값<길이)자리값++;덧붙이기(복사자료,복사길이);continue;}
+        if(셋째순번=='u'&&되돌림있음){for(int 순번=0;순번<편집용량;순번++){unsigned char 둘째값=Bigambo[순번];Bigambo[순번]=되돌림자료[순번];되돌림자료[순번]=둘째값;}int 개수=길이;길이=되돌림길이;되돌림길이=개수;개수=자리값;자리값=위쪽;위쪽=개수;개수=변경됨;변경됨=되돌림변경;되돌림변경=개수;continue;}
+        if(셋째순번==':'||셋째순번=='/'){끝내기=안내문(셋째순번);continue;}if(셋째순번=='n'){다음찾기();continue;}
+    }
+    글내보내기("\033[0m\033[?25h\033[2J\033[H");출력비우기();사용자호출(16,2,0,0,0,0,0);return 0;
+}

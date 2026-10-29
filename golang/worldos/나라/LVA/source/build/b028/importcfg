@@ -1,0 +1,7 @@
+# import config
+packagefile atmiņamanager=/home/user/worldos/나라/LVA/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/c4/c47f0c987c300933bf848bc516be2311c9a243681f6e7839e63fc2befa81eaf0-d
+packagefile driver/ata=/home/user/worldos/나라/LVA/소스/build/b005/_pkg_.a
+packagefile failsSistēma/msdospartition=/home/user/worldos/나라/LVA/소스/build/b029/_pkg_.a
+packagefile util=/home/user/.cache/go-build/d6/d6cce437742ac4319f3dbd302453cc430ceb3748e9455473377b191b3d906075-d
+packagefile runtime/cgo=/home/user/worldos/나라/LVA/소스/build/b000/_pkg_.a

@@ -1,0 +1,4 @@
+# import config
+packagefile errors=/home/user/koros/build/b013/_pkg_.a
+packagefile math=/home/user/koros/build/b008/_pkg_.a
+packagefile unicode/utf8=/home/user/koros/build/b014/_pkg_.a

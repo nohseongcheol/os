@@ -1,0 +1,6 @@
+# import config
+packagefile bağlantıNoktası=/home/user/.cache/go-build/97/97157ae7d61daa24c4dc8a5a0f8e7f6ad4c6de47b0e72549de53c57f30c9c022-d
+packagefile driver/driver=/home/user/.cache/go-build/66/66eeb2ac4b2f2274515ac030c16578c528878d3870711deecac8ea9aefd7a36c-d
+packagefile kesme=/home/user/worldos/나라/TUR/소스/build/b024/_pkg_.a
+packagefile konsol=/home/user/.cache/go-build/bd/bd1c472d18dd402cc7450b0cba8a8d7fa4df6c2f0998b64c902b2b64ee9840df-d
+packagefile runtime/cgo=/home/user/worldos/나라/TUR/소스/build/b000/_pkg_.a

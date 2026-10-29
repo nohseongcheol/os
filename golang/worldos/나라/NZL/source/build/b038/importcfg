@@ -1,0 +1,7 @@
+# import config
+packagefile memorymanager=/home/user/worldos/나라/NZL/소스/build/b023/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/NZL/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/NZL/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/d5/d53a2b786a9226db108e92cf7301082ae4f8b16f4c282649ece95c9107b1f939-d
+packagefile util/list=/home/user/worldos/나라/NZL/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/NZL/소스/build/b000/_pkg_.a

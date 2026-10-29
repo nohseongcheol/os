@@ -1,0 +1,7 @@
+# import config
+packagefile 任务管理/线程=/home/user/worldos/나라/CHN/源代码/build/b024/_pkg_.a
+packagefile 任务管理/调度器=/home/user/worldos/나라/CHN/源代码/build/b027/_pkg_.a
+packagefile 内存管理器=/home/user/worldos/나라/CHN/源代码/build/b020/_pkg_.a
+packagefile 工具=/home/user/worldos/나라/CHN/源代码/build/b030/_pkg_.a
+packagefile 工具/列表=/home/user/worldos/나라/CHN/源代码/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHN/源代码/build/b000/_pkg_.a

@@ -1,0 +1,12 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/e2/e225b87c83aecd932cc3d5dca88970a31aa5c7a4b08b1e85ce277e5428e414f4-d
+packagefile konzol=/home/user/.cache/go-build/16/1620c5f7bb6184ed24dbf58f18c3233f78b6debbb3032b2ffabddd56e874df53-d
+packagefile megszakítás=/home/user/worldos/나라/HUN/소스/build/b007/_pkg_.a
+packagefile memóriamanager=/home/user/worldos/나라/HUN/소스/build/b022/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/HUN/소스/build/b021/_pkg_.a
+packagefile port=/home/user/.cache/go-build/fd/fda6d52a3b466d7d6f9dc66a7429d17d2fced696600ab4c6cb9e599c71b0fa0c-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/HUN/소스/build/b030/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/HUN/소스/build/b033/_pkg_.a
+packagefile util/lista=/home/user/worldos/나라/HUN/소스/build/b034/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/HUN/소스/build/b000/_pkg_.a

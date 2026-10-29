@@ -1,0 +1,2 @@
+Unmodified MicroPython v1.24.1 lib/uzlib. License notices in each source file.
+Archive pinned in ../micropython-1.24.1.tar.gz.sha256

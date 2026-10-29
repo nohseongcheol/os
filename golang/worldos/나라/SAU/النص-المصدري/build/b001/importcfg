@@ -1,0 +1,25 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/07/071031a0ca4431db1992eca9cfd9da8ec4a4e3fccb5df86ae11ae75a0592dc22-d
+packagefile pci=/home/user/worldos/나라/SAU/소스/build/b017/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile أداة=/home/user/.cache/go-build/24/24e9d4b2ab8ac5bac018b77fa9cb1968406a3140d15dd17926824b6d4a5b7685-d
+packagefile إدارةصفحات=/home/user/worldos/나라/SAU/소스/build/b024/_pkg_.a
+packagefile إدارةمهام/tss=/home/user/worldos/나라/SAU/소스/build/b025/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/SAU/소스/build/b026/_pkg_.a
+packagefile إدارةمهام/عملية=/home/user/worldos/나라/SAU/소스/build/b029/_pkg_.a
+packagefile إدارةمهام/مجدول=/home/user/worldos/나라/SAU/소스/build/b031/_pkg_.a
+packagefile افتراضيذاكرة=/home/user/worldos/나라/SAU/소스/build/b027/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/SAU/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/47/4731f48ef1567f37d0fb08c445fcaf9572821969a11c2b36cd615f6a3ed0f6f6-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/SAU/소스/build/b020/_pkg_.a
+packagefile مشغل/ata=/home/user/worldos/나라/SAU/소스/build/b032/_pkg_.a
+packagefile مشغل/جهاز_تأشير=/home/user/worldos/나라/SAU/소스/build/b033/_pkg_.a
+packagefile مشغل/لوحةمفاتيح=/home/user/worldos/나라/SAU/소스/build/b034/_pkg_.a
+packagefile مشغل/مشغل=/home/user/.cache/go-build/62/627c2ef6e000ed50669a9adf4ea6ee7f9f797567e768116c9c668dfe31f75731-d
+packagefile مقاطعة=/home/user/worldos/나라/SAU/소스/build/b019/_pkg_.a
+packagefile ملفنظام/fat=/home/user/worldos/나라/SAU/소스/build/b036/_pkg_.a
+packagefile ملفنظام/msdosتجزئة=/home/user/worldos/나라/SAU/소스/build/b037/_pkg_.a
+packagefile ملفنظام/صيغة_التنفيذ_والربط=/home/user/worldos/나라/SAU/소스/build/b038/_pkg_.a
+packagefile نظامنداء=/home/user/worldos/나라/SAU/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SAU/소스/build/b000/_pkg_.a

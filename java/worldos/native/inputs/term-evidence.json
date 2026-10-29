@@ -1,0 +1,32 @@
+{
+  "ko": [
+    {
+      "lexeme": "쌓다",
+      "role": "자료쌓개·계산쌓개: 마지막에 쌓은 값을 먼저 꺼내는 자료 구조",
+      "reference": "https://krdict.korean.go.kr/kor/dicSearch/SearchView?ParaWordNo=62095",
+      "verified": "dictionary meaning",
+      "historical_etymology": "not asserted",
+      "compound_status": "project functional proposal"
+    }
+  ],
+  "en": [
+    {
+      "lexeme": "compile",
+      "role": "AheadOfTimeCompiler: translate class files before kernel execution",
+      "reference": "https://www.merriam-webster.com/dictionary/compile",
+      "verified": "dictionary meaning and word history",
+      "historical_etymology": "Middle English via Anglo-French compiler and Latin compilare",
+      "compound_status": "modern project name; not an ancient computing term"
+    }
+  ],
+  "de": [
+    {
+      "lexeme": "Faden",
+      "role": "Arbeitsfaden: separately scheduled execution sequence",
+      "reference": "https://www.duden.de/rechtschreibung/Faden",
+      "verified": "dictionary meaning and word history",
+      "historical_etymology": "Middle High German vaden/vadem; Old High German fadum",
+      "compound_status": "project functional proposal"
+    }
+  ]
+}

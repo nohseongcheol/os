@@ -1,0 +1,5 @@
+# WorldOS ROU UTF-8 command file
+echo "WorldOS ROU"
+help
+pwd
+pid

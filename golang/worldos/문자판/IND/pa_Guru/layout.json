@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/pa_Guru",
+  "language": "pa_Guru",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

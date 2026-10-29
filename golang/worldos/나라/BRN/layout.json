@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "BRN",
+  "language": "ms_Latn",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

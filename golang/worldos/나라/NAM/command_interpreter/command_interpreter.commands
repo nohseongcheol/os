@@ -1,0 +1,5 @@
+# WorldOS NAM UTF-8 command file
+print_arguments "WorldOS NAM"
+show_help
+show_working_directory
+show_process_identifiers

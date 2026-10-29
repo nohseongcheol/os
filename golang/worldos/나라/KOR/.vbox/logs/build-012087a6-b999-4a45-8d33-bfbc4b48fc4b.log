@@ -1,0 +1,268 @@
+$ make -C /home/user/golang/worldos/나라/KOR shell
+make[2]: 디렉터리 '/home/user/golang/worldos/나라/KOR' 들어감
+make -C "명령해석기" all
+make[3]: 디렉터리 '/home/user/golang/worldos/나라/KOR/명령해석기' 들어감
+python3 shell_build.py build
+make[4]: 디렉터리 '/home/user/golang/worldos/나라/KOR/posix-KOR' 들어감
+python3 posix_build.py build
+make[5]: 디렉터리 '/home/user/golang/worldos/나라/KOR/posix-KOR/build/posix-stage-2kco40jo' 들어감
+mkdir -p build
+cc -m32 -c src/syscall.S -o build/syscall.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/errno.c -o build/errno.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/unistd.c -o build/unistd.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/fcntl.c -o build/fcntl.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/stat.c -o build/stat.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/socket.c -o build/socket.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/string.c -o build/string.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/ctype.c -o build/ctype.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/stdlib.c -o build/stdlib.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/allocation.c -o build/allocation.o
+ar rcs build/libposix.a build/syscall.o build/errno.o build/unistd.o build/fcntl.o build/stat.o build/socket.o build/string.o build/ctype.o build/stdlib.o build/allocation.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/runtime.c -o build/runtime.o
+cc -m32 -c src/crt0.S -o build/crt0.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-runtime build/crt0.o build/runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/exec_target.c -o build/exec-target.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-target build/crt0.o build/exec-target.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/exec_runtime.c -o build/exec-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-runtime build/crt0.o build/exec-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/heap_runtime.c -o build/heap-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-heap-runtime build/crt0.o build/heap-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/fork_runtime.c -o build/fork-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-fork-runtime build/crt0.o build/fork-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/stdin_runtime.c -o build/stdin-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-stdin-runtime build/crt0.o build/stdin-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/socket_runtime.c -o build/socket-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-socket-runtime build/crt0.o build/socket-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c tests/compile.c -o build/compile-test.o
+
+syscall.o:
+
+errno.o:
+
+unistd.o:
+         U __syscall_result
+         U errno
+         U fstat
+
+fcntl.o:
+         U __syscall_result
+
+stat.o:
+         U __syscall_result
+
+socket.o:
+         U __syscall_result
+
+string.o:
+         U malloc
+         U tolower
+
+ctype.o:
+
+stdlib.o:
+         U environ
+         U errno
+         U isalpha
+         U isdigit
+         U isspace
+         U strchr
+         U strlen
+         U strncmp
+         U tolower
+
+allocation.o:
+         U errno
+         U memcpy
+         U memset
+         U sbrk
+make[5]: 디렉터리 '/home/user/golang/worldos/나라/KOR/posix-KOR/build/posix-stage-2kco40jo' 나감
+PASS KOR native POSIX build
+make[4]: 디렉터리 '/home/user/golang/worldos/나라/KOR/posix-KOR' 나감
+PASS KOR build
+make[3]: 디렉터리 '/home/user/golang/worldos/나라/KOR/명령해석기' 나감
+make[2]: 디렉터리 '/home/user/golang/worldos/나라/KOR' 나감
+$ make -B -C /home/user/golang/worldos/나라/KOR/원문 iso
+make[2]: 디렉터리 '/home/user/golang/worldos/나라/KOR/원문' 들어감
+mkdir -p build
+nasm -g -f elf32 -F dwarf -o build/multiboot_header.o 기계시동/다중시동머리부.s
+nasm -g -f elf32 -F dwarf -I 기계시동/ -o build/rt0.o 기계시동/시동.s
+[ld] linking kernel.bin
+ld -n -melf_i386 -T 연결배치.ld -static --no-ld-generated-unwind-info -o build/kernel.bin build/multiboot_header.o build/rt0.o build/go.o
+rm -rf iso
+mkdir -p iso/boot/grub
+cp build/kernel.bin iso/boot/
+echo 'set timeout=0' >> iso/boot/grub/grub.cfg
+echo 'set default=0' >> iso/boot/grub/grub.cfg
+echo '' >> iso/boot/grub/grub.cfg
+echo 'menuentry "worldos KOR" {' >> iso/boot/grub/grub.cfg
+echo 'multiboot2 /boot/kernel.bin' >> iso/boot/grub/grub.cfg
+echo 'boot' >> iso/boot/grub/grub.cfg
+echo '}' >> iso/boot/grub/grub.cfg
+grub-mkrescue --output=build/kernel.iso iso
+xorriso 1.4.8 : RockRidge filesystem manipulator, libburnia project.
+
+Drive current: -outdev 'stdio:build/kernel.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 50.2g free
+Added to ISO image: directory '/'='/tmp/grub.kSJZnX'
+xorriso : UPDATE : 289 files added in 1 seconds
+Added to ISO image: directory '/'='/home/user/golang/worldos/나라/KOR/원문/iso'
+xorriso : UPDATE : 293 files added in 1 seconds
+xorriso : NOTE : Copying to System Area: 512 bytes from file '/usr/lib/grub/i386-pc/boot_hybrid.img'
+ISO image produced: 5583 sectors
+Written to medium : 5583 sectors at LBA 0
+Writing to 'stdio:build/kernel.iso' completed successfully.
+
+rm -rf iso
+make[2]: 디렉터리 '/home/user/golang/worldos/나라/KOR/원문' 나감
+$ VBoxManage list vms
+"gopher-os" {15b62646-6a62-4e59-b2d4-72a03b5aff71}
+"kor operating system" {c520b847-0cc6-4eaa-89a9-895a7298fadb}
+"bare-metal-gopheros" {f2dc1f7d-22b3-4c60-9abd-9c02e80c5404}
+"kor operating system backup" {c6396303-083f-4885-800d-01b31a05f327}
+"eng operating system" {86665778-c49a-431d-9b82-552869b94092}
+"My Operating system" {272a9051-8504-40d3-a3c3-68330a99825c}
+"hangul operating system" {64edff8b-de22-4fc9-afc1-fa0a0ecc05cf}
+"kor2 operating system" {42d6a3f9-a128-4bed-a1f1-9351dde40a3f}
+"jp operating system" {a2ee564c-3cf9-476d-b4f6-3c301aaf4030}
+"kor3 operating system" {ca898e10-5423-4f83-8c0d-34b1cd7966b2}
+"My Operating system all" {6c5f9eb6-4480-4afc-9ce1-a4e6498df189}
+"FS operating system" {ccbcfb83-c91d-4bef-893a-a2021ce8132d}
+"tinycore linux" {c9fad775-db8e-4df4-8f78-5d1667619654}
+"hangeul operating system" {86876e11-6c3a-4d9a-bc06-920061910a60}
+"letsgoos" {06b83f10-32e3-4f66-a8fc-6190aee462ad}
+"boottestos" {6e9942d6-5791-4b13-b9fe-160c0448b21d}
+"koros4 operating system" {5893f57a-3fdf-446b-8f8f-45a1ba67dfe6}
+"jkoros operating system" {3cc695b7-8912-4125-95c0-cf1ab3d68678}
+"worldos KOR" {12edc548-ca02-4c78-bd6e-6ed5850af279}
+$ VBoxManage showvminfo 12edc548-ca02-4c78-bd6e-6ed5850af279 --machinereadable
+name="worldos KOR"
+groups="/"
+ostype="Other/Unknown"
+UUID="12edc548-ca02-4c78-bd6e-6ed5850af279"
+CfgFile="/home/user/golang/worldos/나라/KOR/.vbox/machines/worldos KOR/worldos KOR.vbox"
+SnapFldr="/home/user/golang/worldos/나라/KOR/.vbox/machines/worldos KOR/Snapshots"
+LogFldr="/home/user/golang/worldos/나라/KOR/.vbox/machines/worldos KOR/Logs"
+hardwareuuid="12edc548-ca02-4c78-bd6e-6ed5850af279"
+memory=512
+pagefusion="off"
+vram=16
+cpuexecutioncap=100
+hpet="off"
+chipset="piix3"
+firmware="BIOS"
+cpus=1
+pae="off"
+longmode="off"
+triplefaultreset="off"
+apic="on"
+x2apic="off"
+cpuid-portability-level=0
+bootmenu="messageandmenu"
+boot1="dvd"
+boot2="disk"
+boot3="none"
+boot4="none"
+acpi="on"
+ioapic="off"
+biosapic="apic"
+biossystemtimeoffset=0
+rtcuseutc="off"
+hwvirtex="on"
+nestedpaging="on"
+largepages="off"
+vtxvpid="on"
+vtxux="on"
+paravirtprovider="none"
+effparavirtprovider="none"
+VMState="poweroff"
+VMStateChangeTime="2026-10-03T07:37:46.000000000"
+graphicscontroller="vboxvga"
+monitorcount=1
+accelerate3d="off"
+accelerate2dvideo="off"
+teleporterenabled="off"
+teleporterport=0
+teleporteraddress=""
+teleporterpassword=""
+tracing-enabled="off"
+tracing-allow-vm-access="off"
+tracing-config=""
+autostart-enabled="off"
+autostart-delay=0
+defaultfrontend=""
+storagecontrollername0="IDE"
+storagecontrollertype0="PIIX4"
+storagecontrollerinstance0="0"
+storagecontrollermaxportcount0="2"
+storagecontrollerportcount0="2"
+storagecontrollerbootable0="on"
+"IDE-0-0"="none"
+"IDE-0-1"="/home/user/golang/worldos/나라/KOR/.vbox/machines/worldos KOR/../../media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi"
+"IDE-ImageUUID-0-1"="8a66d974-fa80-463e-b483-5bca60638093"
+"IDE-1-0"="/home/user/golang/worldos/나라/KOR/.vbox/machines/worldos KOR/../../media/kernel-b88077e9b378cb35c7ab219fb28a81f491aff468861bc81c42a68ac95af631a2.iso"
+"IDE-ImageUUID-1-0"="3c3096ee-1145-4821-b5ea-eb2ff832164c"
+"IDE-tempeject"="off"
+"IDE-IsEjected"="off"
+"IDE-1-1"="none"
+natnet1="nat"
+macaddress1="080027003837"
+cableconnected1="on"
+nic1="nat"
+nictype1="Am79C973"
+nicspeed1="0"
+mtu="0"
+sockSnd="64"
+sockRcv="64"
+tcpWndSnd="64"
+tcpWndRcv="64"
+nic2="none"
+nic3="none"
+nic4="none"
+nic5="none"
+nic6="none"
+nic7="none"
+nic8="none"
+hidpointing="ps2mouse"
+hidkeyboard="ps2kbd"
+uart1="0x03f8,4"
+uartmode1="file,/home/user/golang/worldos/나라/KOR/.vbox/logs/serial-e73f7334-0eaa-4f7b-a144-564129a5a561.log"
+uart2="off"
+uart3="off"
+uart4="off"
+lpt1="off"
+lpt2="off"
+audio="pulse"
+audio_in="false"
+audio_out="false"
+clipboard="disabled"
+draganddrop="disabled"
+vrde="off"
+usb="off"
+ehci="off"
+xhci="off"
+videocap="off"
+videocap_audio="off"
+videocapscreens=0
+videocapfile="/home/user/golang/worldos/나라/KOR/.vbox/machines/worldos KOR/worldos KOR.webm"
+videocapres=1024x768
+videocaprate=512
+videocapfps=25
+videocapopts=
+GuestMemoryBalloon=0
+$ VBoxManage getextradata 12edc548-ca02-4c78-bd6e-6ed5850af279 WorldOS/Owner
+Value: 62295285-9732-4491-8922-d6ead29ce61d
+$ VBoxManage modifyvm 12edc548-ca02-4c78-bd6e-6ed5850af279 --memory 512 --cpus 1 --vram 16 --firmware bios --chipset piix3 --ioapic off --pae off --paravirtprovider none --boot1 dvd --boot2 disk --boot3 none --boot4 none
+$ VBoxManage storageattach 12edc548-ca02-4c78-bd6e-6ed5850af279 --storagectl IDE --port 0 --device 1 --type hdd --medium /home/user/golang/worldos/나라/KOR/.vbox/media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi
+VBoxManage: error: Cannot register the hard disk '/home/user/golang/worldos/나라/KOR/.vbox/media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi' {8a66d974-fa80-463e-b483-5bca60638093} because a hard disk '/home/user/golang/worldos/나라/KOR/.vbox/machines/worldos KOR/../../media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi' with UUID {8a66d974-fa80-463e-b483-5bca60638093} already exists
+VBoxManage: error: Details: code NS_ERROR_INVALID_ARG (0x80070057), component VirtualBoxWrap, interface IVirtualBox, callee nsISupports
+VBoxManage: error: Context: "OpenMedium(Bstr(pszFilenameOrUuid).raw(), enmDevType, enmAccessMode, fForceNewUuidOnOpen, pMedium.asOutParam())" at line 179 of file VBoxManageDisk.cpp
+VBoxManage: error: Invalid UUID or filename "/home/user/golang/worldos/나라/KOR/.vbox/media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi"

@@ -1,0 +1,5 @@
+# WorldOS ALA UTF-8 command file
+visa_argument "WorldOS ALA"
+visa_hjälp
+visa_arbetskatalog
+visa_processidentifierare

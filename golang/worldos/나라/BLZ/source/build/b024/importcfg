@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a9/a91c69414d800e34159a2f41cb9fdfb057c40df5faf924a49266af95d7708305-d
+packagefile driver/ata=/home/user/worldos/나라/BLZ/소스/build/b004/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/BLZ/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/BLZ/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/BLZ/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/BLZ/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/BLZ/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/BLZ/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/BLZ/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/7b/7b8b76f1db957087353dbecd0e0040be30ed8d5cdf05b11a240b32a5a48adb13-d
+packagefile tasking/scheduler=/home/user/worldos/나라/BLZ/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/BLZ/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/23/23145dd59d97d4fdd6da78635afdbe430b8d20d3c51d895afe23a0a0c573b47a-d
+packagefile virtualmemory=/home/user/worldos/나라/BLZ/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BLZ/소스/build/b000/_pkg_.a

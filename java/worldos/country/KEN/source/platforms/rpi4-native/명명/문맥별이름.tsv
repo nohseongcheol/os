@@ -1,0 +1,8 @@
+faili	이전이름	최종이름	쓰임
+시언어번역기/endesha.c	h	실행머리	ELF kichwa_thamani
+mashine/mtumiaji.c	h	실행머리	ELF hakikisha·적재 kichwa_thamani
+mashine/mtumiaji.h	x	sajili_data	ARM64 x0..x30 Store_thamani ARRAY_thamani
+mashine/보드.c	h	열여섯진숫자	진수 변환 문자표
+mtumiaji/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Zana/*.py	root	기준경로	faili 계층의 기준 njia
+mashine/터미널.c	w	dirisha_ingizo	터미널 dirisha hali_thamani kielekezi

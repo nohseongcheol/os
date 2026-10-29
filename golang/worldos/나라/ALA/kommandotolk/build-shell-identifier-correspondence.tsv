@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	bygg_kommandotolk
+executable_file	körbar_fil
+include_directory	deklarationskatalog
+library_file	biblioteksfil
+linker_file	länkningsfil
+object_file	objektfil
+source_file	källfil
+startup_object	startobjekt

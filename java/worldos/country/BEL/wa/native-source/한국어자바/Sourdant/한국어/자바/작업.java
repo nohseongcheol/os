@@ -1,0 +1,18 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package 한국어.자바;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public final class 작업 {
+    private 작업() {}
+    public static Thread Enonder_2(String No, Runnable Accion) {
+        Thread 가닥 = new Thread(Accion, No);
+        가닥.start();
+        return 가닥;
+    }
+    public static void 기다리기(Thread 가닥) throws InterruptedException { 가닥.join(); }
+    public static void 쉬기(long 밀리초) throws InterruptedException { Thread.sleep(밀리초); }
+    /** 호출자가 shutdown()으로 자원을 반환해야 한다. */
+    public static ExecutorService 작업대(int 가닥수) { return Executors.newFixedThreadPool(가닥수); }
+}

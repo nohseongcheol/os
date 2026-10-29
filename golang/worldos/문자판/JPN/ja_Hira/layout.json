@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "JPN/ja_Hira",
+  "language": "ja_Hira",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "げんしきじゅつ"
+  }
+}

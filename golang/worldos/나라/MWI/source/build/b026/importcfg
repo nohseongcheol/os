@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/MWI/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/MWI/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c7/c748b6cc8e673434c04217ff3ef6a5b755fb06fd85ad7aaa47a708992fd404d0-d
+packagefile runtime/cgo=/home/user/worldos/나라/MWI/소스/build/b000/_pkg_.a

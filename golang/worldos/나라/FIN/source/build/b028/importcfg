@@ -1,0 +1,8 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/c0/c08cf4ea29ab449df5ff21bf9d6d833a197dce188ecc1c8d41ed0e0be7c5e6cf-d
+packagefile konsoli=/home/user/.cache/go-build/2a/2a1c6d0259aab9894bc97296e6c2e36ac7ce409bb551141fa155e3e67c5fe77d-d
+packagefile muistimanager=/home/user/worldos/나라/FIN/소스/build/b024/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/FIN/소스/build/b023/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile virtuaalinenMuisti=/home/user/worldos/나라/FIN/소스/build/b029/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FIN/소스/build/b000/_pkg_.a

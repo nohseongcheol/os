@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "JPN/ja_Jpan",
+  "language": "ja_Jpan",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "原始記述"
+  }
+}

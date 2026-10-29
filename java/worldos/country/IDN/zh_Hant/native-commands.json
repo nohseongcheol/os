@@ -1,0 +1,33 @@
+{
+  "aliases": {
+    "ipconfig": "網路設定",
+    "ip": "網路位址",
+    "ping": "回聲測試",
+    "route": "路由表",
+    "netstat": "網路狀態",
+    "ps": "行程列表",
+    "top": "執行概況",
+    "free": "記憶體狀態",
+    "df": "儲存容量",
+    "uptime": "運作時間",
+    "poweroff": "關機",
+    "help": "說明"
+  },
+  "descriptions": [
+    "IPv4 地址、子網路遮罩與閘道設定",
+    "IPv4 介面與路由工具",
+    "ICMP 回聲與往返時間",
+    "直接連線網路與預設路由",
+    "TCP/UDP 連線與流量",
+    "核心工作與使用者行程",
+    "更新工作和記憶體; q 或 Ctrl+C 離開",
+    "實際核心記憶體池與使用者映射",
+    "RAM 檔案系統容量和檔案槽",
+    "啟動後的運作時間",
+    "關閉系統; RAM 檔案不會保留",
+    "命令與中文名稱"
+  ],
+  "pending": [],
+  "status": "functional-proposals; native-speaker review pending",
+  "description_language": "zh_Hant"
+}

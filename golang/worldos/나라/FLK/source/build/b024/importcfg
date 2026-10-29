@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/bd/bd7936f2673eb725bf0f5366a5a5699f26efc0aecd2a94b31c7c58e99550a03f-d
+packagefile driver/ata=/home/user/worldos/나라/FLK/소스/build/b004/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/FLK/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/FLK/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/FLK/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/FLK/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/FLK/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/FLK/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/FLK/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/b2/b2e2cbfa167b1ffe0a2469250179981be2e3258ff62ffae3ba0b3f91e515b0ec-d
+packagefile tasking/scheduler=/home/user/worldos/나라/FLK/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/FLK/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/b2/b25e8b286076bef955f40186a3c7eebe657f5b0d4f4d0c8a50d3a708d65ed03b-d
+packagefile virtualmemory=/home/user/worldos/나라/FLK/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FLK/소스/build/b000/_pkg_.a

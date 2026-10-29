@@ -1,0 +1,6 @@
+build/
+결과/
+__pycache__/
+*.pyc
+kernel*.iso
+.vbox/

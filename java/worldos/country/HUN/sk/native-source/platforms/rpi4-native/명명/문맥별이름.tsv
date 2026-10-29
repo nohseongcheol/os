@@ -1,0 +1,8 @@
+Súbor	이전이름	최종이름	쓰임
+C_kompilátor/Spustiť_2.c	h	spustiteľný_súbor_Nadpis	ELF Nadpis_VALUE
+počítač_5eb260fa/používateľ.c	h	spustiteľný_súbor_Nadpis	ELF overiť_5fb2b747·적재 Nadpis_VALUE
+počítač_5eb260fa/používateľ.h	x	register_údaje	ARM64 x0..x30 Store_VALUE pole_VALUE
+počítač_5eb260fa/Panel.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+používateľ/자바/자바가상기계.java 화면호출	w h	너비 výška_VALUE	화면 치수
+Nástroje/*.py	root	koreň_cesta	Súbor 계층의 akcia_koreň Cesta
+počítač_5eb260fa/Terminál.c	w	okno_položka	Terminál Okno Stav_VALUE ukazovateľ

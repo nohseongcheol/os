@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "EST",
+  "language": "et",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

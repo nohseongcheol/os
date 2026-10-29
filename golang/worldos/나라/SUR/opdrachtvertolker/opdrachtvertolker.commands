@@ -1,0 +1,5 @@
+# WorldOS SUR UTF-8 command file
+argumenten_tonen "WorldOS SUR"
+hulp_tonen
+werkmap_tonen
+procesnummers_tonen

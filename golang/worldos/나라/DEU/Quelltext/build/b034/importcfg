@@ -1,0 +1,6 @@
+# import config
+packagefile anschluss=/home/user/worldos/나라/DEU/Quelltext/build/b023/_pkg_.a
+packagefile konsole=/home/user/worldos/나라/DEU/Quelltext/build/b004/_pkg_.a
+packagefile treiber/treiber=/home/user/worldos/나라/DEU/Quelltext/build/b035/_pkg_.a
+packagefile unterbrechung=/home/user/worldos/나라/DEU/Quelltext/build/b026/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/DEU/Quelltext/build/b000/_pkg_.a

@@ -1,0 +1,25 @@
+# import config
+packagefile arkivsystem/fat=/home/user/worldos/나라/SWE/소스/build/b002/_pkg_.a
+packagefile arkivsystem/körbart_och_länkbart_format=/home/user/worldos/나라/SWE/소스/build/b022/_pkg_.a
+packagefile arkivsystem/msdospartition=/home/user/worldos/나라/SWE/소스/build/b003/_pkg_.a
+packagefile avbrott=/home/user/worldos/나라/SWE/소스/build/b024/_pkg_.a
+packagefile driver/ata=/home/user/worldos/나라/SWE/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/79/794391779dab42fb2d99dc2ec8fe8729dd98c3e9c987d501a196c0d51f5b761d-d
+packagefile driver/pekdon=/home/user/worldos/나라/SWE/소스/build/b028/_pkg_.a
+packagefile driver/tangentbord=/home/user/worldos/나라/SWE/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/ef/ef2ba40c7b9c0785e6623744f1ce92740612a2aa3badf01d5bd174736a70ae52-d
+packagefile konsol=/home/user/.cache/go-build/8f/8fb4fd9055236d5b1fd12bfe2716a19a259d9fdd773c1118af3907f8e7281bef-d
+packagefile minnemanager=/home/user/worldos/나라/SWE/소스/build/b021/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/SWE/소스/build/b026/_pkg_.a
+packagefile paging=/home/user/worldos/나라/SWE/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/SWE/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/SWE/소스/build/b030/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/SWE/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/SWE/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/SWE/소스/build/b032/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/SWE/소스/build/b035/_pkg_.a
+packagefile util=/home/user/.cache/go-build/87/877dace9954e877bc610903835bc53656278dc9f1ab4779f74768275a9402e1b-d
+packagefile virtuellMinne=/home/user/worldos/나라/SWE/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SWE/소스/build/b000/_pkg_.a

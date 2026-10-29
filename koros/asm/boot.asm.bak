@@ -1,0 +1,47 @@
+section .data
+  MAGIC equ 0x1BADB002
+  FLAGS equ 0
+  CHECKSUM equ -(MAGIC + FLAGS)
+
+section .multiboot
+align 4
+  dd MAGIC
+  dd FLAGS
+  dd CHECKSUM
+
+section .boot_stack
+align 4
+stack_bottom:
+	resb 16384
+stack_top:
+g0_ptr:         resd 1
+
+
+
+section .text
+
+G_STACK_LO equ 0x0
+G_STACK_HI equ 0x4
+G_STACKGUARD0 equ 0x8
+
+
+global _start
+_start:
+
+  ; init g0 so we can invoke Go functions. For now we use hardcoded offsets
+  ; that correspond to the g struct definition in src/runtime/runtime2.go
+
+  extern runtime.g0
+  mov dword [runtime.g0 + G_STACK_LO], stack_bottom
+  mov dword [runtime.g0 + G_STACK_HI], stack_top
+  mov dword [runtime.g0 + G_STACKGUARD0], stack_bottom
+   mov dword [g0_ptr], runtime.g0
+
+  extern main.kmain
+  call main.kmain
+  cli
+
+.hang:
+  hlt
+  jmp .hang
+

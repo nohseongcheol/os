@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/cf/cf8b6e195cf459ded34a55a6b82c5a75ef66177350d69ae9098266220b8520f6-d
+packagefile fichiersystème/fat=/home/user/worldos/나라/GLP/소스/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/GLP/소스/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/GLP/소스/build/b005/_pkg_.a
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/GLP/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/GLP/소스/build/b030/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/GLP/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/GLP/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/GLP/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/GLP/소스/build/b023/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/GLP/소스/build/b006/_pkg_.a
+packagefile port=/home/user/.cache/go-build/59/59c3d1782dccedeab021522cb0ec1d3f33df3007456b21faf8a98e59fb0dc1d4-d
+packagefile utilitaire=/home/user/.cache/go-build/da/dad64d05a1e74d5e86b4dea5c8ec8c1dedbacafbeba78ce0a92e839b11b40690-d
+packagefile virtuelmémoire=/home/user/worldos/나라/GLP/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GLP/소스/build/b000/_pkg_.a

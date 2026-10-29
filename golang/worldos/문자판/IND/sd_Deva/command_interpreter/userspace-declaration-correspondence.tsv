@@ -1,0 +1,6 @@
+compiler_identifier	native_identifier
+SYS_exit	SYS__exit
+SYS_read	SYS_पढ़णु
+SYS_write	SYS_लिखणु
+read	पढ़णु
+write	लिखणु

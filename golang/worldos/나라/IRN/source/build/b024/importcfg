@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/69/6925555a6d1943c0cb77b44e4d499cc3af1b9d2168001bff9e91239b4d851298-d
+packagefile driver/ata=/home/user/worldos/나라/IRN/소스/build/b004/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/IRN/소스/build/b008/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/IRN/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/IRN/소스/build/b025/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/IRN/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/IRN/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/d9/d9c8f80c7e26ba294a52e1af6f042d84e1b0c8ac9444e3ae1be54eb952b93932-d
+packagefile حافظهmanager=/home/user/worldos/나라/IRN/소스/build/b023/_pkg_.a
+packagefile درگاه=/home/user/.cache/go-build/09/09c08b1a4c881ed267480d89418aee0da518b91be18a30ed9088d10d4284b6bb-d
+packagefile مجازیحافظه=/home/user/worldos/나라/IRN/소스/build/b029/_pkg_.a
+packagefile پروندهسیستم/elf=/home/user/worldos/나라/IRN/소스/build/b033/_pkg_.a
+packagefile پروندهسیستم/fat=/home/user/worldos/나라/IRN/소스/build/b034/_pkg_.a
+packagefile پروندهسیستم/msdospartition=/home/user/worldos/나라/IRN/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/IRN/소스/build/b000/_pkg_.a

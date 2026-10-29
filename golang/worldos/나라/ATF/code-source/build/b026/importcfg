@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/91/919822c174845a7990b47a5ac6f1082ed24839b6c44733b3f45305cc31d44308-d
+packagefile gdt=/home/user/.cache/go-build/d8/d859c076517342419ba08079de9b9fbda2b12c86f4c449ddcc8c8faf6477388f-d
+packagefile mémoiregestionnaire=/home/user/worldos/나라/ATF/소스/build/b021/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime/cgo=/home/user/worldos/나라/ATF/소스/build/b000/_pkg_.a

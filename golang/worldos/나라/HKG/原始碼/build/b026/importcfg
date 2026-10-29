@@ -1,0 +1,8 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/b9/b923d85bf00175b15f6ebbd414a59a1243ed1a349feb980f150a435a32165f20-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile 多重工作管理=/home/user/worldos/나라/HKG/소스/build/b019/_pkg_.a
+packagefile 控制台=/home/user/.cache/go-build/ed/edcc90b695cbc476c8a98c3d80eb771788570b7369bd550f29dc5347bb289540-d
+packagefile 虛擬記憶體=/home/user/worldos/나라/HKG/소스/build/b027/_pkg_.a
+packagefile 記憶體管理器=/home/user/worldos/나라/HKG/소스/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/HKG/소스/build/b000/_pkg_.a

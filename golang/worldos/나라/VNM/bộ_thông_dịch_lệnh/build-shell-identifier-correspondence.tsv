@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	dựng_bộ_thông_dịch
+executable_file	tệp_thực_thi
+include_directory	thư_mục_khai_báo
+library_file	tệp_thư_viện
+linker_file	tệp_liên_kết
+object_file	tệp_đối_tượng
+source_file	tệp_nguồn
+startup_object	đối_tượng_khởi_động

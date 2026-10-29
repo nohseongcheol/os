@@ -1,0 +1,5 @@
+# WorldOS CYP UTF-8 command file
+echo "WorldOS CYP"
+help
+pwd
+pid

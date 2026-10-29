@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/48/48e4a196b5d2eb9350edc686eb1907d8dd72759218d49e0679794867a3bba482-d
+packagefile driver/ata=/home/user/worldos/나라/HTI/소스/build/b004/_pkg_.a
+packagefile filesystem/elf=/home/user/worldos/나라/HTI/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/HTI/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/HTI/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/HTI/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/HTI/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/HTI/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/HTI/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/6e/6eb9cc5bfd4ec6be3d6b055207ca0a9c807f8475a7e255ae7bd4e0e5b19a1bfe-d
+packagefile tasking/scheduler=/home/user/worldos/나라/HTI/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/HTI/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/4c/4cb0aa97e55340e9b57ddffce3ccb78d18780eb369e09f416a3de5886f13c3d4-d
+packagefile virtualmemory=/home/user/worldos/나라/HTI/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/HTI/소스/build/b000/_pkg_.a

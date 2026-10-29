@@ -1,0 +1,3 @@
+# import config
+packagefile 커먼=/home/user/koros/현행/build/b029/_pkg_.a
+packagefile runtime/cgo=/home/user/koros/현행/build/b000/_pkg_.a

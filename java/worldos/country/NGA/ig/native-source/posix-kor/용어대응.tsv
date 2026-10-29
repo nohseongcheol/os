@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	mepee_ọbọakwụkwọ	ọrụ_valuu	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	mepụta_ọbọakwụkwọ	ọrụ_valuu	Chekwaa_ozi 전용 생성 또는 ndịnà_valuu hichaa_TOC	파일규약.h
+read	파일자료읽기	ọrụ_valuu	열린 대상에서 baịtị_valuu 자료를 읽는다	파일규약.h
+write	dee_ọbọakwụkwọ_datà	ọrụ_valuu	열린 대상에 baịtị_valuu 자료를 쓴다	파일규약.h
+close	mmechi_ọbọakwụkwọ	ọrụ_valuu	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	ọchịchọ_ọbọakwụkwọ	ọrụ_valuu	열린 파일의 I_O 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	ọrụ_valuu	같은 열린 Faịlụ 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	ọrụ_valuu	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	wepụ_ọbọakwụkwọ_ndebà_akara_ahà	ọrụ_valuu	Aha 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	Seti_ọbọakwụkwọ_ogologo	ọrụ_valuu	열린 파일의 baịtị_valuu 길이를 정한다	파일규약.h
+fstat	파일상태읽기	ọrụ_valuu	열린 대상의 종류 Ụhara 링크 수 등을 읽는다	파일규약.h
+fsync	파일저장확정	ọrụ_valuu	Store_valuu 매체에 현재 Faịlụ 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	ọrụ_valuu	서술자별 설정과 공유 Mepee 설정을 다룬다	파일규약.h
+socket	통신종단점만들기	ọrụ_valuu	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	JIKỌNYE_àdreèsì	ọrụ_valuu	종단점에 otù_ebe_ọgba 주소와 접속번호를 묶는다	통신규약.h
+sendto	자료전문보내기	ọrụ_valuu	지정한 상대에게 전문 하나를 보낸다	통신규약.h
+recvfrom	자료전문받기	ọrụ_valuu	전문 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	ọrụ_valuu	otù_ebe_ọgba 종단점의 현재 주소를 읽는다	통신규약.h
+setsockopt	gbanwèe_Netwọọkụ_Mwube	ọrụ_valuu	지원하는 수신 대기 설정을 바꾼다	통신규약.h
+inet_pton	kerìsịa_Netwọọkụ_àdreèsì	ọrụ_valuu	ọbula_valuu àdreèsì 문자열을 ngō_valuu 바이트로 해석한다	통신규약.h
+inet_ntop	hàzie_Netwọọkụ_àdreèsì	ọrụ_valuu	ngō_valuu 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	ọrụ_valuu	16비트 값을 망의 baịtị_valuu 차례로 바꾼다	통신규약.h
+htonl	Netwọọkụ_ọnụọgụ_nzùrùòkè	ọrụ_valuu	32비트 값을 망의 baịtị_valuu 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	ọrụ_valuu	16비트 값을 mee_nnyemiwu 장치의 baịtị_valuu 차례로 바꾼다	통신규약.h
+ntohl	njìarụ_ùsòrò_ọnụọgụ_nzùrùòkè	ọrụ_valuu	32비트 값을 mee_nnyemiwu 장치의 baịtị_valuu 차례로 바꾼다	통신규약.h
+errno	오류번호	변수	실패한 C 호출의 양수 mmejọ indèks	errno.h
+fd	파일서술자	변수	ùsòrò_valuu_6712bde7 안의 열린 대상을 식별하는 ọnụọgụ_nzùrùòkè	ọbọakwụkwọ_I_O.c
+count	바이트수	변수	datà 전송량의 단위가 바이트임을 드러낸다	ọbọakwụkwọ_I_O.c
+offset	Nnokwata_valuu	변수	기준 위치에 더할 ntinye_koòdù_valuu 있는 거리	ọbọakwụkwọ_I_O.c
+flags	mepee_Mwube	변수	Faịlụ òhèrè_ndebà 방식과 Mepee mmèm	ọbọakwụkwọ_I_O.c
+mode	허가	변수	생성 파일에 기록할 허가 bit_valuu	ọbọakwụkwọ_I_O.c
+timeout	수신대기밀리초	변수	수신 대기 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	변수	UDP 종단점에 배정한 번호들	Netwọọkụ_ikpo.java
+통신장치.ngwaike_pọọt	Netwọọkụ_ǹnyà.입출력기준주소	변수	NIC의 CPU I_O àdreèsì 공간 기준	Netwọọkụ_ǹnyà.java
+generation	세대번호	변수	성공한 Store_valuu 시점의 ùsòrò_valuu	파일보존.java
+포트읽기	입출력바이트읽기	ọrụ_valuu	CPU I_O 주소에서 한 바이트를 읽는다	njìarụ_valuu.java
+포트쓰기	입출력바이트쓰기	ọrụ_valuu	CPU I_O 주소에 한 바이트를 쓴다	njìarụ_valuu.java
+포트정수읽기	입출력정수읽기	ọrụ_valuu	CPU I_O 주소에서 32비트를 읽는다	njìarụ_valuu.java
+포트정수쓰기	입출력정수쓰기	ọrụ_valuu	CPU I_O 주소에 32비트를 쓴다	njìarụ_valuu.java
+포트짧은쓰기	입출력짧은수쓰기	ọrụ_valuu	CPU I_O 주소에 16비트를 쓴다	njìarụ_valuu.java
+메모리파일.java	memọrị_sistèm_ọbọakwụkwo.java	Faịlụ·hàzie_valuu	주기억 내 Faịlụ 자료와 이름을 관리한다	os/ebensìbịa
+통신장치.java	Netwọọkụ_ǹnyà.java	Faịlụ·hàzie_valuu	PCI 망장치를 찾아 초기화하고 송수신한다	os/ebensìbịa
+file I/O	ọbọakwụkwọ_I_O.c	Faịlụ	C 호출과 mkpụrụobī_kọmpùta_valuu 파일서술자 호출의 경계	posix-kor/ebensìbịa/구현
+socket interface	통신종단점.c	Faịlụ	C 소켓과 mkpụrụobī_kọmpùta_valuu 자료전문 기능의 경계	posix-kor/ebensìbịa/구현
+syscall bridge	운영체제호출.s	Faịlụ	C 호출 규약과 mkpụrụobī_kọmpùta_valuu 레지스터 규약의 경계	posix-kor/ngwa_komputa
+startup	Mbido_òjìàrụ_app.s	Faịlụ	òjìàrụ 진입점에서 C main을 시작한다	posix-kor/ngwa_komputa

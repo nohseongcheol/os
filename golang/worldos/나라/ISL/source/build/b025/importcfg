@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/ISL/소스/build/b008/_pkg_.a
+packagefile minnimanager=/home/user/worldos/나라/ISL/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/dc/dcffb82e6e0685a5e97d1fb0c321d2a9118c2000a57c9eda60eafef64eed2056-d
+packagefile runtime/cgo=/home/user/worldos/나라/ISL/소스/build/b000/_pkg_.a

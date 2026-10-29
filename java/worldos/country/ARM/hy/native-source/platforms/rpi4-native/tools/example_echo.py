@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 Ճանապարհ 호환 մուտքագրում_կետ. իրական_տվյալ 구현: ../Գործիքներ/예제되돌림서버.py"""
+import importlib as 가져오기
+import sys as գործավար_համակարգ_արժեք
+from pathlib import Path as Ճանապարհ
+գործավար_համակարգ_արժեք.path.insert(0, str(Ճանապարհ(__file__).resolve().parents[1] / 'Գործիքներ'))
+if __name__ == '__main__':
+    import runpy as ծրագիր_թողարկիչ
+    ծրագիր_թողարկիչ.run_module('예제되돌림서버', run_name='__main__', alter_sys=True)
+else:
+    구현 = 가져오기.import_module('예제되돌림서버')
+    대응 = {'data': 'տվյալ', 'sock': '소켓', 'tcp_port': 'Փոխանցման_կառավարման_հաղորդակարգ_միացք', 'chunk': '조각', 'received': '수신됨', 'self': '자신', 'UDP': '전문요청처리', 'thread': '작업가닥', 'echo': '되돌림서버항목', 'TCP': '연결요청처리', 'EchoServers': '되돌림서버', 'parser': '인수해석기', 'server': 'սպասարկիչ_արժեք', 'udp_port': '전문접속번호', 'args': 'արգումենտ_ԶԱՆԳՎԱԾ'}
+    for 이전, 현재 in 대응.items():
+        if hasattr(구현, 현재): globals()[이전] = getattr(구현, 현재)

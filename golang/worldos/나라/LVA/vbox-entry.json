@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "edition": "LVA",
+  "vm_name": "worldos LVA",
+  "base_disk": "/home/user/VirtualBox VMs/eng operating system/NewVirtualDisk1-fixed-20260908.vdi",
+  "launcher_sha256": "7011df32d4862ef8f5c4cc69fff1f17b7d8dca98a41e896b6971233a8be627cf",
+  "kernel_directory": "source"
+}

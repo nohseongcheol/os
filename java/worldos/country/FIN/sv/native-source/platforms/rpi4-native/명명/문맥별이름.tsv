@@ -1,0 +1,8 @@
+filnamn	이전이름	최종이름	쓰임
+C_kompilerare/Kör.c	h	körbar_fil_huvud	ELF huvud_värde
+dator/användarutrymme.c	h	körbar_fil_huvud	ELF validera·적재 huvud_värde
+dator/användarutrymme.h	x	register_data	ARM64 x0..x30 Store_värde MATRIS_värde
+dator/Tavla.c	h	열여섯진숫자	진수 KONVERTERA_värde 문자표
+användarutrymme/자바/자바가상기계.java 화면호출	w h	너비 높이	skärmbild 치수
+verktyg/*.py	root	rot_väg	filnamn 계층의 åtgärd_rot sökväg_2
+dator/kommandotolk.c	w	fönster_post	kommandotolk Fönster status_värde markör

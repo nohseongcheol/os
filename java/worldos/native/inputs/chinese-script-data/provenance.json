@@ -1,0 +1,8 @@
+{
+  "upstream_commit": "8cf737a4e193db27d675b2ce9867d84aace33745",
+  "files_sha256": {
+    "STCharacters.txt": "a0ca1601c70648cf48b33c3c6210ccbecc5c7eead4b4c3daf76587ba2c03582b",
+    "STPhrases.txt": "f6eab5e5c6dd7640597878d3dfc6599ee1279d2bc91561eadd8e114194e2925a"
+  },
+  "scope": "Mandarin written forms only; technical vocabulary choices above are explicit modern proposals."
+}

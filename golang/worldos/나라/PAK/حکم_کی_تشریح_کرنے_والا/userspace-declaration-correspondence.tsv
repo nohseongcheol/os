@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_بندکریں
+SYS_exit	SYS__exit
+SYS_open	SYS_کھولیں
+SYS_read	SYS_پڑھیں
+SYS_write	SYS_لکھیں
+argv	دلائل_2
+buf	منتقلی_کا_عارضی_ذخیرہ
+close	بندکریں
+fd	فائل_کا_وصف_کنندہ
+open	کھولیں
+read	پڑھیں
+write	لکھیں

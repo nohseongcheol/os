@@ -1,0 +1,55 @@
+make: Entering directory '/home/user/worldos/문자판/MAC/zh_Hans/소스'
+python3 문자빌드.py userland
+make[1]: Entering directory '/home/user/worldos/문자판/MAC/zh_Hans/소스/build/native-stage-526atqbi/使用者空間/posix'
+mkdir -p build
+cc -m32 -c 實作/系統呼叫.S -o build/syscall.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -c 實作/錯誤編號.c -o build/errno.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -c 實作/unistd.c -o build/unistd.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -c 實作/檔案控制.c -o build/fcntl.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -c 實作/檔案狀態.c -o build/stat.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -c 實作/socket.c -o build/socket.o
+ar rcs build/libengos_posix.a build/syscall.o build/errno.o build/unistd.o build/fcntl.o build/stat.o build/socket.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -c 測試/compile.c -o build/compile-test.o
+
+syscall.o:
+
+errno.o:
+
+unistd.o:
+         U __engos_syscall_result
+         U errno
+         U fstat
+
+fcntl.o:
+         U __engos_syscall_result
+
+stat.o:
+         U __engos_syscall_result
+
+socket.o:
+         U __engos_syscall_result
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -fno-pic -c 測試/runtime.c -o build/runtime.o
+cc -m32 -c 實作/啟動.S -o build/crt0.o
+ld -n -m elf_i386 -e _start -T 連結配置.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-runtime build/crt0.o build/runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -fno-pic -c 測試/exec_target.c -o build/exec-target.o
+ld -n -m elf_i386 -e _start -T 連結配置.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-target build/crt0.o build/exec-target.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -fno-pic -c 測試/exec_runtime.c -o build/exec-runtime.o
+ld -n -m elf_i386 -e _start -T 連結配置.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-runtime build/crt0.o build/exec-runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -fno-pic -c 測試/heap_runtime.c -o build/heap-runtime.o
+ld -n -m elf_i386 -e _start -T 連結配置.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-heap-runtime build/crt0.o build/heap-runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -fno-pic -c 測試/fork_runtime.c -o build/fork-runtime.o
+ld -n -m elf_i386 -e _start -T 連結配置.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-fork-runtime build/crt0.o build/fork-runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -fno-pic -c 測試/stdin_runtime.c -o build/stdin-runtime.o
+ld -n -m elf_i386 -e _start -T 連結配置.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-stdin-runtime build/crt0.o build/stdin-runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -I標頭檔 -fno-pic -c 測試/socket_runtime.c -o build/socket-runtime.o
+ld -n -m elf_i386 -e _start -T 連結配置.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-socket-runtime build/crt0.o build/socket-runtime.o build/libengos_posix.a
+make[1]: Leaving directory '/home/user/worldos/문자판/MAC/zh_Hans/소스/build/native-stage-526atqbi/使用者空間/posix'
+PASS zh_Hans userland
+make: Leaving directory '/home/user/worldos/문자판/MAC/zh_Hans/소스'

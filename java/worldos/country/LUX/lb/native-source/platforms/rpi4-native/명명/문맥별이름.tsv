@@ -1,0 +1,8 @@
+Fichier	이전이름	최종이름	쓰임
+시언어번역기/Laf.c	h	실행머리	ELF En_tête_VALUE
+Computer/Benotzer.c	h	실행머리	ELF validéieren·적재 En_tête_VALUE
+Computer/Benotzer.h	x	registréieren_Daten	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+Computer/Board.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+Benotzer/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Tools/*.py	root	Racinn_Wee	Fichier 계층의 projezéieren_Racinn Wee
+Computer/Terminal.c	w	Fënster_Agab	Terminal Fënster Status_VALUE Uweiser

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/bn_Beng",
+  "language": "bn_Beng",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

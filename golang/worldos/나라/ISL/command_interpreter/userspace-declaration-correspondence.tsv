@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Loka
+SYS_exit	SYS__exit
+SYS_open	SYS_Opna
+SYS_read	SYS_Lestur
+SYS_write	SYS_Skrift
+close	Loka
+open	Opna
+read	Lestur
+write	Skrift

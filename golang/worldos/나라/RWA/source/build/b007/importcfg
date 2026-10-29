@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/7c/7c6723a986cf010a8c7b2fc397a12e8163521697ead0baf2b41b33df8b1475ce-d
+packagefile interrupt=/home/user/worldos/나라/RWA/소스/build/b008/_pkg_.a
+packagefile umuyoboro=/home/user/.cache/go-build/55/55e4e70c5fca154fd6a11c21d311fff3483b95d33dc4038950ad235bc7b8c119-d
+packagefile runtime/cgo=/home/user/worldos/나라/RWA/소스/build/b000/_pkg_.a

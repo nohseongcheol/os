@@ -1,0 +1,5 @@
+# WorldOS AZE UTF-8 command file
+echo "WorldOS AZE"
+help
+pwd
+pid

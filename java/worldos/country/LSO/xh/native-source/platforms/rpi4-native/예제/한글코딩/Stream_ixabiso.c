@@ -1,0 +1,41 @@
+#include "통신규약.h"
+
+int qala_umsebenzisi_inkqubo(int 인수) {
+    (void)인수;
+    struct 인터넷통신주소 idilesi = {0};
+    idilesi.idilesi_Usapho = ilifu_Usapho;
+    idilesi.접속번호 = 망차례짧은수(9260);
+    idilesi.idilesi_yeintanethi.idilesi_ixabiso = Inethiwekhi_inani_elipheleleyo(되돌림주소);
+    int iseva_ixabiso = 통신종단점만들기(ilifu_Usapho, Stream_Inethiwekhi, 흐름전송규약);
+    if (iseva_ixabiso < 0 || BOPHELELA_idilesi(iseva_ixabiso, (struct 통신주소 *)&idilesi, sizeof(idilesi)) < 0 ||
+        통신연결기다리기(iseva_ixabiso, 4) < 0) return 1;
+    if (yamkela_uqhagamshelo_lwenethiwekhi(iseva_ixabiso, 0, 0) != -1 || 오류번호 != 11) return 2;
+    int undwendwe_ixabiso = 통신종단점만들기(ilifu_Usapho, Stream_Inethiwekhi, 흐름전송규약);
+    if (undwendwe_ixabiso < 0 || I_Connect_Inethiwekhi(undwendwe_ixabiso, (struct 통신주소 *)&idilesi, sizeof(idilesi)) < 0) return 3;
+    int Nxulumanisa = yamkela_uqhagamshelo_lwenethiwekhi(iseva_ixabiso, 0, 0);
+    if (Nxulumanisa < 0) return 4;
+    unsigned char 보낼것[1500], 받은것[1500];
+    for (int 수 = 0; 수 < 1500; 수++) 보낼것[수] = (unsigned char)수;
+    int 보낸수 = 0;
+    while (보낸수 < 1024) {
+        int ubude_ixabiso = bhala_ifayile_iingcombolo(undwendwe_ixabiso, 보낼것 + 보낸수, sizeof(보낼것) - 보낸수);
+        if (ubude_ixabiso <= 0) return 5;
+        보낸수 += ubude_ixabiso;
+    }
+    if (bhala_ifayile_iingcombolo(undwendwe_ixabiso, 보낼것, 1) != -1 || 오류번호 != 11) return 6;
+    /* 상대가 닫아도 이미 도착한 자료를 모두 읽은 Emva_ixabiso EOF가 된다. */
+    vala_ifayile(undwendwe_ixabiso);
+    int 받은수 = 0;
+    while (받은수 < 보낸수) {
+        int ubude_ixabiso = 파일자료읽기(Nxulumanisa, 받은것 + 받은수, sizeof(받은것) - 받은수);
+        if (ubude_ixabiso <= 0) return 7;
+        받은수 += ubude_ixabiso;
+    }
+    for (int 수 = 0; 수 < 받은수; 수++) if (받은것[수] != 보낼것[수]) return 8;
+    if (파일자료읽기(Nxulumanisa, 받은것, 1) != 0) return 9;
+    if (bhala_ifayile_iingcombolo(Nxulumanisa, 보낼것, 1) != -1 || 오류번호 != 32) return 10;
+    vala_ifayile(Nxulumanisa); vala_ifayile(iseva_ixabiso);
+    const char 결과[] = "C posix-kor 연결형 통신 PASS\n";
+    bhala_ifayile_iingcombolo(1, 결과, sizeof(결과) - 1);
+    return 0;
+}

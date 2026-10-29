@@ -1,0 +1,7 @@
+# import config
+packagefile muistimanager=/home/user/worldos/나라/FIN/소스/build/b024/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/FIN/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/FIN/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/ca/ca78ba0d45832d27f4b7264a4c6018b3d4fbeaa9431cc70a7302ede80bee8134-d
+packagefile util/listaa=/home/user/worldos/나라/FIN/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FIN/소스/build/b000/_pkg_.a

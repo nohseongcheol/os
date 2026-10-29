@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/dc/dc6db6ecbeb8201ddcb697e1dbb9bfa126b8a9fc093b9eeb9cb53d181d377e3a-d
+packagefile driver/ata=/home/user/worldos/나라/JAM/소스/build/b004/_pkg_.a
+packagefile util=/home/user/.cache/go-build/f6/f6400a740745fc8aef58c33df691df592c28656b555d7f9ab4092f23dcd757e4-d
+packagefile runtime/cgo=/home/user/worldos/나라/JAM/소스/build/b000/_pkg_.a

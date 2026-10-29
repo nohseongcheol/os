@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "ERI",
+  "language": "ti",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

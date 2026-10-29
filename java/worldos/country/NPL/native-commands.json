@@ -1,0 +1,33 @@
+{
+  "aliases": {
+    "ipconfig": "सञ्जाल-विन्यास",
+    "ip": "सञ्जाल-ठेगाना",
+    "ping": "प्रतिध्वनि-परीक्षण",
+    "route": "मार्ग",
+    "netstat": "जडान",
+    "ps": "प्रक्रिया",
+    "top": "कार्य-स्थिति",
+    "free": "स्मृति",
+    "df": "भण्डारण",
+    "uptime": "चल्ने-अवधि",
+    "poweroff": "बन्द-गर्नुहोस्",
+    "help": "सहायता"
+  },
+  "descriptions": [
+    "IPv4 settings: address, netmask, gateway",
+    "IPv4 interface and route tools",
+    "ICMP echo and round-trip time",
+    "Connected network and default route",
+    "TCP/UDP sockets and traffic",
+    "Kernel tasks and user processes",
+    "Refresh tasks and memory; q or Ctrl+C quits",
+    "Actual kernel pools and user mappings",
+    "RAM filesystem capacity and file slots",
+    "Time since boot",
+    "Stop the OS; RAM files are not preserved",
+    "Commands and local names"
+  ],
+  "pending": [],
+  "status": "functional-proposals; native-speaker review pending",
+  "description_language": "en"
+}

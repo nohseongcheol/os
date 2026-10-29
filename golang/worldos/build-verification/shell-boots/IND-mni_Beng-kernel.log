@@ -1,0 +1,38 @@
+make: Entering directory '/home/user/worldos/문자판/IND/mni_Beng/소스'
+python3 문자빌드.py iso
+make[1]: Entering directory '/home/user/worldos/문자판/IND/mni_Beng/소스/build/native-stage-sdo3v0uf'
+mkdir -p build
+nasm -g -f elf32 -F dwarf -o build/multiboot_header.o machine_boot/multibootheader.s
+nasm -g -f elf32 -F dwarf -I machine_boot/ -o build/rt0.o machine_boot/rt0.s
+[ld] linking kernel.bin
+ld -n -melf_i386 -T link_layout.ld -static --no-ld-generated-unwind-info -o build/kernel.bin build/multiboot_header.o build/rt0.o build/go.o
+rm -rf iso
+mkdir -p iso/boot/grub
+cp build/kernel.bin iso/boot/
+echo 'set timeout=0' >> iso/boot/grub/grub.cfg
+echo 'set default=0' >> iso/boot/grub/grub.cfg
+echo '' >> iso/boot/grub/grub.cfg
+echo 'menuentry "worldos IND" {' >> iso/boot/grub/grub.cfg
+echo 'multiboot2 /boot/kernel.bin' >> iso/boot/grub/grub.cfg
+echo 'boot' >> iso/boot/grub/grub.cfg
+echo '}' >> iso/boot/grub/grub.cfg
+grub-mkrescue --output=build/kernel.iso iso
+xorriso 1.4.8 : RockRidge filesystem manipulator, libburnia project.
+
+Drive current: -outdev 'stdio:build/kernel.iso'
+Media current: stdio file, overwriteable
+Media status : is blank
+Media summary: 0 sessions, 0 data blocks, 0 data, 3232m free
+Added to ISO image: directory '/'='/tmp/grub.Cg4N8v'
+xorriso : UPDATE : 289 files added in 1 seconds
+Added to ISO image: directory '/'='/home/user/worldos/문자판/IND/mni_Beng/소스/build/native-stage-sdo3v0uf/iso'
+xorriso : UPDATE : 293 files added in 1 seconds
+xorriso : NOTE : Copying to System Area: 512 bytes from file '/usr/lib/grub/i386-pc/boot_hybrid.img'
+ISO image produced: 5529 sectors
+Written to medium : 5529 sectors at LBA 0
+Writing to 'stdio:build/kernel.iso' completed successfully.
+
+rm -rf iso
+make[1]: Leaving directory '/home/user/worldos/문자판/IND/mni_Beng/소스/build/native-stage-sdo3v0uf'
+PASS mni_Beng iso
+make: Leaving directory '/home/user/worldos/문자판/IND/mni_Beng/소스'

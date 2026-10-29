@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	cấp phát bộ nhớ	cấp_phát_bộ_nhớ	project-proposal	function-based project proposal
+append	thêm vào cuối danh sách	thêm_vào_cuối_danh_sách	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	bản đồ cấp phát	bản_đồ_cấp_phát	project-proposal	function-based project proposal
+boot	khởi động máy	khởi_động_máy	project-proposal	function-based project proposal
+boot_record	bản ghi khởi động chính	bản_ghi_khởi_động_chính	project-proposal	boot code and partition metadata, not an audio recording
+bus	đường truyền dùng chung	đường_truyền_dùng_chung	project-proposal	function-based project proposal
+compile_kernel	biên dịch nhân	biên_dịch_nhân	project-proposal	function-based project proposal
+destination_port	số cổng đích	số_cổng_đích	project-proposal	function-based project proposal
+elf	định dạng thực thi và liên kết	định_dạng_thực_thi_và_liên_kết	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	mã lỗi	mã_lỗi	project-proposal	function-based project proposal
+ethernet_frame	khung mạng dùng chung môi trường truyền	khung_mạng_dùng_chung_môi_trường_truyền	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	đầu khung mạng dùng chung môi trường truyền	đầu_khung_mạng_dùng_chung_môi_trường_truyền	project-proposal	function-based project proposal
+ethernet_provider	bộ cung cấp khung mạng dùng chung môi trường truyền	bộ_cung_cấp_khung_mạng_dùng_chung_môi_trường_truyền	project-proposal	function-based project proposal
+fat_parameters	tham số hệ thống tệp	tham_số_hệ_thống_tệp	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	điều khiển tệp	điều_khiển_tệp	project-proposal	function-based project proposal
+file_read	đọc tệp	đọc_tệp	project-proposal	function-based project proposal
+file_status	trạng thái tệp	trạng_thái_tệp	project-proposal	function-based project proposal
+file_write	ghi tệp	ghi_tệp	project-proposal	function-based project proposal
+free_memory	giải phóng bộ nhớ	giải_phóng_bộ_nhớ	project-proposal	function-based project proposal
+headers	khai báo	khai_báo	project-proposal	function-based project proposal
+heap	bộ nhớ động	bộ_nhớ_động	project-proposal	function-based project proposal
+icmp	giao thức thông điệp điều khiển mạng liên kết	giao_thức_thông_điệp_điều_khiển_mạng_liên_kết	project-proposal	function-based project proposal
+implementation	triển khai	triển_khai	project-proposal	function-based project proposal
+insert_at	chèn tại chỉ số	chèn_tại_chỉ_số	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	mạng liên kết	mạng_liên_kết	project-proposal	function-based project proposal
+ip_provider	bộ cung cấp giao thức mạng liên kết	bộ_cung_cấp_giao_thức_mạng_liên_kết	project-proposal	function-based project proposal
+ipv4	giao thức mạng liên kết 4	giao_thức_mạng_liên_kết_4	project-proposal	function-based project proposal
+link_layout	bố trí liên kết	bố_trí_liên_kết	project-proposal	function-based project proposal
+list_node	nút danh sách	nút_danh_sách	project-proposal	function-based project proposal
+log_decoder	giải mã nhật ký nối tiếp	giải_mã_nhật_ký_nối_tiếp	project-proposal	function-based project proposal
+mouse	thiết bị trỏ	thiết_bị_trỏ	project-proposal	function-based project proposal
+page_directory	thư mục trang	thư_mục_trang	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	trang vật lý	trang_vật_lý	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	tham chiếu địa chỉ	tham_chiếu_địa_chỉ	project-proposal	function-based project proposal
+prepend	thêm vào đầu danh sách	thêm_vào_đầu_danh_sách	project-proposal	src/util/list/list.go: links before head
+register	thanh ghi	thanh_ghi	project-proposal	function-based project proposal
+set_coordinates	đặt tọa độ cục bộ	đặt_tọa_độ_cục_bộ	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	số cổng nguồn	số_cổng_nguồn	project-proposal	function-based project proposal
+stack	bộ nhớ ngăn xếp	bộ_nhớ_ngăn_xếp	project-proposal	function-based project proposal
+startup	khởi động	khởi_động	project-proposal	function-based project proposal
+structure_offsets	độ lệch cấu trúc	độ_lệch_cấu_trúc	project-proposal	function-based project proposal
+system_call	lời gọi hệ thống	lời_gọi_hệ_thống	project-proposal	function-based project proposal
+tests	kiểm thử	kiểm_thử	project-proposal	function-based project proposal
+toggle_bit	đảo bit cấp phát	đảo_bit_cấp_phát	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	công cụ	công_cụ	project-proposal	function-based project proposal
+udp	giao thức gói tin người dùng	giao_thức_gói_tin_người_dùng	project-proposal	function-based project proposal
+udp_header	đầu gói tin người dùng	đầu_gói_tin_người_dùng	project-proposal	function-based project proposal
+udp_socket	điểm cuối gói tin người dùng	điểm_cuối_gói_tin_người_dùng	project-proposal	function-based project proposal
+user_space	không gian người dùng	không_gian_người_dùng	project-proposal	function-based project proposal
+widget	thành phần màn hình	thành_phần_màn_hình	project-proposal	function-based project proposal

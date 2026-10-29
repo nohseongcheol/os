@@ -1,0 +1,5 @@
+# import config
+packagefile avbrott=/home/user/worldos/나라/SWE/소스/build/b007/_pkg_.a
+packagefile minnemanager=/home/user/worldos/나라/SWE/소스/build/b005/_pkg_.a
+packagefile util=/home/user/worldos/나라/SWE/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SWE/소스/build/b000/_pkg_.a

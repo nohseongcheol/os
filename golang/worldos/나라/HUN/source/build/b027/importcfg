@@ -1,0 +1,7 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/HUN/소스/build/b002/_pkg_.a
+packagefile fájlRendszer/msdospartition=/home/user/worldos/나라/HUN/소스/build/b028/_pkg_.a
+packagefile konzol=/home/user/.cache/go-build/16/1620c5f7bb6184ed24dbf58f18c3233f78b6debbb3032b2ffabddd56e874df53-d
+packagefile memóriamanager=/home/user/worldos/나라/HUN/소스/build/b022/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c4/c4191263a3922f627c27f081d5fea2a819fa316ae19a2436f5c493359fdc371b-d
+packagefile runtime/cgo=/home/user/worldos/나라/HUN/소스/build/b000/_pkg_.a

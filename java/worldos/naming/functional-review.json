@@ -1,0 +1,562 @@
+{
+  "version": 1,
+  "review_date": "2026-10-18",
+  "policy": "Use current implementation roles; preserve standard APIs, copyright and user edits. Do not assign one philosophy to a country. Dictionary roots do not verify a modern compound or native-speaker naturalness.",
+  "roles": {
+    "load": "Files.readString loads source into the editor; not system load, cargo weight, or taxation.",
+    "output": "JTextArea receives program stdout/stderr text; not sound output or a buffer offset.",
+    "directory": "A filesystem directory, distinct from a path string.",
+    "file": "A file or Path object, not just the filename.",
+    "current": "The local Process reference in the stop operation, distinct from a current position or generic native current value.",
+    "result": "Process exit status, not destination or a label.",
+    "port": "A numeric TCP/UDP port identifier; not an I/O operation or socket object."
+  },
+  "languages": {
+    "nl": {
+      "terms": {
+        "workspace": "Werkruimte",
+        "source": "broncode",
+        "file": "bestand",
+        "directory": "map",
+        "path": "pad",
+        "load": "broncodeLaden",
+        "output": "tekstuitvoer",
+        "terminal": "terminal",
+        "current": "huidigProces",
+        "result": "resultaat",
+        "compile": "compileren",
+        "reader": "tekstlezer",
+        "parser": "argumentenOntleder",
+        "messages": "meldingen",
+        "data": "gegevens",
+        "initialize": "initialiseren",
+        "worker": "achtergrondwerker",
+        "thread": "uitvoeringsdraad",
+        "run": "starten",
+        "port": "poortnummer"
+      },
+      "native_roles": {
+        "핵심": "Kern",
+        "명령해석기": "Opdrachtvertolker",
+        "기억파일": "GeheugenBestanden",
+        "현재값": "huidigeWaarde",
+        "빌드": "bouwen"
+      },
+      "references": [
+        "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+        "https://anw.ivdnt.org/article/inladen",
+        "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending",
+      "verified_lexeme_history": [
+        {
+          "lexeme": "laden",
+          "history": "The historical dictionary records Middle Dutch laden/laeyen and related Germanic forms. No historical computing meaning is asserted.",
+          "reference": "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW"
+        }
+      ]
+    },
+    "pt": {
+      "terms": {
+        "workspace": "ÁreaTrabalho",
+        "source": "códigoFonte",
+        "file": "ficheiro",
+        "directory": "diretório",
+        "path": "caminho",
+        "load": "carregarFonte",
+        "output": "saídaTexto",
+        "terminal": "terminal",
+        "current": "processoAtual",
+        "result": "resultado",
+        "compile": "compilar",
+        "reader": "leitorTexto",
+        "parser": "analisadorArgumentos",
+        "messages": "mensagens",
+        "data": "dados",
+        "initialize": "inicializar",
+        "worker": "tarefaSegundoPlano",
+        "thread": "fioExecução",
+        "run": "iniciar",
+        "port": "númeroPorta"
+      },
+      "native_roles": {
+        "핵심": "Núcleo",
+        "명령해석기": "InterpretadorComandos",
+        "기억파일": "FicheirosMemória",
+        "현재값": "valorAtual",
+        "빌드": "construir"
+      },
+      "references": [
+        "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+        "https://dicionario.priberam.org/carregar",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending",
+      "verified_lexeme_history": [
+        {
+          "lexeme": "carregar",
+          "history": "Priberam derives the verb from Vulgar Latin carricare, from carrus. The software compound carregarFonte is a modern project proposal.",
+          "reference": "https://dicionario.priberam.org/carregar"
+        }
+      ]
+    },
+    "it": {
+      "terms": {
+        "workspace": "SpazioLavoro",
+        "source": "codiceSorgente",
+        "file": "file",
+        "directory": "cartella",
+        "path": "percorso",
+        "load": "caricaSorgente",
+        "output": "uscitaTesto",
+        "terminal": "terminale",
+        "current": "processoCorrente",
+        "result": "risultato",
+        "compile": "compila",
+        "reader": "lettoreTesto",
+        "parser": "analizzatoreArgomenti",
+        "messages": "messaggi",
+        "data": "dati",
+        "initialize": "inizializza",
+        "worker": "esecutoreAsincrono",
+        "thread": "filoEsecuzione",
+        "run": "avvia",
+        "port": "numeroPorta"
+      },
+      "native_roles": {
+        "핵심": "Nucleo",
+        "명령해석기": "InterpreteComandi",
+        "기억파일": "FileMemoria",
+        "현재값": "valoreCorrente",
+        "빌드": "costruire"
+      },
+      "references": [
+        "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+        "https://www.treccani.it/vocabolario/caricare/",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending",
+      "verified_lexeme_history": [
+        {
+          "lexeme": "caricare",
+          "history": "Treccani derives the verb from Late Latin carricare, from carrus. The software compound caricaSorgente is a modern project proposal.",
+          "reference": "https://www.treccani.it/vocabolario/caricare/"
+        }
+      ]
+    },
+    "ru": {
+      "terms": {
+        "workspace": "РабочаяСреда",
+        "source": "исходныйКод",
+        "file": "файл",
+        "directory": "каталог",
+        "path": "путь",
+        "load": "загрузитьИсходник",
+        "output": "текстовыйВывод",
+        "terminal": "терминал",
+        "current": "текущийПроцесс",
+        "result": "результат",
+        "compile": "компилировать",
+        "reader": "считывательТекста",
+        "parser": "анализаторАргументов",
+        "messages": "сообщения",
+        "data": "данные",
+        "initialize": "инициализировать",
+        "worker": "фоноваяЗадача",
+        "thread": "потокВыполнения",
+        "run": "запустить",
+        "port": "номерПорта"
+      },
+      "native_roles": {
+        "핵심": "Ядро",
+        "명령해석기": "ИнтерпретаторКоманд",
+        "기억파일": "ФайлыПамяти",
+        "현재값": "текущееЗначение",
+        "빌드": "сборка"
+      },
+      "references": [
+        "https://help.libreoffice.org/latest/ru/text/shared/main0201.html",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "uk": {
+      "terms": {
+        "workspace": "РобочеСередовище",
+        "source": "вихіднийКод",
+        "file": "файл",
+        "directory": "каталог",
+        "path": "шлях",
+        "load": "завантажитиДжерело",
+        "output": "текстовеВиведення",
+        "terminal": "термінал",
+        "current": "поточнийПроцес",
+        "result": "результат",
+        "compile": "компілювати",
+        "reader": "зчитувачТексту",
+        "parser": "аналізаторАргументів",
+        "messages": "повідомлення",
+        "data": "дані",
+        "initialize": "ініціалізувати",
+        "worker": "фоноваЗадача",
+        "thread": "потікВиконання",
+        "run": "запустити",
+        "port": "номерПорту"
+      },
+      "native_roles": {
+        "핵심": "Ядро",
+        "명령해석기": "ІнтерпретаторКоманд",
+        "기억파일": "ФайлиПамʼяті",
+        "현재값": "поточнеЗначення",
+        "빌드": "збирання"
+      },
+      "references": [
+        "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "tr": {
+      "terms": {
+        "workspace": "ÇalışmaAlanı",
+        "source": "kaynakKod",
+        "file": "dosya",
+        "directory": "dizin",
+        "path": "yol",
+        "load": "kaynakYükle",
+        "output": "metinÇıktısı",
+        "terminal": "uçbirim",
+        "current": "geçerliSüreç",
+        "result": "sonuç",
+        "compile": "derle",
+        "reader": "metinOkuyucu",
+        "parser": "bağımsızDeğişkenÇözümleyici",
+        "messages": "iletiler",
+        "data": "veri",
+        "initialize": "başlat",
+        "worker": "arkaPlanGörevi",
+        "thread": "yürütmeİşParçacığı",
+        "run": "çalıştır",
+        "port": "bağlantıNoktasıNumarası"
+      },
+      "native_roles": {
+        "핵심": "Çekirdek",
+        "명령해석기": "KomutYorumlayıcı",
+        "기억파일": "BellekDosyaları",
+        "현재값": "geçerliDeğer",
+        "빌드": "oluştur"
+      },
+      "references": [
+        "https://help.libreoffice.org/latest/tr/text/shared/guide/doc_save.html",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "id": {
+      "terms": {
+        "workspace": "RuangKerja",
+        "source": "kodeSumber",
+        "file": "berkas",
+        "directory": "direktori",
+        "path": "jalur",
+        "load": "muatSumber",
+        "output": "keluaranTeks",
+        "terminal": "terminal",
+        "current": "prosesAktif",
+        "result": "hasil",
+        "compile": "kompilasi",
+        "reader": "pembacaTeks",
+        "parser": "penguraiArgumen",
+        "messages": "pesan",
+        "data": "data",
+        "initialize": "inisialisasi",
+        "worker": "tugasLatar",
+        "thread": "utasEksekusi",
+        "run": "jalankan",
+        "port": "nomorPort",
+        "error": "galat"
+      },
+      "native_roles": {
+        "핵심": "Inti",
+        "명령해석기": "PenafsirPerintah",
+        "기억파일": "BerkasMemori",
+        "현재값": "nilaiSaatIni",
+        "빌드": "bangun"
+      },
+      "references": [
+        "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "vi": {
+      "terms": {
+        "workspace": "KhôngGianLàmViệc",
+        "source": "mãNguồn",
+        "file": "tậpTin",
+        "directory": "thưMục",
+        "path": "đườngDẫn",
+        "load": "nạpNguồn",
+        "output": "đầuRaVănBản",
+        "terminal": "thiếtBịĐầuCuối",
+        "current": "tiếnTrìnhHiệnTại",
+        "result": "kếtQuả",
+        "compile": "biênDịch",
+        "reader": "bộĐọcVănBản",
+        "parser": "bộPhânTíchĐốiSố",
+        "messages": "thôngBáo",
+        "data": "dữLiệu",
+        "initialize": "khởiTạo",
+        "worker": "tácVụNền",
+        "thread": "luồngThựcThi",
+        "run": "khởiChạy",
+        "port": "sốCổng"
+      },
+      "native_roles": {
+        "핵심": "Lõi",
+        "명령해석기": "BộThôngDịchLệnh",
+        "기억파일": "TậpTinBộNhớ",
+        "현재값": "giáTrịHiệnTại",
+        "빌드": "dựng"
+      },
+      "references": [
+        "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "he": {
+      "terms": {
+        "workspace": "סביבתעבודה",
+        "source": "קודמקור",
+        "file": "קובץ",
+        "directory": "תיקייה",
+        "path": "נתיב",
+        "load": "טעןמקור",
+        "output": "פלטטקסט",
+        "terminal": "מסוף",
+        "current": "תהליךנוכחי",
+        "result": "תוצאה",
+        "compile": "הידור",
+        "reader": "קוראטקסט",
+        "parser": "מנתחארגומנטים",
+        "messages": "הודעות",
+        "data": "נתונים",
+        "initialize": "אתחול",
+        "worker": "משימתרקע",
+        "thread": "תהליכון",
+        "run": "הפעלה",
+        "port": "מספרשער",
+        "line": "שורה"
+      },
+      "native_roles": {
+        "핵심": "ליבה",
+        "명령해석기": "מפרשפקודות",
+        "기억파일": "קבציםבזיכרון",
+        "현재값": "ערךנוכחי",
+        "빌드": "בנייה"
+      },
+      "references": [
+        "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "th": {
+      "terms": {
+        "workspace": "พื้นที่ทำงาน",
+        "source": "รหัสต้นฉบับ",
+        "file": "แฟ้ม",
+        "directory": "ไดเรกทอรี",
+        "path": "เส้นทาง",
+        "load": "โหลดต้นฉบับ",
+        "output": "ข้อความออก",
+        "terminal": "เทอร์มินัล",
+        "current": "กระบวนการปัจจุบัน",
+        "result": "ผลลัพธ์",
+        "compile": "คอมไพล์",
+        "reader": "ตัวอ่านข้อความ",
+        "parser": "ตัวแยกอาร์กิวเมนต์",
+        "messages": "ข้อความแจ้ง",
+        "data": "ข้อมูล",
+        "initialize": "เริ่มต้น",
+        "worker": "งานเบื้องหลัง",
+        "thread": "สายงาน",
+        "run": "เรียกใช้งาน",
+        "port": "หมายเลขพอร์ต",
+        "line": "บรรทัด"
+      },
+      "native_roles": {
+        "핵심": "แก่นระบบ",
+        "명령해석기": "ตัวแปลคำสั่ง",
+        "기억파일": "แฟ้มในหน่วยความจำ",
+        "현재값": "ค่าปัจจุบัน",
+        "빌드": "สร้าง"
+      },
+      "references": [
+        "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "evidence_scope": "Selected roots and file-loading usage; the full compound names are project functional proposals, not quotations or established historical terminology.",
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "en": {
+      "terms": {
+        "current": "currentProcess",
+        "port": "portNumber"
+      },
+      "native_roles": {
+        "현재값": "current"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "ko": {
+      "terms": {
+        "current": "현재실행과정",
+        "port": "통신문번호"
+      },
+      "native_roles": {},
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "ja": {
+      "terms": {
+        "current": "実行中のプロセス",
+        "port": "通信口番号"
+      },
+      "native_roles": {
+        "현재값": "現在値"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "zh": {
+      "terms": {
+        "current": "当前进程",
+        "port": "端口号"
+      },
+      "native_roles": {
+        "현재값": "当前"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "zh_Hant": {
+      "terms": {
+        "current": "目前行程",
+        "port": "通訊埠號碼"
+      },
+      "native_roles": {
+        "현재값": "目前"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "de": {
+      "terms": {
+        "current": "aktuellerProzess",
+        "port": "Anschlussnummer"
+      },
+      "native_roles": {
+        "현재값": "aktuell"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "fr": {
+      "terms": {
+        "current": "processusCourant",
+        "port": "numéroPort"
+      },
+      "native_roles": {
+        "현재값": "courant"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "es": {
+      "terms": {
+        "current": "procesoActual",
+        "port": "númeroPuerto"
+      },
+      "native_roles": {
+        "현재값": "actual"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "ar": {
+      "terms": {
+        "current": "العمليةالحالية",
+        "port": "رقمالمنفذ"
+      },
+      "native_roles": {
+        "현재값": "حالي"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    },
+    "hi": {
+      "terms": {
+        "current": "वर्तमानप्रक्रिया",
+        "port": "द्वारक्रमांक"
+      },
+      "native_roles": {
+        "현재값": "वर्तमान"
+      },
+      "references": [
+        "https://www.rfc-editor.org/rfc/rfc6335.html"
+      ],
+      "native_review": "pending",
+      "etymology_review": "pending"
+    }
+  }
+}

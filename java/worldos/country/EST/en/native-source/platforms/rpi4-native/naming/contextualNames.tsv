@@ -1,0 +1,8 @@
+file	이전이름	최종이름	쓰임
+CCompiler/run.c	h	executableHeader	ELF headerValue
+machine/User.c	h	executableHeader	ELF validate·적재 headerValue
+machine/User.h	x	registerData	ARM64 x0..x30 storeValue arrayValue
+machine/Board.c	h	hexadecimalDigits	진수 convertValue 문자표
+User/Java/JavaMachine.java invokeScreen	w h	widthValue heightValue	Screen dimensionsValue
+tools/*.py	root	rootPath	file 계층의 projectRoot path
+machine/terminal.c	w	windowEntry	terminal window stateValue pointer

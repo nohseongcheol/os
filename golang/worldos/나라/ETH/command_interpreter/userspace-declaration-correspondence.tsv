@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_መዝጊያ
+SYS_exit	SYS__exit
+SYS_open	SYS_መክፈቻ
+SYS_read	SYS_ማንበቢያ
+SYS_write	SYS_መጻፊያ
+close	መዝጊያ
+open	መክፈቻ
+read	ማንበቢያ
+write	መጻፊያ

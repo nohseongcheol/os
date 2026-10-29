@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Дзеянне",
+    "identifier": "Дзеянне",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "кнопка",
+    "identifier": "кнопка",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Клас",
+    "identifier": "Клас",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Закрыць",
+    "identifier": "Закрыць",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Загад",
+    "identifier": "Загад",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "З_лучыцца",
+    "identifier": "Злучыцца",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "Дзейны",
+    "identifier": "Дзейны",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Тэчка",
+    "identifier": "Тэчка",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "ПАМЫЛКА",
+    "identifier": "ПАМЫЛКА",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Падзея",
+    "identifier": "Падзея",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "Вы_кананне",
+    "identifier": "Выкананне",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Файл",
+    "identifier": "Файл",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Ключ",
+    "identifier": "Ключ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Адмеціна",
+    "identifier": "Адмеціна",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Загрузка",
+    "identifier": "Загрузка",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Рэжым",
+    "identifier": "Рэжым",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Назва",
+    "identifier": "Назва",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Адкрыць",
+    "identifier": "Адкрыць",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "Выхад",
+    "identifier": "Выхад",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/mate-media.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "Панэль",
+    "identifier": "Панэль",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "ШЛЯХ",
+    "identifier": "ШЛЯХ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "Порт",
+    "identifier": "Порт",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Пазіцыя",
+    "identifier": "Пазіцыя",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Працэс",
+    "identifier": "Працэс",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Чытанне",
+    "identifier": "Чытанне",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Выдаліць",
+    "identifier": "Выдаліць",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Выканаць",
+    "identifier": "Выканаць",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Захаваць",
+    "identifier": "Захаваць",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "_Усталёўкі",
+    "identifier": "Усталёўкі",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Памер",
+    "identifier": "Памер",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "КРЫНІЦА",
+    "identifier": "КРЫНІЦА",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Спыніць",
+    "identifier": "Спыніць",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Тэрмінал",
+    "identifier": "Тэрмінал",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/lxterminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Тэкст",
+    "identifier": "Тэкст",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Панэль начыння",
+    "identifier": "Панэль_начыння",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Запіс",
+    "identifier": "Запіс",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/be/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

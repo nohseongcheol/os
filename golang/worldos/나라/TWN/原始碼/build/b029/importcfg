@@ -1,0 +1,12 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/00/004c02441dd04305c578393b4b6907cd4ba329802c064617ef691b0f7abc8caf-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile 中斷=/home/user/worldos/나라/TWN/소스/build/b018/_pkg_.a
+packagefile 多重工作管理=/home/user/worldos/나라/TWN/소스/build/b019/_pkg_.a
+packagefile 工作管理/tss=/home/user/worldos/나라/TWN/소스/build/b025/_pkg_.a
+packagefile 工作管理/執行緒=/home/user/worldos/나라/TWN/소스/build/b026/_pkg_.a
+packagefile 工具/清單=/home/user/worldos/나라/TWN/소스/build/b030/_pkg_.a
+packagefile 控制台=/home/user/.cache/go-build/de/deb1b9df38783e58b92c7399bf391045cd6ab8a7860a0dbef1ad1ee2d612266f-d
+packagefile 記憶體管理器=/home/user/worldos/나라/TWN/소스/build/b020/_pkg_.a
+packagefile 連接埠=/home/user/.cache/go-build/10/10c774017398f51c55e838e2696d7f75186f37cc17ee58662bd04035bb0064c5-d
+packagefile runtime/cgo=/home/user/worldos/나라/TWN/소스/build/b000/_pkg_.a

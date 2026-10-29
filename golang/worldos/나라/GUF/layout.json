@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "GUF",
+  "language": "fr",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "code-source"
+  }
+}

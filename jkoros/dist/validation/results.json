@@ -1,0 +1,15 @@
+{
+  "platform": "Linux-4.15.0-213-generic-x86_64-with-Ubuntu-18.04-bionic",
+  "host_tools": "existing Ubuntu host tools (--no-host-install); no host package changes",
+  "relocated_root": "/tmp/os-release-verification-20261005/jkoros",
+  "automatic_prepare": "all profile passed; upstream bootstrap inputs verified from local cache; runtime packages downloaded online",
+  "native_build": "passed",
+  "build": "all korean-java iso passed",
+  "portable_tests": "9 passed",
+  "notes": "Source archives exclude caches and build results; expanded build trees exceed 2 GB.",
+  "release": {
+    "bytes": 2015804,
+    "sha256": "aed37f66b9032121fe9268adba7ff75770f2adad98db335967fdfbbc77ed53c5"
+  },
+  "final_archive_extraction": "passed with payload hashes and internal symlinks checked"
+}

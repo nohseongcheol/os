@@ -1,0 +1,20 @@
+{
+  "edition": "SAU/ar",
+  "display": "Xorg",
+  "focus": "desktop",
+  "boots": [
+    {
+      "index": 0,
+      "passed": true,
+      "filesystem_clean": true,
+      "checks": [
+        "PASS logical-fonts-27-script-samples",
+        "PASS localized-starter-source-loaded",
+        "PASS workbench-edit-save-compile-run-unicode-arguments",
+        "PASS native-posix-file-pthread-unix-socket-fork-wait",
+        "PASS localized-posix-names",
+        "PASS fcitx-unicode-keyboard-input"
+      ]
+    }
+  ]
+}

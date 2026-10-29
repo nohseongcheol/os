@@ -1,0 +1,6 @@
+compiler_identifier	native_identifier
+SYS_exit	SYS__exit
+SYS_read	SYS_చదువు
+SYS_write	SYS_రాయి
+read	చదువు
+write	రాయి

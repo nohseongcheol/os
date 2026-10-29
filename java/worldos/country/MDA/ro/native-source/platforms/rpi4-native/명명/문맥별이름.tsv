@@ -1,0 +1,8 @@
+Fișier	이전이름	최종이름	쓰임
+C_compilator/Pornește.c	h	실행머리	ELF Antet_VALUE
+mașină/utilizator.c	h	실행머리	ELF valida·적재 Antet_VALUE
+mașină/utilizator.h	x	registru_date	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+mașină/Avizier.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+utilizator/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Instrumente/*.py	root	rădăcină_cale	Fișier 계층의 Project_rădăcină Cale
+mașină/Terminal.c	w	fereastră_intrare	Terminal Fereastră Stare_VALUE cursor

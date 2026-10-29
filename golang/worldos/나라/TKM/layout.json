@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "TKM",
+  "language": "tk_Latn",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

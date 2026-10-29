@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/f8/f889fa6741cb213993c3e6491140ba1dd39a49f56f7690cc2d8430651d648bea-d
+packagefile datotekaSistem/elf=/home/user/worldos/나라/SVN/소스/build/b004/_pkg_.a
+packagefile datotekaSistem/fat=/home/user/worldos/나라/SVN/소스/build/b024/_pkg_.a
+packagefile datotekaSistem/msdospartition=/home/user/worldos/나라/SVN/소스/build/b025/_pkg_.a
+packagefile driver/ata=/home/user/worldos/나라/SVN/소스/build/b026/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/SVN/소스/build/b021/_pkg_.a
+packagefile navideznoPomnilnik=/home/user/worldos/나라/SVN/소스/build/b031/_pkg_.a
+packagefile paging=/home/user/worldos/나라/SVN/소스/build/b005/_pkg_.a
+packagefile pomnilnikmanager=/home/user/worldos/나라/SVN/소스/build/b006/_pkg_.a
+packagefile prekinitev=/home/user/worldos/나라/SVN/소스/build/b007/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/SVN/소스/build/b033/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/SVN/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/5f/5f6f876ab3cdc25decd3a717634d61b3d680ee73b4a006808f74b125b0e3db7a-d
+packagefile vrata=/home/user/.cache/go-build/b5/b5e5199d0a94e22de1762b6473bd40fdf5a5336332165ebc78134e8397bb5786-d
+packagefile runtime/cgo=/home/user/worldos/나라/SVN/소스/build/b000/_pkg_.a

@@ -1,0 +1,8 @@
+Datei	이전이름	최종이름	쓰임
+CÜbersetzer/ausführenVorgang.c	h	ausführdateiKopf	ELF kopfbereichWert
+maschine/Benutzer.c	h	ausführdateiKopf	ELF validieren·적재 kopfbereichWert
+maschine/Benutzer.h	x	datenRegister	ARM64 x0..x30 ablegenDatenWert datenfeldWert
+maschine/Platine.c	h	hexadezimalZiffern	진수 wertUmwandeln 문자표
+Benutzer/Java/VirtuelleJavaMaschine.java bildschirmAufrufen	w h	breiteWert höheWert	Bildschirm abmessungenWert
+Werkzeuge/*.py	root	wurzelPfad	Datei 계층의 projektWurzel pfad
+maschine/terminal.c	w	fensterEintrag	terminal fenster statuswertWert zeiger

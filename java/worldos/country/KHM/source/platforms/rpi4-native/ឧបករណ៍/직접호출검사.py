@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+"""배포 class의 직접 한국어 GUI/ស្រេត_តំលៃ 참조를 javap로 검사한다."""
+import hashlib
+import json
+from pathlib import Path
+import subprocess
+
+បញ្ចាំង_ឬស = Path(__file__).resolve().parents[1]
+
+def រត់():
+    클래스들 = ('창', 'ប៊ូតុង', 'ស្លាក', 'អត្ថបទ_កន្លែង_បញ្ចូល', '화면구성요소', '동작알림', 'ព្រឹត្តិការណ៍_ជួរ', '작업가닥',
+             '작업', '실행할일', '동작받이')
+    បាច់ = បញ្ចាំង_ឬស/'dist/jkoros-native-korean.jar'
+    ការប្រកាស = subprocess.check_output(['javap', '-classpath', str(បាច់), '-private', '-c']+
+                                ['한국어.자체.'+ឈ្មោះ for ឈ្មោះ in 클래스들]).decode()
+    for 금지 in ('java/lang/Thread', 'javax/swing/', 'java/awt/event/', 'java.lang.Runnable'):
+        assert 금지 not in ការប្រកាស, 금지
+    예제 = subprocess.check_output(['javap', '-classpath', str(បញ្ចាំង_ឬស/'build/examples/classes'), '-c', '창예제']).decode()
+    for 필수 in ('public static void រត់()', '한국어/자체/ព្រឹត្តិការណ៍_ជួរ.나중에실행', '한국어/자체/동작알림.ពាក្យបញ្ជា_អត្ថបទ'):
+        assert 필수 in 예제, 필수
+    for 금지 in ('java/lang/Runnable', 'javax/swing/', 'java/awt/event/', 'actionPerformed', 'invokeLater'):
+        assert 금지 not in 예제, 금지
+    ទិសដៅ_តំលៃ = បញ្ចាំង_ឬស/'build/verification/naming'; ទិសដៅ_តំលៃ.mkdir(parents=True, exist_ok=True)
+    (ទិសដៅ_តំលៃ/'direct-bytecode.txt').write_text(ការប្រកាស+'\n'+예제)
+    កំណត់_ហេតុ_ថត = {'passed': True, 'scope': 'compiled direct GUI/thread API has no standard GUI/thread object delegation',
+          'kernel_sha256': hashlib.sha256((បញ្ចាំង_ឬស/'build/kernel8.img').read_bytes()).hexdigest(),
+          'jar_sha256': hashlib.sha256(បាច់.read_bytes()).hexdigest(), 'classes': list(클래스들),
+          'bytecode': 'direct-bytecode.txt', 'standard_string_compiler_contract_preserved': True}
+    (ទិសដៅ_តំលៃ/'direct-bytecode.json').write_text(json.dumps(កំណត់_ហេតុ_ថត, ensure_ascii=False, indent=2)+'\n')
+    print('PASS: 한국어 직접 GUI·ស្រេត_តំលៃ 바이트코드와 예제 호출')
+
+if __name__ == '__main__': រត់()

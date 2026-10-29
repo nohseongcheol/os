@@ -1,0 +1,87 @@
+# Custom Open Source License (COSL) v1.0 — jkoros 적용판
+
+Copyright (C) 2025–2026 노성철 (Noh Seong Cheol)
+
+이 배포판은 COSL의 상업 이용 제한을 유지하는 소스 공개형 배포판이다.
+표준 GNU GPL이나 OSI 승인 오픈소스 라이선스라는 의미가 아니다.
+
+## 적용 범위와 우선하는 조건
+
+1. 아래 COSL 조항은 이 배포판에서 노성철이 권리를 보유한 자체 코드에 적용한다.
+   제3자 코드, 글꼴, 펌웨어, 라이브러리와 그 수정본에는 해당 파일의 원래 라이선스가 우선한다.
+   제3자가 부여한 이용·수정·재배포 권리에 COSL 비용, 별도 승인 또는 공개 의무를 추가하지 않는다.
+2. GitHub 원본 COSL의 도입부에 있던 GNU GPL 2 또는 이후 버전의 일반 허가문은
+   이 새로운 jkoros 배포판에는 적용하지 않는다. 아래의 상업 조건과 모순되는 GPL 허가를
+   새로 부여하지 않기 위한 정리이며, 과거에 이미 유효하게 부여된 권리를 취소하는 조항이 아니다.
+3. libassh와 TinyCC에는 LGPL 2.1 또는 그 이후 버전이 적용된다.
+   LGPL 2.1 제6항에 따라 적법하게 취득한 결합 프로그램을 고객 자신의 사용을 위해 수정하고,
+   수정 사항의 디버깅을 위해 역공학하며, 수정한 LGPL 구성요소로 다시 연결할 수 있다.
+   이러한 작업 자체에 추가 계약·요금·수정 소스 공개 의무를 부과하지 않는다.
+   LGPL 구성요소 및 그 수정본의 독립적인 사용·배포는 LGPL 조건을 따른다.
+   이 항목은 COSL의 상충하는 제한보다 우선한다.
+4. BSD/MIT 등 제3자 고지의 보존·표시 의무를 준수한다. BSD-4-Clause PHY 코드의 고지는:
+   “This product includes software developed by Bill Paul.”
+5. 구성별 범위와 제공 자료는 THIRD_PARTY_NOTICES.md 및
+   platforms/rpi4-native/COSL配布手引.md에 명시한다.
+
+아래 COSL 원문의 상업 조건·요율은 유지한다. 원문의 특허 주장이나 관할 미기입 사항에
+대한 법적 유효성을 이 적용 문서가 인증하는 것은 아니다.
+
+---
+
+## **1. Mandatory Source Code Disclosure**  
+- Any user who **uses, modifies, or distributes** this software **must disclose all modified source code**.  
+- If this software is **used in a SaaS (Software-as-a-Service) or cloud-based environment**,  
+  the **entire source code, including modifications, must be made publicly available**.  
+- Any **derivative works incorporating this software** must also **retain the same open-source license**.  
+
+---
+
+## **2. Patent Licensing & Royalties**  
+This software includes technologies covered by one or more patents.  
+Therefore, users must comply with the following patent licensing requirements:  
+
+### **2.1 Patent Licensing Requirements**  
+- **Individuals  users** can use this software for free.  
+-  must obtain a patent license:  
+  - **3% of total revenue OR $50,000 per use case, whichever is higher**  
+  - SaaS, PaaS, or cloud service providers → **$100 per user annually**  
+- Any use of the patented technology without obtaining a proper license  
+  may be considered a **patent infringement**.  
+
+### **2.2 Patent License Exemptions**  
+A patent license fee is **waived** under the following conditions:  
+- The software is **100% open-source and distributed freely** (requires prior written approval from the author).  
+
+---
+
+## **3. Commercial Use Restrictions**  
+If this software is used in a commercial product or service, the following conditions apply:  
+
+- **A commercial license must be obtained** from the original author.  
+- Commercial license fees:  
+  - **For inclusion in enterprise products/services** → **$250,000 per year OR 5% of total revenue, whichever is higher**  
+  - **For cloud-based services** → **$100 per user annually**  
+- Any **AI models, data analytics services, or API-based solutions** built on top of this software  
+  are also considered commercial use and **must comply with licensing requirements**.  
+ - if this software is distributed in combination with other commercial products, a separate license is required.
+
+Failure to comply with these conditions may result in **legal action**.  
+
+---
+
+## **4. License Violation & Termination**  
+- If any user **violates** this license, their **rights are immediately revoked**, and they must **cease using the software**.  
+- The original author **reserves the right to take legal action** against violators.  
+- Unauthorized use of patented technology may result in **damage claims and injunctions**.  
+
+---
+
+## **5. Legal Jurisdiction & Dispute Resolution**  
+- This license is governed by the **laws of [Author's Country]**.  
+- Any disputes arising from this license shall be settled in **the courts of [Author’s Jurisdiction]**.  
+
+---
+
+For inquiries regarding **patent licensing** and **commercial use**, please contact:  
+📧 [nsch@naver.com]  

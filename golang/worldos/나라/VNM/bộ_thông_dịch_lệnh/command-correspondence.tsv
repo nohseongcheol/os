@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	hiện_trợ_giúp
+echo	hiện_đối_số
+pwd	hiện_thư_mục_hiện_tại
+cat	hiện_nội_dung_tệp
+stat	hiện_thông_tin_tệp
+pid	hiện_mã_tiến_trình
+uname	hiện_thông_tin_hệ_thống
+run	chạy_chương_trình
+udp	thử_gói_dữ_liệu_vòng_về
+source	thông_dịch_tệp_lệnh
+cd	đổi_thư_mục
+exit	thoát

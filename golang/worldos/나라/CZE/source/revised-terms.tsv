@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	přidělit paměť	přidělit_paměť	project-proposal	function-based project proposal
+append	přidat na konec seznamu	přidat_na_konec_seznamu	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	mapa obsazení	mapa_obsazení	project-proposal	function-based project proposal
+boot	spuštění stroje	spuštění_stroje	project-proposal	function-based project proposal
+boot_record	hlavní spouštěcí záznam	hlavní_spouštěcí_záznam	project-proposal	boot code and partition metadata, not an audio recording
+bus	sdílená přenosová sběrnice	sdílená_přenosová_sběrnice	project-proposal	function-based project proposal
+compile_kernel	přeložit jádro	přeložit_jádro	project-proposal	function-based project proposal
+destination_port	číslo cílového portu	číslo_cílového_portu	project-proposal	function-based project proposal
+elf	spustitelný a spojitelný formát	spustitelný_a_spojitelný_formát	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	číslo chyby	číslo_chyby	project-proposal	function-based project proposal
+ethernet_frame	rámec sítě se sdíleným médiem	rámec_sítě_se_sdíleným_médiem	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	hlavička rámce sítě se sdíleným médiem	hlavička_rámce_sítě_se_sdíleným_médiem	project-proposal	function-based project proposal
+ethernet_provider	poskytovatel rámců sítě se sdíleným médiem	poskytovatel_rámců_sítě_se_sdíleným_médiem	project-proposal	function-based project proposal
+fat_parameters	parametry souborového systému	parametry_souborového_systému	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	řízení souboru	řízení_souboru	project-proposal	function-based project proposal
+file_read	číst soubor	číst_soubor	project-proposal	function-based project proposal
+file_status	stav souboru	stav_souboru	project-proposal	function-based project proposal
+file_write	zapsat soubor	zapsat_soubor	project-proposal	function-based project proposal
+free_memory	uvolnit paměť	uvolnit_paměť	project-proposal	function-based project proposal
+headers	deklarace	deklarace	project-proposal	function-based project proposal
+heap	dynamická paměť	dynamická_paměť	project-proposal	function-based project proposal
+icmp	protokol řídicích zpráv propojených sítí	protokol_řídicích_zpráv_propojených_sítí	project-proposal	function-based project proposal
+implementation	implementace	implementace	project-proposal	function-based project proposal
+insert_at	vložit na pozici	vložit_na_pozici	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	propojená síť	propojená_síť	project-proposal	function-based project proposal
+ip_provider	poskytovatel protokolu propojených sítí	poskytovatel_protokolu_propojených_sítí	project-proposal	function-based project proposal
+ipv4	protokol propojených sítí 4	protokol_propojených_sítí_4	project-proposal	function-based project proposal
+link_layout	rozvržení spojování	rozvržení_spojování	project-proposal	function-based project proposal
+list_node	uzel seznamu	uzel_seznamu	project-proposal	function-based project proposal
+log_decoder	zpracovat sériový záznam	zpracovat_sériový_záznam	project-proposal	function-based project proposal
+mouse	polohovací zařízení	polohovací_zařízení	project-proposal	function-based project proposal
+page_directory	adresář stránek	adresář_stránek	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	fyzická stránka	fyzická_stránka	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	odkaz na adresu	odkaz_na_adresu	project-proposal	function-based project proposal
+prepend	přidat na začátek seznamu	přidat_na_začátek_seznamu	project-proposal	src/util/list/list.go: links before head
+register	registr	registr	project-proposal	function-based project proposal
+set_coordinates	nastavit místní souřadnice	nastavit_místní_souřadnice	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	číslo zdrojového portu	číslo_zdrojového_portu	project-proposal	function-based project proposal
+stack	paměť zásobníku	paměť_zásobníku	project-proposal	function-based project proposal
+startup	spuštění	spuštění	project-proposal	function-based project proposal
+structure_offsets	posuny struktury	posuny_struktury	project-proposal	function-based project proposal
+system_call	systémové volání	systémové_volání	project-proposal	function-based project proposal
+tests	zkoušky	zkoušky	project-proposal	function-based project proposal
+toggle_bit	obrátit bit obsazení	obrátit_bit_obsazení	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	nástroje	nástroje	project-proposal	function-based project proposal
+udp	protokol uživatelských datagramů	protokol_uživatelských_datagramů	project-proposal	function-based project proposal
+udp_header	hlavička uživatelského datagramu	hlavička_uživatelského_datagramu	project-proposal	function-based project proposal
+udp_socket	koncový bod uživatelských datagramů	koncový_bod_uživatelských_datagramů	project-proposal	function-based project proposal
+user_space	uživatelský prostor	uživatelský_prostor	project-proposal	function-based project proposal
+widget	prvek obrazovky	prvek_obrazovky	project-proposal	function-based project proposal

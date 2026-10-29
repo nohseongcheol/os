@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	przydziel pamięć	przydziel_pamięć	project-proposal	function-based project proposal
+append	dodaj na końcu listy	dodaj_na_końcu_listy	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	mapa zajętości	mapa_zajętości	project-proposal	function-based project proposal
+boot	rozruch maszyny	rozruch_maszyny	project-proposal	function-based project proposal
+boot_record	główny rekord rozruchowy	główny_rekord_rozruchowy	project-proposal	boot code and partition metadata, not an audio recording
+bus	wspólna magistrala transmisji	wspólna_magistrala_transmisji	project-proposal	function-based project proposal
+compile_kernel	kompiluj jądro	kompiluj_jądro	project-proposal	function-based project proposal
+destination_port	numer portu docelowego	numer_portu_docelowego	project-proposal	function-based project proposal
+elf	format wykonywalny i konsolidowalny	format_wykonywalny_i_konsolidowalny	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	numer błędu	numer_błędu	project-proposal	function-based project proposal
+ethernet_frame	ramka sieci o wspólnym medium	ramka_sieci_o_wspólnym_medium	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	nagłówek ramki sieci o wspólnym medium	nagłówek_ramki_sieci_o_wspólnym_medium	project-proposal	function-based project proposal
+ethernet_provider	dostawca ramek sieci o wspólnym medium	dostawca_ramek_sieci_o_wspólnym_medium	project-proposal	function-based project proposal
+fat_parameters	parametry systemu plików	parametry_systemu_plików	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	sterowanie plikiem	sterowanie_plikiem	project-proposal	function-based project proposal
+file_read	odczytaj plik	odczytaj_plik	project-proposal	function-based project proposal
+file_status	stan pliku	stan_pliku	project-proposal	function-based project proposal
+file_write	zapisz plik	zapisz_plik	project-proposal	function-based project proposal
+free_memory	zwolnij pamięć	zwolnij_pamięć	project-proposal	function-based project proposal
+headers	deklaracje	deklaracje	project-proposal	function-based project proposal
+heap	pamięć dynamiczna	pamięć_dynamiczna	project-proposal	function-based project proposal
+icmp	protokół komunikatów sterujących połączonych sieci	protokół_komunikatów_sterujących_połączonych_sieci	project-proposal	function-based project proposal
+implementation	implementacja	implementacja	project-proposal	function-based project proposal
+insert_at	wstaw pod indeksem	wstaw_pod_indeksem	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	sieć połączonych sieci	sieć_połączonych_sieci	project-proposal	function-based project proposal
+ip_provider	dostawca protokołu połączonych sieci	dostawca_protokołu_połączonych_sieci	project-proposal	function-based project proposal
+ipv4	protokół połączonych sieci 4	protokół_połączonych_sieci_4	project-proposal	function-based project proposal
+link_layout	układ konsolidacji	układ_konsolidacji	project-proposal	function-based project proposal
+list_node	węzeł listy	węzeł_listy	project-proposal	function-based project proposal
+log_decoder	odczytaj dziennik szeregowy	odczytaj_dziennik_szeregowy	project-proposal	function-based project proposal
+mouse	urządzenie wskazujące	urządzenie_wskazujące	project-proposal	function-based project proposal
+page_directory	katalog stron	katalog_stron	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	strona fizyczna	strona_fizyczna	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	odwołanie do adresu	odwołanie_do_adresu	project-proposal	function-based project proposal
+prepend	dodaj na początku listy	dodaj_na_początku_listy	project-proposal	src/util/list/list.go: links before head
+register	rejestr	rejestr	project-proposal	function-based project proposal
+set_coordinates	ustaw współrzędne lokalne	ustaw_współrzędne_lokalne	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	numer portu źródłowego	numer_portu_źródłowego	project-proposal	function-based project proposal
+stack	pamięć stosu	pamięć_stosu	project-proposal	function-based project proposal
+startup	rozruch	rozruch	project-proposal	function-based project proposal
+structure_offsets	przesunięcia struktury	przesunięcia_struktury	project-proposal	function-based project proposal
+system_call	wywołanie systemowe	wywołanie_systemowe	project-proposal	function-based project proposal
+tests	testy	testy	project-proposal	function-based project proposal
+toggle_bit	odwróć bit zajętości	odwróć_bit_zajętości	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	narzędzia	narzędzia	project-proposal	function-based project proposal
+udp	protokół datagramów użytkownika	protokół_datagramów_użytkownika	project-proposal	function-based project proposal
+udp_header	nagłówek datagramu użytkownika	nagłówek_datagramu_użytkownika	project-proposal	function-based project proposal
+udp_socket	punkt końcowy datagramów użytkownika	punkt_końcowy_datagramów_użytkownika	project-proposal	function-based project proposal
+user_space	przestrzeń użytkownika	przestrzeń_użytkownika	project-proposal	function-based project proposal
+widget	element ekranu	element_ekranu	project-proposal	function-based project proposal

@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-10",
+  "country_editions": 249,
+  "script_editions": 46,
+  "shell_source_and_elf_builds_passed": 295,
+  "full_guest_shell_boots_passed": 295,
+  "current_shell_and_kernel_fingerprints_matched": 295,
+  "unit_tests_passed": 59,
+  "additional_posix_regressions_passed": 18,
+  "additional_posix_editions": ["KOR", "USA", "IND/ta_Taml"],
+  "terminology_base_language_script_keys": 26,
+  "editions_with_68_private_and_8_host_name_proposals": 193,
+  "editions_with_pending_native_shell_names": 102,
+  "linguistic_review": "incomplete",
+  "all_existing_kernel_identifiers_translated": false,
+  "all_world_languages_independently_implemented": false,
+  "kernel_fixes": [
+    "reload address translations after replacing a copy-on-write page",
+    "map fallback keyboard scan code 0x35 to slash",
+    "include alignment padding when selecting and splitting a memory chunk"
+  ],
+  "original_disk_unchanged": true,
+  "original_disk_sha256": "7a0565e7225658c92307b0918f5c24479f76500494d9a485d9c5987d597e627b",
+  "new_korean_shell_disk": "build/worldos-KOR-shell.vdi",
+  "boot_report": "build-verification/shell-boot-status.tsv",
+  "build_report": "build-verification/shell-build-status.tsv",
+  "naming_report": "명령해석기-목록.tsv"
+}

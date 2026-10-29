@@ -1,0 +1,4 @@
+# import config
+packagefile internal/race=/home/user/koros/build/b016/_pkg_.a
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sync/atomic=/home/user/koros/build/b017/_pkg_.a

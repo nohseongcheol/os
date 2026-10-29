@@ -1,0 +1,6 @@
+compiler_identifier	native_identifier
+SYS_exit	SYS__exit
+SYS_read	SYS_jàng
+SYS_write	SYS_bind_2
+read	jàng
+write	bind_2

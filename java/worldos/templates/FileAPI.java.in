@@ -1,0 +1,50 @@
+import java.io.*;
+import java.nio.ByteBuffer;
+import java.nio.channels.*;
+import java.nio.file.*;
+import java.nio.file.attribute.*;
+import java.net.*;
+import java.util.*;
+
+/** Local-language Java entry points into the real JDK/Linux implementation. */
+public final class __api__ {
+    private __api__() { }
+    public static RandomAccessFile __open__(String __path__, String __mode__) throws IOException {
+        return new RandomAccessFile(__path__, __mode__);
+    }
+    public static int __read__(RandomAccessFile __file__, byte[] __data__) throws IOException {
+        return __file__.read(__data__);
+    }
+    public static void __write__(RandomAccessFile __file__, byte[] __data__) throws IOException {
+        __file__.write(__data__);
+    }
+    public static void __seek__(RandomAccessFile __file__, long __position__) throws IOException {
+        __file__.seek(__position__);
+    }
+    public static void __sync__(RandomAccessFile __file__) throws IOException {
+        __file__.getFD().sync();
+    }
+    public static void __close__(RandomAccessFile __file__) throws IOException {
+        __file__.close();
+    }
+    public static void __remove__(String __path__) throws IOException {
+        Files.delete(Paths.get(__path__));
+    }
+    public static long __size__(String __path__) throws IOException {
+        return Files.size(Paths.get(__path__));
+    }
+    public static Socket __connect__(String __address__, int __port__) throws IOException {
+        return new Socket(__address__, __port__);
+    }
+    public static DatagramSocket __datagram__(int __port__) throws SocketException {
+        return new DatagramSocket(__port__);
+    }
+    public static Thread __thread__(Runnable __action__) {
+        Thread __thread__ = new Thread(__action__);
+        __thread__.start();
+        return __thread__;
+    }
+    public static Process __execute__(List<String> __command__) throws IOException {
+        return new ProcessBuilder(__command__).start();
+    }
+}

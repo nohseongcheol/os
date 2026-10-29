@@ -1,0 +1,25 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/90/901115b5a2acde58f3631835825777477ced949e645f307b92ba482dc36924be-d
+packagefile pci=/home/user/worldos/나라/BHR/소스/build/b017/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile أداة=/home/user/.cache/go-build/45/459b24e22586214480200cbde333491151725c6b4c771652fc7be782b5d48b73-d
+packagefile إدارةصفحات=/home/user/worldos/나라/BHR/소스/build/b024/_pkg_.a
+packagefile إدارةمهام/tss=/home/user/worldos/나라/BHR/소스/build/b025/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/BHR/소스/build/b026/_pkg_.a
+packagefile إدارةمهام/عملية=/home/user/worldos/나라/BHR/소스/build/b029/_pkg_.a
+packagefile إدارةمهام/مجدول=/home/user/worldos/나라/BHR/소스/build/b031/_pkg_.a
+packagefile افتراضيذاكرة=/home/user/worldos/나라/BHR/소스/build/b027/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/BHR/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/80/80d889d1e494ad9957a6051cdd68f876adc4f1af869a500d618b0da19f752b07-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/BHR/소스/build/b020/_pkg_.a
+packagefile مشغل/ata=/home/user/worldos/나라/BHR/소스/build/b032/_pkg_.a
+packagefile مشغل/جهاز_تأشير=/home/user/worldos/나라/BHR/소스/build/b033/_pkg_.a
+packagefile مشغل/لوحةمفاتيح=/home/user/worldos/나라/BHR/소스/build/b034/_pkg_.a
+packagefile مشغل/مشغل=/home/user/.cache/go-build/bd/bd75d36613eeeb7d4a77e4c29bfcd47008e2d1d04950d9d352b2b1d9ab86a6ba-d
+packagefile مقاطعة=/home/user/worldos/나라/BHR/소스/build/b019/_pkg_.a
+packagefile ملفنظام/fat=/home/user/worldos/나라/BHR/소스/build/b036/_pkg_.a
+packagefile ملفنظام/msdosتجزئة=/home/user/worldos/나라/BHR/소스/build/b037/_pkg_.a
+packagefile ملفنظام/صيغة_التنفيذ_والربط=/home/user/worldos/나라/BHR/소스/build/b038/_pkg_.a
+packagefile نظامنداء=/home/user/worldos/나라/BHR/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/BHR/소스/build/b000/_pkg_.a

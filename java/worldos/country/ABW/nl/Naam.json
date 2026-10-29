@@ -1,0 +1,575 @@
+{
+  "action": {
+    "text": "Actie",
+    "identifier": "Actie",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "systeemaanroep",
+    "identifier": "systeemaanroep",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "achteraan toevoegen",
+    "identifier": "achteraan_toevoegen",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "argumenten",
+    "identifier": "argumenten",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "knop",
+    "identifier": "knop",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "kies...",
+    "identifier": "kies",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Klasse",
+    "identifier": "Klasse",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Sluiten",
+    "identifier": "Sluiten",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "opdracht",
+    "identifier": "opdracht",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compileren",
+    "identifier": "compileren",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "_Verbinden",
+    "identifier": "Verbinden",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "huidigProces",
+    "identifier": "huidigProces",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "gegevens",
+    "identifier": "gegevens",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "map",
+    "identifier": "map",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "fout",
+    "identifier": "fout",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Gebeurtenis",
+    "identifier": "Gebeurtenis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "Uitvoer_en",
+    "identifier": "Uitvoeren",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "bestand",
+    "identifier": "bestand",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "initialiseren",
+    "identifier": "initialiseren",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "Sleutel",
+    "identifier": "Sleutel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Etiket",
+    "identifier": "Etiket",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "invoerregel",
+    "identifier": "invoerregel",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "broncodeLaden",
+    "identifier": "broncodeLaden",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "meldingen",
+    "identifier": "meldingen",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "Modus",
+    "identifier": "Modus",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Naam",
+    "identifier": "Naam",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Openen",
+    "identifier": "Openen",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "tekstuitvoer",
+    "identifier": "tekstuitvoer",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "Paneel",
+    "identifier": "Paneel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "argumentenOntleder",
+    "identifier": "argumentenOntleder",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "pad",
+    "identifier": "pad",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "poortnummer",
+    "identifier": "poortnummer",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "positie",
+    "identifier": "positie",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Proces",
+    "identifier": "Proces",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Lezen",
+    "identifier": "Lezen",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "tekstlezer",
+    "identifier": "tekstlezer",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "Verwijderen",
+    "identifier": "Verwijderen",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "resultaat",
+    "identifier": "resultaat",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "starten",
+    "identifier": "starten",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "Op_slaan",
+    "identifier": "Opslaan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Instellingen",
+    "identifier": "Instellingen",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Grootte",
+    "identifier": "Grootte",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "broncode",
+    "identifier": "broncode",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Stoppen",
+    "identifier": "Stoppen",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminal",
+    "identifier": "terminal",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "tekst",
+    "identifier": "tekst",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "uitvoeringsdraad",
+    "identifier": "uitvoeringsdraad",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "_Werkbalk",
+    "identifier": "Werkbalk",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Venster",
+    "identifier": "Venster",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "achtergrondwerker",
+    "identifier": "achtergrondwerker",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "Werkruimte",
+    "identifier": "Werkruimte",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/nl/text/shared/guide/import_ms.html",
+      "https://anw.ivdnt.org/article/inladen",
+      "https://gtb.ivdnt.org/iWDB/search?Betekenis_id=24588.sense.60&actie=article_content&id=24588&lemmodern=laden&wdb=MNW",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "_Schrijven",
+    "identifier": "Schrijven",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/nl/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

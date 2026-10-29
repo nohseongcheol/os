@@ -1,0 +1,21 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package פֿאַראייניגטע_שטאַטן.JUsaOS.파일체계;
+
+public final class 파일정보 {
+    private final int גרײס;
+    private final int 형태;
+
+    public 파일정보(int גרײס, int 형태) {
+        this.גרײס = גרײס;
+        this.형태 = 형태;
+    }
+
+    public int גרײס() {
+        return גרײס;
+    }
+
+    public int 형태() {
+        return 형태;
+    }
+}
+

@@ -1,0 +1,5417 @@
+{
+  "territory_source": "ISO 3166-1 (naming/countries.json)",
+  "language_source": "Unicode CLDR 48; script-specific representatives are explicit project selections",
+  "language_reference": "https://www.unicode.org/cldr/charts/48/supplemental/territory_language_information.html",
+  "anguilla_reference": "https://www.gov.ai/stats/abstract00.htm",
+  "countries": {
+    "ABW": {
+      "alpha2": "AW",
+      "name": "Aruba",
+      "representative_language": "nl",
+      "cldr_language_editions": [
+        "en",
+        "nl",
+        "pap"
+      ],
+      "languages": [
+        "en",
+        "nl",
+        "pap"
+      ]
+    },
+    "AFG": {
+      "alpha2": "AF",
+      "name": "Afghanistan",
+      "representative_language": "fa",
+      "cldr_language_editions": [
+        "bgn",
+        "fa",
+        "haz",
+        "kaa",
+        "kk_Arab",
+        "prd",
+        "ps",
+        "tk",
+        "ug",
+        "uz_Arab"
+      ],
+      "languages": [
+        "bgn",
+        "fa",
+        "haz",
+        "kaa",
+        "kk_Arab",
+        "prd",
+        "ps",
+        "tk",
+        "ug",
+        "uz_Arab"
+      ]
+    },
+    "AGO": {
+      "alpha2": "AO",
+      "name": "Angola",
+      "representative_language": "pt",
+      "cldr_language_editions": [
+        "kmb",
+        "ln",
+        "pt",
+        "umb"
+      ],
+      "languages": [
+        "kmb",
+        "ln",
+        "pt",
+        "umb"
+      ]
+    },
+    "AIA": {
+      "alpha2": "AI",
+      "name": "Anguilla",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "ALA": {
+      "alpha2": "AX",
+      "name": "Åland Islands",
+      "representative_language": "sv",
+      "cldr_language_editions": [
+        "sv"
+      ],
+      "languages": [
+        "sv"
+      ]
+    },
+    "ALB": {
+      "alpha2": "AL",
+      "name": "Albania",
+      "representative_language": "sq",
+      "cldr_language_editions": [
+        "el",
+        "mk",
+        "sq"
+      ],
+      "languages": [
+        "el",
+        "mk",
+        "sq"
+      ]
+    },
+    "AND": {
+      "alpha2": "AD",
+      "name": "Andorra",
+      "representative_language": "ca",
+      "cldr_language_editions": [
+        "ca",
+        "es",
+        "fr"
+      ],
+      "languages": [
+        "ca",
+        "es",
+        "fr"
+      ]
+    },
+    "ARE": {
+      "alpha2": "AE",
+      "name": "United Arab Emirates",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "bal",
+        "en",
+        "fa",
+        "ml",
+        "ps"
+      ],
+      "languages": [
+        "ar",
+        "bal",
+        "en",
+        "fa",
+        "ml",
+        "ps"
+      ]
+    },
+    "ARG": {
+      "alpha2": "AR",
+      "name": "Argentina",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "cy",
+        "en",
+        "es",
+        "gn"
+      ],
+      "languages": [
+        "cy",
+        "en",
+        "es",
+        "gn"
+      ]
+    },
+    "ARM": {
+      "alpha2": "AM",
+      "name": "Armenia",
+      "representative_language": "hy",
+      "cldr_language_editions": [
+        "az",
+        "hy",
+        "ku",
+        "ku_Cyrl",
+        "ru"
+      ],
+      "languages": [
+        "az",
+        "hy",
+        "ku",
+        "ku_Cyrl",
+        "ru"
+      ]
+    },
+    "ASM": {
+      "alpha2": "AS",
+      "name": "American Samoa",
+      "representative_language": "sm",
+      "cldr_language_editions": [
+        "en",
+        "sm"
+      ],
+      "languages": [
+        "en",
+        "sm"
+      ]
+    },
+    "ATA": {
+      "alpha2": "AQ",
+      "name": "Antarctica",
+      "representative_language": "und",
+      "cldr_language_editions": [
+        "und"
+      ],
+      "languages": [
+        "und"
+      ]
+    },
+    "ATF": {
+      "alpha2": "TF",
+      "name": "French Southern Territories",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr"
+      ],
+      "languages": [
+        "fr"
+      ]
+    },
+    "ATG": {
+      "alpha2": "AG",
+      "name": "Antigua and Barbuda",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "pt"
+      ],
+      "languages": [
+        "en",
+        "pt"
+      ]
+    },
+    "AUS": {
+      "alpha2": "AU",
+      "name": "Australia",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "hnj",
+        "it",
+        "wbp",
+        "zh_Hant"
+      ],
+      "languages": [
+        "en",
+        "hnj",
+        "it",
+        "wbp",
+        "zh_Hant"
+      ]
+    },
+    "AUT": {
+      "alpha2": "AT",
+      "name": "Austria",
+      "representative_language": "de",
+      "cldr_language_editions": [
+        "bar",
+        "de",
+        "en",
+        "fr",
+        "hr",
+        "hu",
+        "it",
+        "sl"
+      ],
+      "languages": [
+        "bar",
+        "de",
+        "en",
+        "fr",
+        "hr",
+        "hu",
+        "it",
+        "sl"
+      ]
+    },
+    "AZE": {
+      "alpha2": "AZ",
+      "name": "Azerbaijan",
+      "representative_language": "az_Latn",
+      "cldr_language_editions": [
+        "az",
+        "az_Cyrl",
+        "ku",
+        "ku_Cyrl",
+        "tkr",
+        "tly",
+        "ttt"
+      ],
+      "languages": [
+        "az",
+        "az_Cyrl",
+        "az_Latn",
+        "ku",
+        "ku_Cyrl",
+        "tkr",
+        "tly",
+        "ttt"
+      ]
+    },
+    "BDI": {
+      "alpha2": "BI",
+      "name": "Burundi",
+      "representative_language": "rn",
+      "cldr_language_editions": [
+        "en",
+        "fr",
+        "rn",
+        "sw"
+      ],
+      "languages": [
+        "en",
+        "fr",
+        "rn",
+        "sw"
+      ]
+    },
+    "BEL": {
+      "alpha2": "BE",
+      "name": "Belgium",
+      "representative_language": "nl",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "fr",
+        "nl",
+        "vls",
+        "wa"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "fr",
+        "nl",
+        "vls",
+        "wa"
+      ]
+    },
+    "BEN": {
+      "alpha2": "BJ",
+      "name": "Benin",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "blo",
+        "fon",
+        "fr",
+        "yo"
+      ],
+      "languages": [
+        "blo",
+        "fon",
+        "fr",
+        "yo"
+      ]
+    },
+    "BES": {
+      "alpha2": "BQ",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "representative_language": "nl",
+      "cldr_language_editions": [
+        "nl",
+        "pap"
+      ],
+      "languages": [
+        "nl",
+        "pap"
+      ]
+    },
+    "BFA": {
+      "alpha2": "BF",
+      "name": "Burkina Faso",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "dyu",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "mos"
+      ],
+      "languages": [
+        "dyu",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "mos"
+      ]
+    },
+    "BGD": {
+      "alpha2": "BD",
+      "name": "Bangladesh",
+      "representative_language": "bn",
+      "cldr_language_editions": [
+        "bn",
+        "ccp",
+        "en",
+        "grt",
+        "mni",
+        "mro",
+        "my",
+        "rhg",
+        "rkt",
+        "syl"
+      ],
+      "languages": [
+        "bn",
+        "ccp",
+        "en",
+        "grt",
+        "mni",
+        "mro",
+        "my",
+        "rhg",
+        "rkt",
+        "syl"
+      ]
+    },
+    "BGR": {
+      "alpha2": "BG",
+      "name": "Bulgaria",
+      "representative_language": "bg",
+      "cldr_language_editions": [
+        "bg",
+        "de",
+        "en",
+        "ru",
+        "tr"
+      ],
+      "languages": [
+        "bg",
+        "de",
+        "en",
+        "ru",
+        "tr"
+      ]
+    },
+    "BHR": {
+      "alpha2": "BH",
+      "name": "Bahrain",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "ml"
+      ],
+      "languages": [
+        "ar",
+        "ml"
+      ]
+    },
+    "BHS": {
+      "alpha2": "BS",
+      "name": "Bahamas",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "BIH": {
+      "alpha2": "BA",
+      "name": "Bosnia and Herzegovina",
+      "representative_language": "bs_Cyrl",
+      "cldr_language_editions": [
+        "bs",
+        "bs_Cyrl",
+        "en",
+        "hr",
+        "sr",
+        "sr_Latn"
+      ],
+      "languages": [
+        "bs",
+        "bs_Cyrl",
+        "en",
+        "hr",
+        "sr",
+        "sr_Latn"
+      ]
+    },
+    "BLM": {
+      "alpha2": "BL",
+      "name": "Saint Barthélemy",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr"
+      ],
+      "languages": [
+        "fr"
+      ]
+    },
+    "BLR": {
+      "alpha2": "BY",
+      "name": "Belarus",
+      "representative_language": "be",
+      "cldr_language_editions": [
+        "be",
+        "ru"
+      ],
+      "languages": [
+        "be",
+        "ru"
+      ]
+    },
+    "BLZ": {
+      "alpha2": "BZ",
+      "name": "Belize",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "bzj",
+        "cab",
+        "en",
+        "es",
+        "kek",
+        "mop"
+      ],
+      "languages": [
+        "bzj",
+        "cab",
+        "en",
+        "es",
+        "kek",
+        "mop"
+      ]
+    },
+    "BMU": {
+      "alpha2": "BM",
+      "name": "Bermuda",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "BOL": {
+      "alpha2": "BO",
+      "name": "Bolivia, Plurinational State of",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "aro",
+        "ay",
+        "es",
+        "gn",
+        "qu"
+      ],
+      "languages": [
+        "aro",
+        "ay",
+        "es",
+        "gn",
+        "qu"
+      ]
+    },
+    "BRA": {
+      "alpha2": "BR",
+      "name": "Brazil",
+      "representative_language": "pt",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "es",
+        "gub",
+        "it",
+        "ja",
+        "kgp",
+        "ko",
+        "pt",
+        "vec",
+        "xav",
+        "yrl"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "es",
+        "gub",
+        "it",
+        "ja",
+        "kgp",
+        "ko",
+        "pt",
+        "vec",
+        "xav",
+        "yrl"
+      ]
+    },
+    "BRB": {
+      "alpha2": "BB",
+      "name": "Barbados",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "BRN": {
+      "alpha2": "BN",
+      "name": "Brunei Darussalam",
+      "representative_language": "ms_Latn",
+      "cldr_language_editions": [
+        "en",
+        "ms",
+        "ms_Arab",
+        "zh_Hant"
+      ],
+      "languages": [
+        "en",
+        "ms",
+        "ms_Arab",
+        "ms_Latn",
+        "zh_Hant"
+      ]
+    },
+    "BTN": {
+      "alpha2": "BT",
+      "name": "Bhutan",
+      "representative_language": "dz",
+      "cldr_language_editions": [
+        "dz",
+        "en",
+        "lep",
+        "ne",
+        "tsj"
+      ],
+      "languages": [
+        "dz",
+        "en",
+        "lep",
+        "ne",
+        "tsj"
+      ]
+    },
+    "BVT": {
+      "alpha2": "BV",
+      "name": "Bouvet Island",
+      "representative_language": "und",
+      "cldr_language_editions": [
+        "no"
+      ],
+      "languages": [
+        "no",
+        "und"
+      ]
+    },
+    "BWA": {
+      "alpha2": "BW",
+      "name": "Botswana",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "af",
+        "en",
+        "tn"
+      ],
+      "languages": [
+        "af",
+        "en",
+        "tn"
+      ]
+    },
+    "CAF": {
+      "alpha2": "CF",
+      "name": "Central African Republic",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr",
+        "ln",
+        "sg"
+      ],
+      "languages": [
+        "fr",
+        "ln",
+        "sg"
+      ]
+    },
+    "CAN": {
+      "alpha2": "CA",
+      "name": "Canada",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "ar",
+        "atj",
+        "bla",
+        "bn",
+        "chp",
+        "clc",
+        "cr",
+        "crg",
+        "crk",
+        "crl",
+        "csw",
+        "dak",
+        "de",
+        "den",
+        "dgr",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fil",
+        "fr",
+        "gu",
+        "gwi",
+        "hi",
+        "hr",
+        "hu",
+        "hur",
+        "it",
+        "iu",
+        "iu_Latn",
+        "ja",
+        "ko",
+        "kwk",
+        "lil",
+        "mic",
+        "moe",
+        "moh",
+        "nl",
+        "nsk",
+        "oj",
+        "ojs",
+        "ojw",
+        "oka",
+        "pa",
+        "pdt",
+        "pl",
+        "pqm",
+        "pt",
+        "ro",
+        "ru",
+        "so",
+        "sr",
+        "ta",
+        "tr",
+        "uk",
+        "ur",
+        "vi",
+        "war",
+        "yue",
+        "zh"
+      ],
+      "languages": [
+        "ar",
+        "atj",
+        "bla",
+        "bn",
+        "chp",
+        "clc",
+        "cr",
+        "crg",
+        "crk",
+        "crl",
+        "csw",
+        "dak",
+        "de",
+        "den",
+        "dgr",
+        "el",
+        "en",
+        "es",
+        "fa",
+        "fil",
+        "fr",
+        "gu",
+        "gwi",
+        "hi",
+        "hr",
+        "hu",
+        "hur",
+        "it",
+        "iu",
+        "iu_Latn",
+        "ja",
+        "ko",
+        "kwk",
+        "lil",
+        "mic",
+        "moe",
+        "moh",
+        "nl",
+        "nsk",
+        "oj",
+        "ojs",
+        "ojw",
+        "oka",
+        "pa",
+        "pdt",
+        "pl",
+        "pqm",
+        "pt",
+        "ro",
+        "ru",
+        "so",
+        "sr",
+        "ta",
+        "tr",
+        "uk",
+        "ur",
+        "vi",
+        "war",
+        "yue",
+        "zh"
+      ]
+    },
+    "CCK": {
+      "alpha2": "CC",
+      "name": "Cocos (Keeling) Islands",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "ms_Arab"
+      ],
+      "languages": [
+        "en",
+        "ms_Arab"
+      ]
+    },
+    "CHE": {
+      "alpha2": "CH",
+      "name": "Switzerland",
+      "representative_language": "de",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "fr",
+        "gsw",
+        "it",
+        "lmo",
+        "pt",
+        "rm",
+        "rmo",
+        "wae"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "fr",
+        "gsw",
+        "it",
+        "lmo",
+        "pt",
+        "rm",
+        "rmo",
+        "wae"
+      ]
+    },
+    "CHL": {
+      "alpha2": "CL",
+      "name": "Chile",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "arn",
+        "en",
+        "es"
+      ],
+      "languages": [
+        "arn",
+        "en",
+        "es"
+      ]
+    },
+    "CHN": {
+      "alpha2": "CN",
+      "name": "China",
+      "representative_language": "zh_Hans",
+      "cldr_language_editions": [
+        "bo",
+        "en",
+        "gan",
+        "hak",
+        "hnj",
+        "hsn",
+        "ii",
+        "khb",
+        "kk_Arab",
+        "ko",
+        "ky_Arab",
+        "lcp",
+        "lis",
+        "lzh",
+        "mn_Mong",
+        "mww",
+        "nan",
+        "nxq",
+        "ru",
+        "stu_Tale",
+        "tdd",
+        "ug",
+        "uz_Cyrl",
+        "vi",
+        "wuu",
+        "yue",
+        "yue_Hans",
+        "za",
+        "zh"
+      ],
+      "languages": [
+        "bo",
+        "en",
+        "gan",
+        "hak",
+        "hnj",
+        "hsn",
+        "ii",
+        "khb",
+        "kk_Arab",
+        "ko",
+        "ky_Arab",
+        "lcp",
+        "lis",
+        "lzh",
+        "mn_Mong",
+        "mww",
+        "nan",
+        "nxq",
+        "ru",
+        "stu_Tale",
+        "tdd",
+        "ug",
+        "uz_Cyrl",
+        "vi",
+        "wuu",
+        "yue",
+        "yue_Hans",
+        "za",
+        "zh",
+        "zh_Hans"
+      ]
+    },
+    "CIV": {
+      "alpha2": "CI",
+      "name": "Côte d'Ivoire",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "bci",
+        "bqv",
+        "dnj",
+        "fr",
+        "kfo",
+        "sef"
+      ],
+      "languages": [
+        "bci",
+        "bqv",
+        "dnj",
+        "fr",
+        "kfo",
+        "sef"
+      ]
+    },
+    "CMR": {
+      "alpha2": "CM",
+      "name": "Cameroon",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "agq",
+        "ar",
+        "bas",
+        "bax",
+        "bbj",
+        "bfd",
+        "bkm",
+        "bss",
+        "bum",
+        "byv",
+        "dua",
+        "en",
+        "ewo",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "ha_Arab",
+        "jgo",
+        "ken",
+        "kkj",
+        "ksf",
+        "maf",
+        "mgo",
+        "mua",
+        "nmg",
+        "nnh",
+        "yav",
+        "ybb"
+      ],
+      "languages": [
+        "agq",
+        "ar",
+        "bas",
+        "bax",
+        "bbj",
+        "bfd",
+        "bkm",
+        "bss",
+        "bum",
+        "byv",
+        "dua",
+        "en",
+        "ewo",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "ha_Arab",
+        "jgo",
+        "ken",
+        "kkj",
+        "ksf",
+        "maf",
+        "mgo",
+        "mua",
+        "nmg",
+        "nnh",
+        "yav",
+        "ybb"
+      ]
+    },
+    "COD": {
+      "alpha2": "CD",
+      "name": "Congo, The Democratic Republic of the",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr",
+        "kg",
+        "ln",
+        "lol",
+        "lu",
+        "lua",
+        "rw",
+        "sw"
+      ],
+      "languages": [
+        "fr",
+        "kg",
+        "ln",
+        "lol",
+        "lu",
+        "lua",
+        "rw",
+        "sw"
+      ]
+    },
+    "COG": {
+      "alpha2": "CG",
+      "name": "Congo",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr",
+        "ln"
+      ],
+      "languages": [
+        "fr",
+        "ln"
+      ]
+    },
+    "COK": {
+      "alpha2": "CK",
+      "name": "Cook Islands",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "COL": {
+      "alpha2": "CO",
+      "name": "Colombia",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "es",
+        "guc",
+        "yrl"
+      ],
+      "languages": [
+        "es",
+        "guc",
+        "yrl"
+      ]
+    },
+    "COM": {
+      "alpha2": "KM",
+      "name": "Comoros",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "fr",
+        "wni",
+        "zdj"
+      ],
+      "languages": [
+        "ar",
+        "fr",
+        "wni",
+        "zdj"
+      ]
+    },
+    "CPV": {
+      "alpha2": "CV",
+      "name": "Cabo Verde",
+      "representative_language": "pt",
+      "cldr_language_editions": [
+        "kea",
+        "pt"
+      ],
+      "languages": [
+        "kea",
+        "pt"
+      ]
+    },
+    "CRI": {
+      "alpha2": "CR",
+      "name": "Costa Rica",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "es"
+      ],
+      "languages": [
+        "es"
+      ]
+    },
+    "CUB": {
+      "alpha2": "CU",
+      "name": "Cuba",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "es"
+      ],
+      "languages": [
+        "es"
+      ]
+    },
+    "CUW": {
+      "alpha2": "CW",
+      "name": "Curaçao",
+      "representative_language": "pap",
+      "cldr_language_editions": [
+        "es",
+        "nl",
+        "pap"
+      ],
+      "languages": [
+        "es",
+        "nl",
+        "pap"
+      ]
+    },
+    "CXR": {
+      "alpha2": "CX",
+      "name": "Christmas Island",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "CYM": {
+      "alpha2": "KY",
+      "name": "Cayman Islands",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "CYP": {
+      "alpha2": "CY",
+      "name": "Cyprus",
+      "representative_language": "el",
+      "cldr_language_editions": [
+        "ar",
+        "ecy",
+        "el",
+        "en",
+        "fr",
+        "hy",
+        "tr"
+      ],
+      "languages": [
+        "ar",
+        "ecy",
+        "el",
+        "en",
+        "fr",
+        "hy",
+        "tr"
+      ]
+    },
+    "CZE": {
+      "alpha2": "CZ",
+      "name": "Czechia",
+      "representative_language": "cs",
+      "cldr_language_editions": [
+        "cs",
+        "de",
+        "en",
+        "pl",
+        "sk"
+      ],
+      "languages": [
+        "cs",
+        "de",
+        "en",
+        "pl",
+        "sk"
+      ]
+    },
+    "DEU": {
+      "alpha2": "DE",
+      "name": "Germany",
+      "representative_language": "de",
+      "cldr_language_editions": [
+        "bar",
+        "da",
+        "de",
+        "dsb",
+        "el",
+        "en",
+        "es",
+        "fr",
+        "frr",
+        "frs",
+        "gsw",
+        "hr",
+        "hsb",
+        "it",
+        "ksh",
+        "ku",
+        "nds",
+        "nl",
+        "pfl",
+        "pl",
+        "ru",
+        "stq",
+        "swg",
+        "tr",
+        "vmf"
+      ],
+      "languages": [
+        "bar",
+        "da",
+        "de",
+        "dsb",
+        "el",
+        "en",
+        "es",
+        "fr",
+        "frr",
+        "frs",
+        "gsw",
+        "hr",
+        "hsb",
+        "it",
+        "ksh",
+        "ku",
+        "nds",
+        "nl",
+        "pfl",
+        "pl",
+        "ru",
+        "stq",
+        "swg",
+        "tr",
+        "vmf"
+      ]
+    },
+    "DJI": {
+      "alpha2": "DJ",
+      "name": "Djibouti",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "aa",
+        "ar",
+        "fr",
+        "so"
+      ],
+      "languages": [
+        "aa",
+        "ar",
+        "fr",
+        "so"
+      ]
+    },
+    "DMA": {
+      "alpha2": "DM",
+      "name": "Dominica",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "DNK": {
+      "alpha2": "DK",
+      "name": "Denmark",
+      "representative_language": "da",
+      "cldr_language_editions": [
+        "da",
+        "de",
+        "en",
+        "fo",
+        "jut",
+        "kl",
+        "sv"
+      ],
+      "languages": [
+        "da",
+        "de",
+        "en",
+        "fo",
+        "jut",
+        "kl",
+        "sv"
+      ]
+    },
+    "DOM": {
+      "alpha2": "DO",
+      "name": "Dominican Republic",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "en",
+        "es"
+      ],
+      "languages": [
+        "en",
+        "es"
+      ]
+    },
+    "DZA": {
+      "alpha2": "DZ",
+      "name": "Algeria",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "arq",
+        "en",
+        "fr",
+        "grr",
+        "kab",
+        "mey",
+        "mzb"
+      ],
+      "languages": [
+        "ar",
+        "arq",
+        "en",
+        "fr",
+        "grr",
+        "kab",
+        "mey",
+        "mzb"
+      ]
+    },
+    "ECU": {
+      "alpha2": "EC",
+      "name": "Ecuador",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "es",
+        "qu",
+        "qug"
+      ],
+      "languages": [
+        "es",
+        "qu",
+        "qug"
+      ]
+    },
+    "EGY": {
+      "alpha2": "EG",
+      "name": "Egypt",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "arz",
+        "cop",
+        "el",
+        "en"
+      ],
+      "languages": [
+        "ar",
+        "arz",
+        "cop",
+        "el",
+        "en"
+      ]
+    },
+    "ERI": {
+      "alpha2": "ER",
+      "name": "Eritrea",
+      "representative_language": "ti",
+      "cldr_language_editions": [
+        "aa",
+        "ar",
+        "byn",
+        "en",
+        "ssy",
+        "ti",
+        "tig"
+      ],
+      "languages": [
+        "aa",
+        "ar",
+        "byn",
+        "en",
+        "ssy",
+        "ti",
+        "tig"
+      ]
+    },
+    "ESH": {
+      "alpha2": "EH",
+      "name": "Western Sahara",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "mey"
+      ],
+      "languages": [
+        "ar",
+        "mey"
+      ]
+    },
+    "ESP": {
+      "alpha2": "ES",
+      "name": "Spain",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "an",
+        "ast",
+        "ca",
+        "en",
+        "es",
+        "eu",
+        "ext",
+        "gl",
+        "oc"
+      ],
+      "languages": [
+        "an",
+        "ast",
+        "ca",
+        "en",
+        "es",
+        "eu",
+        "ext",
+        "gl",
+        "oc"
+      ]
+    },
+    "EST": {
+      "alpha2": "EE",
+      "name": "Estonia",
+      "representative_language": "et",
+      "cldr_language_editions": [
+        "en",
+        "et",
+        "fi",
+        "ie",
+        "ru",
+        "vro"
+      ],
+      "languages": [
+        "en",
+        "et",
+        "fi",
+        "ie",
+        "ru",
+        "vro"
+      ]
+    },
+    "ETH": {
+      "alpha2": "ET",
+      "name": "Ethiopia",
+      "representative_language": "am",
+      "cldr_language_editions": [
+        "aa",
+        "am",
+        "en",
+        "gez",
+        "om",
+        "sid",
+        "so",
+        "ti",
+        "wal"
+      ],
+      "languages": [
+        "aa",
+        "am",
+        "en",
+        "gez",
+        "om",
+        "sid",
+        "so",
+        "ti",
+        "wal"
+      ]
+    },
+    "FIN": {
+      "alpha2": "FI",
+      "name": "Finland",
+      "representative_language": "fi",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "et",
+        "fi",
+        "rmf",
+        "ru",
+        "se",
+        "smn",
+        "sms",
+        "sv"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "et",
+        "fi",
+        "rmf",
+        "ru",
+        "se",
+        "smn",
+        "sms",
+        "sv"
+      ]
+    },
+    "FJI": {
+      "alpha2": "FJ",
+      "name": "Fiji",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "fj",
+        "hi",
+        "hif",
+        "rtm"
+      ],
+      "languages": [
+        "en",
+        "fj",
+        "hi",
+        "hif",
+        "rtm"
+      ]
+    },
+    "FLK": {
+      "alpha2": "FK",
+      "name": "Falkland Islands (Malvinas)",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "FRA": {
+      "alpha2": "FR",
+      "name": "France",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "br",
+        "ca",
+        "co",
+        "de",
+        "en",
+        "es",
+        "eu",
+        "fr",
+        "frp",
+        "gsw",
+        "hnj",
+        "ia",
+        "it",
+        "mww",
+        "nl",
+        "oc",
+        "pcd",
+        "pt"
+      ],
+      "languages": [
+        "br",
+        "ca",
+        "co",
+        "de",
+        "en",
+        "es",
+        "eu",
+        "fr",
+        "frp",
+        "gsw",
+        "hnj",
+        "ia",
+        "it",
+        "mww",
+        "nl",
+        "oc",
+        "pcd",
+        "pt"
+      ]
+    },
+    "FRO": {
+      "alpha2": "FO",
+      "name": "Faroe Islands",
+      "representative_language": "fo",
+      "cldr_language_editions": [
+        "fo"
+      ],
+      "languages": [
+        "fo"
+      ]
+    },
+    "FSM": {
+      "alpha2": "FM",
+      "name": "Micronesia, Federated States of",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "chk",
+        "en",
+        "kos",
+        "pon",
+        "uli",
+        "yap"
+      ],
+      "languages": [
+        "chk",
+        "en",
+        "kos",
+        "pon",
+        "uli",
+        "yap"
+      ]
+    },
+    "GAB": {
+      "alpha2": "GA",
+      "name": "Gabon",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr",
+        "puu"
+      ],
+      "languages": [
+        "fr",
+        "puu"
+      ]
+    },
+    "GBR": {
+      "alpha2": "GB",
+      "name": "United Kingdom",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "ar",
+        "bn",
+        "cy",
+        "de",
+        "en",
+        "en_Shaw",
+        "es",
+        "fr",
+        "ga",
+        "gd",
+        "gu",
+        "it",
+        "kw",
+        "lt",
+        "pa",
+        "pi",
+        "pl",
+        "pt",
+        "ro",
+        "sco",
+        "so",
+        "ta",
+        "tr",
+        "ur",
+        "zh_Hant"
+      ],
+      "languages": [
+        "ar",
+        "bn",
+        "cy",
+        "de",
+        "en",
+        "en_Shaw",
+        "es",
+        "fr",
+        "ga",
+        "gd",
+        "gu",
+        "it",
+        "kw",
+        "lt",
+        "pa",
+        "pi",
+        "pl",
+        "pt",
+        "ro",
+        "sco",
+        "so",
+        "ta",
+        "tr",
+        "ur",
+        "zh_Hant"
+      ]
+    },
+    "GEO": {
+      "alpha2": "GE",
+      "name": "Georgia",
+      "representative_language": "ka",
+      "cldr_language_editions": [
+        "ab",
+        "hy",
+        "ka",
+        "ku_Cyrl",
+        "lzz_Geor",
+        "os",
+        "ru",
+        "xmf"
+      ],
+      "languages": [
+        "ab",
+        "hy",
+        "ka",
+        "ku_Cyrl",
+        "lzz_Geor",
+        "os",
+        "ru",
+        "xmf"
+      ]
+    },
+    "GGY": {
+      "alpha2": "GG",
+      "name": "Guernsey",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "GHA": {
+      "alpha2": "GH",
+      "name": "Ghana",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "abr",
+        "ada",
+        "ak",
+        "ee",
+        "en",
+        "ff",
+        "ff_Adlm",
+        "gaa",
+        "gur",
+        "ha",
+        "nzi",
+        "saf"
+      ],
+      "languages": [
+        "abr",
+        "ada",
+        "ak",
+        "ee",
+        "en",
+        "ff",
+        "ff_Adlm",
+        "gaa",
+        "gur",
+        "ha",
+        "nzi",
+        "saf"
+      ]
+    },
+    "GIB": {
+      "alpha2": "GI",
+      "name": "Gibraltar",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "es"
+      ],
+      "languages": [
+        "en",
+        "es"
+      ]
+    },
+    "GIN": {
+      "alpha2": "GN",
+      "name": "Guinea",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "kpe",
+        "man",
+        "man_Nkoo",
+        "nqo",
+        "sus"
+      ],
+      "languages": [
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "kpe",
+        "man",
+        "man_Nkoo",
+        "nqo",
+        "sus"
+      ]
+    },
+    "GLP": {
+      "alpha2": "GP",
+      "name": "Guadeloupe",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr"
+      ],
+      "languages": [
+        "fr"
+      ]
+    },
+    "GMB": {
+      "alpha2": "GM",
+      "name": "Gambia",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "ff",
+        "ff_Adlm",
+        "man",
+        "man_Nkoo"
+      ],
+      "languages": [
+        "en",
+        "ff",
+        "ff_Adlm",
+        "man",
+        "man_Nkoo"
+      ]
+    },
+    "GNB": {
+      "alpha2": "GW",
+      "name": "Guinea-Bissau",
+      "representative_language": "pt",
+      "cldr_language_editions": [
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "knf",
+        "pt"
+      ],
+      "languages": [
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "knf",
+        "pt"
+      ]
+    },
+    "GNQ": {
+      "alpha2": "GQ",
+      "name": "Equatorial Guinea",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "bvb",
+        "es",
+        "fan",
+        "fr",
+        "pt"
+      ],
+      "languages": [
+        "bvb",
+        "es",
+        "fan",
+        "fr",
+        "pt"
+      ]
+    },
+    "GRC": {
+      "alpha2": "GR",
+      "name": "Greece",
+      "representative_language": "el",
+      "cldr_language_editions": [
+        "bg",
+        "de",
+        "el",
+        "en",
+        "fr",
+        "gmy",
+        "grc",
+        "mk",
+        "pnt",
+        "sq",
+        "tr",
+        "tsd"
+      ],
+      "languages": [
+        "bg",
+        "de",
+        "el",
+        "en",
+        "fr",
+        "gmy",
+        "grc",
+        "mk",
+        "pnt",
+        "sq",
+        "tr",
+        "tsd"
+      ]
+    },
+    "GRD": {
+      "alpha2": "GD",
+      "name": "Grenada",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "GRL": {
+      "alpha2": "GL",
+      "name": "Greenland",
+      "representative_language": "kl",
+      "cldr_language_editions": [
+        "da",
+        "kl"
+      ],
+      "languages": [
+        "da",
+        "kl"
+      ]
+    },
+    "GTM": {
+      "alpha2": "GT",
+      "name": "Guatemala",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "acr",
+        "agu",
+        "caa",
+        "cab",
+        "cac",
+        "cak",
+        "ckz",
+        "en",
+        "es",
+        "itz",
+        "ixl",
+        "jac",
+        "kek",
+        "kjb",
+        "knj",
+        "mam",
+        "mop",
+        "poc",
+        "poh",
+        "quc",
+        "qum",
+        "quv",
+        "ttc",
+        "tzj",
+        "usp",
+        "xin"
+      ],
+      "languages": [
+        "acr",
+        "agu",
+        "caa",
+        "cab",
+        "cac",
+        "cak",
+        "ckz",
+        "en",
+        "es",
+        "itz",
+        "ixl",
+        "jac",
+        "kek",
+        "kjb",
+        "knj",
+        "mam",
+        "mop",
+        "poc",
+        "poh",
+        "quc",
+        "qum",
+        "quv",
+        "ttc",
+        "tzj",
+        "usp",
+        "xin"
+      ]
+    },
+    "GUF": {
+      "alpha2": "GF",
+      "name": "French Guiana",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr",
+        "gcr",
+        "hnj",
+        "zh_Hant"
+      ],
+      "languages": [
+        "fr",
+        "gcr",
+        "hnj",
+        "zh_Hant"
+      ]
+    },
+    "GUM": {
+      "alpha2": "GU",
+      "name": "Guam",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "ch",
+        "en"
+      ],
+      "languages": [
+        "ch",
+        "en"
+      ]
+    },
+    "GUY": {
+      "alpha2": "GY",
+      "name": "Guyana",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "HKG": {
+      "alpha2": "HK",
+      "name": "Hong Kong",
+      "representative_language": "zh_Hant",
+      "cldr_language_editions": [
+        "en",
+        "yue",
+        "zh",
+        "zh_Hant"
+      ],
+      "languages": [
+        "en",
+        "yue",
+        "zh",
+        "zh_Hant"
+      ]
+    },
+    "HMD": {
+      "alpha2": "HM",
+      "name": "Heard Island and McDonald Islands",
+      "representative_language": "und",
+      "cldr_language_editions": [
+        "und"
+      ],
+      "languages": [
+        "und"
+      ]
+    },
+    "HND": {
+      "alpha2": "HN",
+      "name": "Honduras",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "cab",
+        "en",
+        "es"
+      ],
+      "languages": [
+        "cab",
+        "en",
+        "es"
+      ]
+    },
+    "HRV": {
+      "alpha2": "HR",
+      "name": "Croatia",
+      "representative_language": "hr",
+      "cldr_language_editions": [
+        "en",
+        "hr",
+        "it",
+        "vec"
+      ],
+      "languages": [
+        "en",
+        "hr",
+        "it",
+        "vec"
+      ]
+    },
+    "HTI": {
+      "alpha2": "HT",
+      "name": "Haiti",
+      "representative_language": "ht",
+      "cldr_language_editions": [
+        "fr",
+        "ht"
+      ],
+      "languages": [
+        "fr",
+        "ht"
+      ]
+    },
+    "HUN": {
+      "alpha2": "HU",
+      "name": "Hungary",
+      "representative_language": "hu",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "fr",
+        "hr",
+        "hu",
+        "ro",
+        "sk",
+        "sl"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "fr",
+        "hr",
+        "hu",
+        "ro",
+        "sk",
+        "sl"
+      ]
+    },
+    "IDN": {
+      "alpha2": "ID",
+      "name": "Indonesia",
+      "representative_language": "id",
+      "cldr_language_editions": [
+        "ace",
+        "aoz",
+        "ban",
+        "ban_Bali",
+        "bbc",
+        "bew",
+        "bjn",
+        "bug",
+        "gay",
+        "gor",
+        "id",
+        "jv",
+        "kaw",
+        "kge",
+        "kvr",
+        "lbw",
+        "ljp",
+        "mad",
+        "mak",
+        "mdr",
+        "min",
+        "ms",
+        "ms_Arab",
+        "mwv",
+        "nij",
+        "rej",
+        "rob",
+        "sas",
+        "sly",
+        "su",
+        "sxn",
+        "zh_Hant"
+      ],
+      "languages": [
+        "ace",
+        "aoz",
+        "ban",
+        "ban_Bali",
+        "bbc",
+        "bew",
+        "bjn",
+        "bug",
+        "gay",
+        "gor",
+        "id",
+        "jv",
+        "kaw",
+        "kge",
+        "kvr",
+        "lbw",
+        "ljp",
+        "mad",
+        "mak",
+        "mdr",
+        "min",
+        "ms",
+        "ms_Arab",
+        "mwv",
+        "nij",
+        "rej",
+        "rob",
+        "sas",
+        "sly",
+        "su",
+        "sxn",
+        "zh_Hant"
+      ]
+    },
+    "IMN": {
+      "alpha2": "IM",
+      "name": "Isle of Man",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "gv"
+      ],
+      "languages": [
+        "en",
+        "gv"
+      ]
+    },
+    "IND": {
+      "alpha2": "IN",
+      "name": "India",
+      "representative_language": "hi",
+      "cldr_language_editions": [
+        "as",
+        "awa",
+        "bfq",
+        "bft",
+        "bfy",
+        "bgc",
+        "bhb",
+        "bhi",
+        "bho",
+        "bjj",
+        "bn",
+        "bo",
+        "bpy",
+        "bra",
+        "brx",
+        "btv",
+        "ccp",
+        "dcc",
+        "doi",
+        "dv",
+        "dz",
+        "en",
+        "gbm",
+        "gon",
+        "grt",
+        "gu",
+        "hi",
+        "hi_Latn",
+        "hne",
+        "hoc",
+        "hoj",
+        "kfr",
+        "kfy",
+        "kha",
+        "khn",
+        "kht",
+        "kn",
+        "knn",
+        "kok",
+        "kru",
+        "ks",
+        "kxv",
+        "lah",
+        "lep",
+        "lif",
+        "lmn",
+        "mag",
+        "mai",
+        "ml",
+        "mni",
+        "mr",
+        "mtr",
+        "mwr",
+        "ne",
+        "njo",
+        "noe",
+        "or",
+        "pa",
+        "pi_Deva",
+        "raj",
+        "ria",
+        "rkt",
+        "sa",
+        "sat",
+        "saz",
+        "sck",
+        "sd",
+        "sd_Deva",
+        "srx",
+        "swv",
+        "ta",
+        "tcy",
+        "te",
+        "unr",
+        "unx",
+        "ur",
+        "wbq",
+        "wbr",
+        "wtm",
+        "xnr"
+      ],
+      "languages": [
+        "as",
+        "awa",
+        "bfq",
+        "bft",
+        "bfy",
+        "bgc",
+        "bhb",
+        "bhi",
+        "bho",
+        "bjj",
+        "bn",
+        "bo",
+        "bpy",
+        "bra",
+        "brx",
+        "btv",
+        "ccp",
+        "dcc",
+        "doi",
+        "dv",
+        "dz",
+        "en",
+        "gbm",
+        "gon",
+        "grt",
+        "gu",
+        "hi",
+        "hi_Latn",
+        "hne",
+        "hoc",
+        "hoj",
+        "kfr",
+        "kfy",
+        "kha",
+        "khn",
+        "kht",
+        "kn",
+        "knn",
+        "kok",
+        "kru",
+        "ks",
+        "kxv",
+        "lah",
+        "lep",
+        "lif",
+        "lmn",
+        "mag",
+        "mai",
+        "ml",
+        "mni",
+        "mr",
+        "mtr",
+        "mwr",
+        "ne",
+        "njo",
+        "noe",
+        "or",
+        "pa",
+        "pi_Deva",
+        "raj",
+        "ria",
+        "rkt",
+        "sa",
+        "sat",
+        "saz",
+        "sck",
+        "sd",
+        "sd_Deva",
+        "srx",
+        "swv",
+        "ta",
+        "tcy",
+        "te",
+        "unr",
+        "unx",
+        "ur",
+        "wbq",
+        "wbr",
+        "wtm",
+        "xnr"
+      ]
+    },
+    "IOT": {
+      "alpha2": "IO",
+      "name": "British Indian Ocean Territory",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "IRL": {
+      "alpha2": "IE",
+      "name": "Ireland",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "fr",
+        "ga"
+      ],
+      "languages": [
+        "en",
+        "fr",
+        "ga"
+      ]
+    },
+    "IRN": {
+      "alpha2": "IR",
+      "name": "Iran, Islamic Republic of",
+      "representative_language": "fa",
+      "cldr_language_editions": [
+        "ar",
+        "az_Arab",
+        "bal",
+        "bgn",
+        "bqi",
+        "ckb",
+        "fa",
+        "gbz",
+        "glk",
+        "hy",
+        "ka",
+        "kaa",
+        "kk_Arab",
+        "ku_Arab",
+        "lki",
+        "lrc",
+        "luz",
+        "mzn",
+        "prd",
+        "ps",
+        "rmt",
+        "sdh",
+        "tk"
+      ],
+      "languages": [
+        "ar",
+        "az_Arab",
+        "bal",
+        "bgn",
+        "bqi",
+        "ckb",
+        "fa",
+        "gbz",
+        "glk",
+        "hy",
+        "ka",
+        "kaa",
+        "kk_Arab",
+        "ku_Arab",
+        "lki",
+        "lrc",
+        "luz",
+        "mzn",
+        "prd",
+        "ps",
+        "rmt",
+        "sdh",
+        "tk"
+      ]
+    },
+    "IRQ": {
+      "alpha2": "IQ",
+      "name": "Iraq",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "az_Arab",
+        "ckb",
+        "en",
+        "fa",
+        "ku_Arab",
+        "lrc",
+        "syr"
+      ],
+      "languages": [
+        "ar",
+        "az_Arab",
+        "ckb",
+        "en",
+        "fa",
+        "ku_Arab",
+        "lrc",
+        "syr"
+      ]
+    },
+    "ISL": {
+      "alpha2": "IS",
+      "name": "Iceland",
+      "representative_language": "is",
+      "cldr_language_editions": [
+        "da",
+        "is"
+      ],
+      "languages": [
+        "da",
+        "is"
+      ]
+    },
+    "ISR": {
+      "alpha2": "IL",
+      "name": "Israel",
+      "representative_language": "he",
+      "cldr_language_editions": [
+        "am",
+        "apc",
+        "ar",
+        "en",
+        "he",
+        "hu",
+        "lad",
+        "ml",
+        "pl",
+        "ro",
+        "ru",
+        "ti",
+        "yi"
+      ],
+      "languages": [
+        "am",
+        "apc",
+        "ar",
+        "en",
+        "he",
+        "hu",
+        "lad",
+        "ml",
+        "pl",
+        "ro",
+        "ru",
+        "ti",
+        "yi"
+      ]
+    },
+    "ITA": {
+      "alpha2": "IT",
+      "name": "Italy",
+      "representative_language": "it",
+      "cldr_language_editions": [
+        "ca",
+        "de",
+        "egl",
+        "el",
+        "en",
+        "fr",
+        "fur",
+        "hr",
+        "it",
+        "lij",
+        "lld",
+        "lmo",
+        "mhn",
+        "nap",
+        "pms",
+        "rgn",
+        "sc",
+        "scn",
+        "sdc",
+        "sl",
+        "vec"
+      ],
+      "languages": [
+        "ca",
+        "de",
+        "egl",
+        "el",
+        "en",
+        "fr",
+        "fur",
+        "hr",
+        "it",
+        "lij",
+        "lld",
+        "lmo",
+        "mhn",
+        "nap",
+        "pms",
+        "rgn",
+        "sc",
+        "scn",
+        "sdc",
+        "sl",
+        "vec"
+      ]
+    },
+    "JAM": {
+      "alpha2": "JM",
+      "name": "Jamaica",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "jam"
+      ],
+      "languages": [
+        "en",
+        "jam"
+      ]
+    },
+    "JEY": {
+      "alpha2": "JE",
+      "name": "Jersey",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "JOR": {
+      "alpha2": "JO",
+      "name": "Jordan",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "apc",
+        "ar",
+        "en"
+      ],
+      "languages": [
+        "apc",
+        "ar",
+        "en"
+      ]
+    },
+    "JPN": {
+      "alpha2": "JP",
+      "name": "Japan",
+      "representative_language": "ja",
+      "cldr_language_editions": [
+        "ja",
+        "ko",
+        "ryu"
+      ],
+      "languages": [
+        "ja",
+        "ko",
+        "ryu"
+      ]
+    },
+    "KAZ": {
+      "alpha2": "KZ",
+      "name": "Kazakhstan",
+      "representative_language": "ru",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "kaa",
+        "kk",
+        "ru",
+        "ug_Cyrl"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "kaa",
+        "kk",
+        "ru",
+        "ug_Cyrl"
+      ]
+    },
+    "KEN": {
+      "alpha2": "KE",
+      "name": "Kenya",
+      "representative_language": "sw",
+      "cldr_language_editions": [
+        "ar",
+        "dav",
+        "ebu",
+        "en",
+        "gu",
+        "guz",
+        "kam",
+        "ki",
+        "kln",
+        "luo",
+        "luy",
+        "mas",
+        "mer",
+        "om",
+        "pa",
+        "pko",
+        "saq",
+        "so",
+        "sw",
+        "teo"
+      ],
+      "languages": [
+        "ar",
+        "dav",
+        "ebu",
+        "en",
+        "gu",
+        "guz",
+        "kam",
+        "ki",
+        "kln",
+        "luo",
+        "luy",
+        "mas",
+        "mer",
+        "om",
+        "pa",
+        "pko",
+        "saq",
+        "so",
+        "sw",
+        "teo"
+      ]
+    },
+    "KGZ": {
+      "alpha2": "KG",
+      "name": "Kyrgyzstan",
+      "representative_language": "ky_Cyrl",
+      "cldr_language_editions": [
+        "kaa",
+        "ky",
+        "ru"
+      ],
+      "languages": [
+        "kaa",
+        "ky",
+        "ky_Cyrl",
+        "ru"
+      ]
+    },
+    "KHM": {
+      "alpha2": "KH",
+      "name": "Cambodia",
+      "representative_language": "km",
+      "cldr_language_editions": [
+        "cja",
+        "kdt",
+        "km"
+      ],
+      "languages": [
+        "cja",
+        "kdt",
+        "km"
+      ]
+    },
+    "KIR": {
+      "alpha2": "KI",
+      "name": "Kiribati",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "gil"
+      ],
+      "languages": [
+        "en",
+        "gil"
+      ]
+    },
+    "KNA": {
+      "alpha2": "KN",
+      "name": "Saint Kitts and Nevis",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "KOR": {
+      "alpha2": "KR",
+      "name": "Korea, Republic of",
+      "representative_language": "ko",
+      "cldr_language_editions": [
+        "ko"
+      ],
+      "languages": [
+        "ko"
+      ]
+    },
+    "KWT": {
+      "alpha2": "KW",
+      "name": "Kuwait",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar"
+      ],
+      "languages": [
+        "ar"
+      ]
+    },
+    "LAO": {
+      "alpha2": "LA",
+      "name": "Lao People's Democratic Republic",
+      "representative_language": "lo",
+      "cldr_language_editions": [
+        "hnj",
+        "kdt",
+        "kjg",
+        "lo",
+        "mww"
+      ],
+      "languages": [
+        "hnj",
+        "kdt",
+        "kjg",
+        "lo",
+        "mww"
+      ]
+    },
+    "LBN": {
+      "alpha2": "LB",
+      "name": "Lebanon",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "apc",
+        "ar",
+        "en",
+        "fr",
+        "hy",
+        "ku_Arab"
+      ],
+      "languages": [
+        "apc",
+        "ar",
+        "en",
+        "fr",
+        "hy",
+        "ku_Arab"
+      ]
+    },
+    "LBR": {
+      "alpha2": "LR",
+      "name": "Liberia",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "bsq",
+        "bza",
+        "dnj",
+        "en",
+        "ff",
+        "ff_Adlm",
+        "grb",
+        "kpe",
+        "kro",
+        "kss",
+        "lir",
+        "men",
+        "mev",
+        "vai",
+        "vai_Latn"
+      ],
+      "languages": [
+        "bsq",
+        "bza",
+        "dnj",
+        "en",
+        "ff",
+        "ff_Adlm",
+        "grb",
+        "kpe",
+        "kro",
+        "kss",
+        "lir",
+        "men",
+        "mev",
+        "vai",
+        "vai_Latn"
+      ]
+    },
+    "LBY": {
+      "alpha2": "LY",
+      "name": "Libya",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar"
+      ],
+      "languages": [
+        "ar"
+      ]
+    },
+    "LCA": {
+      "alpha2": "LC",
+      "name": "Saint Lucia",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "LIE": {
+      "alpha2": "LI",
+      "name": "Liechtenstein",
+      "representative_language": "de",
+      "cldr_language_editions": [
+        "de",
+        "gsw",
+        "wae"
+      ],
+      "languages": [
+        "de",
+        "gsw",
+        "wae"
+      ]
+    },
+    "LKA": {
+      "alpha2": "LK",
+      "name": "Sri Lanka",
+      "representative_language": "si",
+      "cldr_language_editions": [
+        "en",
+        "pi_Sinh",
+        "si",
+        "ta"
+      ],
+      "languages": [
+        "en",
+        "pi_Sinh",
+        "si",
+        "ta"
+      ]
+    },
+    "LSO": {
+      "alpha2": "LS",
+      "name": "Lesotho",
+      "representative_language": "st",
+      "cldr_language_editions": [
+        "en",
+        "ss",
+        "st",
+        "xh",
+        "zu"
+      ],
+      "languages": [
+        "en",
+        "ss",
+        "st",
+        "xh",
+        "zu"
+      ]
+    },
+    "LTU": {
+      "alpha2": "LT",
+      "name": "Lithuania",
+      "representative_language": "lt",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "lt",
+        "ru",
+        "sgs"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "lt",
+        "ru",
+        "sgs"
+      ]
+    },
+    "LUX": {
+      "alpha2": "LU",
+      "name": "Luxembourg",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "fr",
+        "lb",
+        "pt"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "fr",
+        "lb",
+        "pt"
+      ]
+    },
+    "LVA": {
+      "alpha2": "LV",
+      "name": "Latvia",
+      "representative_language": "lv",
+      "cldr_language_editions": [
+        "en",
+        "ltg",
+        "lv",
+        "ru"
+      ],
+      "languages": [
+        "en",
+        "ltg",
+        "lv",
+        "ru"
+      ]
+    },
+    "MAC": {
+      "alpha2": "MO",
+      "name": "Macao",
+      "representative_language": "zh_Hant",
+      "cldr_language_editions": [
+        "en",
+        "fil",
+        "nan_Hant",
+        "pt",
+        "yue",
+        "zh",
+        "zh_Hant"
+      ],
+      "languages": [
+        "en",
+        "fil",
+        "nan_Hant",
+        "pt",
+        "yue",
+        "zh",
+        "zh_Hant"
+      ]
+    },
+    "MAF": {
+      "alpha2": "MF",
+      "name": "Saint Martin (French part)",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr"
+      ],
+      "languages": [
+        "fr"
+      ]
+    },
+    "MAR": {
+      "alpha2": "MA",
+      "name": "Morocco",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "ary",
+        "en",
+        "es",
+        "fr",
+        "mey",
+        "rif",
+        "rif_Tfng",
+        "shi",
+        "shi_Latn",
+        "tzm",
+        "zgh"
+      ],
+      "languages": [
+        "ar",
+        "ary",
+        "en",
+        "es",
+        "fr",
+        "mey",
+        "rif",
+        "rif_Tfng",
+        "shi",
+        "shi_Latn",
+        "tzm",
+        "zgh"
+      ]
+    },
+    "MCO": {
+      "alpha2": "MC",
+      "name": "Monaco",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr"
+      ],
+      "languages": [
+        "fr"
+      ]
+    },
+    "MDA": {
+      "alpha2": "MD",
+      "name": "Moldova, Republic of",
+      "representative_language": "ro",
+      "cldr_language_editions": [
+        "bg",
+        "gag",
+        "ro",
+        "ru",
+        "uk"
+      ],
+      "languages": [
+        "bg",
+        "gag",
+        "ro",
+        "ru",
+        "uk"
+      ]
+    },
+    "MDG": {
+      "alpha2": "MG",
+      "name": "Madagascar",
+      "representative_language": "mg",
+      "cldr_language_editions": [
+        "en",
+        "fr",
+        "mg"
+      ],
+      "languages": [
+        "en",
+        "fr",
+        "mg"
+      ]
+    },
+    "MDV": {
+      "alpha2": "MV",
+      "name": "Maldives",
+      "representative_language": "dv",
+      "cldr_language_editions": [
+        "dv",
+        "en"
+      ],
+      "languages": [
+        "dv",
+        "en"
+      ]
+    },
+    "MEX": {
+      "alpha2": "MX",
+      "name": "Mexico",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "en",
+        "es",
+        "maz",
+        "nch",
+        "nhe",
+        "nhw",
+        "sei",
+        "vec",
+        "yua"
+      ],
+      "languages": [
+        "en",
+        "es",
+        "maz",
+        "nch",
+        "nhe",
+        "nhw",
+        "sei",
+        "vec",
+        "yua"
+      ]
+    },
+    "MHL": {
+      "alpha2": "MH",
+      "name": "Marshall Islands",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "mh"
+      ],
+      "languages": [
+        "en",
+        "mh"
+      ]
+    },
+    "MKD": {
+      "alpha2": "MK",
+      "name": "Macedonia, Republic of",
+      "representative_language": "mk",
+      "cldr_language_editions": [
+        "mk",
+        "sq",
+        "tr"
+      ],
+      "languages": [
+        "mk",
+        "sq",
+        "tr"
+      ]
+    },
+    "MLI": {
+      "alpha2": "ML",
+      "name": "Mali",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "ar",
+        "bm",
+        "bm_Nkoo",
+        "bmq",
+        "bze",
+        "dtm",
+        "ffm",
+        "fr",
+        "kao",
+        "khq",
+        "mwk",
+        "ses",
+        "snk",
+        "tmh"
+      ],
+      "languages": [
+        "ar",
+        "bm",
+        "bm_Nkoo",
+        "bmq",
+        "bze",
+        "dtm",
+        "ffm",
+        "fr",
+        "kao",
+        "khq",
+        "mwk",
+        "ses",
+        "snk",
+        "tmh"
+      ]
+    },
+    "MLT": {
+      "alpha2": "MT",
+      "name": "Malta",
+      "representative_language": "mt",
+      "cldr_language_editions": [
+        "en",
+        "fr",
+        "it",
+        "mt"
+      ],
+      "languages": [
+        "en",
+        "fr",
+        "it",
+        "mt"
+      ]
+    },
+    "MMR": {
+      "alpha2": "MM",
+      "name": "Myanmar",
+      "representative_language": "my",
+      "cldr_language_editions": [
+        "hnj",
+        "kac",
+        "kht",
+        "mnw",
+        "my",
+        "pi_Mymr",
+        "rhg",
+        "shn",
+        "stu"
+      ],
+      "languages": [
+        "hnj",
+        "kac",
+        "kht",
+        "mnw",
+        "my",
+        "pi_Mymr",
+        "rhg",
+        "shn",
+        "stu"
+      ]
+    },
+    "MNE": {
+      "alpha2": "ME",
+      "name": "Montenegro",
+      "representative_language": "sr_Latn",
+      "cldr_language_editions": [
+        "sq",
+        "sr",
+        "sr_Latn"
+      ],
+      "languages": [
+        "sq",
+        "sr",
+        "sr_Latn"
+      ]
+    },
+    "MNG": {
+      "alpha2": "MN",
+      "name": "Mongolia",
+      "representative_language": "mn_Cyrl",
+      "cldr_language_editions": [
+        "kk_Arab",
+        "mn",
+        "ru",
+        "ug_Cyrl",
+        "zh"
+      ],
+      "languages": [
+        "kk_Arab",
+        "mn",
+        "mn_Cyrl",
+        "ru",
+        "ug_Cyrl",
+        "zh"
+      ]
+    },
+    "MNP": {
+      "alpha2": "MP",
+      "name": "Northern Mariana Islands",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "ch",
+        "en"
+      ],
+      "languages": [
+        "ch",
+        "en"
+      ]
+    },
+    "MOZ": {
+      "alpha2": "MZ",
+      "name": "Mozambique",
+      "representative_language": "pt",
+      "cldr_language_editions": [
+        "mgh",
+        "ndc",
+        "ngl",
+        "ny",
+        "pt",
+        "rng",
+        "seh",
+        "sw",
+        "ts",
+        "vmw",
+        "yao",
+        "zu"
+      ],
+      "languages": [
+        "mgh",
+        "ndc",
+        "ngl",
+        "ny",
+        "pt",
+        "rng",
+        "seh",
+        "sw",
+        "ts",
+        "vmw",
+        "yao",
+        "zu"
+      ]
+    },
+    "MRT": {
+      "alpha2": "MR",
+      "name": "Mauritania",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "mey",
+        "wo"
+      ],
+      "languages": [
+        "ar",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "mey",
+        "wo"
+      ]
+    },
+    "MSR": {
+      "alpha2": "MS",
+      "name": "Montserrat",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "MTQ": {
+      "alpha2": "MQ",
+      "name": "Martinique",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr"
+      ],
+      "languages": [
+        "fr"
+      ]
+    },
+    "MUS": {
+      "alpha2": "MU",
+      "name": "Mauritius",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "bho",
+        "en",
+        "fr",
+        "mfe",
+        "ta",
+        "ur"
+      ],
+      "languages": [
+        "bho",
+        "en",
+        "fr",
+        "mfe",
+        "ta",
+        "ur"
+      ]
+    },
+    "MWI": {
+      "alpha2": "MW",
+      "name": "Malawi",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "ny",
+        "tog",
+        "tum",
+        "zu"
+      ],
+      "languages": [
+        "en",
+        "ny",
+        "tog",
+        "tum",
+        "zu"
+      ]
+    },
+    "MYS": {
+      "alpha2": "MY",
+      "name": "Malaysia",
+      "representative_language": "ms_Latn",
+      "cldr_language_editions": [
+        "bjn",
+        "bug",
+        "dtp",
+        "en",
+        "iba",
+        "jv",
+        "ml",
+        "ms",
+        "ta",
+        "zh",
+        "zmi"
+      ],
+      "languages": [
+        "bjn",
+        "bug",
+        "dtp",
+        "en",
+        "iba",
+        "jv",
+        "ml",
+        "ms",
+        "ms_Latn",
+        "ta",
+        "zh",
+        "zmi"
+      ]
+    },
+    "MYT": {
+      "alpha2": "YT",
+      "name": "Mayotte",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "buc",
+        "fr",
+        "sw",
+        "swb"
+      ],
+      "languages": [
+        "buc",
+        "fr",
+        "sw",
+        "swb"
+      ]
+    },
+    "NAM": {
+      "alpha2": "NA",
+      "name": "Namibia",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "af",
+        "de",
+        "en",
+        "hz",
+        "kj",
+        "naq",
+        "ng",
+        "tn"
+      ],
+      "languages": [
+        "af",
+        "de",
+        "en",
+        "hz",
+        "kj",
+        "naq",
+        "ng",
+        "tn"
+      ]
+    },
+    "NCL": {
+      "alpha2": "NC",
+      "name": "New Caledonia",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr"
+      ],
+      "languages": [
+        "fr"
+      ]
+    },
+    "NER": {
+      "alpha2": "NE",
+      "name": "Niger",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "ar",
+        "dje",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "fuq",
+        "ha",
+        "tmh",
+        "twq"
+      ],
+      "languages": [
+        "ar",
+        "dje",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "fuq",
+        "ha",
+        "tmh",
+        "twq"
+      ]
+    },
+    "NFK": {
+      "alpha2": "NF",
+      "name": "Norfolk Island",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "NGA": {
+      "alpha2": "NG",
+      "name": "Nigeria",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "amo",
+        "ann",
+        "ar",
+        "bin",
+        "cch",
+        "efi",
+        "en",
+        "ff",
+        "ff_Adlm",
+        "fuv",
+        "ha",
+        "ha_Arab",
+        "ibb",
+        "ig",
+        "kaj",
+        "kcg",
+        "pcm",
+        "tiv",
+        "yo"
+      ],
+      "languages": [
+        "amo",
+        "ann",
+        "ar",
+        "bin",
+        "cch",
+        "efi",
+        "en",
+        "ff",
+        "ff_Adlm",
+        "fuv",
+        "ha",
+        "ha_Arab",
+        "ibb",
+        "ig",
+        "kaj",
+        "kcg",
+        "pcm",
+        "tiv",
+        "yo"
+      ]
+    },
+    "NIC": {
+      "alpha2": "NI",
+      "name": "Nicaragua",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "es"
+      ],
+      "languages": [
+        "es"
+      ]
+    },
+    "NIU": {
+      "alpha2": "NU",
+      "name": "Niue",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "niu"
+      ],
+      "languages": [
+        "en",
+        "niu"
+      ]
+    },
+    "NLD": {
+      "alpha2": "NL",
+      "name": "Netherlands",
+      "representative_language": "nl",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "fr",
+        "fy",
+        "gos",
+        "id",
+        "li",
+        "nds",
+        "nl",
+        "rif",
+        "tr",
+        "zea"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "fr",
+        "fy",
+        "gos",
+        "id",
+        "li",
+        "nds",
+        "nl",
+        "rif",
+        "tr",
+        "zea"
+      ]
+    },
+    "NOR": {
+      "alpha2": "NO",
+      "name": "Norway",
+      "representative_language": "nb",
+      "cldr_language_editions": [
+        "nb",
+        "nn",
+        "no",
+        "se"
+      ],
+      "languages": [
+        "nb",
+        "nn",
+        "no",
+        "se"
+      ]
+    },
+    "NPL": {
+      "alpha2": "NP",
+      "name": "Nepal",
+      "representative_language": "ne",
+      "cldr_language_editions": [
+        "awa",
+        "bap",
+        "bfy",
+        "bho",
+        "bn",
+        "bo",
+        "dty",
+        "en",
+        "gvr",
+        "hi",
+        "jml",
+        "lep",
+        "lif",
+        "mai",
+        "mgp",
+        "mrd",
+        "ne",
+        "new",
+        "rjs",
+        "suz",
+        "taj",
+        "tdg",
+        "tdh",
+        "thl",
+        "thq",
+        "thr",
+        "tkt",
+        "unr_Deva",
+        "xsr"
+      ],
+      "languages": [
+        "awa",
+        "bap",
+        "bfy",
+        "bho",
+        "bn",
+        "bo",
+        "dty",
+        "en",
+        "gvr",
+        "hi",
+        "jml",
+        "lep",
+        "lif",
+        "mai",
+        "mgp",
+        "mrd",
+        "ne",
+        "new",
+        "rjs",
+        "suz",
+        "taj",
+        "tdg",
+        "tdh",
+        "thl",
+        "thq",
+        "thr",
+        "tkt",
+        "unr_Deva",
+        "xsr"
+      ]
+    },
+    "NRU": {
+      "alpha2": "NR",
+      "name": "Nauru",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "na"
+      ],
+      "languages": [
+        "en",
+        "na"
+      ]
+    },
+    "NZL": {
+      "alpha2": "NZ",
+      "name": "New Zealand",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "mi"
+      ],
+      "languages": [
+        "en",
+        "mi"
+      ]
+    },
+    "OMN": {
+      "alpha2": "OM",
+      "name": "Oman",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "bal",
+        "fa"
+      ],
+      "languages": [
+        "ar",
+        "bal",
+        "fa"
+      ]
+    },
+    "PAK": {
+      "alpha2": "PK",
+      "name": "Pakistan",
+      "representative_language": "ur",
+      "cldr_language_editions": [
+        "bal",
+        "bft",
+        "bgn",
+        "brh",
+        "btv",
+        "en",
+        "fa",
+        "gjk",
+        "gju",
+        "hnd",
+        "hno",
+        "khw",
+        "ks",
+        "kvx",
+        "kxp",
+        "lah",
+        "mvy",
+        "pa_Arab",
+        "ps",
+        "sd",
+        "skr",
+        "tg_Arab",
+        "trw",
+        "ur"
+      ],
+      "languages": [
+        "bal",
+        "bft",
+        "bgn",
+        "brh",
+        "btv",
+        "en",
+        "fa",
+        "gjk",
+        "gju",
+        "hnd",
+        "hno",
+        "khw",
+        "ks",
+        "kvx",
+        "kxp",
+        "lah",
+        "mvy",
+        "pa_Arab",
+        "ps",
+        "sd",
+        "skr",
+        "tg_Arab",
+        "trw",
+        "ur"
+      ]
+    },
+    "PAN": {
+      "alpha2": "PA",
+      "name": "Panama",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "en",
+        "es",
+        "zh_Hant"
+      ],
+      "languages": [
+        "en",
+        "es",
+        "zh_Hant"
+      ]
+    },
+    "PCN": {
+      "alpha2": "PN",
+      "name": "Pitcairn",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "PER": {
+      "alpha2": "PE",
+      "name": "Peru",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "ay",
+        "es",
+        "qu"
+      ],
+      "languages": [
+        "ay",
+        "es",
+        "qu"
+      ]
+    },
+    "PHL": {
+      "alpha2": "PH",
+      "name": "Philippines",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "bik",
+        "bku",
+        "bto",
+        "ceb",
+        "cps",
+        "en",
+        "es",
+        "fbl",
+        "fil",
+        "hil",
+        "hnn",
+        "ilo",
+        "krj",
+        "mdh",
+        "pag",
+        "pam",
+        "tbw",
+        "tsg",
+        "war",
+        "zh_Hant"
+      ],
+      "languages": [
+        "bik",
+        "bku",
+        "bto",
+        "ceb",
+        "cps",
+        "en",
+        "es",
+        "fbl",
+        "fil",
+        "hil",
+        "hnn",
+        "ilo",
+        "krj",
+        "mdh",
+        "pag",
+        "pam",
+        "tbw",
+        "tsg",
+        "war",
+        "zh_Hant"
+      ]
+    },
+    "PLW": {
+      "alpha2": "PW",
+      "name": "Palau",
+      "representative_language": "pau",
+      "cldr_language_editions": [
+        "en",
+        "pau"
+      ],
+      "languages": [
+        "en",
+        "pau"
+      ]
+    },
+    "PNG": {
+      "alpha2": "PG",
+      "name": "Papua New Guinea",
+      "representative_language": "tpi",
+      "cldr_language_editions": [
+        "en",
+        "ho",
+        "tpi"
+      ],
+      "languages": [
+        "en",
+        "ho",
+        "tpi"
+      ]
+    },
+    "POL": {
+      "alpha2": "PL",
+      "name": "Poland",
+      "representative_language": "pl",
+      "cldr_language_editions": [
+        "be",
+        "csb",
+        "de",
+        "en",
+        "lt",
+        "pl",
+        "prg",
+        "ru",
+        "sli",
+        "szl",
+        "uk"
+      ],
+      "languages": [
+        "be",
+        "csb",
+        "de",
+        "en",
+        "lt",
+        "pl",
+        "prg",
+        "ru",
+        "sli",
+        "szl",
+        "uk"
+      ]
+    },
+    "PRI": {
+      "alpha2": "PR",
+      "name": "Puerto Rico",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "en",
+        "es"
+      ],
+      "languages": [
+        "en",
+        "es"
+      ]
+    },
+    "PRK": {
+      "alpha2": "KP",
+      "name": "Korea, Democratic People's Republic of",
+      "representative_language": "ko",
+      "cldr_language_editions": [
+        "ko"
+      ],
+      "languages": [
+        "ko"
+      ]
+    },
+    "PRT": {
+      "alpha2": "PT",
+      "name": "Portugal",
+      "representative_language": "pt",
+      "cldr_language_editions": [
+        "en",
+        "es",
+        "fr",
+        "gl",
+        "pt"
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "gl",
+        "pt"
+      ]
+    },
+    "PRY": {
+      "alpha2": "PY",
+      "name": "Paraguay",
+      "representative_language": "gn",
+      "cldr_language_editions": [
+        "de",
+        "es",
+        "gn"
+      ],
+      "languages": [
+        "de",
+        "es",
+        "gn"
+      ]
+    },
+    "PSE": {
+      "alpha2": "PS",
+      "name": "Palestine, State of",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "apc",
+        "ar"
+      ],
+      "languages": [
+        "apc",
+        "ar"
+      ]
+    },
+    "PYF": {
+      "alpha2": "PF",
+      "name": "French Polynesia",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr",
+        "ty",
+        "zh_Hant"
+      ],
+      "languages": [
+        "fr",
+        "ty",
+        "zh_Hant"
+      ]
+    },
+    "QAT": {
+      "alpha2": "QA",
+      "name": "Qatar",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "fa",
+        "ml"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "ml"
+      ]
+    },
+    "REU": {
+      "alpha2": "RE",
+      "name": "Réunion",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr",
+        "rcf",
+        "ta"
+      ],
+      "languages": [
+        "fr",
+        "rcf",
+        "ta"
+      ]
+    },
+    "ROU": {
+      "alpha2": "RO",
+      "name": "Romania",
+      "representative_language": "ro",
+      "cldr_language_editions": [
+        "bg",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fr",
+        "hu",
+        "pl",
+        "ro",
+        "sr_Latn",
+        "tr"
+      ],
+      "languages": [
+        "bg",
+        "de",
+        "el",
+        "en",
+        "es",
+        "fr",
+        "hu",
+        "pl",
+        "ro",
+        "sr_Latn",
+        "tr"
+      ]
+    },
+    "RUS": {
+      "alpha2": "RU",
+      "name": "Russian Federation",
+      "representative_language": "ru",
+      "cldr_language_editions": [
+        "abq",
+        "ady",
+        "alt",
+        "av",
+        "az_Cyrl",
+        "ba",
+        "bua",
+        "ce",
+        "chm",
+        "cu",
+        "cv",
+        "dar",
+        "fi",
+        "hy",
+        "inh",
+        "izh",
+        "kaa",
+        "kbd",
+        "koi",
+        "krc",
+        "krl",
+        "kum",
+        "kv",
+        "lbe",
+        "lez",
+        "mdf",
+        "mn",
+        "mrj",
+        "myv",
+        "os",
+        "pnt_Cyrl",
+        "ru",
+        "sah",
+        "sr",
+        "tt",
+        "tyv",
+        "udm",
+        "vep",
+        "vot"
+      ],
+      "languages": [
+        "abq",
+        "ady",
+        "alt",
+        "av",
+        "az_Cyrl",
+        "ba",
+        "bua",
+        "ce",
+        "chm",
+        "cu",
+        "cv",
+        "dar",
+        "fi",
+        "hy",
+        "inh",
+        "izh",
+        "kaa",
+        "kbd",
+        "koi",
+        "krc",
+        "krl",
+        "kum",
+        "kv",
+        "lbe",
+        "lez",
+        "mdf",
+        "mn",
+        "mrj",
+        "myv",
+        "os",
+        "pnt_Cyrl",
+        "ru",
+        "sah",
+        "sr",
+        "tt",
+        "tyv",
+        "udm",
+        "vep",
+        "vot"
+      ]
+    },
+    "RWA": {
+      "alpha2": "RW",
+      "name": "Rwanda",
+      "representative_language": "rw",
+      "cldr_language_editions": [
+        "en",
+        "fr",
+        "rw"
+      ],
+      "languages": [
+        "en",
+        "fr",
+        "rw"
+      ]
+    },
+    "SAU": {
+      "alpha2": "SA",
+      "name": "Saudi Arabia",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "ars"
+      ],
+      "languages": [
+        "ar",
+        "ars"
+      ]
+    },
+    "SDN": {
+      "alpha2": "SD",
+      "name": "Sudan",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "apd",
+        "ar",
+        "bej",
+        "en",
+        "fia",
+        "fvr",
+        "ha_Arab",
+        "mls",
+        "zag"
+      ],
+      "languages": [
+        "apd",
+        "ar",
+        "bej",
+        "en",
+        "fia",
+        "fvr",
+        "ha_Arab",
+        "mls",
+        "zag"
+      ]
+    },
+    "SEN": {
+      "alpha2": "SN",
+      "name": "Senegal",
+      "representative_language": "wo",
+      "cldr_language_editions": [
+        "bjt",
+        "bsc",
+        "dyo",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "knf",
+        "mey_Latn",
+        "mfv",
+        "sav",
+        "snf",
+        "srr",
+        "tnr",
+        "wo"
+      ],
+      "languages": [
+        "bjt",
+        "bsc",
+        "dyo",
+        "ff",
+        "ff_Adlm",
+        "fr",
+        "knf",
+        "mey_Latn",
+        "mfv",
+        "sav",
+        "snf",
+        "srr",
+        "tnr",
+        "wo"
+      ]
+    },
+    "SGP": {
+      "alpha2": "SG",
+      "name": "Singapore",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "ml",
+        "ms",
+        "pa",
+        "ta",
+        "zh"
+      ],
+      "languages": [
+        "en",
+        "ml",
+        "ms",
+        "pa",
+        "ta",
+        "zh"
+      ]
+    },
+    "SGS": {
+      "alpha2": "GS",
+      "name": "South Georgia and the South Sandwich Islands",
+      "representative_language": "und",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en",
+        "und"
+      ]
+    },
+    "SHN": {
+      "alpha2": "SH",
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "SJM": {
+      "alpha2": "SJ",
+      "name": "Svalbard and Jan Mayen",
+      "representative_language": "nb",
+      "cldr_language_editions": [
+        "nb",
+        "ru"
+      ],
+      "languages": [
+        "nb",
+        "ru"
+      ]
+    },
+    "SLB": {
+      "alpha2": "SB",
+      "name": "Solomon Islands",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "pis",
+        "rug"
+      ],
+      "languages": [
+        "en",
+        "pis",
+        "rug"
+      ]
+    },
+    "SLE": {
+      "alpha2": "SL",
+      "name": "Sierra Leone",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "ff",
+        "ff_Adlm",
+        "kri",
+        "men",
+        "tem"
+      ],
+      "languages": [
+        "en",
+        "ff",
+        "ff_Adlm",
+        "kri",
+        "men",
+        "tem"
+      ]
+    },
+    "SLV": {
+      "alpha2": "SV",
+      "name": "El Salvador",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "ccr",
+        "es",
+        "len",
+        "ppl"
+      ],
+      "languages": [
+        "ccr",
+        "es",
+        "len",
+        "ppl"
+      ]
+    },
+    "SMR": {
+      "alpha2": "SM",
+      "name": "San Marino",
+      "representative_language": "it",
+      "cldr_language_editions": [
+        "eo",
+        "it"
+      ],
+      "languages": [
+        "eo",
+        "it"
+      ]
+    },
+    "SOM": {
+      "alpha2": "SO",
+      "name": "Somalia",
+      "representative_language": "so",
+      "cldr_language_editions": [
+        "ar",
+        "om",
+        "so",
+        "sw"
+      ],
+      "languages": [
+        "ar",
+        "om",
+        "so",
+        "sw"
+      ]
+    },
+    "SPM": {
+      "alpha2": "PM",
+      "name": "Saint Pierre and Miquelon",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "en",
+        "fr"
+      ],
+      "languages": [
+        "en",
+        "fr"
+      ]
+    },
+    "SRB": {
+      "alpha2": "RS",
+      "name": "Serbia",
+      "representative_language": "sr_Cyrl",
+      "cldr_language_editions": [
+        "hr",
+        "hu",
+        "ro",
+        "sk",
+        "sq",
+        "sr",
+        "sr_Latn",
+        "uk"
+      ],
+      "languages": [
+        "hr",
+        "hu",
+        "ro",
+        "sk",
+        "sq",
+        "sr",
+        "sr_Cyrl",
+        "sr_Latn",
+        "uk"
+      ]
+    },
+    "SSD": {
+      "alpha2": "SS",
+      "name": "South Sudan",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "ar",
+        "en",
+        "nus"
+      ],
+      "languages": [
+        "ar",
+        "en",
+        "nus"
+      ]
+    },
+    "STP": {
+      "alpha2": "ST",
+      "name": "Sao Tome and Principe",
+      "representative_language": "pt",
+      "cldr_language_editions": [
+        "fr",
+        "pt"
+      ],
+      "languages": [
+        "fr",
+        "pt"
+      ]
+    },
+    "SUR": {
+      "alpha2": "SR",
+      "name": "Suriname",
+      "representative_language": "nl",
+      "cldr_language_editions": [
+        "hnj",
+        "nl",
+        "srn",
+        "zh_Hant"
+      ],
+      "languages": [
+        "hnj",
+        "nl",
+        "srn",
+        "zh_Hant"
+      ]
+    },
+    "SVK": {
+      "alpha2": "SK",
+      "name": "Slovakia",
+      "representative_language": "sk",
+      "cldr_language_editions": [
+        "cs",
+        "de",
+        "en",
+        "hu",
+        "pl",
+        "sk",
+        "uk"
+      ],
+      "languages": [
+        "cs",
+        "de",
+        "en",
+        "hu",
+        "pl",
+        "sk",
+        "uk"
+      ]
+    },
+    "SVN": {
+      "alpha2": "SI",
+      "name": "Slovenia",
+      "representative_language": "sl",
+      "cldr_language_editions": [
+        "de",
+        "en",
+        "hr",
+        "hu",
+        "it",
+        "sl",
+        "vec"
+      ],
+      "languages": [
+        "de",
+        "en",
+        "hr",
+        "hu",
+        "it",
+        "sl",
+        "vec"
+      ]
+    },
+    "SWE": {
+      "alpha2": "SE",
+      "name": "Sweden",
+      "representative_language": "sv",
+      "cldr_language_editions": [
+        "en",
+        "fi",
+        "fit",
+        "ia",
+        "rmu",
+        "se",
+        "sma",
+        "smj",
+        "sv",
+        "yi"
+      ],
+      "languages": [
+        "en",
+        "fi",
+        "fit",
+        "ia",
+        "rmu",
+        "se",
+        "sma",
+        "smj",
+        "sv",
+        "yi"
+      ]
+    },
+    "SWZ": {
+      "alpha2": "SZ",
+      "name": "Swaziland",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "ss",
+        "ts",
+        "zu"
+      ],
+      "languages": [
+        "en",
+        "ss",
+        "ts",
+        "zu"
+      ]
+    },
+    "SXM": {
+      "alpha2": "SX",
+      "name": "Sint Maarten (Dutch part)",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "es",
+        "nl",
+        "vic"
+      ],
+      "languages": [
+        "en",
+        "es",
+        "nl",
+        "vic"
+      ]
+    },
+    "SYC": {
+      "alpha2": "SC",
+      "name": "Seychelles",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "crs",
+        "en",
+        "fr"
+      ],
+      "languages": [
+        "crs",
+        "en",
+        "fr"
+      ]
+    },
+    "SYR": {
+      "alpha2": "SY",
+      "name": "Syrian Arab Republic",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "apc",
+        "ar",
+        "fr",
+        "hy",
+        "ku",
+        "syr"
+      ],
+      "languages": [
+        "apc",
+        "ar",
+        "fr",
+        "hy",
+        "ku",
+        "syr"
+      ]
+    },
+    "TCA": {
+      "alpha2": "TC",
+      "name": "Turks and Caicos Islands",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "TCD": {
+      "alpha2": "TD",
+      "name": "Chad",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "ar",
+        "fr"
+      ],
+      "languages": [
+        "ar",
+        "fr"
+      ]
+    },
+    "TGO": {
+      "alpha2": "TG",
+      "name": "Togo",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "blo",
+        "ee",
+        "fr",
+        "ife"
+      ],
+      "languages": [
+        "blo",
+        "ee",
+        "fr",
+        "ife"
+      ]
+    },
+    "THA": {
+      "alpha2": "TH",
+      "name": "Thailand",
+      "representative_language": "th",
+      "cldr_language_editions": [
+        "en",
+        "hnj",
+        "kdt",
+        "kxm",
+        "lcp",
+        "lwl",
+        "mfa",
+        "mnw",
+        "mww",
+        "nod",
+        "pi_Thai",
+        "shn",
+        "sou",
+        "th",
+        "tts",
+        "zh_Hant"
+      ],
+      "languages": [
+        "en",
+        "hnj",
+        "kdt",
+        "kxm",
+        "lcp",
+        "lwl",
+        "mfa",
+        "mnw",
+        "mww",
+        "nod",
+        "pi_Thai",
+        "shn",
+        "sou",
+        "th",
+        "tts",
+        "zh_Hant"
+      ]
+    },
+    "TJK": {
+      "alpha2": "TJ",
+      "name": "Tajikistan",
+      "representative_language": "tg_Cyrl",
+      "cldr_language_editions": [
+        "ar",
+        "fa",
+        "ru",
+        "tg"
+      ],
+      "languages": [
+        "ar",
+        "fa",
+        "ru",
+        "tg",
+        "tg_Cyrl"
+      ]
+    },
+    "TKL": {
+      "alpha2": "TK",
+      "name": "Tokelau",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "sm",
+        "tkl"
+      ],
+      "languages": [
+        "en",
+        "sm",
+        "tkl"
+      ]
+    },
+    "TKM": {
+      "alpha2": "TM",
+      "name": "Turkmenistan",
+      "representative_language": "tk_Latn",
+      "cldr_language_editions": [
+        "kaa",
+        "ku_Cyrl",
+        "ru",
+        "tk",
+        "uz"
+      ],
+      "languages": [
+        "kaa",
+        "ku_Cyrl",
+        "ru",
+        "tk",
+        "tk_Latn",
+        "uz"
+      ]
+    },
+    "TLS": {
+      "alpha2": "TL",
+      "name": "Timor-Leste",
+      "representative_language": "pt",
+      "cldr_language_editions": [
+        "pt",
+        "tet"
+      ],
+      "languages": [
+        "pt",
+        "tet"
+      ]
+    },
+    "TON": {
+      "alpha2": "TO",
+      "name": "Tonga",
+      "representative_language": "to",
+      "cldr_language_editions": [
+        "en",
+        "to"
+      ],
+      "languages": [
+        "en",
+        "to"
+      ]
+    },
+    "TTO": {
+      "alpha2": "TT",
+      "name": "Trinidad and Tobago",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en",
+        "es"
+      ],
+      "languages": [
+        "en",
+        "es"
+      ]
+    },
+    "TUN": {
+      "alpha2": "TN",
+      "name": "Tunisia",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "aeb",
+        "ar",
+        "fr"
+      ],
+      "languages": [
+        "aeb",
+        "ar",
+        "fr"
+      ]
+    },
+    "TUR": {
+      "alpha2": "TR",
+      "name": "Turkey",
+      "representative_language": "tr",
+      "cldr_language_editions": [
+        "ab",
+        "abq_Latn",
+        "ady",
+        "apc",
+        "ar",
+        "az",
+        "az_Arab",
+        "bg",
+        "bgx",
+        "el",
+        "en",
+        "hy",
+        "ka",
+        "kaa",
+        "kbd",
+        "kiu",
+        "kk",
+        "ku",
+        "ky_Latn",
+        "lzz",
+        "pnt_Latn",
+        "sq",
+        "sr_Latn",
+        "tr",
+        "tru",
+        "uz",
+        "zza"
+      ],
+      "languages": [
+        "ab",
+        "abq_Latn",
+        "ady",
+        "apc",
+        "ar",
+        "az",
+        "az_Arab",
+        "bg",
+        "bgx",
+        "el",
+        "en",
+        "hy",
+        "ka",
+        "kaa",
+        "kbd",
+        "kiu",
+        "kk",
+        "ku",
+        "ky_Latn",
+        "lzz",
+        "pnt_Latn",
+        "sq",
+        "sr_Latn",
+        "tr",
+        "tru",
+        "uz",
+        "zza"
+      ]
+    },
+    "TUV": {
+      "alpha2": "TV",
+      "name": "Tuvalu",
+      "representative_language": "tvl",
+      "cldr_language_editions": [
+        "en",
+        "tvl"
+      ],
+      "languages": [
+        "en",
+        "tvl"
+      ]
+    },
+    "TWN": {
+      "alpha2": "TW",
+      "name": "Taiwan, Province of China",
+      "representative_language": "zh_Hant",
+      "cldr_language_editions": [
+        "hak_Hant",
+        "nan_Hant",
+        "trv",
+        "zh_Hant"
+      ],
+      "languages": [
+        "hak_Hant",
+        "nan_Hant",
+        "trv",
+        "zh_Hant"
+      ]
+    },
+    "TZA": {
+      "alpha2": "TZ",
+      "name": "Tanzania, United Republic of",
+      "representative_language": "sw",
+      "cldr_language_editions": [
+        "asa",
+        "bez",
+        "en",
+        "jmc",
+        "kde",
+        "ksb",
+        "lag",
+        "mas",
+        "mgy",
+        "nym",
+        "rof",
+        "rwk",
+        "sbp",
+        "suk",
+        "sw",
+        "vun"
+      ],
+      "languages": [
+        "asa",
+        "bez",
+        "en",
+        "jmc",
+        "kde",
+        "ksb",
+        "lag",
+        "mas",
+        "mgy",
+        "nym",
+        "rof",
+        "rwk",
+        "sbp",
+        "suk",
+        "sw",
+        "vun"
+      ]
+    },
+    "UGA": {
+      "alpha2": "UG",
+      "name": "Uganda",
+      "representative_language": "sw",
+      "cldr_language_editions": [
+        "ach",
+        "cgg",
+        "en",
+        "hi",
+        "laj",
+        "lg",
+        "myx",
+        "nyn",
+        "rw",
+        "sw",
+        "teo",
+        "ttj",
+        "xog"
+      ],
+      "languages": [
+        "ach",
+        "cgg",
+        "en",
+        "hi",
+        "laj",
+        "lg",
+        "myx",
+        "nyn",
+        "rw",
+        "sw",
+        "teo",
+        "ttj",
+        "xog"
+      ]
+    },
+    "UKR": {
+      "alpha2": "UA",
+      "name": "Ukraine",
+      "representative_language": "uk",
+      "cldr_language_editions": [
+        "be",
+        "bg",
+        "crh",
+        "el",
+        "hu",
+        "pl",
+        "ro",
+        "ru",
+        "rue",
+        "tr",
+        "uk",
+        "yi"
+      ],
+      "languages": [
+        "be",
+        "bg",
+        "crh",
+        "el",
+        "hu",
+        "pl",
+        "ro",
+        "ru",
+        "rue",
+        "tr",
+        "uk",
+        "yi"
+      ]
+    },
+    "UMI": {
+      "alpha2": "UM",
+      "name": "United States Minor Outlying Islands",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "URY": {
+      "alpha2": "UY",
+      "name": "Uruguay",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "es"
+      ],
+      "languages": [
+        "es"
+      ]
+    },
+    "USA": {
+      "alpha2": "US",
+      "name": "United States",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "cad",
+        "cho",
+        "chr",
+        "cic",
+        "dak",
+        "de",
+        "en",
+        "es",
+        "esu",
+        "fil",
+        "fr",
+        "frc",
+        "haw",
+        "hnj",
+        "ik",
+        "io",
+        "it",
+        "jbo",
+        "ko",
+        "lkt",
+        "mus",
+        "mww",
+        "nv",
+        "oka",
+        "osa",
+        "pdc",
+        "ru",
+        "vi",
+        "yi",
+        "zh_Hant"
+      ],
+      "languages": [
+        "cad",
+        "cho",
+        "chr",
+        "cic",
+        "dak",
+        "de",
+        "en",
+        "es",
+        "esu",
+        "fil",
+        "fr",
+        "frc",
+        "haw",
+        "hnj",
+        "ik",
+        "io",
+        "it",
+        "jbo",
+        "ko",
+        "lkt",
+        "mus",
+        "mww",
+        "nv",
+        "oka",
+        "osa",
+        "pdc",
+        "ru",
+        "vi",
+        "yi",
+        "zh_Hant"
+      ]
+    },
+    "UZB": {
+      "alpha2": "UZ",
+      "name": "Uzbekistan",
+      "representative_language": "uz_Latn",
+      "cldr_language_editions": [
+        "kaa",
+        "ru",
+        "tr",
+        "uz",
+        "uz_Cyrl"
+      ],
+      "languages": [
+        "kaa",
+        "ru",
+        "tr",
+        "uz",
+        "uz_Cyrl",
+        "uz_Latn"
+      ]
+    },
+    "VAT": {
+      "alpha2": "VA",
+      "name": "Holy See (Vatican City State)",
+      "representative_language": "it",
+      "cldr_language_editions": [
+        "it",
+        "la"
+      ],
+      "languages": [
+        "it",
+        "la"
+      ]
+    },
+    "VCT": {
+      "alpha2": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "VEN": {
+      "alpha2": "VE",
+      "name": "Venezuela, Bolivarian Republic of",
+      "representative_language": "es",
+      "cldr_language_editions": [
+        "es",
+        "yrl"
+      ],
+      "languages": [
+        "es",
+        "yrl"
+      ]
+    },
+    "VGB": {
+      "alpha2": "VG",
+      "name": "Virgin Islands, British",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "VIR": {
+      "alpha2": "VI",
+      "name": "Virgin Islands, U.S.",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "en"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    "VNM": {
+      "alpha2": "VN",
+      "name": "Viet Nam",
+      "representative_language": "vi",
+      "cldr_language_editions": [
+        "blt",
+        "cjm",
+        "hnj",
+        "mww",
+        "vi",
+        "zh_Hant"
+      ],
+      "languages": [
+        "blt",
+        "cjm",
+        "hnj",
+        "mww",
+        "vi",
+        "zh_Hant"
+      ]
+    },
+    "VUT": {
+      "alpha2": "VU",
+      "name": "Vanuatu",
+      "representative_language": "bi",
+      "cldr_language_editions": [
+        "bi",
+        "en",
+        "fr"
+      ],
+      "languages": [
+        "bi",
+        "en",
+        "fr"
+      ]
+    },
+    "WLF": {
+      "alpha2": "WF",
+      "name": "Wallis and Futuna",
+      "representative_language": "fr",
+      "cldr_language_editions": [
+        "fr",
+        "fud",
+        "wls"
+      ],
+      "languages": [
+        "fr",
+        "fud",
+        "wls"
+      ]
+    },
+    "WSM": {
+      "alpha2": "WS",
+      "name": "Samoa",
+      "representative_language": "sm",
+      "cldr_language_editions": [
+        "en",
+        "sm"
+      ],
+      "languages": [
+        "en",
+        "sm"
+      ]
+    },
+    "YEM": {
+      "alpha2": "YE",
+      "name": "Yemen",
+      "representative_language": "ar",
+      "cldr_language_editions": [
+        "ar",
+        "en"
+      ],
+      "languages": [
+        "ar",
+        "en"
+      ]
+    },
+    "ZAF": {
+      "alpha2": "ZA",
+      "name": "South Africa",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "af",
+        "en",
+        "hi",
+        "nr",
+        "nso",
+        "ss",
+        "st",
+        "sw",
+        "tn",
+        "ts",
+        "ve",
+        "xh",
+        "zu"
+      ],
+      "languages": [
+        "af",
+        "en",
+        "hi",
+        "nr",
+        "nso",
+        "ss",
+        "st",
+        "sw",
+        "tn",
+        "ts",
+        "ve",
+        "xh",
+        "zu"
+      ]
+    },
+    "ZMB": {
+      "alpha2": "ZM",
+      "name": "Zambia",
+      "representative_language": "en",
+      "cldr_language_editions": [
+        "bem",
+        "en",
+        "kqn",
+        "leb",
+        "loz",
+        "lue",
+        "lun",
+        "nse",
+        "ny",
+        "toi",
+        "tum"
+      ],
+      "languages": [
+        "bem",
+        "en",
+        "kqn",
+        "leb",
+        "loz",
+        "lue",
+        "lun",
+        "nse",
+        "ny",
+        "toi",
+        "tum"
+      ]
+    },
+    "ZWE": {
+      "alpha2": "ZW",
+      "name": "Zimbabwe",
+      "representative_language": "sn",
+      "cldr_language_editions": [
+        "en",
+        "kck",
+        "mxc",
+        "nd",
+        "ndc",
+        "ny",
+        "sn",
+        "tn",
+        "ve"
+      ],
+      "languages": [
+        "en",
+        "kck",
+        "mxc",
+        "nd",
+        "ndc",
+        "ny",
+        "sn",
+        "tn",
+        "ve"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 পথ 호환 প্রবিষ্ট_পইণ্ট. প্ৰকৃত_ডাটা 구현: ../সঁজুলিসমূহ/흐름시험.py"""
+import importlib as 가져오기
+import sys as অপাৰেটিং_ছিষ্টেম_মান
+from pathlib import Path as পথ
+অপাৰেটিং_ছিষ্টেম_মান.path.insert(0, str(পথ(__file__).resolve().parents[1] / 'সঁজুলিসমূহ'))
+if __name__ == '__main__':
+    import runpy as এপ্প্_এপ্প্_ড্ৰৱাৰ
+    এপ্প্_এপ্প্_ড্ৰৱাৰ.run_module('흐름시험', run_name='__main__', alter_sys=True)
+else:
+    구현 = 가져오기.import_module('흐름시험')
+    대응 = {'out': 'পৰিমাপ_ডাটা', 'main': 'সঞ্চালন', 'ROOT': '기준', 'p': 'ডাটা_স্থান_সলনি_কৰক', 'text': 'টেক্সট', 'report': 'বৈধতা_ৰিপ_ৰ্ট'}
+    for 이전, 현재 in 대응.items():
+        if hasattr(구현, 현재): globals()[이전] = getattr(구현, 현재)

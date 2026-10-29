@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/worldos/나라/USA/source/build/b002/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/USA/source/build/b008/_pkg_.a
+packagefile port=/home/user/worldos/나라/USA/source/build/b005/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/USA/source/build/b000/_pkg_.a

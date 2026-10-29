@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "ETH",
+  "language": "am",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

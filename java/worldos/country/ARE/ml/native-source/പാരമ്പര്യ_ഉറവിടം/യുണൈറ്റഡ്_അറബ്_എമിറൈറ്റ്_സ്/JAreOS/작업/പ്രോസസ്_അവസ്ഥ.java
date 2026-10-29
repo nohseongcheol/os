@@ -1,0 +1,10 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package യുണൈറ്റഡ്_അറബ്_എമിറൈറ്റ്_സ്.JAreOS.작업;
+
+public enum പ്രോസസ്_അവസ്ഥ {
+    തയ്യാറാക്കുക,
+    നടപ്പാക്കുക_കമാന്_ഡ്,
+    കാക്കുക_അവസ്ഥ,
+    പുറത്തുകടക്കൽ_പ്രോഗ്രാം
+}
+

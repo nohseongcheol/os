@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "SLB",
+  "language": "en",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "source"
+  }
+}

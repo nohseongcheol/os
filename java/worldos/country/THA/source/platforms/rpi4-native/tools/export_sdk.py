@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 เส้นทาง 호환 จุดเข้าใช้งาน. ค่าจริง_ข้อมูล 구현: ../เครื่องมือ/개발꾸러미내보내기.py"""
+import importlib as 가져오기
+import sys as ระบบปฏิบัติการ_ค่า
+from pathlib import Path as เส้นทาง
+ระบบปฏิบัติการ_ค่า.path.insert(0, str(เส้นทาง(__file__).resolve().parents[1] / 'เครื่องมือ'))
+if __name__ == '__main__':
+    import runpy as แอป_ลิ้นชักแอป
+    แอป_ลิ้นชักแอป.run_module('개발꾸러미내보내기', run_name='__main__', alter_sys=True)
+else:
+    구현 = 가져오기.import_module('개발꾸러미내보내기')
+    การแมป_ค่า = {'out': 'เมตริก_ข้อมูล', 'obj': 'แฟ้มปลายทาง', 'relative': 'เส้นทางสัมพัทธ์', 'compiler_archive': 'คอมไพเลอร์_เก็บถาวร', 'sdk': 'ชุดเครื่องมือการพัฒนา', 'dist': 'การกระจาย_พาธ', 'archive': 'เก็บถาวร', 'main': 'เรียกใช้งาน', 'posix': '포직스경로', 'files': 'แฟ้ม_รายการ', 'source': '원본자료', 'name': 'ชื่อ', 'target': 'เป้าหมาย', 'ROOT': 'แสดง_ราก', 'destination': 'ปลายทาง_ข้อมูล_อีเมล', 'manifest': 'รวม_ไฟล์กํากับ', 'work': '작업경로'}
+    for 이전, ปัจจุบัน_รายการ in การแมป_ค่า.items():
+        if hasattr(구현, ปัจจุบัน_รายการ): globals()[이전] = getattr(구현, ปัจจุบัน_รายการ)

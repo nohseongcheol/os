@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "action",
+    "identifier": "action",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "ppeesa",
+    "identifier": "ppeesa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "className",
+    "identifier": "className",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "B_ikka",
+    "identifier": "Bikka",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Mulimu",
+    "identifier": "Mulimu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxtask.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "connect",
+    "identifier": "connect",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Tterekero",
+    "identifier": "Tterekero",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxpanel.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "Kiremya",
+    "identifier": "Kiremya",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "execute",
+    "identifier": "execute",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "_Fayiro",
+    "identifier": "Fayiro",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Bulambe",
+    "identifier": "Bulambe",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxpanel.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "load",
+    "identifier": "load",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "mode",
+    "identifier": "mode",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Linnya",
+    "identifier": "Linnya",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Bikkula",
+    "identifier": "Bikkula",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "output",
+    "identifier": "output",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "Lubaawo",
+    "identifier": "Lubaawo",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxpanel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "path",
+    "identifier": "path",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "position",
+    "identifier": "position",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "process",
+    "identifier": "process",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "read",
+    "identifier": "read",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Luggyemu",
+    "identifier": "Luggyemu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "KIGENDERWA",
+    "identifier": "KIGENDERWA",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "Tandika",
+    "identifier": "Tandika",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxpanel.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Kazza",
+    "identifier": "Kazza",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "_Enteekateeka",
+    "identifier": "Enteekateeka",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Bunene",
+    "identifier": "Bunene",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "NNONO",
+    "identifier": "NNONO",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "Gyako",
+    "identifier": "Gyako",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxmusic.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Kiwandikiro",
+    "identifier": "Kiwandikiro",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxterminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Bigambo",
+    "identifier": "Bigambo",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lg/LC_MESSAGES/lxpanel.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "toolbar",
+    "identifier": "toolbar",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "write",
+    "identifier": "write",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  }
+}

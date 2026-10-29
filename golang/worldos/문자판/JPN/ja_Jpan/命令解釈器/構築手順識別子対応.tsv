@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	命令解釈器を組み立てる
+executable_file	実行文書
+include_directory	宣言集の場所
+library_file	関数集文書
+linker_file	連結配置文書
+object_file	機械語文書
+source_file	原文書
+startup_object	起動機械語

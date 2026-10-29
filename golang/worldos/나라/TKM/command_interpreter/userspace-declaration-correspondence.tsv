@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Ýap
+SYS_exit	SYS__exit
+SYS_open	SYS_Aç
+SYS_read	SYS_Oka
+SYS_write	SYS_Ýaz
+close	Ýap
+open	Aç
+read	Oka
+write	Ýaz

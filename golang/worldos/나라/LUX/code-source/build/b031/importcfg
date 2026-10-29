@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/30/30afc8b242e5de568343da196e00535b6e5b2620e4ab8518c4113b1aaedea668-d
+packagefile gdt=/home/user/.cache/go-build/d6/d65fd47bd17edf5b33aeaca9c2b47607ad7da81297ccf103a3ceb89267aaceed-d
+packagefile runtime/cgo=/home/user/worldos/나라/LUX/소스/build/b000/_pkg_.a

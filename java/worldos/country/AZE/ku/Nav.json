@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Çalakî",
+    "identifier": "Çalakî",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "className",
+    "identifier": "className",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "_Bigire",
+    "identifier": "Bigire",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Ferman",
+    "identifier": "Ferman",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Girêbide",
+    "identifier": "Girêbide",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Pelrêç",
+    "identifier": "Pelrêç",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "Çewtî",
+    "identifier": "Çewtî",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "Bixebitîne",
+    "identifier": "Bixebitîne",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/kparts5.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "_Pel",
+    "identifier": "Pel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "label",
+    "identifier": "label",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Lê bar bike",
+    "identifier": "Lê_bar_bike",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Mod",
+    "identifier": "Mod",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Nav",
+    "identifier": "Nav",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/alacarte.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Veke",
+    "identifier": "Veke",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "output",
+    "identifier": "output",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "RÊ",
+    "identifier": "RÊ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/gnome-screensaver.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Cih",
+    "identifier": "Cih",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "process",
+    "identifier": "process",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "Bi_xwîne",
+    "identifier": "Bixwîne",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Rake",
+    "identifier": "Rake",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Bimeşîne",
+    "identifier": "Bimeşîne",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Tomar bike",
+    "identifier": "Tomar_bike",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "_Vebijêrk",
+    "identifier": "Vebijêrk",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Mezinahî",
+    "identifier": "Mezinahî",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "ÇAVKANÎ",
+    "identifier": "ÇAVKANÎ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Bisekine",
+    "identifier": "Bisekine",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Termînal",
+    "identifier": "Termînal",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/mate-terminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Nivîs",
+    "identifier": "Nivîs",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Darikê Amûran",
+    "identifier": "Darikê_Amûran",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "Bi_nivîse",
+    "identifier": "Binivîse",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ku/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

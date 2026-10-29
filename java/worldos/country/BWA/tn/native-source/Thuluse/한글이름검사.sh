@@ -1,0 +1,18 @@
+#!/bin/sh
+set -eu
+# 외국어판의 이름을 한국어 전용 규칙으로 거부하지 않는다.
+# 뜻·어원 검토 여부는 native-pending.tsv와 native-term-evidence.json에 기록한다.
+python3 - <<'PY'
+from pathlib import Path
+import re
+import unicodedata
+for tsela in Path('maloba_Motswedi').rglob('*.java'):
+    leina = tsela.stem
+    if not leina.isidentifier() or unicodedata.normalize('NFC', leina) != leina:
+        raise SystemExit('setlhaodi_Boleng 또는 fokotsa_ntsifatso_Boleng phoso: ' + str(tsela))
+    Motswedi = tsela.read_text(encoding='utf-8')
+    선언 = re.search(r'public\s+(?:(?:final|abstract)\s+)?(?:class|interface|enum)\s+([^\s<{]+)', Motswedi)
+    if 선언 and 선언.group(1) != leina:
+        raise SystemExit('faele·공개 fometa_Boleng leina 불일치: ' + str(tsela))
+print('UTF-8 공개 fometa_Boleng·faele leina netefatsa 완료; 현지어 검토 상태는 국가판 명명 tshedimosetso Tshupiso')
+PY

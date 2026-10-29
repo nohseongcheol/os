@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{kaynak_dosya}=$1
+@{nesne_dosyası}=$2
+@{çalıştırılabilir_dosya}=$3
+@{bildirim_dizini}=$4
+@{başlangıç_nesnesi}=$5
+@{kitaplık_dosyası}=$6
+@{bağlama_dosyası}=$7
+
+@{komut_yorumlayıcıyı_derle}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{bildirim_dizini}" -c "$@{kaynak_dosya}" -o "$@{nesne_dosyası}"
+    ld -n -m elf_i386 -e _start -T "$@{bağlama_dosyası}" -static \
+        --no-ld-generated-unwind-info -o "$@{çalıştırılabilir_dosya}" \
+        "$@{başlangıç_nesnesi}" "$@{nesne_dosyası}" "$@{kitaplık_dosyası}"
+}
+@{komut_yorumlayıcıyı_derle}

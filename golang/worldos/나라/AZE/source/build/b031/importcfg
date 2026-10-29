@@ -1,0 +1,8 @@
+# import config
+packagefile console=/home/user/.cache/go-build/36/36133a76d7a95260420cc72a61e585a8202fc9853f3c271a94ba7ec3bd6cc69f-d
+packagefile gdt=/home/user/.cache/go-build/49/4939c80a202fdc2029c5a82a75a68fdc5866d0f203e3b567bf3b9375910dca98-d
+packagefile multitasking=/home/user/worldos/나라/AZE/소스/build/b022/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile virtualYaddaş=/home/user/worldos/나라/AZE/소스/build/b032/_pkg_.a
+packagefile yaddaşmanager=/home/user/worldos/나라/AZE/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AZE/소스/build/b000/_pkg_.a

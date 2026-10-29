@@ -1,0 +1,5 @@
+# WorldOS TUV UTF-8 command file
+echo "WorldOS TUV"
+help
+pwd
+pid

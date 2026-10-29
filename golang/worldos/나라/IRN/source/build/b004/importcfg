@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/69/6925555a6d1943c0cb77b44e4d499cc3af1b9d2168001bff9e91239b4d851298-d
+packagefile درگاه=/home/user/.cache/go-build/09/09c08b1a4c881ed267480d89418aee0da518b91be18a30ed9088d10d4284b6bb-d
+packagefile runtime/cgo=/home/user/worldos/나라/IRN/소스/build/b000/_pkg_.a

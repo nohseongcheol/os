@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	varaa muistia	varaa_muistia	project-proposal	function-based project proposal
+append	lisää listan loppuun	lisää_listan_loppuun	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	varausbittikartta	varausbittikartta	project-proposal	function-based project proposal
+boot	koneen käynnistys	koneen_käynnistys	project-proposal	function-based project proposal
+boot_record	pääkäynnistystietue	pääkäynnistystietue	project-proposal	boot code and partition metadata, not an audio recording
+bus	yhteinen siirtoväylä	yhteinen_siirtoväylä	project-proposal	function-based project proposal
+compile_kernel	käännä ydin	käännä_ydin	project-proposal	function-based project proposal
+destination_port	kohdeportin numero	kohdeportin_numero	project-proposal	function-based project proposal
+elf	suoritettava ja linkitettävä muoto	suoritettava_ja_linkitettävä_muoto	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	virhenumero	virhenumero	project-proposal	function-based project proposal
+ethernet_frame	jaetun siirtotien verkkokehys	jaetun_siirtotien_verkkokehys	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	jaetun siirtotien verkkokehyksen otsake	jaetun_siirtotien_verkkokehyksen_otsake	project-proposal	function-based project proposal
+ethernet_provider	jaetun siirtotien verkkokehysten tarjoaja	jaetun_siirtotien_verkkokehysten_tarjoaja	project-proposal	function-based project proposal
+fat_parameters	tiedostojärjestelmän parametrit	tiedostojärjestelmän_parametrit	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	tiedoston ohjaus	tiedoston_ohjaus	project-proposal	function-based project proposal
+file_read	lue tiedosto	lue_tiedosto	project-proposal	function-based project proposal
+file_status	tiedoston tila	tiedoston_tila	project-proposal	function-based project proposal
+file_write	kirjoita tiedosto	kirjoita_tiedosto	project-proposal	function-based project proposal
+free_memory	vapauta muisti	vapauta_muisti	project-proposal	function-based project proposal
+headers	esittelyt	esittelyt	project-proposal	function-based project proposal
+heap	dynaaminen muisti	dynaaminen_muisti	project-proposal	function-based project proposal
+icmp	verkkojen ohjausviestien yhteyskäytäntö	verkkojen_ohjausviestien_yhteyskäytäntö	project-proposal	function-based project proposal
+implementation	toteutus	toteutus	project-proposal	function-based project proposal
+insert_at	lisää indeksin kohdalle	lisää_indeksin_kohdalle	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	verkkojen verkko	verkkojen_verkko	project-proposal	function-based project proposal
+ip_provider	verkkojen yhteyskäytännön tarjoaja	verkkojen_yhteyskäytännön_tarjoaja	project-proposal	function-based project proposal
+ipv4	verkkojen yhdyskäytäntö 4	verkkojen_yhdyskäytäntö_4	project-proposal	function-based project proposal
+link_layout	linkitysasettelu	linkitysasettelu	project-proposal	function-based project proposal
+list_node	listasolmu	listasolmu	project-proposal	function-based project proposal
+log_decoder	tulkitse sarjaloki	tulkitse_sarjaloki	project-proposal	function-based project proposal
+mouse	osoitinlaite	osoitinlaite	project-proposal	function-based project proposal
+page_directory	sivuhakemisto	sivuhakemisto	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	fyysinen sivu	fyysinen_sivu	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	osoiteviite	osoiteviite	project-proposal	function-based project proposal
+prepend	lisää listan alkuun	lisää_listan_alkuun	project-proposal	src/util/list/list.go: links before head
+register	rekisteri	rekisteri	project-proposal	function-based project proposal
+set_coordinates	aseta paikalliset koordinaatit	aseta_paikalliset_koordinaatit	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	lähdeportin numero	lähdeportin_numero	project-proposal	function-based project proposal
+stack	pinomuisti	pinomuisti	project-proposal	function-based project proposal
+startup	käynnistys	käynnistys	project-proposal	function-based project proposal
+structure_offsets	rakenteen siirtymät	rakenteen_siirtymät	project-proposal	function-based project proposal
+system_call	järjestelmäkutsu	järjestelmäkutsu	project-proposal	function-based project proposal
+tests	testit	testit	project-proposal	function-based project proposal
+toggle_bit	käännä varausbitti	käännä_varausbitti	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	työkalut	työkalut	project-proposal	function-based project proposal
+udp	käyttäjän tietosähkeiden yhteyskäytäntö	käyttäjän_tietosähkeiden_yhteyskäytäntö	project-proposal	function-based project proposal
+udp_header	käyttäjän tietosähkeen otsake	käyttäjän_tietosähkeen_otsake	project-proposal	function-based project proposal
+udp_socket	käyttäjän tietosähkeiden päätepiste	käyttäjän_tietosähkeiden_päätepiste	project-proposal	function-based project proposal
+user_space	käyttäjätila	käyttäjätila	project-proposal	function-based project proposal
+widget	näyttöelementti	näyttöelementti	project-proposal	function-based project proposal

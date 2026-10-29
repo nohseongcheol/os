@@ -1,0 +1,25 @@
+# import config
+packagefile berkasSistem/fat=/home/user/worldos/나라/IDN/소스/build/b002/_pkg_.a
+packagefile berkasSistem/format_eksekusi_dan_penautan=/home/user/worldos/나라/IDN/소스/build/b022/_pkg_.a
+packagefile berkasSistem/msdospartition=/home/user/worldos/나라/IDN/소스/build/b003/_pkg_.a
+packagefile console=/home/user/.cache/go-build/dc/dc8d727caf667f05a042c358d491c4e2151e56ebc8da688b7d220bda4961ddf4-d
+packagefile driver/ata=/home/user/worldos/나라/IDN/소스/build/b006/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/f6/f62d09153d5345c3f235d4f00fb13d547c58905fb645e431fda4fd52383e1428-d
+packagefile driver/papanketik=/home/user/worldos/나라/IDN/소스/build/b028/_pkg_.a
+packagefile driver/perangkat_penunjuk=/home/user/worldos/나라/IDN/소스/build/b036/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/68/68aff6a5462dc4a8be99ffa8b8746565bcb0be6488d50db283cbec3b34470c62-d
+packagefile interupsi=/home/user/worldos/나라/IDN/소스/build/b024/_pkg_.a
+packagefile memorimanager=/home/user/worldos/나라/IDN/소스/build/b021/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/IDN/소스/build/b026/_pkg_.a
+packagefile paging=/home/user/worldos/나라/IDN/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/IDN/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sistemcall=/home/user/worldos/나라/IDN/소스/build/b029/_pkg_.a
+packagefile tasking/proses=/home/user/worldos/나라/IDN/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/IDN/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/IDN/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/IDN/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/f9/f94952f2f967c01939d89f4ab959ce8e347eb3c17852a44f430e97b2aa88f48e-d
+packagefile virtualMemori=/home/user/worldos/나라/IDN/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/IDN/소스/build/b000/_pkg_.a

@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/9a/9a5578eda1e24bacab376bf9857969f5f1edc565e3bcd00962f85d95c556f431-d
+packagefile port=/home/user/.cache/go-build/db/db885483dfd09b7341c0b1f673a37dc8722867d4eae7df0968cff1857fea26b1-d
+packagefile ማቋረጫ=/home/user/worldos/나라/ETH/소스/build/b008/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ETH/소스/build/b000/_pkg_.a

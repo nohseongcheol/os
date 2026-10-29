@@ -1,0 +1,7 @@
+# import config
+packagefile gestãoTarefas/escalonador=/home/user/worldos/나라/TLS/소스/build/b031/_pkg_.a
+packagefile gestãoTarefas/fluxoExecução=/home/user/worldos/나라/TLS/소스/build/b032/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/TLS/소스/build/b023/_pkg_.a
+packagefile utilitário=/home/user/.cache/go-build/d7/d7d3c1dc92e5f287b51dcd3206b2639082e8acfeac6b2e02633567c9ad2b0f0e-d
+packagefile utilitário/lista=/home/user/worldos/나라/TLS/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/TLS/소스/build/b000/_pkg_.a

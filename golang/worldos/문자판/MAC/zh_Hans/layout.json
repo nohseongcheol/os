@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "MAC/zh_Hans",
+  "language": "zh_Hans",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "源代码"
+  }
+}

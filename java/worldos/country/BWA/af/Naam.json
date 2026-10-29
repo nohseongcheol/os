@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Aksie",
+    "identifier": "Aksie",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Klas",
+    "identifier": "Klas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "_Sluit",
+    "identifier": "Sluit",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Opdrag",
+    "identifier": "Opdrag",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "K_oppel",
+    "identifier": "Koppel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Gids",
+    "identifier": "Gids",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/lxpanel.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "Fout",
+    "identifier": "Fout",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "Voer uit",
+    "identifier": "Voer_uit",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/kparts5.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "_Lêer",
+    "identifier": "Lêer",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "etiket",
+    "identifier": "etiket",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "_Lading",
+    "identifier": "Lading",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Modus",
+    "identifier": "Modus",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Naam",
+    "identifier": "Naam",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/alacarte.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "open",
+    "identifier": "open",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "Afvoer",
+    "identifier": "Afvoer",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/mate-media.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "Paneel",
+    "identifier": "Paneel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "Pad",
+    "identifier": "Pad",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "Poort",
+    "identifier": "Poort",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Posisie",
+    "identifier": "Posisie",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "process",
+    "identifier": "process",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Lees",
+    "identifier": "Lees",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Verwyder",
+    "identifier": "Verwyder",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Loop",
+    "identifier": "Loop",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Stoor",
+    "identifier": "Stoor",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "_Instellings",
+    "identifier": "Instellings",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Grootte",
+    "identifier": "Grootte",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "Bron",
+    "identifier": "Bron",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "stop",
+    "identifier": "stop",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Terminaal",
+    "identifier": "Terminaal",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/lxterminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Teks",
+    "identifier": "Teks",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Nutsbalk",
+    "identifier": "Nutsbalk",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Skryf",
+    "identifier": "Skryf",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/af/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

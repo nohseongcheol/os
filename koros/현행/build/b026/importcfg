@@ -1,0 +1,6 @@
+# import config
+packagefile 시스템콜=/home/user/koros/현행/build/b027/_pkg_.a
+packagefile 인터럽트=/home/user/koros/현행/build/b019/_pkg_.a
+packagefile 콘솔=/home/user/koros/현행/build/b016/_pkg_.a
+packagefile 포트=/home/user/koros/현행/build/b022/_pkg_.a
+packagefile runtime/cgo=/home/user/koros/현행/build/b000/_pkg_.a

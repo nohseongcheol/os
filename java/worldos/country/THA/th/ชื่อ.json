@@ -1,0 +1,541 @@
+{
+  "action": {
+    "text": "การกระทำ",
+    "identifier": "การกระทำ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "อาร์กิวเมนต์",
+    "identifier": "อาร์กิวเมนต์",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "ปุ่ม",
+    "identifier": "ปุ่ม",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "คลาส",
+    "identifier": "คลาส",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "ปิด",
+    "identifier": "ปิด",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "คำสั่ง",
+    "identifier": "คำสั่ง",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "คอมไพล์",
+    "identifier": "คอมไพล์",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "เ_ชื่อมต่อ",
+    "identifier": "เชื่อมต่อ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "กระบวนการปัจจุบัน",
+    "identifier": "กระบวนการปัจจุบัน",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "ข้อมูล",
+    "identifier": "ข้อมูล",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "ไดเรกทอรี",
+    "identifier": "ไดเรกทอรี",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "ข้อผิดพลาด",
+    "identifier": "ข้อผิดพลาด",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "เหตุการณ์",
+    "identifier": "เหตุการณ์",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "เรียก_ทำงาน",
+    "identifier": "เรียกทำงาน",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "แฟ้ม",
+    "identifier": "แฟ้ม",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "เริ่มต้น",
+    "identifier": "เริ่มต้น",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "คีย์",
+    "identifier": "คีย์",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "ฉลาก",
+    "identifier": "ฉลาก",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "บรรทัด",
+    "identifier": "บรรทัด",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "load": {
+    "text": "โหลดต้นฉบับ",
+    "identifier": "โหลดต้นฉบับ",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "ข้อความแจ้ง",
+    "identifier": "ข้อความแจ้ง",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "โหมด",
+    "identifier": "โหมด",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "ชื่อ",
+    "identifier": "ชื่อ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_เปิด",
+    "identifier": "เปิด",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "ข้อความออก",
+    "identifier": "ข้อความออก",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "พาเนล",
+    "identifier": "พาเนล",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "ตัวแยกอาร์กิวเมนต์",
+    "identifier": "ตัวแยกอาร์กิวเมนต์",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "เส้นทาง",
+    "identifier": "เส้นทาง",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "หมายเลขพอร์ต",
+    "identifier": "หมายเลขพอร์ต",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "ตำแหน่ง",
+    "identifier": "ตำแหน่ง",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "โพรเซส",
+    "identifier": "โพรเซส",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_อ่าน:",
+    "identifier": "อ่าน",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "ตัวอ่านข้อความ",
+    "identifier": "ตัวอ่านข้อความ",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "ลบ",
+    "identifier": "ลบ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "ผลลัพธ์",
+    "identifier": "ผลลัพธ์",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "เรียกใช้งาน",
+    "identifier": "เรียกใช้งาน",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "_บันทึก",
+    "identifier": "บันทึก",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "ตั้งค่า",
+    "identifier": "ตั้งค่า",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "ขนาด",
+    "identifier": "ขนาด",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "รหัสต้นฉบับ",
+    "identifier": "รหัสต้นฉบับ",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_หยุด",
+    "identifier": "หยุด",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "เทอร์มินัล",
+    "identifier": "เทอร์มินัล",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "ข้อความ",
+    "identifier": "ข้อความ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "สายงาน",
+    "identifier": "สายงาน",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "แถบเ_ครื่องมือ",
+    "identifier": "แถบเครื่องมือ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "หน้าต่าง",
+    "identifier": "หน้าต่าง",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "งานเบื้องหลัง",
+    "identifier": "งานเบื้องหลัง",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "พื้นที่ทำงาน",
+    "identifier": "พื้นที่ทำงาน",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://race.nstru.ac.th/home_ex/e-portfolio/pic/academy/12515585.pdf?1759582370=",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "เ_ขียน:",
+    "identifier": "เขียน",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/th/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

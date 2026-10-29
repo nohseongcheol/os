@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "KWT",
+  "language": "ar",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "النص-المصدري"
+  }
+}

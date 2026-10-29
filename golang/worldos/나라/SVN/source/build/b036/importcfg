@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/f8/f889fa6741cb213993c3e6491140ba1dd39a49f56f7690cc2d8430651d648bea-d
+packagefile pomnilnikmanager=/home/user/worldos/나라/SVN/소스/build/b006/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SVN/소스/build/b000/_pkg_.a

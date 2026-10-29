@@ -1,0 +1,25 @@
+# import config
+packagefile bộnhớmanager=/home/user/worldos/나라/VNM/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/88/8870d12c880b6219d07872fc69111f2a6d369a7fd0342369d0d228ccead7f302-d
+packagefile driver/ata=/home/user/worldos/나라/VNM/소스/build/b005/_pkg_.a
+packagefile driver/bànphím=/home/user/worldos/나라/VNM/소스/build/b007/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/53/53e3132baac8a29b3d51269189398bf757b3a864b1ef32494f3c8a8adfe581db-d
+packagefile driver/thiết_bị_trỏ=/home/user/worldos/나라/VNM/소스/build/b036/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/5d/5d777fc247ee51f1055c20964bad404fc489bb3d7ab4e6e4eeadc94e0357707d-d
+packagefile giánđoạn=/home/user/worldos/나라/VNM/소스/build/b008/_pkg_.a
+packagefile hệthốngcall=/home/user/worldos/나라/VNM/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/VNM/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/VNM/소스/build/b024/_pkg_.a
+packagefile pci=/home/user/worldos/나라/VNM/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile tasking/scheduler=/home/user/worldos/나라/VNM/소스/build/b026/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/VNM/소스/build/b027/_pkg_.a
+packagefile tasking/tiếntrình=/home/user/worldos/나라/VNM/소스/build/b038/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/VNM/소스/build/b030/_pkg_.a
+packagefile tậptinHệthống/fat=/home/user/worldos/나라/VNM/소스/build/b032/_pkg_.a
+packagefile tậptinHệthống/msdospartition=/home/user/worldos/나라/VNM/소스/build/b033/_pkg_.a
+packagefile tậptinHệthống/định_dạng_thực_thi_và_liên_kết=/home/user/worldos/나라/VNM/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/b9/b937ded4fd3cf98b8c7cb30c49f907155ede542be5acd79f7bcf73673f688afd-d
+packagefile ảoBộnhớ=/home/user/worldos/나라/VNM/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VNM/소스/build/b000/_pkg_.a

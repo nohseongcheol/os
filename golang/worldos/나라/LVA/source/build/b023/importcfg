@@ -1,0 +1,6 @@
+# import config
+packagefile atmiņamanager=/home/user/worldos/나라/LVA/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/c4/c47f0c987c300933bf848bc516be2311c9a243681f6e7839e63fc2befa81eaf0-d
+packagefile gdt=/home/user/.cache/go-build/88/88e0c8490aa820bd5a0aba9733647ffc1f24b1ee404e9146cdbe603d38227f02-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime/cgo=/home/user/worldos/나라/LVA/소스/build/b000/_pkg_.a

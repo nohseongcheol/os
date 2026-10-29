@@ -1,0 +1,12 @@
+{
+  "countries": 249,
+  "editions": 1578,
+  "languages": 777,
+  "editions_without_english_fallback": 352,
+  "native_review_complete": 0,
+  "source": "CLDR 48 territoryInfo, all listed languages; ISO 3166-1 countries and territories",
+  "functional_review_languages": 20,
+  "functional_roles_reviewed": 223,
+  "untranslated_concepts": 42145,
+  "all_language_etymologies_verified": false
+}

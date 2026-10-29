@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/e3/e35010b2e0882ab6a38c59d221754e80c1b7be8c6869e02b8fd6f41cfe2e53ec-d
+packagefile driver/ata=/home/user/worldos/나라/TON/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/3a/3a144d99c1ac67d0d117fed7cdd63dcf9230e65bc2bdaa5bead0f755537242b1-d
+packagefile driver/keyboard=/home/user/worldos/나라/TON/소스/build/b007/_pkg_.a
+packagefile driver/mouse=/home/user/worldos/나라/TON/소스/build/b036/_pkg_.a
+packagefile filesystem/elf=/home/user/worldos/나라/TON/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/TON/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/TON/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/3d/3d7670dedc5dfd7e8914d34fa39f2c4da90f413979487c884caac3908f1459e0-d
+packagefile interrupt=/home/user/worldos/나라/TON/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/TON/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/TON/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/TON/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/TON/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/TON/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/TON/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/TON/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/TON/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/TON/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/5d/5dd51a375e78e2fa52f0af7b294a3679ea6f427b069e9beb311aa9e85d18f02a-d
+packagefile virtualmemory=/home/user/worldos/나라/TON/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/TON/소스/build/b000/_pkg_.a

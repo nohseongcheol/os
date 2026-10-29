@@ -1,0 +1,5 @@
+# import config
+packagefile memorijamanager=/home/user/worldos/나라/HRV/소스/build/b005/_pkg_.a
+packagefile prekid=/home/user/worldos/나라/HRV/소스/build/b007/_pkg_.a
+packagefile util=/home/user/.cache/go-build/e9/e95f538958854207bb3db21faf75a559bcbdbef83bcbff7bc1585a73f3003715-d
+packagefile runtime/cgo=/home/user/worldos/나라/HRV/소스/build/b000/_pkg_.a

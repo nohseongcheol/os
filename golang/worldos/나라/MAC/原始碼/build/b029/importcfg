@@ -1,0 +1,12 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/bb/bbe2a0d506ff820c6383451ebc91f4326a8fb107c4b520f472ac97b7e3ed7470-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile 中斷=/home/user/worldos/나라/MAC/소스/build/b018/_pkg_.a
+packagefile 多重工作管理=/home/user/worldos/나라/MAC/소스/build/b019/_pkg_.a
+packagefile 工作管理/tss=/home/user/worldos/나라/MAC/소스/build/b025/_pkg_.a
+packagefile 工作管理/執行緒=/home/user/worldos/나라/MAC/소스/build/b026/_pkg_.a
+packagefile 工具/清單=/home/user/worldos/나라/MAC/소스/build/b030/_pkg_.a
+packagefile 控制台=/home/user/.cache/go-build/9b/9bd54e16c70f24ab50a196860fb0e7a9762f86bfee29a259ad93f4b1fefb4098-d
+packagefile 記憶體管理器=/home/user/worldos/나라/MAC/소스/build/b020/_pkg_.a
+packagefile 連接埠=/home/user/.cache/go-build/9d/9dfe39ada3d2b9136ad4ca1a31e85deed308b736acda6f20107468f1f589d074-d
+packagefile runtime/cgo=/home/user/worldos/나라/MAC/소스/build/b000/_pkg_.a

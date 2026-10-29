@@ -1,0 +1,5 @@
+# WorldOS PHL UTF-8 command file
+print_arguments "WorldOS PHL"
+show_help
+show_working_directory
+show_process_identifiers

@@ -1,0 +1,5 @@
+# WorldOS NPL UTF-8 command file
+echo "WorldOS NPL"
+help
+pwd
+pid

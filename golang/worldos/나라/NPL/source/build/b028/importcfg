@@ -1,0 +1,7 @@
+# import config
+packagefile console=/home/user/.cache/go-build/98/987358ca542d25b5580737f84f42dda360c9b7120893142fa96f457fbbf2bceb-d
+packagefile driver/ata=/home/user/worldos/나라/NPL/소스/build/b004/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/NPL/소스/build/b029/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/NPL/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/31/31a45b8302242a9d364268b77fdd6c4c03f7560469df1c7ddbfe5330c12e800d-d
+packagefile runtime/cgo=/home/user/worldos/나라/NPL/소스/build/b000/_pkg_.a

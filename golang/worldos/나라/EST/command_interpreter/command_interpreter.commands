@@ -1,0 +1,5 @@
+# WorldOS EST UTF-8 command file
+echo "WorldOS EST"
+help
+pwd
+pid

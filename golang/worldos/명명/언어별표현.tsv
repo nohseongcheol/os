@@ -1,0 +1,1101 @@
+language	concept	project_proposal
+ar	allocate_memory	تخصيص الذاكرة
+ar	append	إضافة إلى نهاية القائمة
+ar	bitmap	خريطة التخصيص
+ar	boot	إقلاع الآلة
+ar	boot_record	سجل الإقلاع الرئيسي
+ar	bus	مسار نقل مشترك
+ar	compile_kernel	ترجمة النواة
+ar	destination_port	رقم منفذ الوجهة
+ar	elf	صيغة التنفيذ والربط
+ar	error_number	رقم الخطأ
+ar	ethernet_frame	إطار شبكة ذات وسط مشترك
+ar	ethernet_header	ترويسة إطار الشبكة ذات الوسط المشترك
+ar	ethernet_provider	مزود إطارات الشبكة ذات الوسط المشترك
+ar	fat_parameters	معلمات نظام الملفات
+ar	file_control	التحكم بالملف
+ar	file_read	قراءة الملف
+ar	file_status	حالة الملف
+ar	file_write	كتابة الملف
+ar	free_memory	تحرير الذاكرة
+ar	headers	تصريحات
+ar	heap	ذاكرة ديناميكية
+ar	icmp	بروتوكول رسائل التحكم بالشبكة المترابطة
+ar	implementation	تنفيذ
+ar	insert_at	إدراج عند الفهرس
+ar	internet	شبكة مترابطة
+ar	ip_provider	مزود بروتوكول الشبكة المترابطة
+ar	ipv4	بروتوكول الشبكة المترابطة 4
+ar	link_layout	تخطيط الربط
+ar	list_node	عقدة قائمة
+ar	log_decoder	تحليل السجل التسلسلي
+ar	mouse	جهاز تأشير
+ar	page_directory	دليل الصفحات
+ar	page_frame	صفحة فعلية
+ar	pointer	مرجع عنوان
+ar	prepend	إضافة إلى بداية القائمة
+ar	register	مسجل
+ar	set_coordinates	تعيين الإحداثيات المحلية
+ar	source_port	رقم منفذ المصدر
+ar	stack	ذاكرة مكدس
+ar	startup	بدء التشغيل
+ar	structure_offsets	إزاحات البنية
+ar	system_call	نداء النظام
+ar	tests	اختبارات
+ar	toggle_bit	عكس بت التخصيص
+ar	tools	أدوات
+ar	udp	بروتوكول رزم المستخدم
+ar	udp_header	ترويسة رزم المستخدم
+ar	udp_socket	نقطة اتصال رزم المستخدم
+ar	user_space	فضاء المستخدم
+ar	widget	عنصر شاشة
+cs	allocate_memory	přidělit paměť
+cs	append	přidat na konec seznamu
+cs	bitmap	mapa obsazení
+cs	boot	spuštění stroje
+cs	boot_record	hlavní spouštěcí záznam
+cs	bus	sdílená přenosová sběrnice
+cs	compile_kernel	přeložit jádro
+cs	destination_port	číslo cílového portu
+cs	elf	spustitelný a spojitelný formát
+cs	error_number	číslo chyby
+cs	ethernet_frame	rámec sítě se sdíleným médiem
+cs	ethernet_header	hlavička rámce sítě se sdíleným médiem
+cs	ethernet_provider	poskytovatel rámců sítě se sdíleným médiem
+cs	fat_parameters	parametry souborového systému
+cs	file_control	řízení souboru
+cs	file_read	číst soubor
+cs	file_status	stav souboru
+cs	file_write	zapsat soubor
+cs	free_memory	uvolnit paměť
+cs	headers	deklarace
+cs	heap	dynamická paměť
+cs	icmp	protokol řídicích zpráv propojených sítí
+cs	implementation	implementace
+cs	insert_at	vložit na pozici
+cs	internet	propojená síť
+cs	ip_provider	poskytovatel protokolu propojených sítí
+cs	ipv4	protokol propojených sítí 4
+cs	link_layout	rozvržení spojování
+cs	list_node	uzel seznamu
+cs	log_decoder	zpracovat sériový záznam
+cs	mouse	polohovací zařízení
+cs	page_directory	adresář stránek
+cs	page_frame	fyzická stránka
+cs	pointer	odkaz na adresu
+cs	prepend	přidat na začátek seznamu
+cs	register	registr
+cs	set_coordinates	nastavit místní souřadnice
+cs	source_port	číslo zdrojového portu
+cs	stack	paměť zásobníku
+cs	startup	spuštění
+cs	structure_offsets	posuny struktury
+cs	system_call	systémové volání
+cs	tests	zkoušky
+cs	toggle_bit	obrátit bit obsazení
+cs	tools	nástroje
+cs	udp	protokol uživatelských datagramů
+cs	udp_header	hlavička uživatelského datagramu
+cs	udp_socket	koncový bod uživatelských datagramů
+cs	user_space	uživatelský prostor
+cs	widget	prvek obrazovky
+de	allocate_memory	Speicher reservieren
+de	append	am Listenende anfügen
+de	bitmap	Belegungsbitkarte
+de	boot	Maschinenstart
+de	boot_record	Hauptstartdatensatz
+de	bus	gemeinsamer Übertragungsweg
+de	compile_kernel	Kern übersetzen
+de	destination_port	Zielportnummer
+de	elf	ausführbares und bindbares Format
+de	error_number	Fehlernummer
+de	ethernet_frame	Rahmen des gemeinsamen Übertragungsnetzes
+de	ethernet_header	Rahmenkopf des gemeinsamen Übertragungsnetzes
+de	ethernet_provider	Rahmenanbieter des gemeinsamen Übertragungsnetzes
+de	fat_parameters	Dateisystemparameter
+de	file_control	Dateisteuerung
+de	file_read	Datei lesen
+de	file_status	Dateistatus
+de	file_write	Datei schreiben
+de	free_memory	Speicher freigeben
+de	headers	Deklarationen
+de	heap	dynamischer Speicher
+de	icmp	Netzverbundsteuerprotokoll
+de	implementation	Implementierung
+de	insert_at	an Position einfügen
+de	internet	Netzverbund
+de	ip_provider	Netzverbundprotokollanbieter
+de	ipv4	Netzverbundprotokoll4
+de	link_layout	Bindungsanordnung
+de	list_node	Listenknoten
+de	log_decoder	serielles Protokoll auswerten
+de	mouse	Zeigegerät
+de	page_directory	Seitenverzeichnis
+de	page_frame	physische Speicherseite
+de	pointer	Adressverweis
+de	prepend	am Listenanfang einfügen
+de	register	Register
+de	set_coordinates	lokale Koordinaten setzen
+de	source_port	Quellportnummer
+de	stack	Stapelspeicher
+de	startup	Start
+de	structure_offsets	Strukturversätze
+de	system_call	Systemaufruf
+de	tests	Prüfungen
+de	toggle_bit	Belegungsbit umkehren
+de	tools	Werkzeuge
+de	udp	Benutzerdatagrammprotokoll
+de	udp_header	Benutzerdatagrammkopf
+de	udp_socket	Benutzerdatagrammendpunkt
+de	user_space	Benutzerbereich
+de	widget	Bildschirmelement
+en	allocate_memory	allocate memory
+en	append	append to list
+en	bitmap	allocation bitmap
+en	boot	machine boot
+en	boot_record	master boot record
+en	bus	shared transfer bus
+en	compile_kernel	compile kernel
+en	destination_port	destination port number
+en	elf	executable and linkable format
+en	error_number	error number
+en	ethernet_frame	shared medium network frame
+en	ethernet_header	shared medium network frame header
+en	ethernet_provider	shared medium network frame provider
+en	fat_parameters	file system parameters
+en	file_control	file control
+en	file_read	read file
+en	file_status	file status
+en	file_write	write file
+en	free_memory	release memory
+en	headers	headers
+en	heap	dynamic memory
+en	icmp	interconnected network control message protocol
+en	implementation	implementation
+en	insert_at	insert at index
+en	internet	interconnected network
+en	ip_provider	interconnected network protocol provider
+en	ipv4	interconnected network protocol 4
+en	link_layout	link layout
+en	list_node	list node
+en	log_decoder	decode serial log
+en	mouse	pointing device
+en	page_directory	page directory
+en	page_frame	physical page
+en	pointer	address reference
+en	prepend	prepend to list
+en	register	register
+en	set_coordinates	set local coordinates
+en	source_port	source port number
+en	stack	stack storage
+en	startup	startup
+en	structure_offsets	structure offsets
+en	system_call	system call
+en	tests	tests
+en	toggle_bit	toggle allocation bit
+en	tools	tools
+en	udp	user datagram protocol
+en	udp_header	user datagram header
+en	udp_socket	user datagram endpoint
+en	user_space	user space
+en	widget	screen element
+es	allocate_memory	asignar memoria
+es	append	añadir al final de la lista
+es	bitmap	mapa de asignación
+es	boot	arranque de máquina
+es	boot_record	registro principal de arranque
+es	bus	vía de transmisión compartida
+es	compile_kernel	compilar núcleo
+es	destination_port	número del puerto de destino
+es	elf	formato ejecutable y enlazable
+es	error_number	número de error
+es	ethernet_frame	trama de la red de medio compartido
+es	ethernet_header	cabecera de trama de red de medio compartido
+es	ethernet_provider	proveedor de tramas de red de medio compartido
+es	fat_parameters	parámetros del sistema de archivos
+es	file_control	control de archivo
+es	file_read	leer archivo
+es	file_status	estado de archivo
+es	file_write	escribir archivo
+es	free_memory	liberar memoria
+es	headers	declaraciones
+es	heap	memoria dinámica
+es	icmp	protocolo de mensajes de control de red interconectada
+es	implementation	implementación
+es	insert_at	insertar en la posición
+es	internet	red interconectada
+es	ip_provider	proveedor del protocolo de red interconectada
+es	ipv4	protocolo de red interconectada 4
+es	link_layout	disposición de enlace
+es	list_node	nodo de lista
+es	log_decoder	interpretar registro serie
+es	mouse	dispositivo señalador
+es	page_directory	directorio de páginas
+es	page_frame	página física
+es	pointer	referencia de memoria
+es	prepend	añadir al inicio de la lista
+es	register	registro
+es	set_coordinates	establecer las coordenadas locales
+es	source_port	número del puerto de origen
+es	stack	memoria de pila
+es	startup	arranque
+es	structure_offsets	desplazamientos de estructura
+es	system_call	llamada al sistema
+es	tests	pruebas
+es	toggle_bit	invertir el bit de asignación
+es	tools	herramientas
+es	udp	protocolo de datagramas de usuario
+es	udp_header	cabecera de datagramas de usuario
+es	udp_socket	extremo de comunicación de datagramas de usuario
+es	user_space	espacio de usuario
+es	widget	elemento de pantalla
+fi	allocate_memory	varaa muistia
+fi	append	lisää listan loppuun
+fi	bitmap	varausbittikartta
+fi	boot	koneen käynnistys
+fi	boot_record	pääkäynnistystietue
+fi	bus	yhteinen siirtoväylä
+fi	compile_kernel	käännä ydin
+fi	destination_port	kohdeportin numero
+fi	elf	suoritettava ja linkitettävä muoto
+fi	error_number	virhenumero
+fi	ethernet_frame	jaetun siirtotien verkkokehys
+fi	ethernet_header	jaetun siirtotien verkkokehyksen otsake
+fi	ethernet_provider	jaetun siirtotien verkkokehysten tarjoaja
+fi	fat_parameters	tiedostojärjestelmän parametrit
+fi	file_control	tiedoston ohjaus
+fi	file_read	lue tiedosto
+fi	file_status	tiedoston tila
+fi	file_write	kirjoita tiedosto
+fi	free_memory	vapauta muisti
+fi	headers	esittelyt
+fi	heap	dynaaminen muisti
+fi	icmp	verkkojen ohjausviestien yhteyskäytäntö
+fi	implementation	toteutus
+fi	insert_at	lisää indeksin kohdalle
+fi	internet	verkkojen verkko
+fi	ip_provider	verkkojen yhteyskäytännön tarjoaja
+fi	ipv4	verkkojen yhdyskäytäntö 4
+fi	link_layout	linkitysasettelu
+fi	list_node	listasolmu
+fi	log_decoder	tulkitse sarjaloki
+fi	mouse	osoitinlaite
+fi	page_directory	sivuhakemisto
+fi	page_frame	fyysinen sivu
+fi	pointer	osoiteviite
+fi	prepend	lisää listan alkuun
+fi	register	rekisteri
+fi	set_coordinates	aseta paikalliset koordinaatit
+fi	source_port	lähdeportin numero
+fi	stack	pinomuisti
+fi	startup	käynnistys
+fi	structure_offsets	rakenteen siirtymät
+fi	system_call	järjestelmäkutsu
+fi	tests	testit
+fi	toggle_bit	käännä varausbitti
+fi	tools	työkalut
+fi	udp	käyttäjän tietosähkeiden yhteyskäytäntö
+fi	udp_header	käyttäjän tietosähkeen otsake
+fi	udp_socket	käyttäjän tietosähkeiden päätepiste
+fi	user_space	käyttäjätila
+fi	widget	näyttöelementti
+fr	allocate_memory	allouer la mémoire
+fr	append	ajouter en fin de liste
+fr	bitmap	carte des allocations
+fr	boot	démarrage machine
+fr	boot_record	enregistrement principal de démarrage
+fr	bus	voie de transmission partagée
+fr	compile_kernel	compiler le noyau
+fr	destination_port	numéro du port destination
+fr	elf	format exécutable et liable
+fr	error_number	numéro erreur
+fr	ethernet_frame	trame du réseau à support partagé
+fr	ethernet_header	entête de trame du réseau à support partagé
+fr	ethernet_provider	fournisseur de trames du réseau à support partagé
+fr	fat_parameters	paramètres du système de fichiers
+fr	file_control	contrôle de fichier
+fr	file_read	lire le fichier
+fr	file_status	état de fichier
+fr	file_write	écrire le fichier
+fr	free_memory	libérer la mémoire
+fr	headers	déclarations
+fr	heap	mémoire dynamique
+fr	icmp	protocole des messages de contrôle du réseau interconnecté
+fr	implementation	implémentation
+fr	insert_at	insérer à la position
+fr	internet	réseau interconnecté
+fr	ip_provider	fournisseur du protocole du réseau interconnecté
+fr	ipv4	protocole du réseau interconnecté 4
+fr	link_layout	plan de liaison
+fr	list_node	maillon de liste
+fr	log_decoder	décoder le journal série
+fr	mouse	dispositif de pointage
+fr	page_directory	répertoire de pages
+fr	page_frame	page physique
+fr	pointer	référence mémoire
+fr	prepend	ajouter en tête de liste
+fr	register	registre
+fr	set_coordinates	définir les coordonnées locales
+fr	source_port	numéro du port source
+fr	stack	mémoire de pile
+fr	startup	démarrage
+fr	structure_offsets	décalages de structure
+fr	system_call	appel système
+fr	tests	essais
+fr	toggle_bit	inverser le bit de réservation
+fr	tools	outils
+fr	udp	protocole des datagrammes utilisateur
+fr	udp_header	entête des datagrammes utilisateur
+fr	udp_socket	point de communication des datagrammes utilisateur
+fr	user_space	espace utilisateur
+fr	widget	élément graphique
+id	allocate_memory	alokasikan memori
+id	append	tambah di akhir daftar
+id	bitmap	peta alokasi
+id	boot	awal mesin
+id	boot_record	rekaman awal utama
+id	bus	jalur transmisi bersama
+id	compile_kernel	kompilasi inti
+id	destination_port	nomor porta tujuan
+id	elf	format eksekusi dan penautan
+id	error_number	nomor galat
+id	ethernet_frame	bingkai jaringan media bersama
+id	ethernet_header	kepala bingkai jaringan media bersama
+id	ethernet_provider	penyedia bingkai jaringan media bersama
+id	fat_parameters	parameter sistem berkas
+id	file_control	kendali berkas
+id	file_read	baca berkas
+id	file_status	status berkas
+id	file_write	tulis berkas
+id	free_memory	bebaskan memori
+id	headers	deklarasi
+id	heap	memori dinamis
+id	icmp	protokol pesan kendali jaringan saling terhubung
+id	implementation	implementasi
+id	insert_at	sisipkan pada indeks
+id	internet	jaringan saling terhubung
+id	ip_provider	penyedia protokol jaringan saling terhubung
+id	ipv4	protokol jaringan saling terhubung 4
+id	link_layout	tata letak penautan
+id	list_node	simpul daftar
+id	log_decoder	urai catatan serial
+id	mouse	perangkat penunjuk
+id	page_directory	direktori halaman
+id	page_frame	halaman fisik
+id	pointer	acuan alamat
+id	prepend	tambah di awal daftar
+id	register	register
+id	set_coordinates	atur koordinat lokal
+id	source_port	nomor porta sumber
+id	stack	memori tumpukan
+id	startup	awal
+id	structure_offsets	ofset struktur
+id	system_call	panggilan sistem
+id	tests	pengujian
+id	toggle_bit	balik bit alokasi
+id	tools	alat
+id	udp	protokol datagram pengguna
+id	udp_header	kepala datagram pengguna
+id	udp_socket	titik akhir datagram pengguna
+id	user_space	ruang pengguna
+id	widget	unsur layar
+it	allocate_memory	alloca memoria
+it	append	aggiungi in fondo alla lista
+it	bitmap	mappa di allocazione
+it	boot	avvio macchina
+it	boot_record	record principale di avvio
+it	bus	via di trasmissione condivisa
+it	compile_kernel	compila nucleo
+it	destination_port	numero della porta di destinazione
+it	elf	formato eseguibile e collegabile
+it	error_number	numero di errore
+it	ethernet_frame	trama della rete a mezzo condiviso
+it	ethernet_header	intestazione della trama di rete a mezzo condiviso
+it	ethernet_provider	fornitore di trame di rete a mezzo condiviso
+it	fat_parameters	parametri del file system
+it	file_control	controllo file
+it	file_read	leggi file
+it	file_status	stato file
+it	file_write	scrivi file
+it	free_memory	libera memoria
+it	headers	dichiarazioni
+it	heap	memoria dinamica
+it	icmp	protocollo dei messaggi di controllo della rete interconnessa
+it	implementation	implementazione
+it	insert_at	inserisci alla posizione
+it	internet	rete interconnessa
+it	ip_provider	fornitore del protocollo di rete interconnessa
+it	ipv4	protocollo di rete interconnessa 4
+it	link_layout	disposizione di collegamento
+it	list_node	nodo della lista
+it	log_decoder	decodifica registro seriale
+it	mouse	dispositivo di puntamento
+it	page_directory	indice delle pagine
+it	page_frame	pagina fisica
+it	pointer	riferimento di memoria
+it	prepend	aggiungi in testa alla lista
+it	register	registro
+it	set_coordinates	imposta le coordinate locali
+it	source_port	numero della porta sorgente
+it	stack	memoria a pila
+it	startup	avvio
+it	structure_offsets	scostamenti di struttura
+it	system_call	chiamata di sistema
+it	tests	prove
+it	toggle_bit	inverti il bit di allocazione
+it	tools	strumenti
+it	udp	protocollo dei datagrammi utente
+it	udp_header	intestazione dei datagrammi utente
+it	udp_socket	estremo di comunicazione dei datagrammi utente
+it	user_space	spazio utente
+it	widget	elemento grafico
+ja	allocate_memory	記憶領域を確保
+ja	append	末尾に追加
+ja	bitmap	割当ビット表
+ja	boot	機械起動
+ja	boot_record	主起動記録
+ja	bus	共用伝送路
+ja	compile_kernel	中核翻訳
+ja	destination_port	宛先接続番号
+ja	elf	実行連結形式
+ja	error_number	エラー番号
+ja	ethernet_frame	共有媒体網伝送枠
+ja	ethernet_header	共有媒体網伝送枠先頭部
+ja	ethernet_provider	共有媒体網伝送枠提供器
+ja	fat_parameters	ファイル体系設定値
+ja	file_control	ファイル制御
+ja	file_read	ファイルを読む
+ja	file_status	ファイル状態
+ja	file_write	ファイルに書く
+ja	free_memory	記憶領域を解放
+ja	headers	宣言集
+ja	heap	動的記憶領域
+ja	icmp	相互接続網制御電文規約
+ja	implementation	実装
+ja	insert_at	指定位置に挿入
+ja	internet	相互接続網
+ja	ip_provider	相互接続網規約提供器
+ja	ipv4	相互接続網規約4
+ja	link_layout	連結配置
+ja	list_node	連結要素
+ja	log_decoder	直列記録解析
+ja	mouse	位置入力装置
+ja	page_directory	記憶頁上位表
+ja	page_frame	物理記憶頁
+ja	pointer	番地参照
+ja	prepend	先頭に追加
+ja	register	値保持器
+ja	set_coordinates	局所座標を設定
+ja	source_port	送信元接続番号
+ja	stack	積重ね記憶領域
+ja	startup	起動
+ja	structure_offsets	構造変位
+ja	system_call	体系呼出し
+ja	tests	試験
+ja	toggle_bit	割当ビットを反転
+ja	tools	補助道具
+ja	udp	利用者資料電文規約
+ja	udp_header	利用者資料電文先頭部
+ja	udp_socket	利用者資料電文通信端点
+ja	user_space	利用者領域
+ja	widget	画面要素
+ko	allocate_memory	기억공간할당
+ko	append	맨뒤에추가
+ko	bitmap	사용표시표
+ko	boot	기계시동
+ko	boot_record	주시동기록
+ko	bus	공용전송로
+ko	compile_kernel	핵심컴파일
+ko	destination_port	목적지통신접속번호
+ko	elf	실행연결형식
+ko	error_number	오류번호
+ko	ethernet_frame	공유매체망전송틀
+ko	ethernet_header	공유매체망전송틀머리부
+ko	ethernet_provider	공유매체망전송틀제공자
+ko	fat_parameters	파일체계매개변수
+ko	file_control	파일제어
+ko	file_read	파일읽기
+ko	file_status	파일상태
+ko	file_write	파일쓰기
+ko	free_memory	기억공간해제
+ko	headers	머리파일
+ko	heap	동적기억공간
+ko	icmp	상호연결망제어전문규약
+ko	implementation	구현
+ko	insert_at	지정위치에삽입
+ko	internet	상호연결망
+ko	ip_provider	상호연결망규약제공자
+ko	ipv4	상호연결망규약4
+ko	link_layout	연결배치
+ko	list_node	연결항목
+ko	log_decoder	직렬기록해석
+ko	mouse	위치입력기
+ko	page_directory	기억쪽상위표
+ko	page_frame	물리기억쪽
+ko	pointer	주소참조
+ko	prepend	맨앞에추가
+ko	register	저장기
+ko	set_coordinates	지역좌표설정
+ko	source_port	출발지통신접속번호
+ko	stack	쌓임공간
+ko	startup	시동
+ko	structure_offsets	구조변위
+ko	system_call	체계호출
+ko	tests	시험
+ko	toggle_bit	사용표시뒤집기
+ko	tools	도구
+ko	udp	사용자자료전문규약
+ko	udp_header	사용자자료전문머리부
+ko	udp_socket	사용자자료전문종단점
+ko	user_space	사용자영역
+ko	widget	화면요소
+ms_Latn	allocate_memory	peruntukkan ingatan
+ms_Latn	append	tambah di hujung senarai
+ms_Latn	bitmap	peta peruntukan
+ms_Latn	boot	permulaan mesin
+ms_Latn	boot_record	rekod but utama
+ms_Latn	bus	laluan penghantaran bersama
+ms_Latn	compile_kernel	kompilasi teras
+ms_Latn	destination_port	nombor port destinasi
+ms_Latn	elf	format pelaksanaan dan pemautan
+ms_Latn	error_number	nombor ralat
+ms_Latn	ethernet_frame	bingkai rangkaian medium bersama
+ms_Latn	ethernet_header	pengepala bingkai rangkaian medium bersama
+ms_Latn	ethernet_provider	pembekal bingkai rangkaian medium bersama
+ms_Latn	fat_parameters	parameter sistem fail
+ms_Latn	file_control	kawalan fail
+ms_Latn	file_read	baca fail
+ms_Latn	file_status	status fail
+ms_Latn	file_write	tulis fail
+ms_Latn	free_memory	bebaskan ingatan
+ms_Latn	headers	pengisytiharan
+ms_Latn	heap	ingatan dinamik
+ms_Latn	icmp	protokol mesej kawalan rangkaian saling terhubung
+ms_Latn	implementation	pelaksanaan
+ms_Latn	insert_at	sisip pada indeks
+ms_Latn	internet	rangkaian saling terhubung
+ms_Latn	ip_provider	pembekal protokol rangkaian saling terhubung
+ms_Latn	ipv4	protokol rangkaian saling terhubung 4
+ms_Latn	link_layout	susun atur pautan
+ms_Latn	list_node	nod senarai
+ms_Latn	log_decoder	hurai log bersiri
+ms_Latn	mouse	peranti penuding
+ms_Latn	page_directory	direktori halaman
+ms_Latn	page_frame	halaman fizikal
+ms_Latn	pointer	rujukan alamat
+ms_Latn	prepend	tambah di awal senarai
+ms_Latn	register	daftar
+ms_Latn	set_coordinates	tetapkan koordinat setempat
+ms_Latn	source_port	nombor port sumber
+ms_Latn	stack	ingatan tindanan
+ms_Latn	startup	permulaan
+ms_Latn	structure_offsets	anjakan struktur
+ms_Latn	system_call	panggilan sistem
+ms_Latn	tests	ujian
+ms_Latn	toggle_bit	songsangkan bit peruntukan
+ms_Latn	tools	alat
+ms_Latn	udp	protokol datagram pengguna
+ms_Latn	udp_header	pengepala datagram pengguna
+ms_Latn	udp_socket	titik akhir datagram pengguna
+ms_Latn	user_space	ruang pengguna
+ms_Latn	widget	unsur skrin
+nl	allocate_memory	geheugen toewijzen
+nl	append	achteraan toevoegen
+nl	bitmap	toewijzingskaart
+nl	boot	machineopstart
+nl	boot_record	hoofdopstartrecord
+nl	bus	gedeelde overdrachtsweg
+nl	compile_kernel	kern compileren
+nl	destination_port	doelpoortnummer
+nl	elf	uitvoerbaar en koppelbaar formaat
+nl	error_number	foutnummer
+nl	ethernet_frame	frame van het gedeelde medium netwerk
+nl	ethernet_header	framekop van het gedeelde medium netwerk
+nl	ethernet_provider	frameleverancier van het gedeelde medium netwerk
+nl	fat_parameters	bestandssysteemparameters
+nl	file_control	bestandsbesturing
+nl	file_read	bestand lezen
+nl	file_status	bestandsstatus
+nl	file_write	bestand schrijven
+nl	free_memory	geheugen vrijgeven
+nl	headers	declaraties
+nl	heap	dynamisch geheugen
+nl	icmp	besturingsberichtprotocol voor verbonden netwerken
+nl	implementation	implementatie
+nl	insert_at	op positie invoegen
+nl	internet	verbonden netwerk
+nl	ip_provider	protocolleverancier voor verbonden netwerken
+nl	ipv4	protocol voor verbonden netwerken 4
+nl	link_layout	koppelindeling
+nl	list_node	lijstknooppunt
+nl	log_decoder	serieel logboek ontleden
+nl	mouse	aanwijsapparaat
+nl	page_directory	paginamap
+nl	page_frame	fysieke pagina
+nl	pointer	adresverwijzing
+nl	prepend	vooraan toevoegen
+nl	register	register
+nl	set_coordinates	lokale coördinaten instellen
+nl	source_port	bronpoortnummer
+nl	stack	stapelgeheugen
+nl	startup	opstart
+nl	structure_offsets	structuurverplaatsingen
+nl	system_call	systeemaanroep
+nl	tests	tests
+nl	toggle_bit	toewijzingsbit omkeren
+nl	tools	hulpmiddelen
+nl	udp	gebruikersdatagramprotocol
+nl	udp_header	gebruikersdatagramkop
+nl	udp_socket	gebruikersdatagrameindpunt
+nl	user_space	gebruikersruimte
+nl	widget	schermelement
+pl	allocate_memory	przydziel pamięć
+pl	append	dodaj na końcu listy
+pl	bitmap	mapa zajętości
+pl	boot	rozruch maszyny
+pl	boot_record	główny rekord rozruchowy
+pl	bus	wspólna magistrala transmisji
+pl	compile_kernel	kompiluj jądro
+pl	destination_port	numer portu docelowego
+pl	elf	format wykonywalny i konsolidowalny
+pl	error_number	numer błędu
+pl	ethernet_frame	ramka sieci o wspólnym medium
+pl	ethernet_header	nagłówek ramki sieci o wspólnym medium
+pl	ethernet_provider	dostawca ramek sieci o wspólnym medium
+pl	fat_parameters	parametry systemu plików
+pl	file_control	sterowanie plikiem
+pl	file_read	odczytaj plik
+pl	file_status	stan pliku
+pl	file_write	zapisz plik
+pl	free_memory	zwolnij pamięć
+pl	headers	deklaracje
+pl	heap	pamięć dynamiczna
+pl	icmp	protokół komunikatów sterujących połączonych sieci
+pl	implementation	implementacja
+pl	insert_at	wstaw pod indeksem
+pl	internet	sieć połączonych sieci
+pl	ip_provider	dostawca protokołu połączonych sieci
+pl	ipv4	protokół połączonych sieci 4
+pl	link_layout	układ konsolidacji
+pl	list_node	węzeł listy
+pl	log_decoder	odczytaj dziennik szeregowy
+pl	mouse	urządzenie wskazujące
+pl	page_directory	katalog stron
+pl	page_frame	strona fizyczna
+pl	pointer	odwołanie do adresu
+pl	prepend	dodaj na początku listy
+pl	register	rejestr
+pl	set_coordinates	ustaw współrzędne lokalne
+pl	source_port	numer portu źródłowego
+pl	stack	pamięć stosu
+pl	startup	rozruch
+pl	structure_offsets	przesunięcia struktury
+pl	system_call	wywołanie systemowe
+pl	tests	testy
+pl	toggle_bit	odwróć bit zajętości
+pl	tools	narzędzia
+pl	udp	protokół datagramów użytkownika
+pl	udp_header	nagłówek datagramu użytkownika
+pl	udp_socket	punkt końcowy datagramów użytkownika
+pl	user_space	przestrzeń użytkownika
+pl	widget	element ekranu
+pt	allocate_memory	alocar memória
+pt	append	adicionar ao fim da lista
+pt	bitmap	mapa de alocação
+pt	boot	arranque da máquina
+pt	boot_record	registo principal de arranque
+pt	bus	via de transmissão partilhada
+pt	compile_kernel	compilar núcleo
+pt	destination_port	número da porta de destino
+pt	elf	formato executável e ligável
+pt	error_number	número de erro
+pt	ethernet_frame	quadro da rede de meio partilhado
+pt	ethernet_header	cabeçalho de quadro de rede de meio partilhado
+pt	ethernet_provider	fornecedor de quadros de rede de meio partilhado
+pt	fat_parameters	parâmetros do sistema de ficheiros
+pt	file_control	controlo de ficheiro
+pt	file_read	ler ficheiro
+pt	file_status	estado de ficheiro
+pt	file_write	escrever ficheiro
+pt	free_memory	libertar memória
+pt	headers	declarações
+pt	heap	memória dinâmica
+pt	icmp	protocolo de mensagens de controlo de rede interligada
+pt	implementation	implementação
+pt	insert_at	inserir na posição
+pt	internet	rede interligada
+pt	ip_provider	fornecedor do protocolo de rede interligada
+pt	ipv4	protocolo de rede interligada 4
+pt	link_layout	disposição de ligação
+pt	list_node	nó da lista
+pt	log_decoder	interpretar registo série
+pt	mouse	dispositivo apontador
+pt	page_directory	diretório de páginas
+pt	page_frame	página física
+pt	pointer	referência de memória
+pt	prepend	adicionar ao início da lista
+pt	register	registo
+pt	set_coordinates	definir coordenadas locais
+pt	source_port	número da porta de origem
+pt	stack	memória de pilha
+pt	startup	arranque
+pt	structure_offsets	deslocamentos de estrutura
+pt	system_call	chamada ao sistema
+pt	tests	testes
+pt	toggle_bit	inverter o bit de alocação
+pt	tools	ferramentas
+pt	udp	protocolo de datagramas do utilizador
+pt	udp_header	cabeçalho de datagramas do utilizador
+pt	udp_socket	extremo de comunicação de datagramas do utilizador
+pt	user_space	espaço do utilizador
+pt	widget	elemento de ecrã
+ru	allocate_memory	выделить память
+ru	append	добавить в конец списка
+ru	bitmap	карта занятости
+ru	boot	запуск машины
+ru	boot_record	главная загрузочная запись
+ru	bus	общая шина передачи
+ru	compile_kernel	собрать ядро
+ru	destination_port	номер порта получателя
+ru	elf	исполняемый и компонуемый формат
+ru	error_number	номер ошибки
+ru	ethernet_frame	кадр сети с общей средой
+ru	ethernet_header	заголовок кадра сети с общей средой
+ru	ethernet_provider	поставщик кадров сети с общей средой
+ru	fat_parameters	параметры файловой системы
+ru	file_control	управление файлом
+ru	file_read	прочитать файл
+ru	file_status	состояние файла
+ru	file_write	записать файл
+ru	free_memory	освободить память
+ru	headers	объявления
+ru	heap	динамическая память
+ru	icmp	протокол управляющих сообщений объединённой сети
+ru	implementation	реализация
+ru	insert_at	вставить по индексу
+ru	internet	объединённая сеть
+ru	ip_provider	поставщик протокола объединённой сети
+ru	ipv4	протокол объединённой сети 4
+ru	link_layout	схема компоновки
+ru	list_node	узел списка
+ru	log_decoder	разобрать последовательный журнал
+ru	mouse	устройство указания
+ru	page_directory	каталог страниц
+ru	page_frame	физическая страница
+ru	pointer	ссылка на адрес
+ru	prepend	добавить в начало списка
+ru	register	регистр
+ru	set_coordinates	задать локальные координаты
+ru	source_port	номер порта отправителя
+ru	stack	стековая память
+ru	startup	запуск
+ru	structure_offsets	смещения структуры
+ru	system_call	системный вызов
+ru	tests	испытания
+ru	toggle_bit	инвертировать бит занятости
+ru	tools	инструменты
+ru	udp	протокол пользовательских датаграмм
+ru	udp_header	заголовок пользовательской датаграммы
+ru	udp_socket	конечная точка пользовательских датаграмм
+ru	user_space	пространство пользователя
+ru	widget	элемент экрана
+sv	allocate_memory	tilldela minne
+sv	append	lägg till sist i listan
+sv	bitmap	tilldelningskarta
+sv	boot	maskinstart
+sv	boot_record	huvudstartpost
+sv	bus	gemensam överföringsväg
+sv	compile_kernel	kompilera kärnan
+sv	destination_port	målportnummer
+sv	elf	körbart och länkbart format
+sv	error_number	felnummer
+sv	ethernet_frame	ram i nät med delat medium
+sv	ethernet_header	ramhuvud för nät med delat medium
+sv	ethernet_provider	ramleverantör för nät med delat medium
+sv	fat_parameters	filsystemsparametrar
+sv	file_control	filstyrning
+sv	file_read	läs fil
+sv	file_status	filstatus
+sv	file_write	skriv fil
+sv	free_memory	frigör minne
+sv	headers	deklarationer
+sv	heap	dynamiskt minne
+sv	icmp	styrmeddelandeprotokoll för sammankopplade nät
+sv	implementation	implementation
+sv	insert_at	infoga vid index
+sv	internet	sammankopplat nät
+sv	ip_provider	protokolleverantör för sammankopplade nät
+sv	ipv4	protokoll för sammankopplade nät 4
+sv	link_layout	länkningslayout
+sv	list_node	listnod
+sv	log_decoder	tolka seriell logg
+sv	mouse	pekdon
+sv	page_directory	sidkatalog
+sv	page_frame	fysisk sida
+sv	pointer	adressreferens
+sv	prepend	lägg till först i listan
+sv	register	register
+sv	set_coordinates	ange lokala koordinater
+sv	source_port	källportnummer
+sv	stack	stackminne
+sv	startup	start
+sv	structure_offsets	strukturförskjutningar
+sv	system_call	systemanrop
+sv	tests	tester
+sv	toggle_bit	invertera tilldelningsbit
+sv	tools	verktyg
+sv	udp	användardatagramprotokoll
+sv	udp_header	huvud för användardatagram
+sv	udp_socket	slutpunkt för användardatagram
+sv	user_space	användarutrymme
+sv	widget	skärmelement
+tr	allocate_memory	bellek ayır
+tr	append	listenin sonuna ekle
+tr	bitmap	ayırma bit eşlemi
+tr	boot	makine başlatma
+tr	boot_record	ana önyükleme kaydı
+tr	bus	ortak aktarım yolu
+tr	compile_kernel	çekirdek derle
+tr	destination_port	hedef kapı numarası
+tr	elf	çalıştırılabilir ve bağlanabilir biçim
+tr	error_number	hata numarası
+tr	ethernet_frame	ortak ortam ağ çerçevesi
+tr	ethernet_header	ortak ortam ağ çerçevesi başlığı
+tr	ethernet_provider	ortak ortam ağ çerçevesi sağlayıcısı
+tr	fat_parameters	dosya sistemi parametreleri
+tr	file_control	dosya denetimi
+tr	file_read	dosya oku
+tr	file_status	dosya durumu
+tr	file_write	dosya yaz
+tr	free_memory	belleği serbest bırak
+tr	headers	bildirimler
+tr	heap	dinamik bellek
+tr	icmp	ağlar arası ağ denetim iletisi protokolü
+tr	implementation	gerçekleme
+tr	insert_at	dizine göre araya ekle
+tr	internet	ağlar arası ağ
+tr	ip_provider	ağlar arası ağ protokolü sağlayıcısı
+tr	ipv4	ağlar arası ağ protokolü 4
+tr	link_layout	bağlama düzeni
+tr	list_node	liste düğümü
+tr	log_decoder	seri kaydı çözümle
+tr	mouse	işaretleme aygıtı
+tr	page_directory	sayfa dizini
+tr	page_frame	fiziksel sayfa
+tr	pointer	adres başvurusu
+tr	prepend	listenin başına ekle
+tr	register	yazmaç
+tr	set_coordinates	yerel koordinatları ayarla
+tr	source_port	kaynak kapı numarası
+tr	stack	yığın belleği
+tr	startup	başlatma
+tr	structure_offsets	yapı uzaklıkları
+tr	system_call	sistem çağrısı
+tr	tests	sınamalar
+tr	toggle_bit	ayırma bitini tersle
+tr	tools	araçlar
+tr	udp	kullanıcı veri birimi protokolü
+tr	udp_header	kullanıcı veri birimi başlığı
+tr	udp_socket	kullanıcı veri birimi iletişim uç noktası
+tr	user_space	kullanıcı alanı
+tr	widget	ekran öğesi
+uk	allocate_memory	виділити памʼять
+uk	append	додати в кінець списку
+uk	bitmap	карта зайнятості
+uk	boot	запуск машини
+uk	boot_record	головний завантажувальний запис
+uk	bus	спільна шина передавання
+uk	compile_kernel	зібрати ядро
+uk	destination_port	номер порту одержувача
+uk	elf	виконуваний і компонований формат
+uk	error_number	номер помилки
+uk	ethernet_frame	кадр мережі зі спільним середовищем
+uk	ethernet_header	заголовок кадру мережі зі спільним середовищем
+uk	ethernet_provider	постачальник кадрів мережі зі спільним середовищем
+uk	fat_parameters	параметри файлової системи
+uk	file_control	керування файлом
+uk	file_read	прочитати файл
+uk	file_status	стан файла
+uk	file_write	записати файл
+uk	free_memory	звільнити памʼять
+uk	headers	оголошення
+uk	heap	динамічна памʼять
+uk	icmp	протокол керувальних повідомлень обʼєднаної мережі
+uk	implementation	реалізація
+uk	insert_at	вставити за індексом
+uk	internet	обʼєднана мережа
+uk	ip_provider	постачальник протоколу обʼєднаної мережі
+uk	ipv4	протокол обʼєднаної мережі 4
+uk	link_layout	схема компонування
+uk	list_node	вузол списку
+uk	log_decoder	розібрати послідовний журнал
+uk	mouse	вказівний пристрій
+uk	page_directory	каталог сторінок
+uk	page_frame	фізична сторінка
+uk	pointer	посилання на адресу
+uk	prepend	додати на початок списку
+uk	register	регістр
+uk	set_coordinates	задати локальні координати
+uk	source_port	номер порту відправника
+uk	stack	стекова памʼять
+uk	startup	запуск
+uk	structure_offsets	зсуви структури
+uk	system_call	системний виклик
+uk	tests	випробування
+uk	toggle_bit	інвертувати біт зайнятості
+uk	tools	інструменти
+uk	udp	протокол користувацьких датаграм
+uk	udp_header	заголовок користувацької датаграми
+uk	udp_socket	кінцева точка користувацьких датаграм
+uk	user_space	простір користувача
+uk	widget	елемент екрана
+vi	allocate_memory	cấp phát bộ nhớ
+vi	append	thêm vào cuối danh sách
+vi	bitmap	bản đồ cấp phát
+vi	boot	khởi động máy
+vi	boot_record	bản ghi khởi động chính
+vi	bus	đường truyền dùng chung
+vi	compile_kernel	biên dịch nhân
+vi	destination_port	số cổng đích
+vi	elf	định dạng thực thi và liên kết
+vi	error_number	mã lỗi
+vi	ethernet_frame	khung mạng dùng chung môi trường truyền
+vi	ethernet_header	đầu khung mạng dùng chung môi trường truyền
+vi	ethernet_provider	bộ cung cấp khung mạng dùng chung môi trường truyền
+vi	fat_parameters	tham số hệ thống tệp
+vi	file_control	điều khiển tệp
+vi	file_read	đọc tệp
+vi	file_status	trạng thái tệp
+vi	file_write	ghi tệp
+vi	free_memory	giải phóng bộ nhớ
+vi	headers	khai báo
+vi	heap	bộ nhớ động
+vi	icmp	giao thức thông điệp điều khiển mạng liên kết
+vi	implementation	triển khai
+vi	insert_at	chèn tại chỉ số
+vi	internet	mạng liên kết
+vi	ip_provider	bộ cung cấp giao thức mạng liên kết
+vi	ipv4	giao thức mạng liên kết 4
+vi	link_layout	bố trí liên kết
+vi	list_node	nút danh sách
+vi	log_decoder	giải mã nhật ký nối tiếp
+vi	mouse	thiết bị trỏ
+vi	page_directory	thư mục trang
+vi	page_frame	trang vật lý
+vi	pointer	tham chiếu địa chỉ
+vi	prepend	thêm vào đầu danh sách
+vi	register	thanh ghi
+vi	set_coordinates	đặt tọa độ cục bộ
+vi	source_port	số cổng nguồn
+vi	stack	bộ nhớ ngăn xếp
+vi	startup	khởi động
+vi	structure_offsets	độ lệch cấu trúc
+vi	system_call	lời gọi hệ thống
+vi	tests	kiểm thử
+vi	toggle_bit	đảo bit cấp phát
+vi	tools	công cụ
+vi	udp	giao thức gói tin người dùng
+vi	udp_header	đầu gói tin người dùng
+vi	udp_socket	điểm cuối gói tin người dùng
+vi	user_space	không gian người dùng
+vi	widget	thành phần màn hình
+zh_Hans	allocate_memory	分配内存
+zh_Hans	append	追加到表尾
+zh_Hans	bitmap	分配位图
+zh_Hans	boot	机器启动
+zh_Hans	boot_record	主引导记录
+zh_Hans	bus	共享传输总线
+zh_Hans	compile_kernel	编译内核
+zh_Hans	destination_port	目标端口号
+zh_Hans	elf	可执行与可链接格式
+zh_Hans	error_number	错误编号
+zh_Hans	ethernet_frame	共享介质网络帧
+zh_Hans	ethernet_header	共享介质网络帧头
+zh_Hans	ethernet_provider	共享介质网络帧提供器
+zh_Hans	fat_parameters	文件系统参数
+zh_Hans	file_control	文件控制
+zh_Hans	file_read	读取文件
+zh_Hans	file_status	文件状态
+zh_Hans	file_write	写入文件
+zh_Hans	free_memory	释放内存
+zh_Hans	headers	头文件
+zh_Hans	heap	动态存储区
+zh_Hans	icmp	互联网络控制报文协议
+zh_Hans	implementation	实现
+zh_Hans	insert_at	在指定位置插入
+zh_Hans	internet	互联网络
+zh_Hans	ip_provider	互联网络协议提供器
+zh_Hans	ipv4	互联网络协议4
+zh_Hans	link_layout	链接布局
+zh_Hans	list_node	链表节点
+zh_Hans	log_decoder	解析串行日志
+zh_Hans	mouse	指向设备
+zh_Hans	page_directory	页目录
+zh_Hans	page_frame	物理页
+zh_Hans	pointer	地址引用
+zh_Hans	prepend	添加到表头
+zh_Hans	register	寄存器
+zh_Hans	set_coordinates	设置局部坐标
+zh_Hans	source_port	源端口号
+zh_Hans	stack	栈存储区
+zh_Hans	startup	启动
+zh_Hans	structure_offsets	结构偏移
+zh_Hans	system_call	系统调用
+zh_Hans	tests	测试
+zh_Hans	toggle_bit	反转分配位
+zh_Hans	tools	工具
+zh_Hans	udp	用户数据报协议
+zh_Hans	udp_header	用户数据报头
+zh_Hans	udp_socket	用户数据报通信端点
+zh_Hans	user_space	用户空间
+zh_Hans	widget	界面元素
+zh_Hant	allocate_memory	配置記憶體
+zh_Hant	append	附加至串列尾端
+zh_Hant	bitmap	配置位元圖
+zh_Hant	boot	機器啟動
+zh_Hant	boot_record	主開機紀錄
+zh_Hant	bus	共用傳輸匯流排
+zh_Hant	compile_kernel	編譯核心
+zh_Hant	destination_port	目的通訊埠號
+zh_Hant	elf	可執行與可連結格式
+zh_Hant	error_number	錯誤編號
+zh_Hant	ethernet_frame	共享媒介網路框
+zh_Hant	ethernet_header	共享媒介網路框標頭
+zh_Hant	ethernet_provider	共享媒介網路框提供器
+zh_Hant	fat_parameters	檔案系統參數
+zh_Hant	file_control	檔案控制
+zh_Hant	file_read	讀取檔案
+zh_Hant	file_status	檔案狀態
+zh_Hant	file_write	寫入檔案
+zh_Hant	free_memory	釋放記憶體
+zh_Hant	headers	標頭檔
+zh_Hant	heap	動態記憶區
+zh_Hant	icmp	互聯網路控制訊息協定
+zh_Hant	implementation	實作
+zh_Hant	insert_at	在指定位置插入
+zh_Hant	internet	互聯網路
+zh_Hant	ip_provider	互聯網路協定提供器
+zh_Hant	ipv4	互聯網路協定4
+zh_Hant	link_layout	連結配置
+zh_Hant	list_node	鏈結串列節點
+zh_Hant	log_decoder	解析序列紀錄
+zh_Hant	mouse	指向裝置
+zh_Hant	page_directory	頁目錄
+zh_Hant	page_frame	實體頁
+zh_Hant	pointer	位址參照
+zh_Hant	prepend	加入至串列開頭
+zh_Hant	register	暫存器
+zh_Hant	set_coordinates	設定局部座標
+zh_Hant	source_port	來源通訊埠號
+zh_Hant	stack	堆疊記憶區
+zh_Hant	startup	啟動
+zh_Hant	structure_offsets	結構位移
+zh_Hant	system_call	系統呼叫
+zh_Hant	tests	測試
+zh_Hant	toggle_bit	反轉配置位元
+zh_Hant	tools	工具
+zh_Hant	udp	使用者資料報協定
+zh_Hant	udp_header	使用者資料報標頭
+zh_Hant	udp_socket	使用者資料報通訊端點
+zh_Hant	user_space	使用者空間
+zh_Hant	widget	介面元素

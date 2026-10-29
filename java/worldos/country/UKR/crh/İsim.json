@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Amel",
+    "identifier": "Amel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "SINIF",
+    "identifier": "SINIF",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/libwnck.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "_Qapat",
+    "identifier": "Qapat",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Komut",
+    "identifier": "Komut",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Bağlan",
+    "identifier": "Bağlan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "cilbent",
+    "identifier": "cilbent",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/pluma.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "Hata",
+    "identifier": "Hata",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "İcra et",
+    "identifier": "İcra_et",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/kparts5.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "_Dosya",
+    "identifier": "Dosya",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Etiket",
+    "identifier": "Etiket",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Yük",
+    "identifier": "Yük",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Tarz",
+    "identifier": "Tarz",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "İsim",
+    "identifier": "İsim",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/alacarte.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Aç",
+    "identifier": "Aç",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "output",
+    "identifier": "output",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "Yolçıq",
+    "identifier": "Yolçıq",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "Kapı",
+    "identifier": "Kapı",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "position",
+    "identifier": "position",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "process",
+    "identifier": "process",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Okuma",
+    "identifier": "Okuma",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Çetlet",
+    "identifier": "Çetlet",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Çaptır",
+    "identifier": "Çaptır",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Saqla",
+    "identifier": "Saqla",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "_Tesbitler",
+    "identifier": "Tesbitler",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Boyut",
+    "identifier": "Boyut",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "Kaynak",
+    "identifier": "Kaynak",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Toqtat",
+    "identifier": "Toqtat",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminal",
+    "identifier": "terminal",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Metin",
+    "identifier": "Metin",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Alet çubuğı",
+    "identifier": "Alet_çubuğı",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Yazma",
+    "identifier": "Yazma",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/crh/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

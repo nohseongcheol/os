@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Åtgärd",
+    "identifier": "Åtgärd",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "Adress",
+    "identifier": "Adress",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/virt-manager.mo",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "systemanrop",
+    "identifier": "systemanrop",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "lägg till sist i listan",
+    "identifier": "lägg_till_sist_i_listan",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "argument",
+    "identifier": "argument",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "knapp",
+    "identifier": "knapp",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "välj...",
+    "identifier": "välj",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Klass",
+    "identifier": "Klass",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Stäng",
+    "identifier": "Stäng",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "kommando",
+    "identifier": "kommando",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "Anslut",
+    "identifier": "Anslut",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "aktuell position",
+    "identifier": "aktuell_position",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "sökväg",
+    "identifier": "sökväg",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "fel",
+    "identifier": "fel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Händelse",
+    "identifier": "Händelse",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Starta",
+    "identifier": "Starta",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "filnamn",
+    "identifier": "filnamn",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Nyckel",
+    "identifier": "Nyckel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Etikett",
+    "identifier": "Etikett",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "inmatningsrad",
+    "identifier": "inmatningsrad",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Belastning",
+    "identifier": "Belastning",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Läge",
+    "identifier": "Läge",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Namn",
+    "identifier": "Namn",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Öppna",
+    "identifier": "Öppna",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "utmatningsposition",
+    "identifier": "utmatningsposition",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "sökväg",
+    "identifier": "sökväg_2",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "position",
+    "identifier": "position",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "process",
+    "identifier": "process",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Läs",
+    "identifier": "Läs",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Ta bort",
+    "identifier": "Ta_bort",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "RESULTAT",
+    "identifier": "RESULTAT",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Kör",
+    "identifier": "Kör",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Spara",
+    "identifier": "Spara",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Inställningar",
+    "identifier": "Inställningar",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Storlek",
+    "identifier": "Storlek",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "källfil",
+    "identifier": "källfil",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Stopp",
+    "identifier": "Stopp",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "kommandotolk",
+    "identifier": "kommandotolk",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "text",
+    "identifier": "text",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Verktygsrad",
+    "identifier": "Verktygsrad",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Fönster",
+    "identifier": "Fönster",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Skriv",
+    "identifier": "Skriv",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sv/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

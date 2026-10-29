@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	めいれいかいしゃくきをくみたてる
+executable_file	じっこうぶんしょ
+include_directory	せんげんしゅうのばしょ
+library_file	かんすうしゅうぶんしょ
+linker_file	れんけつはいちぶんしょ
+object_file	きかいごぶんしょ
+source_file	げんぶんしょ
+startup_object	きどうきかいご

@@ -1,0 +1,7 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/fd/fd73d2f71f9dd87cb3bee9ead47a9c044f01dbdae6060c19c378e9f6d302b602-d
+packagefile gdt=/home/user/.cache/go-build/58/58ca9be4d2a930e7d3cd66e3a625cde0dcff9709bf1152c48bc9a5fe581f2c07-d
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/HND/소스/build/b026/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/a9/a9a325c3ba97f54fca3bfa6ab9ee5a442479ff23f2a391a28174f78966b72cc3-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime/cgo=/home/user/worldos/나라/HND/소스/build/b000/_pkg_.a

@@ -1,0 +1,63 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+/** 첫 IDE 장치의 512바이트 논리 구역. 이 계층은 포맷을 만들거나 임의 장치를 지우지 않는다. */
+public final class 저장장치접속 {
+    static boolean 사용가능 = false;
+    static int[] 구역자료 = new int[512];
+    static void 잠깐기다리기() {
+        for (int 번호 = 0; 번호 < 4; 번호++) 장치.입출력바이트읽기(0x3f6);
+    }
+    static int 준비기다리기(boolean 자료필요) {
+        int Enonder_2 = 장치.밀리초();
+        while (장치.밀리초() - Enonder_2 < 500) {
+            int 상태 = 장치.입출력바이트읽기(0x1f7);
+            if (상태 == 0 || 상태 == 255) return -19;
+            if ((상태 & 128) == 0) {
+                if ((상태 & 33) != 0) return -5;
+                if (!자료필요 || (상태 & 8) != 0) return 0;
+            }
+            장치.잠시양보();
+        }
+        return -110;
+    }
+    static int 요청(int 구역, int Comande) {
+        if (구역 < 0 || 구역 >= 2048) return -22;
+        장치.입출력바이트쓰기(0x3f6, 2); // polling; IDE IRQ 사용 안 함
+        장치.입출력바이트쓰기(0x1f6, 0xe0); 잠깐기다리기();
+        int 결과 = 준비기다리기(false);
+        if (결과 < 0) return 결과;
+        장치.입출력바이트쓰기(0x1f2, 1);
+        장치.입출력바이트쓰기(0x1f3, 구역 & 255);
+        장치.입출력바이트쓰기(0x1f4, (구역 >>> 8) & 255);
+        장치.입출력바이트쓰기(0x1f5, 0);
+        장치.입출력바이트쓰기(0x1f7, Comande); 잠깐기다리기();
+        return 준비기다리기(true);
+    }
+    static int Lére(int 구역) {
+        int 결과 = 요청(구역, 0x20);
+        if (결과 < 0) return 결과;
+        for (int 번호 = 0; 번호 < 256; 번호++) {
+            int 값 = 장치.입출력짧은수읽기(0x1f0);
+            구역자료[번호 * 2] = 값 & 255; 구역자료[번호 * 2 + 1] = 값 >>> 8;
+        }
+        잠깐기다리기(); return 준비기다리기(false);
+    }
+    static int Sicrire(int 구역) {
+        if (!사용가능 || 구역 < 1 || 구역 > 518) return -19;
+        int 결과 = 요청(구역, 0x30);
+        if (결과 < 0) return 결과;
+        for (int 번호 = 0; 번호 < 256; 번호++)
+            장치.입출력짧은수쓰기(0x1f0, 구역자료[번호 * 2] | 구역자료[번호 * 2 + 1] << 8);
+        잠깐기다리기(); return 준비기다리기(false);
+    }
+    static int 밀어쓰기() {
+        if (!사용가능) return -19;
+        장치.입출력바이트쓰기(0x1f7, 0xe7); 잠깐기다리기();
+        return 준비기다리기(false);
+    }
+    static int 정수읽기(int 위치) {
+        return 구역자료[위치] | 구역자료[위치 + 1] << 8 | 구역자료[위치 + 2] << 16 | 구역자료[위치 + 3] << 24;
+    }
+    static void 정수쓰기(int 위치, int 값) {
+        for (int 번호 = 0; 번호 < 4; 번호++) 구역자료[위치 + 번호] = (값 >>> (번호 * 8)) & 255;
+    }
+}

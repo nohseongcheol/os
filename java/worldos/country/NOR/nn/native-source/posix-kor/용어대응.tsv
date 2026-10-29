@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	opne_fil	FUNCTION_VALUE	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	Opprett_fil	FUNCTION_VALUE	Skriv 전용 generere 또는 Innhald_VALUE fjerne_Innhald	파일규약.h
+read	파일자료읽기	FUNCTION_VALUE	열린 대상에서 byte_VALUE 자료를 읽는다	파일규약.h
+write	skrive_fil_data	FUNCTION_VALUE	열린 대상에 byte_VALUE 자료를 쓴다	파일규약.h
+close	Lukk_fil	FUNCTION_VALUE	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	søk_fil	FUNCTION_VALUE	열린 파일의 I_U 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	FUNCTION_VALUE	같은 열린 Fil 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	FUNCTION_VALUE	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	fjerne_fil_oppføring_namn	FUNCTION_VALUE	Namn 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	sett_fil_lengd	FUNCTION_VALUE	열린 파일의 byte_VALUE 길이를 정한다	파일규약.h
+fstat	파일상태읽기	FUNCTION_VALUE	열린 대상의 종류 Storleik 링크 수 등을 읽는다	파일규약.h
+fsync	파일저장확정	FUNCTION_VALUE	Store_VALUE 매체에 betalt_vare Fil 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	FUNCTION_VALUE	서술자별 설정과 공유 Opna 설정을 다룬다	파일규약.h
+socket	Opprett_endepunkt	FUNCTION_VALUE	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_ADDRESS	FUNCTION_VALUE	종단점에 lokal_område 주소와 접속번호를 묶는다	통신규약.h
+sendto	자료전문보내기	FUNCTION_VALUE	지정한 상대에게 전문 하나를 보낸다	통신규약.h
+recvfrom	자료전문받기	FUNCTION_VALUE	전문 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	FUNCTION_VALUE	lokal_område 종단점의 betalt_vare 주소를 읽는다	통신규약.h
+setsockopt	endre_Nettverk_Innstillingar	FUNCTION_VALUE	지원하는 수신 vent_VALUE 설정을 바꾼다	통신규약.h
+inet_pton	dele_opp_Nettverk_ADDRESS	FUNCTION_VALUE	siffer_VALUE ADDRESS 문자열을 sak_VALUE 바이트로 해석한다	통신규약.h
+inet_ntop	format_Nettverk_ADDRESS	FUNCTION_VALUE	sak_VALUE 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	FUNCTION_VALUE	16비트 값을 망의 byte_VALUE 차례로 바꾼다	통신규약.h
+htonl	Nettverk_heiltal	FUNCTION_VALUE	32비트 값을 망의 byte_VALUE 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	FUNCTION_VALUE	16비트 값을 Utfør_kommando 장치의 byte_VALUE 차례로 바꾼다	통신규약.h
+ntohl	mobil_rekkjefølgje_heiltal	FUNCTION_VALUE	32비트 값을 Utfør_kommando 장치의 byte_VALUE 차례로 바꾼다	통신규약.h
+errno	feilnummer	variabel_VALUE	실패한 C 호출의 양수 FEIL INDEX	errno.h
+fd	파일서술자	variabel_VALUE	Prosess_VALUE 안의 열린 대상을 식별하는 heiltal	fil_I_U.c
+count	byte_COUNT	variabel_VALUE	data 전송량의 단위가 바이트임을 드러낸다	fil_I_U.c
+offset	OFFSET_VALUE	variabel_VALUE	spegle_rot 위치에 더할 koding_VALUE 있는 거리	fil_I_U.c
+flags	opne_Innstillingar	variabel_VALUE	Fil tilgang_oppføring 방식과 Opna Handling	fil_I_U.c
+mode	허가	variabel_VALUE	generere 파일에 기록할 허가 bit_VALUE	fil_I_U.c
+timeout	수신대기밀리초	variabel_VALUE	수신 vent_VALUE 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	variabel_VALUE	UDP 종단점에 배정한 번호들	Nettverk_Stabel.java
+통신장치.포트	Nettverk_drivar.입출력기준주소	variabel_VALUE	NIC의 CPU I_U ADDRESS 공간 spegle_rot	Nettverk_drivar.java
+generation	세대번호	variabel_VALUE	성공한 Store_VALUE 시점의 rekkjefølgje_VALUE	파일보존.java
+포트읽기	입출력바이트읽기	FUNCTION_VALUE	CPU I_U 주소에서 한 바이트를 읽는다	mobil_VALUE.java
+포트쓰기	입출력바이트쓰기	FUNCTION_VALUE	CPU I_U 주소에 한 바이트를 쓴다	mobil_VALUE.java
+포트정수읽기	입출력정수읽기	FUNCTION_VALUE	CPU I_U 주소에서 32비트를 읽는다	mobil_VALUE.java
+포트정수쓰기	입출력정수쓰기	FUNCTION_VALUE	CPU I_U 주소에 32비트를 쓴다	mobil_VALUE.java
+포트짧은쓰기	입출력짧은수쓰기	FUNCTION_VALUE	CPU I_U 주소에 16비트를 쓴다	mobil_VALUE.java
+메모리파일.java	Minne_filsystem.java	Fil·format_VALUE	주기억 내 Fil 자료와 이름을 관리한다	os/KJELDE
+통신장치.java	Nettverk_drivar.java	Fil·format_VALUE	PCI 망장치를 찾아 초기화하고 송수신한다	os/KJELDE
+file I/O	fil_I_U.c	Fil	C 호출과 kjerne_VALUE 파일서술자 호출의 경계	posix-kor/KJELDE/구현
+socket interface	통신종단점.c	Fil	C 소켓과 kjerne_VALUE 자료전문 기능의 경계	posix-kor/KJELDE/구현
+syscall bridge	operativsystem_Samtalar.s	Fil	C 호출 규약과 kjerne_VALUE 레지스터 규약의 경계	posix-kor/maskin
+startup	START_brukar_app.s	Fil	brukar 진입점에서 C main을 시작한다	posix-kor/maskin

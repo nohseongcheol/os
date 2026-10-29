@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/db/db4e0163ef79808ae9ec7bc523dd081132df78e4684022072435aa5db1d72c7d-d
+packagefile driver/ata=/home/user/worldos/나라/ISR/소스/build/b004/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/ISR/소스/build/b009/_pkg_.a
+packagefile paging=/home/user/worldos/나라/ISR/소스/build/b024/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/ISR/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ISR/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/bc/bc3d30e0a3e35d8372076b1e06015556ca5a0d8bbd71ec50af8a27aeebde170b-d
+packagefile וירטואליזיכרון=/home/user/worldos/나라/ISR/소스/build/b029/_pkg_.a
+packagefile זיכרוןmanager=/home/user/worldos/나라/ISR/소스/build/b023/_pkg_.a
+packagefile פסק=/home/user/worldos/나라/ISR/소스/build/b026/_pkg_.a
+packagefile קובץמערכת/elf=/home/user/worldos/나라/ISR/소스/build/b033/_pkg_.a
+packagefile קובץמערכת/fat=/home/user/worldos/나라/ISR/소스/build/b034/_pkg_.a
+packagefile קובץמערכת/msdospartition=/home/user/worldos/나라/ISR/소스/build/b035/_pkg_.a
+packagefile שער=/home/user/.cache/go-build/18/18194513fe536b536f49a5152c4a130ec5bd1e2534c62cdf09f846e8022e912b-d
+packagefile runtime/cgo=/home/user/worldos/나라/ISR/소스/build/b000/_pkg_.a

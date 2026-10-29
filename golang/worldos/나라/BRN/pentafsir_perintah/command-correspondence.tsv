@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	paparkan_bantuan
+echo	paparkan_argumen
+pwd	paparkan_direktori_semasa
+cat	paparkan_kandungan_fail
+stat	paparkan_maklumat_fail
+pid	paparkan_pengenal_proses
+uname	paparkan_identiti_sistem
+run	jalankan_atur_cara
+udp	uji_pengembalian_datagram
+source	tafsirkan_fail_perintah
+cd	tukar_direktori
+exit	keluar

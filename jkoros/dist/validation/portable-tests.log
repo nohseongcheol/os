@@ -1,0 +1,17 @@
+.Packed /tmp/portable test w9qt0rb5/release/source.tar.xz: 7,456 bytes; 4 files; 3 exclusions
+Download: file:///tmp/portable%20test%201gcayn_9/upstream.bin
+Download: file:///tmp/portable%20test%201gcayn_9/upstream.bin
+Download: file:///tmp/portable%20test%201gcayn_9/upstream.bin
+.Packed /tmp/portable test 0vcj7et_/release/source.tar.xz: 7,456 bytes; 4 files; 3 exclusions
+Extracted to /tmp/portable test 0vcj7et_/relocated project
+Download: file:///tmp/portable%20test%200vcj7et_/upstream.bin
+...Packed /tmp/portable test 73wuqp_9/release/source.tar.xz: 7,456 bytes; 4 files; 3 exclusions
+Packed /tmp/portable test 344een1k/release/source.tar.xz: 7,516 bytes; 5 files; 2 exclusions
+Extracted to /tmp/portable test 344een1k/restored
+.Packed /tmp/portable test p16dzj4r/release/source.tar.xz: 7,496 bytes; 5 files; 3 exclusions
+Extracted to /tmp/portable test p16dzj4r/restored
+...
+----------------------------------------------------------------------
+Ran 9 tests in 0.150s
+
+OK

@@ -1,0 +1,3 @@
+# import config
+packagefile util=/home/user/koros/build/b023/_pkg_.a
+packagefile 통신/상호통신망규약V4=/home/user/koros/build/b028/_pkg_.a

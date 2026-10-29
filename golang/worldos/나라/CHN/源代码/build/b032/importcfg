@@ -1,0 +1,7 @@
+# import config
+packagefile 内存管理器=/home/user/worldos/나라/CHN/源代码/build/b020/_pkg_.a
+packagefile 工具=/home/user/worldos/나라/CHN/源代码/build/b030/_pkg_.a
+packagefile 控制台=/home/user/worldos/나라/CHN/源代码/build/b016/_pkg_.a
+packagefile 文件系统/msdos分区=/home/user/worldos/나라/CHN/源代码/build/b033/_pkg_.a
+packagefile 驱动程序/ata=/home/user/worldos/나라/CHN/源代码/build/b034/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHN/源代码/build/b000/_pkg_.a

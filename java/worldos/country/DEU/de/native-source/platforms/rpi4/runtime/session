@@ -1,0 +1,32 @@
+#!/bin/sh
+. /etc/profile.d/jkoros.sh
+python3 /usr/local/lib/jkoros/desktop-settings.py
+# Let D-Bus activate a single fcitx instance. Starting a daemon and invoking
+# fcitx5-remote at the same time can otherwise start two competing instances.
+# The XIM server must exist before Java/xterm create their input contexts.
+attempt=0
+input_ready=false
+while [ "$attempt" -lt 90 ]; do
+    # State 0 is also valid before any window has an input context. A successful
+    # reply, rather than an active context, means the service is ready.
+    if fcitx5-remote >/dev/null 2>&1; then input_ready=true; break; fi
+    sleep 1
+    attempt=$((attempt + 1))
+done
+if "$input_ready"; then
+    fcitx5-remote -c
+    touch /run/user/1000/jkoros-input-ready
+else
+    echo 'Fcitx5 did not become ready; check /var/log/desktop.log' >&2
+fi
+# Keep a persistent X client connected before setting resources; otherwise the
+# server may reset and discard them when xrdb disconnects as the last client.
+xrdb -merge /etc/jkoros/Xresources
+if [ -f "$HOME/.Xresources" ]; then xrdb -merge "$HOME/.Xresources"; fi
+openbox &
+window_manager=$!
+cd /home/user/workspace
+/usr/local/bin/jkoros-terminal &
+java -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true \
+    -cp /opt/jkoros/lib/DeutschJava.jar Deutsch.Java.Arbeitsraum &
+wait "$window_manager"

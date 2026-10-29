@@ -1,0 +1,8 @@
+Tệp	이전이름	최종이름	쓰임
+TrìnhBiênDịchC/chạy.c	h	đầuMụcTệpThựcThi	ELF giáTrịĐầuMục
+máy/NgườiDùng.c	h	đầuMụcTệpThựcThi	ELF thẩmĐịnh·적재 giáTrịĐầuMục
+máy/NgườiDùng.h	x	thanhGhiDữLiệu	ARM64 x0..x30 giáTrịCất giáTrịMảng
+máy/BoMạch.c	h	cácChữSốThậpLụcPhân	진수 chuyểnĐổiGiáTrị 문자표
+NgườiDùng/Java/MáyẢoJava.java gọiThựcHiệnMànHình	w h	giáTrịRộng giáTrịCao	MànHình giáTrịCácChiều
+CôngCụ/*.py	root	đườngDẫnGốcCây	Tệp 계층의 gốcCâyDựÁn đườngDẫn
+máy/thiếtBịCuối.c	w	mụcCửaSổ	thiếtBịCuối cửaSổ giáTrịTrạngThái conTrỏ

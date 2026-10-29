@@ -1,0 +1,14 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+package नेपाल.JNplOS.कर्नेल;
+
+/** Java 관리 커널과 CPU 고유 कोड_मान 사이의 유일한 경계다. */
+public interface 하드웨어 {
+    void 직렬출력(String सामग्री_मान);
+
+    int पढें_पोर्ट_बाइट(int 포트번호);
+
+    void लिखना_पोर्ट_बाइट(int 포트번호, int मान);
+
+    void 중앙처리장치멈춤();
+}
+

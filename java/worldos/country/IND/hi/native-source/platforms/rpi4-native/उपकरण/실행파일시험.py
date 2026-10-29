@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+"""Compare one unmodified, extensionless Linux AArch64 ELF on both ABIs."""
+import hashlib
+import json
+import struct
+import subprocess
+from निष्पादित_करें_आदेश import प्रोजेक्ट_करें_मूल
+
+
+def 리눅스예제(परिणाम_डेटा):
+    परिणाम_डेटा.mkdir(parents=True, exist_ok=True)
+    for 원본자료, नाम in [('चलाएँ.S', 'start.o'), ('अभिनन्दन_ae353e94.c', 'hello.o')]:
+        subprocess.check_call(['clang', '--target=aarch64-linux-gnu', '-mcpu=cortex-a72',
+            '-ffreestanding', '-fno-builtin', '-fno-stack-protector', '-fno-pic',
+            '-fno-unwind-tables', '-fno-asynchronous-unwind-tables', '-O2',
+            '-c', str(प्रोजेक्ट_करें_मूल/'예제/리눅스ABI'/원본자료), '-o', str(परिणाम_डेटा/नाम)])
+    निष्पादन_योग्य_फ़ाइल_छवि = परिणाम_डेटा/'리눅스인사'
+    subprocess.check_call(['aarch64-linux-gnu-ld', '-static', '-z', 'max-page-size=4096',
+        '-Ttext-segment=0x02000000', '-s', '-o', str(निष्पादन_योग्य_फ़ाइल_छवि), str(परिणाम_डेटा/'start.o'), str(परिणाम_डेटा/'hello.o')])
+    सामग्री_मान = निष्पादन_योग्य_फ़ाइल_छवि.read_bytes()
+    assert len(सामग्री_मान) <= 16384 and सामग्री_मान[:7] == b'\x7fELF\x02\x01\x01'
+    assert struct.unpack_from('<HH', सामग्री_मान, 16) == (2, 183) and b'JKOROS\0' not in सामग्री_मान
+    예상결과 = 'LINUX ARM64 ELF PASS\n한글인수\n'
+    तुलना_आधार_रेखा = subprocess.check_output(['qemu-aarch64', str(निष्पादन_योग्य_फ़ाइल_छवि), '한글인수'], cwd=str(परिणाम_डेटा)).decode()
+    assert तुलना_आधार_रेखा == 예상결과, तुलना_आधार_रेखा
+    (परिणाम_डेटा/'readelf.txt').write_bytes(subprocess.check_output(['readelf', '-hl', str(निष्पादन_योग्य_फ़ाइल_छवि)]))
+    return निष्पादन_योग्य_फ़ाइल_छवि, 예상결과
+
+
+def चलाएँ():
+    परिणाम_डेटा = प्रोजेक्ट_करें_मूल/'build/verification/elf'
+    परिणाम_डेटा.mkdir(parents=True, exist_ok=True)
+    (परिणाम_डेटा/'report.json').write_text('{"passed": false}\n')
+    निष्पादन_योग्य_फ़ाइल_छवि, 예상결과 = 리눅스예제(परिणाम_डेटा)
+    परिणाम = subprocess.check_output(['python3', str(प्रोजेक्ट_करें_मूल/'उपकरण/निष्पादित_करें_फ़ाइल.py'), '--linux', str(निष्पादन_योग्य_फ़ाइल_छवि), '한글인수']).decode().replace('\r\n', '\n')
+    assert 예상결과+'exit 0' in परिणाम, परिणाम
+    (परिणाम_डेटा/'serial.log').write_text(परिणाम)
+    원본=निष्पादन_योग्य_फ़ाइल_छवि.read_bytes()
+    ऐप_हेडर_ऑफ़सेट=struct.unpack_from('<Q',원본,32)[0]
+    for नाम,ऑफ़सेट_मान,फॉर्मैट_b87fd068,मान in [('wrong-cpu',18,'H',62),('pie',16,'H',3),
+            ('write-execute',ऐप_हेडर_ऑफ़सेट+4,'I',7),('kernel-address',ऐप_हेडर_ऑफ़सेट+16,'Q',0x400000)]:
+        अमान्य_डेटा=bytearray(원본);struct.pack_into('<'+फॉर्मैट_b87fd068,अमान्य_डेटा,ऑफ़सेट_मान,मान)
+        पथ=परिणाम_डेटा/नाम;पथ.write_bytes(अमान्य_डेटा)
+        거부결과=subprocess.run(['python3',str(प्रोजेक्ट_करें_मूल/'उपकरण/निष्पादित_करें_फ़ाइल.py'),'--linux',str(पथ)],stdout=subprocess.PIPE,stderr=subprocess.STDOUT)
+        assert 거부결과.returncode==1 and b'exit -8' in 거부결과.stdout,(नाम,거부결과.stdout)
+    प्रमाणीकरण_रिपोर्ट = {'passed': True, 'linux_kernel_loaded': False,
+        'kernel_sha256': hashlib.sha256((प्रोजेक्ट_करें_मूल/'build/kernel8.img').read_bytes()).hexdigest(),
+        'executable_sha256': hashlib.sha256(निष्पादन_योग्य_फ़ाइल_छवि.read_bytes()).hexdigest(),
+        'checks': ['extensionless ELF64 ET_EXEC EM_AARCH64 without JKOROS note',
+                   'identical bytes execute in qemu-aarch64 Linux user mode and own raspi4b kernel',
+                   'Linux argc/argv stack, openat/write/lseek/read/close/clock_gettime/exit',
+                   'Linux syscall 6 is not dispatched to native exit; invalid kernel pointer rejected',
+                   'wrong CPU, PIE, writable executable pages and kernel load address rejected in Linux ABI mode'],
+        'full_linux_binary_compatibility': False}
+    (परिणाम_डेटा/'report.json').write_text(json.dumps(प्रमाणीकरण_रिपोर्ट, ensure_ascii=False, indent=2)+'\n')
+    print('PASS same extensionless Linux ARM64 ELF on Linux syscall ABI and own kernel')
+
+
+if __name__ == '__main__': चलाएँ()

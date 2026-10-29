@@ -1,0 +1,8 @@
+fiilde	이전이름	최종이름	쓰임
+시언어번역기/huutoraade.c	h	실행머리	ELF meetalol_hello_njaru
+기계/kuutoro.c	h	실행머리	ELF 검증·적재 meetalol_hello_njaru
+기계/kuutoro.h	x	저장기값	ARM64 x0..x30 resde_njaru 배열
+기계/보드.c	h	열여섯진숫자	진수 변환 문자표
+kuutoro/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+도구/*.py	root	기준경로	fiilde 계층의 기준 laawol
+기계/터미널.c	w	falanteere_naatnugol	터미널 falanteere ngonka_njaru 포인터

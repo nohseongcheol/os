@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/SRB/소스/build/b028/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/SRB/소스/build/b029/_pkg_.a
+packagefile util=/home/user/.cache/go-build/ed/ed41238274dccb7ece3efb9aec225b4eda549ab8dd971df4496624f4e2d27442-d
+packagefile util/списак=/home/user/worldos/나라/SRB/소스/build/b033/_pkg_.a
+packagefile меморијаmanager=/home/user/worldos/나라/SRB/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/SRB/소스/build/b000/_pkg_.a

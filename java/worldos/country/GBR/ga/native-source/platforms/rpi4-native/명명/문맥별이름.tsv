@@ -1,0 +1,8 @@
+Comhad	이전이름	최종이름	쓰임
+시언어번역기/Rith_2.c	h	실행머리	ELF Ceanntásc_VALUE
+meaisín/úsáideoir.c	h	실행머리	ELF bailíochtaigh·적재 Ceanntásc_VALUE
+meaisín/úsáideoir.h	x	cláraigh_sonraí	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+meaisín/clár.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+úsáideoir/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Uirlisí/*.py	root	fréamh_cosán	Comhad 계층의 teilgean_fréamh CONAIR
+meaisín/Teirminéal.c	w	fuinneog_iontráil	Teirminéal fuinneog staid_VALUE pointeoir

@@ -1,0 +1,82 @@
+make: Entering directory '/home/user/worldos/나라/COK/posix-COK'
+python3 posix_build.py build
+make[1]: Entering directory '/home/user/worldos/나라/COK/posix-COK/build/posix-stage-1of5lkm9'
+mkdir -p build
+cc -m32 -c src/syscall.S -o build/syscall.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/errno.c -o build/errno.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/unistd.c -o build/unistd.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/fcntl.c -o build/fcntl.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/stat.c -o build/stat.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/socket.c -o build/socket.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/string.c -o build/string.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/ctype.c -o build/ctype.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/stdlib.c -o build/stdlib.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c src/allocation.c -o build/allocation.o
+ar rcs build/libposix.a build/syscall.o build/errno.o build/unistd.o build/fcntl.o build/stat.o build/socket.o build/string.o build/ctype.o build/stdlib.o build/allocation.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/runtime.c -o build/runtime.o
+cc -m32 -c src/crt0.S -o build/crt0.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-runtime build/crt0.o build/runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/exec_target.c -o build/exec-target.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-target build/crt0.o build/exec-target.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/exec_runtime.c -o build/exec-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-runtime build/crt0.o build/exec-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/heap_runtime.c -o build/heap-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-heap-runtime build/crt0.o build/heap-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/fork_runtime.c -o build/fork-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-fork-runtime build/crt0.o build/fork-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/stdin_runtime.c -o build/stdin-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-stdin-runtime build/crt0.o build/stdin-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -fno-pic -c tests/socket_runtime.c -o build/socket-runtime.o
+ld -n -m elf_i386 -e _start -T linker.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-socket-runtime build/crt0.o build/socket-runtime.o build/libposix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iinclude -c tests/compile.c -o build/compile-test.o
+
+syscall.o:
+
+errno.o:
+
+unistd.o:
+         U __syscall_result
+         U errno
+         U fstat
+
+fcntl.o:
+         U __syscall_result
+
+stat.o:
+         U __syscall_result
+
+socket.o:
+         U __syscall_result
+
+string.o:
+         U malloc
+         U tolower
+
+ctype.o:
+
+stdlib.o:
+         U environ
+         U errno
+         U isalpha
+         U isdigit
+         U isspace
+         U strchr
+         U strlen
+         U strncmp
+         U tolower
+
+allocation.o:
+         U errno
+         U memcpy
+         U memset
+         U sbrk
+make[1]: Leaving directory '/home/user/worldos/나라/COK/posix-COK/build/posix-stage-1of5lkm9'
+PASS COK native POSIX build
+make: Leaving directory '/home/user/worldos/나라/COK/posix-COK'

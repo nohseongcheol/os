@@ -1,0 +1,8 @@
+Fajl	이전이름	최종이름	쓰임
+시언어번역기/Pokreni.c	h	실행머리	ELF Zaglavlje_VALUE
+mašina/korisnik.c	h	실행머리	ELF ovjeriti·적재 Zaglavlje_VALUE
+mašina/korisnik.h	x	registrirati_podaci	ARM64 x0..x30 Store_VALUE niz_VALUE
+mašina/ploča.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+korisnik/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Alati/*.py	root	koijen_put	Fajl 계층의 projicirati_koijen Putanja
+mašina/Terminal.c	w	prozor_unos	Terminal prozor stanje_VALUE pokazivač

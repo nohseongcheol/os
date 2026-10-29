@@ -1,0 +1,8 @@
+ficheiro	이전이름	최종이름	쓰임
+C_compilador/iniciar.c	h	executável_Cabeçalho	ELF Cabeçalho_VALOR
+computador/espaço_do_utilizador.c	h	executável_Cabeçalho	ELF validar·적재 Cabeçalho_VALOR
+computador/espaço_do_utilizador.h	x	registro_dados	ARM64 x0..x30 Store_VALOR MATRIZ_VALOR
+computador/Quadro.c	h	열여섯진숫자	진수 CONVERTER_VALOR 문자표
+espaço_do_utilizador/자바/자바가상기계.java 화면호출	w h	너비 altura_VALOR	tela 치수
+ferramentas/*.py	root	raiz_caminho	ficheiro 계층의 ação_raiz caminho
+computador/terminal.c	w	janela_entrada	terminal Janela Estado_VALOR ponteiro

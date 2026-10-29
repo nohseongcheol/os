@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	tilldela minne	tilldela_minne	project-proposal	function-based project proposal
+append	lägg till sist i listan	lägg_till_sist_i_listan	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	tilldelningskarta	tilldelningskarta	project-proposal	function-based project proposal
+boot	maskinstart	maskinstart	project-proposal	function-based project proposal
+boot_record	huvudstartpost	huvudstartpost	project-proposal	boot code and partition metadata, not an audio recording
+bus	gemensam överföringsväg	gemensam_överföringsväg	project-proposal	function-based project proposal
+compile_kernel	kompilera kärnan	kompilera_kärnan	project-proposal	function-based project proposal
+destination_port	målportnummer	målportnummer	project-proposal	function-based project proposal
+elf	körbart och länkbart format	körbart_och_länkbart_format	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	felnummer	felnummer	project-proposal	function-based project proposal
+ethernet_frame	ram i nät med delat medium	ram_i_nät_med_delat_medium	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	ramhuvud för nät med delat medium	ramhuvud_för_nät_med_delat_medium	project-proposal	function-based project proposal
+ethernet_provider	ramleverantör för nät med delat medium	ramleverantör_för_nät_med_delat_medium	project-proposal	function-based project proposal
+fat_parameters	filsystemsparametrar	filsystemsparametrar	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	filstyrning	filstyrning	project-proposal	function-based project proposal
+file_read	läs fil	läs_fil	project-proposal	function-based project proposal
+file_status	filstatus	filstatus	project-proposal	function-based project proposal
+file_write	skriv fil	skriv_fil	project-proposal	function-based project proposal
+free_memory	frigör minne	frigör_minne	project-proposal	function-based project proposal
+headers	deklarationer	deklarationer	project-proposal	function-based project proposal
+heap	dynamiskt minne	dynamiskt_minne	project-proposal	function-based project proposal
+icmp	styrmeddelandeprotokoll för sammankopplade nät	styrmeddelandeprotokoll_för_sammankopplade_nät	project-proposal	function-based project proposal
+implementation	implementation	implementation	project-proposal	function-based project proposal
+insert_at	infoga vid index	infoga_vid_index	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	sammankopplat nät	sammankopplat_nät	project-proposal	function-based project proposal
+ip_provider	protokolleverantör för sammankopplade nät	protokolleverantör_för_sammankopplade_nät	project-proposal	function-based project proposal
+ipv4	protokoll för sammankopplade nät 4	protokoll_för_sammankopplade_nät_4	project-proposal	function-based project proposal
+link_layout	länkningslayout	länkningslayout	project-proposal	function-based project proposal
+list_node	listnod	listnod	project-proposal	function-based project proposal
+log_decoder	tolka seriell logg	tolka_seriell_logg	project-proposal	function-based project proposal
+mouse	pekdon	pekdon	project-proposal	function-based project proposal
+page_directory	sidkatalog	sidkatalog	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	fysisk sida	fysisk_sida	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	adressreferens	adressreferens	project-proposal	function-based project proposal
+prepend	lägg till först i listan	lägg_till_först_i_listan	project-proposal	src/util/list/list.go: links before head
+register	register	register	project-proposal	function-based project proposal
+set_coordinates	ange lokala koordinater	ange_lokala_koordinater	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	källportnummer	källportnummer	project-proposal	function-based project proposal
+stack	stackminne	stackminne	project-proposal	function-based project proposal
+startup	start	start	project-proposal	function-based project proposal
+structure_offsets	strukturförskjutningar	strukturförskjutningar	project-proposal	function-based project proposal
+system_call	systemanrop	systemanrop	project-proposal	function-based project proposal
+tests	tester	tester	project-proposal	function-based project proposal
+toggle_bit	invertera tilldelningsbit	invertera_tilldelningsbit	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	verktyg	verktyg	project-proposal	function-based project proposal
+udp	användardatagramprotokoll	användardatagramprotokoll	project-proposal	function-based project proposal
+udp_header	huvud för användardatagram	huvud_för_användardatagram	project-proposal	function-based project proposal
+udp_socket	slutpunkt för användardatagram	slutpunkt_för_användardatagram	project-proposal	function-based project proposal
+user_space	användarutrymme	användarutrymme	project-proposal	function-based project proposal
+widget	skärmelement	skärmelement	project-proposal	function-based project proposal

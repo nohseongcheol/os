@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/RWA/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/RWA/소스/build/b032/_pkg_.a
+packagefile ububikomanager=/home/user/worldos/나라/RWA/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/0b/0b0c16ff052c0a469ce843cde4e98dd05d0e1334a91dd15ad07bd6cc264e7f49-d
+packagefile util/list=/home/user/worldos/나라/RWA/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/RWA/소스/build/b000/_pkg_.a

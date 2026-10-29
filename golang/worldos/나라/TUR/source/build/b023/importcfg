@@ -1,0 +1,5 @@
+# import config
+packagefile bellekmanager=/home/user/worldos/나라/TUR/소스/build/b002/_pkg_.a
+packagefile kesme=/home/user/worldos/나라/TUR/소스/build/b024/_pkg_.a
+packagefile util=/home/user/.cache/go-build/00/008ea0fd0512f9eed32caef5eb6a6775e1efd7376cdf8d94eea0024b67c20468-d
+packagefile runtime/cgo=/home/user/worldos/나라/TUR/소스/build/b000/_pkg_.a

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "alpine-virt-3.24.1-x86_64.iso",
+    "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/x86_64/alpine-virt-3.24.1-x86_64.iso",
+    "sha256": "e73a6241bd5f3c5c2d4d38c02cc52c378c0415a7c888bd292066bf36e0f41a39"
+  },
+  {
+    "file": "alpine-minirootfs-3.24.1-x86_64.tar.gz",
+    "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.1-x86_64.tar.gz",
+    "sha256": "41f73e3cf5fa919b8aa5ca6b30dc48f0da2720776d7423e2a7748211456fe081"
+  },
+  {
+    "file": "main-APKINDEX.tar.gz",
+    "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/main/x86_64/APKINDEX.tar.gz",
+    "sha256": "140ae9943ac9e4256c9707fcb9585474488659cb41f8f43768ae6853ce0713b4"
+  },
+  {
+    "file": "community-APKINDEX.tar.gz",
+    "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/community/x86_64/APKINDEX.tar.gz",
+    "sha256": "c0633ccec637c0e1cc311b6508ed2ef9d1c6b289fafc606253b82941fb0fcd3f"
+  },
+  {
+    "file": "cldr48-supplementalData.xml",
+    "url": "https://raw.githubusercontent.com/unicode-org/cldr/release-48/common/supplemental/supplementalData.xml",
+    "sha256": "fb054c9f9a95f0c4da9dd1e5e0ef6dd208b6f9a73f45303011be247277d81bef"
+  },
+  {
+    "file": "apk-tools-static-3.0.8-r0.apk",
+    "url": "https://dl-cdn.alpinelinux.org/alpine/v3.24/main/x86_64/apk-tools-static-3.0.8-r0.apk",
+    "sha256": "c8e2c88c13ba12a12269b79a3543e1190ff8c0ab0beb32b58cadfd5881c619e3"
+  }
+]

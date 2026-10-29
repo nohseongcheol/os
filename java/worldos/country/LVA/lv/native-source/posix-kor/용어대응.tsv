@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	atvērt_Fails	FUNCTION_VALUE	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	atvērt_Fails_e47823fb	FUNCTION_VALUE	Rakstīt 전용 ģenerēt 또는 Saturs_VALUE nodzēst_Satura_rādītājs	파일규약.h
+read	파일자료읽기	FUNCTION_VALUE	열린 대상에서 byte_VALUE 자료를 읽는다	파일규약.h
+write	rakstīšana_Fails_dati	FUNCTION_VALUE	열린 대상에 byte_VALUE 자료를 쓴다	파일규약.h
+close	Aizvērt_Fails	FUNCTION_VALUE	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	meklēt_Fails	FUNCTION_VALUE	열린 파일의 ievadizvade 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	FUNCTION_VALUE	같은 열린 Fails 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	FUNCTION_VALUE	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	noņemt_Fails_ievade_nosaukums	FUNCTION_VALUE	Nosaukums 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	파일길이정하기	FUNCTION_VALUE	열린 파일의 byte_VALUE 길이를 정한다	파일규약.h
+fstat	파일상태읽기	FUNCTION_VALUE	열린 대상의 종류 Izmērs 링크 numurs 등을 읽는다	파일규약.h
+fsync	izpilde_failu_krātuve	FUNCTION_VALUE	Store_VALUE 매체에 pašreizējais_krājums Fails 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	FUNCTION_VALUE	서술자별 설정과 공유 Atvērt 설정을 다룬다	파일규약.h
+socket	atvērt_dalībnieks	FUNCTION_VALUE	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_adrese	FUNCTION_VALUE	종단점에 vietējs_Tvērums 주소와 접속번호를 묶는다	통신규약.h
+sendto	sūtīt_datogramma_dati	FUNCTION_VALUE	지정한 상대에게 datogramma 하나를 보낸다	통신규약.h
+recvfrom	saņemt_datogramma_dati	FUNCTION_VALUE	datogramma 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	FUNCTION_VALUE	vietējs_Tvērums 종단점의 pašreizējais_krājums 주소를 읽는다	통신규약.h
+setsockopt	mainīt_tīkls_Iestatījumi	FUNCTION_VALUE	지원하는 saņemt_VALUE pagaidi_VALUE 설정을 바꾼다	통신규약.h
+inet_pton	parsēt_tīkla_ID	FUNCTION_VALUE	cipars_VALUE adrese 문자열을 līguma_vērtība 바이트로 해석한다	통신규약.h
+inet_ntop	formāts_tīkla_ID	FUNCTION_VALUE	līguma_vērtība 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	FUNCTION_VALUE	16비트 값을 망의 byte_VALUE 차례로 바꾼다	통신규약.h
+htonl	tīkls_vesels_skaitlis	FUNCTION_VALUE	32비트 값을 망의 byte_VALUE 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	FUNCTION_VALUE	16비트 값을 Izpildīt_komanda 장치의 byte_VALUE 차례로 바꾼다	통신규약.h
+ntohl	ierīce_secība_vesels_skaitlis	FUNCTION_VALUE	32비트 값을 Izpildīt_komanda 장치의 byte_VALUE 차례로 바꾼다	통신규약.h
+errno	kļūdas_numurs	mainīgais_VALUE	실패한 C 호출의 양수 Kļūda INDEX	errno.h
+fd	파일서술자	mainīgais_VALUE	Process_VALUE 안의 열린 대상을 식별하는 vesels_skaitlis	Fails_ievadizvade.c
+count	byte_COUNT	mainīgais_VALUE	dati 전송량의 단위가 바이트임을 드러낸다	Fails_ievadizvade.c
+offset	Nobīde_VALUE	mainīgais_VALUE	Project_sakne 위치에 더할 kodēšana_VALUE 있는 거리	Fails_ievadizvade.c
+flags	atvērt_Iestatījumi	mainīgais_VALUE	Fails piekļūt_ievade 방식과 Atvērt Darbība	Fails_ievadizvade.c
+mode	허가	mainīgais_VALUE	ģenerēt 파일에 기록할 허가 bit_VALUE	Fails_ievadizvade.c
+timeout	수신대기밀리초	mainīgais_VALUE	saņemt_VALUE pagaidi_VALUE 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	mainīgais_VALUE	UDP 종단점에 배정한 numurs_Saraksts	tīkls_kopa.java
+통신장치.포트	tīkls_draiveris.입출력기준주소	mainīgais_VALUE	NIC의 CPU ievadizvade adrese adrese_reģions Project_sakne	tīkls_draiveris.java
+generation	세대번호	mainīgais_VALUE	성공한 Store_VALUE 시점의 secība_VALUE	파일보존.java
+포트읽기	입출력바이트읽기	FUNCTION_VALUE	CPU ievadizvade 주소에서 한 바이트를 읽는다	ierīce_VALUE.java
+포트쓰기	입출력바이트쓰기	FUNCTION_VALUE	CPU ievadizvade 주소에 한 바이트를 쓴다	ierīce_VALUE.java
+포트정수읽기	입출력정수읽기	FUNCTION_VALUE	CPU ievadizvade 주소에서 32비트를 읽는다	ierīce_VALUE.java
+포트정수쓰기	입출력정수쓰기	FUNCTION_VALUE	CPU ievadizvade 주소에 32비트를 쓴다	ierīce_VALUE.java
+포트짧은쓰기	입출력짧은수쓰기	FUNCTION_VALUE	CPU ievadizvade 주소에 16비트를 쓴다	ierīce_VALUE.java
+메모리파일.java	atmiņa_failu_sistēma.java	Fails·formāts_VALUE	주기억 내 Fails 자료와 이름을 관리한다	os/AVOTS
+통신장치.java	tīkls_draiveris.java	Fails·formāts_VALUE	PCI 망장치를 찾아 초기화하고 송수신한다	os/AVOTS
+file I/O	Fails_ievadizvade.c	Fails	C 호출과 kodols_VALUE 파일서술자 호출의 경계	posix-kor/AVOTS/구현
+socket interface	통신종단점.c	Fails	C 소켓과 kodols_VALUE 자료전문 기능의 경계	posix-kor/AVOTS/구현
+syscall bridge	operētājsistēma_Zvani.s	Fails	C 호출 규약과 kodols_VALUE 레지스터 규약의 경계	posix-kor/mašīna
+startup	Sākt_lietotājs_programma.s	Fails	lietotājs 진입점에서 C main을 시작한다	posix-kor/mašīna

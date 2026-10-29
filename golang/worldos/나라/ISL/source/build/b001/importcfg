@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/b8/b89732cd691debf6cca9f2f0fdfd938ee1bc397ad9fd3f06d1f25008117157c6-d
+packagefile driver/ata=/home/user/worldos/나라/ISL/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/b7/b7d87d9f51bfb155ff0157d365ed3814b6b97cc2982dab5e4628436d8a618ad4-d
+packagefile driver/lyklaborð=/home/user/worldos/나라/ISL/소스/build/b007/_pkg_.a
+packagefile driver/mús=/home/user/worldos/나라/ISL/소스/build/b036/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/27/279e0f72082da145a0e76eb4f891a848a9a862a31f2c12350e14238ab4b7b950-d
+packagefile interrupt=/home/user/worldos/나라/ISL/소스/build/b008/_pkg_.a
+packagefile kerfiscall=/home/user/worldos/나라/ISL/소스/build/b024/_pkg_.a
+packagefile minnimanager=/home/user/worldos/나라/ISL/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/ISL/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/ISL/소스/build/b025/_pkg_.a
+packagefile pci=/home/user/worldos/나라/ISL/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile skráKerfis/elf=/home/user/worldos/나라/ISL/소스/build/b027/_pkg_.a
+packagefile skráKerfis/fat=/home/user/worldos/나라/ISL/소스/build/b028/_pkg_.a
+packagefile skráKerfis/msdospartition=/home/user/worldos/나라/ISL/소스/build/b029/_pkg_.a
+packagefile sýndarMinni=/home/user/worldos/나라/ISL/소스/build/b030/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/ISL/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/ISL/소스/build/b032/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ISL/소스/build/b033/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/ISL/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/dc/dcffb82e6e0685a5e97d1fb0c321d2a9118c2000a57c9eda60eafef64eed2056-d
+packagefile runtime/cgo=/home/user/worldos/나라/ISL/소스/build/b000/_pkg_.a

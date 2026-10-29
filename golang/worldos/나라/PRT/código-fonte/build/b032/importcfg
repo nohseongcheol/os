@@ -1,0 +1,8 @@
+# import config
+packagefile console=/home/user/.cache/go-build/03/035da3497affed2c9e257b7d184ae2b39923e6379769e263d436c031b53d021b-d
+packagefile gdt=/home/user/.cache/go-build/32/32bc8ed658fdb09b7e7ff98331639a30d0adae64497dadfd9fe3ed0d7a6ce7cd-d
+packagefile memóriagestor=/home/user/worldos/나라/PRT/소스/build/b023/_pkg_.a
+packagefile múltiplogestãoTarefas=/home/user/worldos/나라/PRT/소스/build/b022/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile virtualmemória=/home/user/worldos/나라/PRT/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PRT/소스/build/b000/_pkg_.a

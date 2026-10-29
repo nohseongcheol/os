@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Ekintza",
+    "identifier": "Ekintza",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "Argumentuak",
+    "identifier": "Argumentuak",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "botoia",
+    "identifier": "botoia",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "hautatu...",
+    "identifier": "hautatu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Klasea",
+    "identifier": "Klasea",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Itxi",
+    "identifier": "Itxi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Komandoa",
+    "identifier": "Komandoa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Konektatu",
+    "identifier": "Konektatu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "Unekoa",
+    "identifier": "Unekoa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Direktorioa",
+    "identifier": "Direktorioa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "errorea",
+    "identifier": "errorea",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Gertaera",
+    "identifier": "Gertaera",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Exekutatu",
+    "identifier": "Exekutatu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Fitxategia",
+    "identifier": "Fitxategia",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Gakoa",
+    "identifier": "Gakoa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Etiketa",
+    "identifier": "Etiketa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "Marra",
+    "identifier": "Marra",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Karga",
+    "identifier": "Karga",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Modua",
+    "identifier": "Modua",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Izena",
+    "identifier": "Izena",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Ireki",
+    "identifier": "Ireki",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "Irteera",
+    "identifier": "Irteera",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/gnome-flashback.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "Panela",
+    "identifier": "Panela",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "Bide-izena",
+    "identifier": "Bide_izena",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "Ataka",
+    "identifier": "Ataka",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Posizioa",
+    "identifier": "Posizioa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Prozesua",
+    "identifier": "Prozesua",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Irakurri",
+    "identifier": "Irakurri",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Kendu",
+    "identifier": "Kendu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "EMAITZA",
+    "identifier": "EMAITZA",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "E_xekutatu",
+    "identifier": "Exekutatu_2",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Gorde",
+    "identifier": "Gorde",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Ezarpenak",
+    "identifier": "Ezarpenak",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Tamaina",
+    "identifier": "Tamaina",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "ITURBURUA",
+    "identifier": "ITURBURUA",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Gelditu",
+    "identifier": "Gelditu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Terminala",
+    "identifier": "Terminala",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/katekonsoleplugin.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Testua",
+    "identifier": "Testua",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Tresna-barra",
+    "identifier": "Tresna_barra",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Leihoa",
+    "identifier": "Leihoa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Idatzi",
+    "identifier": "Idatzi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/eu/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

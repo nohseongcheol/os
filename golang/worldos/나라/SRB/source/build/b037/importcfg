@@ -1,0 +1,6 @@
+# import config
+packagefile driver/driver=/home/user/.cache/go-build/a4/a44475ff1699f5c0596899bb3415218258976d631a05cce09bcf14a1cde101d5-d
+packagefile конзола=/home/user/.cache/go-build/bc/bc0f03a60a2b59d966353431fd45324bc272b78312ec331e7509a44fc9e4f43c-d
+packagefile ометање=/home/user/worldos/나라/SRB/소스/build/b008/_pkg_.a
+packagefile порт=/home/user/.cache/go-build/6e/6e1e2aaa0406e816fe97235021d8b4710810cf0f118def2bcd2a955c01e20248-d
+packagefile runtime/cgo=/home/user/worldos/나라/SRB/소스/build/b000/_pkg_.a

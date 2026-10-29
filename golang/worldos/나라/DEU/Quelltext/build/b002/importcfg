@@ -1,0 +1,8 @@
+# import config
+packagefile gdt=/home/user/worldos/나라/DEU/Quelltext/build/b003/_pkg_.a
+packagefile konsole=/home/user/worldos/나라/DEU/Quelltext/build/b004/_pkg_.a
+packagefile mehrfachAufgabenverwaltung=/home/user/worldos/나라/DEU/Quelltext/build/b018/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile speicherVerwalter=/home/user/worldos/나라/DEU/Quelltext/build/b019/_pkg_.a
+packagefile virtuellSpeicher=/home/user/worldos/나라/DEU/Quelltext/build/b020/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/DEU/Quelltext/build/b000/_pkg_.a

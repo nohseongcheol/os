@@ -1,0 +1,5 @@
+# import config
+packagefile driver/ata=/home/user/worldos/나라/TUR/소스/build/b026/_pkg_.a
+packagefile konsol=/home/user/worldos/나라/TUR/소스/build/b005/_pkg_.a
+packagefile util=/home/user/worldos/나라/TUR/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/TUR/소스/build/b000/_pkg_.a

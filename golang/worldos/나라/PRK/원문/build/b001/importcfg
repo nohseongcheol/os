@@ -1,0 +1,25 @@
+# import config
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile 가상기억공간=/home/user/worldos/나라/PRK/소스/build/b015/_pkg_.a
+packagefile 개입중단=/home/user/worldos/나라/PRK/소스/build/b017/_pkg_.a
+packagefile 구동기/관리자=/home/user/.cache/go-build/6c/6cdc994c7dd25b44867681200a7b9a587374a2f391f021870d26c53569bbe196-d
+packagefile 구동기/위치입력기=/home/user/worldos/나라/PRK/소스/build/b024/_pkg_.a
+packagefile 구동기/자판=/home/user/worldos/나라/PRK/소스/build/b025/_pkg_.a
+packagefile 구동기/저장장치=/home/user/worldos/나라/PRK/소스/build/b027/_pkg_.a
+packagefile 기억공간관리자=/home/user/worldos/나라/PRK/소스/build/b019/_pkg_.a
+packagefile 기억쪽관리=/home/user/worldos/나라/PRK/소스/build/b028/_pkg_.a
+packagefile 다중작업관리=/home/user/worldos/나라/PRK/소스/build/b018/_pkg_.a
+packagefile 단말=/home/user/.cache/go-build/8a/8a2f19d750cbb337093dad92e5c748dc119ae0615678ac96cf87a3807f064ab0-d
+packagefile 도구=/home/user/.cache/go-build/96/9692ad015cd9c6bae9ca9e171bc2b3aeb5a95ebda921443293e5364c9c981062-d
+packagefile 작업관리/실행과정=/home/user/worldos/나라/PRK/소스/build/b037/_pkg_.a
+packagefile 작업관리/실행흐름=/home/user/worldos/나라/PRK/소스/build/b030/_pkg_.a
+packagefile 작업관리/작업배정기=/home/user/worldos/나라/PRK/소스/build/b031/_pkg_.a
+packagefile 작업관리/작업상태구역=/home/user/worldos/나라/PRK/소스/build/b033/_pkg_.a
+packagefile 전역서술자표=/home/user/.cache/go-build/97/978fe8b7e611e175769379f3fa2a2ab92925816f6278315fc018e3eaaf26d1c0-d
+packagefile 주변장치상호연결=/home/user/worldos/나라/PRK/소스/build/b038/_pkg_.a
+packagefile 체계호출=/home/user/worldos/나라/PRK/소스/build/b026/_pkg_.a
+packagefile 파일체계/실행연결형식=/home/user/worldos/나라/PRK/소스/build/b034/_pkg_.a
+packagefile 파일체계/주분할표=/home/user/worldos/나라/PRK/소스/build/b035/_pkg_.a
+packagefile 파일체계/파일할당표=/home/user/worldos/나라/PRK/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PRK/소스/build/b000/_pkg_.a

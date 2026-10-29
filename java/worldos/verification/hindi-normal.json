@@ -1,0 +1,9 @@
+{
+  "edition": "worldos.IND.l_hi.\u0915\u093e\u0930\u094d\u092f\u0936\u093e\u0932\u093e",
+  "standalone_root": "/tmp/worldos-hindi-independent",
+  "passed": true,
+  "filesystem_clean": true,
+  "saved_unicode_file": true,
+  "font_samples": 27,
+  "serial_poweroff": true
+}

@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Aksi",
+    "identifier": "Aksi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "Butang",
+    "identifier": "Butang",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Kelas",
+    "identifier": "Kelas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Tutup",
+    "identifier": "Tutup",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Perintah",
+    "identifier": "Perintah",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Sambung",
+    "identifier": "Sambung",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "Semasa",
+    "identifier": "Semasa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Direktori",
+    "identifier": "Direktori",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "RALAT",
+    "identifier": "RALAT",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Peristiwa",
+    "identifier": "Peristiwa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Lakukan",
+    "identifier": "Lakukan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Fail",
+    "identifier": "Fail",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Kunci",
+    "identifier": "Kunci",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "label",
+    "identifier": "label",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Muatan",
+    "identifier": "Muatan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Mod",
+    "identifier": "Mod",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Nama",
+    "identifier": "Nama",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Buka",
+    "identifier": "Buka",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "output",
+    "identifier": "output",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "LALUAN",
+    "identifier": "LALUAN",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Kedudukan",
+    "identifier": "Kedudukan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Proses",
+    "identifier": "Proses",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Baca",
+    "identifier": "Baca",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Buang",
+    "identifier": "Buang",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Jalan",
+    "identifier": "Jalan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Simpan",
+    "identifier": "Simpan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Tetapan",
+    "identifier": "Tetapan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Saiz",
+    "identifier": "Saiz",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "SUMBER",
+    "identifier": "SUMBER",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Henti",
+    "identifier": "Henti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminal",
+    "identifier": "terminal",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Teks",
+    "identifier": "Teks",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "Palang Ala_t",
+    "identifier": "Palang_Alat",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Tetingkap",
+    "identifier": "Tetingkap",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Tulis",
+    "identifier": "Tulis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ms/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/03/035da3497affed2c9e257b7d184ae2b39923e6379769e263d436c031b53d021b-d
+packagefile controlador/ata=/home/user/worldos/나라/PRT/소스/build/b004/_pkg_.a
+packagefile ficheirosistema/fat=/home/user/worldos/나라/PRT/소스/build/b026/_pkg_.a
+packagefile ficheirosistema/formato_executável_e_ligável=/home/user/worldos/나라/PRT/소스/build/b029/_pkg_.a
+packagefile ficheirosistema/msdospartição=/home/user/worldos/나라/PRT/소스/build/b027/_pkg_.a
+packagefile gestãoTarefas/escalonador=/home/user/worldos/나라/PRT/소스/build/b031/_pkg_.a
+packagefile gestãoTarefas/fluxoExecução=/home/user/worldos/나라/PRT/소스/build/b032/_pkg_.a
+packagefile interrupção=/home/user/worldos/나라/PRT/소스/build/b008/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/PRT/소스/build/b023/_pkg_.a
+packagefile múltiplogestãoTarefas=/home/user/worldos/나라/PRT/소스/build/b022/_pkg_.a
+packagefile paginação=/home/user/worldos/나라/PRT/소스/build/b030/_pkg_.a
+packagefile porto=/home/user/.cache/go-build/eb/eb9905c251a2563d1bc12cd13f9dc5a5d44bafdc3dd0e2369213b06915852505-d
+packagefile utilitário=/home/user/.cache/go-build/d8/d85639a49839c6b27e78a28bf9b763b91d9da2974084d8be89c50e64e4f2a302-d
+packagefile virtualmemória=/home/user/worldos/나라/PRT/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PRT/소스/build/b000/_pkg_.a

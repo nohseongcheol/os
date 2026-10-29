@@ -1,0 +1,541 @@
+{
+  "action": {
+    "text": "Aksi",
+    "identifier": "Aksi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "panggilan sistem",
+    "identifier": "panggilan_sistem",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "tambah di akhir daftar",
+    "identifier": "tambah_di_akhir_daftar",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "argumen",
+    "identifier": "argumen",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "tombol",
+    "identifier": "tombol",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "pilih...",
+    "identifier": "pilih",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Kelas",
+    "identifier": "Kelas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Tutup",
+    "identifier": "Tutup",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "perintah",
+    "identifier": "perintah",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "kompilasi",
+    "identifier": "kompilasi",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "_Sambung",
+    "identifier": "Sambung",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "prosesAktif",
+    "identifier": "prosesAktif",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "direktori",
+    "identifier": "direktori",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "galat",
+    "identifier": "galat",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "event": {
+    "text": "Even",
+    "identifier": "Even",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Eksekusi",
+    "identifier": "Eksekusi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "berkas",
+    "identifier": "berkas",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "inisialisasi",
+    "identifier": "inisialisasi",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "Kunci",
+    "identifier": "Kunci",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Nama",
+    "identifier": "Nama",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/pluma.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "baris masukan",
+    "identifier": "baris_masukan",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "muatSumber",
+    "identifier": "muatSumber",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "pesan",
+    "identifier": "pesan",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "mode",
+    "identifier": "mode",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Nama",
+    "identifier": "Nama_2",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Buka",
+    "identifier": "Buka",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "keluaranTeks",
+    "identifier": "keluaranTeks",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "penguraiArgumen",
+    "identifier": "penguraiArgumen",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "jalur",
+    "identifier": "jalur",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "nomorPort",
+    "identifier": "nomorPort",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "posisi",
+    "identifier": "posisi",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Proses",
+    "identifier": "Proses",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Baca",
+    "identifier": "Baca",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "pembacaTeks",
+    "identifier": "pembacaTeks",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "Hapus",
+    "identifier": "Hapus",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "hasil",
+    "identifier": "hasil",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "jalankan",
+    "identifier": "jalankan",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "_Simpan",
+    "identifier": "Simpan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Konfigurasi",
+    "identifier": "Konfigurasi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Ukuran",
+    "identifier": "Ukuran",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "kodeSumber",
+    "identifier": "kodeSumber",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "Hentikan",
+    "identifier": "Hentikan",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminal",
+    "identifier": "terminal",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "teks",
+    "identifier": "teks",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "utasEksekusi",
+    "identifier": "utasEksekusi",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "_Bilah Alat",
+    "identifier": "Bilah_Alat",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Jendela",
+    "identifier": "Jendela",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "tugasLatar",
+    "identifier": "tugasLatar",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "RuangKerja",
+    "identifier": "RuangKerja",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/id/text/shared/guide/doc_save.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "_Tulis",
+    "identifier": "Tulis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/id/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

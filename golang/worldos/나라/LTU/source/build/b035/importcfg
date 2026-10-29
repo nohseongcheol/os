@@ -1,0 +1,4 @@
+# import config
+packagefile atmintismanager=/home/user/worldos/나라/LTU/소스/build/b002/_pkg_.a
+packagefile console=/home/user/.cache/go-build/fa/fa3bc053b1713a8e9f29b0f5912263361e3506cada2babededc84e44028e10e9-d
+packagefile runtime/cgo=/home/user/worldos/나라/LTU/소스/build/b000/_pkg_.a

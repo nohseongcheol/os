@@ -1,0 +1,5 @@
+# import config
+packagefile interrupción=/home/user/worldos/나라/GTM/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/GTM/소스/build/b021/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/64/640cc23f7966e829de5f195a4fd7686d7145c35993ff96761a3c49ab256d21d3-d
+packagefile runtime/cgo=/home/user/worldos/나라/GTM/소스/build/b000/_pkg_.a

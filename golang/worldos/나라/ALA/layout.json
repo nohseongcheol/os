@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "ALA",
+  "language": "sv",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

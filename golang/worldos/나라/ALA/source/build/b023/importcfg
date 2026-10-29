@@ -1,0 +1,5 @@
+# import config
+packagefile avbrott=/home/user/worldos/나라/ALA/소스/build/b024/_pkg_.a
+packagefile minnemanager=/home/user/worldos/나라/ALA/소스/build/b021/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c2/c28875dd02627a13e6cc9b5ab6ceb94ffdcfc3f6dd8009d8cbd61cae75c9d898-d
+packagefile runtime/cgo=/home/user/worldos/나라/ALA/소스/build/b000/_pkg_.a

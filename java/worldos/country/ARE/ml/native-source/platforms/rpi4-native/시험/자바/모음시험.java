@@ -1,0 +1,21 @@
+// Copyright 2020. (노성철, nsch78@nate.com, nsch@naver.com) All right reserved
+import java.util.ArrayList;
+import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
+public class 모음시험 {
+    public static void main(String[] a) {
+        List<String> എന്_ട്രി_ലിസ്റ്റ് = new ArrayList<String>(); എന്_ട്രി_ലിസ്റ്റ്.add("한글"); എന്_ട്രി_ലിസ്റ്റ്.add("😀"); എന്_ട്രി_ലിസ്റ്റ്.add("日本語");
+        System.out.println(എന്_ട്രി_ലിസ്റ്റ്.get(1)); System.out.println(എന്_ട്രി_ലിസ്റ്റ്.set(1, "മാറ്റികൊടുക്കുക_മൂല്യം")); System.out.println(എന്_ട്രി_ലിസ്റ്റ്.remove(0));
+        System.out.println(എന്_ട്രി_ലിസ്റ്റ്.size()); System.out.println(എന്_ട്രി_ലിസ്റ്റ്.get(0));
+        Map<String, Integer> നിഘണ്ടു = new HashMap<String, Integer>();
+        നിഘണ്ടു.put("하나", 1); നിഘണ്ടു.put("둘", 2); System.out.println(നിഘണ്ടു.put("하나", 3).intValue());
+        System.out.println(നിഘണ്ടു.get("하나").intValue()); System.out.println(നിഘണ്ടു.containsKey("둘"));
+        System.gc(); System.out.println(നിഘണ്ടു.remove("둘").intValue()); System.out.println(നിഘണ്ടു.size());
+        എന്_ട്രി_ലിസ്റ്റ്.clear(); നിഘണ്ടു.clear(); System.out.println(എന്_ട്രി_ലിസ്റ്റ്.isEmpty()); System.out.println(നിഘണ്ടു.isEmpty());
+        System.out.println("한글😀문자".substring(2, 4).concat("!")); System.out.println("한글".equals("한".concat("പദാവലി")));
+        String keep = "남는 പദാവലി"; int sum = 0;
+        for (int i = 0; i < 350; i++) { int[] garbage = new int[200]; garbage[0] = i; sum += garbage[0]; }
+        System.out.println(sum); System.out.println(keep);
+    }
+}

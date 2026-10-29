@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 مسیر 호환 ورودی_نقطه. واقعی_داده_ها 구현: ../ابزارها/اجرا_فایل.py"""
+import importlib as 가져오기
+import sys as سیستم_عامل_مقدار
+from pathlib import Path as مسیر
+سیستم_عامل_مقدار.path.insert(0, str(مسیر(__file__).resolve().parents[1] / 'ابزارها'))
+if __name__ == '__main__':
+    import runpy as برنامه_راه_انداز
+    برنامه_راه_انداز.run_module('اجرا_فایل', run_name='__main__', alter_sys=True)
+else:
+    구현 = 가져오기.import_module('اجرا_فایل')
+    대응 = {'timeout': '시간제한', 's': 'رشته_داده_ها', 'i': '순번', 'match': '일치', 'files': 'فایل_لیست', 'program': 'برنامه', 'executable': '실행가능파일', 'args': 'آرگومان_آرايه', 'chunk': '조각', 'data': 'داده_ها', 'proc': 'فرآیند', 'send': 'ارسال', 'main': 'اجرا_2', 'marker': '확인표시', 'command': 'فرمان', 'include': '포함항목', 'dumped': '갈무리자료', 'run': 'اجرا_فرمان', 'p': 'داده_ها_مرتب_کردن', 'parser': 'مفسر', 'options': 'گزینه_ها', 'kind': 'دسته_مقدار', 'selector': 'انتخاب_کننده', 'upload_data': 'آپلود_داده_ها', 'end': 'پایان_دادن_جابجایی_لایه_ای', 'n': '개수', 'd': 'مقصد_داده_ها', 'key': '누름값', 'output': '출력결과', 'line': 'خط', 'name': 'نام', 'upload_name': 'آپلود_نام', 'receive': '수신하기'}
+    for 이전, 현재 in 대응.items():
+        if hasattr(구현, 현재): globals()[이전] = getattr(구현, 현재)

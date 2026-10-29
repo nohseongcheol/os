@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Akcia",
+    "identifier": "Akcia",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "Argumenty",
+    "identifier": "Argumenty",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "Tlačidlo",
+    "identifier": "Tlačidlo",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/xfce4-notifyd.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "vybrať...",
+    "identifier": "vybrať",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Trieda",
+    "identifier": "Trieda",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Zatvoriť",
+    "identifier": "Zatvoriť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Príkaz",
+    "identifier": "Príkaz",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Pripojiť",
+    "identifier": "Pripojiť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "Aktuálny",
+    "identifier": "Aktuálny",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Adresár",
+    "identifier": "Adresár",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "chyba",
+    "identifier": "chyba",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Udalosť",
+    "identifier": "Udalosť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Spustiť",
+    "identifier": "Spustiť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Súbor",
+    "identifier": "Súbor",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Kľúč",
+    "identifier": "Kľúč",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Nápis",
+    "identifier": "Nápis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "riadok",
+    "identifier": "riadok",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/kate.mo",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Zaťaženie",
+    "identifier": "Zaťaženie",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Mód",
+    "identifier": "Mód",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Názov",
+    "identifier": "Názov",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Otvoriť",
+    "identifier": "Otvoriť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "Výstup",
+    "identifier": "Výstup",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/gnome-flashback.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "Cesta",
+    "identifier": "Cesta",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Pozícia",
+    "identifier": "Pozícia",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Proces",
+    "identifier": "Proces",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "Čí_tanie",
+    "identifier": "Čítanie",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Odstrániť",
+    "identifier": "Odstrániť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Spustiť",
+    "identifier": "Spustiť_2",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Uložiť",
+    "identifier": "Uložiť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Nastavenia",
+    "identifier": "Nastavenia",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Veľkosť",
+    "identifier": "Veľkosť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "ZDROJ",
+    "identifier": "ZDROJ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Zastaviť",
+    "identifier": "Zastaviť",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Terminál",
+    "identifier": "Terminál",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/katekonsoleplugin.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Spracovanie textu",
+    "identifier": "Spracovanie_textu",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/menu-sections.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Panel nástrojov",
+    "identifier": "Panel_nástrojov",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Okno",
+    "identifier": "Okno",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Zápis",
+    "identifier": "Zápis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/sk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

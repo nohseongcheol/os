@@ -1,0 +1,41 @@
+{
+  "libassh": {
+    "version": "1.1",
+    "license": "LGPL-2.1-or-later",
+    "url": "https://download.savannah.nongnu.org/releases/libassh/libassh-1.1.tar.gz",
+    "archive_sha256": "fcbe34171ee1ef46f9227434572797404d3d65bac2a35eaf4b91c84492561ee7",
+    "local_changes": "No library source changes; freestanding configuration and native adapter in 원격/."
+  },
+  "bearssl": {
+    "version": "0.6",
+    "license": "MIT",
+    "url": "https://www.bearssl.org/bearssl-0.6.tar.gz",
+    "archive_sha256": "6705bba1714961b41a728dfc5debbe348d2966c117649392f8c8139efc83ff14",
+    "used": "SHA256 and constant-time DES for VNC authentication only"
+  },
+  "genet": {
+    "upstream": "FreeBSD releng/14.3",
+    "license": "BSD-2-Clause AND BSD-4-Clause",
+    "local": "통신망/유선망.c",
+    "hardware_tested": false,
+    "sources": {
+      "if_genet.c": {
+        "url": "https://raw.githubusercontent.com/freebsd/freebsd-src/releng/14.3/sys/arm64/broadcom/genet/if_genet.c",
+        "vendored_sha256": "9649cb5f5cf138be93b7d81c48d2ca7cc9ff88c774b7cd684e8f46c3062bcbf3"
+      },
+      "if_genetreg.h": {
+        "url": "https://raw.githubusercontent.com/freebsd/freebsd-src/releng/14.3/sys/arm64/broadcom/genet/if_genetreg.h",
+        "vendored_sha256": "22fad1695d0608f19411829d80613417645c06e9d999395e4e1b6ea30fbb5967"
+      },
+      "brgphy.c": {
+        "url": "https://raw.githubusercontent.com/freebsd/freebsd-src/releng/14.3/sys/dev/mii/brgphy.c",
+        "vendored_sha256": "fea058a9f18796eafbd0d16142e839a65207f1da66d0abe6e4dc3bdada506a77"
+      },
+      "brgphyreg.h": {
+        "url": "https://raw.githubusercontent.com/freebsd/freebsd-src/releng/14.3/sys/dev/mii/brgphyreg.h",
+        "vendored_sha256": "5b93a6512435fd8d84fed4deb15f169186be74a43a96301d81894827bc78852a"
+      }
+    },
+    "local_changes": "New lwIP port; if_genetreg.h uses uint32_t in place of u_int32_t. Original notices preserved."
+  }
+}

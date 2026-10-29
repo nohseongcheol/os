@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	build_shell
+executable_file	executable_file
+include_directory	include_directory
+library_file	library_file
+linker_file	linker_file
+object_file	object_file
+source_file	source_file
+startup_object	startup_object

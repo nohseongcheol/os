@@ -1,0 +1,5 @@
+# import config
+packagefile hilfswerkzeug=/home/user/worldos/나라/DEU/Quelltext/build/b028/_pkg_.a
+packagefile konsole=/home/user/worldos/나라/DEU/Quelltext/build/b004/_pkg_.a
+packagefile treiber/ata=/home/user/worldos/나라/DEU/Quelltext/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/DEU/Quelltext/build/b000/_pkg_.a

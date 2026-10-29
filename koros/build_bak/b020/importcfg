@@ -1,0 +1,3 @@
+# import config
+packagefile gdt=/home/user/koros/build/b004/_pkg_.a
+packagefile reflect=/home/user/koros/build/b007/_pkg_.a

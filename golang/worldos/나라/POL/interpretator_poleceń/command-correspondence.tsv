@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	pokaż_pomoc
+echo	wypisz_argumenty
+pwd	pokaż_katalog_roboczy
+cat	pokaż_zawartość_pliku
+stat	pokaż_informacje_o_pliku
+pid	pokaż_identyfikatory_procesów
+uname	pokaż_tożsamość_systemu
+run	uruchom_program
+udp	sprawdź_powrót_datagramu
+source	interpretuj_plik_poleceń
+cd	zmień_katalog
+exit	wyjdź

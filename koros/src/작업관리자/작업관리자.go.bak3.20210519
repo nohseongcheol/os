@@ -1,0 +1,98 @@
+package 작업관리자
+
+import . "unsafe"
+import . "reflect"
+import . "gdt"
+
+type T중앙처리장치_상태 struct{
+	확장누산기_기록회로 uint32 			// Extended Accumulator Register (EAX)
+	확장기준주소_기록회로 uint32 			// Extended Base Addre스택영역 Register(EBX)
+	확장횟수지정_기록회로 uint32 			// Extended Counter Register(ECX)
+	확장자료_기록회로 uint32 			// Extended Data Register (EDX)
+
+	확장출발지주소_기록회로 uint32			// Extended Source Index(ESI)
+	확장목적지주소_기록회로 uint32			// Extended Destination Index(EDI)
+	확장스택기준점_지시자 uint32			// Extended Base Pointer Register(ebp)
+
+	//error uint32
+	
+	확장명령어_지시자 uint32			// Extend Instruction Pointer(eip)
+	코드영역 uint32					// Code Segment
+	eflags uint32
+	
+	확장스택_지시자 uint32
+	스택영역 uint32
+}
+type T작업자료 struct{
+	스택 [4096] uint8
+	중앙처리장치_상태 *T중앙처리장치_상태
+}
+var 작업자료 T작업자료
+
+type T작업 struct{
+	스택 [4096] uint8
+	중앙처리장치_상태 *T중앙처리장치_상태
+}
+var 스택 [256][4096] uint8
+var 중앙처리장치_상태 *T중앙처리장치_상태
+var 작업번호 uint8=0
+
+func (자신 *T작업) M초기화(gdt *T공용서술자표, 진입점 func()){
+	
+	자신.중앙처리장치_상태 = (*T중앙처리장치_상태)(Pointer(uintptr(Pointer(&스택[작업번호])) + 4096 - Sizeof(T중앙처리장치_상태{})))
+	//자신.중앙처리장치_상태 = (*T중앙처리장치_상태)(Pointer(&스택[int(작업번호) + 4096 - int(Sizeof(T중앙처리장치_상태{}))]))
+	작업번호++
+
+	자신.중앙처리장치_상태.확장누산기_기록회로 = 0
+	자신.중앙처리장치_상태.확장기준주소_기록회로 = 0
+	자신.중앙처리장치_상태.확장횟수지정_기록회로 = 0
+	자신.중앙처리장치_상태.확장자료_기록회로 = 0
+
+
+	자신.중앙처리장치_상태.확장출발지주소_기록회로 = 0
+	자신.중앙처리장치_상태.확장목적지주소_기록회로 = 0
+	자신.중앙처리장치_상태.확장스택기준점_지시자 = 0
+
+	자신.중앙처리장치_상태.확장명령어_지시자 = uint32(ValueOf(진입점).Pointer())
+	자신.중앙처리장치_상태.코드영역 = uint32(gdt.M코드조각선택자())
+	자신.중앙처리장치_상태.eflags = 0x202
+
+	자신.중앙처리장치_상태.확장스택_지시자 = 0
+	자신.중앙처리장치_상태.스택영역 = 0
+
+}
+type T작업관리자 struct{
+}
+var 작업들 [256] T작업
+var 작업갯수 int
+var 현재작업 int
+func (자신 * T작업관리자) M초기화() {
+	작업갯수 = 0
+	현재작업 = -1 
+}
+
+func (자신 *T작업관리자) M작업추가(작업 T작업) bool {
+	if(작업갯수 >= 255){
+		return false
+	}
+	작업들[작업갯수] = 작업
+	작업갯수++
+	return true
+}
+func (자신 *T작업관리자) M작업일정(중앙처리장치_상태 *T중앙처리장치_상태) *T중앙처리장치_상태{
+
+	if 작업갯수 <= 0 {
+		return 중앙처리장치_상태
+	}
+	
+	if 현재작업 >= 0 {
+		작업들[현재작업].중앙처리장치_상태 = 중앙처리장치_상태
+	}
+	
+	현재작업++
+	if 현재작업 >= 작업갯수 {
+		현재작업 %= 작업갯수
+	}
+
+	return 작업들[현재작업].중앙처리장치_상태
+}

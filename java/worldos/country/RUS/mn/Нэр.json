@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Үйлдэл",
+    "identifier": "Үйлдэл",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/mate-control-center.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Анги",
+    "identifier": "Анги",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/metacity.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "_Хаах",
+    "identifier": "Хаах",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Тушаал",
+    "identifier": "Тушаал",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Холбох",
+    "identifier": "Холбох",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Лавлах",
+    "identifier": "Лавлах",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "Алдаа",
+    "identifier": "Алдаа",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "execute",
+    "identifier": "execute",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "_Файл",
+    "identifier": "Файл",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Тэмдэг",
+    "identifier": "Тэмдэг",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "Шугам",
+    "identifier": "Шугам",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Процессор ачаалж байна",
+    "identifier": "Процессор_ачаалж_байна",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Горим",
+    "identifier": "Горим",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Нэр",
+    "identifier": "Нэр",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/alacarte.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Нээх",
+    "identifier": "Нээх",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "output",
+    "identifier": "output",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "ЗАМ",
+    "identifier": "ЗАМ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/gnome-screensaver.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "Порт",
+    "identifier": "Порт",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "position",
+    "identifier": "position",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "process",
+    "identifier": "process",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Унших",
+    "identifier": "Унших",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Устгах",
+    "identifier": "Устгах",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Ажиллуулах",
+    "identifier": "Ажиллуулах",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Хадгалах",
+    "identifier": "Хадгалах",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "_Тохиргоо",
+    "identifier": "Тохиргоо",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Хэмжээ",
+    "identifier": "Хэмжээ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "ЭХ",
+    "identifier": "ЭХ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Зогс",
+    "identifier": "Зогс",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Терминал",
+    "identifier": "Терминал",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/mate-terminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Бичвэр",
+    "identifier": "Бичвэр",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Хэрэгслийн мөр",
+    "identifier": "Хэрэгслийн_мөр",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Бичих",
+    "identifier": "Бичих",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/mn/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

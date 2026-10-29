@@ -1,0 +1,535 @@
+{
+  "action": {
+    "text": "Дія",
+    "identifier": "Дія",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "Адреса",
+    "identifier": "Адреса",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/virt-manager.mo",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "системний виклик",
+    "identifier": "системний_виклик",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "додати в кінець списку",
+    "identifier": "додати_в_кінець_списку",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "аргументи",
+    "identifier": "аргументи",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "кнопка",
+    "identifier": "кнопка",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "вибрати...",
+    "identifier": "вибрати",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Клас",
+    "identifier": "Клас",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Закрити",
+    "identifier": "Закрити",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "команда",
+    "identifier": "команда",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "компілювати",
+    "identifier": "компілювати",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "_З'єднання",
+    "identifier": "З_єднання",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "поточнийПроцес",
+    "identifier": "поточнийПроцес",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "дані",
+    "identifier": "дані",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "каталог",
+    "identifier": "каталог",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "ПОМИЛКА",
+    "identifier": "ПОМИЛКА",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Подія",
+    "identifier": "Подія",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "Вико_нати",
+    "identifier": "Виконати",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "файл",
+    "identifier": "файл",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "ініціалізувати",
+    "identifier": "ініціалізувати",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "Ключ",
+    "identifier": "Ключ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Мітка",
+    "identifier": "Мітка",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "рядок введення",
+    "identifier": "рядок_введення",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "завантажитиДжерело",
+    "identifier": "завантажитиДжерело",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "повідомлення",
+    "identifier": "повідомлення",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "Режим",
+    "identifier": "Режим",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Назва",
+    "identifier": "Назва",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Відкрити",
+    "identifier": "Відкрити",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "текстовеВиведення",
+    "identifier": "текстовеВиведення",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "Панель",
+    "identifier": "Панель",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "аналізаторАргументів",
+    "identifier": "аналізаторАргументів",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "шлях",
+    "identifier": "шлях",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "номерПорту",
+    "identifier": "номерПорту",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "позиція",
+    "identifier": "позиція",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Процеси",
+    "identifier": "Процеси",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Читання",
+    "identifier": "Читання",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "зчитувачТексту",
+    "identifier": "зчитувачТексту",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "Вилучити",
+    "identifier": "Вилучити",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "результат",
+    "identifier": "результат",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "запустити",
+    "identifier": "запустити",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "З_берегти",
+    "identifier": "Зберегти",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Налаштування",
+    "identifier": "Налаштування",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Розмір",
+    "identifier": "Розмір",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "вихіднийКод",
+    "identifier": "вихіднийКод",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "З_упинити",
+    "identifier": "Зупинити",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "термінал",
+    "identifier": "термінал",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "текст",
+    "identifier": "текст",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "потікВиконання",
+    "identifier": "потікВиконання",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "П_анель знарядь",
+    "identifier": "Панель_знарядь",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Вікно",
+    "identifier": "Вікно",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "фоноваЗадача",
+    "identifier": "фоноваЗадача",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "РобочеСередовище",
+    "identifier": "РобочеСередовище",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/uk/text/shared/00/00000020.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "_Запис",
+    "identifier": "Запис",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/uk/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

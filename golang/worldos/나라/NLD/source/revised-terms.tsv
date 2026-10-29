@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	geheugen toewijzen	geheugen_toewijzen	project-proposal	function-based project proposal
+append	achteraan toevoegen	achteraan_toevoegen	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	toewijzingskaart	toewijzingskaart	project-proposal	function-based project proposal
+boot	machineopstart	machineopstart	project-proposal	function-based project proposal
+boot_record	hoofdopstartrecord	hoofdopstartrecord	project-proposal	boot code and partition metadata, not an audio recording
+bus	gedeelde overdrachtsweg	gedeelde_overdrachtsweg	project-proposal	function-based project proposal
+compile_kernel	kern compileren	kern_compileren	project-proposal	function-based project proposal
+destination_port	doelpoortnummer	doelpoortnummer	project-proposal	function-based project proposal
+elf	uitvoerbaar en koppelbaar formaat	uitvoerbaar_en_koppelbaar_formaat	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	foutnummer	foutnummer	project-proposal	function-based project proposal
+ethernet_frame	frame van het gedeelde medium netwerk	frame_van_het_gedeelde_medium_netwerk	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	framekop van het gedeelde medium netwerk	framekop_van_het_gedeelde_medium_netwerk	project-proposal	function-based project proposal
+ethernet_provider	frameleverancier van het gedeelde medium netwerk	frameleverancier_van_het_gedeelde_medium_netwerk	project-proposal	function-based project proposal
+fat_parameters	bestandssysteemparameters	bestandssysteemparameters	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	bestandsbesturing	bestandsbesturing	project-proposal	function-based project proposal
+file_read	bestand lezen	bestand_lezen	project-proposal	function-based project proposal
+file_status	bestandsstatus	bestandsstatus	project-proposal	function-based project proposal
+file_write	bestand schrijven	bestand_schrijven	project-proposal	function-based project proposal
+free_memory	geheugen vrijgeven	geheugen_vrijgeven	project-proposal	function-based project proposal
+headers	declaraties	declaraties	project-proposal	function-based project proposal
+heap	dynamisch geheugen	dynamisch_geheugen	project-proposal	function-based project proposal
+icmp	besturingsberichtprotocol voor verbonden netwerken	besturingsberichtprotocol_voor_verbonden_netwerken	project-proposal	function-based project proposal
+implementation	implementatie	implementatie	project-proposal	function-based project proposal
+insert_at	op positie invoegen	op_positie_invoegen	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	verbonden netwerk	verbonden_netwerk	project-proposal	function-based project proposal
+ip_provider	protocolleverancier voor verbonden netwerken	protocolleverancier_voor_verbonden_netwerken	project-proposal	function-based project proposal
+ipv4	protocol voor verbonden netwerken 4	protocol_voor_verbonden_netwerken_4	project-proposal	function-based project proposal
+link_layout	koppelindeling	koppelindeling	project-proposal	function-based project proposal
+list_node	lijstknooppunt	lijstknooppunt	project-proposal	function-based project proposal
+log_decoder	serieel logboek ontleden	serieel_logboek_ontleden	project-proposal	function-based project proposal
+mouse	aanwijsapparaat	aanwijsapparaat	project-proposal	function-based project proposal
+page_directory	paginamap	paginamap	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	fysieke pagina	fysieke_pagina	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	adresverwijzing	adresverwijzing	project-proposal	function-based project proposal
+prepend	vooraan toevoegen	vooraan_toevoegen	project-proposal	src/util/list/list.go: links before head
+register	register	register	project-proposal	function-based project proposal
+set_coordinates	lokale coördinaten instellen	lokale_coördinaten_instellen	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	bronpoortnummer	bronpoortnummer	project-proposal	function-based project proposal
+stack	stapelgeheugen	stapelgeheugen	project-proposal	function-based project proposal
+startup	opstart	opstart	project-proposal	function-based project proposal
+structure_offsets	structuurverplaatsingen	structuurverplaatsingen	project-proposal	function-based project proposal
+system_call	systeemaanroep	systeemaanroep	project-proposal	function-based project proposal
+tests	tests	tests	project-proposal	function-based project proposal
+toggle_bit	toewijzingsbit omkeren	toewijzingsbit_omkeren	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	hulpmiddelen	hulpmiddelen	project-proposal	function-based project proposal
+udp	gebruikersdatagramprotocol	gebruikersdatagramprotocol	project-proposal	function-based project proposal
+udp_header	gebruikersdatagramkop	gebruikersdatagramkop	project-proposal	function-based project proposal
+udp_socket	gebruikersdatagrameindpunt	gebruikersdatagrameindpunt	project-proposal	function-based project proposal
+user_space	gebruikersruimte	gebruikersruimte	project-proposal	function-based project proposal
+widget	schermelement	schermelement	project-proposal	function-based project proposal

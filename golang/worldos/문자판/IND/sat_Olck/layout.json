@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/sat_Olck",
+  "language": "sat_Olck",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

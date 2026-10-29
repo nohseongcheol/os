@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/worldos/나라/USA/source/build/b002/_pkg_.a
+packagefile driver/ata=/home/user/worldos/나라/USA/source/build/b004/_pkg_.a
+packagefile util=/home/user/worldos/나라/USA/source/build/b027/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/USA/source/build/b000/_pkg_.a

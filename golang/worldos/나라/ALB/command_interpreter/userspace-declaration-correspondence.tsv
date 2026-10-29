@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Mbyll
+SYS_exit	SYS__exit
+SYS_open	SYS_Hap
+SYS_read	SYS_Leximi
+SYS_write	SYS_Shkrimi
+close	Mbyll
+open	Hap
+read	Leximi
+write	Shkrimi

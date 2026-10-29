@@ -1,0 +1,16 @@
+# import config
+packagefile archivosistema/fat=/home/user/worldos/나라/CRI/소스/build/b002/_pkg_.a
+packagefile archivosistema/formato_ejecutable_y_enlazable=/home/user/worldos/나라/CRI/소스/build/b022/_pkg_.a
+packagefile archivosistema/msdospartición=/home/user/worldos/나라/CRI/소스/build/b003/_pkg_.a
+packagefile consola=/home/user/.cache/go-build/28/285c5f394b681f284dcba3b24f0101da143cf0983b9c8dd5277e2c16e272b72d-d
+packagefile controlador/ata=/home/user/worldos/나라/CRI/소스/build/b006/_pkg_.a
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/CRI/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/planificador=/home/user/worldos/나라/CRI/소스/build/b034/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/CRI/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/CRI/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/CRI/소스/build/b026/_pkg_.a
+packagefile paginación=/home/user/worldos/나라/CRI/소스/build/b023/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/d0/d0572b94833cd61818e99e5ecb3b62b68391dd126a5a386e3c1a06451b9ee488-d
+packagefile utilidad=/home/user/.cache/go-build/01/0133d499f476b0a1dc770a34f8c3b7a1287000832de1285c5ce9a58bff9778bd-d
+packagefile virtualmemoria=/home/user/worldos/나라/CRI/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CRI/소스/build/b000/_pkg_.a

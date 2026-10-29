@@ -1,0 +1,10 @@
+#ifndef स्वकीय_संचारजाळे_स्ट्रींग_शीर्षलेख
+#define स्वकीय_संचारजाळे_स्ट्रींग_शीर्षलेख
+#include <stddef.h>
+void *memcpy(void *, const void *, size_t);
+void *memset(void *, int, size_t);
+void *memmove(void *, const void *, size_t);
+int memcmp(const void *, const void *, size_t);
+size_t strlen(const char *);
+int strncmp(const char *, const char *, size_t);
+#endif

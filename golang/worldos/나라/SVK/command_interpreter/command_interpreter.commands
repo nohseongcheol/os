@@ -1,0 +1,5 @@
+# WorldOS SVK UTF-8 command file
+echo "WorldOS SVK"
+help
+pwd
+pid

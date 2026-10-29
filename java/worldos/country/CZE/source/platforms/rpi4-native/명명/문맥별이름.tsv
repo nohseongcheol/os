@@ -1,0 +1,8 @@
+název_souboru	이전이름	최종이름	쓰임
+C_kompilátor/Spustit_2.c	h	spustitelný_Nadpis	ELF Nadpis_HODNOTA
+počítač/uživatelský_prostor.c	h	spustitelný_Nadpis	ELF ověřit_5fb2b747·적재 Nadpis_HODNOTA
+počítač/uživatelský_prostor.h	x	registr_data	ARM64 x0..x30 Store_HODNOTA pole_HODNOTA
+počítač/Panel.c	h	열여섯진숫자	진수 CONVERT_HODNOTA 문자표
+uživatelský_prostor/자바/자바가상기계.java 화면호출	w h	너비 výška_HODNOTA	화면 치수
+nástroje/*.py	root	kořen_cesta	název_souboru 계층의 akce_kořen cesta_2
+počítač/interpret_příkazů.c	w	okno_položka	interpret_příkazů Okno Stav_HODNOTA ukazatel

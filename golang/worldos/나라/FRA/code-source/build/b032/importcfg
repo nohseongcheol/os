@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/worldos/나라/FRA/code-source/build/b002/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/FRA/code-source/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/FRA/code-source/build/b000/_pkg_.a

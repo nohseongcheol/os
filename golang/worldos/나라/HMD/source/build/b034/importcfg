@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ae/aef01da7b27eb8fb5684ac6102be6d274b4b16084d6e04f67e84538c082621f4-d
+packagefile gdt=/home/user/.cache/go-build/51/5171b80647fd2ed00a015842dc6a0aca74958b5e29902046476154a54be7de9e-d
+packagefile runtime/cgo=/home/user/worldos/나라/HMD/소스/build/b000/_pkg_.a

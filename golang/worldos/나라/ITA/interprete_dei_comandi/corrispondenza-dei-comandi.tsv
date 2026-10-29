@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	mostra_aiuto
+echo	mostra_argomenti
+pwd	mostra_cartella_corrente
+cat	mostra_contenuto_del_file
+stat	mostra_informazioni_del_file
+pid	mostra_identificatori_dei_processi
+uname	mostra_identità_del_sistema
+run	esegui_programma
+udp	verifica_ritorno_del_datagramma
+source	interpreta_file_di_comandi
+cd	cambia_cartella
+exit	esci

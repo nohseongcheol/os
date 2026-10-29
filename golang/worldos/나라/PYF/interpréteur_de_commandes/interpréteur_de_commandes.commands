@@ -1,0 +1,5 @@
+# WorldOS PYF UTF-8 command file
+afficher_les_arguments "WorldOS PYF"
+afficher_l_aide
+afficher_le_répertoire_courant
+afficher_les_identifiants_des_processus

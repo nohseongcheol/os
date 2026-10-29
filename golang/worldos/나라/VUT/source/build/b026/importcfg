@@ -1,0 +1,5 @@
+# import config
+packagefile interrupt=/home/user/worldos/나라/VUT/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/VUT/소스/build/b023/_pkg_.a
+packagefile util=/home/user/.cache/go-build/9b/9bb6d10074a77878e5c4455a04bee931eb7fc34bcea3d2042925f2e110bd32d9-d
+packagefile runtime/cgo=/home/user/worldos/나라/VUT/소스/build/b000/_pkg_.a

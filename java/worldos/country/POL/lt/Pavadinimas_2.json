@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Veiksmas",
+    "identifier": "Veiksmas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "Argumentai",
+    "identifier": "Argumentai",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "mygtukas",
+    "identifier": "mygtukas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "pasirinkite...",
+    "identifier": "pasirinkite",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Klasė",
+    "identifier": "Klasė",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Užverti",
+    "identifier": "Užverti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Komanda",
+    "identifier": "Komanda",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Prisijungti",
+    "identifier": "Prisijungti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "Dabartinis",
+    "identifier": "Dabartinis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Aplankas",
+    "identifier": "Aplankas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "KLAIDA",
+    "identifier": "KLAIDA",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Įvykis",
+    "identifier": "Įvykis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Vykdyti",
+    "identifier": "Vykdyti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Failas",
+    "identifier": "Failas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Raktas",
+    "identifier": "Raktas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Pavadinimas",
+    "identifier": "Pavadinimas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "Eilutė",
+    "identifier": "Eilutė",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Apkrova",
+    "identifier": "Apkrova",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Veiksena",
+    "identifier": "Veiksena",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Pavadinimas",
+    "identifier": "Pavadinimas_2",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Atverti",
+    "identifier": "Atverti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "Išvestis",
+    "identifier": "Išvestis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/katebuild-plugin.mo",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "Skydelis",
+    "identifier": "Skydelis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "KELIAS",
+    "identifier": "KELIAS",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "Prievadas",
+    "identifier": "Prievadas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/kategdbplugin.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "Pozicija",
+    "identifier": "Pozicija",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Procesas",
+    "identifier": "Procesas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Skaitymas",
+    "identifier": "Skaitymas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Šalinti",
+    "identifier": "Šalinti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "REZULTATAS",
+    "identifier": "REZULTATAS",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "Pa_leisti",
+    "identifier": "Paleisti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "Į_rašyti",
+    "identifier": "Įrašyti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Nustatymai",
+    "identifier": "Nustatymai",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Dydis",
+    "identifier": "Dydis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "ŠALTINIS",
+    "identifier": "ŠALTINIS",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "Susta_bdyti",
+    "identifier": "Sustabdyti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "Terminalas",
+    "identifier": "Terminalas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/katekonsoleplugin.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Tekstas",
+    "identifier": "Tekstas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "Į_rankių juosta",
+    "identifier": "Įrankių_juosta",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Langas",
+    "identifier": "Langas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_Rašymas",
+    "identifier": "Rašymas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/lt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

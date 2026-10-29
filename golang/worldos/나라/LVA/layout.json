@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "LVA",
+  "language": "lv",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

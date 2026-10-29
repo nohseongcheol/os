@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "FIN",
+  "language": "fi",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

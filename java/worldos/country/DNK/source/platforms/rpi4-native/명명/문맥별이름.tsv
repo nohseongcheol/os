@@ -1,0 +1,8 @@
+Fil	이전이름	최종이름	쓰임
+C_compiler/Kør_2.c	h	eksekverbar_fil_Header	ELF Header_VÆRDI
+maskine/bruger.c	h	eksekverbar_fil_Header	ELF bekræfte_5fb2b747·적재 Header_VÆRDI
+maskine/bruger.h	x	register_data	ARM64 x0..x30 Store_VÆRDI MATRIX_VÆRDI
+maskine/Tavle.c	h	열여섯진숫자	진수 KONVERTER_VÆRDI 문자표
+bruger/자바/자바가상기계.java 화면호출	w h	너비 높이	skærmbillede 치수
+Værktøjer/*.py	root	rod_sti	Fil 계층의 To_do_rod Sti
+maskine/Terminal.c	w	vindue_post	Terminal Vindue status_VÆRDI markør

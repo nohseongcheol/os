@@ -1,0 +1,67 @@
+{
+  "policy": "Whole-role functional proposals. Do not attribute a single philosophy to an entire country. Unreviewed etymologies are not asserted.",
+  "sources": [
+    "WorldOS naming/terms.json (CLDR language selection and prior proposals)",
+    "golang/worldos/tools/naming_lexicon.py (whole-role paths)",
+    "WorldOS native/terms.py (current implementation roles)"
+  ],
+  "review": "Native-speaker review pending; proposals are not official standard terminology.",
+  "lexical_evidence": [],
+  "thread_example": {
+    "name": "작업가닥",
+    "meaning": "An independently scheduled execution sequence; current kernel schedules cooperatively.",
+    "historical_root": "No language-specific historical claim.",
+    "reference": null
+  },
+  "functional_review": {
+    "references": [
+      "https://help.libreoffice.org/latest/vi/text/shared/optionen/01010200.html",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ],
+    "verified_lexeme_history": [],
+    "scope": "Previously reviewed whole roles; does not certify all new names or compounds.",
+    "compound_status": "Modern function-based project proposals; native-speaker review pending."
+  },
+  "country_language_policy": {
+    "country_code": "VNM",
+    "country_name": "Viet Nam",
+    "language": "vi",
+    "selection": "representative",
+    "country_source": "naming/countries.json (ISO 3166-1)",
+    "language_source": "Unicode CLDR 48; native/inputs/representatives.tsv; editions.json",
+    "namespace": {
+      "label": "Việt Nam",
+      "identifier": "Việt_Nam",
+      "source_locale": "vi",
+      "identifier_policy": "cldr-name-as-code-identifier",
+      "status": "cldr-territory-name",
+      "os_name": "JVnmOS"
+    },
+    "native_review": "pending",
+    "etymology_review": "partial; see term evidence"
+  },
+  "naming_scope": "First-party identifiers and paths; language keywords, external APIs, dependency archives, legal clauses, copyright and literal character values retain their specified identities.",
+  "unverified_terms": "native-pending.tsv; terms absent from language dictionaries are not certified translations.",
+  "terminology_proposals": {
+    "references": [
+      "https://learn.microsoft.com/en-us/globalization/reference/microsoft-terminology",
+      "https://unicode.org/Public/cldr/48/cldr-common-48.zip"
+    ],
+    "archive_sha256": null,
+    "archive_member": null,
+    "scope": "Original code roles composed using this language glossary. Modern proposals, not historically attested compounds. No related-language fallback or opaque collision suffix.",
+    "status": "function-based-project-proposals",
+    "native_review": "pending",
+    "etymology_review": "pending",
+    "manual_glossary_sha256": "727c71832e15f48fb66e0135fc0478113b118016b6dd47fc65950465d78e69f2",
+    "whole_role_corrections_sha256": "cbe54db257b9cfc806ec27b67fc6b4ba258421c9e7036ba8fce81b169063f4a1",
+    "naming_principles": "Vietnamese head-first technical noun groups and verb-first actions. Whole-role corrections take precedence over constituent composition. Preserve word boundaries with camel case and all Vietnamese tone marks. Standard project, protocol and processor names retain their identities.",
+    "verified_lexeme_history": [],
+    "whole_roles": 3656,
+    "pending_roles": 0
+  },
+  "java_prose": {
+    "revision": "1812699f83db1b359c217ad68e3ce7b439619cf1c8a678f9af0c3cc438b7afee",
+    "scope": "Explicit whole-sentence Java translations; other prose remains pending."
+  }
+}

@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	kurti_Failas	FUNCTION_VALUE	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	kurti_Failas_e47823fb	FUNCTION_VALUE	Rašymas 전용 generuoti 또는 Turinys_VALUE apmokėti_Turinys	파일규약.h
+read	파일자료읽기	FUNCTION_VALUE	열린 대상에서 baitas_VALUE 자료를 읽는다	파일규약.h
+write	rašymas_Failas_duomenys	FUNCTION_VALUE	열린 대상에 baitas_VALUE 자료를 쓴다	파일규약.h
+close	Uždaryti_Failas	FUNCTION_VALUE	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	ieškoti_Failas	FUNCTION_VALUE	열린 파일의 Į_I 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	FUNCTION_VALUE	같은 열린 Failas 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	FUNCTION_VALUE	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	pašalinti_Failas_įrašas_pavadinimas	FUNCTION_VALUE	Pavadinimas_2 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	파일길이정하기	FUNCTION_VALUE	열린 파일의 baitas_VALUE 길이를 정한다	파일규약.h
+fstat	파일상태읽기	FUNCTION_VALUE	열린 대상의 종류 Dydis 링크 numeris 등을 읽는다	파일규약.h
+fsync	vykdymas_failų_saugykla	FUNCTION_VALUE	Store_VALUE 매체에 dabartinis_prekė Failas 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	FUNCTION_VALUE	서술자별 설정과 공유 Atverti 설정을 다룬다	파일규약.h
+socket	kurti_dalyvis	FUNCTION_VALUE	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_ADDRESS	FUNCTION_VALUE	종단점에 vietinis_Aprėptis 주소와 접속번호를 묶는다	통신규약.h
+sendto	siųsti_paketų_kelio_schema_duomenys	FUNCTION_VALUE	지정한 상대에게 paketų_kelio_schema 하나를 보낸다	통신규약.h
+recvfrom	gauti_paketų_kelio_schema_duomenys	FUNCTION_VALUE	paketų_kelio_schema 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	FUNCTION_VALUE	vietinis_Aprėptis 종단점의 dabartinis_prekė 주소를 읽는다	통신규약.h
+setsockopt	keisti_tinklas_Parametrai	FUNCTION_VALUE	지원하는 gauti_VALUE_cef4d8ab Palauk_VALUE 설정을 바꾼다	통신규약.h
+inet_pton	analizuoti_sintaksę_tinklo_identifikatorius	FUNCTION_VALUE	skaitmuo_VALUE ADDRESS 문자열을 sutarties_vertė 바이트로 해석한다	통신규약.h
+inet_ntop	formatas_tinklo_identifikatorius	FUNCTION_VALUE	sutarties_vertė 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	FUNCTION_VALUE	16비트 값을 망의 baitas_VALUE 차례로 바꾼다	통신규약.h
+htonl	tinklas_sveikasis_skaičius	FUNCTION_VALUE	32비트 값을 망의 baitas_VALUE 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	FUNCTION_VALUE	16비트 값을 Vykdyti_komanda 장치의 baitas_VALUE 차례로 바꾼다	통신규약.h
+ntohl	įrenginys_tvarka_sveikasis_skaičius	FUNCTION_VALUE	32비트 값을 Vykdyti_komanda 장치의 baitas_VALUE 차례로 바꾼다	통신규약.h
+errno	klaidos_numeris	kintamasis_VALUE	실패한 C 호출의 양수 KLAIDA INDEX	errno.h
+fd	파일서술자	kintamasis_VALUE	Procesas_VALUE 안의 열린 대상을 식별하는 sveikasis_skaičius	Failas_Į_I.c
+count	baitas_COUNT	kintamasis_VALUE	duomenys 전송량의 단위가 바이트임을 드러낸다	Failas_Į_I.c
+offset	OFFSET_VALUE	kintamasis_VALUE	Project_šaknis 위치에 더할 kodavimas_VALUE 있는 거리	Failas_Į_I.c
+flags	kurti_Parametrai	kintamasis_VALUE	Failas prieiga_įrašas 방식과 Atverti Veiksmas	Failas_Į_I.c
+mode	허가	kintamasis_VALUE	generuoti 파일에 기록할 허가 bitas_VALUE	Failas_Į_I.c
+timeout	수신대기밀리초	kintamasis_VALUE	gauti_VALUE_cef4d8ab Palauk_VALUE 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	kintamasis_VALUE	UDP 종단점에 배정한 numeris_Sąrašas	tinklas_eilė.java
+통신장치.aparatūra_jungtis	tinklas_tvarkyklė.입출력기준주소	kintamasis_VALUE	NIC의 CPU Į_I ADDRESS ADDRESS_sritis Project_šaknis	tinklas_tvarkyklė.java
+generation	세대번호	kintamasis_VALUE	성공한 Store_VALUE 시점의 tvarka_VALUE	파일보존.java
+포트읽기	입출력바이트읽기	FUNCTION_VALUE	CPU Į_I 주소에서 한 바이트를 읽는다	įrenginys_VALUE.java
+포트쓰기	입출력바이트쓰기	FUNCTION_VALUE	CPU Į_I 주소에 한 바이트를 쓴다	įrenginys_VALUE.java
+포트정수읽기	입출력정수읽기	FUNCTION_VALUE	CPU Į_I 주소에서 32비트를 읽는다	įrenginys_VALUE.java
+포트정수쓰기	입출력정수쓰기	FUNCTION_VALUE	CPU Į_I 주소에 32비트를 쓴다	įrenginys_VALUE.java
+포트짧은쓰기	입출력짧은수쓰기	FUNCTION_VALUE	CPU Į_I 주소에 16비트를 쓴다	įrenginys_VALUE.java
+메모리파일.java	atmintis_failų_sistema.java	Failas·formatas_VALUE	주기억 내 Failas 자료와 이름을 관리한다	os/ŠALTINIS
+통신장치.java	tinklas_tvarkyklė.java	Failas·formatas_VALUE	PCI 망장치를 찾아 초기화하고 송수신한다	os/ŠALTINIS
+file I/O	Failas_Į_I.c	Failas	C 호출과 branduolys_VALUE 파일서술자 호출의 경계	posix-kor/ŠALTINIS/구현
+socket interface	통신종단점.c	Failas	C 소켓과 branduolys_VALUE 자료전문 기능의 경계	posix-kor/ŠALTINIS/구현
+syscall bridge	operacinė_sistema_Skambučiai.s	Failas	C 호출 규약과 branduolys_VALUE 레지스터 규약의 경계	posix-kor/mašina
+startup	Start_naudotojas_programa.s	Failas	naudotojas 진입점에서 C main을 시작한다	posix-kor/mašina

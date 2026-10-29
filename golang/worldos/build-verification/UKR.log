@@ -1,0 +1,61 @@
+make[1]: Entering directory '/home/user/worldos/나라/UKR'
+make -C 소스 kernel
+make[2]: Entering directory '/home/user/worldos/나라/UKR/소스'
+mkdir -p build
+nasm -g -f elf32 -F dwarf -o build/multiboot_header.o запуск_машини/multibootheader.s
+nasm -g -f elf32 -F dwarf -I запуск_машини/ -o build/rt0.o запуск_машини/rt0.s
+[ld] linking kernel.bin
+ld -n -melf_i386 -T схема_компонування.ld -static --no-ld-generated-unwind-info -o build/kernel.bin build/multiboot_header.o build/rt0.o build/go.o
+make[2]: Leaving directory '/home/user/worldos/나라/UKR/소스'
+make[1]: Leaving directory '/home/user/worldos/나라/UKR'
+make[1]: Entering directory '/home/user/worldos/나라/UKR/소스/простір_користувача/posix'
+mkdir -p build
+cc -m32 -c реалізація/системний_виклик.S -o build/syscall.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -c реалізація/номер_помилки.c -o build/errno.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -c реалізація/unistd.c -o build/unistd.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -c реалізація/керування_файлом.c -o build/fcntl.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -c реалізація/стан_файла.c -o build/stat.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -c реалізація/socket.c -o build/socket.o
+ar rcs build/libengos_posix.a build/syscall.o build/errno.o build/unistd.o build/fcntl.o build/stat.o build/socket.o
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -c випробування/compile.c -o build/compile-test.o
+
+syscall.o:
+
+errno.o:
+
+unistd.o:
+         U __engos_syscall_result
+         U errno
+         U fstat
+
+fcntl.o:
+         U __engos_syscall_result
+
+stat.o:
+         U __engos_syscall_result
+
+socket.o:
+         U __engos_syscall_result
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -fno-pic -c випробування/runtime.c -o build/runtime.o
+cc -m32 -c реалізація/запуск.S -o build/crt0.o
+ld -n -m elf_i386 -e _start -T схема_компонування.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-runtime build/crt0.o build/runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -fno-pic -c випробування/exec_target.c -o build/exec-target.o
+ld -n -m elf_i386 -e _start -T схема_компонування.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-target build/crt0.o build/exec-target.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -fno-pic -c випробування/exec_runtime.c -o build/exec-runtime.o
+ld -n -m elf_i386 -e _start -T схема_компонування.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-exec-runtime build/crt0.o build/exec-runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -fno-pic -c випробування/heap_runtime.c -o build/heap-runtime.o
+ld -n -m elf_i386 -e _start -T схема_компонування.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-heap-runtime build/crt0.o build/heap-runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -fno-pic -c випробування/fork_runtime.c -o build/fork-runtime.o
+ld -n -m elf_i386 -e _start -T схема_компонування.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-fork-runtime build/crt0.o build/fork-runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -fno-pic -c випробування/stdin_runtime.c -o build/stdin-runtime.o
+ld -n -m elf_i386 -e _start -T схема_компонування.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-stdin-runtime build/crt0.o build/stdin-runtime.o build/libengos_posix.a
+cc -m32 -ffreestanding -fno-pie -fno-stack-protector -fno-builtin -Wall -Wextra -Werror -nostdinc -Iоголошення -fno-pic -c випробування/socket_runtime.c -o build/socket-runtime.o
+ld -n -m elf_i386 -e _start -T схема_компонування.ld -static --no-ld-generated-unwind-info \
+	-o build/posix-socket-runtime build/crt0.o build/socket-runtime.o build/libengos_posix.a
+make[1]: Leaving directory '/home/user/worldos/나라/UKR/소스/простір_користувача/posix'

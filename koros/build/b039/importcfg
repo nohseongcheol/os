@@ -1,0 +1,4 @@
+# import config
+packagefile util=/home/user/koros/build/b024/_pkg_.a
+packagefile 구동장치들/고급기술결합=/home/user/koros/build/b025/_pkg_.a
+packagefile 단말기=/home/user/koros/build/b019/_pkg_.a

@@ -1,0 +1,4 @@
+TinyCC mob snapshot, fetched 2026-10-03
+https://github.com/TinyCC/tinycc
+Archive SHA256: 8a5ed256d7c952bcaad4984aba176c5ebba01fc92c371662aa3381db3501b2b1
+Local port in ../../ccompiler; upstream files unmodified.

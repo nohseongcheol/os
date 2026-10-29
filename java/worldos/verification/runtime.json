@@ -1,0 +1,27 @@
+{
+  "kernel": "6.18.50-0-virt",
+  "jdk": "OpenJDK 25",
+  "base": "Alpine 3.24",
+  "files": {
+    "vmlinuz": {
+      "bytes": 12596224,
+      "sha256": "9ac237d278de012108ff314800df4883d8bdf3e5e1f2abb26751763478915cf8"
+    },
+    "base.cpio.gz": {
+      "bytes": 35448899,
+      "sha256": "c6495983a9ebb09e91f41059c10e07b9c0311b146b10206d5e9516b0fa8fb457"
+    },
+    "rootfs.squashfs": {
+      "bytes": 1010036736,
+      "sha256": "c3419883742995988d9be7359892e2df46bde09ad0466d043da43d447bbee710"
+    },
+    "worldos-init": {
+      "bytes": 3415,
+      "sha256": "707fb3ba0a8bb6a7f752a2b2edc661cc575c398a938e40c809dd063c3417b8b6"
+    },
+    "input-session.sh": {
+      "bytes": 512,
+      "sha256": "41ff0b395318f7b2aa408bca5132be59fb1ca0f1d1cdb5697acec0ff2882a9d7"
+    }
+  }
+}

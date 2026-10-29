@@ -1,0 +1,5 @@
+# WorldOS MDV UTF-8 command file
+echo "WorldOS MDV"
+help
+pwd
+pid

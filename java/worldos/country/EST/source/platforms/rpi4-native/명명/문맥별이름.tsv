@@ -1,0 +1,8 @@
+Fail	이전이름	최종이름	쓰임
+_15_kompilaator/Käivita_2.c	h	실행머리	ELF Päis_VALUE
+arvuti/kasutaja.c	h	실행머리	ELF valideerima·적재 Päis_VALUE
+arvuti/kasutaja.h	x	register_andmed	ARM64 x0..x30 salv_VALUE ARRAY_VALUE
+arvuti/Tahvel.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+kasutaja/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Tööriistad/*.py	root	juur_tee	Fail 계층의 Project_juur RADA
+arvuti/terminal.c	w	aken_kirje	terminal aken Olek_VALUE kursor

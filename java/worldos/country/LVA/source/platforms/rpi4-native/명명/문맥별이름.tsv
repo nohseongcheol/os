@@ -1,0 +1,8 @@
+Fails	이전이름	최종이름	쓰임
+C_kompilators/Palaist.c	h	izpildāms_fails_galvene	ELF galvene_VALUE
+mašīna/lietotājs.c	h	izpildāms_fails_galvene	ELF validēt·적재 galvene_VALUE
+mašīna/lietotājs.h	x	reģistrs_dati	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+mašīna/Panelis.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+lietotājs/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Rīki/*.py	root	sakne_ceļš	Fails 계층의 Project_sakne CEĻŠ
+mašīna/Terminālis.c	w	logs_ievade	Terminālis Logs Statuss_VALUE rādītājs

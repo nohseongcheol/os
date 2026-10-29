@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/03/035da3497affed2c9e257b7d184ae2b39923e6379769e263d436c031b53d021b-d
+packagefile memóriagestor=/home/user/worldos/나라/PRT/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PRT/소스/build/b000/_pkg_.a

@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/AZE/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/AZE/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c2/c242121a3e25b7920db595519c301931926df77e43e5de5c16d5ef906436bb9e-d
+packagefile util/list=/home/user/worldos/나라/AZE/소스/build/b035/_pkg_.a
+packagefile yaddaşmanager=/home/user/worldos/나라/AZE/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AZE/소스/build/b000/_pkg_.a

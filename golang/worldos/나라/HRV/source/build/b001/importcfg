@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/31/31d8a44045a7e1aa6f4bd45ff9e898e1cb815ac00b2137dcfa46702214a9dfd5-d
+packagefile datotekaSustav/elf=/home/user/worldos/나라/HRV/소스/build/b004/_pkg_.a
+packagefile datotekaSustav/fat=/home/user/worldos/나라/HRV/소스/build/b024/_pkg_.a
+packagefile datotekaSustav/msdospartition=/home/user/worldos/나라/HRV/소스/build/b025/_pkg_.a
+packagefile driver/ata=/home/user/worldos/나라/HRV/소스/build/b026/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/19/19fb6fefa2773ed39dbceeaffba3993091435dfe84cd3f9646ba4f5a7261ad03-d
+packagefile driver/miš=/home/user/worldos/나라/HRV/소스/build/b028/_pkg_.a
+packagefile driver/tipkovnica=/home/user/worldos/나라/HRV/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/bf/bffc50a2238a04ab146879a24fa8d1eac2d6d67cf3d281289c43c225f0e24587-d
+packagefile memorijamanager=/home/user/worldos/나라/HRV/소스/build/b005/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/HRV/소스/build/b021/_pkg_.a
+packagefile paging=/home/user/worldos/나라/HRV/소스/build/b006/_pkg_.a
+packagefile pci=/home/user/worldos/나라/HRV/소스/build/b037/_pkg_.a
+packagefile prekid=/home/user/worldos/나라/HRV/소스/build/b007/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sustavcall=/home/user/worldos/나라/HRV/소스/build/b030/_pkg_.a
+packagefile tasking/proces=/home/user/worldos/나라/HRV/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/HRV/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/HRV/소스/build/b032/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/HRV/소스/build/b035/_pkg_.a
+packagefile util=/home/user/.cache/go-build/e9/e95f538958854207bb3db21faf75a559bcbdbef83bcbff7bc1585a73f3003715-d
+packagefile virtualnoMemorija=/home/user/worldos/나라/HRV/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/HRV/소스/build/b000/_pkg_.a

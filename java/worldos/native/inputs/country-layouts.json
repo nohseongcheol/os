@@ -1,0 +1,2243 @@
+{
+  "BWA": {
+    "version": 1,
+    "edition": "BWA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ASM": {
+    "version": 1,
+    "edition": "ASM",
+    "language": "sm",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NFK": {
+    "version": 1,
+    "edition": "NFK",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BES": {
+    "version": 1,
+    "edition": "BES",
+    "language": "nl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "COG": {
+    "version": 1,
+    "edition": "COG",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "SVN": {
+    "version": 1,
+    "edition": "SVN",
+    "language": "sl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SVK": {
+    "version": 1,
+    "edition": "SVK",
+    "language": "sk",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MYT": {
+    "version": 1,
+    "edition": "MYT",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "UGA": {
+    "version": 1,
+    "edition": "UGA",
+    "language": "sw",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CIV": {
+    "version": 1,
+    "edition": "CIV",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "BHR": {
+    "version": 1,
+    "edition": "BHR",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "COM": {
+    "version": 1,
+    "edition": "COM",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "KIR": {
+    "version": 1,
+    "edition": "KIR",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "COD": {
+    "version": 1,
+    "edition": "COD",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "WLF": {
+    "version": 1,
+    "edition": "WLF",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "VAT": {
+    "version": 1,
+    "edition": "VAT",
+    "language": "it",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "codice-sorgente"
+    }
+  },
+  "VIR": {
+    "version": 1,
+    "edition": "VIR",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "EGY": {
+    "version": 1,
+    "edition": "EGY",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "GHA": {
+    "version": 1,
+    "edition": "GHA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "AUT": {
+    "version": 1,
+    "edition": "AUT",
+    "language": "de",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "Quelltext"
+    }
+  },
+  "HND": {
+    "version": 1,
+    "edition": "HND",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "AFG": {
+    "version": 1,
+    "edition": "AFG",
+    "language": "fa",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "KWT": {
+    "version": 1,
+    "edition": "KWT",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "MDG": {
+    "version": 1,
+    "edition": "MDG",
+    "language": "mg",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "PHL": {
+    "version": 1,
+    "edition": "PHL",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "DNK": {
+    "version": 1,
+    "edition": "DNK",
+    "language": "da",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CUB": {
+    "version": 1,
+    "edition": "CUB",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "PYF": {
+    "version": 1,
+    "edition": "PYF",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "GAB": {
+    "version": 1,
+    "edition": "GAB",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "BIH": {
+    "version": 1,
+    "edition": "BIH",
+    "language": "bs_Cyrl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "AZE": {
+    "version": 1,
+    "edition": "AZE",
+    "language": "az_Latn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GMB": {
+    "version": 1,
+    "edition": "GMB",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NZL": {
+    "version": 1,
+    "edition": "NZL",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GNQ": {
+    "version": 1,
+    "edition": "GNQ",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "IRQ": {
+    "version": 1,
+    "edition": "IRQ",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "KOR": {
+    "version": 1,
+    "edition": "KOR",
+    "language": "ko",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "원문"
+    }
+  },
+  "AUS": {
+    "version": 1,
+    "edition": "AUS",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "USA": {
+    "version": 1,
+    "edition": "USA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "DMA": {
+    "version": 1,
+    "edition": "DMA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GUY": {
+    "version": 1,
+    "edition": "GUY",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "LKA": {
+    "version": 1,
+    "edition": "LKA",
+    "language": "si",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ATG": {
+    "version": 1,
+    "edition": "ATG",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BDI": {
+    "version": 1,
+    "edition": "BDI",
+    "language": "rn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "RUS": {
+    "version": 1,
+    "edition": "RUS",
+    "language": "ru",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "исходный-код"
+    }
+  },
+  "OMN": {
+    "version": 1,
+    "edition": "OMN",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "LUX": {
+    "version": 1,
+    "edition": "LUX",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "BHS": {
+    "version": 1,
+    "edition": "BHS",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GRD": {
+    "version": 1,
+    "edition": "GRD",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "KAZ": {
+    "version": 1,
+    "edition": "KAZ",
+    "language": "ru",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "исходный-код"
+    }
+  },
+  "MYS": {
+    "version": 1,
+    "edition": "MYS",
+    "language": "ms_Latn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CMR": {
+    "version": 1,
+    "edition": "CMR",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "BLM": {
+    "version": 1,
+    "edition": "BLM",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "ISR": {
+    "version": 1,
+    "edition": "ISR",
+    "language": "he",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NAM": {
+    "version": 1,
+    "edition": "NAM",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MAF": {
+    "version": 1,
+    "edition": "MAF",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "MWI": {
+    "version": 1,
+    "edition": "MWI",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "FLK": {
+    "version": 1,
+    "edition": "FLK",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ISL": {
+    "version": 1,
+    "edition": "ISL",
+    "language": "is",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TKM": {
+    "version": 1,
+    "edition": "TKM",
+    "language": "tk_Latn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TTO": {
+    "version": 1,
+    "edition": "TTO",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SMR": {
+    "version": 1,
+    "edition": "SMR",
+    "language": "it",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "codice-sorgente"
+    }
+  },
+  "THA": {
+    "version": 1,
+    "edition": "THA",
+    "language": "th",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SOM": {
+    "version": 1,
+    "edition": "SOM",
+    "language": "so",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "PRK": {
+    "version": 1,
+    "edition": "PRK",
+    "language": "ko",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "원문"
+    }
+  },
+  "COL": {
+    "version": 1,
+    "edition": "COL",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "AIA": {
+    "version": 1,
+    "edition": "AIA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NER": {
+    "version": 1,
+    "edition": "NER",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "SUR": {
+    "version": 1,
+    "edition": "SUR",
+    "language": "nl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BMU": {
+    "version": 1,
+    "edition": "BMU",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BRA": {
+    "version": 1,
+    "edition": "BRA",
+    "language": "pt",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fonte"
+    }
+  },
+  "CYP": {
+    "version": 1,
+    "edition": "CYP",
+    "language": "el",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NLD": {
+    "version": 1,
+    "edition": "NLD",
+    "language": "nl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MTQ": {
+    "version": 1,
+    "edition": "MTQ",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "IRN": {
+    "version": 1,
+    "edition": "IRN",
+    "language": "fa",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ALA": {
+    "version": 1,
+    "edition": "ALA",
+    "language": "sv",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GUF": {
+    "version": 1,
+    "edition": "GUF",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "SHN": {
+    "version": 1,
+    "edition": "SHN",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MNG": {
+    "version": 1,
+    "edition": "MNG",
+    "language": "mn_Cyrl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "PCN": {
+    "version": 1,
+    "edition": "PCN",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BRB": {
+    "version": 1,
+    "edition": "BRB",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "VCT": {
+    "version": 1,
+    "edition": "VCT",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "FJI": {
+    "version": 1,
+    "edition": "FJI",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MAC": {
+    "version": 1,
+    "edition": "MAC",
+    "language": "zh_Hant",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "原始碼"
+    }
+  },
+  "VGB": {
+    "version": 1,
+    "edition": "VGB",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "JOR": {
+    "version": 1,
+    "edition": "JOR",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "ARM": {
+    "version": 1,
+    "edition": "ARM",
+    "language": "hy",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "KGZ": {
+    "version": 1,
+    "edition": "KGZ",
+    "language": "ky_Cyrl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MMR": {
+    "version": 1,
+    "edition": "MMR",
+    "language": "my",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ESP": {
+    "version": 1,
+    "edition": "ESP",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "IOT": {
+    "version": 1,
+    "edition": "IOT",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MAR": {
+    "version": 1,
+    "edition": "MAR",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "AGO": {
+    "version": 1,
+    "edition": "AGO",
+    "language": "pt",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fonte"
+    }
+  },
+  "ZAF": {
+    "version": 1,
+    "edition": "ZAF",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SEN": {
+    "version": 1,
+    "edition": "SEN",
+    "language": "wo",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "PAN": {
+    "version": 1,
+    "edition": "PAN",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "TZA": {
+    "version": 1,
+    "edition": "TZA",
+    "language": "sw",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CUW": {
+    "version": 1,
+    "edition": "CUW",
+    "language": "pap",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MNE": {
+    "version": 1,
+    "edition": "MNE",
+    "language": "sr_Latn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "LBR": {
+    "version": 1,
+    "edition": "LBR",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NIU": {
+    "version": 1,
+    "edition": "NIU",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CAN": {
+    "version": 1,
+    "edition": "CAN",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "PAK": {
+    "version": 1,
+    "edition": "PAK",
+    "language": "ur",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "JPN": {
+    "version": 1,
+    "edition": "JPN",
+    "language": "ja",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "原始記述"
+    }
+  },
+  "LCA": {
+    "version": 1,
+    "edition": "LCA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "WSM": {
+    "version": 1,
+    "edition": "WSM",
+    "language": "sm",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "HKG": {
+    "version": 1,
+    "edition": "HKG",
+    "language": "zh_Hant",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "原始碼"
+    }
+  },
+  "BRN": {
+    "version": 1,
+    "edition": "BRN",
+    "language": "ms_Latn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "IMN": {
+    "version": 1,
+    "edition": "IMN",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "VUT": {
+    "version": 1,
+    "edition": "VUT",
+    "language": "bi",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CRI": {
+    "version": 1,
+    "edition": "CRI",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "VEN": {
+    "version": 1,
+    "edition": "VEN",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "MRT": {
+    "version": 1,
+    "edition": "MRT",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "SYC": {
+    "version": 1,
+    "edition": "SYC",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "PRT": {
+    "version": 1,
+    "edition": "PRT",
+    "language": "pt",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fonte"
+    }
+  },
+  "UKR": {
+    "version": 1,
+    "edition": "UKR",
+    "language": "uk",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ALB": {
+    "version": 1,
+    "edition": "ALB",
+    "language": "sq",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SRB": {
+    "version": 1,
+    "edition": "SRB",
+    "language": "sr_Cyrl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TKL": {
+    "version": 1,
+    "edition": "TKL",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MSR": {
+    "version": 1,
+    "edition": "MSR",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BGR": {
+    "version": 1,
+    "edition": "BGR",
+    "language": "bg",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GEO": {
+    "version": 1,
+    "edition": "GEO",
+    "language": "ka",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "URY": {
+    "version": 1,
+    "edition": "URY",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "KEN": {
+    "version": 1,
+    "edition": "KEN",
+    "language": "sw",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "DZA": {
+    "version": 1,
+    "edition": "DZA",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "TWN": {
+    "version": 1,
+    "edition": "TWN",
+    "language": "zh_Hant",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "原始碼"
+    }
+  },
+  "MDA": {
+    "version": 1,
+    "edition": "MDA",
+    "language": "ro",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "KHM": {
+    "version": 1,
+    "edition": "KHM",
+    "language": "km",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BLR": {
+    "version": 1,
+    "edition": "BLR",
+    "language": "be",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BEL": {
+    "version": 1,
+    "edition": "BEL",
+    "language": "nl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "HTI": {
+    "version": 1,
+    "edition": "HTI",
+    "language": "ht",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NCL": {
+    "version": 1,
+    "edition": "NCL",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "LVA": {
+    "version": 1,
+    "edition": "LVA",
+    "language": "lv",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SYR": {
+    "version": 1,
+    "edition": "SYR",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "MLI": {
+    "version": 1,
+    "edition": "MLI",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "LIE": {
+    "version": 1,
+    "edition": "LIE",
+    "language": "de",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "Quelltext"
+    }
+  },
+  "STP": {
+    "version": 1,
+    "edition": "STP",
+    "language": "pt",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fonte"
+    }
+  },
+  "GGY": {
+    "version": 1,
+    "edition": "GGY",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ATF": {
+    "version": 1,
+    "edition": "ATF",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "MDV": {
+    "version": 1,
+    "edition": "MDV",
+    "language": "dv",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "PNG": {
+    "version": 1,
+    "edition": "PNG",
+    "language": "tpi",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SLE": {
+    "version": 1,
+    "edition": "SLE",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SXM": {
+    "version": 1,
+    "edition": "SXM",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "KNA": {
+    "version": 1,
+    "edition": "KNA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "VNM": {
+    "version": 1,
+    "edition": "VNM",
+    "language": "vi",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CPV": {
+    "version": 1,
+    "edition": "CPV",
+    "language": "pt",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fonte"
+    }
+  },
+  "TJK": {
+    "version": 1,
+    "edition": "TJK",
+    "language": "tg_Cyrl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BOL": {
+    "version": 1,
+    "edition": "BOL",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "COK": {
+    "version": 1,
+    "edition": "COK",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CZE": {
+    "version": 1,
+    "edition": "CZE",
+    "language": "cs",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "HUN": {
+    "version": 1,
+    "edition": "HUN",
+    "language": "hu",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TUN": {
+    "version": 1,
+    "edition": "TUN",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "PER": {
+    "version": 1,
+    "edition": "PER",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "DJI": {
+    "version": 1,
+    "edition": "DJI",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "CCK": {
+    "version": 1,
+    "edition": "CCK",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GIB": {
+    "version": 1,
+    "edition": "GIB",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SAU": {
+    "version": 1,
+    "edition": "SAU",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "SDN": {
+    "version": 1,
+    "edition": "SDN",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "CHE": {
+    "version": 1,
+    "edition": "CHE",
+    "language": "de",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "Quelltext"
+    }
+  },
+  "ITA": {
+    "version": 1,
+    "edition": "ITA",
+    "language": "it",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "codice-sorgente"
+    }
+  },
+  "IND": {
+    "version": 1,
+    "edition": "IND",
+    "language": "hi",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "मूल-पाठ"
+    }
+  },
+  "LBY": {
+    "version": 1,
+    "edition": "LBY",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "TGO": {
+    "version": 1,
+    "edition": "TGO",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "FRA": {
+    "version": 1,
+    "edition": "FRA",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "SGP": {
+    "version": 1,
+    "edition": "SGP",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ABW": {
+    "version": 1,
+    "edition": "ABW",
+    "language": "nl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MCO": {
+    "version": 1,
+    "edition": "MCO",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "ESH": {
+    "version": 1,
+    "edition": "ESH",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "QAT": {
+    "version": 1,
+    "edition": "QAT",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "CAF": {
+    "version": 1,
+    "edition": "CAF",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "NGA": {
+    "version": 1,
+    "edition": "NGA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SWE": {
+    "version": 1,
+    "edition": "SWE",
+    "language": "sv",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "LTU": {
+    "version": 1,
+    "edition": "LTU",
+    "language": "lt",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TON": {
+    "version": 1,
+    "edition": "TON",
+    "language": "to",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "JEY": {
+    "version": 1,
+    "edition": "JEY",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MKD": {
+    "version": 1,
+    "edition": "MKD",
+    "language": "mk",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NOR": {
+    "version": 1,
+    "edition": "NOR",
+    "language": "nb",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BGD": {
+    "version": 1,
+    "edition": "BGD",
+    "language": "bn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TCA": {
+    "version": 1,
+    "edition": "TCA",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "NRU": {
+    "version": 1,
+    "edition": "NRU",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TLS": {
+    "version": 1,
+    "edition": "TLS",
+    "language": "pt",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fonte"
+    }
+  },
+  "GLP": {
+    "version": 1,
+    "edition": "GLP",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "GRL": {
+    "version": 1,
+    "edition": "GRL",
+    "language": "kl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BTN": {
+    "version": 1,
+    "edition": "BTN",
+    "language": "dz",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GTM": {
+    "version": 1,
+    "edition": "GTM",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "CHL": {
+    "version": 1,
+    "edition": "CHL",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "PSE": {
+    "version": 1,
+    "edition": "PSE",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "ECU": {
+    "version": 1,
+    "edition": "ECU",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "REU": {
+    "version": 1,
+    "edition": "REU",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "ROU": {
+    "version": 1,
+    "edition": "ROU",
+    "language": "ro",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "POL": {
+    "version": 1,
+    "edition": "POL",
+    "language": "pl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "IRL": {
+    "version": 1,
+    "edition": "IRL",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "FSM": {
+    "version": 1,
+    "edition": "FSM",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BFA": {
+    "version": 1,
+    "edition": "BFA",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "NIC": {
+    "version": 1,
+    "edition": "NIC",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "ERI": {
+    "version": 1,
+    "edition": "ERI",
+    "language": "ti",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "AND": {
+    "version": 1,
+    "edition": "AND",
+    "language": "ca",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "DOM": {
+    "version": 1,
+    "edition": "DOM",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "BLZ": {
+    "version": 1,
+    "edition": "BLZ",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MHL": {
+    "version": 1,
+    "edition": "MHL",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ETH": {
+    "version": 1,
+    "edition": "ETH",
+    "language": "am",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "YEM": {
+    "version": 1,
+    "edition": "YEM",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "SLV": {
+    "version": 1,
+    "edition": "SLV",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "SGS": {
+    "version": 1,
+    "edition": "SGS",
+    "language": "und",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "HMD": {
+    "version": 1,
+    "edition": "HMD",
+    "language": "und",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ATA": {
+    "version": 1,
+    "edition": "ATA",
+    "language": "und",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SPM": {
+    "version": 1,
+    "edition": "SPM",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "SJM": {
+    "version": 1,
+    "edition": "SJM",
+    "language": "nb",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "LAO": {
+    "version": 1,
+    "edition": "LAO",
+    "language": "lo",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MUS": {
+    "version": 1,
+    "edition": "MUS",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TCD": {
+    "version": 1,
+    "edition": "TCD",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "TUV": {
+    "version": 1,
+    "edition": "TUV",
+    "language": "tvl",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SLB": {
+    "version": 1,
+    "edition": "SLB",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "FRO": {
+    "version": 1,
+    "edition": "FRO",
+    "language": "fo",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MNP": {
+    "version": 1,
+    "edition": "MNP",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CYM": {
+    "version": 1,
+    "edition": "CYM",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MLT": {
+    "version": 1,
+    "edition": "MLT",
+    "language": "mt",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "FIN": {
+    "version": 1,
+    "edition": "FIN",
+    "language": "fi",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ZMB": {
+    "version": 1,
+    "edition": "ZMB",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MOZ": {
+    "version": 1,
+    "edition": "MOZ",
+    "language": "pt",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fonte"
+    }
+  },
+  "HRV": {
+    "version": 1,
+    "edition": "HRV",
+    "language": "hr",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "UMI": {
+    "version": 1,
+    "edition": "UMI",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BEN": {
+    "version": 1,
+    "edition": "BEN",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "CXR": {
+    "version": 1,
+    "edition": "CXR",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "UZB": {
+    "version": 1,
+    "edition": "UZB",
+    "language": "uz_Latn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "MEX": {
+    "version": 1,
+    "edition": "MEX",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "ARG": {
+    "version": 1,
+    "edition": "ARG",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "NPL": {
+    "version": 1,
+    "edition": "NPL",
+    "language": "ne",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "LSO": {
+    "version": 1,
+    "edition": "LSO",
+    "language": "st",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "DEU": {
+    "version": 1,
+    "edition": "DEU",
+    "language": "de",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "Quelltext"
+    }
+  },
+  "GRC": {
+    "version": 1,
+    "edition": "GRC",
+    "language": "el",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "EST": {
+    "version": 1,
+    "edition": "EST",
+    "language": "et",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GNB": {
+    "version": 1,
+    "edition": "GNB",
+    "language": "pt",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fonte"
+    }
+  },
+  "LBN": {
+    "version": 1,
+    "edition": "LBN",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "PLW": {
+    "version": 1,
+    "edition": "PLW",
+    "language": "pau",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "JAM": {
+    "version": 1,
+    "edition": "JAM",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "IDN": {
+    "version": 1,
+    "edition": "IDN",
+    "language": "id",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "CHN": {
+    "version": 1,
+    "edition": "CHN",
+    "language": "zh_Hans",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "源代码"
+    }
+  },
+  "GIN": {
+    "version": 1,
+    "edition": "GIN",
+    "language": "fr",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "code-source"
+    }
+  },
+  "ARE": {
+    "version": 1,
+    "edition": "ARE",
+    "language": "ar",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "النص-المصدري"
+    }
+  },
+  "GUM": {
+    "version": 1,
+    "edition": "GUM",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "TUR": {
+    "version": 1,
+    "edition": "TUR",
+    "language": "tr",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "RWA": {
+    "version": 1,
+    "edition": "RWA",
+    "language": "rw",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "GBR": {
+    "version": 1,
+    "edition": "GBR",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "PRY": {
+    "version": 1,
+    "edition": "PRY",
+    "language": "gn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "ZWE": {
+    "version": 1,
+    "edition": "ZWE",
+    "language": "sn",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "BVT": {
+    "version": 1,
+    "edition": "BVT",
+    "language": "und",
+    "status": "pending-language-review",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "SSD": {
+    "version": 1,
+    "edition": "SSD",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  },
+  "PRI": {
+    "version": 1,
+    "edition": "PRI",
+    "language": "es",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "código-fuente"
+    }
+  },
+  "SWZ": {
+    "version": 1,
+    "edition": "SWZ",
+    "language": "en",
+    "status": "project-proposal",
+    "paths": {
+      "소스": "source"
+    }
+  }
+}

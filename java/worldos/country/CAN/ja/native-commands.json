@@ -1,0 +1,33 @@
+{
+  "aliases": {
+    "ipconfig": "通信設定",
+    "ip": "ソケット番地",
+    "ping": "応答試験",
+    "route": "経路表",
+    "netstat": "通信状況",
+    "ps": "作業一覧",
+    "top": "稼働状況",
+    "free": "記憶状況",
+    "df": "保存容量",
+    "uptime": "稼働時間",
+    "poweroff": "電源を切る",
+    "help": "使い方"
+  },
+  "descriptions": [
+    "IPv4 の番地・マスク・ゲートウェイ設定",
+    "IPv4 の接続口と経路",
+    "ICMP 応答と往復時間",
+    "接続先の網と既定経路",
+    "TCP/UDP の接続と通信量",
+    "中核の作業と利用者の実行過程",
+    "作業と記憶の表示更新; q / Ctrl+C で終了",
+    "中核の記憶領域と利用者の割当量",
+    "RAM 文書領域の容量と使用枠",
+    "起動からの時間",
+    "電源を切る; RAM 文書は消えます",
+    "命令と日本語の名前"
+  ],
+  "pending": [],
+  "status": "functional-proposals; native-speaker review pending",
+  "description_language": "ja"
+}

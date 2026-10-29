@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	メイレイカイシャクキヲクミタテル
+executable_file	ジッコウブンショ
+include_directory	センゲンシュウノバショ
+library_file	カンスウシュウブンショ
+linker_file	レンケツハイチブンショ
+object_file	キカイゴブンショ
+source_file	ゲンブンショ
+startup_object	キドウキカイゴ

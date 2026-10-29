@@ -1,0 +1,3 @@
+#!/bin/sh
+base=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec "$base/lib/ld-musl-x86_64.so.1" --library-path "$base/lib" "$base/qemu-system-aarch64" -L "$base/share/qemu" "$@"

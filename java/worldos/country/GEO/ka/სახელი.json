@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "ქმედება",
+    "identifier": "ქმედება",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "კლასი",
+    "identifier": "კლასი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/libwnck.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "_დახურვა",
+    "identifier": "დახურვა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "ბრძანება",
+    "identifier": "ბრძანება",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_დაკავშირება",
+    "identifier": "დაკავშირება",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "დასტა",
+    "identifier": "დასტა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "შეცდომა",
+    "identifier": "შეცდომა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "შესრულება",
+    "identifier": "შესრულება",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/kparts5.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "_ფაილი",
+    "identifier": "ფაილი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "სათაური",
+    "identifier": "სათაური",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/pluma.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "ჩატვირთვა",
+    "identifier": "ჩატვირთვა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "რეჟიმი",
+    "identifier": "რეჟიმი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "სახელი",
+    "identifier": "სახელი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/alacarte.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_გახსნა",
+    "identifier": "გახსნა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "output",
+    "identifier": "output",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "პანელი",
+    "identifier": "პანელი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "გეზი",
+    "identifier": "გეზი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/gnome-screensaver.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "პორტი",
+    "identifier": "პორტი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "position",
+    "identifier": "position",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "პროცესი",
+    "identifier": "პროცესი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_კითხვა",
+    "identifier": "კითხვა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "წაშლა",
+    "identifier": "წაშლა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "გაშვე_ბა",
+    "identifier": "გაშვება",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "შ_ეინახე",
+    "identifier": "შეინახე",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "პარამეტრები",
+    "identifier": "პარამეტრები",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "ზომა",
+    "identifier": "ზომა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "წყარო",
+    "identifier": "წყარო",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_შეჩერება",
+    "identifier": "შეჩერება",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "ტერმინალი",
+    "identifier": "ტერმინალი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/mate-terminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "ტექსტი",
+    "identifier": "ტექსტი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "ხ_ელსაწყოთა ველი",
+    "identifier": "ხელსაწყოთა_ველი",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_ჩაწერა",
+    "identifier": "ჩაწერა",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ka/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

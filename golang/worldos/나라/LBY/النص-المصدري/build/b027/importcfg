@@ -1,0 +1,3 @@
+# import config
+packagefile مشترك=/home/user/worldos/나라/LBY/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LBY/소스/build/b000/_pkg_.a

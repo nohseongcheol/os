@@ -1,0 +1,4 @@
+# import config
+packagefile ذاكرةمدير=/home/user/worldos/나라/DJI/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/6a/6ae7dfc9a4cf48d2ef3b977713f34d5c69c02102aa233381b894dd90bdb654a5-d
+packagefile runtime/cgo=/home/user/worldos/나라/DJI/소스/build/b000/_pkg_.a

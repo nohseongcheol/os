@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/ba/ba44d3b0195f1914af6374325209151f04d29bbc4659af29269ad1f29bf76a33-d
+packagefile pilote/ata=/home/user/worldos/나라/PYF/소스/build/b006/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/c7/c719d6c3955308f323c96290754de01a7c95219378ddb29efc59ca4648f67d81-d
+packagefile runtime/cgo=/home/user/worldos/나라/PYF/소스/build/b000/_pkg_.a

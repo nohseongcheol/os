@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/36/36133a76d7a95260420cc72a61e585a8202fc9853f3c271a94ba7ec3bd6cc69f-d
+packagefile paging=/home/user/worldos/나라/AZE/소스/build/b026/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c2/c242121a3e25b7920db595519c301931926df77e43e5de5c16d5ef906436bb9e-d
+packagefile yaddaşmanager=/home/user/worldos/나라/AZE/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/AZE/소스/build/b000/_pkg_.a

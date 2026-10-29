@@ -1,0 +1,16 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/45/459b24e22586214480200cbde333491151725c6b4c771652fc7be782b5d48b73-d
+packagefile إدارةصفحات=/home/user/worldos/나라/BHR/소스/build/b024/_pkg_.a
+packagefile إدارةمهام/خيطتنفيذ=/home/user/worldos/나라/BHR/소스/build/b026/_pkg_.a
+packagefile إدارةمهام/مجدول=/home/user/worldos/나라/BHR/소스/build/b031/_pkg_.a
+packagefile افتراضيذاكرة=/home/user/worldos/나라/BHR/소스/build/b027/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/BHR/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/80/80d889d1e494ad9957a6051cdd68f876adc4f1af869a500d618b0da19f752b07-d
+packagefile متعددإدارةمهام=/home/user/worldos/나라/BHR/소스/build/b020/_pkg_.a
+packagefile مشغل/ata=/home/user/worldos/나라/BHR/소스/build/b032/_pkg_.a
+packagefile مقاطعة=/home/user/worldos/나라/BHR/소스/build/b019/_pkg_.a
+packagefile ملفنظام/fat=/home/user/worldos/나라/BHR/소스/build/b036/_pkg_.a
+packagefile ملفنظام/msdosتجزئة=/home/user/worldos/나라/BHR/소스/build/b037/_pkg_.a
+packagefile ملفنظام/صيغة_التنفيذ_والربط=/home/user/worldos/나라/BHR/소스/build/b038/_pkg_.a
+packagefile منفذ=/home/user/.cache/go-build/8c/8c58368da1e89de511896b8c004caf4b85dbbd816733a858c4d9293480d7d525-d
+packagefile runtime/cgo=/home/user/worldos/나라/BHR/소스/build/b000/_pkg_.a

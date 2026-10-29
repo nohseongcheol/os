@@ -1,0 +1,42 @@
+{
+  "policy": "Whole-role functional proposals. Do not attribute a single philosophy to an entire country. Unreviewed etymologies are not asserted.",
+  "sources": [
+    "WorldOS naming/terms.json (CLDR language selection and prior proposals)",
+    "golang/worldos/tools/naming_lexicon.py (whole-role paths)",
+    "WorldOS native/terms.py (current implementation roles)"
+  ],
+  "review": "Native-speaker review pending; proposals are not official standard terminology.",
+  "lexical_evidence": [],
+  "thread_example": {
+    "name": "작업가닥",
+    "meaning": "An independently scheduled execution sequence; current kernel schedules cooperatively.",
+    "historical_root": "No language-specific historical claim.",
+    "reference": null
+  },
+  "country_language_policy": {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "language": "gub",
+    "selection": "explicit-language-edition",
+    "country_source": "naming/countries.json (ISO 3166-1)",
+    "language_source": "Unicode CLDR 48; native/inputs/representatives.tsv; editions.json",
+    "namespace": {
+      "label": "BRA",
+      "identifier": "BRA",
+      "source_locale": null,
+      "identifier_policy": "cldr-name-as-code-identifier",
+      "status": "pending-country-name-translation",
+      "os_name": "JBraOS"
+    },
+    "native_review": "pending",
+    "etymology_review": "partial; see term evidence"
+  },
+  "naming_scope": "First-party identifiers and paths; language keywords, external APIs, dependency archives, legal clauses, copyright and literal character values retain their specified identities.",
+  "unverified_terms": "native-pending.tsv; terms absent from language dictionaries are not certified translations.",
+  "functional_review": {
+    "revision": "d4f2ecacae1945905f3c4741957cd0dc2c3542625b6f8ef48344a2d889d02632",
+    "references": [],
+    "verified_lexeme_history": [],
+    "compound_status": "Modern function-based project proposals; native-speaker review pending."
+  }
+}

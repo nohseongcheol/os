@@ -1,0 +1,5 @@
+# import config
+packagefile anschluss=/home/user/.cache/go-build/c4/c4be570ec24a467e45765be0fcc8ff4c904202efe0d5ca707520760ae5e95d45-d
+packagefile konsole=/home/user/.cache/go-build/a0/a06958da64aaca196a5115e237f019795d87ed41d1fc88608f2075a52a924557-d
+packagefile unterbrechung=/home/user/worldos/나라/CHE/소스/build/b026/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHE/소스/build/b000/_pkg_.a

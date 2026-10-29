@@ -1,0 +1,196 @@
+#include "textflag.h"
+#include "go_asm.h"
+
+#define IRQ_BASE 0x4B //'K'
+//#define interruptnumber 0x00
+
+GLOBL interruptnumber<>(SB),NOPTR, $4 //4byte
+
+TEXT ·MyTest(SB),NOSPLIT,$0
+	//MOVB DX, 0xB8000
+	MOVB $0x4B, 0xB8030 // char 'K'
+	RET
+//TEXT ·HandleInterruptRequest(SB),NOSPLIT,$0
+	//MOVB intnum+0(FP), DX
+	//CALL Int_Bottom(SB)
+	//RET
+//TEXT ·HandleInterruptRequest0x00(SB),NOSPLIT,$0
+	//MOVB $interruptnumber, 0x00+IRQ_BASE
+	//MOVB $(0x00+IRQ_BASE), interruptnumber<>+0x00(SB)
+	//		    interruptnumber<>+0x00(SB)
+	///CALL Int_Bottom(SB)
+	//RET
+TEXT ·HandleInterruptRequest0x00(SB),NOSPLIT,$0
+	//MOVB $(0x00+IRQ_BASE), interruptnumber<>+0x00(SB)
+	//MOVB $0x4B, interruptnumber<>(SB)
+	//MOVB $0x50, 0xB8042 // char P
+	MOVB $0x40, 0xB8030 // char P
+	//CALL Int_Bottom(SB)
+	//MOVB $0x50, 0xB8030 // char P
+	//JMP int_bottom
+	//RET
+	//BYTE $0xCF
+	IRETL
+TEXT ·HandleInterruptRequest0x01(SB),NOSPLIT,$0
+	//MOVB $(0x01+IRQ_BASE), interruptnumber<>+0x00(SB)
+	//MOVB $0x4B, interruptnumber<>(SB)
+	//MOVB $0x51, 0xB8044 // char Q
+	MOVB $0x41, 0xB8032 // char Q
+	//CALL Int_Bottom(SB)
+	//MOVB $0x51, 0xB8062 // char Q
+	//JMP int_bottom
+	//RET
+	/////////////////////////////////////////////////////////////////
+        PUSHL BP
+        PUSHL DI
+        PUSHL SI
+
+        PUSHL DX
+        PUSHL CX
+        PUSHL BX
+        PUSHL AX
+
+        MOVB $0x4B, 0xB8000 // char 'K'
+
+        MOVL SP, (SP)
+        //push (interruptnumber)
+        //MOVB $(interruptnumber<>(SB)), (SP)
+        //LEAL interruptnumber<>+0x00(SB), DX
+        //   interruptnumber<>+0x00(SB)
+        // MOVB $0x4D, (SP) // char 'M'
+        // MOVB DX, 0xB8000
+        MOVB DX, (SP)
+        //LEAQ ·HandleInterruptRequest0x01
+
+        //CALL interrupt·InterruptIgnore(SB)
+        //CALL interrupt·MyHandleInterrupt(SB)
+        //CALL interrupt·인터럽트처리기(SB)
+        CALL interrupt·HandleInterrupt(SB)
+        //MOVL AX, SP
+        //MOVL (SP), SP
+        //CALL interrupt·InterruptIgnore(SB)
+        //CALL interrupt·HandleInterruptRequest0x01(SB)
+        //MOVL DX, SP
+        //MOVB $0x4D, 0xB8000
+        //MOVB $(0x00+IRQ_BASE), 0xB8000
+
+        //MOVL AX, SP
+
+        //POPL SP
+
+        POPL AX
+        POPL BX
+        POPL CX
+        POPL DX
+
+        POPL SI
+        POPL DI
+        POPL BP
+
+        //MOVB $0x4D, 0xB8060 // char 'M'
+
+        //ADDL $4, SP //CALL Int_Bottom(SB)
+
+	IRETL
+//TEXT ·HandleInterruptRequest0x0C(SB),NOSPLIT,$0
+	//MOVB $(0x0C+IRQ_BASE), interruptnumber<>+0x00(SB)
+	//MOVB $0x4B, interruptnumber<>(SB)
+	//MOVB $0x52, 0xB8026 // char R
+	//CALL Int_Bottom(SB)
+	//JMP int_bottom
+	//IRETL
+TEXT ·LIDT(SB),NOSPLIT,$0
+	MOVL lidtaddr+0(FP), DX
+	//MOVL $0x0A, DX
+	//MOVB DL, 0xB802A
+	//MOVB DH, 0xB802C
+	//MOVL DX, 4(SP)
+	//LIDTL 0(DX)
+	//MOVL 0(DX), IDTR
+	//CLI
+	MOVB $0x4C, 0xB8002 // char 'L'
+	BYTE $0x0F; BYTE $0x01; BYTE $0x1A; // lidt [edx]
+	//BYTE $0xC6; BYTE $0x05; BYTE $0x4F; BYTE $0x00; BYTE $0x00; BYTE $0x00; BYTE $0x00;// mov byte[0x4f], 0xb8000
+	RET
+TEXT ·InterruptActive(SB),NOSPLIT,$0
+	//BYTE $0xFB;	//sti
+	STI
+	//MOVL 0(DX), IDTR
+	//INT $0x20
+	//BYTE $0xCD; BYTE $0x20;
+	//INT $0x20
+	MOVB $0x4D, 0xB8000 // char 'M'
+	RET
+	//MOVB $0x4D, 0xB8000 // char 'M'
+TEXT ·InterruptDeactive(SB),NOSPLIT,$0
+	CLI
+	MOVB $0x4E, 0xB8002 // char 'N'
+	RET
+TEXT ·TestPrint(SB),NOSPLIT,$0
+	MOVB pos+0(FP), AX 
+	MOVB data+1(FP), DX 
+	MOVB DX, 0(AX)
+	//MOVB DL, 0xB8014
+	RET
+TEXT Int_Bottom(SB),NOSPLIT,$0
+	JMP int_bottom
+	RET
+int_bottom:
+	PUSHL BP
+	PUSHL DI
+	PUSHL SI
+
+	PUSHL DX
+	PUSHL CX
+	PUSHL BX
+	PUSHL AX
+	
+	MOVB $0x4B, 0xB8000 // char 'K'
+
+	MOVL SP, (SP)
+	//push (interruptnumber)
+	//MOVB $(interruptnumber<>(SB)), (SP)
+	//LEAL interruptnumber<>+0x00(SB), DX
+	//   interruptnumber<>+0x00(SB)
+	// MOVB $0x4D, (SP) // char 'M'
+	// MOVB DX, 0xB8000
+	MOVB DX, (SP)
+	//LEAQ ·HandleInterruptRequest0x01
+		
+	//CALL interrupt·InterruptIgnore(SB)
+	//CALL interrupt·MyHandleInterrupt(SB)
+	//CALL interrupt·인터럽트처리기(SB)
+	CALL interrupt·HandleInterrupt(SB)
+	//MOVL AX, SP
+	//MOVL (SP), SP
+	//CALL interrupt·InterruptIgnore(SB)
+	//CALL interrupt·HandleInterruptRequest0x01(SB)
+	//MOVL DX, SP
+	//MOVB $0x4D, 0xB8000
+	//MOVB $(0x00+IRQ_BASE), 0xB8000
+
+	//MOVL AX, SP
+
+	//POPL SP
+
+	POPL AX
+	POPL BX
+	POPL CX
+	POPL DX
+	
+	POPL SI
+	POPL DI
+	POPL BP
+
+	//MOVB $0x4D, 0xB8060 // char 'M'
+
+	//ADDL $4, SP //CALL Int_Bottom(SB)
+	RET
+
+//DATA interruptnumber<>+0x00(SB)/1,$0x00
+TEXT ·InterruptIgnore(SB),NOSPLIT,$0
+	//CLI
+	MOVB $0x48, 0xB8050 // char 'H'
+	//BYTE $0xCF
+	IRETL
+	//RET

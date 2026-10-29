@@ -1,0 +1,7 @@
+# import config
+packagefile archivosistema/msdospartición=/home/user/worldos/나라/URY/소스/build/b003/_pkg_.a
+packagefile consola=/home/user/.cache/go-build/da/daac9520bfa85a3e806b63f31a136ff318637a9f45be99d0a6e1603a745ee556-d
+packagefile controlador/ata=/home/user/worldos/나라/URY/소스/build/b006/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/URY/소스/build/b021/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/96/963891770bb6402deb691c5bd888251c41ce96f7e7fe3b1e5470fa4be7b1c668-d
+packagefile runtime/cgo=/home/user/worldos/나라/URY/소스/build/b000/_pkg_.a

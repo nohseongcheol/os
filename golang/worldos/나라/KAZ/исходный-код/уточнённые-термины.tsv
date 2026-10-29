@@ -1,0 +1,51 @@
+concept	native_phrase_or_english_fallback	code_spelling	status	rationale
+allocate_memory	выделить память	выделить_память	project-proposal	function-based project proposal
+append	добавить в конец списка	добавить_в_конец_списка	project-proposal	src/util/list/list.go: links after tail; back is not undo
+bitmap	карта занятости	карта_занятости	project-proposal	function-based project proposal
+boot	запуск машины	запуск_машины	project-proposal	function-based project proposal
+boot_record	главная загрузочная запись	главная_загрузочная_запись	project-proposal	boot code and partition metadata, not an audio recording
+bus	общая шина передачи	общая_шина_передачи	project-proposal	function-based project proposal
+compile_kernel	собрать ядро	собрать_ядро	project-proposal	function-based project proposal
+destination_port	номер порта получателя	номер_порта_получателя	project-proposal	function-based project proposal
+elf	исполняемый и компонуемый формат	исполняемый_и_компонуемый_формат	project-proposal	Executable AND Linkable Format; preserve both roles
+error_number	номер ошибки	номер_ошибки	project-proposal	function-based project proposal
+ethernet_frame	кадр сети с общей средой	кадр_сети_с_общей_средой	project-proposal	Ethernet shared-medium history; not a claim that all modern links share a medium
+ethernet_header	заголовок кадра сети с общей средой	заголовок_кадра_сети_с_общей_средой	project-proposal	function-based project proposal
+ethernet_provider	поставщик кадров сети с общей средой	поставщик_кадров_сети_с_общей_средой	project-proposal	function-based project proposal
+fat_parameters	параметры файловой системы	параметры_файловой_системы	project-proposal	FAT layout parameters, not a generic BIOS data block
+file_control	управление файлом	управление_файлом	project-proposal	function-based project proposal
+file_read	прочитать файл	прочитать_файл	project-proposal	function-based project proposal
+file_status	состояние файла	состояние_файла	project-proposal	function-based project proposal
+file_write	записать файл	записать_файл	project-proposal	function-based project proposal
+free_memory	освободить память	освободить_память	project-proposal	function-based project proposal
+headers	объявления	объявления	project-proposal	function-based project proposal
+heap	динамическая память	динамическая_память	project-proposal	function-based project proposal
+icmp	протокол управляющих сообщений объединённой сети	протокол_управляющих_сообщений_объединённой_сети	project-proposal	function-based project proposal
+implementation	реализация	реализация	project-proposal	function-based project proposal
+insert_at	вставить по индексу	вставить_по_индексу	project-proposal	src/util/list/list.go: insertion at zero-based index
+internet	объединённая сеть	объединённая_сеть	project-proposal	function-based project proposal
+ip_provider	поставщик протокола объединённой сети	поставщик_протокола_объединённой_сети	project-proposal	function-based project proposal
+ipv4	протокол объединённой сети 4	протокол_объединённой_сети_4	project-proposal	function-based project proposal
+link_layout	схема компоновки	схема_компоновки	project-proposal	function-based project proposal
+list_node	узел списка	узел_списка	project-proposal	function-based project proposal
+log_decoder	разобрать последовательный журнал	разобрать_последовательный_журнал	project-proposal	function-based project proposal
+mouse	устройство указания	устройство_указания	project-proposal	function-based project proposal
+page_directory	каталог страниц	каталог_страниц	project-proposal	src/paging/paging.go: upper-level page table, not a file directory
+page_frame	физическая страница	физическая_страница	project-proposal	physical page, not an Ethernet frame or exception record
+pointer	ссылка на адрес	ссылка_на_адрес	project-proposal	function-based project proposal
+prepend	добавить в начало списка	добавить_в_начало_списка	project-proposal	src/util/list/list.go: links before head
+register	регистр	регистр	project-proposal	function-based project proposal
+set_coordinates	задать локальные координаты	задать_локальные_координаты	project-proposal	src/widget/widget.go: assigns local x/y; no parent transform
+source_port	номер порта отправителя	номер_порта_отправителя	project-proposal	function-based project proposal
+stack	стековая память	стековая_память	project-proposal	function-based project proposal
+startup	запуск	запуск	project-proposal	function-based project proposal
+structure_offsets	смещения структуры	смещения_структуры	project-proposal	function-based project proposal
+system_call	системный вызов	системный_вызов	project-proposal	function-based project proposal
+tests	испытания	испытания	project-proposal	function-based project proposal
+toggle_bit	инвертировать бит занятости	инвертировать_бит_занятости	project-proposal	src/phymem/phymem.go: XOR; does not unconditionally clear the bit
+tools	инструменты	инструменты	project-proposal	function-based project proposal
+udp	протокол пользовательских датаграмм	протокол_пользовательских_датаграмм	project-proposal	function-based project proposal
+udp_header	заголовок пользовательской датаграммы	заголовок_пользовательской_датаграммы	project-proposal	function-based project proposal
+udp_socket	конечная точка пользовательских датаграмм	конечная_точка_пользовательских_датаграмм	project-proposal	function-based project proposal
+user_space	пространство пользователя	пространство_пользователя	project-proposal	function-based project proposal
+widget	элемент экрана	элемент_экрана	project-proposal	function-based project proposal

@@ -1,0 +1,12 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/52/52da751803a08abb4bffa846a5ecc4aac21874375adf274c75d9a2eecc72d7ff-d
+packagefile gdt=/home/user/.cache/go-build/99/99c4cf954abe9a8c672317c52359c570a2825b53fb5e8f05f7be5d3658330575-d
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/PAN/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/tss=/home/user/worldos/나라/PAN/소스/build/b035/_pkg_.a
+packagefile interrupción=/home/user/worldos/나라/PAN/소스/build/b024/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/PAN/소스/build/b021/_pkg_.a
+packagefile múltiplegestiónTareas=/home/user/worldos/나라/PAN/소스/build/b026/_pkg_.a
+packagefile puerto=/home/user/.cache/go-build/39/39236cfad20dd788c9e8f68ebe2995c4968fec3452b1ab8a301ff385d17c8b63-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile utilidad/lista=/home/user/worldos/나라/PAN/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PAN/소스/build/b000/_pkg_.a

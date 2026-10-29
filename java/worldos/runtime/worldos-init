@@ -1,0 +1,105 @@
+#!/bin/sh
+export PATH=/usr/lib/jvm/java-25-openjdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+export DISPLAY=:0
+/bin/busybox --install -s
+# OpenJDK's logical font list can omit Thaana even when fontconfig has it.
+# Its documented fallback directory supplies the installed physical font.
+mkdir -p "$JAVA_HOME/lib/fonts/fallback"
+ln -sf /usr/share/fonts/noto/NotoSansThaana-Regular.ttf "$JAVA_HOME/lib/fonts/fallback/NotoSansThaana-Regular.ttf"
+shutdown_system() {
+    trap '' TERM INT USR2
+    echo WORLDOS_SHUTDOWN_BEGIN
+    kill -TERM -1 2>/dev/null || true
+    sleep 1
+    kill -KILL -1 2>/dev/null || true
+    sync
+    if mount -o remount,ro / && mount -o remount,ro /mnt/persist; then
+        sync
+        echo WORLDOS_SHUTDOWN_CLEAN
+    else
+        sync
+        echo WORLDOS_SHUTDOWN_MOUNT_FAILED
+    fi
+    /bin/busybox poweroff -f
+}
+trap shutdown_system TERM INT USR2
+mkdir -p /run /tmp /var/log /home/user/workspace /dev/shm
+mount -t tmpfs tmpfs /run
+mount -t tmpfs tmpfs /tmp
+mount -t tmpfs tmpfs /dev/shm
+chmod 1777 /tmp /dev/shm
+mkdir -p /run/dbus
+mkdir -p /run/user/1000
+hostname worldos
+ip link set lo up
+udevd --daemon
+udevadm trigger
+udevadm settle --timeout=5
+modprobe virtio_net || true
+ip link set eth0 up
+. /opt/worldos/ip.conf
+ip address add "$IP/$PREFIX" dev eth0
+if [ "$GATEWAY" != 0.0.0.0 ]; then ip route add default via "$GATEWAY"; fi
+printf 'nameserver %s\n' "$DNS" > /etc/resolv.conf
+if ! grep -q '^user:' /etc/passwd; then
+    adduser -D -h /home/user -s /bin/sh user
+fi
+for group in video input audio; do addgroup user "$group" 2>/dev/null || true; done
+chown user:user /run/user/1000
+chmod 700 /run/user/1000
+if ! grep -q '^messagebus:' /etc/group; then addgroup -S messagebus; fi
+if ! grep -q '^messagebus:' /etc/passwd; then
+    adduser -S -D -H -h /run/dbus -s /sbin/nologin -G messagebus messagebus
+fi
+for example in /opt/worldos/examples/*; do
+    if [ -f "$example" ] && [ ! -e "/home/user/workspace/${example##*/}" ]; then
+        cp -a "$example" /home/user/workspace/
+    fi
+done
+mkdir -p /home/user/.config/fcitx5
+if [ ! -e /home/user/.config/fcitx5/profile ]; then
+    cp /opt/worldos/fcitx-profile /home/user/.config/fcitx5/profile
+fi
+chown -R user:user /home/user
+dbus-uuidgen --ensure
+dbus-daemon --system --fork
+fc-cache >/var/log/font-cache.log 2>&1 &
+case " $(cat /proc/cmdline) " in
+    *" worldos.test=full "*)
+        Xvfb :0 -screen 0 1280x800x24 -nolisten tcp >/var/log/xorg.log 2>&1 &
+        ;;
+    *)
+        modprobe virtio_gpu || true
+        Xorg :0 vt1 -ac -nolisten tcp -logfile /var/log/xorg.log >/var/log/xorg-console.log 2>&1 &
+        ;;
+esac
+attempt=0
+while [ ! -S /tmp/.X11-unix/X0 ] && [ "$attempt" -lt 100 ]; do
+    sleep 0.1
+    attempt=$((attempt + 1))
+done
+echo WORLDOS_LINUX_READY
+cat /opt/worldos/identity
+java -version
+case " $(cat /proc/cmdline) " in
+    *" worldos.test="*)
+        /opt/worldos/run-tests.sh
+        result=$?
+        echo WORLDOS_TEST_EXIT=$result
+        shutdown_system
+        ;;
+    *)
+        su user -c 'DISPLAY=:0 LANG=C.UTF-8 dbus-run-session /opt/worldos/session.sh' >/var/log/desktop.log 2>&1 &
+        ;;
+esac
+cd /home/user/workspace
+while true; do
+    echo 'WorldOS console: java / javac / gcc available. Type poweroff to stop.'
+    /bin/busybox setsid /bin/sh -c 'exec /bin/sh -i </dev/ttyS0 >/dev/ttyS0 2>&1' &
+    console_process=$!
+    wait "$console_process"
+    sleep 1
+done

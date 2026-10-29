@@ -1,0 +1,8 @@
+fajl	이전이름	최종이름	쓰임
+시언어번역기/serje.c	h	실행머리	ELF Intestazzjoni_VALUE
+kompjuter/utent.c	h	실행머리	ELF vvalida·적재 Intestazzjoni_VALUE
+kompjuter/utent.h	x	i_rreġistra_data	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+kompjuter/bord.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+utent/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Għodod/*.py	root	għerq_mogħdija	fajl 계층의 pprojetta_għerq mogħdija
+kompjuter/Terminal.c	w	tieqa_entrata	Terminal tieqa stat_VALUE pointer

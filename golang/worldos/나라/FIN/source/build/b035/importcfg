@@ -1,0 +1,6 @@
+# import config
+packagefile konsoli=/home/user/.cache/go-build/2a/2a1c6d0259aab9894bc97296e6c2e36ac7ce409bb551141fa155e3e67c5fe77d-d
+packagefile muistimanager=/home/user/worldos/나라/FIN/소스/build/b024/_pkg_.a
+packagefile paging=/home/user/worldos/나라/FIN/소스/build/b025/_pkg_.a
+packagefile util=/home/user/.cache/go-build/ca/ca78ba0d45832d27f4b7264a4c6018b3d4fbeaa9431cc70a7302ede80bee8134-d
+packagefile runtime/cgo=/home/user/worldos/나라/FIN/소스/build/b000/_pkg_.a

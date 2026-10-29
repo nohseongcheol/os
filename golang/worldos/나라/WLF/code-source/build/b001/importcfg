@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/27/27cef6286cdd4d7b1318d3659d153117470adcd8934458d33b86be1f708e5b04-d
+packagefile fichiersystème/fat=/home/user/worldos/나라/WLF/소스/build/b004/_pkg_.a
+packagefile fichiersystème/format_exécutable_et_liable=/home/user/worldos/나라/WLF/소스/build/b022/_pkg_.a
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/WLF/소스/build/b005/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/75/75cda15efe7655e4a966f5546d888d7a78d80348110cd4c4be60f725b46a5b03-d
+packagefile gestionTâches/filExécution=/home/user/worldos/나라/WLF/소스/build/b027/_pkg_.a
+packagefile gestionTâches/ordonnanceur=/home/user/worldos/나라/WLF/소스/build/b030/_pkg_.a
+packagefile gestionTâches/processus=/home/user/worldos/나라/WLF/소스/build/b033/_pkg_.a
+packagefile gestionTâches/tss=/home/user/worldos/나라/WLF/소스/build/b031/_pkg_.a
+packagefile interruption=/home/user/worldos/나라/WLF/소스/build/b024/_pkg_.a
+packagefile multiplegestionTâches=/home/user/worldos/나라/WLF/소스/build/b026/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/WLF/소스/build/b021/_pkg_.a
+packagefile pagination=/home/user/worldos/나라/WLF/소스/build/b023/_pkg_.a
+packagefile pci=/home/user/worldos/나라/WLF/소스/build/b034/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/WLF/소스/build/b006/_pkg_.a
+packagefile pilote/clavier=/home/user/worldos/나라/WLF/소스/build/b036/_pkg_.a
+packagefile pilote/dispositif_de_pointage=/home/user/worldos/나라/WLF/소스/build/b038/_pkg_.a
+packagefile pilote/pilote=/home/user/.cache/go-build/2d/2dda80c20c598b74342117f2fbd2ce85f8ee522dd9f5a8c057a2e1b686a86cc0-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systèmeappel=/home/user/worldos/나라/WLF/소스/build/b037/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/d3/d30559c5b7d950694ecf483a86c56dc84e0b6126f880985c967018debffa6760-d
+packagefile virtuelmémoire=/home/user/worldos/나라/WLF/소스/build/b028/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/WLF/소스/build/b000/_pkg_.a

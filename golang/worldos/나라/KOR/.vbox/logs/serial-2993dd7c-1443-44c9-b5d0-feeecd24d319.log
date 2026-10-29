@@ -1,0 +1,58 @@
+
+=== KOR BOOT ===
+gdt:00A4DB38esp:009376D4tls:0093B4A0tss:00A4CCC0::cr3:00503000:cr0:80000013:cr4:00000600thread:list:0093B190[mem:01200AA0cpu01208A58:00472B90][mem:01209594cpu0121154C:00472C10][mem:01212088cpu0121A040:00472C90][mem:0121AB7Ccpu01222B34:00472D10][mem:01223670cpu0122B628:00472D90]Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:[.got.plt:04000730]<------------------------>Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:[.dynamic:04100200][.got.plt:04100260]<------------------------>Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:[.dynamic:04101340][.got.plt:041013C0]<------------------------>lib1: 04100260:04100200lib2: 041013C0:04101340Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:<------------------------>[mem:0122D31Ecpu012352D6:0400053D]user1: 00000000Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:<------------------------>[mem:01235D7Acpu0123DD32:0400053D]user2: 0122B828linkmap : 04100200+04101340+Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Invalid StatusReading MBRReading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:Reading ATA Drive:<------------------------>[mem:0123EFFCcpu01246FB4:0400053D][mem:01247A58cpu0124FA10:00472B10][AMD am79c973:1022:2000:D020:FF060109]
+[AMD am79c973:1022:2000:D020:FF060109]
+[AMD am79c973:1022:2000:D020:FF060109]
+[AMD am79c973:1022:2000:D020:FF060109]
+[AMD am79c973:1022:2000:D020:FF060109]
+[AMD am79c973:1022:2000:D020:FF060109]
+
+SCHED first esp=00937698 thread=01200054 cpu=01208A58 state=00000002 eip=00472B90 cs=00000008
+AAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtaskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1jump[0400053D:04000000:00000222:00000023:0123531E]WORLDOS-SHELL:READY
+worldos$ jump[0400053D:04000000:00000222:00000023:0123DD7A]jump[0400053D:04000000:00000222:00000023:01246FFC]--TFunc1----TFunc1----TFunc1----TFunc1--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCtasD1taskD1taskD1taskD1taskD1taskD1taskD1 0unknown command; type help
+worldos$ unk cod;  he
+wors$ wors$woros$wors$ wors$ --TFnc--unAAAABBBCCCCtataskWorS anntrecods h        w thel ecEXT    riex             show current directory
+  cd PATH             ngerecy
+t FILE             print a FAT file
+  stat FILE            show file size
+  pid                  show process identifiers
+  uname                show operating-system identity
+  run FILE [ARGS...]   execute a user ELF program
+  udp [TEXT]           call POSIX UDP and loop back TEXT
+  source FILE          interpret a UTF-8 command file
+  exit                 leave the shell
+--TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtaskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1Native command proposals (ASCII aliases remain available):
+도움말_표시 = help
+인수_출력--TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1--AAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtaskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1 = echo
+현재_경로_표시 = pwd
+자료철_내용_표시 = --TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtaskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1cat
+자료철_정보_표시 = stat
+실행과정_번호_표시 = --TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtaskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1pid
+운영체제_정보_표시 = uname
+실행자료철_가동 = --TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtaskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1taskD1run
+자료전문_되돌림_시험 = udp
+명령자료철_해석 = --TFunc1----TFunc1----TFunc1----TFunc1----TFunc1----TFunc1--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtaskD1taskD1taskD1taskD1taskD1taskD1taskD1source
+경로이동 = cd
+나가기 = exit
+worldos$ --TFunc1----TFunc1----TFunc1----TFunc1----TFunc1--AAAAAAAAAAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCtaskD1taskD1taskD1taskD1taskD1taskD1taskD1unknown command; type help
+worldos$ --TF1--ABBBBBCCCCtaskunkwnma the
+--T1-ABBBBBBCCCCtskDta1tkD1wors$ --Tc1-ABBBBCCCCtasunkwnmatye elp--T1-ABBBBBBBBCCCta1tkD1wors$ --T1-ABBBBCCCCtkDtas--T1--ABBBBCCCCCtastaskDasunkwn manypep
+--Tc1-ABBBBBBBBCCtaD1D1D1D1D1D1D1kDtaD1worldos$ --Tc1-ABBBBCCCCtasunkwn andpelpwold$ Wor cond rpetomms:hel        ow s h
+  o T     p t
+ d        scuntec
+ PAT      hanirery cIL      inFAle sFI    hoilze pd          pssnter  me       ow ra-semen
+unE S.. exe aseF pgr   [T]      POUDP loackT
+urcILE     rpa U cndle ex        le tshe
+Natcom psaASals inila:
+움표 =--T1--ABBBBCCCCtashel
+--Tc1ABBBBBCCCtas인_� =ec
+잽둜--T1-ABBCCCta = 
+--T--AAAABBBBCCCCCtsk자철��표 = --T1--ABBBBCCCCtkD1D1tkD
+��_쳴�--T1-ABBBBCCtastaD1 = t--Tc1AAABBBCCta1tas
+��_�_� =pi--T1-AAABBCCCCCCtakD1
+영�_�_�--T1-ABBBBCCCCCCtasta1 = me--T1-ABBBBBCCCCCCCCtas
+�햐베�� =--Tc1-ABBBCCCtatasta1run자�_돌� =ud--T1-ABBBBBBBBCCCCCtD1
+��료_�--T1-ABBBCCCtas = rce--T1-ABBBBBCCCCtkD1D1tsk
+ꡜ��--Tc1-ABBBCCtakD = 
+--T1-ABBBBCCtas나�--Tc1AAAABBBBBBBCCCCCCCCCCCCCCtskDas = it--T1-ABBCCCtaD1D1kDtas
+wld

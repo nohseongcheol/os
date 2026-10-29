@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/84/8410a7472133da69c537f62ceabed04b3f46f74a14d2b1644e4b1f4990a39d51-d
+packagefile driver/ata=/home/user/worldos/나라/VAT/소스/build/b004/_pkg_.a
+packagefile driver/dispositivo_di_puntamento=/home/user/worldos/나라/VAT/소스/build/b006/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/cf/cf20a0799c21b7798ebd37b36d2ab19797a7df6adb068951ea6cee81dbd39173-d
+packagefile driver/tastiera=/home/user/worldos/나라/VAT/소스/build/b024/_pkg_.a
+packagefile fileSistema/fat=/home/user/worldos/나라/VAT/소스/build/b026/_pkg_.a
+packagefile fileSistema/formato_eseguibile_e_collegabile=/home/user/worldos/나라/VAT/소스/build/b029/_pkg_.a
+packagefile fileSistema/msdospartition=/home/user/worldos/나라/VAT/소스/build/b027/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/1b/1ba449b698cf616dfccae210748c1b6881b983b5853d4b1337b4c82ec88fc134-d
+packagefile interrupt=/home/user/worldos/나라/VAT/소스/build/b007/_pkg_.a
+packagefile memoriamanager=/home/user/worldos/나라/VAT/소스/build/b022/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/VAT/소스/build/b021/_pkg_.a
+packagefile paging=/home/user/worldos/나라/VAT/소스/build/b030/_pkg_.a
+packagefile pci=/home/user/worldos/나라/VAT/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile sistemacall=/home/user/worldos/나라/VAT/소스/build/b025/_pkg_.a
+packagefile tasking/processi=/home/user/worldos/나라/VAT/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/VAT/소스/build/b031/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/VAT/소스/build/b032/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/VAT/소스/build/b035/_pkg_.a
+packagefile util=/home/user/.cache/go-build/d9/d97d4a6a49998e3066e3f695079a373b8e1627ba1d199c295ebad7d44596b506-d
+packagefile virtualeMemoria=/home/user/worldos/나라/VAT/소스/build/b033/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VAT/소스/build/b000/_pkg_.a

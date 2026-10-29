@@ -1,0 +1,25 @@
+# import config
+packagefile console=/home/user/.cache/go-build/45/45077c941e70fd76f5dd8f88ef75ea4de739709955fc6b1881166b8b860c658d-d
+packagefile driver/ata=/home/user/worldos/나라/PRY/소스/build/b004/_pkg_.a
+packagefile driver/driver=/home/user/.cache/go-build/77/7751fe01d08184c58b181bd02b53d96b0381639bf88bd1b8e9f3c9dc115d0d4e-d
+packagefile driver/keyboard=/home/user/worldos/나라/PRY/소스/build/b007/_pkg_.a
+packagefile driver/mouse=/home/user/worldos/나라/PRY/소스/build/b036/_pkg_.a
+packagefile filesystem/elf=/home/user/worldos/나라/PRY/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/PRY/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/PRY/소스/build/b029/_pkg_.a
+packagefile gdt=/home/user/.cache/go-build/37/37d41589cf124babf90abf88ddde008756535ad2a63b7aa7bb12be0984e41a37-d
+packagefile interrupt=/home/user/worldos/나라/PRY/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/PRY/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/PRY/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/PRY/소스/build/b026/_pkg_.a
+packagefile pci=/home/user/worldos/나라/PRY/소스/build/b037/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile runtime=/home/user/.cache/go-build/b7/b70d413e6d178dcfcf37f19a4c4216eb034161b52a378f0c6da45e0e2c8efaa5-d
+packagefile systemcall=/home/user/worldos/나라/PRY/소스/build/b024/_pkg_.a
+packagefile tasking/process=/home/user/worldos/나라/PRY/소스/build/b038/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/PRY/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/PRY/소스/build/b031/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/PRY/소스/build/b034/_pkg_.a
+packagefile util=/home/user/.cache/go-build/39/3938881f870832966e6cf508a66c71eacb06ed702c6990755de2fd7a5e33db4c-d
+packagefile virtualmemory=/home/user/worldos/나라/PRY/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/PRY/소스/build/b000/_pkg_.a

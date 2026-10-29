@@ -1,0 +1,8 @@
+Archivo	이전이름	최종이름	쓰임
+CompiladorC/ponerEnMarcha.c	h	encabezadoCódigoEjecutable	ELF valorEncabezado
+máquina/Usuario.c	h	encabezadoCódigoEjecutable	ELF validar·적재 valorEncabezado
+máquina/Usuario.h	x	registroDatos	ARM64 x0..x30 valorAlmacenar valorArreglo
+máquina/Placa.c	h	dígitosHexadecimal	진수 convertirValor 문자표
+Usuario/Java/MáquinaVirtualJava.java invocarPantalla	w h	valorAnchura valorAltura	Pantalla valorDimensiones
+Herramientas/*.py	root	rutaRaíz	Archivo 계층의 raízProyecto ruta
+máquina/terminal.c	w	entradaElementoVentana	terminal ventana valorEstadoValor puntero

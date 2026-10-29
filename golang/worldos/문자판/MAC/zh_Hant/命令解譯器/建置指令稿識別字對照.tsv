@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	建置命令解譯器
+executable_file	執行檔
+include_directory	標頭檔目錄
+library_file	函式庫檔
+linker_file	連結配置檔
+object_file	目的檔
+source_file	原始檔
+startup_object	啟動目的檔

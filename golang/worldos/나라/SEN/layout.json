@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "SEN",
+  "language": "wo",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

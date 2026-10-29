@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "བྱ་བ།",
+    "identifier": "བྱ_བ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/mate-control-center.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "དབྱེ་རིགས་ ",
+    "identifier": "དབྱེ_རིགས",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/libwnck.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "ཁ་བསྡམས།(_C)",
+    "identifier": "ཁ_བསྡམས",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "བརྡ་བཀོད།",
+    "identifier": "བརྡ_བཀོད",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "མཐུད།(_C)",
+    "identifier": "མཐུད",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "སྣོད་ཐོ།",
+    "identifier": "སྣོད_ཐོ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "འཛོལ་བ་",
+    "identifier": "འཛོལ_བ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "execute",
+    "identifier": "execute",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "ཡིག་སྣོད།(_F)",
+    "identifier": "ཡིག_སྣོད",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "ཁ་ཡིག",
+    "identifier": "ཁ_ཡིག",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/pluma.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "ལྗིད་ཚད།",
+    "identifier": "ལྗིད_ཚད",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "ཐབས་ལམ།",
+    "identifier": "ཐབས_ལམ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "མིང་།",
+    "identifier": "མིང",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/alacarte.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "ཁ་ཕྱེ།(_O)",
+    "identifier": "ཁ_ཕྱེ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "output",
+    "identifier": "output",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "པེ་ནཱལ",
+    "identifier": "པེ_ནཱལ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "འགྲུལ་ལམ།",
+    "identifier": "འགྲུལ_ལམ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/gnome-screensaver.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "འདྲེན་ལམ།",
+    "identifier": "འདྲེན_ལམ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "གནས་ས་",
+    "identifier": "གནས_ས",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "ལས་སྦྱོར་",
+    "identifier": "ལས_སྦྱོར",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "ལྷག(_R)",
+    "identifier": "ལྷག",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "རྩ་བསྐྲད་གཏང་།",
+    "identifier": "རྩ_བསྐྲད_གཏང",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "གཡོག་བཀོལ།(_R)",
+    "identifier": "གཡོག_བཀོལ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "སྲུངས།(_S)",
+    "identifier": "སྲུངས",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "གཞི་སྒྲིག་ཚུ།(_S)",
+    "identifier": "གཞི_སྒྲིག_ཚུ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "ཚད།",
+    "identifier": "ཚད",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "འབྱུང་ཁུངས།",
+    "identifier": "འབྱུང_ཁུངས",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/GConf2.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "བཀག(_S)",
+    "identifier": "བཀག",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "ཊར་མི་ནཱལ་།",
+    "identifier": "ཊར_མི_ནཱལ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/mate-terminal.mo",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "བརྟག་ཞིབ་",
+    "identifier": "བརྟག_ཞིབ",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "ལག་ཆས་ཕྲ་རིང་།(_T)",
+    "identifier": "ལག_ཆས_ཕྲ_རིང",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "བྲིས།(_W)",
+    "identifier": "བྲིས",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/dz/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

@@ -1,0 +1,7 @@
+# import config
+packagefile gestiónTareas/hilo=/home/user/worldos/나라/COL/소스/build/b031/_pkg_.a
+packagefile gestiónTareas/planificador=/home/user/worldos/나라/COL/소스/build/b034/_pkg_.a
+packagefile memoriagestor=/home/user/worldos/나라/COL/소스/build/b021/_pkg_.a
+packagefile utilidad=/home/user/.cache/go-build/1a/1ab337040566593cfc84a61374af1d8f3b3179959e401da811bc7053d804f39b-d
+packagefile utilidad/lista=/home/user/worldos/나라/COL/소스/build/b036/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/COL/소스/build/b000/_pkg_.a

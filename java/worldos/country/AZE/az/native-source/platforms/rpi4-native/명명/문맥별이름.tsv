@@ -1,0 +1,8 @@
+FAYL	이전이름	최종이름	쓰임
+시언어번역기/İcra_Et.c	h	실행머리	ELF Başlıq_VALUE
+maşın/istifadəçi.c	h	실행머리	ELF təsdiqlə·적재 Başlıq_VALUE
+maşın/istifadəçi.h	x	qeydiyyatdan_keçmək_verilənlər	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+maşın/lövhə.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+istifadəçi/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Alətlər/*.py	root	kök_yol	FAYL 계층의 Project_kök Cığır
+maşın/Terminal.c	w	pəncərə_daxiletmə	Terminal pəncərə vəziyyət_VALUE göstərici

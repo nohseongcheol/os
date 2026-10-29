@@ -1,0 +1,7 @@
+# import config
+packagefile console=/home/user/.cache/go-build/30/30afc8b242e5de568343da196e00535b6e5b2620e4ab8518c4113b1aaedea668-d
+packagefile fichiersystème/msdospartition=/home/user/worldos/나라/LUX/소스/build/b005/_pkg_.a
+packagefile mémoiregestionnaire=/home/user/worldos/나라/LUX/소스/build/b021/_pkg_.a
+packagefile pilote/ata=/home/user/worldos/나라/LUX/소스/build/b006/_pkg_.a
+packagefile utilitaire=/home/user/.cache/go-build/7f/7f04785649a8b185803db5e1a3b433898a30c619464a134e04f8d3f4d57a49fd-d
+packagefile runtime/cgo=/home/user/worldos/나라/LUX/소스/build/b000/_pkg_.a

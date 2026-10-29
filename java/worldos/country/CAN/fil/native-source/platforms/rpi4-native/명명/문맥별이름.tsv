@@ -1,0 +1,8 @@
+file	이전이름	최종이름	쓰임
+시언어번역기/run.c	h	실행머리	ELF Header_VALUE
+machine/gumagamit.c	h	실행머리	ELF patunayan·적재 Header_VALUE
+machine/gumagamit.h	x	magrehistro_data	ARM64 x0..x30 Store_VALUE ARRAY_VALUE
+machine/board.c	h	열여섯진숫자	진수 CONVERT_VALUE 문자표
+gumagamit/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Mga_Tool/*.py	root	root_path	file 계층의 Project_root path
+machine/Terminal.c	w	window_pagpasok	Terminal window katayuan_VALUE pointer

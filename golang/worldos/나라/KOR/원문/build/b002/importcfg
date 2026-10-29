@@ -1,0 +1,8 @@
+# import config
+packagefile math=/home/user/golang/worldos/나라/KOR/원문/build/b003/_pkg_.a
+packagefile runtime=/home/user/golang/worldos/나라/KOR/원문/build/b005/_pkg_.a
+packagefile strconv=/home/user/golang/worldos/나라/KOR/원문/build/b008/_pkg_.a
+packagefile sync=/home/user/golang/worldos/나라/KOR/원문/build/b011/_pkg_.a
+packagefile unicode=/home/user/golang/worldos/나라/KOR/원문/build/b014/_pkg_.a
+packagefile unicode/utf8=/home/user/golang/worldos/나라/KOR/원문/build/b010/_pkg_.a
+packagefile runtime/cgo=/home/user/golang/worldos/나라/KOR/원문/build/b000/_pkg_.a

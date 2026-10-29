@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 wopu_a_ttaaleemüin 호환 ekeroliaa_o_uchikanain. 실제 구현: ../도구/a_yataainpalaa_e_rajaa.py"""
+import importlib as 가져오기
+import sys as a_yatawajiraaya_a_laülaasü_ajutuu
+from pathlib import Path as wopu_a_ttaaleemüin
+a_yatawajiraaya_a_laülaasü_ajutuu.path.insert(0, str(wopu_a_ttaaleemüin(__file__).resolve().parents[1] / '도구'))
+if __name__ == '__main__':
+    import runpy as 실행기
+    실행기.run_module('a_yataainpalaa_e_rajaa', run_name='__main__', alter_sys=True)
+else:
+    구현 = 가져오기.import_module('a_yataainpalaa_e_rajaa')
+    대응 = {'count': '항목수', 'special': '특수글쇠', 'error': 'ajachitia', 'exact': '정확한값', 'network': 'kusu', 'closed': '닫힘', 'length': 'akaliaa_ajutuu', 'opened': '열림', 'ftp_port': '파일전송접속번호', 'server': '서버', 'resources': '자원관리', 'data': 'atijaaya', 'shift': 'ajüttia_MAYÚS', 'send': 'ajütaa', 'run_desktop': '바탕화면실행', 'protocol': '통신규약', 'forwards': '전달규칙들', 'host': 'epiajatü', 'text': '글', 'korean': '한글여부', 'port': '접속번호', 'signum': '신호번호', 'version': '판번호', 'parser': '인수해석기', 'bridge': '연결다리', 'kind': 'akotchiraayanüliee_ajutuu', 'tail': '끝부분', 'size': '크기', 'previous_buttons': '이전단추', 'key': '누름값', 'y': '세로좌표', 'prefix': '앞부분', 'client': 'matchanta', 'char': 'jeerü_atijaaya', 'work': '작업경로', 'Keyboard': 'ajüttiaapala', 'x': '가로좌표', 'down': '누르는중', 'net': '통신다리항목', 'self': '자신', 'mode_changed': '입력방식알림', 'serial': '직렬입출력', 'args': 'ajutuu_matüriisü', 'Hangul': '한글조합', 'chunk': '조각', 'proc': '실행과정', 'Desktop': 'a_ataa_a_yataainpalaa', 'buttons': '단추들', 'thread': '작업가닥', 'pressed': '눌림', 'previous': '이전항목', 'toggle': '전환', 'command': 'aluwataaya', 'sock': '소켓', 'frame': '실행틀', 'ctrl': 'CTRL', 'path': 'wopu_a_ttaaleemüin', 'cp': 'jeerü_atijitaalüjiaa', 'terminate': '종료시키기', 'security': 'apansaajiaa', 'vnc_port': '원격화면접속번호', 'body': 'ashajalaa_a_laülaasükalü', 'index': '색인', 'exited': '종료됨', 'keysym': '글쇠기호', 'output': '출력결과', 'keyboard': 'ajüttiaapala_ekeroliaa', 'interrupted': '가로채기됨', 'listener': '수신창구', 'reader': 'aashaje_erülü', 'NetworkBridge': '통신다리', 'gui': '그림화면', 'worker': '처리작업'}
+    for 이전, 현재 in 대응.items():
+        if hasattr(구현, 현재): globals()[이전] = getattr(구현, 현재)

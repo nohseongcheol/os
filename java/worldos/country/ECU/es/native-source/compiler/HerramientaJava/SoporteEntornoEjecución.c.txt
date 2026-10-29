@@ -1,0 +1,42 @@
+
+#include <stdint.h>
+#include <stddef.h>
+typedef uintptr_t word;
+extern void kernel_panic(const char *) __attribute__((noreturn));
+static word heap[262144];
+static size_t heap_used;
+word aot_heap_info(word used) {
+    return ((used ? heap_used : sizeof(heap) / sizeof(word)) * sizeof(word) + 1023) / 1024;
+}
+static word new_array(int32_t count) {
+    if (count < 0 || (size_t)count + 1 > 262144 - heap_used)
+        kernel_panic("array allocation");
+    word *p = heap + heap_used;
+    heap_used += (size_t)count + 1;
+    p[0] = (uint32_t)count;
+    for (int32_t i = 0; i < count; i++) p[i + 1] = 0;
+    return (word)p;
+}
+static word *checked(word ref, int32_t index) {
+    if (!ref) kernel_panic("null reference");
+    word *p = (word *)ref;
+    if (index < 0 || (word)index >= p[0]) kernel_panic("array bounds");
+    return p + index + 1;
+}
+static word length(word ref) {
+    if (!ref) kernel_panic("null reference");
+    return *(word *)ref;
+}
+static word divide(word x, word y, int remainder) {
+    int32_t a = (int32_t)x, b = (int32_t)y;
+    if (!b) kernel_panic("division by zero");
+    if (a == INT32_MIN && b == -1) return remainder ? 0 : (uint32_t)a;
+    return (uint32_t)(remainder ? a % b : a / b);
+}
+static word arithmetic_shift(word value, word count) {
+    uint32_t x = (uint32_t)value, n = (uint32_t)count & 31;
+    if (!n) return x;
+    return (x >> n) | ((x & 0x80000000u) ? (~0u << (32 - n)) : 0);
+}
+#define PUSH(v) do { if (sp >= sizeof(s)/sizeof(s[0])) kernel_panic("operand stack overflow"); s[sp++] = (word)(v); } while (0)
+#define POP() (sp ? s[--sp] : (kernel_panic("operand stack underflow"), (word)0))

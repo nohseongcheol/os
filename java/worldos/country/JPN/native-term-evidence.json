@@ -1,0 +1,64 @@
+{
+  "policy": "Whole-role functional proposals. Do not attribute a single philosophy to an entire country. Unreviewed etymologies are not asserted.",
+  "sources": [
+    "WorldOS naming/terms.json (CLDR language selection and prior proposals)",
+    "golang/worldos/tools/naming_lexicon.py (whole-role paths)",
+    "WorldOS native/terms.py (current implementation roles)"
+  ],
+  "review": "Native-speaker review pending; proposals are not official standard terminology.",
+  "lexical_evidence": [],
+  "thread_example": {
+    "name": "作業の糸",
+    "meaning": "An independently scheduled execution sequence; current kernel schedules cooperatively.",
+    "historical_root": "No language-specific historical claim.",
+    "reference": null
+  },
+  "functional_review": {
+    "revision": "d4f2ecacae1945905f3c4741957cd0dc2c3542625b6f8ef48344a2d889d02632",
+    "references": [],
+    "verified_lexeme_history": [],
+    "compound_status": "Modern function-based project proposals; native-speaker review pending."
+  },
+  "country_language_policy": {
+    "country_code": "JPN",
+    "country_name": "Japan",
+    "language": "ja",
+    "selection": "representative",
+    "country_source": "naming/countries.json (ISO 3166-1)",
+    "language_source": "Unicode CLDR 48; native/inputs/representatives.tsv; editions.json",
+    "namespace": {
+      "label": "日本",
+      "identifier": "日本",
+      "source_locale": "ja",
+      "identifier_policy": "cldr-name-as-code-identifier",
+      "status": "cldr-territory-name",
+      "os_name": "JJpnOS"
+    },
+    "native_review": "pending",
+    "etymology_review": "partial; see term evidence"
+  },
+  "naming_scope": "First-party identifiers and paths; language keywords, external APIs, dependency archives, legal clauses, copyright and literal character values retain their specified identities.",
+  "unverified_terms": "native-pending.tsv; terms absent from language dictionaries are not certified translations.",
+  "terminology_proposals": {
+    "references": [
+      "https://docs.oracle.com/cd/F32587_01/jjdev/Oracle-JVM-components.html",
+      "https://www.oracle.com/technetwork/jp/articles/java/classloading3-429911-ja.html"
+    ],
+    "archive_sha256": null,
+    "archive_member": null,
+    "scope": "Original code roles composed using this language glossary. Modern proposals, not historically attested compounds. No related-language fallback or opaque collision suffix.",
+    "status": "function-based-project-proposals",
+    "native_review": "pending",
+    "etymology_review": "pending",
+    "manual_glossary_sha256": "fe2d5358472e65ca8ffa402581d0ac9ae967ec6205d151fab6694acb06a58778",
+    "whole_role_corrections_sha256": "1994e046dd57cd8e4e75d4342911de196e24055bfa6ab30969b709b153e34c16",
+    "naming_principles": null,
+    "verified_lexeme_history": [],
+    "whole_roles": 3656,
+    "pending_roles": 0
+  },
+  "java_prose": {
+    "revision": "eb8595b20d2074ca30e6245073855e8aaf85444ef4109209acec6610d9a20d03",
+    "scope": "Explicit whole-sentence Java translations; other prose remains pending."
+  }
+}

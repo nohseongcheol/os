@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "CUB",
+  "language": "es",
+  "status": "project-proposal",
+  "paths": {
+    "소스": "código-fuente"
+  }
+}

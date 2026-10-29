@@ -1,0 +1,5 @@
+# import config
+packagefile 工具=/home/user/.cache/go-build/64/64f41a0fce51b74b257ce40d0f5b0d38a74550888a81aab50e4a6b8c7d70f27f-d
+packagefile 控制台=/home/user/.cache/go-build/ed/edcc90b695cbc476c8a98c3d80eb771788570b7369bd550f29dc5347bb289540-d
+packagefile 驅動程式/ata=/home/user/worldos/나라/HKG/소스/build/b034/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/HKG/소스/build/b000/_pkg_.a

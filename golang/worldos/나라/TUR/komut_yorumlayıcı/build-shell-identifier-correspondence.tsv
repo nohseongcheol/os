@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	komut_yorumlayıcıyı_derle
+executable_file	çalıştırılabilir_dosya
+include_directory	bildirim_dizini
+library_file	kitaplık_dosyası
+linker_file	bağlama_dosyası
+object_file	nesne_dosyası
+source_file	kaynak_dosya
+startup_object	başlangıç_nesnesi

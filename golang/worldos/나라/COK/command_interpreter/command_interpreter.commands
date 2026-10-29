@@ -1,0 +1,5 @@
+# WorldOS COK UTF-8 command file
+print_arguments "WorldOS COK"
+show_help
+show_working_directory
+show_process_identifiers

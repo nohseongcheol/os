@@ -1,0 +1,7 @@
+# import config
+packagefile atmintismanager=/home/user/worldos/나라/LTU/소스/build/b002/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/LTU/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/LTU/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/3f/3f3a66f0a364cec761566045f1def869e63f501a58adc377e13725c24b838cd0-d
+packagefile util/sąrašas=/home/user/worldos/나라/LTU/소스/build/b035/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/LTU/소스/build/b000/_pkg_.a

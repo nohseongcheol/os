@@ -1,0 +1,8 @@
+Ficheiro	이전이름	최종이름	쓰임
+시언어번역기/Executar_2.c	h	실행머리	ELF Cabeceira_VALOR
+máquina/usuario.c	h	실행머리	ELF validar·적재 Cabeceira_VALOR
+máquina/usuario.h	x	rexistrarse_datos	ARM64 x0..x30 Store_VALOR MATRIZ_VALOR
+máquina/Panel.c	h	열여섯진숫자	진수 CONVERTER_VALOR 문자표
+usuario/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Ferramentas/*.py	root	raíz_camiño	Ficheiro 계층의 Project_raíz CAMIÑO
+máquina/Terminal.c	w	ventá_introdución	Terminal Xanela Estado_VALOR punteiro

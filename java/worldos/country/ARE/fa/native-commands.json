@@ -1,0 +1,33 @@
+{
+  "aliases": {
+    "ipconfig": "تنظیم-شبکه",
+    "ip": "نشانی-شبکه",
+    "ping": "آزمون-پژواک",
+    "route": "مسیرها",
+    "netstat": "اتصال‌ها",
+    "ps": "فرایندها",
+    "top": "فعالیت",
+    "free": "حافظه",
+    "df": "ذخیره‌سازی",
+    "uptime": "زمان-کار",
+    "poweroff": "خاموش",
+    "help": "راهنما"
+  },
+  "descriptions": [
+    "IPv4 settings: address, netmask, gateway",
+    "IPv4 interface and route tools",
+    "ICMP echo and round-trip time",
+    "Connected network and default route",
+    "TCP/UDP sockets and traffic",
+    "Kernel tasks and user processes",
+    "Refresh tasks and memory; q or Ctrl+C quits",
+    "Actual kernel pools and user mappings",
+    "RAM filesystem capacity and file slots",
+    "Time since boot",
+    "Stop the OS; RAM files are not preserved",
+    "Commands and local names"
+  ],
+  "pending": [],
+  "status": "functional-proposals; native-speaker review pending",
+  "description_language": "en"
+}

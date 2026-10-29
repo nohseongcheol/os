@@ -1,0 +1,6 @@
+# import config
+packagefile 中斷=/home/user/worldos/나라/TWN/소스/build/b018/_pkg_.a
+packagefile 控制台=/home/user/.cache/go-build/de/deb1b9df38783e58b92c7399bf391045cd6ab8a7860a0dbef1ad1ee2d612266f-d
+packagefile 系統呼叫=/home/user/worldos/나라/TWN/소스/build/b036/_pkg_.a
+packagefile 連接埠=/home/user/.cache/go-build/10/10c774017398f51c55e838e2696d7f75186f37cc17ee58662bd04035bb0064c5-d
+packagefile runtime/cgo=/home/user/worldos/나라/TWN/소스/build/b000/_pkg_.a

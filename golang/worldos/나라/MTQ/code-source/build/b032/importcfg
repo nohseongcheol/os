@@ -1,0 +1,4 @@
+# import config
+packagefile console=/home/user/.cache/go-build/d3/d3a8c0f974786062bb2ef87882dafe34239c97e836d2c9ebbc30474747b05037-d
+packagefile mémoiregestionnaire=/home/user/worldos/나라/MTQ/소스/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/MTQ/소스/build/b000/_pkg_.a

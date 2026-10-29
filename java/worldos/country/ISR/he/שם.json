@@ -1,0 +1,541 @@
+{
+  "action": {
+    "text": "פעולה",
+    "identifier": "פעולה",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "ארגומנטים",
+    "identifier": "ארגומנטים",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/ktexteditor5.mo",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "לחצן",
+    "identifier": "לחצן",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "בחירה...",
+    "identifier": "בחירה",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "מחלקה",
+    "identifier": "מחלקה",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "סגירה",
+    "identifier": "סגירה",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "פקודה",
+    "identifier": "פקודה",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "הידור",
+    "identifier": "הידור",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "_חיבור",
+    "identifier": "חיבור",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "תהליךנוכחי",
+    "identifier": "תהליךנוכחי",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "נתונים",
+    "identifier": "נתונים",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "תיקייה",
+    "identifier": "תיקייה",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "שגיאה",
+    "identifier": "שגיאה",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_בצע",
+    "identifier": "בצע",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "קובץ",
+    "identifier": "קובץ",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "אתחול",
+    "identifier": "אתחול",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "מפתח",
+    "identifier": "מפתח",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "תווית",
+    "identifier": "תווית",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "שורה",
+    "identifier": "שורה",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "load": {
+    "text": "טעןמקור",
+    "identifier": "טעןמקור",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "הודעות",
+    "identifier": "הודעות",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "מצב",
+    "identifier": "מצב",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "שם",
+    "identifier": "שם",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_פתח",
+    "identifier": "פתח",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "פלטטקסט",
+    "identifier": "פלטטקסט",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "לוח",
+    "identifier": "לוח",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "מנתחארגומנטים",
+    "identifier": "מנתחארגומנטים",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "נתיב",
+    "identifier": "נתיב",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "מספרשער",
+    "identifier": "מספרשער",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "מיקום",
+    "identifier": "מיקום",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "תהליך",
+    "identifier": "תהליך",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_קרא",
+    "identifier": "קרא",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "קוראטקסט",
+    "identifier": "קוראטקסט",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "הסר",
+    "identifier": "הסר",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "תוצאה",
+    "identifier": "תוצאה",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "הפעלה",
+    "identifier": "הפעלה",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "_שמירה",
+    "identifier": "שמירה",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "הגדרות",
+    "identifier": "הגדרות",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "גודל",
+    "identifier": "גודל",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "קודמקור",
+    "identifier": "קודמקור",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_עצירה",
+    "identifier": "עצירה",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "מסוף",
+    "identifier": "מסוף",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "טקסט",
+    "identifier": "טקסט",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "תהליכון",
+    "identifier": "תהליכון",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "סרגל _כלים",
+    "identifier": "סרגל_כלים",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "חלון",
+    "identifier": "חלון",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "משימתרקע",
+    "identifier": "משימתרקע",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "סביבתעבודה",
+    "identifier": "סביבתעבודה",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://docs.oracle.com/cloud/help/he/analytics-cloud/ACUBI/GUID-2D68121F-6A50-4795-A3A9-95EB56141901.htm",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "_כתוב",
+    "identifier": "כתוב",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/he/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

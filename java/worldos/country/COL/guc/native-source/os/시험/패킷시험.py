@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import subprocess
+import tempfile
+
+위치 = Path(__file__).resolve().parents[1]
+with tempfile.TemporaryDirectory(prefix='jkoros-packet-test-') as 임시:
+    anaajaalee_ajutuu = Path(임시)
+    경계 = anaajaalee_ajutuu / '시험장치.java'
+    경계.write_text('''
+class serulaalü_ajutuu { static int 시각; static int 밀리초() { return 시각++; } static void 잠시양보() {} }
+class 문자단말 { static void ashajaa(String ajutuu) {} static void 수쓰기(int ajutuu) {} }
+class kusu_aa_inmajülü {
+    static int 입출력기준주소 = 1, 송신수, 수신수;
+    static int[] serulaalü_ejepüsee = {0x52,0x54,0,0x12,0x34,0x56}, 최근;
+    static int 받기(int[] atijaaya) { return 0; }
+    static int ajütaa(int[] atijaaya, int akaliaa_ajutuu) { 최근 = atijaaya.clone(); return akaliaa_ajutuu; }
+}''', encoding='utf-8')
+    subprocess.run(['javac', '-encoding', 'UTF-8', '-d', str(anaajaalee_ajutuu), str(경계),
+                    str(위치 / 'eejeejetülein/통신망.java'), str(위치 / '시험/패킷시험.java')], check=True)
+    subprocess.run(['java', '-cp', str(anaajaalee_ajutuu), '패킷시험'], check=True, timeout=10)

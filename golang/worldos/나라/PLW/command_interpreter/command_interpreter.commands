@@ -1,0 +1,5 @@
+# WorldOS PLW UTF-8 command file
+echo "WorldOS PLW"
+help
+pwd
+pid

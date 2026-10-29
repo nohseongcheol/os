@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/KGZ/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/KGZ/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c9/c9fd1259fec09bb3f038d72b1c602caad7cb5a5e335649915085847185b9370e-d
+packagefile util/тизме=/home/user/worldos/나라/KGZ/소스/build/b032/_pkg_.a
+packagefile эсиmanager=/home/user/worldos/나라/KGZ/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KGZ/소스/build/b000/_pkg_.a

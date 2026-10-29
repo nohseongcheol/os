@@ -1,0 +1,14 @@
+{
+  "media/system-cac71db2-eb56-40a9-8889-7d6a622793d2.vdi": {
+    "sha256": "09ceaca64f7f996816ca0e938723fdf1b2711efdbc97b5610d94f2f48af5171c",
+    "bytes": 53478400
+  },
+  "media/kernel-b88077e9b378cb35c7ab219fb28a81f491aff468861bc81c42a68ac95af631a2.iso": {
+    "sha256": "b88077e9b378cb35c7ab219fb28a81f491aff468861bc81c42a68ac95af631a2",
+    "bytes": 11433984
+  },
+  "machines/worldos KOR/Snapshots/2026-09-28T17-25-52-977699000Z.sav": {
+    "sha256": "ed9aae562a7938ae592c8831ee8915c6c125f7249e8a9e33878f4e14fe461db0",
+    "bytes": 4681392
+  }
+}

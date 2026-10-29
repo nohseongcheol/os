@@ -1,0 +1,15 @@
+{
+  "worldos_archive_bytes": 40822192,
+  "worldos_archive_sha256": "ffcd39cce3a35f71cebbab805e920bd323eb947343ae077163cf73df19c6de63",
+  "jkoros_and_worldos_combined_bytes": 42837996,
+  "country_count": 249,
+  "country_archive_files": 498,
+  "unique_country_archive_inodes_after_unpack": 498,
+  "external_country_symlinks": 0,
+  "internal_example_symlinks": 249,
+  "native_verification": "249 countries / 86 languages / PASS",
+  "standalone_KOR_build": "PASS: kernel8.img generated from copied country folder",
+  "unpack_profile": "native --no-host-install; automatic prepare PASS",
+  "distribution_limit_bytes": 2000000000,
+  "expanded_country_source_exceeds_2GB": true
+}

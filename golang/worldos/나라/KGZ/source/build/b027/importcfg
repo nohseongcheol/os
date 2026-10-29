@@ -1,0 +1,12 @@
+# import config
+packagefile console=/home/user/.cache/go-build/33/33104cfbb6b01ade64427ae6290bdc7d544ebed7ea6c7ad0c90c2c0ccd124c78-d
+packagefile gdt=/home/user/.cache/go-build/6d/6d15ce117c1ca1e4dd7cd62c33b0b096b3dbb35b79d774806f7367d1d7af8faa-d
+packagefile interrupt=/home/user/worldos/나라/KGZ/소스/build/b008/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/KGZ/소스/build/b022/_pkg_.a
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile tasking/thread=/home/user/worldos/나라/KGZ/소스/build/b028/_pkg_.a
+packagefile tasking/tss=/home/user/worldos/나라/KGZ/소스/build/b031/_pkg_.a
+packagefile util/тизме=/home/user/worldos/나라/KGZ/소스/build/b032/_pkg_.a
+packagefile порт=/home/user/.cache/go-build/82/821eaee5cb5fabe1e54ef0c49e928c3f85fc022259d730d66cc7e6f70907ebb3-d
+packagefile эсиmanager=/home/user/worldos/나라/KGZ/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/KGZ/소스/build/b000/_pkg_.a

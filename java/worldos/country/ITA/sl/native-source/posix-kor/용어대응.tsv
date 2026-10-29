@@ -1,0 +1,47 @@
+기존이름또는개념	한국어이름	종류	기능에따른뜻	적용위치
+open	odprto_Datoteka	FUNCTION_VALUE	이름으로 파일을 열어 서술자를 얻는다	파일규약.h
+creat	Ustvari_Datoteka	FUNCTION_VALUE	Pisanje 전용 ustvariti 또는 vsebina_VALUE počistiti_Vsebina	파일규약.h
+read	파일자료읽기	FUNCTION_VALUE	열린 대상에서 bajt_VALUE 자료를 읽는다	파일규약.h
+write	pisati_Datoteka_podatki	FUNCTION_VALUE	열린 대상에 bajt_VALUE 자료를 쓴다	파일규약.h
+close	Zapri_Datoteka	FUNCTION_VALUE	서술자의 열린 참조를 해제한다	파일규약.h
+lseek	iskati_Datoteka	FUNCTION_VALUE	열린 파일의 V_I 위치를 옮긴다	파일규약.h
+dup	파일서술자복제	FUNCTION_VALUE	같은 열린 Datoteka 상태를 가리키는 서술자를 만든다	파일규약.h
+dup2	파일서술자지정복제	FUNCTION_VALUE	지정한 서술자 번호에 열린 상태를 연결한다	파일규약.h
+unlink	odstraniti_Datoteka_vnos_ime	FUNCTION_VALUE	Ime 연결을 없애고 열린 자료의 수명은 유지한다	파일규약.h
+ftruncate	파일길이정하기	FUNCTION_VALUE	열린 파일의 bajt_VALUE 길이를 정한다	파일규약.h
+fstat	파일상태읽기	FUNCTION_VALUE	열린 대상의 종류 Velikost 링크 수 등을 읽는다	파일규약.h
+fsync	potrjevanje_datotečna_shramba	FUNCTION_VALUE	Store_VALUE 매체에 sprotno_element Datoteka 상태를 반영한다	파일규약.h
+fcntl	파일서술자제어	FUNCTION_VALUE	서술자별 설정과 공유 Odpri 설정을 다룬다	파일규약.h
+socket	Ustvari_končna_točka	FUNCTION_VALUE	자료전문을 주고받을 논리적 끝점을 만든다	통신규약.h
+bind	BIND_naslov	FUNCTION_VALUE	종단점에 lokalen_krajeven_obseg 주소와 접속번호를 묶는다	통신규약.h
+sendto	poslati_datagram_podatki	FUNCTION_VALUE	지정한 상대에게 datagram 하나를 보낸다	통신규약.h
+recvfrom	sprejeti_sprejemati_prejeti_prejemati_datagram_podatki	FUNCTION_VALUE	datagram 하나와 보낸 주소를 받는다	통신규약.h
+getsockname	통신주소읽기	FUNCTION_VALUE	lokalen_krajeven_obseg 종단점의 sprotno_element 주소를 읽는다	통신규약.h
+setsockopt	spremeniti_mreža_Nastavitve	FUNCTION_VALUE	지원하는 sprejeti_sprejemati_prejeti_prejemati_VALUE počakaj_VALUE 설정을 바꾼다	통신규약.h
+inet_pton	razčlenjevati_omrežni_identifikator	FUNCTION_VALUE	številka_VALUE naslov 문자열을 primer_VALUE 바이트로 해석한다	통신규약.h
+inet_ntop	oblika_omrežni_identifikator	FUNCTION_VALUE	primer_VALUE 주소를 사람이 읽는 문자열로 표기한다	통신규약.h
+htons	망차례짧은수	FUNCTION_VALUE	16비트 값을 망의 bajt_VALUE 차례로 바꾼다	통신규약.h
+htonl	mreža_celo_število	FUNCTION_VALUE	32비트 값을 망의 bajt_VALUE 차례로 바꾼다	통신규약.h
+ntohs	장치차례짧은수	FUNCTION_VALUE	16비트 값을 Izvedi_ukaz 장치의 bajt_VALUE 차례로 바꾼다	통신규약.h
+ntohl	naprava_naročilo_celo_število	FUNCTION_VALUE	32비트 값을 Izvedi_ukaz 장치의 bajt_VALUE 차례로 바꾼다	통신규약.h
+errno	številka_napake	변수	실패한 C 호출의 양수 NAPAKA INDEX	errno.h
+fd	파일서술자	변수	Proces_VALUE 안의 열린 대상을 식별하는 celo_število	Datoteka_V_I.c
+count	bajt_COUNT	변수	podatki 전송량의 단위가 바이트임을 드러낸다	Datoteka_V_I.c
+offset	odmik_VALUE	변수	pobuda_koren 위치에 더할 kodiranje_VALUE 있는 거리	Datoteka_V_I.c
+flags	odprto_Nastavitve	변수	Datoteka dostop_vnos 방식과 Odpri Dejanje	Datoteka_V_I.c
+mode	허가	변수	ustvariti 파일에 기록할 허가 bit_VALUE	Datoteka_V_I.c
+timeout	수신대기밀리초	변수	sprejeti_sprejemati_prejeti_prejemati_VALUE počakaj_VALUE 시간의 단위를 명시한다	파일서술자관리.java
+창구들	접속번호들	변수	UDP 종단점에 배정한 번호들	mreža_Sklad.java
+통신장치.strojna_oprema_vrata	mreža_gonilnik.입출력기준주소	변수	NIC의 CPU V_I naslov naslov_območje pobuda_koren	mreža_gonilnik.java
+generation	세대번호	변수	성공한 Store_VALUE 시점의 naročilo_VALUE	파일보존.java
+포트읽기	입출력바이트읽기	FUNCTION_VALUE	CPU V_I 주소에서 한 바이트를 읽는다	naprava_VALUE.java
+포트쓰기	입출력바이트쓰기	FUNCTION_VALUE	CPU V_I 주소에 한 바이트를 쓴다	naprava_VALUE.java
+포트정수읽기	입출력정수읽기	FUNCTION_VALUE	CPU V_I 주소에서 32비트를 읽는다	naprava_VALUE.java
+포트정수쓰기	입출력정수쓰기	FUNCTION_VALUE	CPU V_I 주소에 32비트를 쓴다	naprava_VALUE.java
+포트짧은쓰기	입출력짧은수쓰기	FUNCTION_VALUE	CPU V_I 주소에 16비트를 쓴다	naprava_VALUE.java
+메모리파일.java	pomnilnik_datotečni_sistem.java	Datoteka·oblika_VALUE	주기억 내 Datoteka 자료와 이름을 관리한다	os/VIR
+통신장치.java	mreža_gonilnik.java	Datoteka·oblika_VALUE	PCI 망장치를 찾아 초기화하고 송수신한다	os/VIR
+file I/O	Datoteka_V_I.c	Datoteka	C 호출과 jedro_VALUE 파일서술자 호출의 경계	posix-kor/VIR/구현
+socket interface	vtičnica_končna_točka.c	Datoteka	C 소켓과 jedro_VALUE 자료전문 기능의 경계	posix-kor/VIR/구현
+syscall bridge	operacijski_sistem_Klici.s	Datoteka	C 호출 규약과 jedro_VALUE 레지스터 규약의 경계	posix-kor/računalnik
+startup	Start_uporabnik_aplikacija.s	Datoteka	uporabnik 진입점에서 C main을 시작한다	posix-kor/računalnik

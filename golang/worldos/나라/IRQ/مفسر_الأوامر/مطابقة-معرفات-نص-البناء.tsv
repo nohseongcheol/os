@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	بناء_مفسر_الأوامر
+executable_file	الملف_التنفيذي
+include_directory	مجلد_التصريحات
+library_file	ملف_المكتبة
+linker_file	ملف_الربط
+object_file	ملف_الكائن
+source_file	ملف_المصدر
+startup_object	كائن_بدء_التشغيل

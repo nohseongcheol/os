@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 шлях 호환 запис_бал. фактично_дані реалізація: ../інструменти/흐름시험.py"""
+import importlib as 가져오기
+import sys as операційна_система_ОС_значення
+from pathlib import Path as шлях
+операційна_система_ОС_значення.path.insert(0, str(шлях(__file__).resolve().parents[1] / 'інструменти'))
+if __name__ == '__main__':
+    import runpy as програма_запускач
+    програма_запускач.run_module('흐름시험', run_name='__main__', alter_sys=True)
+else:
+    реалізація = 가져오기.import_module('흐름시험')
+    зіставлення_значення = {'out': 'КР_дані', 'main': 'запустити', 'ROOT': 'Дії_корінь', 'p': 'дані_посада', 'text': 'текст', 'report': 'перевірка_звіт'}
+    for 이전, чинний_елемент in зіставлення_значення.items():
+        if hasattr(реалізація, чинний_елемент): globals()[이전] = getattr(реалізація, чинний_елемент)

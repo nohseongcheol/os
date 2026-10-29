@@ -1,0 +1,356 @@
+{
+  "action": {
+    "current_meaning": "A callback invoked when a user activates a control.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "address": {
+    "current_meaning": "The host name or IP address of a network endpoint.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "api": {
+    "current_meaning": "The project facade exposing selected JDK operations; it is not a replacement POSIX ABI.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "append": {
+    "current_meaning": "Add text after existing output without replacing previous output.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "arguments": {
+    "current_meaning": "Arguments supplied to a class main method.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "button": {
+    "current_meaning": "A visible Swing control activated by the user.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "choose": {
+    "current_meaning": "Select an existing source file.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "chooser": {
+    "current_meaning": "The file selection dialog instance.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "class": {
+    "current_meaning": "The fully qualified name of the Java class containing main.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "close": {
+    "current_meaning": "Release an open file handle.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "command": {
+    "current_meaning": "An ordered process argument vector, without shell interpolation.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "compile": {
+    "current_meaning": "Translate Java source to JVM class files using javac.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "connect": {
+    "current_meaning": "Establish a TCP socket connection to an address and port.",
+    "history": "RFC 147 documents early socket concepts; the implementation uses modern Java TCP sockets.",
+    "reference": "https://www.rfc-editor.org/info/rfc147/",
+    "native_etymology_review": "pending"
+  },
+  "current": {
+    "current_meaning": "The local Process reference in the stop operation, distinct from a current position or generic native current value.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "data": {
+    "current_meaning": "Bytes transferred to or from a file.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "datagram": {
+    "current_meaning": "An independently addressed UDP message endpoint.",
+    "history": "RFC 768 (1980) specifies UDP; the proposed wording emphasizes independent messages, not guaranteed delivery.",
+    "reference": "https://www.rfc-editor.org/info/rfc768/",
+    "native_etymology_review": "pending"
+  },
+  "directory": {
+    "current_meaning": "A filesystem directory, distinct from a path string.",
+    "history": "The Unix account describes directories as mappings of names to file-system entries.",
+    "reference": "https://cm-bell-labs.github.io/who/dmr/cacm.html",
+    "native_etymology_review": "pending"
+  },
+  "error": {
+    "current_meaning": "Report a failed operation and its exception.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "event": {
+    "current_meaning": "A notification delivered by the graphical event system.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "exception": {
+    "current_meaning": "A Java object describing exceptional completion.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "execute": {
+    "current_meaning": "Create and wait for an operating system process.",
+    "history": "The Unix account separates process creation with fork from program replacement with exec.",
+    "reference": "https://cm-bell-labs.github.io/who/dmr/cacm.html",
+    "native_etymology_review": "pending"
+  },
+  "file": {
+    "current_meaning": "A file or Path object, not just the filename.",
+    "history": "Unix file system descriptions provide a historical computing context for named byte storage.",
+    "reference": "https://cm-bell-labs.github.io/who/dmr/cacm.html",
+    "native_etymology_review": "pending"
+  },
+  "initialize": {
+    "current_meaning": "Construct the workbench controls and load resources.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "key": {
+    "current_meaning": "A resource lookup key, not a cryptographic key.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "label": {
+    "current_meaning": "Resolve the visible wording of a user interface control.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "line": {
+    "current_meaning": "One line of child-process output.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "load": {
+    "current_meaning": "Files.readString loads source into the editor; not system load, cargo weight, or taxation.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "messages": {
+    "current_meaning": "The edition user interface resource dictionary.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "mode": {
+    "current_meaning": "RandomAccessFile access mode, such as r or rw.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "name": {
+    "current_meaning": "The main class name entered by the user.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "open": {
+    "current_meaning": "Obtain a RandomAccessFile handle for a path.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "output": {
+    "current_meaning": "JTextArea receives program stdout/stderr text; not sound output or a buffer offset.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "panel": {
+    "current_meaning": "A Swing container grouping related controls.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "parser": {
+    "current_meaning": "The tokenizer for quoted process arguments.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "path": {
+    "current_meaning": "The filesystem location of a source or data file.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "port": {
+    "current_meaning": "A numeric TCP/UDP port identifier; not an I/O operation or socket object.",
+    "history": "RFC 147 discusses ports and socket names in the ARPANET. This is historical context, not an assertion of identical modern semantics.",
+    "reference": "https://www.rfc-editor.org/rfc/rfc6335.html",
+    "native_etymology_review": "pending"
+  },
+  "position": {
+    "current_meaning": "The byte offset within an open file.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "process": {
+    "current_meaning": "A running operating system subprocess.",
+    "history": "The Unix account describes process creation and execution as distinct system operations.",
+    "reference": "https://cm-bell-labs.github.io/who/dmr/cacm.html",
+    "native_etymology_review": "pending"
+  },
+  "read": {
+    "current_meaning": "Transfer available bytes from the current file position into a buffer.",
+    "history": "Unix exposes file reads through descriptors; the Java wrapper here uses RandomAccessFile.",
+    "reference": "https://cm-bell-labs.github.io/who/dmr/cacm.html",
+    "native_etymology_review": "pending"
+  },
+  "reader": {
+    "current_meaning": "Decode a character stream as UTF-8.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "remove": {
+    "current_meaning": "Delete a named filesystem entry using Files.delete.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "result": {
+    "current_meaning": "Process exit status, not destination or a label.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "run": {
+    "current_meaning": "Compile and launch the user-selected Java main class.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "save": {
+    "current_meaning": "Write current editor text to a persistent UTF-8 file.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "seek": {
+    "current_meaning": "Set the next byte position of a random-access file.",
+    "history": "Unix describes random file positioning with seek; the C alias targets modern lseek.",
+    "reference": "https://cm-bell-labs.github.io/who/dmr/cacm.html",
+    "native_etymology_review": "pending"
+  },
+  "settings": {
+    "current_meaning": "The controls for class name and arguments.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "size": {
+    "current_meaning": "The length of a filesystem file, measured in bytes.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "source": {
+    "current_meaning": "The editable Java source text and source directory.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "split": {
+    "current_meaning": "The Swing split pane separating source from output.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "stop": {
+    "current_meaning": "Terminate the launched process and its descendants.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "sync": {
+    "current_meaning": "Request durable synchronization of a file descriptor.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "terminal": {
+    "current_meaning": "Launch an interactive command interpreter in an X terminal.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "text": {
+    "current_meaning": "A sequence of Unicode characters.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "thread": {
+    "current_meaning": "A Java execution thread.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "toolbar": {
+    "current_meaning": "A row of action controls.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "window": {
+    "current_meaning": "A top-level graphical application window.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "worker": {
+    "current_meaning": "The execution thread used for compilation and child processes.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "workspace": {
+    "current_meaning": "The complete source editor and compile/run workbench.",
+    "history": "No claim about the first coinage or the native-language etymology. Functional naming proposal.",
+    "reference": "https://docs.oracle.com/en/java/javase/25/docs/api/",
+    "native_etymology_review": "pending"
+  },
+  "write": {
+    "current_meaning": "Write bytes at the current random-access file position.",
+    "history": "Unix exposes file writes through descriptors; the Java wrapper here uses RandomAccessFile.",
+    "reference": "https://cm-bell-labs.github.io/who/dmr/cacm.html",
+    "native_etymology_review": "pending"
+  }
+}

@@ -1,0 +1,5 @@
+# WorldOS MLT UTF-8 command file
+echo "WorldOS MLT"
+help
+pwd
+pid

@@ -1,0 +1,555 @@
+{
+  "action": {
+    "text": "Acção",
+    "identifier": "Acção",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "Endereço",
+    "identifier": "Endereço",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/virt-manager.mo",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "chamada ao sistema",
+    "identifier": "chamada_ao_sistema",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "adicionar ao fim da lista",
+    "identifier": "adicionar_ao_fim_da_lista",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "argumentos",
+    "identifier": "argumentos",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "botão",
+    "identifier": "botão",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Classe",
+    "identifier": "Classe",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Fechar",
+    "identifier": "Fechar",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "comando",
+    "identifier": "comando",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compilar",
+    "identifier": "compilar",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "_Ligar",
+    "identifier": "Ligar",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "processoAtual",
+    "identifier": "processoAtual",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "dados",
+    "identifier": "dados",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "diretório",
+    "identifier": "diretório",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "erro",
+    "identifier": "erro",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Evento",
+    "identifier": "Evento",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Executar",
+    "identifier": "Executar",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "ficheiro",
+    "identifier": "ficheiro",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "inicializar",
+    "identifier": "inicializar",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "Chave",
+    "identifier": "Chave",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Etiqueta",
+    "identifier": "Etiqueta",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "linha de entrada",
+    "identifier": "linha_de_entrada",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "carregarFonte",
+    "identifier": "carregarFonte",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "mensagens",
+    "identifier": "mensagens",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "Modo",
+    "identifier": "Modo",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Nome",
+    "identifier": "Nome",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "A_brir",
+    "identifier": "Abrir",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "saídaTexto",
+    "identifier": "saídaTexto",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "Painel",
+    "identifier": "Painel",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "analisadorArgumentos",
+    "identifier": "analisadorArgumentos",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "caminho",
+    "identifier": "caminho",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "númeroPorta",
+    "identifier": "númeroPorta",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "posição",
+    "identifier": "posição",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Processo",
+    "identifier": "Processo",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Leitura",
+    "identifier": "Leitura",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "leitorTexto",
+    "identifier": "leitorTexto",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "Remover",
+    "identifier": "Remover",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "resultado",
+    "identifier": "resultado",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "iniciar",
+    "identifier": "iniciar",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "_Gravar",
+    "identifier": "Gravar",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Definições",
+    "identifier": "Definições",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/garcon.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Tamanho",
+    "identifier": "Tamanho",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "códigoFonte",
+    "identifier": "códigoFonte",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "_Parar",
+    "identifier": "Parar",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminal",
+    "identifier": "terminal",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "texto",
+    "identifier": "texto",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "fioExecução",
+    "identifier": "fioExecução",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "Barra de ferramen_tas",
+    "identifier": "Barra_de_ferramentas",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Janela",
+    "identifier": "Janela",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "tarefaSegundoPlano",
+    "identifier": "tarefaSegundoPlano",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "ÁreaTrabalho",
+    "identifier": "ÁreaTrabalho",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/pt/text/shared/guide/import_ms.html",
+      "https://dicionario.priberam.org/carregar",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "_Escrita",
+    "identifier": "Escrita",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/pt/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

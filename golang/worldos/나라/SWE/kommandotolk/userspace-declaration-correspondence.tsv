@@ -1,0 +1,13 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Stäng
+SYS_exit	SYS__exit
+SYS_open	SYS_Öppna
+SYS_read	SYS_Läs
+SYS_write	SYS_Skriv
+argv	argument_3
+buf	överföringsbuffert
+close	Stäng
+fd	filbeskrivare
+open	Öppna
+read	Läs
+write	Skriv

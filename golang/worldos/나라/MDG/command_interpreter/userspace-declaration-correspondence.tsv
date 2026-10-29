@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_hidio
+SYS_exit	SYS__exit
+SYS_open	SYS_Sokafy
+SYS_read	SYS_Mamaky
+SYS_write	SYS_Manoratra
+close	hidio
+open	Sokafy
+read	Mamaky
+write	Manoratra

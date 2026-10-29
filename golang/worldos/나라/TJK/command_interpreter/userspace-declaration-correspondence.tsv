@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_Хуруҷ
+SYS_exit	SYS__exit
+SYS_open	SYS_Кушодан
+SYS_read	SYS_Хондан
+SYS_write	SYS_Навиштан
+close	Хуруҷ
+open	Кушодан
+read	Хондан
+write	Навиштан

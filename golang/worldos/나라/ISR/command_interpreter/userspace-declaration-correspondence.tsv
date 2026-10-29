@@ -1,0 +1,10 @@
+compiler_identifier	native_identifier
+SYS_close	SYS_סגור
+SYS_exit	SYS__exit
+SYS_open	SYS_פתח
+SYS_read	SYS_קריאה
+SYS_write	SYS_כתיבה
+close	סגור
+open	פתח
+read	קריאה
+write	כתיבה

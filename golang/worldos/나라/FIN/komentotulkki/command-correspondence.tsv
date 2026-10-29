@@ -1,0 +1,13 @@
+ascii_command	native_proposal
+help	näytä_ohje
+echo	näytä_argumentit
+pwd	näytä_työhakemisto
+cat	näytä_tiedoston_sisältö
+stat	näytä_tiedoston_tiedot
+pid	näytä_prosessitunnukset
+uname	näytä_järjestelmätiedot
+run	suorita_ohjelma
+udp	testaa_tietosähkeen_palautus
+source	tulkitse_komentotiedosto
+cd	vaihda_hakemistoa
+exit	poistu

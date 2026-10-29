@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/2e/2e89a99c4c23db99c51a039245a93331501d7dacd69d51b630d5229501a0afaa-d
+packagefile driver/ata=/home/user/worldos/나라/VIR/소스/build/b004/_pkg_.a
+packagefile filesystem/executable_and_linkable_format=/home/user/worldos/나라/VIR/소스/build/b025/_pkg_.a
+packagefile filesystem/fat=/home/user/worldos/나라/VIR/소스/build/b028/_pkg_.a
+packagefile filesystem/msdospartition=/home/user/worldos/나라/VIR/소스/build/b029/_pkg_.a
+packagefile interrupt=/home/user/worldos/나라/VIR/소스/build/b008/_pkg_.a
+packagefile memorymanager=/home/user/worldos/나라/VIR/소스/build/b023/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/VIR/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/VIR/소스/build/b026/_pkg_.a
+packagefile port=/home/user/.cache/go-build/54/549aea4ce3114a2bcf940a36048ea6481be1fd2ac668543581b4b05c1adededb-d
+packagefile tasking/scheduler=/home/user/worldos/나라/VIR/소스/build/b030/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/VIR/소스/build/b031/_pkg_.a
+packagefile util=/home/user/.cache/go-build/a7/a7fcb026c9ab939a36b837b5fbc2b5d079867b0278e5e1c50208412f351722b3-d
+packagefile virtualmemory=/home/user/worldos/나라/VIR/소스/build/b032/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VIR/소스/build/b000/_pkg_.a

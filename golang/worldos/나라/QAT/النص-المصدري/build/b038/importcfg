@@ -1,0 +1,6 @@
+# import config
+packagefile أداة=/home/user/.cache/go-build/1e/1ef77f169859ab54ac9dc7752dcabbee9730755f8bb16722f7ca9773d0b867f2-d
+packagefile إدارةصفحات=/home/user/worldos/나라/QAT/소스/build/b024/_pkg_.a
+packagefile ذاكرةمدير=/home/user/worldos/나라/QAT/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/3b/3b92c4759d8cc3e778ca14aea57880a6a7a5cdd925d91d33580ddbb75ccd6abd-d
+packagefile runtime/cgo=/home/user/worldos/나라/QAT/소스/build/b000/_pkg_.a

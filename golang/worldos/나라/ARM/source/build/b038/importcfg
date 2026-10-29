@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/ARM/소스/build/b028/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ARM/소스/build/b029/_pkg_.a
+packagefile util=/home/user/.cache/go-build/18/183ad3821ff38d0a9a37ea70fbcc0539b2e48ec901cec06c3482c0791ec49ef7-d
+packagefile util/ցուցակ=/home/user/worldos/나라/ARM/소스/build/b033/_pkg_.a
+packagefile հիշողությունmanager=/home/user/worldos/나라/ARM/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ARM/소스/build/b000/_pkg_.a

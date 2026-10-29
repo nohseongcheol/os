@@ -1,0 +1,5 @@
+# import config
+packagefile bộnhớmanager=/home/user/worldos/나라/VNM/소스/build/b002/_pkg_.a
+packagefile giánđoạn=/home/user/worldos/나라/VNM/소스/build/b008/_pkg_.a
+packagefile util=/home/user/.cache/go-build/b9/b937ded4fd3cf98b8c7cb30c49f907155ede542be5acd79f7bcf73673f688afd-d
+packagefile runtime/cgo=/home/user/worldos/나라/VNM/소스/build/b000/_pkg_.a

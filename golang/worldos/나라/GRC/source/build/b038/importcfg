@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/GRC/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/GRC/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/c4/c4ad203e6dcb55accec690271fd1742e1ee8878348f2c41c9c7e7e38f87255c9-d
+packagefile util/λίστα=/home/user/worldos/나라/GRC/소스/build/b032/_pkg_.a
+packagefile μνήμηmanager=/home/user/worldos/나라/GRC/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GRC/소스/build/b000/_pkg_.a

@@ -1,0 +1,8 @@
+Fájl	이전이름	최종이름	쓰임
+C_fordítóprogram/Futtatás.c	h	végrehajtható_fejléc	ELF fejléc_ÉRTÉK
+gép/felhasználó.c	h	végrehajtható_fejléc	ELF ellenőriz·적재 fejléc_ÉRTÉK
+gép/felhasználó.h	x	jegyzék_adat	ARM64 x0..x30 tár_ÉRTÉK TÖMB_ÉRTÉK
+gép/fal.c	h	열여섯진숫자	진수 konvertál_ÉRTÉK 문자표
+felhasználó/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Eszközök/*.py	root	gyök_útvonal	Fájl 계층의 teendő_gyök ÚTVONAL
+gép/Terminál.c	w	ablak_bejegyzés	Terminál Ablak Állapot_ÉRTÉK mutató

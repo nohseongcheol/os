@@ -1,0 +1,8 @@
+Fitxategia	이전이름	최종이름	쓰임
+시언어번역기/Exekutatu_2.c	h	실행머리	ELF goiburu_balio
+gailu/erabiltzaile.c	h	실행머리	ELF baliozkotu·적재 goiburu_balio
+gailu/erabiltzaile.h	x	izena_eman_datuak	ARM64 x0..x30 Store_balio matrize_balio
+gailu/arbel.c	h	열여섯진숫자	진수 BIHURTU_balio 문자표
+erabiltzaile/자바/자바가상기계.java 화면호출	w h	너비 높이	화면 치수
+Tresnak/*.py	root	erro_bide_izen	Fitxategia 계층의 Project_erro Bide_izena
+gailu/Terminala.c	w	leiho_sarrera	Terminala Leihoa Egoera_balio erakusle

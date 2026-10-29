@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Akce",
+    "identifier": "Akce",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "Adresa",
+    "identifier": "Adresa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/virt-manager.mo",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "systémové volání",
+    "identifier": "systémové_volání",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "přidat na konec seznamu",
+    "identifier": "přidat_na_konec_seznamu",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "argumenty",
+    "identifier": "argumenty",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "tlačítko",
+    "identifier": "tlačítko",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "zvolit...",
+    "identifier": "zvolit",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Třída",
+    "identifier": "Třída",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Zavřené",
+    "identifier": "Zavřené",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "příkaz",
+    "identifier": "příkaz",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_Připojit",
+    "identifier": "Připojit",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "aktuální pozice",
+    "identifier": "aktuální_pozice",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "cesta",
+    "identifier": "cesta",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "chyba",
+    "identifier": "chyba",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Události",
+    "identifier": "Události",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Spustit",
+    "identifier": "Spustit",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "název souboru",
+    "identifier": "název_souboru",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "Klíč",
+    "identifier": "Klíč",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Popisek",
+    "identifier": "Popisek",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "vstupní řádek",
+    "identifier": "vstupní_řádek",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Zátěž",
+    "identifier": "Zátěž",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Režim",
+    "identifier": "Režim",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Název",
+    "identifier": "Název",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Otevřít",
+    "identifier": "Otevřít",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "výstupní pozice",
+    "identifier": "výstupní_pozice",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "cesta",
+    "identifier": "cesta_2",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "port",
+    "identifier": "port",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "pozice",
+    "identifier": "pozice",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Proces",
+    "identifier": "Proces",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "Čt_ení",
+    "identifier": "Čtení",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Odstranit",
+    "identifier": "Odstranit",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "VÝSLEDEK",
+    "identifier": "VÝSLEDEK",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/libfm.mo",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_Spustit",
+    "identifier": "Spustit_2",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_Uložit",
+    "identifier": "Uložit",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Nastavení",
+    "identifier": "Nastavení",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Velikost",
+    "identifier": "Velikost",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "zdrojový soubor",
+    "identifier": "zdrojový_soubor",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "Zastavit",
+    "identifier": "Zastavit",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "interpret příkazů",
+    "identifier": "interpret_příkazů",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "text",
+    "identifier": "text",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "_Nástrojová lišta",
+    "identifier": "Nástrojová_lišta",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Okno",
+    "identifier": "Okno",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "Záp_is",
+    "identifier": "Zápis",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/cs/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

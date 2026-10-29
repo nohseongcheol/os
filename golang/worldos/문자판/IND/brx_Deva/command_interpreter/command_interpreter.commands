@@ -1,0 +1,5 @@
+# WorldOS IND/brx_Deva UTF-8 command file
+echo "WorldOS IND/brx_Deva"
+help
+pwd
+pid

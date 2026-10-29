@@ -1,0 +1,7 @@
+# import config
+packagefile tasking/scheduler=/home/user/worldos/나라/ETH/소스/build/b028/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/ETH/소스/build/b029/_pkg_.a
+packagefile util=/home/user/.cache/go-build/62/6293b1d56a04be3bdb49a0e78b7a6fd107f1728fd1effc5e63d59822cd4026d2-d
+packagefile util/ዝርዝር=/home/user/worldos/나라/ETH/소스/build/b033/_pkg_.a
+packagefile ማስታወሻmanager=/home/user/worldos/나라/ETH/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/ETH/소스/build/b000/_pkg_.a

@@ -1,0 +1,7 @@
+# import config
+packagefile памятьдиспетчер=/home/user/worldos/나라/RUS/소스/build/b022/_pkg_.a
+packagefile управлениеЗадачами/планировщик=/home/user/worldos/나라/RUS/소스/build/b028/_pkg_.a
+packagefile управлениеЗадачами/поток=/home/user/worldos/나라/RUS/소스/build/b030/_pkg_.a
+packagefile утилита=/home/user/.cache/go-build/3e/3e37808c7eef32a268ed666aa3620793609091337ed3585c554348ed41f0cae5-d
+packagefile утилита/список=/home/user/worldos/나라/RUS/소스/build/b031/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/RUS/소스/build/b000/_pkg_.a

@@ -1,0 +1,4 @@
+# import config
+packagefile consola=/home/user/.cache/go-build/c4/c467ea6b1d80fc73adf0ff7467583721866601fe1ec876c126d5d62a87a166ea-d
+packagefile memoriagestor=/home/user/worldos/나라/VEN/소스/build/b021/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/VEN/소스/build/b000/_pkg_.a

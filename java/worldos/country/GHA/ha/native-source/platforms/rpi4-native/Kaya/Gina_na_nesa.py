@@ -1,0 +1,45 @@
+"""LGPL libassh와 MIT BearSSL을 각각 보존하여 재연결 가능한 Tsaye_cik_Daraja 묶음을 만든다."""
+from pathlib import Path
+import json
+import tempfile
+from na_nesa_Saituna import Shirya
+
+
+def ƙirƙíra_na_nesa(기준, 번역기, Rumbun_ajiya_kayan_aiki, Saituna, gudanar_Umarni):
+    출력 = 기준 / 'build/remote'
+    출력.mkdir(exist_ok=True)
+    Shirya(기준)
+    kararre_Mai_fayyace_umani = 기준 / 'vendor/libassh/src'
+    kalmar_sirri_Daraja = 기준 / 'vendor/bearssl'
+    Kwara = ('deps context session packet event transport kex sign hash algo key service map bignum '
+            'connection debug buffer alloc prng userauth_server userauth_server_password').split()
+    원본들 = [kararre_Mai_fayyace_umani / ('assh_' + Suna + '.c') for Suna in Kwara]
+    for Rodi_rodi_Daraja in ('bignum_builtin*.c', 'kex_builtin*.c', 'key_builtin*.c', 'sign_builtin*.c', 'hash_builtin*.c'):
+        원본들 += sorted(kararre_Mai_fayyace_umani.glob(Rodi_rodi_Daraja))
+    원본들 += [kararre_Mai_fayyace_umani / (Suna + '.c') for Suna in (
+        'ecc_weierstrass', 'cipher_builtin_aes', 'cipher_builtin_arc4', 'cipher_builtin_chachapoly',
+        'mac_builtin', 'compress_none', 'cipher_none', 'mac_none', 'sign_none', 'key_none')]
+    인수 = Saituna + ['-ffunction-sections', '-fdata-sections', '-std=c11', '-DNDEBUG',
+                    '-I', 기준 / 'na_nesa_Daraja', '-I', 출력, '-I', kararre_Mai_fayyace_umani,
+                    '-I', kalmar_sirri_Daraja / 'inc', '-I', kalmar_sirri_Daraja / 'src', '-isystem', '/usr/include/newlib']
+    def 묶기(Suna, Hanyar_shiga_Jeri, 접두):
+        목적들 = []
+        for Hanyar_shiga in Hanyar_shiga_Jeri:
+            Zangon_ƙarshe_Daraja = 출력 / (접두 + Hanyar_shiga.stem + '.o')
+            gudanar_Umarni([번역기] + 인수 + ['-c', Hanyar_shiga, '-o', Zangon_ƙarshe_Daraja])
+            목적들.append(Zangon_ƙarshe_Daraja)
+        with tempfile.TemporaryDirectory(dir=str(출력)) as 임시:
+            gungu_Daraja = Path(임시) / Suna
+            gudanar_Umarni([Rumbun_ajiya_kayan_aiki, 'rcs', gungu_Daraja] + 목적들)
+            gungu_Daraja.replace(출력 / Suna)
+        return 출력 / Suna
+    묶기('libassh.a', 원본들, 'assh-')
+    (출력 / 'libassh-build.json').write_text(json.dumps({
+        'sources': [str(Hanyar_shiga.relative_to(기준)) for Hanyar_shiga in 원본들],
+        'flags': list(map(str, Saituna)), 'license': 'LGPL-2.1-or-later',
+    }, ensure_ascii=False, indent=2) + '\n')
+    베어원문 = [kalmar_sirri_Daraja / 'src' / (Suna + '.c') for Suna in (
+        'codec/dec32be', 'codec/enc32be', 'codec/enc64be', 'hash/sha2small',
+        'symcipher/des_support', 'symcipher/des_ct', 'symcipher/des_ct_cbcenc')]
+    묶기('libbearssl.a', 베어원문, 'bear-')
+    return 묶기('libremote.a', sorted((기준 / 'na_nesa_Daraja').glob('*.c')), '')

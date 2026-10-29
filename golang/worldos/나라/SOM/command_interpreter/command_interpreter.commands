@@ -1,0 +1,5 @@
+# WorldOS SOM UTF-8 command file
+echo "WorldOS SOM"
+help
+pwd
+pid

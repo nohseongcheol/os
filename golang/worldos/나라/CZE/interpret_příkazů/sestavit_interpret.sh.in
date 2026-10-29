@@ -1,0 +1,20 @@
+#!/bin/sh
+# @{...} denotes a native identifier placeholder, not standard shell syntax.
+set -eu
+@{zdrojový_soubor}=$1
+@{objektový_soubor}=$2
+@{spustitelný_soubor}=$3
+@{adresář_deklarací}=$4
+@{spouštěcí_objekt}=$5
+@{soubor_knihovny}=$6
+@{soubor_sestavení}=$7
+
+@{sestavit_interpret}() {
+    gcc -m32 -std=c99 -ffreestanding -fno-pie -fno-pic -fno-stack-protector \
+        -fno-builtin -Wall -Wextra -Werror -nostdinc \
+        -I"$@{adresář_deklarací}" -c "$@{zdrojový_soubor}" -o "$@{objektový_soubor}"
+    ld -n -m elf_i386 -e _start -T "$@{soubor_sestavení}" -static \
+        --no-ld-generated-unwind-info -o "$@{spustitelný_soubor}" \
+        "$@{spouštěcí_objekt}" "$@{objektový_soubor}" "$@{soubor_knihovny}"
+}
+@{sestavit_interpret}

@@ -1,0 +1,6 @@
+# import config
+packagefile console=/home/user/.cache/go-build/b5/b51f7753c9ee23c12309b8fde799145857fb4501d7aefee23c1ec89edb838f18-d
+packagefile interrupt=/home/user/worldos/나라/GUM/소스/build/b008/_pkg_.a
+packagefile port=/home/user/.cache/go-build/97/97b603eee88b2382807fec53d08bc6d3bf6d742bf44fb2795b96f815fdd21957-d
+packagefile systemcall=/home/user/worldos/나라/GUM/소스/build/b024/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/GUM/소스/build/b000/_pkg_.a

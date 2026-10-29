@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "Igikorwa",
+    "identifier": "Igikorwa",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/mate-control-center.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "arguments",
+    "identifier": "arguments",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "ishuri,urwego",
+    "identifier": "ishuri_urwego",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/metacity.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Gufunga",
+    "identifier": "Gufunga",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "Icyo wifuza",
+    "identifier": "Icyo_wifuza",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "connect",
+    "identifier": "connect",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "current",
+    "identifier": "current",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "Ububiko",
+    "identifier": "Ububiko",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "IKOSA",
+    "identifier": "IKOSA",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "execute",
+    "identifier": "execute",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "Idosiye",
+    "identifier": "Idosiye",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/mate-terminal.mo",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "key",
+    "identifier": "key",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Akarango",
+    "identifier": "Akarango",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/pluma.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "line",
+    "identifier": "line",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "Ibirimo",
+    "identifier": "Ibirimo",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "Ubwoko",
+    "identifier": "Ubwoko",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Izina",
+    "identifier": "Izina",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "Gufungura",
+    "identifier": "Gufungura",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/engrampa.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "output",
+    "identifier": "output",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "panel",
+    "identifier": "panel",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "Inzira",
+    "identifier": "Inzira",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "Umuyoboro",
+    "identifier": "Umuyoboro",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "position",
+    "identifier": "position",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "process",
+    "identifier": "process",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "read",
+    "identifier": "read",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "Gukuraho",
+    "identifier": "Gukuraho",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "run",
+    "identifier": "run",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "Kubika",
+    "identifier": "Kubika",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/ghex-3.0.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "settings",
+    "identifier": "settings",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Ingano",
+    "identifier": "Ingano",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "Inkomoko",
+    "identifier": "Inkomoko",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/pluma.mo",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "Guhagarara",
+    "identifier": "Guhagarara",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/mate-media.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminal",
+    "identifier": "terminal",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "Umwandiko",
+    "identifier": "Umwandiko",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/rw/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "toolbar",
+    "identifier": "toolbar",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "write",
+    "identifier": "write",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  }
+}

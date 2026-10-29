@@ -1,0 +1,4 @@
+# import config
+packagefile internal/race=/home/user/koros/build/b016/_pkg_.a
+packagefile runtime=/home/user/koros/build/b009/_pkg_.a
+packagefile sync/atomic=/home/user/koros/build/b017/_pkg_.a

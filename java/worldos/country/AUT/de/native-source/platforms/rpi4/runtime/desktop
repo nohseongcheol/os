@@ -1,0 +1,19 @@
+#!/bin/sh
+export DISPLAY=:0
+export XAUTHORITY=/run/user/1000/Xauthority
+cookie=$(od -An -N16 -tx1 /dev/urandom | tr -d ' \n')
+touch "$XAUTHORITY"
+xauth -f "$XAUTHORITY" add :0 MIT-MAGIC-COOKIE-1 "$cookie"
+chown 1000:1000 "$XAUTHORITY"
+chmod 600 "$XAUTHORITY"
+Xorg :0 vt1 -auth "$XAUTHORITY" -nolisten tcp -logfile /var/log/Xorg.0.log &
+server=$!
+attempt=0
+while [ ! -S /tmp/.X11-unix/X0 ]; do
+    kill -0 "$server" 2>/dev/null || exit 1
+    attempt=$((attempt + 1))
+    [ "$attempt" -lt 60 ] || exit 1
+    sleep 1
+done
+su - user -c 'export DISPLAY=:0 XAUTHORITY=/run/user/1000/Xauthority XDG_RUNTIME_DIR=/run/user/1000; exec dbus-run-session /usr/local/bin/jkoros-session'
+kill "$server"

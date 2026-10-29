@@ -1,0 +1,8 @@
+nazwa_pliku	이전이름	최종이름	쓰임
+C_kompilator/Uruchom_2.c	h	wykonywalny_Nagłówek	ELF Nagłówek_WARTOŚĆ
+maszyna/przestrzeń_użytkownika.c	h	wykonywalny_Nagłówek	ELF walidować·적재 Nagłówek_WARTOŚĆ
+maszyna/przestrzeń_użytkownika.h	x	rejestr_dane	ARM64 x0..x30 Store_WARTOŚĆ TABLICA_WARTOŚĆ
+maszyna/Tablica.c	h	열여섯진숫자	진수 KONWERTUJ_WARTOŚĆ 문자표
+przestrzeń_użytkownika/자바/자바가상기계.java 화면호출	w h	너비 wysokość_WARTOŚĆ	화면 치수
+narzędzia/*.py	root	korzeń_ścieżka	nazwa_pliku 계층의 Project_korzeń ścieżka_2
+maszyna/interpretator_poleceń.c	w	okno_wpis	interpretator_poleceń Okno Stan_WARTOŚĆ wskaźnik

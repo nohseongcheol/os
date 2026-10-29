@@ -1,0 +1,16 @@
+# import config
+packagefile console=/home/user/.cache/go-build/9e/9e7e0722f8d5276a5b3efe59c4bafeddd64f5e4ebd4342096cd4e6dbda9281db-d
+packagefile driver/ata=/home/user/worldos/나라/CYP/소스/build/b004/_pkg_.a
+packagefile multitasking=/home/user/worldos/나라/CYP/소스/build/b022/_pkg_.a
+packagefile paging=/home/user/worldos/나라/CYP/소스/build/b025/_pkg_.a
+packagefile tasking/scheduler=/home/user/worldos/나라/CYP/소스/build/b027/_pkg_.a
+packagefile tasking/thread=/home/user/worldos/나라/CYP/소스/build/b028/_pkg_.a
+packagefile util=/home/user/.cache/go-build/28/28d5785584f78d654a619c1b169a54c65a181715e79b9c27cbf21e4d99e4251b-d
+packagefile αρχείοΣύστημα/elf=/home/user/worldos/나라/CYP/소스/build/b033/_pkg_.a
+packagefile αρχείοΣύστημα/fat=/home/user/worldos/나라/CYP/소스/build/b034/_pkg_.a
+packagefile αρχείοΣύστημα/msdospartition=/home/user/worldos/나라/CYP/소스/build/b035/_pkg_.a
+packagefile διακοπή=/home/user/worldos/나라/CYP/소스/build/b008/_pkg_.a
+packagefile εικονικήΜνήμη=/home/user/worldos/나라/CYP/소스/build/b029/_pkg_.a
+packagefile θύρα=/home/user/.cache/go-build/42/42eb3b5826dd36155910469add3b9f122d1b4131c139b694b367299416ea4790-d
+packagefile μνήμηmanager=/home/user/worldos/나라/CYP/소스/build/b023/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CYP/소스/build/b000/_pkg_.a

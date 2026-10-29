@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""기존 CONAIR 호환 iontráil_pointe. iarbhír_sonraí 구현: ../Uirlisí/자바가상기계시험.py"""
+import importlib as TAKE_VALUE
+import sys as córas_oibriúcháin_VALUE
+from pathlib import Path as CONAIR
+córas_oibriúcháin_VALUE.path.insert(0, str(CONAIR(__file__).resolve().parents[1] / 'Uirlisí'))
+if __name__ == '__main__':
+    import runpy as clár_tarraiceán_feidhmchlár
+    clár_tarraiceán_feidhmchlár.run_module('자바가상기계시험', run_name='__main__', alter_sys=True)
+else:
+    구현 = TAKE_VALUE.import_module('자바가상기계시험')
+    대응 = {'message': '알림문', 's': 'teaghrán_sonraí', 'actual': 'iarbhír_tomhas', 'match': '일치', 'payload': 'pálasta_sonraí', 'cases': '시험사례', 'fixture': '시험자료', 'main': 'Rith_2', 'ROOT': 'teilgean_fréamh', 'text': 'Téacs', 'valid': '유효함', 'includes': '포함인수', 'include': '포함항목', 'expected': '예상결과', 'sources': '원문목록', 'tmp': '임시경로', 'done': '완료량', 'classes': 'aicme_cosán', 'output': '출력결과', 'result': 'tomhas', 'cmd': '명령인수', 'name': 'Ainm', 'jar': '자바꾸러미', 'report': 'bailíochtú_tuairisc', 'tests': '시험목록'}
+    for 이전, 현재 in 대응.items():
+        if hasattr(구현, 현재): globals()[이전] = getattr(구현, 현재)

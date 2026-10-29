@@ -1,0 +1,8 @@
+file	이전이름	최종이름	쓰임
+C_compilatore/avvia.c	h	eseguibile_Intestazione	ELF Intestazione_VALORE
+computer/spazio_utente.c	h	eseguibile_Intestazione	ELF convalidare·적재 Intestazione_VALORE
+computer/spazio_utente.h	x	registro_dati	ARM64 x0..x30 Store_VALORE array_VALORE
+computer/scheda.c	h	열여섯진숫자	진수 CONVERTI_VALORE 문자표
+spazio_utente/자바/자바가상기계.java 화면호출	w h	너비 altezza_VALORE	schermata 치수
+strumenti/*.py	root	radice_percorso	file 계층의 azione_radice percorso
+computer/terminale.c	w	finestra_voce	terminale Finestra Stato_VALORE puntatore

@@ -1,0 +1,415 @@
+{
+  "action": {
+    "text": "செயல்",
+    "identifier": "செயல்",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/kxmlgui5.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "SystemCalls",
+    "identifier": "SystemCalls",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "append",
+    "identifier": "append",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "செயலுருபுகள்",
+    "identifier": "செயலுருபுகள்",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "button",
+    "identifier": "button",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "choose",
+    "identifier": "choose",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "வகுப்பு",
+    "identifier": "வகுப்பு",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "மூடு",
+    "identifier": "மூடு",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "கட்டளை",
+    "identifier": "கட்டளை",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compile",
+    "identifier": "compile",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "connect": {
+    "text": "_இணைக்க ",
+    "identifier": "இணைக்க",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "நடப்பு இடம்",
+    "identifier": "நடப்பு_இடம்",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "data": {
+    "text": "data",
+    "identifier": "data",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "பாதை",
+    "identifier": "பாதை",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "error": {
+    "text": "பிழை",
+    "identifier": "பிழை",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "event",
+    "identifier": "event",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "செயற்படுத்துக",
+    "identifier": "செயற்படுத்துக",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/kparts5.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "கோப்பின் பெயர்",
+    "identifier": "கோப்பின்_பெயர்",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "initialize": {
+    "text": "initialize",
+    "identifier": "initialize",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "key": {
+    "text": "விசை",
+    "identifier": "விசை",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "விளக்கச்சீட்டு",
+    "identifier": "விளக்கச்சீட்டு",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "உள்ளீட்டு வரி",
+    "identifier": "உள்ளீட்டு_வரி",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "பளு்றி",
+    "identifier": "பளு்றி",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/gnome-applets-3.0.mo",
+    "native_review": "pending"
+  },
+  "messages": {
+    "text": "messages",
+    "identifier": "messages",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "mode": {
+    "text": "முறைமை",
+    "identifier": "முறைமை",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "பெயர்",
+    "identifier": "பெயர்",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/alacarte.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "திற",
+    "identifier": "திற",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "வெளியீட்டு இடம்",
+    "identifier": "வெளியீட்டு_இடம்",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "panel": {
+    "text": "பலகம்",
+    "identifier": "பலகம்",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "parser",
+    "identifier": "parser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "path": {
+    "text": "பாதை",
+    "identifier": "பாதை_2",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "port": {
+    "text": "துறை",
+    "identifier": "துறை",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/mate-utils.mo",
+    "native_review": "pending"
+  },
+  "position": {
+    "text": "இடம்",
+    "identifier": "இடம்",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "செயல்பாடு",
+    "identifier": "செயல்பாடு",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_படி",
+    "identifier": "படி",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "reader",
+    "identifier": "reader",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "remove": {
+    "text": "நீக்கு",
+    "identifier": "நீக்கு",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "result",
+    "identifier": "result",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "run": {
+    "text": "_செயல்படுத்துக",
+    "identifier": "செயல்படுத்துக",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "save": {
+    "text": "_S சேமிக்கவும்",
+    "identifier": "S_சேமிக்கவும்",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "_அமைப்புகள்",
+    "identifier": "அமைப்புகள்",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "அளவு",
+    "identifier": "அளவு",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "மூலக் கோப்பு",
+    "identifier": "மூலக்_கோப்பு",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "(_S) நிறுத்து",
+    "identifier": "நிறுத்து",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "கட்டளை விளக்கி",
+    "identifier": "கட்டளை_விளக்கி",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "text": {
+    "text": "உரை",
+    "identifier": "உரை",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "thread",
+    "identifier": "thread",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "toolbar": {
+    "text": "கருவிப்பட்டை (_T)",
+    "identifier": "கருவிப்பட்டை",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "window",
+    "identifier": "window",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "worker",
+    "identifier": "worker",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "workspace": {
+    "text": "Workspace",
+    "identifier": "Workspace",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "write": {
+    "text": "_எழுது",
+    "identifier": "எழுது",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/ta/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

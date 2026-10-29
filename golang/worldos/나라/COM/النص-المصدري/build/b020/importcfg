@@ -1,0 +1,6 @@
+# import config
+packagefile gdt=/home/user/.cache/go-build/b2/b2295353115d00470bb54ee34643672adff3324241fdd82fc8bf0fefaa7655a0-d
+packagefile reflect=/home/user/.cache/go-build/b3/b39e490c7bcf741dfcb32585286de4266fef05d1c472b36c7b66a7a237f8415e-d
+packagefile ذاكرةمدير=/home/user/worldos/나라/COM/소스/build/b021/_pkg_.a
+packagefile طرفية=/home/user/.cache/go-build/4b/4b1163b2703c608cf80353cce51da35379fb183f9635ccf508869be7c53950cd-d
+packagefile runtime/cgo=/home/user/worldos/나라/COM/소스/build/b000/_pkg_.a

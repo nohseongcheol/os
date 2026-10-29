@@ -1,0 +1,3892 @@
+{
+  "aa": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ab": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "abq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "abq_Latn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "abr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ace": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ach": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "acr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ada": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ady": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "aeb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "af": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "agq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "agu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ak": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "aln": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "alt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "am": {
+    "engine": "m17n_am_sera",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "amo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "an": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ann": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "aoz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "apc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "apd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ar": {
+    "engine": "m17n_ar_translit",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "arn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "aro": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "arq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ars": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ary": {
+    "engine": "keyboard-ma",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "arz": {
+    "engine": "keyboard-eg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "as": {
+    "engine": "m17n_as_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "asa": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ast": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "atj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "av": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "awa": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ay": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "az": {
+    "engine": "keyboard-az",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "az_Arab": {
+    "engine": "keyboard-az",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "az_Cyrl": {
+    "engine": "keyboard-az",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ba": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bal": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ban": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ban_Bali": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bap": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bar": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bas": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bax": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bbc": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bbj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bci": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "be": {
+    "engine": "keyboard-by",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bej": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bem": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bew": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bez": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bfd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bfq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bft": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bfy": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bg": {
+    "engine": "keyboard-bg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bgc": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bgn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bgx": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bhb": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bhi": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bho": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bik": {
+    "engine": "keyboard-ph",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bin": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bjj": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bjn": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bjt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bkm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bku": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bla": {
+    "engine": "m17n_bla_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "blo": {
+    "engine": "keyboard-tg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "blt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bm": {
+    "engine": "keyboard-ml",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bm_Nkoo": {
+    "engine": "keyboard-ml",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bmq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bn": {
+    "engine": "m17n_bn_inscript",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "bo": {
+    "engine": "m17n_bo_ewts",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "bpy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bqi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bqv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "br": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bra": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "brh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "brx": {
+    "engine": "m17n_brx_inscript2-deva",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "bs": {
+    "engine": "keyboard-ba",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bs_Cyrl": {
+    "engine": "keyboard-ba",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bsc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bsq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bss": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bto": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "btv": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bua": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "buc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bug": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "bum": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bvb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "byn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "byv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bza": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bze": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "bzj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ca": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "caa": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cab": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cac": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cad": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cak": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cch": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ccp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ccr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ce": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ceb": {
+    "engine": "keyboard-ph",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "cgg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ch": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "chk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "chm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cho": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "chp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "chr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cic": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cja": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cjm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ckb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ckz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "clc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "co": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cop": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cps": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cr": {
+    "engine": "m17n_cr_western",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "crg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "crh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "crk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "crl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "crs": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cs": {
+    "engine": "keyboard-cz",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "csb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "csw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "cy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "da": {
+    "engine": "m17n_da_post",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "dak": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dar": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dav": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dcc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "de": {
+    "engine": "keyboard-de",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "den": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dgr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dje": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dnj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "doi": {
+    "engine": "m17n_doi_inscript2-deva",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "dsb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dtm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dtp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dty": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "dua": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dv": {
+    "engine": "m17n_dv_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "dyo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dyu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "dz": {
+    "engine": "keyboard-bt",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ebu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ecy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ee": {
+    "engine": "keyboard-tg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "efi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "egl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "el": {
+    "engine": "keyboard-gr",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "en": {
+    "engine": "keyboard-us",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "en_Shaw": {
+    "engine": "keyboard-us",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "eo": {
+    "engine": "m17n_eo_h-fundamente",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "es": {
+    "engine": "keyboard-es",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "esu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "et": {
+    "engine": "keyboard-ee",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "eu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ewo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ext": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fa": {
+    "engine": "m17n_fa_isiri",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "fan": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fbl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ff": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ff_Adlm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ffm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fi": {
+    "engine": "keyboard-fi",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "fia": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fil": {
+    "engine": "keyboard-ph",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "fit": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fo": {
+    "engine": "keyboard-fo",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "fon": {
+    "engine": "keyboard-tg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "fr": {
+    "engine": "m17n_fr_azerty",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "frc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "frp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "frr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "frs": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fud": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fuq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fur": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fuv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fvr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "fy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ga": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gaa": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gag": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gan": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gay": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gbm": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "gbz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gcr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gez": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gil": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gjk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gju": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "glk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gmy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gon": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gor": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "gos": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "grb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "grc": {
+    "engine": "m17n_grc_mizuochi",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "grr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "grt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gsw": {
+    "engine": "keyboard-ch",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "gu": {
+    "engine": "m17n_gu_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "gub": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "guc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gur": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "guz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "gvr": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "gwi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ha": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ha_Arab": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hak": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hak_Hant": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "haw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "haz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "he": {
+    "engine": "keyboard-il",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "hi": {
+    "engine": "m17n_hi_itrans",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "hi_Latn": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "hif": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hil": {
+    "engine": "keyboard-ph",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "hnd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hne": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "hnj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hnn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hno": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ho": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hoc": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "hoj": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "hr": {
+    "engine": "keyboard-hr",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "hsb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hsn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ht": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hu": {
+    "engine": "m17n_hu_rovas-post",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "hur": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "hy": {
+    "engine": "keyboard-am",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "hz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ia": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "iba": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ibb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "id": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ie": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ife": {
+    "engine": "keyboard-tg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ig": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ii": {
+    "engine": "m17n_ii_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "ik": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ilo": {
+    "engine": "keyboard-ph",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "inh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "io": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "is": {
+    "engine": "keyboard-is",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "it": {
+    "engine": "keyboard-it",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "itz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "iu": {
+    "engine": "m17n_iu_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "iu_Latn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ixl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "izh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ja": {
+    "engine": "anthy",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "jac": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "jam": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "jbo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "jgo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "jmc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "jml": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "jut": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "jv": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ka": {
+    "engine": "keyboard-ge",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "kaa": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kab": {
+    "engine": "keyboard-dz",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "kac": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kaj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kam": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kao": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kaw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kbd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kcg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kck": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kde": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kdt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kea": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kek": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ken": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kfo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kfr": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "kfy": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "kg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kge": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kgp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kha": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "khb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "khn": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "khq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kht": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "khw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ki": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kiu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kjb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kjg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kk": {
+    "engine": "m17n_kk_arabic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "kk_Arab": {
+    "engine": "keyboard-kz",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "kkj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kln": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "km": {
+    "engine": "m17n_km_yannis",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "kmb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kn": {
+    "engine": "m17n_kn_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "knf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "knj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "knn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ko": {
+    "engine": "hangul",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "koi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kok": {
+    "engine": "m17n_kok_inscript2-deva",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "kos": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kpe": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kqn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "krc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kri": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "krj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "krl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kro": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kru": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ks": {
+    "engine": "m17n_ks_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "ksb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ksf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ksh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kss": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ku": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ku_Arab": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ku_Cyrl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kum": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kvr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kvx": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kwk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kxm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kxp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "kxv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ky": {
+    "engine": "keyboard-kg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ky_Arab": {
+    "engine": "keyboard-kg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ky_Latn": {
+    "engine": "keyboard-kg",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "la": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lad": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lag": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lah": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "laj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lbe": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lbw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lcp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "leb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "len": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lep": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lez": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "li": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lif": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lij": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lil": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lir": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lis": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ljp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lki": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lkt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lld": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lmn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lmo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ln": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lo": {
+    "engine": "m17n_lo_lrt",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "lol": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "loz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lrc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lt": {
+    "engine": "keyboard-lt",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ltg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lua": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lue": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lun": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "luo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "luy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "luz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lv": {
+    "engine": "keyboard-lv",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "lwl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lzh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lzz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "lzz_Geor": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mad": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "maf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mag": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mai": {
+    "engine": "m17n_mai_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "mak": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mam": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "man": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "man_Nkoo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mas": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "maz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mdf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mdh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mdr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "men": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mer": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mev": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mey": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mey_Latn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mfa": {
+    "engine": "keyboard-my",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mfe": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mfv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mgh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mgo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mgp": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mgy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mhn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mic": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "min": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mk": {
+    "engine": "keyboard-mk",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ml": {
+    "engine": "m17n_ml_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "mls": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mn": {
+    "engine": "keyboard-mn",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mn_Mong": {
+    "engine": "keyboard-mn",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mni": {
+    "engine": "m17n_mni_inscript2-beng",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "mnw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "moe": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "moh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mop": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mos": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mr": {
+    "engine": "m17n_mr_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "mrd": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mrj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mro": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ms": {
+    "engine": "keyboard-my",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ms_Arab": {
+    "engine": "keyboard-my",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mt": {
+    "engine": "keyboard-mt",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mtr": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mua": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mus": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mvy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mwk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mwr": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "mwv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mww": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mxc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "my": {
+    "engine": "keyboard-mm",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "myv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "myx": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mzb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "mzn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "na": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nan": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nan_Hant": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nap": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "naq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nb": {
+    "engine": "keyboard-no",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "nch": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ndc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nds": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ne": {
+    "engine": "m17n_ne_rom",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "new": {
+    "engine": "m17n_new_newa-traditional",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "ng": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ngl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nhe": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nhw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nij": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "niu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "njo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nl": {
+    "engine": "keyboard-nl",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "nmg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nn": {
+    "engine": "keyboard-no",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "nnh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "no": {
+    "engine": "keyboard-no",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "nod": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "noe": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "nqo": {
+    "engine": "keyboard-gn",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "nr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nse": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nsk": {
+    "engine": "m17n_nsk_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "nso": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nus": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nxq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ny": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nym": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nyn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "nzi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "oc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "oj": {
+    "engine": "m17n_oj_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "ojs": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ojw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "oka": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "om": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "or": {
+    "engine": "m17n_or_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "os": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "osa": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pa": {
+    "engine": "m17n_pa_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "pa_Arab": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pag": {
+    "engine": "keyboard-ph",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "pam": {
+    "engine": "keyboard-ph",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "pap": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pau": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pcd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pcm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pdc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pdt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pfl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pi_Deva": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pi_Mymr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pi_Sinh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pi_Thai": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pis": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pko": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pl": {
+    "engine": "keyboard-pl",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "pms": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pnt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pnt_Cyrl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pnt_Latn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "poc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "poh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pon": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ppl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "pqm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "prd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "prg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ps": {
+    "engine": "m17n_ps_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "pt": {
+    "engine": "keyboard-pt",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "puu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "qu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "quc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "qug": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "qum": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "quv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "raj": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "rcf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rej": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rgn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rhg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ria": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rif": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rif_Tfng": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rjs": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "rkt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rmf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rmo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rmt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rmu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rng": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ro": {
+    "engine": "keyboard-ro",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "rob": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rof": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rtm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ru": {
+    "engine": "m17n_ru_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "rue": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rug": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "rwk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ryu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sa": {
+    "engine": "m17n_sa_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "saf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sah": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "saq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sas": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "sat": {
+    "engine": "m17n_sat_inscript2-deva",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "sav": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "saz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sbp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sck": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "scn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sco": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sd": {
+    "engine": "m17n_sd_inscript",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "sd_Deva": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sdc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sdh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "se": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sef": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "seh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sei": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ses": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sgs": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "shi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "shi_Latn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "shn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "si": {
+    "engine": "m17n_si_phonetic-dynamic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "sid": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sk": {
+    "engine": "keyboard-sk",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "skr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sl": {
+    "engine": "keyboard-si",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "sli": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sly": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sma": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "smj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "smn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sms": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "snf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "snk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "so": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sou": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sq": {
+    "engine": "keyboard-al",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "sr": {
+    "engine": "keyboard-me",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "sr_Latn": {
+    "engine": "keyboard-me",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "srn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "srr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "srx": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ss": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ssy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "st": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "stq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "stu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "stu_Tale": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "su": {
+    "engine": "keyboard-id",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "suk": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sus": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "suz": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "sv": {
+    "engine": "m17n_sv_post",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "sw": {
+    "engine": "keyboard-ke",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "swb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "swg": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "swv": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "sxn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "syl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "syr": {
+    "engine": "keyboard-sy",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "szl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ta": {
+    "engine": "m17n_ta_tamil99",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "taj": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "tbw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tcy": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tdd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tdg": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "tdh": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "te": {
+    "engine": "m17n_te_inscript",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "tem": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "teo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tet": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tg": {
+    "engine": "keyboard-tj",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "tg_Arab": {
+    "engine": "keyboard-tj",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "th": {
+    "engine": "m17n_th_kesmanee",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "thl": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "thq": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "thr": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "ti": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tig": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tiv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tk": {
+    "engine": "keyboard-tm",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "tkl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tkr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tkt": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "tly": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tmh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tn": {
+    "engine": "keyboard-bw",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "tnr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "to": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tog": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "toi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tpi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tr": {
+    "engine": "keyboard-tr",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "tru": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "trv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "trw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ts": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tsd": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tsg": {
+    "engine": "keyboard-my",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "tsj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ttc": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ttj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tts": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ttt": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tum": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tvl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "twq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ty": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tyv": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tzj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "tzm": {
+    "engine": "keyboard-dz",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "udm": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ug": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ug_Cyrl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "uk": {
+    "engine": "keyboard-ua",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "uli": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "umb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "und": {
+    "engine": "keyboard-custom",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "unr": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "unr_Deva": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "unx": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ur": {
+    "engine": "m17n_ur_phonetic",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "usp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "uz": {
+    "engine": "keyboard-uz",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "uz_Arab": {
+    "engine": "keyboard-uz",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "uz_Cyrl": {
+    "engine": "keyboard-uz",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "vai": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vai_Latn": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ve": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vec": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vep": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vi": {
+    "engine": "unikey",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "vic": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vls": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vmf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vmw": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vot": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vro": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "vun": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "wa": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "wae": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "wal": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "war": {
+    "engine": "keyboard-ph",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "wbp": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "wbq": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "wbr": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "wls": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "wni": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "wo": {
+    "engine": "keyboard-sn",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "wtm": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "wuu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "xav": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "xh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "xin": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "xmf": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "xnr": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "xog": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "xsr": {
+    "engine": "keyboard-in",
+    "source": "XKeyboardConfig language association; script variant needs review",
+    "review": "pending"
+  },
+  "yao": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "yap": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "yav": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "ybb": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "yi": {
+    "engine": "m17n_yi_yivo",
+    "source": "Installed m17n input-method definition",
+    "review": "pending"
+  },
+  "yo": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "yrl": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "yua": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "yue": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "yue_Hans": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "za": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "zag": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "zdj": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "zea": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "zgh": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "zh": {
+    "engine": "pinyin",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "zh_Hant": {
+    "engine": "rime",
+    "source": "Explicit installed input engine",
+    "review": "pending"
+  },
+  "zmi": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "zu": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  },
+  "zza": {
+    "engine": "keyboard-us",
+    "source": "Fallback keyboard; use Unicode entry or configure another installed engine",
+    "review": "pending"
+  }
+}

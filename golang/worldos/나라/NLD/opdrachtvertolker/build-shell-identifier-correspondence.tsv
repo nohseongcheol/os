@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	opdrachtvertolker_bouwen
+executable_file	uitvoerbaar_bestand
+include_directory	declaratiemap
+library_file	bibliotheekbestand
+linker_file	koppelbestand
+object_file	objectbestand
+source_file	bronbestand
+startup_object	opstartobject

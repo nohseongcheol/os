@@ -1,0 +1,7 @@
+# import config
+packagefile math=/home/user/koros/build/b008/_pkg_.a
+packagefile runtime=/home/user/koros/build/b009/_pkg_.a
+packagefile strconv=/home/user/koros/build/b012/_pkg_.a
+packagefile sync=/home/user/koros/build/b015/_pkg_.a
+packagefile unicode=/home/user/koros/build/b018/_pkg_.a
+packagefile unicode/utf8=/home/user/koros/build/b014/_pkg_.a

@@ -1,0 +1,3 @@
+# import config
+packagefile 通用=/home/user/worldos/나라/CHN/源代码/build/b026/_pkg_.a
+packagefile runtime/cgo=/home/user/worldos/나라/CHN/源代码/build/b000/_pkg_.a

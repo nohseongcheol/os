@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "edition": "IND/kok_Latn",
+  "language": "kok_Latn",
+  "status": "pending-language-review",
+  "paths": {
+    "소스": "source"
+  }
+}

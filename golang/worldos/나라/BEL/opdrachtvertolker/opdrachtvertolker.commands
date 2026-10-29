@@ -1,0 +1,5 @@
+# WorldOS BEL UTF-8 command file
+argumenten_tonen "WorldOS BEL"
+hulp_tonen
+werkmap_tonen
+procesnummers_tonen

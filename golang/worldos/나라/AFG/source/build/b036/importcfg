@@ -1,0 +1,5 @@
+# import config
+packagefile console=/home/user/.cache/go-build/a0/a0c132ac2c10bf109c49f8f16f7b8f8eb01bfc77f3ce76f42be17bf9feae604b-d
+packagefile interrupt=/home/user/worldos/나라/AFG/소스/build/b008/_pkg_.a
+packagefile درگاه=/home/user/.cache/go-build/5b/5b33449c1d7661cc60994821372fd7c9f9c71f95981e3556c6017698289b3d28-d
+packagefile runtime/cgo=/home/user/worldos/나라/AFG/소스/build/b000/_pkg_.a

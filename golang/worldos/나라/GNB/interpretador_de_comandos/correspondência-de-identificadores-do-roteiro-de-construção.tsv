@@ -1,0 +1,9 @@
+compiler_identifier	native_identifier
+build_shell	construir_interpretador
+executable_file	ficheiro_executável
+include_directory	diretório_de_declarações
+library_file	ficheiro_de_biblioteca
+linker_file	ficheiro_de_ligação
+object_file	ficheiro_objeto
+source_file	ficheiro_fonte
+startup_object	objeto_de_arranque

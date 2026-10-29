@@ -1,0 +1,555 @@
+{
+  "action": {
+    "text": "Azione",
+    "identifier": "Azione",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "address": {
+    "text": "address",
+    "identifier": "address",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "api": {
+    "text": "chiamata di sistema",
+    "identifier": "chiamata_di_sistema",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "append": {
+    "text": "aggiungi in fondo alla lista",
+    "identifier": "aggiungi_in_fondo_alla_lista",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "arguments": {
+    "text": "argomenti",
+    "identifier": "argomenti",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "button": {
+    "text": "pulsante",
+    "identifier": "pulsante",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/lxappearance.mo",
+    "native_review": "pending"
+  },
+  "choose": {
+    "text": "scelta...",
+    "identifier": "scelta",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/xarchiver.mo",
+    "native_review": "pending"
+  },
+  "chooser": {
+    "text": "chooser",
+    "identifier": "chooser",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "class": {
+    "text": "Classe",
+    "identifier": "Classe",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/kio5.mo",
+    "native_review": "pending"
+  },
+  "close": {
+    "text": "Chiudi",
+    "identifier": "Chiudi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "command": {
+    "text": "comando",
+    "identifier": "comando",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "compile": {
+    "text": "compila",
+    "identifier": "compila",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "connect": {
+    "text": "_Connetti",
+    "identifier": "Connetti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "current": {
+    "text": "processoCorrente",
+    "identifier": "processoCorrente",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "data": {
+    "text": "dati",
+    "identifier": "dati",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "datagram": {
+    "text": "datagram",
+    "identifier": "datagram",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "directory": {
+    "text": "cartella",
+    "identifier": "cartella",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "error": {
+    "text": "errore",
+    "identifier": "errore",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/dpkg.mo",
+    "native_review": "pending"
+  },
+  "event": {
+    "text": "Evento",
+    "identifier": "Evento",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/orage.mo",
+    "native_review": "pending"
+  },
+  "exception": {
+    "text": "exception",
+    "identifier": "exception",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "execute": {
+    "text": "_Esegui",
+    "identifier": "Esegui",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "file": {
+    "text": "file",
+    "identifier": "file",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "initialize": {
+    "text": "inizializza",
+    "identifier": "inizializza",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "key": {
+    "text": "Chiave",
+    "identifier": "Chiave",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "label": {
+    "text": "Etichetta",
+    "identifier": "Etichetta",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "line": {
+    "text": "riga di ingresso",
+    "identifier": "riga_di_ingresso",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "load": {
+    "text": "caricaSorgente",
+    "identifier": "caricaSorgente",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "messages": {
+    "text": "messaggi",
+    "identifier": "messaggi",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "mode": {
+    "text": "Modo",
+    "identifier": "Modo",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/libgnomeui-2.0.mo",
+    "native_review": "pending"
+  },
+  "name": {
+    "text": "Nome",
+    "identifier": "Nome",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "open": {
+    "text": "_Apri",
+    "identifier": "Apri",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "output": {
+    "text": "uscitaTesto",
+    "identifier": "uscitaTesto",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "panel": {
+    "text": "Pannello",
+    "identifier": "Pannello",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/gnome-panel.mo",
+    "native_review": "pending"
+  },
+  "parser": {
+    "text": "analizzatoreArgomenti",
+    "identifier": "analizzatoreArgomenti",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "path": {
+    "text": "percorso",
+    "identifier": "percorso",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "port": {
+    "text": "numeroPorta",
+    "identifier": "numeroPorta",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "position": {
+    "text": "posizione",
+    "identifier": "posizione",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "process": {
+    "text": "Processi",
+    "identifier": "Processi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/mate-system-monitor.mo",
+    "native_review": "pending"
+  },
+  "read": {
+    "text": "_Lettura",
+    "identifier": "Lettura",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "reader": {
+    "text": "lettoreTesto",
+    "identifier": "lettoreTesto",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "remove": {
+    "text": "Rimuovi",
+    "identifier": "Rimuovi",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  },
+  "result": {
+    "text": "risultato",
+    "identifier": "risultato",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "run": {
+    "text": "avvia",
+    "identifier": "avvia",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "save": {
+    "text": "_Salva",
+    "identifier": "Salva",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/eom.mo",
+    "native_review": "pending"
+  },
+  "seek": {
+    "text": "seek",
+    "identifier": "seek",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "settings": {
+    "text": "Impostazioni",
+    "identifier": "Impostazioni",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/clipit.mo",
+    "native_review": "pending"
+  },
+  "size": {
+    "text": "Dimensione",
+    "identifier": "Dimensione",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/Thunar.mo",
+    "native_review": "pending"
+  },
+  "source": {
+    "text": "codiceSorgente",
+    "identifier": "codiceSorgente",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "split": {
+    "text": "split",
+    "identifier": "split",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "stop": {
+    "text": "Ferma",
+    "identifier": "Ferma",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/gnome-system-tools.mo",
+    "native_review": "pending"
+  },
+  "sync": {
+    "text": "sync",
+    "identifier": "sync",
+    "status": "untranslated",
+    "source": "English fallback; language review required",
+    "native_review": "pending"
+  },
+  "terminal": {
+    "text": "terminale",
+    "identifier": "terminale",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "text": {
+    "text": "testo",
+    "identifier": "testo",
+    "status": "proposal",
+    "source": "WorldOS prior functional naming proposal (naming/upstream)",
+    "native_review": "pending"
+  },
+  "thread": {
+    "text": "filoEsecuzione",
+    "identifier": "filoEsecuzione",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "toolbar": {
+    "text": "Barra degli _strumenti",
+    "identifier": "Barra_degli_strumenti",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/atril.mo",
+    "native_review": "pending"
+  },
+  "window": {
+    "text": "Finestra",
+    "identifier": "Finestra",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/mousepad.mo",
+    "native_review": "pending"
+  },
+  "worker": {
+    "text": "esecutoreAsincrono",
+    "identifier": "esecutoreAsincrono",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "workspace": {
+    "text": "SpazioLavoro",
+    "identifier": "SpazioLavoro",
+    "status": "proposal",
+    "source": "WorldOS function review 2026-10-18; naming/functional-review.json",
+    "native_review": "pending",
+    "implementation_role_review": "checked",
+    "etymology_review": "pending",
+    "references": [
+      "https://help.libreoffice.org/latest/it/text/scalc/guide/cellreferences.html",
+      "https://www.treccani.it/vocabolario/caricare/",
+      "https://www.rfc-editor.org/rfc/rfc6335.html"
+    ]
+  },
+  "write": {
+    "text": "_Scrittura",
+    "identifier": "Scrittura",
+    "status": "proposal",
+    "source": "GNU gettext catalogue /usr/share/locale/it/LC_MESSAGES/caja.mo",
+    "native_review": "pending"
+  }
+}

@@ -1,0 +1,39 @@
+ENTRY(_rt0_entry)
+OUTPUT_FORMAT(elf32-i386)
+OUTPUT_ARCH(i386:i386)
+
+SECTIONS {
+	/* Kernel starts at 1M */
+	. = 0X0100000;
+
+	/* ensure that the multiboot header is at the beginning */
+	.multiboot :
+	{
+		*(.multiboot_header)
+		*(.rt0)
+	}
+
+	.text :
+	{
+		*(.text)
+	}
+
+	/* Read-only data. */
+	.rodata :
+	{
+		*(.rodata)
+	}
+
+	/* Read-write data (initialized) */
+	.data :
+	{
+		*(.data)
+	}
+
+	.bss :
+	{
+		*(COMMON)
+		*(.bss)
+	}
+	
+}

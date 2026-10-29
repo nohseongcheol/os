@@ -1,0 +1,5 @@
+# import config
+packagefile interrupção=/home/user/worldos/나라/STP/소스/build/b008/_pkg_.a
+packagefile memóriagestor=/home/user/worldos/나라/STP/소스/build/b023/_pkg_.a
+packagefile utilitário=/home/user/.cache/go-build/91/91cd72cbd31cb1baed367ffa22c08b8bea1c9732aa7c84a49042c8c085e05a7e-d
+packagefile runtime/cgo=/home/user/worldos/나라/STP/소스/build/b000/_pkg_.a
