@@ -1,5 +1,0 @@
-# WorldOS LVA UTF-8 command file
-echo "WorldOS LVA"
-help
-pwd
-pid

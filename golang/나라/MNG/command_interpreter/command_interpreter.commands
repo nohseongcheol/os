@@ -1,5 +1,0 @@
-# WorldOS MNG UTF-8 command file
-echo "WorldOS MNG"
-help
-pwd
-pid

@@ -1,5 +1,0 @@
-# WorldOS NGA UTF-8 command file
-print_arguments "WorldOS NGA"
-show_help
-show_working_directory
-show_process_identifiers

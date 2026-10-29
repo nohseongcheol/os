@@ -1,5 +1,0 @@
-# WorldOS LTU UTF-8 command file
-echo "WorldOS LTU"
-help
-pwd
-pid

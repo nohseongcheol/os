@@ -1,4 +1,0 @@
-LANGUAGE_CODE := shb
-LANGUAGE_SCOPE := I
-LANGUAGE_TYPE := L
-include ../../공통/언어판.mk

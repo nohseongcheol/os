@@ -1,4 +1,0 @@
-LANGUAGE_CODE := vsi
-LANGUAGE_SCOPE := I
-LANGUAGE_TYPE := L
-include ../../공통/언어판.mk

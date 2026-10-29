@@ -1,5 +1,0 @@
-# WorldOS TKM UTF-8 command file
-echo "WorldOS TKM"
-help
-pwd
-pid

@@ -1,5 +1,0 @@
-# WorldOS AFG UTF-8 command file
-echo "WorldOS AFG"
-help
-pwd
-pid

@@ -1,5 +1,0 @@
-# WorldOS MHL UTF-8 command file
-print_arguments "WorldOS MHL"
-show_help
-show_working_directory
-show_process_identifiers

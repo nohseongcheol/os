@@ -1,5 +1,0 @@
-# WorldOS SGS UTF-8 command file
-print_arguments "WorldOS SGS"
-show_help
-show_working_directory
-show_process_identifiers

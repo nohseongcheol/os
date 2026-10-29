@@ -1,5 +1,0 @@
-# WorldOS GUM UTF-8 command file
-print_arguments "WorldOS GUM"
-show_help
-show_working_directory
-show_process_identifiers

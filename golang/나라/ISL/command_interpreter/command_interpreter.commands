@@ -1,5 +1,0 @@
-# WorldOS ISL UTF-8 command file
-echo "WorldOS ISL"
-help
-pwd
-pid

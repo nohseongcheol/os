@@ -1,5 +1,0 @@
-# WorldOS LKA UTF-8 command file
-echo "WorldOS LKA"
-help
-pwd
-pid

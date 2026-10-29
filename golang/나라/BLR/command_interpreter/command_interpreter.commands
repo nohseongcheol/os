@@ -1,5 +1,0 @@
-# WorldOS BLR UTF-8 command file
-echo "WorldOS BLR"
-help
-pwd
-pid

@@ -1,5 +1,0 @@
-# WorldOS CAN UTF-8 command file
-print_arguments "WorldOS CAN"
-show_help
-show_working_directory
-show_process_identifiers

@@ -1,9 +1,0 @@
-{
-  "version": 1,
-  "edition": "NIC",
-  "language": "es",
-  "status": "project-proposal",
-  "paths": {
-    "소스": "código-fuente"
-  }
-}

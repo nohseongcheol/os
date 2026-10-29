@@ -1,5 +1,0 @@
-# WorldOS MNE UTF-8 command file
-echo "WorldOS MNE"
-help
-pwd
-pid

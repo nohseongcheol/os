@@ -1,5 +1,0 @@
-# WorldOS MDA UTF-8 command file
-echo "WorldOS MDA"
-help
-pwd
-pid

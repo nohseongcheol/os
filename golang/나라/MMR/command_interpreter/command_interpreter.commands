@@ -1,5 +1,0 @@
-# WorldOS MMR UTF-8 command file
-echo "WorldOS MMR"
-help
-pwd
-pid

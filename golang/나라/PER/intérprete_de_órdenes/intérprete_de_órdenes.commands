@@ -1,5 +1,0 @@
-# WorldOS PER UTF-8 command file
-mostrar_argumentos "WorldOS PER"
-mostrar_ayuda
-mostrar_directorio_actual
-mostrar_identificadores_de_procesos

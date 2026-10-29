@@ -1,5 +1,0 @@
-# WorldOS VUT UTF-8 command file
-echo "WorldOS VUT"
-help
-pwd
-pid

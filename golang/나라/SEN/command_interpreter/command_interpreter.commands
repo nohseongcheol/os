@@ -1,5 +1,0 @@
-# WorldOS SEN UTF-8 command file
-echo "WorldOS SEN"
-help
-pwd
-pid

@@ -1,5 +1,0 @@
-# WorldOS LBR UTF-8 command file
-print_arguments "WorldOS LBR"
-show_help
-show_working_directory
-show_process_identifiers
